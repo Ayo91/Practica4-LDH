@@ -1,0 +1,12 @@
+/CrowdingGA.class
+/IslandGA$1.class
+/IslandGA$Graph.class
+/IslandGA$ReplacementStrategy.class
+/IslandGA.class
+/NSGA2$DominanceCrowder.class
+/NSGA2.class
+/SimpleGA$CrossoverMethod.class
+/SimpleGA$SelectionMethod.class
+/SimpleGA.class
+/SteadyStateGA$SelectionMethod.class
+/SteadyStateGA.class

@@ -1,0 +1,14 @@
+Jenes 1.3.0 relies on:
+
+Java Excel API 2.6.9
+A Java API to read, write and modify Excel spreadsheets by Andy Khan et al.
+JExcelApi is released under the GNU Lesser General Public License
+http://jexcelapi.sourceforge.net
+
+Mersenne Twister Random Generator MT19937
+Orignally Coded by Takuji Nishimura and Makoto Matsumoto 19976
+Translated to Java by Michael Lecuyer January 30, 1999
+
+
+
+
