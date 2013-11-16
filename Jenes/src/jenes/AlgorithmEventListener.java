@@ -1,5 +1,5 @@
 /*
- * JENES
+ * JENES 2.0
  * A time and memory efficient Java library for genetic algorithms and more 
  * Copyright (C) 2011 Intelligentia srl
  *
