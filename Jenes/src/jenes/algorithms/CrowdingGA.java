@@ -14,11 +14,7 @@ public class CrowdingGA<T extends Chromosome> extends GeneticAlgorithm<T> {
      public static final int DEFAULT_GENERATION_LIMIT = 100;
     protected Crowder crowder;
 
-    /**
-     * Default constructor
-     * @param fitness the Fitness considered for this algorithm
-     * @param crowder the crowder to use
-     */
+ 
     public CrowdingGA(final Fitness fitness, final Crowder crowder) {
         this(fitness, crowder, null, DEFAULT_GENERATION_LIMIT);
     }
