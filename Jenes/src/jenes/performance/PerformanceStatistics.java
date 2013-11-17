@@ -83,7 +83,6 @@ public class PerformanceStatistics {
     public static void save(String file) {
         try {
             FileWriter stream = new FileWriter(file, true);
-            //stream.write("RUN|POPSIZE|GEN|LABEL|TIME(in ns)|USED_MEM(in byte)\n");
             for (Event evt : events) {
                 stream.write(evt + "\n");
             }
