@@ -1,0 +1,218 @@
+\hypertarget{classjenes_1_1utils_1_1_random}{\section{jenes.\-utils.\-Random Class Reference}
+\label{classjenes_1_1utils_1_1_random}\index{jenes.\-utils.\-Random@{jenes.\-utils.\-Random}}
+}
+Inheritance diagram for jenes.\-utils.\-Random\-:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=3.000000cm]{classjenes_1_1utils_1_1_random}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+final void \hyperlink{classjenes_1_1utils_1_1_random_a6eec3abcf133f7ce43d6a13441523a01}{set\-Time\-Seed} ()
+\item 
+final void \hyperlink{classjenes_1_1utils_1_1_random_a484017ff9c5473f7fc3fc7b52cb92433}{set\-Standard\-Seed} ()
+\item 
+long \hyperlink{classjenes_1_1utils_1_1_random_a55f9b0a836c137e520658f55ad806859}{get\-Seed} ()
+\item 
+final double \hyperlink{classjenes_1_1utils_1_1_random_abe2919ddf9245e0576591fa0ea26593f}{next\-Double} (final double bound)
+\item 
+final double \hyperlink{classjenes_1_1utils_1_1_random_a19babaa9c19de0243430cef2c445df9c}{next\-Double} (final double lower\-Bound, final double upper\-Bound)
+\item 
+final int \hyperlink{classjenes_1_1utils_1_1_random_ab066d2d2f6d32c89598c552a9dadedc0}{next\-Int} (final int lower\-Bound, final int upper\-Bound)
+\item 
+final boolean \hyperlink{classjenes_1_1utils_1_1_random_a16e9050a46f8218ec8e0f73c6456a5db}{next\-Boolean} (final double coin)
+\end{DoxyCompactItemize}
+\subsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static \hyperlink{classjenes_1_1utils_1_1_random}{Random} \hyperlink{classjenes_1_1utils_1_1_random_aa8b8341f82ccf69de0b44c9f6f174820}{get\-Instance} ()
+\item 
+static \hyperlink{classjenes_1_1utils_1_1_random}{Random} \hyperlink{classjenes_1_1utils_1_1_random_a83dd69fffe081a48e58702c0f118b12e}{get\-Instance} (long \hyperlink{classjenes_1_1utils_1_1_mersenne_twister_fast_af54ad21e36a866d458e55ad8c3d89ac2}{seed})
+\end{DoxyCompactItemize}
+\subsection*{Static Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+static final long \hyperlink{classjenes_1_1utils_1_1_random_aee05c4e6476472dc9dc02d2fd94061b5}{S\-T\-A\-N\-D\-A\-R\-D\-\_\-\-S\-E\-E\-D} = 4357
+\end{DoxyCompactItemize}
+\subsection*{Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classjenes_1_1utils_1_1_random_abc0a49a2ae768940772ae28962f5c71d}{Random} ()
+\end{DoxyCompactItemize}
+\subsection*{Static Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+static \hyperlink{classjenes_1_1utils_1_1_random}{Random} \hyperlink{classjenes_1_1utils_1_1_random_a4d07f44b9a2f1bc18feb0059dd70b79a}{mtfe} =null
+\end{DoxyCompactItemize}
+\subsection*{Additional Inherited Members}
+
+
+\subsection{Detailed Description}
+This class provides the random generator used by J\-E\-N\-E\-S. 
+
+\hyperlink{classjenes_1_1utils_1_1_random}{Random} extends the \hyperlink{classjenes_1_1utils_1_1_mersenne_twister_fast}{Mersenne\-Twister\-Fast} class with some methods useful to J\-E\-N\-E\-S for obtaining values within a range. 
+
+\hyperlink{classjenes_1_1utils_1_1_random}{Random} implements the singleton design pattern, thus only one instance of \hyperlink{classjenes_1_1utils_1_1_random}{Random} is available and retrieved by invoking the method \hyperlink{classjenes_1_1utils_1_1_random_aa8b8341f82ccf69de0b44c9f6f174820}{get\-Instance()}. 
+
+The random sequence is controlled by the seed. The standard seed assures that the same sequence of random values is produced by different runs. The time based seed, assures that the sequences varies run by run. 
+
+\begin{DoxyVersion}{Version}
+1.\-2 
+\end{DoxyVersion}
+\begin{DoxySince}{Since}
+1.\-0 
+\end{DoxySince}
+
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{classjenes_1_1utils_1_1_random_abc0a49a2ae768940772ae28962f5c71d}{\index{jenes\-::utils\-::\-Random@{jenes\-::utils\-::\-Random}!Random@{Random}}
+\index{Random@{Random}!jenes::utils::Random@{jenes\-::utils\-::\-Random}}
+\subsubsection[{Random}]{\setlength{\rightskip}{0pt plus 5cm}jenes.\-utils.\-Random.\-Random (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [private]}}}\label{classjenes_1_1utils_1_1_random_abc0a49a2ae768940772ae28962f5c71d}
+Constructs a new \hyperlink{classjenes_1_1utils_1_1_random}{Random} instance. 
+
+\subsection{Member Function Documentation}
+\hypertarget{classjenes_1_1utils_1_1_random_aa8b8341f82ccf69de0b44c9f6f174820}{\index{jenes\-::utils\-::\-Random@{jenes\-::utils\-::\-Random}!get\-Instance@{get\-Instance}}
+\index{get\-Instance@{get\-Instance}!jenes::utils::Random@{jenes\-::utils\-::\-Random}}
+\subsubsection[{get\-Instance}]{\setlength{\rightskip}{0pt plus 5cm}static {\bf Random} jenes.\-utils.\-Random.\-get\-Instance (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}}\label{classjenes_1_1utils_1_1_random_aa8b8341f82ccf69de0b44c9f6f174820}
+Returns the \hyperlink{classjenes_1_1utils_1_1_random}{Random} singleton. At the first invocation the \hyperlink{classjenes_1_1utils_1_1_random}{Random} object is instantiated.
+
+\begin{DoxyReturn}{Returns}
+the \hyperlink{classjenes_1_1utils_1_1_random}{Random} instance 
+\end{DoxyReturn}
+\hypertarget{classjenes_1_1utils_1_1_random_a83dd69fffe081a48e58702c0f118b12e}{\index{jenes\-::utils\-::\-Random@{jenes\-::utils\-::\-Random}!get\-Instance@{get\-Instance}}
+\index{get\-Instance@{get\-Instance}!jenes::utils::Random@{jenes\-::utils\-::\-Random}}
+\subsubsection[{get\-Instance}]{\setlength{\rightskip}{0pt plus 5cm}static {\bf Random} jenes.\-utils.\-Random.\-get\-Instance (
+\begin{DoxyParamCaption}
+\item[{long}]{seed}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}}\label{classjenes_1_1utils_1_1_random_a83dd69fffe081a48e58702c0f118b12e}
+Returns the \hyperlink{classjenes_1_1utils_1_1_random}{Random} sigleton imposing the seed given as argument 
+\begin{DoxyParams}{Parameters}
+{\em seed} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+\hypertarget{classjenes_1_1utils_1_1_random_a55f9b0a836c137e520658f55ad806859}{\index{jenes\-::utils\-::\-Random@{jenes\-::utils\-::\-Random}!get\-Seed@{get\-Seed}}
+\index{get\-Seed@{get\-Seed}!jenes::utils::Random@{jenes\-::utils\-::\-Random}}
+\subsubsection[{get\-Seed}]{\setlength{\rightskip}{0pt plus 5cm}long jenes.\-utils.\-Random.\-get\-Seed (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classjenes_1_1utils_1_1_random_a55f9b0a836c137e520658f55ad806859}
+Return the current seed used for random \begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+\hypertarget{classjenes_1_1utils_1_1_random_a16e9050a46f8218ec8e0f73c6456a5db}{\index{jenes\-::utils\-::\-Random@{jenes\-::utils\-::\-Random}!next\-Boolean@{next\-Boolean}}
+\index{next\-Boolean@{next\-Boolean}!jenes::utils::Random@{jenes\-::utils\-::\-Random}}
+\subsubsection[{next\-Boolean}]{\setlength{\rightskip}{0pt plus 5cm}final boolean jenes.\-utils.\-Random.\-next\-Boolean (
+\begin{DoxyParamCaption}
+\item[{final double}]{coin}
+\end{DoxyParamCaption}
+)}}\label{classjenes_1_1utils_1_1_random_a16e9050a46f8218ec8e0f73c6456a5db}
+Returns a random boolean value. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em coin} & the probability to have a true value \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+a boolean value 
+\end{DoxyReturn}
+\hypertarget{classjenes_1_1utils_1_1_random_abe2919ddf9245e0576591fa0ea26593f}{\index{jenes\-::utils\-::\-Random@{jenes\-::utils\-::\-Random}!next\-Double@{next\-Double}}
+\index{next\-Double@{next\-Double}!jenes::utils::Random@{jenes\-::utils\-::\-Random}}
+\subsubsection[{next\-Double}]{\setlength{\rightskip}{0pt plus 5cm}final double jenes.\-utils.\-Random.\-next\-Double (
+\begin{DoxyParamCaption}
+\item[{final double}]{bound}
+\end{DoxyParamCaption}
+)}}\label{classjenes_1_1utils_1_1_random_abe2919ddf9245e0576591fa0ea26593f}
+Returns a random double uniformly distributed within the interval \mbox{[}0,bound\mbox{[}. Please note that bound is excluded. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em bound} & the upper bound \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+a random double uniformly distributed within \mbox{[}0,bound\mbox{[} 
+\end{DoxyReturn}
+\hypertarget{classjenes_1_1utils_1_1_random_a19babaa9c19de0243430cef2c445df9c}{\index{jenes\-::utils\-::\-Random@{jenes\-::utils\-::\-Random}!next\-Double@{next\-Double}}
+\index{next\-Double@{next\-Double}!jenes::utils::Random@{jenes\-::utils\-::\-Random}}
+\subsubsection[{next\-Double}]{\setlength{\rightskip}{0pt plus 5cm}final double jenes.\-utils.\-Random.\-next\-Double (
+\begin{DoxyParamCaption}
+\item[{final double}]{lower\-Bound, }
+\item[{final double}]{upper\-Bound}
+\end{DoxyParamCaption}
+)}}\label{classjenes_1_1utils_1_1_random_a19babaa9c19de0243430cef2c445df9c}
+Returns a double uniformly distributed within the interval \mbox{[}lower\-Bound,upper\-Bound\mbox{[}. Please note that the upper\-Bound is excluded. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em lower\-Bound} & the interval lower bound \\
+\hline
+{\em upper\-Bound} & the interval upper bound \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+a double uniformly distributed within \mbox{[}lower\-Bound,upper\-Bound\mbox{[} 
+\end{DoxyReturn}
+\hypertarget{classjenes_1_1utils_1_1_random_ab066d2d2f6d32c89598c552a9dadedc0}{\index{jenes\-::utils\-::\-Random@{jenes\-::utils\-::\-Random}!next\-Int@{next\-Int}}
+\index{next\-Int@{next\-Int}!jenes::utils::Random@{jenes\-::utils\-::\-Random}}
+\subsubsection[{next\-Int}]{\setlength{\rightskip}{0pt plus 5cm}final int jenes.\-utils.\-Random.\-next\-Int (
+\begin{DoxyParamCaption}
+\item[{final int}]{lower\-Bound, }
+\item[{final int}]{upper\-Bound}
+\end{DoxyParamCaption}
+)}}\label{classjenes_1_1utils_1_1_random_ab066d2d2f6d32c89598c552a9dadedc0}
+Returns a random integer drawn uniformly in the interval \mbox{[}lower\-Bound, upper\-Bound\mbox{[}. Please note that upper\-Bound is excluded. Thus the integer is between lower\-Bound and upper\-Bound-\/1. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em lower\-Bound} & the interval lower bound \\
+\hline
+{\em upper\-Bound} & the interval upper bound \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+an integer drawn uniformly from lower\-Bound to upper\-Bound-\/1. 
+\end{DoxyReturn}
+\hypertarget{classjenes_1_1utils_1_1_random_a484017ff9c5473f7fc3fc7b52cb92433}{\index{jenes\-::utils\-::\-Random@{jenes\-::utils\-::\-Random}!set\-Standard\-Seed@{set\-Standard\-Seed}}
+\index{set\-Standard\-Seed@{set\-Standard\-Seed}!jenes::utils::Random@{jenes\-::utils\-::\-Random}}
+\subsubsection[{set\-Standard\-Seed}]{\setlength{\rightskip}{0pt plus 5cm}final void jenes.\-utils.\-Random.\-set\-Standard\-Seed (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classjenes_1_1utils_1_1_random_a484017ff9c5473f7fc3fc7b52cb92433}
+Sets the stardard value as \hyperlink{classjenes_1_1utils_1_1_random}{Random} seed. This method will assure the \hyperlink{classjenes_1_1utils_1_1_random}{Random} sequence of values will not change by run. It should be used for debugging purpose only. \hypertarget{classjenes_1_1utils_1_1_random_a6eec3abcf133f7ce43d6a13441523a01}{\index{jenes\-::utils\-::\-Random@{jenes\-::utils\-::\-Random}!set\-Time\-Seed@{set\-Time\-Seed}}
+\index{set\-Time\-Seed@{set\-Time\-Seed}!jenes::utils::Random@{jenes\-::utils\-::\-Random}}
+\subsubsection[{set\-Time\-Seed}]{\setlength{\rightskip}{0pt plus 5cm}final void jenes.\-utils.\-Random.\-set\-Time\-Seed (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classjenes_1_1utils_1_1_random_a6eec3abcf133f7ce43d6a13441523a01}
+Sets the current time as \hyperlink{classjenes_1_1utils_1_1_random}{Random} seed. This method will make the \hyperlink{classjenes_1_1utils_1_1_random}{Random} sequence of values different run by run. 
+
+\subsection{Member Data Documentation}
+\hypertarget{classjenes_1_1utils_1_1_random_a4d07f44b9a2f1bc18feb0059dd70b79a}{\index{jenes\-::utils\-::\-Random@{jenes\-::utils\-::\-Random}!mtfe@{mtfe}}
+\index{mtfe@{mtfe}!jenes::utils::Random@{jenes\-::utils\-::\-Random}}
+\subsubsection[{mtfe}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Random} jenes.\-utils.\-Random.\-mtfe =null\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}}\label{classjenes_1_1utils_1_1_random_a4d07f44b9a2f1bc18feb0059dd70b79a}
+The static \hyperlink{classjenes_1_1utils_1_1_random}{Random} instance \hypertarget{classjenes_1_1utils_1_1_random_aee05c4e6476472dc9dc02d2fd94061b5}{\index{jenes\-::utils\-::\-Random@{jenes\-::utils\-::\-Random}!S\-T\-A\-N\-D\-A\-R\-D\-\_\-\-S\-E\-E\-D@{S\-T\-A\-N\-D\-A\-R\-D\-\_\-\-S\-E\-E\-D}}
+\index{S\-T\-A\-N\-D\-A\-R\-D\-\_\-\-S\-E\-E\-D@{S\-T\-A\-N\-D\-A\-R\-D\-\_\-\-S\-E\-E\-D}!jenes::utils::Random@{jenes\-::utils\-::\-Random}}
+\subsubsection[{S\-T\-A\-N\-D\-A\-R\-D\-\_\-\-S\-E\-E\-D}]{\setlength{\rightskip}{0pt plus 5cm}final long jenes.\-utils.\-Random.\-S\-T\-A\-N\-D\-A\-R\-D\-\_\-\-S\-E\-E\-D = 4357\hspace{0.3cm}{\ttfamily [static]}}}\label{classjenes_1_1utils_1_1_random_aee05c4e6476472dc9dc02d2fd94061b5}
+The seed used as default 
+
+The documentation for this class was generated from the following file\-:\begin{DoxyCompactItemize}
+\item 
+src/jenes/utils/\hyperlink{_random_8java}{Random.\-java}\end{DoxyCompactItemize}

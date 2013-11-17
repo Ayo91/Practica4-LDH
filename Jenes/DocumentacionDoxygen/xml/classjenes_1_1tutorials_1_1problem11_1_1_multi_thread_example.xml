@@ -1,0 +1,100 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="classjenes_1_1tutorials_1_1problem11_1_1_multi_thread_example" kind="class" prot="public">
+    <compoundname>jenes::tutorials::problem11::MultiThreadExample</compoundname>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classjenes_1_1tutorials_1_1problem11_1_1_multi_thread_example_1a78352360229430486f32eb26551cb118" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void jenes.tutorials.problem11.MultiThreadExample.main</definition>
+        <argsstring>(String...a)</argsstring>
+        <name>main</name>
+        <param>
+          <type>String...</type>
+          <declname>a</declname>
+        </param>
+        <exceptions> throws Exception</exceptions>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+<para>The angle to use as target for matching </para>        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/problem11/MultiThreadExample.java" line="27" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/problem11/MultiThreadExample.java" bodystart="27" bodyend="51"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="classjenes_1_1tutorials_1_1problem11_1_1_multi_thread_example_1ae91145d0cc52916c06ac3d900e1697a5" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void jenes.tutorials.problem11.MultiThreadExample.testAlgorithm</definition>
+        <argsstring>(GeneticAlgorithm algorithm)</argsstring>
+        <name>testAlgorithm</name>
+        <param>
+          <type>GeneticAlgorithm</type>
+          <declname>algorithm</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Execute a test-set using different thread pool size configuration. Best results are achieved using a num of thread equals to the avaible CPU cores of your hardware <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>algorithm</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the algorithm to test </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/problem11/MultiThreadExample.java" line="58" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/problem11/MultiThreadExample.java" bodystart="58" bodyend="74"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1tutorials_1_1problem11_1_1_multi_thread_example_1ae67c60decc2c38064305d29b18163bea" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void jenes.tutorials.problem11.MultiThreadExample.printStatistics</definition>
+        <argsstring>(GeneticAlgorithm&lt; BitwiseChromosome &gt; ga, int threads)</argsstring>
+        <name>printStatistics</name>
+        <param>
+          <type>GeneticAlgorithm&lt; <ref refid="classjenes_1_1chromosome_1_1_bitwise_chromosome" kindref="compound">BitwiseChromosome</ref> &gt;</type>
+          <declname>ga</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>threads</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Print statistics <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>ga</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>threads</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/problem11/MultiThreadExample.java" line="81" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/problem11/MultiThreadExample.java" bodystart="81" bodyend="106"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>This class represent a simple example of how to use multi-thread feature in Jenes 2.0</para><para><simplesect kind="since"><para>2.0 </para></simplesect>
+</para>    </detaileddescription>
+    <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/problem11/MultiThreadExample.java" line="24" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/problem11/MultiThreadExample.java" bodystart="24" bodyend="107"/>
+    <listofallmembers>
+      <member refid="classjenes_1_1tutorials_1_1problem11_1_1_multi_thread_example_1a78352360229430486f32eb26551cb118" prot="public" virt="non-virtual"><scope>jenes::tutorials::problem11::MultiThreadExample</scope><name>main</name></member>
+      <member refid="classjenes_1_1tutorials_1_1problem11_1_1_multi_thread_example_1ae67c60decc2c38064305d29b18163bea" prot="private" virt="non-virtual"><scope>jenes::tutorials::problem11::MultiThreadExample</scope><name>printStatistics</name></member>
+      <member refid="classjenes_1_1tutorials_1_1problem11_1_1_multi_thread_example_1ae91145d0cc52916c06ac3d900e1697a5" prot="private" virt="non-virtual"><scope>jenes::tutorials::problem11::MultiThreadExample</scope><name>testAlgorithm</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

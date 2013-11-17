@@ -1,0 +1,283 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="classjenes_1_1stage_1_1_exclusive_dispenser_3_01_t_01extends_01_chromosome_01_4" kind="class" prot="public" abstract="yes">
+    <compoundname>jenes::stage::ExclusiveDispenser&lt; T extends Chromosome &gt;</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Dispenser&lt; T &gt;</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classjenes_1_1stage_1_1_exclusive_dispenser_3_01_t_01extends_01_chromosome_01_4_1af8fba035b8567ce8d509fbc7601b4c75" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>jenes.stage.ExclusiveDispenser&lt; T extends Chromosome &gt;.ExclusiveDispenser</definition>
+        <argsstring>(int span)</argsstring>
+        <name>ExclusiveDispenser</name>
+        <param>
+          <type>int</type>
+          <declname>span</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs a new exclusive dispencer with the specified amplitude</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>span</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the dispencer amplitude </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/ExclusiveDispenser.java" line="48" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/ExclusiveDispenser.java" bodystart="48" bodyend="50"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1stage_1_1_exclusive_dispenser_3_01_t_01extends_01_chromosome_01_4_1a7ecda0fa0e34e3a31ab2d06cd2b6d593" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>final void</type>
+        <definition>final void jenes.stage.ExclusiveDispenser&lt; T extends Chromosome &gt;.distribute</definition>
+        <argsstring>(Population&lt; T &gt; in, Population&lt; T &gt;[] branches)</argsstring>
+        <name>distribute</name>
+        <param>
+          <type>Population&lt; T &gt;</type>
+          <declname>in</declname>
+        </param>
+        <param>
+          <type>Population&lt; T &gt;[]</type>
+          <declname>branches</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Distributes the specified population between those ones in the specified array. If some populations within inStagePop are not empty they will contain the initial individuals too at the end of distribute operation.</para><para>The branch in which each individual is dispatched is given by the <ref refid="" kindref="compound">jenes.stage.ExclusiveDispenser#distribute(Individual)</ref> method</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>in</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the population to be distributed </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>branches</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the array of sub populations of the initial one </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/ExclusiveDispenser.java" line="64" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/ExclusiveDispenser.java" bodystart="64" bodyend="71"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1stage_1_1_exclusive_dispenser_3_01_t_01extends_01_chromosome_01_4_1a706558b075a61b04099decf44729c870" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>abstract int</type>
+        <definition>abstract int jenes.stage.ExclusiveDispenser&lt; T extends Chromosome &gt;.distribute</definition>
+        <argsstring>(Individual&lt; T &gt; ind)</argsstring>
+        <name>distribute</name>
+        <param>
+          <type>Individual&lt; T &gt;</type>
+          <declname>ind</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns the branch number where to add the specified individual. Branches are numbered from 0 to span-1</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>ind</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the individual to distribute </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>the branch number where to add the individual </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/ExclusiveDispenser.java" line="80" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1stage_1_1_exclusive_dispenser_3_01_t_01extends_01_chromosome_01_4_1a1179e92bbe9a4942b9097d9846c01801" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>final void</type>
+        <definition>final void jenes.stage.ExclusiveDispenser&lt; T extends Chromosome &gt;.mergePopulation</definition>
+        <argsstring>(Population&lt; T &gt;[] branches, Population&lt; T &gt; out)</argsstring>
+        <name>mergePopulation</name>
+        <param>
+          <type>Population&lt; T &gt;[]</type>
+          <declname>branches</declname>
+        </param>
+        <param>
+          <type>Population&lt; T &gt;</type>
+          <declname>out</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Merges the populations within the specified array in the specified one. If population is not empty it will contain the initial individuals too at the end of merge operation.</para><para><emphasis>Note:</emphasis> if out have a different size than the input population used in the <ref refid="" kindref="compound">jenes.stage.ExclusiveDispenser#distribute(Population, Population[])</ref> method out will be resized to fit the input population size. </para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>out</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the final population </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>branches</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the populations to be merged </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/ExclusiveDispenser.java" line="94" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/ExclusiveDispenser.java" bodystart="94" bodyend="123"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1stage_1_1_exclusive_dispenser_3_01_t_01extends_01_chromosome_01_4_1ad5db6c2748cabd6055a33421f601dba4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void jenes.stage.ExclusiveDispenser&lt; T extends Chromosome &gt;.preDistribute</definition>
+        <argsstring>(Population&lt; T &gt; population)</argsstring>
+        <name>preDistribute</name>
+        <param>
+          <type>Population&lt; T &gt;</type>
+          <declname>population</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Callback method invoked just before distribution of individuals begins. By default this method does nothing. It an be overriden in order to perform custom operations.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>population</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the population to distribute </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/ExclusiveDispenser.java" line="131" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/ExclusiveDispenser.java" bodystart="131" bodyend="133"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1stage_1_1_exclusive_dispenser_3_01_t_01extends_01_chromosome_01_4_1a70031ab873b045876e716d0e702d7846" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void jenes.stage.ExclusiveDispenser&lt; T extends Chromosome &gt;.postDistribute</definition>
+        <argsstring>(Population&lt; T &gt;[] branches)</argsstring>
+        <name>postDistribute</name>
+        <param>
+          <type>Population&lt; T &gt;[]</type>
+          <declname>branches</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Callback method invoked just after distribution of individuals is done. By default this method does nothing. It an be overriden in order to perform custom operations.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>branches</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>populations as distributed </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/ExclusiveDispenser.java" line="141" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/ExclusiveDispenser.java" bodystart="141" bodyend="143"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1stage_1_1_exclusive_dispenser_3_01_t_01extends_01_chromosome_01_4_1ae93239ca47669daaeea41d2f8ab6fe51" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void jenes.stage.ExclusiveDispenser&lt; T extends Chromosome &gt;.preMerge</definition>
+        <argsstring>(Population&lt; T &gt;[] branches)</argsstring>
+        <name>preMerge</name>
+        <param>
+          <type>Population&lt; T &gt;[]</type>
+          <declname>branches</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Callback method invoked just before merge of branches begins. By default this method does nothing. It an be overriden in order to perform custom operations.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>branches</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>populations as resulting from the different branches </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/ExclusiveDispenser.java" line="151" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/ExclusiveDispenser.java" bodystart="151" bodyend="153"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1stage_1_1_exclusive_dispenser_3_01_t_01extends_01_chromosome_01_4_1a67b4ecbb23bc9860e1985a2a573b8823" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void jenes.stage.ExclusiveDispenser&lt; T extends Chromosome &gt;.postMerge</definition>
+        <argsstring>(Population&lt; T &gt; population)</argsstring>
+        <name>postMerge</name>
+        <param>
+          <type>Population&lt; T &gt;</type>
+          <declname>population</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Callback method invoked just after merge of individuals is done. By default this method does nothing. It an be overriden in order to perform custom operations.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>population</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the merged population </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/ExclusiveDispenser.java" line="161" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/ExclusiveDispenser.java" bodystart="161" bodyend="163"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>An abstract dispencer useful when each individual can be in only one parallel branch, so the distribute method is exclusive.<linebreak/>
+ The only method to implement is <ref refid="" kindref="compound">distribute(Individual)</ref> to specify the branch number in which store the specified Individual.<linebreak/>
+ <linebreak/>
+ Note: the predistribute method of this class has empty implementation. Override it if you need to evaluate preDistrubute statistics.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>&lt;T&gt;</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The class chromosomes flowing across the stage.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="version"><para>1.2 </para></simplesect>
+<simplesect kind="since"><para>1.0</para></simplesect>
+<simplesect kind="see"><para>jenes.stage.Parallel </para></simplesect>
+</para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="167">
+        <label>jenes.stage.ExclusiveDispenser&lt; T extends Chromosome &gt;</label>
+        <link refid="classjenes_1_1stage_1_1_exclusive_dispenser_3_01_t_01extends_01_chromosome_01_4"/>
+        <childnode refid="168" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="168">
+        <label>Dispenser&lt;T&gt;</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="169">
+        <label>jenes.stage.ExclusiveDispenser&lt; T extends Chromosome &gt;</label>
+        <link refid="classjenes_1_1stage_1_1_exclusive_dispenser_3_01_t_01extends_01_chromosome_01_4"/>
+        <childnode refid="170" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="170">
+        <label>Dispenser&lt;T&gt;</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/ExclusiveDispenser.java" line="41" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/ExclusiveDispenser.java" bodystart="41" bodyend="165"/>
+    <listofallmembers>
+      <member refid="classjenes_1_1stage_1_1_exclusive_dispenser_3_01_t_01extends_01_chromosome_01_4_1a7ecda0fa0e34e3a31ab2d06cd2b6d593" prot="public" virt="non-virtual"><scope>jenes::stage::ExclusiveDispenser&lt; T extends Chromosome &gt;</scope><name>distribute</name></member>
+      <member refid="classjenes_1_1stage_1_1_exclusive_dispenser_3_01_t_01extends_01_chromosome_01_4_1a706558b075a61b04099decf44729c870" prot="public" virt="pure-virtual"><scope>jenes::stage::ExclusiveDispenser&lt; T extends Chromosome &gt;</scope><name>distribute</name></member>
+      <member refid="classjenes_1_1stage_1_1_exclusive_dispenser_3_01_t_01extends_01_chromosome_01_4_1af8fba035b8567ce8d509fbc7601b4c75" prot="public" virt="non-virtual"><scope>jenes::stage::ExclusiveDispenser&lt; T extends Chromosome &gt;</scope><name>ExclusiveDispenser</name></member>
+      <member refid="classjenes_1_1stage_1_1_exclusive_dispenser_3_01_t_01extends_01_chromosome_01_4_1a1179e92bbe9a4942b9097d9846c01801" prot="public" virt="non-virtual"><scope>jenes::stage::ExclusiveDispenser&lt; T extends Chromosome &gt;</scope><name>mergePopulation</name></member>
+      <member refid="classjenes_1_1stage_1_1_exclusive_dispenser_3_01_t_01extends_01_chromosome_01_4_1a70031ab873b045876e716d0e702d7846" prot="public" virt="non-virtual"><scope>jenes::stage::ExclusiveDispenser&lt; T extends Chromosome &gt;</scope><name>postDistribute</name></member>
+      <member refid="classjenes_1_1stage_1_1_exclusive_dispenser_3_01_t_01extends_01_chromosome_01_4_1a67b4ecbb23bc9860e1985a2a573b8823" prot="public" virt="non-virtual"><scope>jenes::stage::ExclusiveDispenser&lt; T extends Chromosome &gt;</scope><name>postMerge</name></member>
+      <member refid="classjenes_1_1stage_1_1_exclusive_dispenser_3_01_t_01extends_01_chromosome_01_4_1ad5db6c2748cabd6055a33421f601dba4" prot="public" virt="non-virtual"><scope>jenes::stage::ExclusiveDispenser&lt; T extends Chromosome &gt;</scope><name>preDistribute</name></member>
+      <member refid="classjenes_1_1stage_1_1_exclusive_dispenser_3_01_t_01extends_01_chromosome_01_4_1ae93239ca47669daaeea41d2f8ab6fe51" prot="public" virt="non-virtual"><scope>jenes::stage::ExclusiveDispenser&lt; T extends Chromosome &gt;</scope><name>preMerge</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

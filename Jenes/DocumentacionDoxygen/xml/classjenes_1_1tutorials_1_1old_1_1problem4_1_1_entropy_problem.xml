@@ -1,0 +1,82 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="classjenes_1_1tutorials_1_1old_1_1problem4_1_1_entropy_problem" kind="class" prot="public">
+    <compoundname>jenes::tutorials::old::problem4::EntropyProblem</compoundname>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="classjenes_1_1tutorials_1_1old_1_1problem4_1_1_entropy_problem_1a8b85592ca8d79e8511f8881f9b21d339" prot="private" static="yes" mutable="no">
+        <type>int</type>
+        <definition>int jenes.tutorials.old.problem4.EntropyProblem.POPULATION_SIZE</definition>
+        <argsstring></argsstring>
+        <name>POPULATION_SIZE</name>
+        <initializer>= 100</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/old/problem4/EntropyProblem.java" line="38" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/old/problem4/EntropyProblem.java" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classjenes_1_1tutorials_1_1old_1_1problem4_1_1_entropy_problem_1a0f7164bda94dc9776ef68f76b21c27bf" prot="private" static="yes" mutable="no">
+        <type>int</type>
+        <definition>int jenes.tutorials.old.problem4.EntropyProblem.CHROMOSOME_LENGTH</definition>
+        <argsstring></argsstring>
+        <name>CHROMOSOME_LENGTH</name>
+        <initializer>= 5</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/old/problem4/EntropyProblem.java" line="39" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/old/problem4/EntropyProblem.java" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classjenes_1_1tutorials_1_1old_1_1problem4_1_1_entropy_problem_1a1fee67242d5c7f78732adfee999a4623" prot="private" static="yes" mutable="no">
+        <type>int</type>
+        <definition>int jenes.tutorials.old.problem4.EntropyProblem.GENERATION_LIMIT</definition>
+        <argsstring></argsstring>
+        <name>GENERATION_LIMIT</name>
+        <initializer>= 100</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/old/problem4/EntropyProblem.java" line="40" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/old/problem4/EntropyProblem.java" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classjenes_1_1tutorials_1_1old_1_1problem4_1_1_entropy_problem_1a0d51bbf6082f703157baaa168dd5f217" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void jenes.tutorials.old.problem4.EntropyProblem.main</definition>
+        <argsstring>(String[] args)</argsstring>
+        <name>main</name>
+        <param>
+          <type>String[]</type>
+          <declname>args</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/old/problem4/EntropyProblem.java" line="42" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/old/problem4/EntropyProblem.java" bodystart="42" bodyend="90"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Tutorial showing how to set-up a minimization problem. The problem is to find a vector whose entroy, after normalization, is minimal.</para><para><simplesect kind="version"><para>1.0 </para></simplesect>
+<simplesect kind="since"><para>1.0 </para></simplesect>
+</para>    </detaileddescription>
+    <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/old/problem4/EntropyProblem.java" line="36" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/old/problem4/EntropyProblem.java" bodystart="36" bodyend="91"/>
+    <listofallmembers>
+      <member refid="classjenes_1_1tutorials_1_1old_1_1problem4_1_1_entropy_problem_1a0f7164bda94dc9776ef68f76b21c27bf" prot="private" virt="non-virtual"><scope>jenes::tutorials::old::problem4::EntropyProblem</scope><name>CHROMOSOME_LENGTH</name></member>
+      <member refid="classjenes_1_1tutorials_1_1old_1_1problem4_1_1_entropy_problem_1a1fee67242d5c7f78732adfee999a4623" prot="private" virt="non-virtual"><scope>jenes::tutorials::old::problem4::EntropyProblem</scope><name>GENERATION_LIMIT</name></member>
+      <member refid="classjenes_1_1tutorials_1_1old_1_1problem4_1_1_entropy_problem_1a0d51bbf6082f703157baaa168dd5f217" prot="public" virt="non-virtual"><scope>jenes::tutorials::old::problem4::EntropyProblem</scope><name>main</name></member>
+      <member refid="classjenes_1_1tutorials_1_1old_1_1problem4_1_1_entropy_problem_1a8b85592ca8d79e8511f8881f9b21d339" prot="private" virt="non-virtual"><scope>jenes::tutorials::old::problem4::EntropyProblem</scope><name>POPULATION_SIZE</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,642 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="classjenes_1_1chromosome_1_1_integer_chromosome" kind="class" prot="public">
+    <compoundname>jenes::chromosome::IntegerChromosome</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">jenes::chromosome::Chromosome&lt; IntegerChromosome &gt;</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classjenes_1_1chromosome_1_1_integer_chromosome_1aec15161ea0003d6881813558a2a0e657" prot="private" static="no" mutable="no">
+        <type>int[]</type>
+        <definition>int [] jenes.chromosome.IntegerChromosome.genes</definition>
+        <argsstring></argsstring>
+        <name>genes</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/chromosome/IntegerChromosome.java" line="37" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/chromosome/IntegerChromosome.java" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classjenes_1_1chromosome_1_1_integer_chromosome_1a8f49670d7d429ea62a3cf77949babe15" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int jenes.chromosome.IntegerChromosome.upperBound</definition>
+        <argsstring></argsstring>
+        <name>upperBound</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/chromosome/IntegerChromosome.java" line="38" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/chromosome/IntegerChromosome.java" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classjenes_1_1chromosome_1_1_integer_chromosome_1ace33eab850d5e617cf77b5374d73754f" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int jenes.chromosome.IntegerChromosome.defaultValue</definition>
+        <argsstring></argsstring>
+        <name>defaultValue</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/chromosome/IntegerChromosome.java" line="39" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/chromosome/IntegerChromosome.java" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="package-attrib">
+      <memberdef kind="variable" id="classjenes_1_1chromosome_1_1_integer_chromosome_1a7d79421c4430073e56ef631b644a9bf5" prot="package" static="no" mutable="no">
+        <type>int</type>
+        <definition>int jenes.chromosome.IntegerChromosome.lowerBound</definition>
+        <argsstring></argsstring>
+        <name>lowerBound</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/chromosome/IntegerChromosome.java" line="38" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/chromosome/IntegerChromosome.java" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classjenes_1_1chromosome_1_1_integer_chromosome_1a10f477c2c6fb3893a0fc331a933e5b39" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>jenes.chromosome.IntegerChromosome.IntegerChromosome</definition>
+        <argsstring>(final IntegerChromosome chromosome)</argsstring>
+        <name>IntegerChromosome</name>
+        <param>
+          <type>final <ref refid="classjenes_1_1chromosome_1_1_integer_chromosome" kindref="compound">IntegerChromosome</ref></type>
+          <declname>chromosome</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Creates a new IntegerIndividual with the specified chromosome </para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>chromosome</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the parameters source chromosome </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/chromosome/IntegerChromosome.java" line="46" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/chromosome/IntegerChromosome.java" bodystart="46" bodyend="54"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1chromosome_1_1_integer_chromosome_1a44849b4866ead257aacae333ad7737bd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>jenes.chromosome.IntegerChromosome.IntegerChromosome</definition>
+        <argsstring>(final int length, final int lowerBound, final int upperBound)</argsstring>
+        <name>IntegerChromosome</name>
+        <param>
+          <type>final int</type>
+          <declname>length</declname>
+        </param>
+        <param>
+          <type>final int</type>
+          <declname>lowerBound</declname>
+        </param>
+        <param>
+          <type>final int</type>
+          <declname>upperBound</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Creates a new IntegerIndividual with each allele in the range [lowerBound, upperBound] </para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>length</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the chromosome length </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>lowerBound</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the allele lower bound </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>upperBound</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the allele upper bound </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/chromosome/IntegerChromosome.java" line="64" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/chromosome/IntegerChromosome.java" bodystart="64" bodyend="72"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1chromosome_1_1_integer_chromosome_1ae3932d5f359d42a6fb783f9254e870b7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>final int</type>
+        <definition>final int jenes.chromosome.IntegerChromosome.getLowerBound</definition>
+        <argsstring>()</argsstring>
+        <name>getLowerBound</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns the lower bound value for a gene of this chromosome</para><para><simplesect kind="return"><para>the alleles lower bound </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/chromosome/IntegerChromosome.java" line="79" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/chromosome/IntegerChromosome.java" bodystart="79" bodyend="81"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1chromosome_1_1_integer_chromosome_1af5a9d680853b67fd2ad8fc96853957d5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>final int</type>
+        <definition>final int jenes.chromosome.IntegerChromosome.getUpperBound</definition>
+        <argsstring>()</argsstring>
+        <name>getUpperBound</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns the upper bound value for a gene of this chromosome</para><para><simplesect kind="return"><para>the alleles upper bound </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/chromosome/IntegerChromosome.java" line="88" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/chromosome/IntegerChromosome.java" bodystart="88" bodyend="90"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1chromosome_1_1_integer_chromosome_1afa0e3d50dbda7f0c84f8558776543d7c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>final void</type>
+        <definition>final void jenes.chromosome.IntegerChromosome.setDefaultValueAt</definition>
+        <argsstring>(final int pos)</argsstring>
+        <name>setDefaultValueAt</name>
+        <param>
+          <type>final int</type>
+          <declname>pos</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/chromosome/IntegerChromosome.java" line="92" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/chromosome/IntegerChromosome.java" bodystart="92" bodyend="94"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1chromosome_1_1_integer_chromosome_1a9189b20273989ee1e83aa21ca11a982d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>final <ref refid="classjenes_1_1chromosome_1_1_integer_chromosome" kindref="compound">IntegerChromosome</ref></type>
+        <definition>final IntegerChromosome jenes.chromosome.IntegerChromosome.clone</definition>
+        <argsstring>()</argsstring>
+        <name>clone</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/chromosome/IntegerChromosome.java" line="96" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/chromosome/IntegerChromosome.java" bodystart="96" bodyend="98"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1chromosome_1_1_integer_chromosome_1a8474f73dce296ea5625dc9edb235cd47" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>final void</type>
+        <definition>final void jenes.chromosome.IntegerChromosome.randomize</definition>
+        <argsstring>()</argsstring>
+        <name>randomize</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/chromosome/IntegerChromosome.java" line="100" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/chromosome/IntegerChromosome.java" bodystart="100" bodyend="104"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1chromosome_1_1_integer_chromosome_1a2a591c336fedcfd457d4d874a2db328e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>final void</type>
+        <definition>final void jenes.chromosome.IntegerChromosome.swap</definition>
+        <argsstring>(final int pos1, final int pos2)</argsstring>
+        <name>swap</name>
+        <param>
+          <type>final int</type>
+          <declname>pos1</declname>
+        </param>
+        <param>
+          <type>final int</type>
+          <declname>pos2</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/chromosome/IntegerChromosome.java" line="106" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/chromosome/IntegerChromosome.java" bodystart="106" bodyend="110"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1chromosome_1_1_integer_chromosome_1a5f05ea95b9e86f784f6f1bdff3cbfe54" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>final void</type>
+        <definition>final void jenes.chromosome.IntegerChromosome.randomize</definition>
+        <argsstring>(final int pos)</argsstring>
+        <name>randomize</name>
+        <param>
+          <type>final int</type>
+          <declname>pos</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/chromosome/IntegerChromosome.java" line="112" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/chromosome/IntegerChromosome.java" bodystart="112" bodyend="114"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1chromosome_1_1_integer_chromosome_1a8a05522811de03e5ea9fff08385ac306" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>final void</type>
+        <definition>final void jenes.chromosome.IntegerChromosome.leftShift</definition>
+        <argsstring>(final int from, int to)</argsstring>
+        <name>leftShift</name>
+        <param>
+          <type>final int</type>
+          <declname>from</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>to</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/chromosome/IntegerChromosome.java" line="116" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/chromosome/IntegerChromosome.java" bodystart="116" bodyend="130"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1chromosome_1_1_integer_chromosome_1a361afe717a58a8b47316e62178b387f5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>final void</type>
+        <definition>final void jenes.chromosome.IntegerChromosome.rightShift</definition>
+        <argsstring>(final int from, int to)</argsstring>
+        <name>rightShift</name>
+        <param>
+          <type>final int</type>
+          <declname>from</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>to</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/chromosome/IntegerChromosome.java" line="132" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/chromosome/IntegerChromosome.java" bodystart="132" bodyend="147"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1chromosome_1_1_integer_chromosome_1a8e44ab8d05b2632e72c209c641f10073" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>final int</type>
+        <definition>final int jenes.chromosome.IntegerChromosome.length</definition>
+        <argsstring>()</argsstring>
+        <name>length</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/chromosome/IntegerChromosome.java" line="149" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/chromosome/IntegerChromosome.java" bodystart="149" bodyend="151"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1chromosome_1_1_integer_chromosome_1a65b39a2a6ef3deb1cb107b7f474bcbb0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>final void</type>
+        <definition>final void jenes.chromosome.IntegerChromosome.setAs</definition>
+        <argsstring>(final IntegerChromosome chromosome)</argsstring>
+        <name>setAs</name>
+        <param>
+          <type>final <ref refid="classjenes_1_1chromosome_1_1_integer_chromosome" kindref="compound">IntegerChromosome</ref></type>
+          <declname>chromosome</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/chromosome/IntegerChromosome.java" line="153" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/chromosome/IntegerChromosome.java" bodystart="153" bodyend="164"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1chromosome_1_1_integer_chromosome_1a36acf5fbdfbb8a2718ade474188248d4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>final void</type>
+        <definition>final void jenes.chromosome.IntegerChromosome.cross</definition>
+        <argsstring>(final IntegerChromosome chromosome, final int from)</argsstring>
+        <name>cross</name>
+        <param>
+          <type>final <ref refid="classjenes_1_1chromosome_1_1_integer_chromosome" kindref="compound">IntegerChromosome</ref></type>
+          <declname>chromosome</declname>
+        </param>
+        <param>
+          <type>final int</type>
+          <declname>from</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/chromosome/IntegerChromosome.java" line="166" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/chromosome/IntegerChromosome.java" bodystart="166" bodyend="186"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1chromosome_1_1_integer_chromosome_1adfb0865b40586caf2d78a7d2d58c7796" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>final void</type>
+        <definition>final void jenes.chromosome.IntegerChromosome.cross</definition>
+        <argsstring>(final IntegerChromosome chromosome, final int from, final int to)</argsstring>
+        <name>cross</name>
+        <param>
+          <type>final <ref refid="classjenes_1_1chromosome_1_1_integer_chromosome" kindref="compound">IntegerChromosome</ref></type>
+          <declname>chromosome</declname>
+        </param>
+        <param>
+          <type>final int</type>
+          <declname>from</declname>
+        </param>
+        <param>
+          <type>final int</type>
+          <declname>to</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/chromosome/IntegerChromosome.java" line="188" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/chromosome/IntegerChromosome.java" bodystart="188" bodyend="207"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1chromosome_1_1_integer_chromosome_1a5bc96e2224ca980bd9e13e0416426e1d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>final int</type>
+        <definition>final int jenes.chromosome.IntegerChromosome.getValue</definition>
+        <argsstring>(final int pos)</argsstring>
+        <name>getValue</name>
+        <param>
+          <type>final int</type>
+          <declname>pos</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns the integer value at the specified position </para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>pos</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>a position into this population </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>the integer value at the specified position </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/chromosome/IntegerChromosome.java" line="215" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/chromosome/IntegerChromosome.java" bodystart="215" bodyend="221"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1chromosome_1_1_integer_chromosome_1aa9e195726837440d8b65c9fc4268624c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>final int[]</type>
+        <definition>final int [] jenes.chromosome.IntegerChromosome.getValues</definition>
+        <argsstring>()</argsstring>
+        <name>getValues</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns the integer values </para><para><simplesect kind="return"><para>values </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/chromosome/IntegerChromosome.java" line="228" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/chromosome/IntegerChromosome.java" bodystart="228" bodyend="232"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1chromosome_1_1_integer_chromosome_1adc4af1dfafa5c20d92ee91a79d289317" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>final int[]</type>
+        <definition>final int [] jenes.chromosome.IntegerChromosome.getValues</definition>
+        <argsstring>(final int values[])</argsstring>
+        <name>getValues</name>
+        <param>
+          <type>final int</type>
+          <declname>values</declname>
+          <array>[]</array>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Provides the gene values by the array passed as parameter and returning it on return. If the argument values is null, the array is first created. </para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>values</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the array to fill </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>the array of values </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/chromosome/IntegerChromosome.java" line="241" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/chromosome/IntegerChromosome.java" bodystart="241" bodyend="249"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1chromosome_1_1_integer_chromosome_1a682f03e84e51f0e132a657b25236d432" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>final void</type>
+        <definition>final void jenes.chromosome.IntegerChromosome.setDefaultValue</definition>
+        <argsstring>(final int defaultValue)</argsstring>
+        <name>setDefaultValue</name>
+        <param>
+          <type>final int</type>
+          <declname>defaultValue</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Sets the default value of this chromosome </para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>defaultValue</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the new default value to be used </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/chromosome/IntegerChromosome.java" line="256" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/chromosome/IntegerChromosome.java" bodystart="256" bodyend="258"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1chromosome_1_1_integer_chromosome_1aac608f3599a9289d510e0ee7bc34fbc9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>final int</type>
+        <definition>final int jenes.chromosome.IntegerChromosome.getDefaultValue</definition>
+        <argsstring>()</argsstring>
+        <name>getDefaultValue</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns the default value of this chromosome </para><para><simplesect kind="return"><para>the integer default value of this chromosome </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/chromosome/IntegerChromosome.java" line="265" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/chromosome/IntegerChromosome.java" bodystart="265" bodyend="267"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1chromosome_1_1_integer_chromosome_1a2d2aa7705d11a8ca21493c82bf334f74" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>final void</type>
+        <definition>final void jenes.chromosome.IntegerChromosome.setValue</definition>
+        <argsstring>(final int pos, final int value)</argsstring>
+        <name>setValue</name>
+        <param>
+          <type>final int</type>
+          <declname>pos</declname>
+        </param>
+        <param>
+          <type>final int</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Sets the specified value at the specified position </para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>pos</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the position to be modify </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>value</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the value to be insert </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/chromosome/IntegerChromosome.java" line="275" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/chromosome/IntegerChromosome.java" bodystart="275" bodyend="285"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1chromosome_1_1_integer_chromosome_1aac7f634cd0b9449d2db45a87a0773ba3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>final String</type>
+        <definition>final String jenes.chromosome.IntegerChromosome.toString</definition>
+        <argsstring>()</argsstring>
+        <name>toString</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Provides a textual chromosome representation <simplesect kind="return"><para>the textual chromosome representation </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/chromosome/IntegerChromosome.java" line="292" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/chromosome/IntegerChromosome.java" bodystart="292" bodyend="303"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1chromosome_1_1_integer_chromosome_1a58904190bf6c0d3f3b34dd584dab91b7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>final boolean</type>
+        <definition>final boolean jenes.chromosome.IntegerChromosome.equals</definition>
+        <argsstring>(final IntegerChromosome chromosome)</argsstring>
+        <name>equals</name>
+        <param>
+          <type>final <ref refid="classjenes_1_1chromosome_1_1_integer_chromosome" kindref="compound">IntegerChromosome</ref></type>
+          <declname>chromosome</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Compares the chromosome with another.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>chromosome</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the chromosome to compare to. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>True, if the two chromosome are equal. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/chromosome/IntegerChromosome.java" line="312" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/chromosome/IntegerChromosome.java" bodystart="312" bodyend="322"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1chromosome_1_1_integer_chromosome_1a69f90fc799f3d0534bc32f6f509f89fc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void jenes.chromosome.IntegerChromosome.difference</definition>
+        <argsstring>(final IntegerChromosome chromosome, final double[] diff)</argsstring>
+        <name>difference</name>
+        <param>
+          <type>final <ref refid="classjenes_1_1chromosome_1_1_integer_chromosome" kindref="compound">IntegerChromosome</ref></type>
+          <declname>chromosome</declname>
+        </param>
+        <param>
+          <type>final double[]</type>
+          <declname>diff</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/chromosome/IntegerChromosome.java" line="325" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/chromosome/IntegerChromosome.java" bodystart="325" bodyend="335"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1chromosome_1_1_integer_chromosome_1ac1fa490d6a64bcd765982f57235fb04a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Object[]</type>
+        <definition>Object [] jenes.chromosome.IntegerChromosome.toArray</definition>
+        <argsstring>()</argsstring>
+        <name>toArray</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/chromosome/IntegerChromosome.java" line="337" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/chromosome/IntegerChromosome.java" bodystart="337" bodyend="343"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>An <ref refid="classjenes_1_1chromosome_1_1_integer_chromosome" kindref="compound">IntegerChromosome</ref> is made of an array of integers. Each value (i.e. allele) is within the range [lowerBound,upperBound]. Both bounds are included. These bounds are specified ad the instantiation time. <ref refid="classjenes_1_1chromosome_1_1_integer_chromosome" kindref="compound">IntegerChromosome</ref> is a fixed length chromosome. Thus the numebr of genes is specified at the instantiation time and cannot be modified after.</para><para><simplesect kind="version"><para>2.0 </para></simplesect>
+<simplesect kind="since"><para>1.0</para></simplesect>
+<simplesect kind="see"><para>jenes.chromosome.Chromosome </para></simplesect>
+</para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="276">
+        <label>jenes::chromosome::Chromosome&lt; IntegerChromosome &gt;</label>
+      </node>
+      <node id="275">
+        <label>jenes.chromosome.IntegerChromosome</label>
+        <link refid="classjenes_1_1chromosome_1_1_integer_chromosome"/>
+        <childnode refid="276" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="278">
+        <label>jenes::chromosome::Chromosome&lt; IntegerChromosome &gt;</label>
+      </node>
+      <node id="277">
+        <label>jenes.chromosome.IntegerChromosome</label>
+        <link refid="classjenes_1_1chromosome_1_1_integer_chromosome"/>
+        <childnode refid="278" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/chromosome/IntegerChromosome.java" line="35" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/chromosome/IntegerChromosome.java" bodystart="35" bodyend="344"/>
+    <listofallmembers>
+      <member refid="classjenes_1_1chromosome_1_1_integer_chromosome_1a9189b20273989ee1e83aa21ca11a982d" prot="public" virt="non-virtual"><scope>jenes::chromosome::IntegerChromosome</scope><name>clone</name></member>
+      <member refid="classjenes_1_1chromosome_1_1_integer_chromosome_1a36acf5fbdfbb8a2718ade474188248d4" prot="public" virt="non-virtual"><scope>jenes::chromosome::IntegerChromosome</scope><name>cross</name></member>
+      <member refid="classjenes_1_1chromosome_1_1_integer_chromosome_1adfb0865b40586caf2d78a7d2d58c7796" prot="public" virt="non-virtual"><scope>jenes::chromosome::IntegerChromosome</scope><name>cross</name></member>
+      <member refid="classjenes_1_1chromosome_1_1_integer_chromosome_1ace33eab850d5e617cf77b5374d73754f" prot="private" virt="non-virtual"><scope>jenes::chromosome::IntegerChromosome</scope><name>defaultValue</name></member>
+      <member refid="classjenes_1_1chromosome_1_1_integer_chromosome_1a69f90fc799f3d0534bc32f6f509f89fc" prot="public" virt="non-virtual"><scope>jenes::chromosome::IntegerChromosome</scope><name>difference</name></member>
+      <member refid="classjenes_1_1chromosome_1_1_integer_chromosome_1a58904190bf6c0d3f3b34dd584dab91b7" prot="public" virt="non-virtual"><scope>jenes::chromosome::IntegerChromosome</scope><name>equals</name></member>
+      <member refid="classjenes_1_1chromosome_1_1_integer_chromosome_1aec15161ea0003d6881813558a2a0e657" prot="private" virt="non-virtual"><scope>jenes::chromosome::IntegerChromosome</scope><name>genes</name></member>
+      <member refid="classjenes_1_1chromosome_1_1_integer_chromosome_1aac608f3599a9289d510e0ee7bc34fbc9" prot="public" virt="non-virtual"><scope>jenes::chromosome::IntegerChromosome</scope><name>getDefaultValue</name></member>
+      <member refid="classjenes_1_1chromosome_1_1_integer_chromosome_1ae3932d5f359d42a6fb783f9254e870b7" prot="public" virt="non-virtual"><scope>jenes::chromosome::IntegerChromosome</scope><name>getLowerBound</name></member>
+      <member refid="classjenes_1_1chromosome_1_1_integer_chromosome_1af5a9d680853b67fd2ad8fc96853957d5" prot="public" virt="non-virtual"><scope>jenes::chromosome::IntegerChromosome</scope><name>getUpperBound</name></member>
+      <member refid="classjenes_1_1chromosome_1_1_integer_chromosome_1a5bc96e2224ca980bd9e13e0416426e1d" prot="public" virt="non-virtual"><scope>jenes::chromosome::IntegerChromosome</scope><name>getValue</name></member>
+      <member refid="classjenes_1_1chromosome_1_1_integer_chromosome_1aa9e195726837440d8b65c9fc4268624c" prot="public" virt="non-virtual"><scope>jenes::chromosome::IntegerChromosome</scope><name>getValues</name></member>
+      <member refid="classjenes_1_1chromosome_1_1_integer_chromosome_1adc4af1dfafa5c20d92ee91a79d289317" prot="public" virt="non-virtual"><scope>jenes::chromosome::IntegerChromosome</scope><name>getValues</name></member>
+      <member refid="classjenes_1_1chromosome_1_1_integer_chromosome_1a10f477c2c6fb3893a0fc331a933e5b39" prot="public" virt="non-virtual"><scope>jenes::chromosome::IntegerChromosome</scope><name>IntegerChromosome</name></member>
+      <member refid="classjenes_1_1chromosome_1_1_integer_chromosome_1a44849b4866ead257aacae333ad7737bd" prot="public" virt="non-virtual"><scope>jenes::chromosome::IntegerChromosome</scope><name>IntegerChromosome</name></member>
+      <member refid="classjenes_1_1chromosome_1_1_integer_chromosome_1a8a05522811de03e5ea9fff08385ac306" prot="public" virt="non-virtual"><scope>jenes::chromosome::IntegerChromosome</scope><name>leftShift</name></member>
+      <member refid="classjenes_1_1chromosome_1_1_integer_chromosome_1a8e44ab8d05b2632e72c209c641f10073" prot="public" virt="non-virtual"><scope>jenes::chromosome::IntegerChromosome</scope><name>length</name></member>
+      <member refid="classjenes_1_1chromosome_1_1_integer_chromosome_1a7d79421c4430073e56ef631b644a9bf5" prot="package" virt="non-virtual"><scope>jenes::chromosome::IntegerChromosome</scope><name>lowerBound</name></member>
+      <member refid="classjenes_1_1chromosome_1_1_integer_chromosome_1a8474f73dce296ea5625dc9edb235cd47" prot="public" virt="non-virtual"><scope>jenes::chromosome::IntegerChromosome</scope><name>randomize</name></member>
+      <member refid="classjenes_1_1chromosome_1_1_integer_chromosome_1a5f05ea95b9e86f784f6f1bdff3cbfe54" prot="public" virt="non-virtual"><scope>jenes::chromosome::IntegerChromosome</scope><name>randomize</name></member>
+      <member refid="classjenes_1_1chromosome_1_1_integer_chromosome_1a361afe717a58a8b47316e62178b387f5" prot="public" virt="non-virtual"><scope>jenes::chromosome::IntegerChromosome</scope><name>rightShift</name></member>
+      <member refid="classjenes_1_1chromosome_1_1_integer_chromosome_1a65b39a2a6ef3deb1cb107b7f474bcbb0" prot="public" virt="non-virtual"><scope>jenes::chromosome::IntegerChromosome</scope><name>setAs</name></member>
+      <member refid="classjenes_1_1chromosome_1_1_integer_chromosome_1a682f03e84e51f0e132a657b25236d432" prot="public" virt="non-virtual"><scope>jenes::chromosome::IntegerChromosome</scope><name>setDefaultValue</name></member>
+      <member refid="classjenes_1_1chromosome_1_1_integer_chromosome_1afa0e3d50dbda7f0c84f8558776543d7c" prot="public" virt="non-virtual"><scope>jenes::chromosome::IntegerChromosome</scope><name>setDefaultValueAt</name></member>
+      <member refid="classjenes_1_1chromosome_1_1_integer_chromosome_1a2d2aa7705d11a8ca21493c82bf334f74" prot="public" virt="non-virtual"><scope>jenes::chromosome::IntegerChromosome</scope><name>setValue</name></member>
+      <member refid="classjenes_1_1chromosome_1_1_integer_chromosome_1a2a591c336fedcfd457d4d874a2db328e" prot="public" virt="non-virtual"><scope>jenes::chromosome::IntegerChromosome</scope><name>swap</name></member>
+      <member refid="classjenes_1_1chromosome_1_1_integer_chromosome_1ac1fa490d6a64bcd765982f57235fb04a" prot="public" virt="non-virtual"><scope>jenes::chromosome::IntegerChromosome</scope><name>toArray</name></member>
+      <member refid="classjenes_1_1chromosome_1_1_integer_chromosome_1aac7f634cd0b9449d2db45a87a0773ba3" prot="public" virt="non-virtual"><scope>jenes::chromosome::IntegerChromosome</scope><name>toString</name></member>
+      <member refid="classjenes_1_1chromosome_1_1_integer_chromosome_1a8f49670d7d429ea62a3cf77949babe15" prot="private" virt="non-virtual"><scope>jenes::chromosome::IntegerChromosome</scope><name>upperBound</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

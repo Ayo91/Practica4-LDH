@@ -1,0 +1,109 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="classjenes_1_1chromosome_1_1codings_1_1_gray_coding" kind="class" prot="public">
+    <compoundname>jenes::chromosome::codings::GrayCoding</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">jenes::chromosome::BitwiseChromosome::BitCoding&lt; Integer &gt;</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classjenes_1_1chromosome_1_1codings_1_1_gray_coding_1a55dedef21f32baa6e10eec066fc549ba" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>jenes.chromosome.codings.GrayCoding.GrayCoding</definition>
+        <argsstring>()</argsstring>
+        <name>GrayCoding</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Default constructor </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/chromosome/codings/GrayCoding.java" line="43" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/chromosome/codings/GrayCoding.java" bodystart="43" bodyend="45"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1chromosome_1_1codings_1_1_gray_coding_1ab18b4f8ca1b0bed9242254405fde897e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>final Integer</type>
+        <definition>final Integer jenes.chromosome.codings.GrayCoding.decode</definition>
+        <argsstring>(final int bits)</argsstring>
+        <name>decode</name>
+        <param>
+          <type>final int</type>
+          <declname>bits</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns the value of coded bits</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>bits</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>coding the value </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>the value </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/chromosome/codings/GrayCoding.java" line="54" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/chromosome/codings/GrayCoding.java" bodystart="54" bodyend="72"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1chromosome_1_1codings_1_1_gray_coding_1ab25d7513076e67bdd6aa15d9797673c0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>final int</type>
+        <definition>final int jenes.chromosome.codings.GrayCoding.encode</definition>
+        <argsstring>(final Integer value)</argsstring>
+        <name>encode</name>
+        <param>
+          <type>final Integer</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns the bits coding the value</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>value</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the value to be coded </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>the coding bits </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/chromosome/codings/GrayCoding.java" line="81" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/chromosome/codings/GrayCoding.java" bodystart="81" bodyend="99"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Represents a gray coding with 32 bits representation. In this code two successive values differ in only one digit.</para><para><simplesect kind="version"><para>1.2 </para></simplesect>
+<simplesect kind="since"><para>1.0</para></simplesect>
+<simplesect kind="see"><para><ref refid="classjenes_1_1chromosome_1_1codings_1_1_byte_coding" kindref="compound">ByteCoding</ref> </para><simplesectsep/><para><ref refid="classjenes_1_1chromosome_1_1codings_1_1_int_coding" kindref="compound">IntCoding</ref> </para><simplesectsep/><para><ref refid="classjenes_1_1chromosome_1_1codings_1_1_short_coding" kindref="compound">ShortCoding</ref> </para><simplesectsep/><para><ref refid="classjenes_1_1chromosome_1_1codings_1_1_word_coding" kindref="compound">WordCoding</ref> </para><simplesectsep/><para>BitSize </para><simplesectsep/><para><ref refid="classjenes_1_1chromosome_1_1codings_1_1_boolean_coding" kindref="compound">BooleanCoding</ref> </para></simplesect>
+</para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="222">
+        <label>jenes::chromosome::BitwiseChromosome::BitCoding&lt; Integer &gt;</label>
+      </node>
+      <node id="221">
+        <label>jenes.chromosome.codings.GrayCoding</label>
+        <link refid="classjenes_1_1chromosome_1_1codings_1_1_gray_coding"/>
+        <childnode refid="222" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="224">
+        <label>jenes::chromosome::BitwiseChromosome::BitCoding&lt; Integer &gt;</label>
+      </node>
+      <node id="223">
+        <label>jenes.chromosome.codings.GrayCoding</label>
+        <link refid="classjenes_1_1chromosome_1_1codings_1_1_gray_coding"/>
+        <childnode refid="224" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/chromosome/codings/GrayCoding.java" line="38" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/chromosome/codings/GrayCoding.java" bodystart="38" bodyend="100"/>
+    <listofallmembers>
+      <member refid="classjenes_1_1chromosome_1_1codings_1_1_gray_coding_1ab18b4f8ca1b0bed9242254405fde897e" prot="public" virt="non-virtual"><scope>jenes::chromosome::codings::GrayCoding</scope><name>decode</name></member>
+      <member refid="classjenes_1_1chromosome_1_1codings_1_1_gray_coding_1ab25d7513076e67bdd6aa15d9797673c0" prot="public" virt="non-virtual"><scope>jenes::chromosome::codings::GrayCoding</scope><name>encode</name></member>
+      <member refid="classjenes_1_1chromosome_1_1codings_1_1_gray_coding_1a55dedef21f32baa6e10eec066fc549ba" prot="public" virt="non-virtual"><scope>jenes::chromosome::codings::GrayCoding</scope><name>GrayCoding</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

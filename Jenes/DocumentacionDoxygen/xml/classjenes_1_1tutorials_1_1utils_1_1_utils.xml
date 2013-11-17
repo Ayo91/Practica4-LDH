@@ -1,0 +1,79 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="classjenes_1_1tutorials_1_1utils_1_1_utils" kind="class" prot="public">
+    <compoundname>jenes::tutorials::utils::Utils</compoundname>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="classjenes_1_1tutorials_1_1utils_1_1_utils_1a88c455de5941ab784dee9bef8ee4d46f" prot="private" static="yes" mutable="no">
+        <type>double</type>
+        <definition>double jenes.tutorials.utils.Utils.legalScoreDev</definition>
+        <argsstring></argsstring>
+        <name>legalScoreDev</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/utils/Utils.java" line="80" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/utils/Utils.java" bodystart="80" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classjenes_1_1tutorials_1_1utils_1_1_utils_1af0307ceaa2b9ca93fb3cfef7c75303a8" prot="private" static="yes" mutable="no">
+        <type>double</type>
+        <definition>double jenes.tutorials.utils.Utils.legalScoreAvg</definition>
+        <argsstring></argsstring>
+        <name>legalScoreAvg</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/utils/Utils.java" line="81" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/utils/Utils.java" bodystart="81" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classjenes_1_1tutorials_1_1utils_1_1_utils_1a69faf47422bb9677c832496aa7c3b516" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>final void</type>
+        <definition>static final void jenes.tutorials.utils.Utils.printHeader</definition>
+        <argsstring>()</argsstring>
+        <name>printHeader</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/utils/Utils.java" line="33" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/utils/Utils.java" bodystart="33" bodyend="37"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1tutorials_1_1utils_1_1_utils_1a6bee3809d14100994dd942f3d745fa0c" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>final void</type>
+        <definition>static final void jenes.tutorials.utils.Utils.printStatistics</definition>
+        <argsstring>(Population.Statistics stats)</argsstring>
+        <name>printStatistics</name>
+        <param>
+          <type>Population.Statistics</type>
+          <declname>stats</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/utils/Utils.java" line="39" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/utils/Utils.java" bodystart="39" bodyend="79"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>This class provides some utility methods to tutorials.</para><para><simplesect kind="version"><para>2.0 </para></simplesect>
+<simplesect kind="since"><para>1.0 </para></simplesect>
+</para>    </detaileddescription>
+    <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/utils/Utils.java" line="31" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/utils/Utils.java" bodystart="31" bodyend="82"/>
+    <listofallmembers>
+      <member refid="classjenes_1_1tutorials_1_1utils_1_1_utils_1af0307ceaa2b9ca93fb3cfef7c75303a8" prot="private" virt="non-virtual"><scope>jenes::tutorials::utils::Utils</scope><name>legalScoreAvg</name></member>
+      <member refid="classjenes_1_1tutorials_1_1utils_1_1_utils_1a88c455de5941ab784dee9bef8ee4d46f" prot="private" virt="non-virtual"><scope>jenes::tutorials::utils::Utils</scope><name>legalScoreDev</name></member>
+      <member refid="classjenes_1_1tutorials_1_1utils_1_1_utils_1a69faf47422bb9677c832496aa7c3b516" prot="public" virt="non-virtual"><scope>jenes::tutorials::utils::Utils</scope><name>printHeader</name></member>
+      <member refid="classjenes_1_1tutorials_1_1utils_1_1_utils_1a6bee3809d14100994dd942f3d745fa0c" prot="public" virt="non-virtual"><scope>jenes::tutorials::utils::Utils</scope><name>printStatistics</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

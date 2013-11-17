@@ -1,0 +1,972 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="classjenes_1_1chromosome_1_1_bitwise_chromosome" kind="class" prot="public">
+    <compoundname>jenes::chromosome::BitwiseChromosome</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">jenes::chromosome::Chromosome&lt; BitwiseChromosome &gt;</basecompoundref>
+    <innerclass refid="classjenes_1_1chromosome_1_1_bitwise_chromosome_1_1_bit_coding_3_01_t_01_4" prot="public">jenes::chromosome::BitwiseChromosome::BitCoding&lt; T &gt;</innerclass>
+    <innerclass refid="enumjenes_1_1chromosome_1_1_bitwise_chromosome_1_1_bit_size" prot="public">jenes::chromosome::BitwiseChromosome::BitSize</innerclass>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classjenes_1_1chromosome_1_1_bitwise_chromosome_1a46949d4204ed78a682345d88bb90eb5a" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int jenes.chromosome.BitwiseChromosome.genes[]</definition>
+        <argsstring>[]</argsstring>
+        <name>genes</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/chromosome/BitwiseChromosome.java" line="151" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/chromosome/BitwiseChromosome.java" bodystart="151" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classjenes_1_1chromosome_1_1_bitwise_chromosome_1aaca5e98844bcc938fecc81b959a63c03" prot="private" static="no" mutable="no">
+        <type>BitCoding</type>
+        <definition>BitCoding jenes.chromosome.BitwiseChromosome.coding</definition>
+        <argsstring></argsstring>
+        <name>coding</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/chromosome/BitwiseChromosome.java" line="152" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/chromosome/BitwiseChromosome.java" bodystart="152" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classjenes_1_1chromosome_1_1_bitwise_chromosome_1ab7a20df94261bb660cadcfb834012f1f" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int jenes.chromosome.BitwiseChromosome.slots</definition>
+        <argsstring></argsstring>
+        <name>slots</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/chromosome/BitwiseChromosome.java" line="153" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/chromosome/BitwiseChromosome.java" bodystart="153" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classjenes_1_1chromosome_1_1_bitwise_chromosome_1a87b8652220ca81cad899a13e341bf954" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int jenes.chromosome.BitwiseChromosome.size</definition>
+        <argsstring></argsstring>
+        <name>size</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/chromosome/BitwiseChromosome.java" line="154" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/chromosome/BitwiseChromosome.java" bodystart="154" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classjenes_1_1chromosome_1_1_bitwise_chromosome_1a7b10180d49ba676325c2387b6e40d395" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int jenes.chromosome.BitwiseChromosome.bits</definition>
+        <argsstring></argsstring>
+        <name>bits</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/chromosome/BitwiseChromosome.java" line="155" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/chromosome/BitwiseChromosome.java" bodystart="155" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classjenes_1_1chromosome_1_1_bitwise_chromosome_1a8270df05321265ad4a7a9345b901aad7" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int jenes.chromosome.BitwiseChromosome.load</definition>
+        <argsstring></argsstring>
+        <name>load</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/chromosome/BitwiseChromosome.java" line="156" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/chromosome/BitwiseChromosome.java" bodystart="156" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classjenes_1_1chromosome_1_1_bitwise_chromosome_1a87547c87419943bded51820cbc1ae830" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>jenes.chromosome.BitwiseChromosome.BitwiseChromosome</definition>
+        <argsstring>(final int size)</argsstring>
+        <name>BitwiseChromosome</name>
+        <param>
+          <type>final int</type>
+          <declname>size</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Creates a new <ref refid="classjenes_1_1chromosome_1_1_bitwise_chromosome" kindref="compound">BitwiseChromosome</ref> with the specified number of objects. The chromosome is made of a bit string encoding objects.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>size</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the number of objects the chromosone represents </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/chromosome/BitwiseChromosome.java" line="164" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/chromosome/BitwiseChromosome.java" bodystart="164" bodyend="166"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1chromosome_1_1_bitwise_chromosome_1a9109a8205e447db9032f29494f0d9b3d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>jenes.chromosome.BitwiseChromosome.BitwiseChromosome</definition>
+        <argsstring>(final int size, final BitCoding coding)</argsstring>
+        <name>BitwiseChromosome</name>
+        <param>
+          <type>final int</type>
+          <declname>size</declname>
+        </param>
+        <param>
+          <type>final BitCoding</type>
+          <declname>coding</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Creates a new <ref refid="classjenes_1_1chromosome_1_1_bitwise_chromosome" kindref="compound">BitwiseChromosome</ref> with the specified number of objects and coding.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>size</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the number of chromosome coded objects </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>coding</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the coding to use </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/chromosome/BitwiseChromosome.java" line="175" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/chromosome/BitwiseChromosome.java" bodystart="175" bodyend="182"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1chromosome_1_1_bitwise_chromosome_1a90798d86b6c1871c441b562e0b1d50ca" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>jenes.chromosome.BitwiseChromosome.BitwiseChromosome</definition>
+        <argsstring>(final BitwiseChromosome chromosome)</argsstring>
+        <name>BitwiseChromosome</name>
+        <param>
+          <type>final <ref refid="classjenes_1_1chromosome_1_1_bitwise_chromosome" kindref="compound">BitwiseChromosome</ref></type>
+          <declname>chromosome</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Creates a new <ref refid="classjenes_1_1chromosome_1_1_bitwise_chromosome" kindref="compound">BitwiseChromosome</ref> using the specified one as prototype</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>chromosome</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the chromosome to copy </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/chromosome/BitwiseChromosome.java" line="189" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/chromosome/BitwiseChromosome.java" bodystart="189" bodyend="198"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1chromosome_1_1_bitwise_chromosome_1a905b92cd6dc14db9d2b9276f1a6686e9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>final BitCoding</type>
+        <definition>final BitCoding jenes.chromosome.BitwiseChromosome.getType</definition>
+        <argsstring>()</argsstring>
+        <name>getType</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns the <ref refid="" kindref="compound">BitCoding</ref> used by this chromosome</para><para><simplesect kind="return"><para>the bit coding used </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/chromosome/BitwiseChromosome.java" line="205" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/chromosome/BitwiseChromosome.java" bodystart="205" bodyend="207"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1chromosome_1_1_bitwise_chromosome_1ae59ae8f495ec9d5aa15712cee7c0b313" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>final int</type>
+        <definition>final int jenes.chromosome.BitwiseChromosome.getSize</definition>
+        <argsstring>()</argsstring>
+        <name>getSize</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns the number of coded objects contained by this chromosome.</para><para><simplesect kind="return"><para>the number of coded objects </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/chromosome/BitwiseChromosome.java" line="214" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/chromosome/BitwiseChromosome.java" bodystart="214" bodyend="216"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1chromosome_1_1_bitwise_chromosome_1af817cb2110fc6b8d415e46377ddd4911" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>final int</type>
+        <definition>final int jenes.chromosome.BitwiseChromosome.getIntValueAt</definition>
+        <argsstring>(final int index)</argsstring>
+        <name>getIntValueAt</name>
+        <param>
+          <type>final int</type>
+          <declname>index</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns the int value at the specified position</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>index</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the index of the value to return </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>the int value at the specified position </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/chromosome/BitwiseChromosome.java" line="224" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/chromosome/BitwiseChromosome.java" bodystart="224" bodyend="226"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1chromosome_1_1_bitwise_chromosome_1a3cbcf428333a0dc4209ce2c820054542" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>final void</type>
+        <definition>final void jenes.chromosome.BitwiseChromosome.setIntValueAt</definition>
+        <argsstring>(final int index, final int value)</argsstring>
+        <name>setIntValueAt</name>
+        <param>
+          <type>final int</type>
+          <declname>index</declname>
+        </param>
+        <param>
+          <type>final int</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Sets the int value at the specified position</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>index</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the index of the element to be modify </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>value</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the value to set </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/chromosome/BitwiseChromosome.java" line="234" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/chromosome/BitwiseChromosome.java" bodystart="234" bodyend="236"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1chromosome_1_1_bitwise_chromosome_1a36e6b8c849d563a359245763116667d5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>final int</type>
+        <definition>final int jenes.chromosome.BitwiseChromosome.getIntSize</definition>
+        <argsstring>()</argsstring>
+        <name>getIntSize</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns the number of integer used by the chromosome for coding the objects</para><para><simplesect kind="return"><para>the number of integers </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/chromosome/BitwiseChromosome.java" line="243" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/chromosome/BitwiseChromosome.java" bodystart="243" bodyend="245"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1chromosome_1_1_bitwise_chromosome_1a3061d34e1f0c0faa915d4da7ea2f615c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>final Object</type>
+        <definition>final Object jenes.chromosome.BitwiseChromosome.getValueAt</definition>
+        <argsstring>(final int index)</argsstring>
+        <name>getValueAt</name>
+        <param>
+          <type>final int</type>
+          <declname>index</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns the object value at the specified position in the chromosome. The value is decoded and returned.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>index</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the position </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>the object </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/chromosome/BitwiseChromosome.java" line="254" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/chromosome/BitwiseChromosome.java" bodystart="254" bodyend="277"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1chromosome_1_1_bitwise_chromosome_1aaa42be8f0c26735e8a8d603d9b743b6a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>final void</type>
+        <definition>final void jenes.chromosome.BitwiseChromosome.setValue</definition>
+        <argsstring>(final int index, final Object value)</argsstring>
+        <name>setValue</name>
+        <param>
+          <type>final int</type>
+          <declname>index</declname>
+        </param>
+        <param>
+          <type>final Object</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Sets the specified object value at the given position. The object value is encoded and then placed in the chromosome.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>index</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the position </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>value</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the object value to be placed </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/chromosome/BitwiseChromosome.java" line="286" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/chromosome/BitwiseChromosome.java" bodystart="286" bodyend="302"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1chromosome_1_1_bitwise_chromosome_1a05ce80f3729d007c5d550eef5969ac86" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>final int</type>
+        <definition>final int jenes.chromosome.BitwiseChromosome.getBitValueAt</definition>
+        <argsstring>(final int index)</argsstring>
+        <name>getBitValueAt</name>
+        <param>
+          <type>final int</type>
+          <declname>index</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns the bit value at the specified position. This position takes into account the usage of integers made by the coding specification. For instance, if the coding requires 5 bits for each value, index 31 does not point to the last bit of the first integer, but to the second bit of the second integer, as described below</para><para>[01101 01110 00011 11011 10101 10010 <ndash/>] [01100 11010 ...</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>index</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the position </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>the bit value </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/chromosome/BitwiseChromosome.java" line="316" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/chromosome/BitwiseChromosome.java" bodystart="316" bodyend="324"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1chromosome_1_1_bitwise_chromosome_1a2e746b511933914d4be452573ac5ab7c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>final void</type>
+        <definition>final void jenes.chromosome.BitwiseChromosome.setBitValueAt</definition>
+        <argsstring>(final int index, final int bit)</argsstring>
+        <name>setBitValueAt</name>
+        <param>
+          <type>final int</type>
+          <declname>index</declname>
+        </param>
+        <param>
+          <type>final int</type>
+          <declname>bit</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Sets the bit at a given position. Position is related to the bits actually used and not to those occupied by the chromosome data structure.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>index</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the position </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>bit</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the bit value </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/chromosome/BitwiseChromosome.java" line="333" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/chromosome/BitwiseChromosome.java" bodystart="333" bodyend="343"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1chromosome_1_1_bitwise_chromosome_1a2d711baa2a74ccb064d33ef73edbd464" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>final void</type>
+        <definition>final void jenes.chromosome.BitwiseChromosome.cross</definition>
+        <argsstring>(final BitwiseChromosome chromosome, final int from, final int to)</argsstring>
+        <name>cross</name>
+        <param>
+          <type>final <ref refid="classjenes_1_1chromosome_1_1_bitwise_chromosome" kindref="compound">BitwiseChromosome</ref></type>
+          <declname>chromosome</declname>
+        </param>
+        <param>
+          <type>final int</type>
+          <declname>from</declname>
+        </param>
+        <param>
+          <type>final int</type>
+          <declname>to</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Exchanges the chromosome bits in the range [from,to]. The range is referred to positions of bits effectively used by the chromosome and not to thoae occupied by the underlying data structure.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>chromosome</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the chromosome to cross with </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>from</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the initial cross site </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>to</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the final cross site </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/chromosome/BitwiseChromosome.java" line="354" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/chromosome/BitwiseChromosome.java" bodystart="354" bodyend="394"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1chromosome_1_1_bitwise_chromosome_1a933b1991999fa3b586c1739744751725" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>final void</type>
+        <definition>final void jenes.chromosome.BitwiseChromosome.cross</definition>
+        <argsstring>(final BitwiseChromosome chromosome, final int from)</argsstring>
+        <name>cross</name>
+        <param>
+          <type>final <ref refid="classjenes_1_1chromosome_1_1_bitwise_chromosome" kindref="compound">BitwiseChromosome</ref></type>
+          <declname>chromosome</declname>
+        </param>
+        <param>
+          <type>final int</type>
+          <declname>from</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Exchanges the chromosome bits from the specified cross site to the final position</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>chromosome</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the chromosome to cross with </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>from</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the initial cross site </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/chromosome/BitwiseChromosome.java" line="402" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/chromosome/BitwiseChromosome.java" bodystart="402" bodyend="428"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1chromosome_1_1_bitwise_chromosome_1a41c9858f7ef05194011d1e227fea3584" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>final boolean</type>
+        <definition>final boolean jenes.chromosome.BitwiseChromosome.equals</definition>
+        <argsstring>(final BitwiseChromosome chromosome)</argsstring>
+        <name>equals</name>
+        <param>
+          <type>final <ref refid="classjenes_1_1chromosome_1_1_bitwise_chromosome" kindref="compound">BitwiseChromosome</ref></type>
+          <declname>chromosome</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Compares the chromosome with another.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>chromosome</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the chromosome to compare to. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>true, if the two chromosome are equal. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/chromosome/BitwiseChromosome.java" line="468" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/chromosome/BitwiseChromosome.java" bodystart="468" bodyend="478"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1chromosome_1_1_bitwise_chromosome_1a0da8899c89f8b1f222526acf1d2e8519" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>final int</type>
+        <definition>final int jenes.chromosome.BitwiseChromosome.length</definition>
+        <argsstring>()</argsstring>
+        <name>length</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns the chromosome length expressed in bits. This value can be different from the effective chromosome length (the latter can contain bits used to make the former multiple of <ref refid="" kindref="compound">Integer#SIZE</ref>)</para><para><simplesect kind="return"><para>the chromosome length </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/chromosome/BitwiseChromosome.java" line="487" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/chromosome/BitwiseChromosome.java" bodystart="487" bodyend="489"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1chromosome_1_1_bitwise_chromosome_1a5878e8d0ace81cfb617f75109c02855d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>final int</type>
+        <definition>final int jenes.chromosome.BitwiseChromosome.getIntLength</definition>
+        <argsstring>()</argsstring>
+        <name>getIntLength</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns the chromosome length expressed in integers</para><para><simplesect kind="return"><para>the number of integers </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/chromosome/BitwiseChromosome.java" line="496" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/chromosome/BitwiseChromosome.java" bodystart="496" bodyend="498"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1chromosome_1_1_bitwise_chromosome_1a1a79d4c9c671d2f735d57d64c59dfdb8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>final void</type>
+        <definition>final void jenes.chromosome.BitwiseChromosome.randomize</definition>
+        <argsstring>(final int pos)</argsstring>
+        <name>randomize</name>
+        <param>
+          <type>final int</type>
+          <declname>pos</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Randomizes the bit at the given position</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>pos</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the position of bit to alter </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/chromosome/BitwiseChromosome.java" line="505" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/chromosome/BitwiseChromosome.java" bodystart="505" bodyend="511"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1chromosome_1_1_bitwise_chromosome_1a8028fde93528b7b51313f6c311b2b640" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>final void</type>
+        <definition>final void jenes.chromosome.BitwiseChromosome.randomize</definition>
+        <argsstring>()</argsstring>
+        <name>randomize</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Randomizes each chromosome bit </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/chromosome/BitwiseChromosome.java" line="516" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/chromosome/BitwiseChromosome.java" bodystart="516" bodyend="521"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1chromosome_1_1_bitwise_chromosome_1ab02c791be30c931cae793289185e459f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>final void</type>
+        <definition>final void jenes.chromosome.BitwiseChromosome.leftShift</definition>
+        <argsstring>(final int from, final int to)</argsstring>
+        <name>leftShift</name>
+        <param>
+          <type>final int</type>
+          <declname>from</declname>
+        </param>
+        <param>
+          <type>final int</type>
+          <declname>to</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Executes the left shift of bits within the specified range. The shift is circular, so the most right-side bit becomes the first bit on left.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>from</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the lower range limit </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>to</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the upper range limit </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/chromosome/BitwiseChromosome.java" line="530" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/chromosome/BitwiseChromosome.java" bodystart="530" bodyend="554"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1chromosome_1_1_bitwise_chromosome_1afb689c4b268f7954214a9d0e13c6141e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>final void</type>
+        <definition>final void jenes.chromosome.BitwiseChromosome.rightShift</definition>
+        <argsstring>(final int from, final int to)</argsstring>
+        <name>rightShift</name>
+        <param>
+          <type>final int</type>
+          <declname>from</declname>
+        </param>
+        <param>
+          <type>final int</type>
+          <declname>to</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Executes the right shift of bits within the specified range. The shift is circular, so the most left-side bit becomes the last bit on right.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>from</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the lower range limit </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>to</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the upper range limit </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/chromosome/BitwiseChromosome.java" line="563" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/chromosome/BitwiseChromosome.java" bodystart="563" bodyend="586"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1chromosome_1_1_bitwise_chromosome_1aa4fbad5a25ae14e9524a6ff0ec2536ca" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>final void</type>
+        <definition>final void jenes.chromosome.BitwiseChromosome.setAs</definition>
+        <argsstring>(final BitwiseChromosome chromosome)</argsstring>
+        <name>setAs</name>
+        <param>
+          <type>final <ref refid="classjenes_1_1chromosome_1_1_bitwise_chromosome" kindref="compound">BitwiseChromosome</ref></type>
+          <declname>chromosome</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Sets this chromosome as a copy of another.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>chromosome</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the chromosome to copy </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/chromosome/BitwiseChromosome.java" line="629" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/chromosome/BitwiseChromosome.java" bodystart="629" bodyend="639"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1chromosome_1_1_bitwise_chromosome_1ae5be5fc21ff47526230a8a13ca945c08" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>final void</type>
+        <definition>final void jenes.chromosome.BitwiseChromosome.setDefaultValueAt</definition>
+        <argsstring>(final int pos)</argsstring>
+        <name>setDefaultValueAt</name>
+        <param>
+          <type>final int</type>
+          <declname>pos</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Sets the default bit value at the a given position</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>pos</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>bit position </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/chromosome/BitwiseChromosome.java" line="646" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/chromosome/BitwiseChromosome.java" bodystart="646" bodyend="652"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1chromosome_1_1_bitwise_chromosome_1afac4935f0e1d92b6b1aaf9de024e8cbb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>final void</type>
+        <definition>final void jenes.chromosome.BitwiseChromosome.swap</definition>
+        <argsstring>(final int pos1, final int pos2)</argsstring>
+        <name>swap</name>
+        <param>
+          <type>final int</type>
+          <declname>pos1</declname>
+        </param>
+        <param>
+          <type>final int</type>
+          <declname>pos2</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Swaps two bits at given positions</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>pos1</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>first bit position </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>pos2</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>second bit position </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/chromosome/BitwiseChromosome.java" line="660" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/chromosome/BitwiseChromosome.java" bodystart="660" bodyend="680"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1chromosome_1_1_bitwise_chromosome_1a2140b588068c430eaea7e9a7a5fe6b00" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>final <ref refid="classjenes_1_1chromosome_1_1_bitwise_chromosome" kindref="compound">BitwiseChromosome</ref></type>
+        <definition>final BitwiseChromosome jenes.chromosome.BitwiseChromosome.clone</definition>
+        <argsstring>()</argsstring>
+        <name>clone</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Makes a chromosome copy</para><para><simplesect kind="return"><para>the chromsome clone </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/chromosome/BitwiseChromosome.java" line="688" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/chromosome/BitwiseChromosome.java" bodystart="688" bodyend="690"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1chromosome_1_1_bitwise_chromosome_1a33de872210289a305bc869c61a02eddb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void jenes.chromosome.BitwiseChromosome.difference</definition>
+        <argsstring>(BitwiseChromosome chromosome, double[] diff)</argsstring>
+        <name>difference</name>
+        <param>
+          <type><ref refid="classjenes_1_1chromosome_1_1_bitwise_chromosome" kindref="compound">BitwiseChromosome</ref></type>
+          <declname>chromosome</declname>
+        </param>
+        <param>
+          <type>double[]</type>
+          <declname>diff</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/chromosome/BitwiseChromosome.java" line="693" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/chromosome/BitwiseChromosome.java" bodystart="693" bodyend="703"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1chromosome_1_1_bitwise_chromosome_1aa191192f94ce72a631237674d81ae393" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Object[]</type>
+        <definition>Object [] jenes.chromosome.BitwiseChromosome.toArray</definition>
+        <argsstring>()</argsstring>
+        <name>toArray</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/chromosome/BitwiseChromosome.java" line="706" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/chromosome/BitwiseChromosome.java" bodystart="706" bodyend="712"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classjenes_1_1chromosome_1_1_bitwise_chromosome_1aaa30338501f40d38e67dc23c4f326224" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>final void</type>
+        <definition>final void jenes.chromosome.BitwiseChromosome.bitcross</definition>
+        <argsstring>(final int offset, final int index, final BitwiseChromosome chromosome, final boolean after)</argsstring>
+        <name>bitcross</name>
+        <param>
+          <type>final int</type>
+          <declname>offset</declname>
+        </param>
+        <param>
+          <type>final int</type>
+          <declname>index</declname>
+        </param>
+        <param>
+          <type>final <ref refid="classjenes_1_1chromosome_1_1_bitwise_chromosome" kindref="compound">BitwiseChromosome</ref></type>
+          <declname>chromosome</declname>
+        </param>
+        <param>
+          <type>final boolean</type>
+          <declname>after</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Executes the bit exchange starting from the specified point; it is the start point or the final one according to the after flag value. The cross will involve only the bits of the int value containing the bit at the point position</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>point</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the cross site </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>chromosome</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the chromosome to cross with </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>after</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>direction, true for crossing after, false for crossing before the specified point </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/chromosome/BitwiseChromosome.java" line="440" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/chromosome/BitwiseChromosome.java" bodystart="440" bodyend="460"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1chromosome_1_1_bitwise_chromosome_1a4570a4b004cc6e9806ab456e2061086d" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>final int</type>
+        <definition>final int jenes.chromosome.BitwiseChromosome.bitshift</definition>
+        <argsstring>(final int index, final int from, final int to, final int bit)</argsstring>
+        <name>bitshift</name>
+        <param>
+          <type>final int</type>
+          <declname>index</declname>
+        </param>
+        <param>
+          <type>final int</type>
+          <declname>from</declname>
+        </param>
+        <param>
+          <type>final int</type>
+          <declname>to</declname>
+        </param>
+        <param>
+          <type>final int</type>
+          <declname>bit</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Performs right or left shift in a single integer value</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>index</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the index of the integer where to perform the shift </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>from</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the integer start bit position for the shift (in this position wil lbe copied the bit value) </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>to</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the integer final bit position for the shift </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>bit</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the bit to insert for execute the round shift </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>the bit value to give at the next integer value </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/chromosome/BitwiseChromosome.java" line="597" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/chromosome/BitwiseChromosome.java" bodystart="597" bodyend="622"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>This class provides chromosomes made of bits. Its genome contains objects coded according to a specified <ref refid="" kindref="compound">BitCoding</ref>. Typically objects coded by this chromosome are numeric values. The default integer representation is used when no BitCoding is specified. </para><para>A <ref refid="classjenes_1_1chromosome_1_1_bitwise_chromosome" kindref="compound">BitwiseChromosome</ref> has size and length attributes. The size is the number of coded value contained by its genoma; the length is the number of bits. The length depends on which coding is used for translating objects into bits. The relation between size and length is shown below: </para><para><blockquote><para><preformatted>
+ aBitwiseChromosome.length() = aBitwiseChromosome.getSize() *  aCoding.SIZE.BITS
+</preformatted></para></blockquote>where aCoding.SIZE.BITS is the number of bits required for coding one object. </para><para>This Chromosome performs genetic operations at bit level, processing an array of integer, thus ensuring a high throughput and minimal memory occupation. Using a 16 bit representation, a chromosome holding 4 objects (size) will be represented by 32 bits (length), thus by 2 integers (as each of integer is represented by 32 bit)</para><para><simplesect kind="version"><para>2.0 </para></simplesect>
+<simplesect kind="since"><para>1.0 </para></simplesect>
+</para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="29">
+        <label>jenes.chromosome.BitwiseChromosome</label>
+        <link refid="classjenes_1_1chromosome_1_1_bitwise_chromosome"/>
+        <childnode refid="30" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="30">
+        <label>jenes::chromosome::Chromosome&lt; BitwiseChromosome &gt;</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="33">
+        <label>BitCoding</label>
+      </node>
+      <node id="31">
+        <label>jenes.chromosome.BitwiseChromosome</label>
+        <link refid="classjenes_1_1chromosome_1_1_bitwise_chromosome"/>
+        <childnode refid="32" relation="public-inheritance">
+        </childnode>
+        <childnode refid="33" relation="usage">
+          <edgelabel>coding</edgelabel>
+        </childnode>
+      </node>
+      <node id="32">
+        <label>jenes::chromosome::Chromosome&lt; BitwiseChromosome &gt;</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/chromosome/BitwiseChromosome.java" line="47" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/chromosome/BitwiseChromosome.java" bodystart="47" bodyend="751"/>
+    <listofallmembers>
+      <member refid="classjenes_1_1chromosome_1_1_bitwise_chromosome_1aaa30338501f40d38e67dc23c4f326224" prot="private" virt="non-virtual"><scope>jenes::chromosome::BitwiseChromosome</scope><name>bitcross</name></member>
+      <member refid="classjenes_1_1chromosome_1_1_bitwise_chromosome_1a7b10180d49ba676325c2387b6e40d395" prot="private" virt="non-virtual"><scope>jenes::chromosome::BitwiseChromosome</scope><name>bits</name></member>
+      <member refid="classjenes_1_1chromosome_1_1_bitwise_chromosome_1a4570a4b004cc6e9806ab456e2061086d" prot="private" virt="non-virtual"><scope>jenes::chromosome::BitwiseChromosome</scope><name>bitshift</name></member>
+      <member refid="classjenes_1_1chromosome_1_1_bitwise_chromosome_1a87547c87419943bded51820cbc1ae830" prot="public" virt="non-virtual"><scope>jenes::chromosome::BitwiseChromosome</scope><name>BitwiseChromosome</name></member>
+      <member refid="classjenes_1_1chromosome_1_1_bitwise_chromosome_1a9109a8205e447db9032f29494f0d9b3d" prot="public" virt="non-virtual"><scope>jenes::chromosome::BitwiseChromosome</scope><name>BitwiseChromosome</name></member>
+      <member refid="classjenes_1_1chromosome_1_1_bitwise_chromosome_1a90798d86b6c1871c441b562e0b1d50ca" prot="public" virt="non-virtual"><scope>jenes::chromosome::BitwiseChromosome</scope><name>BitwiseChromosome</name></member>
+      <member refid="classjenes_1_1chromosome_1_1_bitwise_chromosome_1a2140b588068c430eaea7e9a7a5fe6b00" prot="public" virt="non-virtual"><scope>jenes::chromosome::BitwiseChromosome</scope><name>clone</name></member>
+      <member refid="classjenes_1_1chromosome_1_1_bitwise_chromosome_1aaca5e98844bcc938fecc81b959a63c03" prot="private" virt="non-virtual"><scope>jenes::chromosome::BitwiseChromosome</scope><name>coding</name></member>
+      <member refid="classjenes_1_1chromosome_1_1_bitwise_chromosome_1a2d711baa2a74ccb064d33ef73edbd464" prot="public" virt="non-virtual"><scope>jenes::chromosome::BitwiseChromosome</scope><name>cross</name></member>
+      <member refid="classjenes_1_1chromosome_1_1_bitwise_chromosome_1a933b1991999fa3b586c1739744751725" prot="public" virt="non-virtual"><scope>jenes::chromosome::BitwiseChromosome</scope><name>cross</name></member>
+      <member refid="classjenes_1_1chromosome_1_1_bitwise_chromosome_1a33de872210289a305bc869c61a02eddb" prot="public" virt="non-virtual"><scope>jenes::chromosome::BitwiseChromosome</scope><name>difference</name></member>
+      <member refid="classjenes_1_1chromosome_1_1_bitwise_chromosome_1a41c9858f7ef05194011d1e227fea3584" prot="public" virt="non-virtual"><scope>jenes::chromosome::BitwiseChromosome</scope><name>equals</name></member>
+      <member refid="classjenes_1_1chromosome_1_1_bitwise_chromosome_1a46949d4204ed78a682345d88bb90eb5a" prot="private" virt="non-virtual"><scope>jenes::chromosome::BitwiseChromosome</scope><name>genes</name></member>
+      <member refid="classjenes_1_1chromosome_1_1_bitwise_chromosome_1a05ce80f3729d007c5d550eef5969ac86" prot="public" virt="non-virtual"><scope>jenes::chromosome::BitwiseChromosome</scope><name>getBitValueAt</name></member>
+      <member refid="classjenes_1_1chromosome_1_1_bitwise_chromosome_1a5878e8d0ace81cfb617f75109c02855d" prot="public" virt="non-virtual"><scope>jenes::chromosome::BitwiseChromosome</scope><name>getIntLength</name></member>
+      <member refid="classjenes_1_1chromosome_1_1_bitwise_chromosome_1a36e6b8c849d563a359245763116667d5" prot="public" virt="non-virtual"><scope>jenes::chromosome::BitwiseChromosome</scope><name>getIntSize</name></member>
+      <member refid="classjenes_1_1chromosome_1_1_bitwise_chromosome_1af817cb2110fc6b8d415e46377ddd4911" prot="public" virt="non-virtual"><scope>jenes::chromosome::BitwiseChromosome</scope><name>getIntValueAt</name></member>
+      <member refid="classjenes_1_1chromosome_1_1_bitwise_chromosome_1ae59ae8f495ec9d5aa15712cee7c0b313" prot="public" virt="non-virtual"><scope>jenes::chromosome::BitwiseChromosome</scope><name>getSize</name></member>
+      <member refid="classjenes_1_1chromosome_1_1_bitwise_chromosome_1a905b92cd6dc14db9d2b9276f1a6686e9" prot="public" virt="non-virtual"><scope>jenes::chromosome::BitwiseChromosome</scope><name>getType</name></member>
+      <member refid="classjenes_1_1chromosome_1_1_bitwise_chromosome_1a3061d34e1f0c0faa915d4da7ea2f615c" prot="public" virt="non-virtual"><scope>jenes::chromosome::BitwiseChromosome</scope><name>getValueAt</name></member>
+      <member refid="classjenes_1_1chromosome_1_1_bitwise_chromosome_1ab02c791be30c931cae793289185e459f" prot="public" virt="non-virtual"><scope>jenes::chromosome::BitwiseChromosome</scope><name>leftShift</name></member>
+      <member refid="classjenes_1_1chromosome_1_1_bitwise_chromosome_1a0da8899c89f8b1f222526acf1d2e8519" prot="public" virt="non-virtual"><scope>jenes::chromosome::BitwiseChromosome</scope><name>length</name></member>
+      <member refid="classjenes_1_1chromosome_1_1_bitwise_chromosome_1a8270df05321265ad4a7a9345b901aad7" prot="private" virt="non-virtual"><scope>jenes::chromosome::BitwiseChromosome</scope><name>load</name></member>
+      <member refid="classjenes_1_1chromosome_1_1_bitwise_chromosome_1a1a79d4c9c671d2f735d57d64c59dfdb8" prot="public" virt="non-virtual"><scope>jenes::chromosome::BitwiseChromosome</scope><name>randomize</name></member>
+      <member refid="classjenes_1_1chromosome_1_1_bitwise_chromosome_1a8028fde93528b7b51313f6c311b2b640" prot="public" virt="non-virtual"><scope>jenes::chromosome::BitwiseChromosome</scope><name>randomize</name></member>
+      <member refid="classjenes_1_1chromosome_1_1_bitwise_chromosome_1afb689c4b268f7954214a9d0e13c6141e" prot="public" virt="non-virtual"><scope>jenes::chromosome::BitwiseChromosome</scope><name>rightShift</name></member>
+      <member refid="classjenes_1_1chromosome_1_1_bitwise_chromosome_1aa4fbad5a25ae14e9524a6ff0ec2536ca" prot="public" virt="non-virtual"><scope>jenes::chromosome::BitwiseChromosome</scope><name>setAs</name></member>
+      <member refid="classjenes_1_1chromosome_1_1_bitwise_chromosome_1a2e746b511933914d4be452573ac5ab7c" prot="public" virt="non-virtual"><scope>jenes::chromosome::BitwiseChromosome</scope><name>setBitValueAt</name></member>
+      <member refid="classjenes_1_1chromosome_1_1_bitwise_chromosome_1ae5be5fc21ff47526230a8a13ca945c08" prot="public" virt="non-virtual"><scope>jenes::chromosome::BitwiseChromosome</scope><name>setDefaultValueAt</name></member>
+      <member refid="classjenes_1_1chromosome_1_1_bitwise_chromosome_1a3cbcf428333a0dc4209ce2c820054542" prot="public" virt="non-virtual"><scope>jenes::chromosome::BitwiseChromosome</scope><name>setIntValueAt</name></member>
+      <member refid="classjenes_1_1chromosome_1_1_bitwise_chromosome_1aaa42be8f0c26735e8a8d603d9b743b6a" prot="public" virt="non-virtual"><scope>jenes::chromosome::BitwiseChromosome</scope><name>setValue</name></member>
+      <member refid="classjenes_1_1chromosome_1_1_bitwise_chromosome_1a87b8652220ca81cad899a13e341bf954" prot="private" virt="non-virtual"><scope>jenes::chromosome::BitwiseChromosome</scope><name>size</name></member>
+      <member refid="classjenes_1_1chromosome_1_1_bitwise_chromosome_1ab7a20df94261bb660cadcfb834012f1f" prot="private" virt="non-virtual"><scope>jenes::chromosome::BitwiseChromosome</scope><name>slots</name></member>
+      <member refid="classjenes_1_1chromosome_1_1_bitwise_chromosome_1afac4935f0e1d92b6b1aaf9de024e8cbb" prot="public" virt="non-virtual"><scope>jenes::chromosome::BitwiseChromosome</scope><name>swap</name></member>
+      <member refid="classjenes_1_1chromosome_1_1_bitwise_chromosome_1aa191192f94ce72a631237674d81ae393" prot="public" virt="non-virtual"><scope>jenes::chromosome::BitwiseChromosome</scope><name>toArray</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

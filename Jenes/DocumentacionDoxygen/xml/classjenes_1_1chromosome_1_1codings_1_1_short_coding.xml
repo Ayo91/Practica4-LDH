@@ -1,0 +1,159 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="classjenes_1_1chromosome_1_1codings_1_1_short_coding" kind="class" prot="public">
+    <compoundname>jenes::chromosome::codings::ShortCoding</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">jenes::chromosome::BitwiseChromosome::BitCoding&lt; Integer &gt;</basecompoundref>
+    <innerclass refid="enumjenes_1_1chromosome_1_1codings_1_1_short_coding_1_1_mode" prot="public">jenes::chromosome::codings::ShortCoding::Mode</innerclass>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classjenes_1_1chromosome_1_1codings_1_1_short_coding_1a39b438917e13117e9f68757a40f907c2" prot="private" static="no" mutable="no">
+        <type><ref refid="enumjenes_1_1chromosome_1_1codings_1_1_short_coding_1_1_mode" kindref="compound">Mode</ref></type>
+        <definition>Mode jenes.chromosome.codings.ShortCoding.mode</definition>
+        <argsstring></argsstring>
+        <name>mode</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/chromosome/codings/ShortCoding.java" line="55" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/chromosome/codings/ShortCoding.java" bodystart="54" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classjenes_1_1chromosome_1_1codings_1_1_short_coding_1a0571cd23357dd77c1525ed09a5c28e61" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>jenes.chromosome.codings.ShortCoding.ShortCoding</definition>
+        <argsstring>()</argsstring>
+        <name>ShortCoding</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Default constructor. The default mode is two&apos;s complement. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/chromosome/codings/ShortCoding.java" line="60" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/chromosome/codings/ShortCoding.java" bodystart="60" bodyend="62"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1chromosome_1_1codings_1_1_short_coding_1a6b6608f22e850e062f424033fae5e0bd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>jenes.chromosome.codings.ShortCoding.ShortCoding</definition>
+        <argsstring>(final Mode mode)</argsstring>
+        <name>ShortCoding</name>
+        <param>
+          <type>final <ref refid="enumjenes_1_1chromosome_1_1codings_1_1_short_coding_1_1_mode" kindref="compound">Mode</ref></type>
+          <declname>mode</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Creates a <ref refid="classjenes_1_1chromosome_1_1codings_1_1_short_coding" kindref="compound">ShortCoding</ref> with the specified mode, that is the number representation scheme.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>mode</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>can be two&apos;s complement or module and sign. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/chromosome/codings/ShortCoding.java" line="69" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/chromosome/codings/ShortCoding.java" bodystart="69" bodyend="72"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1chromosome_1_1codings_1_1_short_coding_1aa6c8649fe7e82bf923979d4afdfc9130" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>final Integer</type>
+        <definition>final Integer jenes.chromosome.codings.ShortCoding.decode</definition>
+        <argsstring>(final int bits)</argsstring>
+        <name>decode</name>
+        <param>
+          <type>final int</type>
+          <declname>bits</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns the value of coded bits</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>bits</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>coding the value </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>the value </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/chromosome/codings/ShortCoding.java" line="81" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/chromosome/codings/ShortCoding.java" bodystart="81" bodyend="100"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1chromosome_1_1codings_1_1_short_coding_1a140298d12b6d6a291b5849b9cc5b7400" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>final int</type>
+        <definition>final int jenes.chromosome.codings.ShortCoding.encode</definition>
+        <argsstring>(final Integer value)</argsstring>
+        <name>encode</name>
+        <param>
+          <type>final Integer</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns the bits coding the value</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>value</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the value to be coded </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>the coding bits </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/chromosome/codings/ShortCoding.java" line="109" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/chromosome/codings/ShortCoding.java" bodystart="109" bodyend="129"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Represents a short coding with 16 bits. There are two possible representations: the two complement ond and the module and sign one. The range representable with the former is [-32768,32767]; the one representable with the latter is [-32767,32767] (the difference is the latter provides two different codes to represent the 0).</para><para><simplesect kind="version"><para>1.2 </para></simplesect>
+<simplesect kind="since"><para>1.0</para></simplesect>
+<simplesect kind="see"><para><ref refid="classjenes_1_1chromosome_1_1codings_1_1_byte_coding" kindref="compound">ByteCoding</ref> </para><simplesectsep/><para><ref refid="classjenes_1_1chromosome_1_1codings_1_1_int_coding" kindref="compound">IntCoding</ref> </para><simplesectsep/><para><ref refid="classjenes_1_1chromosome_1_1codings_1_1_gray_coding" kindref="compound">GrayCoding</ref> </para><simplesectsep/><para><ref refid="classjenes_1_1chromosome_1_1codings_1_1_word_coding" kindref="compound">WordCoding</ref> </para><simplesectsep/><para>BitSize </para><simplesectsep/><para><ref refid="classjenes_1_1chromosome_1_1codings_1_1_boolean_coding" kindref="compound">BooleanCoding</ref> </para></simplesect>
+</para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="599">
+        <label>jenes::chromosome::BitwiseChromosome::BitCoding&lt; Integer &gt;</label>
+      </node>
+      <node id="598">
+        <label>jenes.chromosome.codings.ShortCoding</label>
+        <link refid="classjenes_1_1chromosome_1_1codings_1_1_short_coding"/>
+        <childnode refid="599" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="601">
+        <label>jenes::chromosome::BitwiseChromosome::BitCoding&lt; Integer &gt;</label>
+      </node>
+      <node id="600">
+        <label>jenes.chromosome.codings.ShortCoding</label>
+        <link refid="classjenes_1_1chromosome_1_1codings_1_1_short_coding"/>
+        <childnode refid="601" relation="public-inheritance">
+        </childnode>
+        <childnode refid="602" relation="usage">
+          <edgelabel>mode</edgelabel>
+        </childnode>
+      </node>
+      <node id="602">
+        <label>jenes.chromosome.codings.ShortCoding.Mode</label>
+        <link refid="enumjenes_1_1chromosome_1_1codings_1_1_short_coding_1_1_mode"/>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/chromosome/codings/ShortCoding.java" line="39" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/chromosome/codings/ShortCoding.java" bodystart="39" bodyend="130"/>
+    <listofallmembers>
+      <member refid="classjenes_1_1chromosome_1_1codings_1_1_short_coding_1aa6c8649fe7e82bf923979d4afdfc9130" prot="public" virt="non-virtual"><scope>jenes::chromosome::codings::ShortCoding</scope><name>decode</name></member>
+      <member refid="classjenes_1_1chromosome_1_1codings_1_1_short_coding_1a140298d12b6d6a291b5849b9cc5b7400" prot="public" virt="non-virtual"><scope>jenes::chromosome::codings::ShortCoding</scope><name>encode</name></member>
+      <member refid="classjenes_1_1chromosome_1_1codings_1_1_short_coding_1a39b438917e13117e9f68757a40f907c2" prot="private" virt="non-virtual"><scope>jenes::chromosome::codings::ShortCoding</scope><name>mode</name></member>
+      <member refid="classjenes_1_1chromosome_1_1codings_1_1_short_coding_1a0571cd23357dd77c1525ed09a5c28e61" prot="public" virt="non-virtual"><scope>jenes::chromosome::codings::ShortCoding</scope><name>ShortCoding</name></member>
+      <member refid="classjenes_1_1chromosome_1_1codings_1_1_short_coding_1a6b6608f22e850e062f424033fae5e0bd" prot="public" virt="non-virtual"><scope>jenes::chromosome::codings::ShortCoding</scope><name>ShortCoding</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

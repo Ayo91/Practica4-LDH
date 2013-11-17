@@ -1,0 +1,167 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="classjenes_1_1tutorials_1_1problem8_1_1_numeric_crossover" kind="class" prot="public">
+    <compoundname>jenes::tutorials::problem8::NumericCrossover</compoundname>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classjenes_1_1tutorials_1_1problem8_1_1_numeric_crossover_1af73d636c488b92bf3ae33d19d1f5f5e7" prot="public" static="yes" mutable="no">
+        <type>int</type>
+        <definition>int jenes.tutorials.problem8.NumericCrossover.LENGHT</definition>
+        <argsstring></argsstring>
+        <name>LENGHT</name>
+        <initializer>= 3</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/problem8/NumericCrossover.java" line="44" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/problem8/NumericCrossover.java" bodystart="44" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classjenes_1_1tutorials_1_1problem8_1_1_numeric_crossover_1a0a9b3b839ab6677dcbae723434df6551" prot="public" static="yes" mutable="no">
+        <type>int</type>
+        <definition>int jenes.tutorials.problem8.NumericCrossover.POPSIZE</definition>
+        <argsstring></argsstring>
+        <name>POPSIZE</name>
+        <initializer>= 100</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/problem8/NumericCrossover.java" line="46" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/problem8/NumericCrossover.java" bodystart="46" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classjenes_1_1tutorials_1_1problem8_1_1_numeric_crossover_1a5e45487dcf5730d7c628ca85b21160dc" prot="public" static="yes" mutable="no">
+        <type>int</type>
+        <definition>int jenes.tutorials.problem8.NumericCrossover.GENLIM</definition>
+        <argsstring></argsstring>
+        <name>GENLIM</name>
+        <initializer>= 300</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/problem8/NumericCrossover.java" line="47" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/problem8/NumericCrossover.java" bodystart="47" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classjenes_1_1tutorials_1_1problem8_1_1_numeric_crossover_1ae4fcf3a595e386c6aeec443dedaba83f" prot="public" static="yes" mutable="no">
+        <type>double</type>
+        <definition>double jenes.tutorials.problem8.NumericCrossover.CROSSRATE</definition>
+        <argsstring></argsstring>
+        <name>CROSSRATE</name>
+        <initializer>= 0.8</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/problem8/NumericCrossover.java" line="49" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/problem8/NumericCrossover.java" bodystart="49" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classjenes_1_1tutorials_1_1problem8_1_1_numeric_crossover_1a4d0587e4b39b1f74efd20a0c921c38f7" prot="public" static="yes" mutable="no">
+        <type>double</type>
+        <definition>double jenes.tutorials.problem8.NumericCrossover.MUTPROB</definition>
+        <argsstring></argsstring>
+        <name>MUTPROB</name>
+        <initializer>= 0.02</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/problem8/NumericCrossover.java" line="50" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/problem8/NumericCrossover.java" bodystart="50" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classjenes_1_1tutorials_1_1problem8_1_1_numeric_crossover_1ae3c1d4871321a6323d09add505679fe0" prot="public" static="yes" mutable="no">
+        <type>double</type>
+        <definition>double jenes.tutorials.problem8.NumericCrossover.RATIO</definition>
+        <argsstring></argsstring>
+        <name>RATIO</name>
+        <initializer>= 0.6</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/problem8/NumericCrossover.java" line="52" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/problem8/NumericCrossover.java" bodystart="52" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classjenes_1_1tutorials_1_1problem8_1_1_numeric_crossover_1a8af3f285354dc96e81647a03d76d93c5" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>GeneticAlgorithm&lt; <ref refid="classjenes_1_1chromosome_1_1_double_chromosome" kindref="compound">DoubleChromosome</ref> &gt;</type>
+        <definition>static GeneticAlgorithm&lt;DoubleChromosome&gt; jenes.tutorials.problem8.NumericCrossover.buildGA</definition>
+        <argsstring>(Crossover&lt; DoubleChromosome &gt; crossover, int n)</argsstring>
+        <name>buildGA</name>
+        <param>
+          <type>Crossover&lt; <ref refid="classjenes_1_1chromosome_1_1_double_chromosome" kindref="compound">DoubleChromosome</ref> &gt;</type>
+          <declname>crossover</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>n</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/problem8/NumericCrossover.java" line="54" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/problem8/NumericCrossover.java" bodystart="54" bodyend="85"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1tutorials_1_1problem8_1_1_numeric_crossover_1aef1de8d283010a790fb20661fae423f2" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>double</type>
+        <definition>static double jenes.tutorials.problem8.NumericCrossover.serror</definition>
+        <argsstring>(Individual ind)</argsstring>
+        <name>serror</name>
+        <param>
+          <type>Individual</type>
+          <declname>ind</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/problem8/NumericCrossover.java" line="87" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/problem8/NumericCrossover.java" bodystart="87" bodyend="98"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1tutorials_1_1problem8_1_1_numeric_crossover_1a11da9d09414921591a53cddb601cc203" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void jenes.tutorials.problem8.NumericCrossover.main</definition>
+        <argsstring>(String...args)</argsstring>
+        <name>main</name>
+        <param>
+          <type>String...</type>
+          <declname>args</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/problem8/NumericCrossover.java" line="100" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/problem8/NumericCrossover.java" bodystart="100" bodyend="129"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Tutorial showing how to use IntermediateCrossover and HeursiticCrossover in numerical optimization problems.</para><para><simplesect kind="version"><para>2.0 </para></simplesect>
+<simplesect kind="since"><para>2.0 </para></simplesect>
+</para>    </detaileddescription>
+    <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/problem8/NumericCrossover.java" line="42" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/problem8/NumericCrossover.java" bodystart="42" bodyend="131"/>
+    <listofallmembers>
+      <member refid="classjenes_1_1tutorials_1_1problem8_1_1_numeric_crossover_1a8af3f285354dc96e81647a03d76d93c5" prot="public" virt="non-virtual"><scope>jenes::tutorials::problem8::NumericCrossover</scope><name>buildGA</name></member>
+      <member refid="classjenes_1_1tutorials_1_1problem8_1_1_numeric_crossover_1ae4fcf3a595e386c6aeec443dedaba83f" prot="public" virt="non-virtual"><scope>jenes::tutorials::problem8::NumericCrossover</scope><name>CROSSRATE</name></member>
+      <member refid="classjenes_1_1tutorials_1_1problem8_1_1_numeric_crossover_1a5e45487dcf5730d7c628ca85b21160dc" prot="public" virt="non-virtual"><scope>jenes::tutorials::problem8::NumericCrossover</scope><name>GENLIM</name></member>
+      <member refid="classjenes_1_1tutorials_1_1problem8_1_1_numeric_crossover_1af73d636c488b92bf3ae33d19d1f5f5e7" prot="public" virt="non-virtual"><scope>jenes::tutorials::problem8::NumericCrossover</scope><name>LENGHT</name></member>
+      <member refid="classjenes_1_1tutorials_1_1problem8_1_1_numeric_crossover_1a11da9d09414921591a53cddb601cc203" prot="public" virt="non-virtual"><scope>jenes::tutorials::problem8::NumericCrossover</scope><name>main</name></member>
+      <member refid="classjenes_1_1tutorials_1_1problem8_1_1_numeric_crossover_1a4d0587e4b39b1f74efd20a0c921c38f7" prot="public" virt="non-virtual"><scope>jenes::tutorials::problem8::NumericCrossover</scope><name>MUTPROB</name></member>
+      <member refid="classjenes_1_1tutorials_1_1problem8_1_1_numeric_crossover_1a0a9b3b839ab6677dcbae723434df6551" prot="public" virt="non-virtual"><scope>jenes::tutorials::problem8::NumericCrossover</scope><name>POPSIZE</name></member>
+      <member refid="classjenes_1_1tutorials_1_1problem8_1_1_numeric_crossover_1ae3c1d4871321a6323d09add505679fe0" prot="public" virt="non-virtual"><scope>jenes::tutorials::problem8::NumericCrossover</scope><name>RATIO</name></member>
+      <member refid="classjenes_1_1tutorials_1_1problem8_1_1_numeric_crossover_1aef1de8d283010a790fb20661fae423f2" prot="public" virt="non-virtual"><scope>jenes::tutorials::problem8::NumericCrossover</scope><name>serror</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

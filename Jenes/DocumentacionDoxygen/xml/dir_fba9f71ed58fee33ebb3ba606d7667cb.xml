@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="dir_fba9f71ed58fee33ebb3ba606d7667cb" kind="dir">
+    <compoundname>src/jenes/utils</compoundname>
+    <innerdir refid="dir_4abcc20f3f4315bb8cacf03180c799b0">src/jenes/utils/multitasking</innerdir>
+    <innerfile refid="_abstract_logger_8java">AbstractLogger.java</innerfile>
+    <innerfile refid="_c_s_v_logger_8java">CSVLogger.java</innerfile>
+    <innerfile refid="_mersenne_twister_fast_8java">MersenneTwisterFast.java</innerfile>
+    <innerfile refid="_pretty_printer_8java">PrettyPrinter.java</innerfile>
+    <innerfile refid="_random_8java">Random.java</innerfile>
+    <innerfile refid="_x_l_s_logger_8java">XLSLogger.java</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/utils/"/>
+  </compounddef>
+</doxygen>

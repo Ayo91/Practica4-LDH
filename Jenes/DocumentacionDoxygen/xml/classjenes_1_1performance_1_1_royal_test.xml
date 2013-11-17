@@ -1,0 +1,99 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="classjenes_1_1performance_1_1_royal_test" kind="class" prot="public">
+    <compoundname>jenes::performance::RoyalTest</compoundname>
+      <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="classjenes_1_1performance_1_1_royal_test_1a1b996f1c7dd63921753d3e5d70261eb5" prot="protected" static="no" mutable="no">
+        <type>GeneticAlgorithm&lt; <ref refid="classjenes_1_1chromosome_1_1_bitwise_chromosome" kindref="compound">BitwiseChromosome</ref> &gt;</type>
+        <definition>GeneticAlgorithm&lt;BitwiseChromosome&gt; jenes.performance.RoyalTest.ga</definition>
+        <argsstring></argsstring>
+        <name>ga</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/performance/RoyalTest.java" line="33" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/performance/RoyalTest.java" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classjenes_1_1performance_1_1_royal_test_1a9af2c54a5edd971c03fec8e3b5f0f8c3" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void jenes.performance.RoyalTest.main</definition>
+        <argsstring>(String[] args)</argsstring>
+        <name>main</name>
+        <param>
+          <type>String[]</type>
+          <declname>args</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/performance/RoyalTest.java" line="35" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/performance/RoyalTest.java" bodystart="35" bodyend="38"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classjenes_1_1performance_1_1_royal_test_1a07b3000deb54543974d475d6acf38243" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>jenes.performance.RoyalTest.RoyalTest</definition>
+        <argsstring>(int popSize, int genLimit)</argsstring>
+        <name>RoyalTest</name>
+        <param>
+          <type>int</type>
+          <declname>popSize</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>genLimit</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/performance/RoyalTest.java" line="40" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/performance/RoyalTest.java" bodystart="40" bodyend="57"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1performance_1_1_royal_test_1a4338b121c1d581f022691a2db6d53e55" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void jenes.performance.RoyalTest.solve</definition>
+        <argsstring>()</argsstring>
+        <name>solve</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/performance/RoyalTest.java" line="59" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/performance/RoyalTest.java" bodystart="59" bodyend="71"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="558">
+        <label>GeneticAlgorithm&lt; jenes.chromosome.BitwiseChromosome &gt;</label>
+      </node>
+      <node id="557">
+        <label>jenes.performance.RoyalTest</label>
+        <link refid="classjenes_1_1performance_1_1_royal_test"/>
+        <childnode refid="558" relation="usage">
+          <edgelabel>ga</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/performance/RoyalTest.java" line="31" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/performance/RoyalTest.java" bodystart="31" bodyend="72"/>
+    <listofallmembers>
+      <member refid="classjenes_1_1performance_1_1_royal_test_1a1b996f1c7dd63921753d3e5d70261eb5" prot="protected" virt="non-virtual"><scope>jenes::performance::RoyalTest</scope><name>ga</name></member>
+      <member refid="classjenes_1_1performance_1_1_royal_test_1a9af2c54a5edd971c03fec8e3b5f0f8c3" prot="public" virt="non-virtual"><scope>jenes::performance::RoyalTest</scope><name>main</name></member>
+      <member refid="classjenes_1_1performance_1_1_royal_test_1a07b3000deb54543974d475d6acf38243" prot="public" virt="non-virtual"><scope>jenes::performance::RoyalTest</scope><name>RoyalTest</name></member>
+      <member refid="classjenes_1_1performance_1_1_royal_test_1a4338b121c1d581f022691a2db6d53e55" prot="public" virt="non-virtual"><scope>jenes::performance::RoyalTest</scope><name>solve</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

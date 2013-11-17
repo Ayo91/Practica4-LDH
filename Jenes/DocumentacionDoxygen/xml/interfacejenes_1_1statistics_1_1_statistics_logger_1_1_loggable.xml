@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="interfacejenes_1_1statistics_1_1_statistics_logger_1_1_loggable" kind="interface" prot="public">
+    <compoundname>jenes::statistics::StatisticsLogger::Loggable</compoundname>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="interfacejenes_1_1statistics_1_1_statistics_logger_1_1_loggable_1a4af45b207d6c314f587d8220a17bce95" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>String</type>
+        <definition>String jenes.statistics.StatisticsLogger.Loggable.label</definition>
+        <argsstring>()</argsstring>
+        <name>label</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Label assigned to the figure</para><para><simplesect kind="return"><para>the figure&apos;s label </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/statistics/StatisticsLogger.java" line="305" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Annotation for methods providing some figure in a <ref refid="classjenes_1_1statistics_1_1_statistics_logger_1_1_loggable_statistics" kindref="compound">LoggableStatistics</ref> object.</para><para>The method has to be <computeroutput>double foo()</computeroutput>. Requires to specify the figure&apos;s label. The method name and annotation label are not necessarily related. For example:</para><para><preformatted>
+&amp;#064;<ref refid="interfacejenes_1_1statistics_1_1_statistics_logger_1_1_loggable" kindref="compound">Loggable</ref>(&quot;SomeStatistics&quot;)
+double getSomeStatistic() {...}
+</preformatted> </para>    </detaileddescription>
+    <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/statistics/StatisticsLogger.java" line="298" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/statistics/StatisticsLogger.java" bodystart="298" bodyend="306"/>
+    <listofallmembers>
+      <member refid="interfacejenes_1_1statistics_1_1_statistics_logger_1_1_loggable_1a4af45b207d6c314f587d8220a17bce95" prot="public" virt="non-virtual"><scope>jenes::statistics::StatisticsLogger::Loggable</scope><name>label</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

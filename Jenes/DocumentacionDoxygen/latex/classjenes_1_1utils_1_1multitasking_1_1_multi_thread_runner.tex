@@ -1,0 +1,106 @@
+\hypertarget{classjenes_1_1utils_1_1multitasking_1_1_multi_thread_runner}{\section{jenes.\-utils.\-multitasking.\-Multi\-Thread\-Runner Class Reference}
+\label{classjenes_1_1utils_1_1multitasking_1_1_multi_thread_runner}\index{jenes.\-utils.\-multitasking.\-Multi\-Thread\-Runner@{jenes.\-utils.\-multitasking.\-Multi\-Thread\-Runner}}
+}
+Inheritance diagram for jenes.\-utils.\-multitasking.\-Multi\-Thread\-Runner\-:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=3.000000cm]{classjenes_1_1utils_1_1multitasking_1_1_multi_thread_runner}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classjenes_1_1utils_1_1multitasking_1_1_multi_thread_runner_ab0815486f3159f086cd06ccab94df319}{Multi\-Thread\-Runner} ()
+\item 
+\hyperlink{classjenes_1_1utils_1_1multitasking_1_1_multi_thread_runner_a6319362b08c06d8bf26989407d223c31}{Multi\-Thread\-Runner} (int \hyperlink{classjenes_1_1utils_1_1multitasking_1_1_multi_thread_runner_aa20fe700a6b2abd3694b4a1d5629db8f}{nthreads})
+\item 
+int \hyperlink{classjenes_1_1utils_1_1multitasking_1_1_multi_thread_runner_a69370630a898026070fe8e806cec8fe0}{get\-Nthreads} ()
+\item 
+void \hyperlink{classjenes_1_1utils_1_1multitasking_1_1_multi_thread_runner_a52fc59a28c3187e84b871b9b823b7f43}{start} (boolean reset)
+\item 
+void \hyperlink{classjenes_1_1utils_1_1multitasking_1_1_multi_thread_runner_a5f00a9b63ff1322d586ad62ec060d597}{stop} ()
+\end{DoxyCompactItemize}
+\subsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+int \hyperlink{classjenes_1_1utils_1_1multitasking_1_1_multi_thread_runner_aa20fe700a6b2abd3694b4a1d5629db8f}{nthreads}
+\item 
+Executor\-Service \hyperlink{classjenes_1_1utils_1_1multitasking_1_1_multi_thread_runner_afd9939cc7a261bd4bb6c8f3de6f58337}{thread\-Group}
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+This class provide the basic implementation of a multi-\/thread enviroinment for \hyperlink{}{Genetic\-Algorithm}
+
+\begin{DoxySince}{Since}
+2.\-0 
+\end{DoxySince}
+
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{classjenes_1_1utils_1_1multitasking_1_1_multi_thread_runner_ab0815486f3159f086cd06ccab94df319}{\index{jenes\-::utils\-::multitasking\-::\-Multi\-Thread\-Runner@{jenes\-::utils\-::multitasking\-::\-Multi\-Thread\-Runner}!Multi\-Thread\-Runner@{Multi\-Thread\-Runner}}
+\index{Multi\-Thread\-Runner@{Multi\-Thread\-Runner}!jenes::utils::multitasking::MultiThreadRunner@{jenes\-::utils\-::multitasking\-::\-Multi\-Thread\-Runner}}
+\subsubsection[{Multi\-Thread\-Runner}]{\setlength{\rightskip}{0pt plus 5cm}jenes.\-utils.\-multitasking.\-Multi\-Thread\-Runner.\-Multi\-Thread\-Runner (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classjenes_1_1utils_1_1multitasking_1_1_multi_thread_runner_ab0815486f3159f086cd06ccab94df319}
+Default constructor. This will instantiate a \hyperlink{classjenes_1_1utils_1_1multitasking_1_1_multi_thread_runner}{Multi\-Thread\-Runner} envoiroinment wich thread number is equals to the maximum number of processor phisical avaible to the host Java Virtual Machine. \par
+ This approach minimize the overhead in managing the thread because the latest J\-V\-Ms could try to dispach each thread on a different phisical processor obtaining the best speed-\/up in performances. \begin{DoxySeeAlso}{See Also}
+\hyperlink{classjenes_1_1utils_1_1multitasking_1_1_multi_thread_runner_a6319362b08c06d8bf26989407d223c31}{Multi\-Thread\-Runner(int)} 
+
+Runtime\-::available\-Processors() 
+\end{DoxySeeAlso}
+\hypertarget{classjenes_1_1utils_1_1multitasking_1_1_multi_thread_runner_a6319362b08c06d8bf26989407d223c31}{\index{jenes\-::utils\-::multitasking\-::\-Multi\-Thread\-Runner@{jenes\-::utils\-::multitasking\-::\-Multi\-Thread\-Runner}!Multi\-Thread\-Runner@{Multi\-Thread\-Runner}}
+\index{Multi\-Thread\-Runner@{Multi\-Thread\-Runner}!jenes::utils::multitasking::MultiThreadRunner@{jenes\-::utils\-::multitasking\-::\-Multi\-Thread\-Runner}}
+\subsubsection[{Multi\-Thread\-Runner}]{\setlength{\rightskip}{0pt plus 5cm}jenes.\-utils.\-multitasking.\-Multi\-Thread\-Runner.\-Multi\-Thread\-Runner (
+\begin{DoxyParamCaption}
+\item[{int}]{nthreads}
+\end{DoxyParamCaption}
+)}}\label{classjenes_1_1utils_1_1multitasking_1_1_multi_thread_runner_a6319362b08c06d8bf26989407d223c31}
+This will instantiate a \hyperlink{classjenes_1_1utils_1_1multitasking_1_1_multi_thread_runner}{Multi\-Thread\-Runner} enviroinment with a fixed thread pool sized as defined by argument 
+\begin{DoxyParams}{Parameters}
+{\em nthreads} & the number of threads to use to parallelize algorithm execution \\
+\hline
+\end{DoxyParams}
+
+
+\subsection{Member Function Documentation}
+\hypertarget{classjenes_1_1utils_1_1multitasking_1_1_multi_thread_runner_a69370630a898026070fe8e806cec8fe0}{\index{jenes\-::utils\-::multitasking\-::\-Multi\-Thread\-Runner@{jenes\-::utils\-::multitasking\-::\-Multi\-Thread\-Runner}!get\-Nthreads@{get\-Nthreads}}
+\index{get\-Nthreads@{get\-Nthreads}!jenes::utils::multitasking::MultiThreadRunner@{jenes\-::utils\-::multitasking\-::\-Multi\-Thread\-Runner}}
+\subsubsection[{get\-Nthreads}]{\setlength{\rightskip}{0pt plus 5cm}int jenes.\-utils.\-multitasking.\-Multi\-Thread\-Runner.\-get\-Nthreads (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classjenes_1_1utils_1_1multitasking_1_1_multi_thread_runner_a69370630a898026070fe8e806cec8fe0}
+Get the number of threads currently setted for this enviroinment \begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+\hypertarget{classjenes_1_1utils_1_1multitasking_1_1_multi_thread_runner_a52fc59a28c3187e84b871b9b823b7f43}{\index{jenes\-::utils\-::multitasking\-::\-Multi\-Thread\-Runner@{jenes\-::utils\-::multitasking\-::\-Multi\-Thread\-Runner}!start@{start}}
+\index{start@{start}!jenes::utils::multitasking::MultiThreadRunner@{jenes\-::utils\-::multitasking\-::\-Multi\-Thread\-Runner}}
+\subsubsection[{start}]{\setlength{\rightskip}{0pt plus 5cm}void jenes.\-utils.\-multitasking.\-Multi\-Thread\-Runner.\-start (
+\begin{DoxyParamCaption}
+\item[{boolean}]{reset}
+\end{DoxyParamCaption}
+)}}\label{classjenes_1_1utils_1_1multitasking_1_1_multi_thread_runner_a52fc59a28c3187e84b871b9b823b7f43}
+\hypertarget{classjenes_1_1utils_1_1multitasking_1_1_multi_thread_runner_a5f00a9b63ff1322d586ad62ec060d597}{\index{jenes\-::utils\-::multitasking\-::\-Multi\-Thread\-Runner@{jenes\-::utils\-::multitasking\-::\-Multi\-Thread\-Runner}!stop@{stop}}
+\index{stop@{stop}!jenes::utils::multitasking::MultiThreadRunner@{jenes\-::utils\-::multitasking\-::\-Multi\-Thread\-Runner}}
+\subsubsection[{stop}]{\setlength{\rightskip}{0pt plus 5cm}void jenes.\-utils.\-multitasking.\-Multi\-Thread\-Runner.\-stop (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classjenes_1_1utils_1_1multitasking_1_1_multi_thread_runner_a5f00a9b63ff1322d586ad62ec060d597}
+
+
+\subsection{Member Data Documentation}
+\hypertarget{classjenes_1_1utils_1_1multitasking_1_1_multi_thread_runner_aa20fe700a6b2abd3694b4a1d5629db8f}{\index{jenes\-::utils\-::multitasking\-::\-Multi\-Thread\-Runner@{jenes\-::utils\-::multitasking\-::\-Multi\-Thread\-Runner}!nthreads@{nthreads}}
+\index{nthreads@{nthreads}!jenes::utils::multitasking::MultiThreadRunner@{jenes\-::utils\-::multitasking\-::\-Multi\-Thread\-Runner}}
+\subsubsection[{nthreads}]{\setlength{\rightskip}{0pt plus 5cm}int jenes.\-utils.\-multitasking.\-Multi\-Thread\-Runner.\-nthreads\hspace{0.3cm}{\ttfamily [protected]}}}\label{classjenes_1_1utils_1_1multitasking_1_1_multi_thread_runner_aa20fe700a6b2abd3694b4a1d5629db8f}
+\hypertarget{classjenes_1_1utils_1_1multitasking_1_1_multi_thread_runner_afd9939cc7a261bd4bb6c8f3de6f58337}{\index{jenes\-::utils\-::multitasking\-::\-Multi\-Thread\-Runner@{jenes\-::utils\-::multitasking\-::\-Multi\-Thread\-Runner}!thread\-Group@{thread\-Group}}
+\index{thread\-Group@{thread\-Group}!jenes::utils::multitasking::MultiThreadRunner@{jenes\-::utils\-::multitasking\-::\-Multi\-Thread\-Runner}}
+\subsubsection[{thread\-Group}]{\setlength{\rightskip}{0pt plus 5cm}Executor\-Service jenes.\-utils.\-multitasking.\-Multi\-Thread\-Runner.\-thread\-Group\hspace{0.3cm}{\ttfamily [protected]}}}\label{classjenes_1_1utils_1_1multitasking_1_1_multi_thread_runner_afd9939cc7a261bd4bb6c8f3de6f58337}
+Instance of the thread pool 
+
+The documentation for this class was generated from the following file\-:\begin{DoxyCompactItemize}
+\item 
+src/jenes/utils/multitasking/\hyperlink{_multi_thread_runner_8java}{Multi\-Thread\-Runner.\-java}\end{DoxyCompactItemize}

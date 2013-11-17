@@ -1,0 +1,103 @@
+\hypertarget{interfacejenes_1_1_algorithm_event_listener_3_01_t_01extends_01_chromosome_01_4}{\section{jenes.\-Algorithm\-Event\-Listener$<$ T extends Chromosome $>$ Interface Reference}
+\label{interfacejenes_1_1_algorithm_event_listener_3_01_t_01extends_01_chromosome_01_4}\index{jenes.\-Algorithm\-Event\-Listener$<$ T extends Chromosome $>$@{jenes.\-Algorithm\-Event\-Listener$<$ T extends Chromosome $>$}}
+}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{interfacejenes_1_1_algorithm_event_listener_3_01_t_01extends_01_chromosome_01_4_af0d6e9961e685f4d44270a4feedeb70f}{on\-Algorithm\-Start} (Genetic\-Algorithm$<$ T $>$ ga, long time)
+\item 
+void \hyperlink{interfacejenes_1_1_algorithm_event_listener_3_01_t_01extends_01_chromosome_01_4_ab494ea60f6000ebcd02a94c7eda70dcf}{on\-Algorithm\-Stop} (Genetic\-Algorithm$<$ T $>$ ga, long time)
+\item 
+void \hyperlink{interfacejenes_1_1_algorithm_event_listener_3_01_t_01extends_01_chromosome_01_4_af5f6bb7f487c9ecd01331427a370889e}{on\-Algorithm\-Init} (Genetic\-Algorithm$<$ T $>$ ga, long time)
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+{\ttfamily Algorithm\-Event\-Listener} provides the interface for capturing events at algorithm level. This iterface should be implemented by all classes interested in being notified by algorithm events, that are\-: 
+\begin{DoxyItemize}
+\item Start, when the algorithm evolution starts. The first step consists in initiliazing data structures, in particular populations. 
+\item Init, when the initilization task is accomplished. 
+\item Stop, when the evolution terminates. 
+\end{DoxyItemize}
+
+An {\ttfamily Algorithm\-Event\-Listener} is registered to the algorithm by the method \hyperlink{}{Genetic\-Algorithm\#add\-Algorithm\-Event\-Listener(\-Algorithm\-Event\-Listener)}. The listener is removed by invoking the method \hyperlink{}{Genetic\-Algorithm\#remove\-Algorithm\-Event\-Listener(\-Algorithm\-Event\-Listener)}. 
+
+An {\ttfamily Algorithm\-Event\-Listener{\ttfamily  can be registered to multiple different algorithms, thus being notified by all of them. }}
+
+{\ttfamily {\ttfamily  Another way to get notified of algorithms events is to override methods \hyperlink{}{Genetic\-Algorithm\#on\-Start(long)}, \hyperlink{}{Genetic\-Algorithm\#on\-Init(long)} and \hyperlink{}{Genetic\-Algorithm\#on\-Stop(long)} when subclassing the {\ttfamily Genetic\-Algorithm} class. }}
+
+{\ttfamily {\ttfamily }}
+
+{\ttfamily {\ttfamily 
+\begin{DoxyParams}{Parameters}
+{\em $<$\-T$>$} & extends Chromosome\\
+\hline
+\end{DoxyParams}
+\begin{DoxyVersion}{Version}
+1.\-2 
+\end{DoxyVersion}
+\begin{DoxySince}{Since}
+1.\-0
+\end{DoxySince}
+\begin{DoxySeeAlso}{See Also}
+Genetic\-Algorithm 
+\end{DoxySeeAlso}
+}}
+
+\subsection{Member Function Documentation}
+\hypertarget{interfacejenes_1_1_algorithm_event_listener_3_01_t_01extends_01_chromosome_01_4_af5f6bb7f487c9ecd01331427a370889e}{\index{jenes\-::\-Algorithm\-Event\-Listener$<$ T extends Chromosome $>$@{jenes\-::\-Algorithm\-Event\-Listener$<$ T extends Chromosome $>$}!on\-Algorithm\-Init@{on\-Algorithm\-Init}}
+\index{on\-Algorithm\-Init@{on\-Algorithm\-Init}!jenes::AlgorithmEventListener< T extends Chromosome >@{jenes\-::\-Algorithm\-Event\-Listener$<$ T extends Chromosome $>$}}
+\subsubsection[{on\-Algorithm\-Init}]{\setlength{\rightskip}{0pt plus 5cm}void jenes.\-Algorithm\-Event\-Listener$<$ T extends Chromosome $>$.on\-Algorithm\-Init (
+\begin{DoxyParamCaption}
+\item[{Genetic\-Algorithm$<$ T $>$}]{ga, }
+\item[{long}]{time}
+\end{DoxyParamCaption}
+)}}\label{interfacejenes_1_1_algorithm_event_listener_3_01_t_01extends_01_chromosome_01_4_af5f6bb7f487c9ecd01331427a370889e}
+Invoked when the genetic algorithm is initialized
+
+
+\begin{DoxyParams}{Parameters}
+{\em ga} & the genetic algorithm that generated this event. \\
+\hline
+{\em time} & the event time expressed in milliseconds \\
+\hline
+\end{DoxyParams}
+\hypertarget{interfacejenes_1_1_algorithm_event_listener_3_01_t_01extends_01_chromosome_01_4_af0d6e9961e685f4d44270a4feedeb70f}{\index{jenes\-::\-Algorithm\-Event\-Listener$<$ T extends Chromosome $>$@{jenes\-::\-Algorithm\-Event\-Listener$<$ T extends Chromosome $>$}!on\-Algorithm\-Start@{on\-Algorithm\-Start}}
+\index{on\-Algorithm\-Start@{on\-Algorithm\-Start}!jenes::AlgorithmEventListener< T extends Chromosome >@{jenes\-::\-Algorithm\-Event\-Listener$<$ T extends Chromosome $>$}}
+\subsubsection[{on\-Algorithm\-Start}]{\setlength{\rightskip}{0pt plus 5cm}void jenes.\-Algorithm\-Event\-Listener$<$ T extends Chromosome $>$.on\-Algorithm\-Start (
+\begin{DoxyParamCaption}
+\item[{Genetic\-Algorithm$<$ T $>$}]{ga, }
+\item[{long}]{time}
+\end{DoxyParamCaption}
+)}}\label{interfacejenes_1_1_algorithm_event_listener_3_01_t_01extends_01_chromosome_01_4_af0d6e9961e685f4d44270a4feedeb70f}
+Invoked when the genetic algorithm starts
+
+
+\begin{DoxyParams}{Parameters}
+{\em ga} & the genetic algorithm that generated this event. \\
+\hline
+{\em time} & the event time expressed in milliseconds \\
+\hline
+\end{DoxyParams}
+\hypertarget{interfacejenes_1_1_algorithm_event_listener_3_01_t_01extends_01_chromosome_01_4_ab494ea60f6000ebcd02a94c7eda70dcf}{\index{jenes\-::\-Algorithm\-Event\-Listener$<$ T extends Chromosome $>$@{jenes\-::\-Algorithm\-Event\-Listener$<$ T extends Chromosome $>$}!on\-Algorithm\-Stop@{on\-Algorithm\-Stop}}
+\index{on\-Algorithm\-Stop@{on\-Algorithm\-Stop}!jenes::AlgorithmEventListener< T extends Chromosome >@{jenes\-::\-Algorithm\-Event\-Listener$<$ T extends Chromosome $>$}}
+\subsubsection[{on\-Algorithm\-Stop}]{\setlength{\rightskip}{0pt plus 5cm}void jenes.\-Algorithm\-Event\-Listener$<$ T extends Chromosome $>$.on\-Algorithm\-Stop (
+\begin{DoxyParamCaption}
+\item[{Genetic\-Algorithm$<$ T $>$}]{ga, }
+\item[{long}]{time}
+\end{DoxyParamCaption}
+)}}\label{interfacejenes_1_1_algorithm_event_listener_3_01_t_01extends_01_chromosome_01_4_ab494ea60f6000ebcd02a94c7eda70dcf}
+Invoked when the genetic algorithm ends
+
+
+\begin{DoxyParams}{Parameters}
+{\em ga} & the genetic algorithm that generated this event. \\
+\hline
+{\em time} & the event time expressed in milliseconds \\
+\hline
+\end{DoxyParams}
+
+
+The documentation for this interface was generated from the following file\-:\begin{DoxyCompactItemize}
+\item 
+src/jenes/\hyperlink{_algorithm_event_listener_8java}{Algorithm\-Event\-Listener.\-java}\end{DoxyCompactItemize}

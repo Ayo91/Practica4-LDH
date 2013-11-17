@@ -1,0 +1,669 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="classjenes_1_1stage_1_1operator_1_1common_1_1_multi_niche_crowder_3_01_t_01extends_01_chromosome_01_4" kind="class" prot="public">
+    <compoundname>jenes::stage::operator::common::MultiNicheCrowder&lt; T extends Chromosome &gt;</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">jenes::stage::operator::Crowder&lt; T &gt;</basecompoundref>
+    <innerclass refid="enumjenes_1_1stage_1_1operator_1_1common_1_1_multi_niche_crowder_3_01_t_01extends_01_chromosome_01_4_1_1_crossover_method" prot="public">jenes::stage::operator::common::MultiNicheCrowder&lt; T extends Chromosome &gt;::CrossoverMethod</innerclass>
+    <innerclass refid="enumjenes_1_1stage_1_1operator_1_1common_1_1_multi_niche_crowder_3_01_t_01extends_01_chromosome_01_4_1_1_mutation_method" prot="public">jenes::stage::operator::common::MultiNicheCrowder&lt; T extends Chromosome &gt;::MutationMethod</innerclass>
+    <innerclass refid="enumjenes_1_1stage_1_1operator_1_1common_1_1_multi_niche_crowder_3_01_t_01extends_01_chromosome_01_4_1_1_selection_method" prot="public">jenes::stage::operator::common::MultiNicheCrowder&lt; T extends Chromosome &gt;::SelectionMethod</innerclass>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classjenes_1_1stage_1_1operator_1_1common_1_1_multi_niche_crowder_3_01_t_01extends_01_chromosome_01_4_1addd3f5fe352248ed9d5639e0d138f59d" prot="public" static="yes" mutable="no">
+        <type>final SelectionMethod</type>
+        <definition>final SelectionMethod jenes.stage.operator.common.MultiNicheCrowder&lt; T extends Chromosome &gt;.DEFAULT_SELECTION_METHOD</definition>
+        <argsstring></argsstring>
+        <name>DEFAULT_SELECTION_METHOD</name>
+        <initializer>= <ref refid="enumjenes_1_1stage_1_1operator_1_1common_1_1_multi_niche_crowder_3_01_t_01extends_01_chromosome_01_4_1_1_selection_method_1a3e49b3accf5c2ac32eabdf0b69951280" kindref="member">SelectionMethod.TOURNAMENT</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The default selection method </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/operator/common/MultiNicheCrowder.java" line="56" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/operator/common/MultiNicheCrowder.java" bodystart="56" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classjenes_1_1stage_1_1operator_1_1common_1_1_multi_niche_crowder_3_01_t_01extends_01_chromosome_01_4_1aed986ca7d89144f78e73a11a5fb2f032" prot="public" static="yes" mutable="no">
+        <type>final CrossoverMethod</type>
+        <definition>final CrossoverMethod jenes.stage.operator.common.MultiNicheCrowder&lt; T extends Chromosome &gt;.DEFAULT_CROSSOVER_METHOD</definition>
+        <argsstring></argsstring>
+        <name>DEFAULT_CROSSOVER_METHOD</name>
+        <initializer>= <ref refid="enumjenes_1_1stage_1_1operator_1_1common_1_1_multi_niche_crowder_3_01_t_01extends_01_chromosome_01_4_1_1_crossover_method_1a49f5eb549967ad480c1071715dc9eaca" kindref="member">CrossoverMethod.SINGLEPOINT</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The default crossover method </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/operator/common/MultiNicheCrowder.java" line="58" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/operator/common/MultiNicheCrowder.java" bodystart="58" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classjenes_1_1stage_1_1operator_1_1common_1_1_multi_niche_crowder_3_01_t_01extends_01_chromosome_01_4_1a6e6d3f4e8201a341f77ac92954dbdad4" prot="public" static="yes" mutable="no">
+        <type>final double</type>
+        <definition>final double jenes.stage.operator.common.MultiNicheCrowder&lt; T extends Chromosome &gt;.DEFAULT_CROSSOVER_PROBABILITY</definition>
+        <argsstring></argsstring>
+        <name>DEFAULT_CROSSOVER_PROBABILITY</name>
+        <initializer>= 0.8</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The default crossover probability </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/operator/common/MultiNicheCrowder.java" line="60" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/operator/common/MultiNicheCrowder.java" bodystart="60" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classjenes_1_1stage_1_1operator_1_1common_1_1_multi_niche_crowder_3_01_t_01extends_01_chromosome_01_4_1aa3cfe11747630124e10809b0027d6f3a" prot="public" static="yes" mutable="no">
+        <type>final double</type>
+        <definition>final double jenes.stage.operator.common.MultiNicheCrowder&lt; T extends Chromosome &gt;.DEFAULT_MUTATION_PROBABILITY</definition>
+        <argsstring></argsstring>
+        <name>DEFAULT_MUTATION_PROBABILITY</name>
+        <initializer>= 0.02</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The default mutation probability </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/operator/common/MultiNicheCrowder.java" line="62" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/operator/common/MultiNicheCrowder.java" bodystart="62" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classjenes_1_1stage_1_1operator_1_1common_1_1_multi_niche_crowder_3_01_t_01extends_01_chromosome_01_4_1a937e501fc953576f30be99a0eec9ccf4" prot="public" static="yes" mutable="no">
+        <type>final int</type>
+        <definition>final int jenes.stage.operator.common.MultiNicheCrowder&lt; T extends Chromosome &gt;.DEFAULT_SELECTION_FACTOR</definition>
+        <argsstring></argsstring>
+        <name>DEFAULT_SELECTION_FACTOR</name>
+        <initializer>= 5</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The default selection factor </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/operator/common/MultiNicheCrowder.java" line="64" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/operator/common/MultiNicheCrowder.java" bodystart="64" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classjenes_1_1stage_1_1operator_1_1common_1_1_multi_niche_crowder_3_01_t_01extends_01_chromosome_01_4_1ae7c682fcbb8e1de5270d79ca482bd93d" prot="public" static="yes" mutable="no">
+        <type>final int</type>
+        <definition>final int jenes.stage.operator.common.MultiNicheCrowder&lt; T extends Chromosome &gt;.DEFAULT_CROWDING_FACTOR</definition>
+        <argsstring></argsstring>
+        <name>DEFAULT_CROWDING_FACTOR</name>
+        <initializer>= 5</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The default crowding factor </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/operator/common/MultiNicheCrowder.java" line="66" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/operator/common/MultiNicheCrowder.java" bodystart="66" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classjenes_1_1stage_1_1operator_1_1common_1_1_multi_niche_crowder_3_01_t_01extends_01_chromosome_01_4_1ac38d4afc42b5f54473834e76815c7510" prot="public" static="yes" mutable="no">
+        <type>final int</type>
+        <definition>final int jenes.stage.operator.common.MultiNicheCrowder&lt; T extends Chromosome &gt;.DEFAULT_REPLACEMENT_FACTOR</definition>
+        <argsstring></argsstring>
+        <name>DEFAULT_REPLACEMENT_FACTOR</name>
+        <initializer>= 5</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The default replacement factor </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/operator/common/MultiNicheCrowder.java" line="68" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/operator/common/MultiNicheCrowder.java" bodystart="68" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="classjenes_1_1stage_1_1operator_1_1common_1_1_multi_niche_crowder_3_01_t_01extends_01_chromosome_01_4_1ab561927a8af185e69bd5fcf85e904d7a" prot="protected" static="no" mutable="no">
+        <type>int</type>
+        <definition>int jenes.stage.operator.common.MultiNicheCrowder&lt; T extends Chromosome &gt;.selectionFactor</definition>
+        <argsstring></argsstring>
+        <name>selectionFactor</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Selection factor </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/operator/common/MultiNicheCrowder.java" line="70" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/operator/common/MultiNicheCrowder.java" bodystart="70" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classjenes_1_1stage_1_1operator_1_1common_1_1_multi_niche_crowder_3_01_t_01extends_01_chromosome_01_4_1ad7320907a72bd19c028f922383667560" prot="protected" static="no" mutable="no">
+        <type>int</type>
+        <definition>int jenes.stage.operator.common.MultiNicheCrowder&lt; T extends Chromosome &gt;.crowdingFactor</definition>
+        <argsstring></argsstring>
+        <name>crowdingFactor</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Crowding factor </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/operator/common/MultiNicheCrowder.java" line="72" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/operator/common/MultiNicheCrowder.java" bodystart="72" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classjenes_1_1stage_1_1operator_1_1common_1_1_multi_niche_crowder_3_01_t_01extends_01_chromosome_01_4_1a9a068eae86d3af67f89cfa4b244810fb" prot="protected" static="no" mutable="no">
+        <type>int</type>
+        <definition>int jenes.stage.operator.common.MultiNicheCrowder&lt; T extends Chromosome &gt;.replacementFactor</definition>
+        <argsstring></argsstring>
+        <name>replacementFactor</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Replacement factor </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/operator/common/MultiNicheCrowder.java" line="74" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/operator/common/MultiNicheCrowder.java" bodystart="74" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classjenes_1_1stage_1_1operator_1_1common_1_1_multi_niche_crowder_3_01_t_01extends_01_chromosome_01_4_1ad584be099b23576ec3379a6867d31ef4" prot="protected" static="no" mutable="no">
+        <type>Crossover&lt; T &gt;</type>
+        <definition>Crossover&lt;T&gt; jenes.stage.operator.common.MultiNicheCrowder&lt; T extends Chromosome &gt;.crossover</definition>
+        <argsstring></argsstring>
+        <name>crossover</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Crossover operator </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/operator/common/MultiNicheCrowder.java" line="76" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/operator/common/MultiNicheCrowder.java" bodystart="76" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classjenes_1_1stage_1_1operator_1_1common_1_1_multi_niche_crowder_3_01_t_01extends_01_chromosome_01_4_1aec9f82fc79b7a63f5e664dfbcc7e9563" prot="protected" static="no" mutable="no">
+        <type>Selector&lt; T &gt;</type>
+        <definition>Selector&lt;T&gt; jenes.stage.operator.common.MultiNicheCrowder&lt; T extends Chromosome &gt;.selector</definition>
+        <argsstring></argsstring>
+        <name>selector</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Selector operator </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/operator/common/MultiNicheCrowder.java" line="80" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/operator/common/MultiNicheCrowder.java" bodystart="80" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classjenes_1_1stage_1_1operator_1_1common_1_1_multi_niche_crowder_3_01_t_01extends_01_chromosome_01_4_1a0e3210ea1f2d3f1687f5c1f9a0f326dd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>jenes.stage.operator.common.MultiNicheCrowder&lt; T extends Chromosome &gt;.MultiNicheCrowder</definition>
+        <argsstring>()</argsstring>
+        <name>MultiNicheCrowder</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Creates MultiNicheCrowder using default options. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/operator/common/MultiNicheCrowder.java" line="85" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/operator/common/MultiNicheCrowder.java" bodystart="85" bodyend="93"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1stage_1_1operator_1_1common_1_1_multi_niche_crowder_3_01_t_01extends_01_chromosome_01_4_1a45d8181936a9298ecc7edcfee8647590" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>jenes.stage.operator.common.MultiNicheCrowder&lt; T extends Chromosome &gt;.MultiNicheCrowder</definition>
+        <argsstring>(final SelectionMethod selection)</argsstring>
+        <name>MultiNicheCrowder</name>
+        <param>
+          <type>final SelectionMethod</type>
+          <declname>selection</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Creates a MultiNicheCrowder instance</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>crossmethod</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>crossover method </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/operator/common/MultiNicheCrowder.java" line="100" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/operator/common/MultiNicheCrowder.java" bodystart="100" bodyend="108"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1stage_1_1operator_1_1common_1_1_multi_niche_crowder_3_01_t_01extends_01_chromosome_01_4_1a5f539242ac756ac79df20945afc5e425" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>jenes.stage.operator.common.MultiNicheCrowder&lt; T extends Chromosome &gt;.MultiNicheCrowder</definition>
+        <argsstring>(final SelectionMethod selection, final CrossoverMethod crossmethod)</argsstring>
+        <name>MultiNicheCrowder</name>
+        <param>
+          <type>final SelectionMethod</type>
+          <declname>selection</declname>
+        </param>
+        <param>
+          <type>final CrossoverMethod</type>
+          <declname>crossmethod</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Creates a MultiNicheCrowder instance</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>crossmethod</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>crossover method </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/operator/common/MultiNicheCrowder.java" line="115" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/operator/common/MultiNicheCrowder.java" bodystart="115" bodyend="123"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1stage_1_1operator_1_1common_1_1_multi_niche_crowder_3_01_t_01extends_01_chromosome_01_4_1ad6b691057f10397e80669b101c7f437a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>jenes.stage.operator.common.MultiNicheCrowder&lt; T extends Chromosome &gt;.MultiNicheCrowder</definition>
+        <argsstring>(final SelectionMethod selection, final CrossoverMethod crossmethod, final double crossover, final double mutation)</argsstring>
+        <name>MultiNicheCrowder</name>
+        <param>
+          <type>final SelectionMethod</type>
+          <declname>selection</declname>
+        </param>
+        <param>
+          <type>final CrossoverMethod</type>
+          <declname>crossmethod</declname>
+        </param>
+        <param>
+          <type>final double</type>
+          <declname>crossover</declname>
+        </param>
+        <param>
+          <type>final double</type>
+          <declname>mutation</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Creates a MultiNicheCrowder instance</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>crossmethod</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>crossover method </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>crossover</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>crossover probability </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>mutation</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>mutation probability </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/operator/common/MultiNicheCrowder.java" line="132" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/operator/common/MultiNicheCrowder.java" bodystart="132" bodyend="140"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1stage_1_1operator_1_1common_1_1_multi_niche_crowder_3_01_t_01extends_01_chromosome_01_4_1a7384c823b16fe8e5f8bfdc7db0c87ce5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>jenes.stage.operator.common.MultiNicheCrowder&lt; T extends Chromosome &gt;.MultiNicheCrowder</definition>
+        <argsstring>(final SelectionMethod selectionmethod, final CrossoverMethod crossmethod, final double crossover, final double mutation, final int sf, final int cf, final int rf)</argsstring>
+        <name>MultiNicheCrowder</name>
+        <param>
+          <type>final SelectionMethod</type>
+          <declname>selectionmethod</declname>
+        </param>
+        <param>
+          <type>final CrossoverMethod</type>
+          <declname>crossmethod</declname>
+        </param>
+        <param>
+          <type>final double</type>
+          <declname>crossover</declname>
+        </param>
+        <param>
+          <type>final double</type>
+          <declname>mutation</declname>
+        </param>
+        <param>
+          <type>final int</type>
+          <declname>sf</declname>
+        </param>
+        <param>
+          <type>final int</type>
+          <declname>cf</declname>
+        </param>
+        <param>
+          <type>final int</type>
+          <declname>rf</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Creates a MultiNicheCrowder instance</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>crossmethod</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>crossover method </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>crossover</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>crossover probability </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>mutation</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>mutation probability </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>sf</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>selection factor </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>cf</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>crowding factor </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>rf</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>replacement factor </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/operator/common/MultiNicheCrowder.java" line="152" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/operator/common/MultiNicheCrowder.java" bodystart="152" bodyend="169"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1stage_1_1operator_1_1common_1_1_multi_niche_crowder_3_01_t_01extends_01_chromosome_01_4_1a74363393b7e200fcff467ff5920e10d6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>final int</type>
+        <definition>final int jenes.stage.operator.common.MultiNicheCrowder&lt; T extends Chromosome &gt;.getCrowdingFactor</definition>
+        <argsstring>()</argsstring>
+        <name>getCrowdingFactor</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns the crowding factor</para><para><simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/operator/common/MultiNicheCrowder.java" line="176" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/operator/common/MultiNicheCrowder.java" bodystart="176" bodyend="178"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1stage_1_1operator_1_1common_1_1_multi_niche_crowder_3_01_t_01extends_01_chromosome_01_4_1ad00602ac8b97b385a8a72fd612e2ac22" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void jenes.stage.operator.common.MultiNicheCrowder&lt; T extends Chromosome &gt;.setCrowdingFactor</definition>
+        <argsstring>(int crowdingFactor)</argsstring>
+        <name>setCrowdingFactor</name>
+        <param>
+          <type>int</type>
+          <declname>crowdingFactor</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Sets the crowding factor</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>crowdingFactor</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the factor </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/operator/common/MultiNicheCrowder.java" line="185" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/operator/common/MultiNicheCrowder.java" bodystart="185" bodyend="187"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1stage_1_1operator_1_1common_1_1_multi_niche_crowder_3_01_t_01extends_01_chromosome_01_4_1a97c2ba03c48234566aea9fcf49b677ee" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>final int</type>
+        <definition>final int jenes.stage.operator.common.MultiNicheCrowder&lt; T extends Chromosome &gt;.getReplacementFactor</definition>
+        <argsstring>()</argsstring>
+        <name>getReplacementFactor</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns the replacement factor</para><para><simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/operator/common/MultiNicheCrowder.java" line="194" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/operator/common/MultiNicheCrowder.java" bodystart="194" bodyend="196"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1stage_1_1operator_1_1common_1_1_multi_niche_crowder_3_01_t_01extends_01_chromosome_01_4_1a3cf07082299cbe94d975a9af638a2098" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void jenes.stage.operator.common.MultiNicheCrowder&lt; T extends Chromosome &gt;.setReplacementFactor</definition>
+        <argsstring>(int replacementFactor)</argsstring>
+        <name>setReplacementFactor</name>
+        <param>
+          <type>int</type>
+          <declname>replacementFactor</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Sets the replacement factor</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>replacementFactor</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the factor </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/operator/common/MultiNicheCrowder.java" line="203" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/operator/common/MultiNicheCrowder.java" bodystart="203" bodyend="205"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1stage_1_1operator_1_1common_1_1_multi_niche_crowder_3_01_t_01extends_01_chromosome_01_4_1a42e85f954b23bdadf63b7aa13365cd40" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>final int</type>
+        <definition>final int jenes.stage.operator.common.MultiNicheCrowder&lt; T extends Chromosome &gt;.getSelectionFactor</definition>
+        <argsstring>()</argsstring>
+        <name>getSelectionFactor</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Return the selection factor</para><para><simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/operator/common/MultiNicheCrowder.java" line="212" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/operator/common/MultiNicheCrowder.java" bodystart="212" bodyend="214"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1stage_1_1operator_1_1common_1_1_multi_niche_crowder_3_01_t_01extends_01_chromosome_01_4_1a0f2ec39933d9656c981f8b7113bbf668" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void jenes.stage.operator.common.MultiNicheCrowder&lt; T extends Chromosome &gt;.setSelectionFactor</definition>
+        <argsstring>(int selectionFactor)</argsstring>
+        <name>setSelectionFactor</name>
+        <param>
+          <type>int</type>
+          <declname>selectionFactor</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Sets the replacement factor</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>selectionFactor</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the factor </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/operator/common/MultiNicheCrowder.java" line="221" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/operator/common/MultiNicheCrowder.java" bodystart="221" bodyend="223"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classjenes_1_1stage_1_1operator_1_1common_1_1_multi_niche_crowder_3_01_t_01extends_01_chromosome_01_4_1ae3e96b6cd96f375209e9308bb7f9ca85" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void jenes.stage.operator.common.MultiNicheCrowder&lt; T extends Chromosome &gt;.preselect</definition>
+        <argsstring>(Population&lt; T &gt; in, Population&lt; T &gt; out)</argsstring>
+        <name>preselect</name>
+        <param>
+          <type>Population&lt; T &gt;</type>
+          <declname>in</declname>
+        </param>
+        <param>
+          <type>Population&lt; T &gt;</type>
+          <declname>out</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/operator/common/MultiNicheCrowder.java" line="226" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/operator/common/MultiNicheCrowder.java" bodystart="226" bodyend="245"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1stage_1_1operator_1_1common_1_1_multi_niche_crowder_3_01_t_01extends_01_chromosome_01_4_1a619884821dabf179aed435269366114e" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void jenes.stage.operator.common.MultiNicheCrowder&lt; T extends Chromosome &gt;.replace</definition>
+        <argsstring>(Population&lt; T &gt; initial, Population&lt; T &gt; preselected, Population&lt; T &gt; evolved, Population&lt; T &gt; out)</argsstring>
+        <name>replace</name>
+        <param>
+          <type>Population&lt; T &gt;</type>
+          <declname>initial</declname>
+        </param>
+        <param>
+          <type>Population&lt; T &gt;</type>
+          <declname>preselected</declname>
+        </param>
+        <param>
+          <type>Population&lt; T &gt;</type>
+          <declname>evolved</declname>
+        </param>
+        <param>
+          <type>Population&lt; T &gt;</type>
+          <declname>out</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/operator/common/MultiNicheCrowder.java" line="248" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/operator/common/MultiNicheCrowder.java" bodystart="248" bodyend="272"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classjenes_1_1stage_1_1operator_1_1common_1_1_multi_niche_crowder_3_01_t_01extends_01_chromosome_01_4_1a118b6eae620e82ec9409280e565a947d" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Individual&lt; T &gt;</type>
+        <definition>Individual&lt;T&gt; jenes.stage.operator.common.MultiNicheCrowder&lt; T extends Chromosome &gt;.getMostSimilar</definition>
+        <argsstring>(Individual&lt; T &gt; sample, Population&lt; T &gt; pop, int trials)</argsstring>
+        <name>getMostSimilar</name>
+        <param>
+          <type>Individual&lt; T &gt;</type>
+          <declname>sample</declname>
+        </param>
+        <param>
+          <type>Population&lt; T &gt;</type>
+          <declname>pop</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>trials</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Finds the most similar individual to sample</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>sample</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the individual to compare </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>pop</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the population to search </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>trials</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the number of trials to perform </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>the most similar individual </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/operator/common/MultiNicheCrowder.java" line="282" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/operator/common/MultiNicheCrowder.java" bodystart="282" bodyend="305"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Implementation of multi-niche crowding.</para><para><simplesect kind="version"><para>2.0 </para></simplesect>
+<simplesect kind="since"><para>2.0 </para></simplesect>
+</para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="382">
+        <label>jenes::stage::operator::Crowder&lt; T &gt;</label>
+      </node>
+      <node id="381">
+        <label>jenes.stage.operator.common.MultiNicheCrowder&lt; T extends Chromosome &gt;</label>
+        <link refid="classjenes_1_1stage_1_1operator_1_1common_1_1_multi_niche_crowder_3_01_t_01extends_01_chromosome_01_4"/>
+        <childnode refid="382" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="386">
+        <label>Selector&lt; T &gt;</label>
+      </node>
+      <node id="385">
+        <label>Crossover&lt; T &gt;</label>
+      </node>
+      <node id="384">
+        <label>jenes::stage::operator::Crowder&lt; T &gt;</label>
+      </node>
+      <node id="383">
+        <label>jenes.stage.operator.common.MultiNicheCrowder&lt; T extends Chromosome &gt;</label>
+        <link refid="classjenes_1_1stage_1_1operator_1_1common_1_1_multi_niche_crowder_3_01_t_01extends_01_chromosome_01_4"/>
+        <childnode refid="384" relation="public-inheritance">
+        </childnode>
+        <childnode refid="385" relation="usage">
+          <edgelabel>crossover</edgelabel>
+        </childnode>
+        <childnode refid="386" relation="usage">
+          <edgelabel>selector</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/operator/common/MultiNicheCrowder.java" line="36" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/operator/common/MultiNicheCrowder.java" bodystart="36" bodyend="306"/>
+    <listofallmembers>
+      <member refid="classjenes_1_1stage_1_1operator_1_1common_1_1_multi_niche_crowder_3_01_t_01extends_01_chromosome_01_4_1ad584be099b23576ec3379a6867d31ef4" prot="protected" virt="non-virtual"><scope>jenes::stage::operator::common::MultiNicheCrowder&lt; T extends Chromosome &gt;</scope><name>crossover</name></member>
+      <member refid="classjenes_1_1stage_1_1operator_1_1common_1_1_multi_niche_crowder_3_01_t_01extends_01_chromosome_01_4_1ad7320907a72bd19c028f922383667560" prot="protected" virt="non-virtual"><scope>jenes::stage::operator::common::MultiNicheCrowder&lt; T extends Chromosome &gt;</scope><name>crowdingFactor</name></member>
+      <member refid="classjenes_1_1stage_1_1operator_1_1common_1_1_multi_niche_crowder_3_01_t_01extends_01_chromosome_01_4_1aed986ca7d89144f78e73a11a5fb2f032" prot="public" virt="non-virtual"><scope>jenes::stage::operator::common::MultiNicheCrowder&lt; T extends Chromosome &gt;</scope><name>DEFAULT_CROSSOVER_METHOD</name></member>
+      <member refid="classjenes_1_1stage_1_1operator_1_1common_1_1_multi_niche_crowder_3_01_t_01extends_01_chromosome_01_4_1a6e6d3f4e8201a341f77ac92954dbdad4" prot="public" virt="non-virtual"><scope>jenes::stage::operator::common::MultiNicheCrowder&lt; T extends Chromosome &gt;</scope><name>DEFAULT_CROSSOVER_PROBABILITY</name></member>
+      <member refid="classjenes_1_1stage_1_1operator_1_1common_1_1_multi_niche_crowder_3_01_t_01extends_01_chromosome_01_4_1ae7c682fcbb8e1de5270d79ca482bd93d" prot="public" virt="non-virtual"><scope>jenes::stage::operator::common::MultiNicheCrowder&lt; T extends Chromosome &gt;</scope><name>DEFAULT_CROWDING_FACTOR</name></member>
+      <member refid="classjenes_1_1stage_1_1operator_1_1common_1_1_multi_niche_crowder_3_01_t_01extends_01_chromosome_01_4_1aa3cfe11747630124e10809b0027d6f3a" prot="public" virt="non-virtual"><scope>jenes::stage::operator::common::MultiNicheCrowder&lt; T extends Chromosome &gt;</scope><name>DEFAULT_MUTATION_PROBABILITY</name></member>
+      <member refid="classjenes_1_1stage_1_1operator_1_1common_1_1_multi_niche_crowder_3_01_t_01extends_01_chromosome_01_4_1ac38d4afc42b5f54473834e76815c7510" prot="public" virt="non-virtual"><scope>jenes::stage::operator::common::MultiNicheCrowder&lt; T extends Chromosome &gt;</scope><name>DEFAULT_REPLACEMENT_FACTOR</name></member>
+      <member refid="classjenes_1_1stage_1_1operator_1_1common_1_1_multi_niche_crowder_3_01_t_01extends_01_chromosome_01_4_1a937e501fc953576f30be99a0eec9ccf4" prot="public" virt="non-virtual"><scope>jenes::stage::operator::common::MultiNicheCrowder&lt; T extends Chromosome &gt;</scope><name>DEFAULT_SELECTION_FACTOR</name></member>
+      <member refid="classjenes_1_1stage_1_1operator_1_1common_1_1_multi_niche_crowder_3_01_t_01extends_01_chromosome_01_4_1addd3f5fe352248ed9d5639e0d138f59d" prot="public" virt="non-virtual"><scope>jenes::stage::operator::common::MultiNicheCrowder&lt; T extends Chromosome &gt;</scope><name>DEFAULT_SELECTION_METHOD</name></member>
+      <member refid="classjenes_1_1stage_1_1operator_1_1common_1_1_multi_niche_crowder_3_01_t_01extends_01_chromosome_01_4_1a74363393b7e200fcff467ff5920e10d6" prot="public" virt="non-virtual"><scope>jenes::stage::operator::common::MultiNicheCrowder&lt; T extends Chromosome &gt;</scope><name>getCrowdingFactor</name></member>
+      <member refid="classjenes_1_1stage_1_1operator_1_1common_1_1_multi_niche_crowder_3_01_t_01extends_01_chromosome_01_4_1a118b6eae620e82ec9409280e565a947d" prot="private" virt="non-virtual"><scope>jenes::stage::operator::common::MultiNicheCrowder&lt; T extends Chromosome &gt;</scope><name>getMostSimilar</name></member>
+      <member refid="classjenes_1_1stage_1_1operator_1_1common_1_1_multi_niche_crowder_3_01_t_01extends_01_chromosome_01_4_1a97c2ba03c48234566aea9fcf49b677ee" prot="public" virt="non-virtual"><scope>jenes::stage::operator::common::MultiNicheCrowder&lt; T extends Chromosome &gt;</scope><name>getReplacementFactor</name></member>
+      <member refid="classjenes_1_1stage_1_1operator_1_1common_1_1_multi_niche_crowder_3_01_t_01extends_01_chromosome_01_4_1a42e85f954b23bdadf63b7aa13365cd40" prot="public" virt="non-virtual"><scope>jenes::stage::operator::common::MultiNicheCrowder&lt; T extends Chromosome &gt;</scope><name>getSelectionFactor</name></member>
+      <member refid="classjenes_1_1stage_1_1operator_1_1common_1_1_multi_niche_crowder_3_01_t_01extends_01_chromosome_01_4_1a0e3210ea1f2d3f1687f5c1f9a0f326dd" prot="public" virt="non-virtual"><scope>jenes::stage::operator::common::MultiNicheCrowder&lt; T extends Chromosome &gt;</scope><name>MultiNicheCrowder</name></member>
+      <member refid="classjenes_1_1stage_1_1operator_1_1common_1_1_multi_niche_crowder_3_01_t_01extends_01_chromosome_01_4_1a45d8181936a9298ecc7edcfee8647590" prot="public" virt="non-virtual"><scope>jenes::stage::operator::common::MultiNicheCrowder&lt; T extends Chromosome &gt;</scope><name>MultiNicheCrowder</name></member>
+      <member refid="classjenes_1_1stage_1_1operator_1_1common_1_1_multi_niche_crowder_3_01_t_01extends_01_chromosome_01_4_1a5f539242ac756ac79df20945afc5e425" prot="public" virt="non-virtual"><scope>jenes::stage::operator::common::MultiNicheCrowder&lt; T extends Chromosome &gt;</scope><name>MultiNicheCrowder</name></member>
+      <member refid="classjenes_1_1stage_1_1operator_1_1common_1_1_multi_niche_crowder_3_01_t_01extends_01_chromosome_01_4_1ad6b691057f10397e80669b101c7f437a" prot="public" virt="non-virtual"><scope>jenes::stage::operator::common::MultiNicheCrowder&lt; T extends Chromosome &gt;</scope><name>MultiNicheCrowder</name></member>
+      <member refid="classjenes_1_1stage_1_1operator_1_1common_1_1_multi_niche_crowder_3_01_t_01extends_01_chromosome_01_4_1a7384c823b16fe8e5f8bfdc7db0c87ce5" prot="public" virt="non-virtual"><scope>jenes::stage::operator::common::MultiNicheCrowder&lt; T extends Chromosome &gt;</scope><name>MultiNicheCrowder</name></member>
+      <member refid="classjenes_1_1stage_1_1operator_1_1common_1_1_multi_niche_crowder_3_01_t_01extends_01_chromosome_01_4_1ae3e96b6cd96f375209e9308bb7f9ca85" prot="protected" virt="non-virtual"><scope>jenes::stage::operator::common::MultiNicheCrowder&lt; T extends Chromosome &gt;</scope><name>preselect</name></member>
+      <member refid="classjenes_1_1stage_1_1operator_1_1common_1_1_multi_niche_crowder_3_01_t_01extends_01_chromosome_01_4_1a619884821dabf179aed435269366114e" prot="protected" virt="non-virtual"><scope>jenes::stage::operator::common::MultiNicheCrowder&lt; T extends Chromosome &gt;</scope><name>replace</name></member>
+      <member refid="classjenes_1_1stage_1_1operator_1_1common_1_1_multi_niche_crowder_3_01_t_01extends_01_chromosome_01_4_1a9a068eae86d3af67f89cfa4b244810fb" prot="protected" virt="non-virtual"><scope>jenes::stage::operator::common::MultiNicheCrowder&lt; T extends Chromosome &gt;</scope><name>replacementFactor</name></member>
+      <member refid="classjenes_1_1stage_1_1operator_1_1common_1_1_multi_niche_crowder_3_01_t_01extends_01_chromosome_01_4_1ab561927a8af185e69bd5fcf85e904d7a" prot="protected" virt="non-virtual"><scope>jenes::stage::operator::common::MultiNicheCrowder&lt; T extends Chromosome &gt;</scope><name>selectionFactor</name></member>
+      <member refid="classjenes_1_1stage_1_1operator_1_1common_1_1_multi_niche_crowder_3_01_t_01extends_01_chromosome_01_4_1aec9f82fc79b7a63f5e664dfbcc7e9563" prot="protected" virt="non-virtual"><scope>jenes::stage::operator::common::MultiNicheCrowder&lt; T extends Chromosome &gt;</scope><name>selector</name></member>
+      <member refid="classjenes_1_1stage_1_1operator_1_1common_1_1_multi_niche_crowder_3_01_t_01extends_01_chromosome_01_4_1ad00602ac8b97b385a8a72fd612e2ac22" prot="public" virt="non-virtual"><scope>jenes::stage::operator::common::MultiNicheCrowder&lt; T extends Chromosome &gt;</scope><name>setCrowdingFactor</name></member>
+      <member refid="classjenes_1_1stage_1_1operator_1_1common_1_1_multi_niche_crowder_3_01_t_01extends_01_chromosome_01_4_1a3cf07082299cbe94d975a9af638a2098" prot="public" virt="non-virtual"><scope>jenes::stage::operator::common::MultiNicheCrowder&lt; T extends Chromosome &gt;</scope><name>setReplacementFactor</name></member>
+      <member refid="classjenes_1_1stage_1_1operator_1_1common_1_1_multi_niche_crowder_3_01_t_01extends_01_chromosome_01_4_1a0f2ec39933d9656c981f8b7113bbf668" prot="public" virt="non-virtual"><scope>jenes::stage::operator::common::MultiNicheCrowder&lt; T extends Chromosome &gt;</scope><name>setSelectionFactor</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

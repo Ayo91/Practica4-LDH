@@ -1,0 +1,398 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="classjenes_1_1tutorials_1_1problem11_1_1_image_matching_fitness" kind="class" prot="public">
+    <compoundname>jenes::tutorials::problem11::ImageMatchingFitness</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">jenes::population::Fitness&lt; BitwiseChromosome &gt;</basecompoundref>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classjenes_1_1tutorials_1_1problem11_1_1_image_matching_fitness_1abcca6e100ede27ef9a90ddbc35497efd" prot="public" static="yes" mutable="no">
+        <type>final String</type>
+        <definition>final String jenes.tutorials.problem11.ImageMatchingFitness.SOURCE_IMAGE</definition>
+        <argsstring></argsstring>
+        <name>SOURCE_IMAGE</name>
+        <initializer>= &quot;files.Tutorial11/dog.jpg&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>image to load </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/problem11/ImageMatchingFitness.java" line="29" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/problem11/ImageMatchingFitness.java" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classjenes_1_1tutorials_1_1problem11_1_1_image_matching_fitness_1abcf68166173033e945f0ed4c42520a84" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int jenes.tutorials.problem11.ImageMatchingFitness.target_degrees</definition>
+        <argsstring></argsstring>
+        <name>target_degrees</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>target rotation for the sample image </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/problem11/ImageMatchingFitness.java" line="32" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/problem11/ImageMatchingFitness.java" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classjenes_1_1tutorials_1_1problem11_1_1_image_matching_fitness_1a3607fd64f431452de7de69cdd659445c" prot="private" static="no" mutable="no">
+        <type>BufferedImage</type>
+        <definition>BufferedImage jenes.tutorials.problem11.ImageMatchingFitness.target</definition>
+        <argsstring></argsstring>
+        <name>target</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>the target to match </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/problem11/ImageMatchingFitness.java" line="34" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/problem11/ImageMatchingFitness.java" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classjenes_1_1tutorials_1_1problem11_1_1_image_matching_fitness_1a43f4833e41f19eadc706b7ec449033a8" prot="private" static="no" mutable="no">
+        <type>BufferedImage</type>
+        <definition>BufferedImage jenes.tutorials.problem11.ImageMatchingFitness.source</definition>
+        <argsstring></argsstring>
+        <name>source</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>the source image (without trasformations) </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/problem11/ImageMatchingFitness.java" line="36" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/problem11/ImageMatchingFitness.java" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classjenes_1_1tutorials_1_1problem11_1_1_image_matching_fitness_1a46fadaf9894a8034b8919db788936f13" prot="private" static="no" mutable="no">
+        <type>Color[][]</type>
+        <definition>Color [][] jenes.tutorials.problem11.ImageMatchingFitness.signature</definition>
+        <argsstring></argsstring>
+        <name>signature</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The reference image &quot;signature&quot; (25 representative pixels, each in R,G,B). We use instances of Color to make things simpler. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/problem11/ImageMatchingFitness.java" line="41" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/problem11/ImageMatchingFitness.java" bodystart="41" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classjenes_1_1tutorials_1_1problem11_1_1_image_matching_fitness_1a3ec1a20065a2507f241ccff6f8b37e61" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int jenes.tutorials.problem11.ImageMatchingFitness.baseSize</definition>
+        <argsstring></argsstring>
+        <name>baseSize</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The base size of the images. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/problem11/ImageMatchingFitness.java" line="43" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/problem11/ImageMatchingFitness.java" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classjenes_1_1tutorials_1_1problem11_1_1_image_matching_fitness_1acf5074dfbb8053f47ce1c03f3b88c121" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int jenes.tutorials.problem11.ImageMatchingFitness.sampleAreaSize</definition>
+        <argsstring></argsstring>
+        <name>sampleAreaSize</name>
+        <initializer>= 10</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The size of sample area </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/problem11/ImageMatchingFitness.java" line="45" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/problem11/ImageMatchingFitness.java" bodystart="45" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classjenes_1_1tutorials_1_1problem11_1_1_image_matching_fitness_1a7cb7be6a6a88f840d4824bbaddd9bac8" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int jenes.tutorials.problem11.ImageMatchingFitness.nSamples</definition>
+        <argsstring></argsstring>
+        <name>nSamples</name>
+        <initializer>= 5</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The number of samples per rows </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/problem11/ImageMatchingFitness.java" line="47" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/problem11/ImageMatchingFitness.java" bodystart="47" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classjenes_1_1tutorials_1_1problem11_1_1_image_matching_fitness_1a4646b0df9daaccbb004c04b2f8f6afb3" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int jenes.tutorials.problem11.ImageMatchingFitness.rotateAnchorX</definition>
+        <argsstring></argsstring>
+        <name>rotateAnchorX</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Default rotation anchor point </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/problem11/ImageMatchingFitness.java" line="49" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/problem11/ImageMatchingFitness.java" bodystart="49" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classjenes_1_1tutorials_1_1problem11_1_1_image_matching_fitness_1a9a0546b58cf181426dafb31f8d0ec3c6" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int jenes.tutorials.problem11.ImageMatchingFitness.rotateAnchorY</definition>
+        <argsstring></argsstring>
+        <name>rotateAnchorY</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/problem11/ImageMatchingFitness.java" line="50" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/problem11/ImageMatchingFitness.java" bodystart="50" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classjenes_1_1tutorials_1_1problem11_1_1_image_matching_fitness_1ab2d23d7e2f9d4cbb57d5818dbcf91e05" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>jenes.tutorials.problem11.ImageMatchingFitness.ImageMatchingFitness</definition>
+        <argsstring>(int targetDegree)</argsstring>
+        <name>ImageMatchingFitness</name>
+        <param>
+          <type>int</type>
+          <declname>targetDegree</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Default constructor </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/problem11/ImageMatchingFitness.java" line="55" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/problem11/ImageMatchingFitness.java" bodystart="55" bodyend="86"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1tutorials_1_1problem11_1_1_image_matching_fitness_1a57d1723f3fea82e96455935aefb360b9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void jenes.tutorials.problem11.ImageMatchingFitness.printGraphics</definition>
+        <argsstring>(double rotation, boolean showSignature)</argsstring>
+        <name>printGraphics</name>
+        <param>
+          <type>double</type>
+          <declname>rotation</declname>
+        </param>
+        <param>
+          <type>boolean</type>
+          <declname>showSignature</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Print a graphical representation of the results <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>rotation</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>showSignature</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<parameterlist kind="exception"><parameteritem>
+<parameternamelist>
+<parametername>Exception</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/problem11/ImageMatchingFitness.java" line="108" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/problem11/ImageMatchingFitness.java" bodystart="108" bodyend="135"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1tutorials_1_1problem11_1_1_image_matching_fitness_1ad1678b0716a862654451a29b12964ec1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void jenes.tutorials.problem11.ImageMatchingFitness.evaluate</definition>
+        <argsstring>(Individual&lt; BitwiseChromosome &gt; individual)</argsstring>
+        <name>evaluate</name>
+        <param>
+          <type>Individual&lt; <ref refid="classjenes_1_1chromosome_1_1_bitwise_chromosome" kindref="compound">BitwiseChromosome</ref> &gt;</type>
+          <declname>individual</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/problem11/ImageMatchingFitness.java" line="138" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/problem11/ImageMatchingFitness.java" bodystart="138" bodyend="163"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classjenes_1_1tutorials_1_1problem11_1_1_image_matching_fitness_1ac56d86ab7d7c270c284ea8745b53d0b6" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Fitness&lt; <ref refid="classjenes_1_1chromosome_1_1_bitwise_chromosome" kindref="compound">BitwiseChromosome</ref> &gt;</type>
+        <definition>Fitness&lt;BitwiseChromosome&gt; jenes.tutorials.problem11.ImageMatchingFitness.duplicate</definition>
+        <argsstring>()</argsstring>
+        <name>duplicate</name>
+        <exceptions> throws CloneNotSupportedException </exceptions>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/problem11/ImageMatchingFitness.java" line="89" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/problem11/ImageMatchingFitness.java" bodystart="89" bodyend="91"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="classjenes_1_1tutorials_1_1problem11_1_1_image_matching_fitness_1a59f0bf6390351b03e05e1423f85e93d0" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>double</type>
+        <definition>static double jenes.tutorials.problem11.ImageMatchingFitness.toRadiansForRotation</definition>
+        <argsstring>(double degrees)</argsstring>
+        <name>toRadiansForRotation</name>
+        <param>
+          <type>double</type>
+          <declname>degrees</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Utility to trasform degrees to radians in problem <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>degrees</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/problem11/ImageMatchingFitness.java" line="98" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/problem11/ImageMatchingFitness.java" bodystart="98" bodyend="100"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classjenes_1_1tutorials_1_1problem11_1_1_image_matching_fitness_1a35b9b508ecc3020d0a8bba42c729e8e3" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Color[][]</type>
+        <definition>Color [][] jenes.tutorials.problem11.ImageMatchingFitness.calcSignature</definition>
+        <argsstring>(BufferedImage i, boolean showSignature)</argsstring>
+        <name>calcSignature</name>
+        <param>
+          <type>BufferedImage</type>
+          <declname>i</declname>
+        </param>
+        <param>
+          <type>boolean</type>
+          <declname>showSignature</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/problem11/ImageMatchingFitness.java" line="168" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/problem11/ImageMatchingFitness.java" bodystart="168" bodyend="181"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1tutorials_1_1problem11_1_1_image_matching_fitness_1a4abe074f9d95409ce79828d1773eda50" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Color</type>
+        <definition>Color jenes.tutorials.problem11.ImageMatchingFitness.averageAround</definition>
+        <argsstring>(BufferedImage i, double px, double py, boolean showSignature)</argsstring>
+        <name>averageAround</name>
+        <param>
+          <type>BufferedImage</type>
+          <declname>i</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>px</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>py</declname>
+        </param>
+        <param>
+          <type>boolean</type>
+          <declname>showSignature</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>This method averages the pixel values around a central point and return the average as an instance of Color. The point coordinates are proportional to the image. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/problem11/ImageMatchingFitness.java" line="188" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/problem11/ImageMatchingFitness.java" bodystart="188" bodyend="228"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1tutorials_1_1problem11_1_1_image_matching_fitness_1adbcb791fa14e19c20e6c946cf1cd5a4f" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>double</type>
+        <definition>double jenes.tutorials.problem11.ImageMatchingFitness.calcDistance</definition>
+        <argsstring>(BufferedImage other)</argsstring>
+        <name>calcDistance</name>
+        <param>
+          <type>BufferedImage</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>This method calculates the distance between the signatures of an image and the reference one. The signatures for the image passed as the parameter are calculated inside the method. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/problem11/ImageMatchingFitness.java" line="235" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/problem11/ImageMatchingFitness.java" bodystart="235" bodyend="261"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>This class represent the fitness function used to match orientation of a sample image. The algorithm used is inspired to Java Image Processing Cookbook by Rafael Santos (see <ulink url="http://www.lac.inpe.br/JIPCookbook/">Web site</ulink>) </para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="243">
+        <label>jenes::population::Fitness&lt; BitwiseChromosome &gt;</label>
+      </node>
+      <node id="242">
+        <label>jenes.tutorials.problem11.ImageMatchingFitness</label>
+        <link refid="classjenes_1_1tutorials_1_1problem11_1_1_image_matching_fitness"/>
+        <childnode refid="243" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="247">
+        <label>BufferedImage</label>
+      </node>
+      <node id="246">
+        <label>Color</label>
+      </node>
+      <node id="245">
+        <label>jenes::population::Fitness&lt; BitwiseChromosome &gt;</label>
+      </node>
+      <node id="244">
+        <label>jenes.tutorials.problem11.ImageMatchingFitness</label>
+        <link refid="classjenes_1_1tutorials_1_1problem11_1_1_image_matching_fitness"/>
+        <childnode refid="245" relation="public-inheritance">
+        </childnode>
+        <childnode refid="246" relation="usage">
+          <edgelabel>signature</edgelabel>
+        </childnode>
+        <childnode refid="247" relation="usage">
+          <edgelabel>target</edgelabel>
+          <edgelabel>source</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/problem11/ImageMatchingFitness.java" line="26" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/problem11/ImageMatchingFitness.java" bodystart="26" bodyend="262"/>
+    <listofallmembers>
+      <member refid="classjenes_1_1tutorials_1_1problem11_1_1_image_matching_fitness_1a4abe074f9d95409ce79828d1773eda50" prot="private" virt="non-virtual"><scope>jenes::tutorials::problem11::ImageMatchingFitness</scope><name>averageAround</name></member>
+      <member refid="classjenes_1_1tutorials_1_1problem11_1_1_image_matching_fitness_1a3ec1a20065a2507f241ccff6f8b37e61" prot="private" virt="non-virtual"><scope>jenes::tutorials::problem11::ImageMatchingFitness</scope><name>baseSize</name></member>
+      <member refid="classjenes_1_1tutorials_1_1problem11_1_1_image_matching_fitness_1adbcb791fa14e19c20e6c946cf1cd5a4f" prot="private" virt="non-virtual"><scope>jenes::tutorials::problem11::ImageMatchingFitness</scope><name>calcDistance</name></member>
+      <member refid="classjenes_1_1tutorials_1_1problem11_1_1_image_matching_fitness_1a35b9b508ecc3020d0a8bba42c729e8e3" prot="private" virt="non-virtual"><scope>jenes::tutorials::problem11::ImageMatchingFitness</scope><name>calcSignature</name></member>
+      <member refid="classjenes_1_1tutorials_1_1problem11_1_1_image_matching_fitness_1ac56d86ab7d7c270c284ea8745b53d0b6" prot="protected" virt="non-virtual"><scope>jenes::tutorials::problem11::ImageMatchingFitness</scope><name>duplicate</name></member>
+      <member refid="classjenes_1_1tutorials_1_1problem11_1_1_image_matching_fitness_1ad1678b0716a862654451a29b12964ec1" prot="public" virt="non-virtual"><scope>jenes::tutorials::problem11::ImageMatchingFitness</scope><name>evaluate</name></member>
+      <member refid="classjenes_1_1tutorials_1_1problem11_1_1_image_matching_fitness_1ab2d23d7e2f9d4cbb57d5818dbcf91e05" prot="public" virt="non-virtual"><scope>jenes::tutorials::problem11::ImageMatchingFitness</scope><name>ImageMatchingFitness</name></member>
+      <member refid="classjenes_1_1tutorials_1_1problem11_1_1_image_matching_fitness_1a7cb7be6a6a88f840d4824bbaddd9bac8" prot="private" virt="non-virtual"><scope>jenes::tutorials::problem11::ImageMatchingFitness</scope><name>nSamples</name></member>
+      <member refid="classjenes_1_1tutorials_1_1problem11_1_1_image_matching_fitness_1a57d1723f3fea82e96455935aefb360b9" prot="public" virt="non-virtual"><scope>jenes::tutorials::problem11::ImageMatchingFitness</scope><name>printGraphics</name></member>
+      <member refid="classjenes_1_1tutorials_1_1problem11_1_1_image_matching_fitness_1a4646b0df9daaccbb004c04b2f8f6afb3" prot="private" virt="non-virtual"><scope>jenes::tutorials::problem11::ImageMatchingFitness</scope><name>rotateAnchorX</name></member>
+      <member refid="classjenes_1_1tutorials_1_1problem11_1_1_image_matching_fitness_1a9a0546b58cf181426dafb31f8d0ec3c6" prot="private" virt="non-virtual"><scope>jenes::tutorials::problem11::ImageMatchingFitness</scope><name>rotateAnchorY</name></member>
+      <member refid="classjenes_1_1tutorials_1_1problem11_1_1_image_matching_fitness_1acf5074dfbb8053f47ce1c03f3b88c121" prot="private" virt="non-virtual"><scope>jenes::tutorials::problem11::ImageMatchingFitness</scope><name>sampleAreaSize</name></member>
+      <member refid="classjenes_1_1tutorials_1_1problem11_1_1_image_matching_fitness_1a46fadaf9894a8034b8919db788936f13" prot="private" virt="non-virtual"><scope>jenes::tutorials::problem11::ImageMatchingFitness</scope><name>signature</name></member>
+      <member refid="classjenes_1_1tutorials_1_1problem11_1_1_image_matching_fitness_1a43f4833e41f19eadc706b7ec449033a8" prot="private" virt="non-virtual"><scope>jenes::tutorials::problem11::ImageMatchingFitness</scope><name>source</name></member>
+      <member refid="classjenes_1_1tutorials_1_1problem11_1_1_image_matching_fitness_1abcca6e100ede27ef9a90ddbc35497efd" prot="public" virt="non-virtual"><scope>jenes::tutorials::problem11::ImageMatchingFitness</scope><name>SOURCE_IMAGE</name></member>
+      <member refid="classjenes_1_1tutorials_1_1problem11_1_1_image_matching_fitness_1a3607fd64f431452de7de69cdd659445c" prot="private" virt="non-virtual"><scope>jenes::tutorials::problem11::ImageMatchingFitness</scope><name>target</name></member>
+      <member refid="classjenes_1_1tutorials_1_1problem11_1_1_image_matching_fitness_1abcf68166173033e945f0ed4c42520a84" prot="private" virt="non-virtual"><scope>jenes::tutorials::problem11::ImageMatchingFitness</scope><name>target_degrees</name></member>
+      <member refid="classjenes_1_1tutorials_1_1problem11_1_1_image_matching_fitness_1a59f0bf6390351b03e05e1423f85e93d0" prot="private" virt="non-virtual"><scope>jenes::tutorials::problem11::ImageMatchingFitness</scope><name>toRadiansForRotation</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

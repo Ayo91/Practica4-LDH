@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="enumjenes_1_1_genetic_algorithm_3_01_t_01extends_01_chromosome_01_4_1_1_elitism_strategy" kind="enum" prot="public">
+    <compoundname>jenes::GeneticAlgorithm&lt; T extends Chromosome &gt;::ElitismStrategy</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="enumjenes_1_1_genetic_algorithm_3_01_t_01extends_01_chromosome_01_4_1_1_elitism_strategy_1a591ab5eac2a1d3f09f99ab362ee54f65" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>jenes.GeneticAlgorithm&lt; T extends Chromosome &gt;.ElitismStrategy.RANDOM</definition>
+        <argsstring></argsstring>
+        <name>RANDOM</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>A number of individuals is randomly chosen, and substituted </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/GeneticAlgorithm.java" line="218" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/GeneticAlgorithm.java" bodystart="218" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="enumjenes_1_1_genetic_algorithm_3_01_t_01extends_01_chromosome_01_4_1_1_elitism_strategy_1a60c1acf7a272aca7e29b422a124a2ee2" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>jenes.GeneticAlgorithm&lt; T extends Chromosome &gt;.ElitismStrategy.WORST</definition>
+        <argsstring></argsstring>
+        <name>WORST</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Worst individuals are substituted </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/GeneticAlgorithm.java" line="221" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/GeneticAlgorithm.java" bodystart="220" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>The elitism strategy enumeration </para>    </detaileddescription>
+    <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/GeneticAlgorithm.java" line="215" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/GeneticAlgorithm.java" bodystart="215" bodyend="221"/>
+    <listofallmembers>
+      <member refid="enumjenes_1_1_genetic_algorithm_3_01_t_01extends_01_chromosome_01_4_1_1_elitism_strategy_1a591ab5eac2a1d3f09f99ab362ee54f65" prot="public" virt="non-virtual"><scope>jenes::GeneticAlgorithm&lt; T extends Chromosome &gt;::ElitismStrategy</scope><name>RANDOM</name></member>
+      <member refid="enumjenes_1_1_genetic_algorithm_3_01_t_01extends_01_chromosome_01_4_1_1_elitism_strategy_1a60c1acf7a272aca7e29b422a124a2ee2" prot="public" virt="non-virtual"><scope>jenes::GeneticAlgorithm&lt; T extends Chromosome &gt;::ElitismStrategy</scope><name>WORST</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

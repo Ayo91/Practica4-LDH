@@ -1,0 +1,871 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="classjenes_1_1utils_1_1_x_l_s_logger" kind="class" prot="public">
+    <compoundname>jenes::utils::XLSLogger</compoundname>
+    <basecompoundref refid="classjenes_1_1utils_1_1_abstract_logger" prot="public" virt="non-virtual">jenes.utils.AbstractLogger</basecompoundref>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="classjenes_1_1utils_1_1_x_l_s_logger_1a4fecf837647f44b8572a68f4cdedb458" prot="private" static="yes" mutable="no">
+        <type>String</type>
+        <definition>String jenes.utils.XLSLogger.SCORES_LABEL</definition>
+        <argsstring></argsstring>
+        <name>SCORES_LABEL</name>
+        <initializer>= &quot;Scores&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/utils/XLSLogger.java" line="63" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/utils/XLSLogger.java" bodystart="63" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classjenes_1_1utils_1_1_x_l_s_logger_1a7308e8bb6eda1c5bf2aef93c2607ce60" prot="private" static="yes" mutable="no">
+        <type>String</type>
+        <definition>String jenes.utils.XLSLogger.CHROMOSOME_LABEL</definition>
+        <argsstring></argsstring>
+        <name>CHROMOSOME_LABEL</name>
+        <initializer>= &quot;Chromosome&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/utils/XLSLogger.java" line="64" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/utils/XLSLogger.java" bodystart="64" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classjenes_1_1utils_1_1_x_l_s_logger_1a326448294f3d41ccfa5b80f496c7580e" prot="private" static="no" mutable="no">
+        <type>String</type>
+        <definition>String jenes.utils.XLSLogger.filename</definition>
+        <argsstring></argsstring>
+        <name>filename</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/utils/XLSLogger.java" line="65" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/utils/XLSLogger.java" bodystart="65" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classjenes_1_1utils_1_1_x_l_s_logger_1ad776c22f388365c6f1a8c21e786f9928" prot="private" static="no" mutable="no">
+        <type>WritableWorkbook</type>
+        <definition>WritableWorkbook jenes.utils.XLSLogger.workbook</definition>
+        <argsstring></argsstring>
+        <name>workbook</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/utils/XLSLogger.java" line="66" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/utils/XLSLogger.java" bodystart="66" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classjenes_1_1utils_1_1_x_l_s_logger_1a2a9f48e370b1db8e0b978181bb7c5fec" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int jenes.utils.XLSLogger.line</definition>
+        <argsstring></argsstring>
+        <name>line</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/utils/XLSLogger.java" line="67" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/utils/XLSLogger.java" bodystart="67" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classjenes_1_1utils_1_1_x_l_s_logger_1a06bcfe322f856670f3706369261bc7c7" prot="private" static="no" mutable="no">
+        <type>Map&lt; String, WritableSheet &gt;</type>
+        <definition>Map&lt;String, WritableSheet&gt; jenes.utils.XLSLogger.sheets</definition>
+        <argsstring></argsstring>
+        <name>sheets</name>
+        <initializer>= new HashMap&lt;String, WritableSheet&gt;()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/utils/XLSLogger.java" line="68" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/utils/XLSLogger.java" bodystart="68" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classjenes_1_1utils_1_1_x_l_s_logger_1a44fcfb206d65e2af727d24a8d4a0af31" prot="private" static="no" mutable="no">
+        <type>Map&lt; WritableSheet, Map&lt; String, Integer &gt; &gt;</type>
+        <definition>Map&lt;WritableSheet, Map&lt;String, Integer&gt; &gt; jenes.utils.XLSLogger.colsOfSheet</definition>
+        <argsstring></argsstring>
+        <name>colsOfSheet</name>
+        <initializer>= new HashMap&lt;WritableSheet, Map&lt;String, Integer&gt;&gt;()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/utils/XLSLogger.java" line="69" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/utils/XLSLogger.java" bodystart="69" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classjenes_1_1utils_1_1_x_l_s_logger_1a01b5b1ada6288ddd0f1753ccd5cc6df6" prot="private" static="no" mutable="no">
+        <type>List&lt; WritableCell &gt;</type>
+        <definition>List&lt;WritableCell&gt; jenes.utils.XLSLogger.newCols</definition>
+        <argsstring></argsstring>
+        <name>newCols</name>
+        <initializer>= new ArrayList&lt;WritableCell&gt;()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/utils/XLSLogger.java" line="70" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/utils/XLSLogger.java" bodystart="70" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classjenes_1_1utils_1_1_x_l_s_logger_1a9951ca6377e81a1c8a3c4b72d6a205f3" prot="private" static="no" mutable="no">
+        <type>Map&lt; String, Boolean &gt;</type>
+        <definition>Map&lt;String, Boolean&gt; jenes.utils.XLSLogger.alterableSchema</definition>
+        <argsstring></argsstring>
+        <name>alterableSchema</name>
+        <initializer>= new HashMap&lt;String, Boolean&gt;()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/utils/XLSLogger.java" line="71" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/utils/XLSLogger.java" bodystart="71" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classjenes_1_1utils_1_1_x_l_s_logger_1a1fa625f6c332aca9178b1c7a4eb963d8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>jenes.utils.XLSLogger.XLSLogger</definition>
+        <argsstring>(String[] schema)</argsstring>
+        <name>XLSLogger</name>
+        <param>
+          <type>String[]</type>
+          <declname>schema</declname>
+        </param>
+        <exceptions> throws IOException </exceptions>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Istantiates a new logger with a given schema. Data are saved by defualt in the workbook jenes.log.xls. Recording starts from row 1.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>schema</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- the field labels </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<parameterlist kind="exception"><parameteritem>
+<parameternamelist>
+<parametername>IOException</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/utils/XLSLogger.java" line="81" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/utils/XLSLogger.java" bodystart="81" bodyend="83"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1utils_1_1_x_l_s_logger_1a256b5ddf3beaa1eedb2290b52bb1a845" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>jenes.utils.XLSLogger.XLSLogger</definition>
+        <argsstring>(String[] schema, String filename)</argsstring>
+        <name>XLSLogger</name>
+        <param>
+          <type>String[]</type>
+          <declname>schema</declname>
+        </param>
+        <param>
+          <type>String</type>
+          <declname>filename</declname>
+        </param>
+        <exceptions> throws IOException </exceptions>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Istantiates a new logger with a given schema. Recording starts from row 1.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>schema</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- the field labels </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>filename</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- the workbook filename </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<parameterlist kind="exception"><parameteritem>
+<parameternamelist>
+<parametername>IOException</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/utils/XLSLogger.java" line="93" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/utils/XLSLogger.java" bodystart="93" bodyend="95"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1utils_1_1_x_l_s_logger_1ac43b3385840e86a2ad4acd5040e8326b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>jenes.utils.XLSLogger.XLSLogger</definition>
+        <argsstring>(String[] schema, String filename, int from)</argsstring>
+        <name>XLSLogger</name>
+        <param>
+          <type>String[]</type>
+          <declname>schema</declname>
+        </param>
+        <param>
+          <type>String</type>
+          <declname>filename</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>from</declname>
+        </param>
+        <exceptions> throws IOException </exceptions>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Istantiates a new logger with a given schema.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>schema</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- the field labels </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>filename</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- the workbook filename </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>from</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- the recording initial row </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<parameterlist kind="exception"><parameteritem>
+<parameternamelist>
+<parametername>IOException</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/utils/XLSLogger.java" line="105" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/utils/XLSLogger.java" bodystart="105" bodyend="126"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1utils_1_1_x_l_s_logger_1a2e438a48213dd4e1773c380d7f9d7e4b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>jenes.utils.XLSLogger.XLSLogger</definition>
+        <argsstring>(String[] schema, String filename, String template)</argsstring>
+        <name>XLSLogger</name>
+        <param>
+          <type>String[]</type>
+          <declname>schema</declname>
+        </param>
+        <param>
+          <type>String</type>
+          <declname>filename</declname>
+        </param>
+        <param>
+          <type>String</type>
+          <declname>template</declname>
+        </param>
+        <exceptions> throws IOException </exceptions>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Istantiates a new logger with a given schema. Recording starts from row 1.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>schema</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- the field labels </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>filename</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- the workbook name </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>template</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- the workbook template </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<parameterlist kind="exception"><parameteritem>
+<parameternamelist>
+<parametername>IOException</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/utils/XLSLogger.java" line="137" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/utils/XLSLogger.java" bodystart="137" bodyend="152"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1utils_1_1_x_l_s_logger_1a60e8ee28d3d3305e085726026e09cfdc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int jenes.utils.XLSLogger.getLine</definition>
+        <argsstring>()</argsstring>
+        <name>getLine</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Provides the current recording row</para><para><simplesect kind="return"><para>- recording row </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/utils/XLSLogger.java" line="199" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/utils/XLSLogger.java" bodystart="199" bodyend="201"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1utils_1_1_x_l_s_logger_1a2f9ce5372263fadce99a863149f3cb55" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void jenes.utils.XLSLogger.setLine</definition>
+        <argsstring>(int line)</argsstring>
+        <name>setLine</name>
+        <param>
+          <type>int</type>
+          <declname>line</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Sets the current recording row at a specified value.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>line</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- the new recording row </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/utils/XLSLogger.java" line="208" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/utils/XLSLogger.java" bodystart="208" bodyend="210"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1utils_1_1_x_l_s_logger_1ab84e4c5e6518902f710cd3c3cc337f3d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>WritableWorkbook</type>
+        <definition>WritableWorkbook jenes.utils.XLSLogger.getWorkbook</definition>
+        <argsstring>()</argsstring>
+        <name>getWorkbook</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Rovides the workbook used for writing the statistics. See JExcelApi documentation for futher information.</para><para><simplesect kind="return"><para>the workbook </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/utils/XLSLogger.java" line="218" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/utils/XLSLogger.java" bodystart="218" bodyend="221"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classjenes_1_1utils_1_1_x_l_s_logger_1a9e141f15afe414a355c0ed0761e3fa33" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void jenes.utils.XLSLogger.map</definition>
+        <argsstring>(String[] schema)</argsstring>
+        <name>map</name>
+        <param>
+          <type>String[]</type>
+          <declname>schema</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/utils/XLSLogger.java" line="154" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/utils/XLSLogger.java" bodystart="154" bodyend="175"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1utils_1_1_x_l_s_logger_1aec0462235a0576302663ffe5ebebe302" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void jenes.utils.XLSLogger.create</definition>
+        <argsstring>(String[] schema)</argsstring>
+        <name>create</name>
+        <param>
+          <type>String[]</type>
+          <declname>schema</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/utils/XLSLogger.java" line="177" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/utils/XLSLogger.java" bodystart="177" bodyend="192"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1utils_1_1_x_l_s_logger_1acc87ec46a39bd28e8fe95aa6866718c7" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>WritableCell</type>
+        <definition>WritableCell jenes.utils.XLSLogger.fillCell</definition>
+        <argsstring>(Object value, String key, int currentLine, int c, WritableSheet sh, boolean valueAsArray)</argsstring>
+        <name>fillCell</name>
+        <param>
+          <type>Object</type>
+          <declname>value</declname>
+        </param>
+        <param>
+          <type>String</type>
+          <declname>key</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>currentLine</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>c</declname>
+        </param>
+        <param>
+          <type>WritableSheet</type>
+          <declname>sh</declname>
+        </param>
+        <param>
+          <type>boolean</type>
+          <declname>valueAsArray</declname>
+        </param>
+        <exceptions> throws WriteException </exceptions>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Valorize a cell in the sheet <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>value</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>key</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>column name </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>currentLine</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>c</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>sh</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>valueAsArray</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>in the case we are storing a multi-level array </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para></para></simplesect>
+<parameterlist kind="exception"><parameteritem>
+<parameternamelist>
+<parametername>WriteException</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/utils/XLSLogger.java" line="303" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/utils/XLSLogger.java" bodystart="303" bodyend="417"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1utils_1_1_x_l_s_logger_1ada2b2a6d9fdbd1daa9d719761dcd58fa" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void jenes.utils.XLSLogger.alterSchema</definition>
+        <argsstring>(WritableSheet sh, int startIndex, int length)</argsstring>
+        <name>alterSchema</name>
+        <param>
+          <type>WritableSheet</type>
+          <declname>sh</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>startIndex</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>length</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Alter schema <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>sh</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the sheet to change </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>startIndex</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>index where to start in adding columns </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>length</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/utils/XLSLogger.java" line="425" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/utils/XLSLogger.java" bodystart="425" bodyend="463"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1utils_1_1_x_l_s_logger_1a5e79e26762d4c866d71ef2f6e9a3a5f3" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void jenes.utils.XLSLogger.putInColumns</definition>
+        <argsstring>(WritableSheet sh, String key, int col)</argsstring>
+        <name>putInColumns</name>
+        <param>
+          <type>WritableSheet</type>
+          <declname>sh</declname>
+        </param>
+        <param>
+          <type>String</type>
+          <declname>key</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>col</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Called at the beginning to collect information on the schema <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>sh</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>key</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>col</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/utils/XLSLogger.java" line="471" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/utils/XLSLogger.java" bodystart="471" bodyend="480"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1utils_1_1_x_l_s_logger_1a0de0d0ceef137f794cf86573b856b2dd" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>WritableSheet</type>
+        <definition>WritableSheet jenes.utils.XLSLogger.editOtherSheet</definition>
+        <argsstring>(String key, int columns, WritableCell...cells)</argsstring>
+        <name>editOtherSheet</name>
+        <param>
+          <type>String</type>
+          <declname>key</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>columns</declname>
+        </param>
+        <param>
+          <type>WritableCell...</type>
+          <declname>cells</declname>
+        </param>
+        <exceptions> throws WriteException </exceptions>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Create a new sheet to log a group <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>key</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>columns</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para></para></simplesect>
+<parameterlist kind="exception"><parameteritem>
+<parameternamelist>
+<parametername>WriteException</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/utils/XLSLogger.java" line="489" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/utils/XLSLogger.java" bodystart="489" bodyend="506"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1utils_1_1_x_l_s_logger_1afda0752f2053af091fcfdc511fd674a7" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void jenes.utils.XLSLogger.removeColumnFromFirstSheet</definition>
+        <argsstring>(String key, WritableSheet sh)</argsstring>
+        <name>removeColumnFromFirstSheet</name>
+        <param>
+          <type>String</type>
+          <declname>key</declname>
+        </param>
+        <param>
+          <type>WritableSheet</type>
+          <declname>sh</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>In case of group storing, remove column with the given label... a sheet will be used to log this kind of informations <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>key</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>sh</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/utils/XLSLogger.java" line="513" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/utils/XLSLogger.java" bodystart="513" bodyend="528"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1utils_1_1_x_l_s_logger_1a01f33738abad99c69762482bb43108cf" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Object[]</type>
+        <definition>Object [] jenes.utils.XLSLogger.castArray</definition>
+        <argsstring>(Object value)</argsstring>
+        <name>castArray</name>
+        <param>
+          <type>Object</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>value</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/utils/XLSLogger.java" line="535" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/utils/XLSLogger.java" bodystart="535" bodyend="568"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classjenes_1_1utils_1_1_x_l_s_logger_1ae6b3840ad6be8bdc558efaf6077d4ae4" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>void jenes.utils.XLSLogger.store</definition>
+        <argsstring>()</argsstring>
+        <name>store</name>
+        <reimplements refid="classjenes_1_1utils_1_1_abstract_logger_1a6acf83a83999e26ae4ed45cbf355111b">store</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Stores the current record. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/utils/XLSLogger.java" line="224" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/utils/XLSLogger.java" bodystart="224" bodyend="261"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1utils_1_1_x_l_s_logger_1a54c54393bf5a31442ebfc10517dfceea" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>void jenes.utils.XLSLogger.doSave</definition>
+        <argsstring>()</argsstring>
+        <name>doSave</name>
+        <reimplements refid="classjenes_1_1utils_1_1_abstract_logger_1a41fcd50b050c467fe1b413fc5b49c167">doSave</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Saves cached records on media </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/utils/XLSLogger.java" line="264" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/utils/XLSLogger.java" bodystart="264" bodyend="270"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1utils_1_1_x_l_s_logger_1acf58ddaa6873bcf626c9d24064a89b73" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>void jenes.utils.XLSLogger.doClose</definition>
+        <argsstring>()</argsstring>
+        <name>doClose</name>
+        <reimplements refid="classjenes_1_1utils_1_1_abstract_logger_1a5253672b3f3f81287db2fc604ca921a9">doClose</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Closes the logger. Any further log is not allowed. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/utils/XLSLogger.java" line="273" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/utils/XLSLogger.java" bodystart="273" bodyend="290"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>This class implements a logger based on Excel&apos;s XLS files.</para><para>Data are stored in the first column having the data label as header. It does not matter in which sheet. Recording can start from any row. From which row to start recording can be decided at istantiation or execution time.</para><para>The class can work with an empty file or with a template provided at instantiation time. Using a template is a helpful with macros and plots, in order to make ready-to-use reports.</para><para>Requires the libray JExcelApi.</para><para><simplesect kind="version"><para>2.0 </para></simplesect>
+<simplesect kind="since"><para>1.3 </para></simplesect>
+</para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="767">
+        <label>jenes.utils.AbstractLogger</label>
+        <link refid="classjenes_1_1utils_1_1_abstract_logger"/>
+      </node>
+      <node id="766">
+        <label>jenes.utils.XLSLogger</label>
+        <link refid="classjenes_1_1utils_1_1_x_l_s_logger"/>
+        <childnode refid="767" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="774">
+        <label>Map&lt; WritableSheet, Map&lt; String, Integer &gt; &gt;</label>
+      </node>
+      <node id="773">
+        <label>Map&lt; String, WritableSheet &gt;</label>
+      </node>
+      <node id="770">
+        <label>List&lt; String &gt;</label>
+      </node>
+      <node id="769">
+        <label>jenes.utils.AbstractLogger</label>
+        <link refid="classjenes_1_1utils_1_1_abstract_logger"/>
+        <childnode refid="770" relation="usage">
+          <edgelabel>schema</edgelabel>
+        </childnode>
+        <childnode refid="771" relation="usage">
+          <edgelabel>record</edgelabel>
+        </childnode>
+      </node>
+      <node id="776">
+        <label>Map&lt; String, Boolean &gt;</label>
+      </node>
+      <node id="768">
+        <label>jenes.utils.XLSLogger</label>
+        <link refid="classjenes_1_1utils_1_1_x_l_s_logger"/>
+        <childnode refid="769" relation="public-inheritance">
+        </childnode>
+        <childnode refid="772" relation="usage">
+          <edgelabel>newCols</edgelabel>
+        </childnode>
+        <childnode refid="773" relation="usage">
+          <edgelabel>sheets</edgelabel>
+        </childnode>
+        <childnode refid="774" relation="usage">
+          <edgelabel>colsOfSheet</edgelabel>
+        </childnode>
+        <childnode refid="775" relation="usage">
+          <edgelabel>workbook</edgelabel>
+        </childnode>
+        <childnode refid="776" relation="usage">
+          <edgelabel>alterableSchema</edgelabel>
+        </childnode>
+      </node>
+      <node id="771">
+        <label>Map&lt; String, Object &gt;</label>
+      </node>
+      <node id="775">
+        <label>WritableWorkbook</label>
+      </node>
+      <node id="772">
+        <label>List&lt; WritableCell &gt;</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/utils/XLSLogger.java" line="61" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/utils/XLSLogger.java" bodystart="61" bodyend="569"/>
+    <listofallmembers>
+      <member refid="classjenes_1_1utils_1_1_abstract_logger_1a357a64e024ede4da833b79455ba63644" prot="public" virt="non-virtual"><scope>jenes::utils::XLSLogger</scope><name>AbstractLogger</name></member>
+      <member refid="classjenes_1_1utils_1_1_x_l_s_logger_1a9951ca6377e81a1c8a3c4b72d6a205f3" prot="private" virt="non-virtual"><scope>jenes::utils::XLSLogger</scope><name>alterableSchema</name></member>
+      <member refid="classjenes_1_1utils_1_1_x_l_s_logger_1ada2b2a6d9fdbd1daa9d719761dcd58fa" prot="private" virt="non-virtual"><scope>jenes::utils::XLSLogger</scope><name>alterSchema</name></member>
+      <member refid="classjenes_1_1utils_1_1_x_l_s_logger_1a01f33738abad99c69762482bb43108cf" prot="private" virt="non-virtual"><scope>jenes::utils::XLSLogger</scope><name>castArray</name></member>
+      <member refid="classjenes_1_1utils_1_1_x_l_s_logger_1a7308e8bb6eda1c5bf2aef93c2607ce60" prot="private" virt="non-virtual"><scope>jenes::utils::XLSLogger</scope><name>CHROMOSOME_LABEL</name></member>
+      <member refid="classjenes_1_1utils_1_1_abstract_logger_1a7d973cbb6b91f254a5430a8875898dbe" prot="public" virt="non-virtual"><scope>jenes::utils::XLSLogger</scope><name>close</name></member>
+      <member refid="classjenes_1_1utils_1_1_abstract_logger_1a68fe91d1c7bad9146db3bddd92bbcab3" prot="protected" virt="non-virtual"><scope>jenes::utils::XLSLogger</scope><name>closed</name></member>
+      <member refid="classjenes_1_1utils_1_1_x_l_s_logger_1a44fcfb206d65e2af727d24a8d4a0af31" prot="private" virt="non-virtual"><scope>jenes::utils::XLSLogger</scope><name>colsOfSheet</name></member>
+      <member refid="classjenes_1_1utils_1_1_x_l_s_logger_1aec0462235a0576302663ffe5ebebe302" prot="private" virt="non-virtual"><scope>jenes::utils::XLSLogger</scope><name>create</name></member>
+      <member refid="classjenes_1_1utils_1_1_x_l_s_logger_1acf58ddaa6873bcf626c9d24064a89b73" prot="protected" virt="virtual"><scope>jenes::utils::XLSLogger</scope><name>doClose</name></member>
+      <member refid="classjenes_1_1utils_1_1_x_l_s_logger_1a54c54393bf5a31442ebfc10517dfceea" prot="protected" virt="virtual"><scope>jenes::utils::XLSLogger</scope><name>doSave</name></member>
+      <member refid="classjenes_1_1utils_1_1_x_l_s_logger_1a0de0d0ceef137f794cf86573b856b2dd" prot="private" virt="non-virtual"><scope>jenes::utils::XLSLogger</scope><name>editOtherSheet</name></member>
+      <member refid="classjenes_1_1utils_1_1_x_l_s_logger_1a326448294f3d41ccfa5b80f496c7580e" prot="private" virt="non-virtual"><scope>jenes::utils::XLSLogger</scope><name>filename</name></member>
+      <member refid="classjenes_1_1utils_1_1_x_l_s_logger_1acc87ec46a39bd28e8fe95aa6866718c7" prot="private" virt="non-virtual"><scope>jenes::utils::XLSLogger</scope><name>fillCell</name></member>
+      <member refid="classjenes_1_1utils_1_1_abstract_logger_1af2c45f653c6e5e79bc4e85dc3ecc4ab4" prot="protected" virt="non-virtual"><scope>jenes::utils::XLSLogger</scope><name>finalize</name></member>
+      <member refid="classjenes_1_1utils_1_1_abstract_logger_1acceb0a183912b0ec7fc95554ab2e3001" prot="public" virt="non-virtual"><scope>jenes::utils::XLSLogger</scope><name>get</name></member>
+      <member refid="classjenes_1_1utils_1_1_abstract_logger_1ae939c8578c5342d8f11ff61388ddfd80" prot="public" virt="non-virtual"><scope>jenes::utils::XLSLogger</scope><name>getFields</name></member>
+      <member refid="classjenes_1_1utils_1_1_x_l_s_logger_1a60e8ee28d3d3305e085726026e09cfdc" prot="public" virt="non-virtual"><scope>jenes::utils::XLSLogger</scope><name>getLine</name></member>
+      <member refid="classjenes_1_1utils_1_1_abstract_logger_1a3f4dc79a211f8e01c621d42dec8d4de2" prot="public" virt="non-virtual"><scope>jenes::utils::XLSLogger</scope><name>getSchema</name></member>
+      <member refid="classjenes_1_1utils_1_1_x_l_s_logger_1ab84e4c5e6518902f710cd3c3cc337f3d" prot="public" virt="non-virtual"><scope>jenes::utils::XLSLogger</scope><name>getWorkbook</name></member>
+      <member refid="classjenes_1_1utils_1_1_abstract_logger_1af4f01e740a9332b8bb32817e01e7b030" prot="public" virt="non-virtual"><scope>jenes::utils::XLSLogger</scope><name>isRecordComplete</name></member>
+      <member refid="classjenes_1_1utils_1_1_x_l_s_logger_1a2a9f48e370b1db8e0b978181bb7c5fec" prot="private" virt="non-virtual"><scope>jenes::utils::XLSLogger</scope><name>line</name></member>
+      <member refid="classjenes_1_1utils_1_1_abstract_logger_1a26e56f4617fbd249359186c90ec265ba" prot="public" virt="non-virtual"><scope>jenes::utils::XLSLogger</scope><name>log</name></member>
+      <member refid="classjenes_1_1utils_1_1_x_l_s_logger_1a9e141f15afe414a355c0ed0761e3fa33" prot="private" virt="non-virtual"><scope>jenes::utils::XLSLogger</scope><name>map</name></member>
+      <member refid="classjenes_1_1utils_1_1_x_l_s_logger_1a01b5b1ada6288ddd0f1753ccd5cc6df6" prot="private" virt="non-virtual"><scope>jenes::utils::XLSLogger</scope><name>newCols</name></member>
+      <member refid="classjenes_1_1utils_1_1_abstract_logger_1a0f00b8fa60e88b7c2834be7cdf1fc07e" prot="public" virt="non-virtual"><scope>jenes::utils::XLSLogger</scope><name>put</name></member>
+      <member refid="classjenes_1_1utils_1_1_x_l_s_logger_1a5e79e26762d4c866d71ef2f6e9a3a5f3" prot="private" virt="non-virtual"><scope>jenes::utils::XLSLogger</scope><name>putInColumns</name></member>
+      <member refid="classjenes_1_1utils_1_1_abstract_logger_1ae85e356ad12255a9c5ec8f9f25659ef7" prot="protected" virt="non-virtual"><scope>jenes::utils::XLSLogger</scope><name>record</name></member>
+      <member refid="classjenes_1_1utils_1_1_x_l_s_logger_1afda0752f2053af091fcfdc511fd674a7" prot="private" virt="non-virtual"><scope>jenes::utils::XLSLogger</scope><name>removeColumnFromFirstSheet</name></member>
+      <member refid="classjenes_1_1utils_1_1_abstract_logger_1a736fbff3759196a70dbf6618f10e8786" prot="public" virt="non-virtual"><scope>jenes::utils::XLSLogger</scope><name>save</name></member>
+      <member refid="classjenes_1_1utils_1_1_abstract_logger_1a3a2030876857a0512fae7e0ad400c570" prot="protected" virt="non-virtual"><scope>jenes::utils::XLSLogger</scope><name>schema</name></member>
+      <member refid="classjenes_1_1utils_1_1_x_l_s_logger_1a4fecf837647f44b8572a68f4cdedb458" prot="private" virt="non-virtual"><scope>jenes::utils::XLSLogger</scope><name>SCORES_LABEL</name></member>
+      <member refid="classjenes_1_1utils_1_1_x_l_s_logger_1a2f9ce5372263fadce99a863149f3cb55" prot="public" virt="non-virtual"><scope>jenes::utils::XLSLogger</scope><name>setLine</name></member>
+      <member refid="classjenes_1_1utils_1_1_x_l_s_logger_1a06bcfe322f856670f3706369261bc7c7" prot="private" virt="non-virtual"><scope>jenes::utils::XLSLogger</scope><name>sheets</name></member>
+      <member refid="classjenes_1_1utils_1_1_x_l_s_logger_1ae6b3840ad6be8bdc558efaf6077d4ae4" prot="protected" virt="virtual"><scope>jenes::utils::XLSLogger</scope><name>store</name></member>
+      <member refid="classjenes_1_1utils_1_1_x_l_s_logger_1ad776c22f388365c6f1a8c21e786f9928" prot="private" virt="non-virtual"><scope>jenes::utils::XLSLogger</scope><name>workbook</name></member>
+      <member refid="classjenes_1_1utils_1_1_x_l_s_logger_1a1fa625f6c332aca9178b1c7a4eb963d8" prot="public" virt="non-virtual"><scope>jenes::utils::XLSLogger</scope><name>XLSLogger</name></member>
+      <member refid="classjenes_1_1utils_1_1_x_l_s_logger_1a256b5ddf3beaa1eedb2290b52bb1a845" prot="public" virt="non-virtual"><scope>jenes::utils::XLSLogger</scope><name>XLSLogger</name></member>
+      <member refid="classjenes_1_1utils_1_1_x_l_s_logger_1ac43b3385840e86a2ad4acd5040e8326b" prot="public" virt="non-virtual"><scope>jenes::utils::XLSLogger</scope><name>XLSLogger</name></member>
+      <member refid="classjenes_1_1utils_1_1_x_l_s_logger_1a2e438a48213dd4e1773c380d7f9d7e4b" prot="public" virt="non-virtual"><scope>jenes::utils::XLSLogger</scope><name>XLSLogger</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

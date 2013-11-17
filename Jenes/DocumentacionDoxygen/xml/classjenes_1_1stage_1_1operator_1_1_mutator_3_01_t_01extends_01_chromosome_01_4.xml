@@ -1,0 +1,184 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="classjenes_1_1stage_1_1operator_1_1_mutator_3_01_t_01extends_01_chromosome_01_4" kind="class" prot="public" abstract="yes">
+    <compoundname>jenes::stage::operator::Mutator&lt; T extends Chromosome &gt;</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Operator&lt; T &gt;</basecompoundref>
+    <innerclass refid="classjenes_1_1stage_1_1operator_1_1_mutator_3_01_t_01extends_01_chromosome_01_4_1_1_statistics" prot="public">jenes::stage::operator::Mutator&lt; T extends Chromosome &gt;::Statistics</innerclass>
+      <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="classjenes_1_1stage_1_1operator_1_1_mutator_3_01_t_01extends_01_chromosome_01_4_1a60f38eb7afd1ad6a7d1c0c639df2d5fe" prot="protected" static="no" mutable="no">
+        <type>double</type>
+        <definition>double jenes.stage.operator.Mutator&lt; T extends Chromosome &gt;.probability</definition>
+        <argsstring></argsstring>
+        <name>probability</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The mutation probablility </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/operator/Mutator.java" line="47" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/operator/Mutator.java" bodystart="47" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classjenes_1_1stage_1_1operator_1_1_mutator_3_01_t_01extends_01_chromosome_01_4_1a01aea5c94d65f99cca8a24be7250a06a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>jenes.stage.operator.Mutator&lt; T extends Chromosome &gt;.Mutator</definition>
+        <argsstring>(double probability)</argsstring>
+        <name>Mutator</name>
+        <param>
+          <type>double</type>
+          <declname>probability</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs a new mutator instance with the specified mutator probability</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>probability</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the mutator probability </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/operator/Mutator.java" line="54" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/operator/Mutator.java" bodystart="54" bodyend="57"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1stage_1_1operator_1_1_mutator_3_01_t_01extends_01_chromosome_01_4_1af8cd41f87d99e8bc5d00bf9a21ffcd86" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>double</type>
+        <definition>double jenes.stage.operator.Mutator&lt; T extends Chromosome &gt;.getProbability</definition>
+        <argsstring>()</argsstring>
+        <name>getProbability</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns the mutator probability</para><para><simplesect kind="return"><para>the mutator probability </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/operator/Mutator.java" line="64" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/operator/Mutator.java" bodystart="64" bodyend="66"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1stage_1_1operator_1_1_mutator_3_01_t_01extends_01_chromosome_01_4_1a49b8a34032a575badd2080d6c90397cb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void jenes.stage.operator.Mutator&lt; T extends Chromosome &gt;.setProbability</definition>
+        <argsstring>(double probability)</argsstring>
+        <name>setProbability</name>
+        <param>
+          <type>double</type>
+          <declname>probability</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Sets the mutator probability</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>probability</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the new mutator probability </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/operator/Mutator.java" line="73" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/operator/Mutator.java" bodystart="73" bodyend="75"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1stage_1_1operator_1_1_mutator_3_01_t_01extends_01_chromosome_01_4_1a091269db32219198b26860ee4b295345" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>final void</type>
+        <definition>final void jenes.stage.operator.Mutator&lt; T extends Chromosome &gt;.process</definition>
+        <argsstring>(Population&lt; T &gt; in, Population&lt; T &gt; out)</argsstring>
+        <name>process</name>
+        <param>
+          <type>Population&lt; T &gt;</type>
+          <declname>in</declname>
+        </param>
+        <param>
+          <type>Population&lt; T &gt;</type>
+          <declname>out</declname>
+        </param>
+        <exceptions> throws <ref refid="classjenes_1_1stage_1_1_stage_exception" kindref="compound">StageException</ref> </exceptions>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/operator/Mutator.java" line="78" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/operator/Mutator.java" bodystart="78" bodyend="93"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classjenes_1_1stage_1_1operator_1_1_mutator_3_01_t_01extends_01_chromosome_01_4_1a5ea1c6fd8d4ed580d70e1fafd85bb3a8" prot="protected" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>abstract void</type>
+        <definition>abstract void jenes.stage.operator.Mutator&lt; T extends Chromosome &gt;.mutate</definition>
+        <argsstring>(Individual&lt; T &gt; t)</argsstring>
+        <name>mutate</name>
+        <param>
+          <type>Individual&lt; T &gt;</type>
+          <declname>t</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Mutates a single individual. This abstract method is implemented according to a mutation policy</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>t</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the individual to mutate </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/operator/Mutator.java" line="101" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>A generic mutation operator. The operation is executed according to a mutation probability. </para><para>The actual operator is implemented by subclassing this abstract class and providing the <ref refid="" kindref="compound">Mutator#mutate(Individual)</ref> implementation: the method is required to mutate an <ref refid="" kindref="compound">Individual</ref> according to a mutation strategy. No new individual copies have to be created during the mutation operation: the individual specified at the <ref refid="" kindref="compound">Mutator#mutate(Individual)</ref> will take parte to the output mutator population. </para><para>A <ref refid="" kindref="compound">Mutator.Statistics</ref> is associated to each mutator operator.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>&lt;T&gt;</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The class of chromosomes to work with.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="version"><para>1.2 </para></simplesect>
+<simplesect kind="since"><para>1.0</para></simplesect>
+<simplesect kind="see"><para>Individual </para><simplesectsep/><para>Population </para></simplesect>
+</para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="419">
+        <label>Operator&lt; T &gt;</label>
+      </node>
+      <node id="418">
+        <label>jenes.stage.operator.Mutator&lt; T extends Chromosome &gt;</label>
+        <link refid="classjenes_1_1stage_1_1operator_1_1_mutator_3_01_t_01extends_01_chromosome_01_4"/>
+        <childnode refid="419" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="421">
+        <label>Operator&lt; T &gt;</label>
+      </node>
+      <node id="420">
+        <label>jenes.stage.operator.Mutator&lt; T extends Chromosome &gt;</label>
+        <link refid="classjenes_1_1stage_1_1operator_1_1_mutator_3_01_t_01extends_01_chromosome_01_4"/>
+        <childnode refid="421" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/operator/Mutator.java" line="44" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/operator/Mutator.java" bodystart="44" bodyend="143"/>
+    <listofallmembers>
+      <member refid="classjenes_1_1stage_1_1operator_1_1_mutator_3_01_t_01extends_01_chromosome_01_4_1af8cd41f87d99e8bc5d00bf9a21ffcd86" prot="public" virt="non-virtual"><scope>jenes::stage::operator::Mutator&lt; T extends Chromosome &gt;</scope><name>getProbability</name></member>
+      <member refid="classjenes_1_1stage_1_1operator_1_1_mutator_3_01_t_01extends_01_chromosome_01_4_1a5ea1c6fd8d4ed580d70e1fafd85bb3a8" prot="protected" virt="pure-virtual"><scope>jenes::stage::operator::Mutator&lt; T extends Chromosome &gt;</scope><name>mutate</name></member>
+      <member refid="classjenes_1_1stage_1_1operator_1_1_mutator_3_01_t_01extends_01_chromosome_01_4_1a01aea5c94d65f99cca8a24be7250a06a" prot="public" virt="non-virtual"><scope>jenes::stage::operator::Mutator&lt; T extends Chromosome &gt;</scope><name>Mutator</name></member>
+      <member refid="classjenes_1_1stage_1_1operator_1_1_mutator_3_01_t_01extends_01_chromosome_01_4_1a60f38eb7afd1ad6a7d1c0c639df2d5fe" prot="protected" virt="non-virtual"><scope>jenes::stage::operator::Mutator&lt; T extends Chromosome &gt;</scope><name>probability</name></member>
+      <member refid="classjenes_1_1stage_1_1operator_1_1_mutator_3_01_t_01extends_01_chromosome_01_4_1a091269db32219198b26860ee4b295345" prot="public" virt="non-virtual"><scope>jenes::stage::operator::Mutator&lt; T extends Chromosome &gt;</scope><name>process</name></member>
+      <member refid="classjenes_1_1stage_1_1operator_1_1_mutator_3_01_t_01extends_01_chromosome_01_4_1a49b8a34032a575badd2080d6c90397cb" prot="public" virt="non-virtual"><scope>jenes::stage::operator::Mutator&lt; T extends Chromosome &gt;</scope><name>setProbability</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

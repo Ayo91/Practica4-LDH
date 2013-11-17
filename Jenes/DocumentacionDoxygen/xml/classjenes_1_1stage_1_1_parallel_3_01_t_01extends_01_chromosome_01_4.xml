@@ -1,0 +1,452 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="classjenes_1_1stage_1_1_parallel_3_01_t_01extends_01_chromosome_01_4" kind="class" prot="public">
+    <compoundname>jenes::stage::Parallel&lt; T extends Chromosome &gt;</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">jenes::stage::AbstractStage&lt; T &gt;</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classjenes_1_1stage_1_1_parallel_3_01_t_01extends_01_chromosome_01_4_1a65e70bc6dd645a250f0f0d41c36061c9" prot="private" static="no" mutable="no">
+        <type>Dispenser&lt; T &gt;</type>
+        <definition>Dispenser&lt;T&gt; jenes.stage.Parallel&lt; T extends Chromosome &gt;.dispenser</definition>
+        <argsstring></argsstring>
+        <name>dispenser</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/Parallel.java" line="51" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/Parallel.java" bodystart="51" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classjenes_1_1stage_1_1_parallel_3_01_t_01extends_01_chromosome_01_4_1a5745695a937bdcbb1090bcac60cd7dd4" prot="private" static="no" mutable="no">
+        <type>Population&lt; T &gt;[]</type>
+        <definition>Population&lt;T&gt; [] jenes.stage.Parallel&lt; T extends Chromosome &gt;.branchesIn</definition>
+        <argsstring></argsstring>
+        <name>branchesIn</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/Parallel.java" line="52" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/Parallel.java" bodystart="52" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classjenes_1_1stage_1_1_parallel_3_01_t_01extends_01_chromosome_01_4_1acdcebb561ac787a51ec7c535e6345c7d" prot="private" static="no" mutable="no">
+        <type>Population&lt; T &gt;[]</type>
+        <definition>Population&lt;T&gt; [] jenes.stage.Parallel&lt; T extends Chromosome &gt;.branchesOut</definition>
+        <argsstring></argsstring>
+        <name>branchesOut</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/Parallel.java" line="53" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/Parallel.java" bodystart="53" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classjenes_1_1stage_1_1_parallel_3_01_t_01extends_01_chromosome_01_4_1a4a31a724db62564311c6ab6c0c6a8037" prot="private" static="no" mutable="no">
+        <type>List&lt; AbstractStage&lt; T &gt; &gt;</type>
+        <definition>List&lt;AbstractStage&lt;T&gt; &gt; jenes.stage.Parallel&lt; T extends Chromosome &gt;.stages</definition>
+        <argsstring></argsstring>
+        <name>stages</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/Parallel.java" line="54" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/Parallel.java" bodystart="54" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classjenes_1_1stage_1_1_parallel_3_01_t_01extends_01_chromosome_01_4_1a933c7a845f624f290f27c9921e6e8ca9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>jenes.stage.Parallel&lt; T extends Chromosome &gt;.Parallel</definition>
+        <argsstring>(Dispenser&lt; T &gt; dispenser)</argsstring>
+        <name>Parallel</name>
+        <param>
+          <type>Dispenser&lt; T &gt;</type>
+          <declname>dispenser</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs a new parallel stage with the specified dispenser. </para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>dispenser</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the dispenser to use in the distribute and merge operations </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/Parallel.java" line="62" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/Parallel.java" bodystart="62" bodyend="68"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1stage_1_1_parallel_3_01_t_01extends_01_chromosome_01_4_1afe3cf6bd36f7e0f7246cbf609d9cbdf2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void jenes.stage.Parallel&lt; T extends Chromosome &gt;.add</definition>
+        <argsstring>(AbstractStage&lt; T &gt; stage)</argsstring>
+        <name>add</name>
+        <param>
+          <type>AbstractStage&lt; T &gt;</type>
+          <declname>stage</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Adds a new branch to this parallel stage. </para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>stage</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the stage to be added as branch </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/Parallel.java" line="75" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/Parallel.java" bodystart="75" bodyend="81"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1stage_1_1_parallel_3_01_t_01extends_01_chromosome_01_4_1adb15ae336a8829eb0a8f984eb7aac3ca" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void jenes.stage.Parallel&lt; T extends Chromosome &gt;.remove</definition>
+        <argsstring>(AbstractStage&lt; T &gt; stage)</argsstring>
+        <name>remove</name>
+        <param>
+          <type>AbstractStage&lt; T &gt;</type>
+          <declname>stage</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Removes a stage from the parallel andall the stages it contains. The specified stage is a branch stage container, so after it the branch will be empty. </para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>stage</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the stage to remove </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/Parallel.java" line="89" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/Parallel.java" bodystart="89" bodyend="91"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1stage_1_1_parallel_3_01_t_01extends_01_chromosome_01_4_1acf777ee17edc34cb81d2d0fc145cffc4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void jenes.stage.Parallel&lt; T extends Chromosome &gt;.remove</definition>
+        <argsstring>(int index)</argsstring>
+        <name>remove</name>
+        <param>
+          <type>int</type>
+          <declname>index</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Removes a specified branch from the parallel </para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>index</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the branch index to remove </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/Parallel.java" line="98" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/Parallel.java" bodystart="98" bodyend="103"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1stage_1_1_parallel_3_01_t_01extends_01_chromosome_01_4_1a115d20da27789c0a053ed7e161838477" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void jenes.stage.Parallel&lt; T extends Chromosome &gt;.setBranch</definition>
+        <argsstring>(int index, AbstractStage&lt; T &gt; stage)</argsstring>
+        <name>setBranch</name>
+        <param>
+          <type>int</type>
+          <declname>index</declname>
+        </param>
+        <param>
+          <type>AbstractStage&lt; T &gt;</type>
+          <declname>stage</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Sets the specified stage at the specified branch number replacing the stage already present </para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>index</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the branch number where to set the new stage </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>stage</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the stage to add </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/Parallel.java" line="112" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/Parallel.java" bodystart="112" bodyend="118"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1stage_1_1_parallel_3_01_t_01extends_01_chromosome_01_4_1acc2efb924520eb73061928e39580202c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void jenes.stage.Parallel&lt; T extends Chromosome &gt;.removeAllBranches</definition>
+        <argsstring>()</argsstring>
+        <name>removeAllBranches</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Removes all the branch stages from this parallel </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/Parallel.java" line="123" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/Parallel.java" bodystart="123" bodyend="125"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1stage_1_1_parallel_3_01_t_01extends_01_chromosome_01_4_1a75d99b7406d735b297e6192b2ac130e9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void jenes.stage.Parallel&lt; T extends Chromosome &gt;.init</definition>
+        <argsstring>(GeneticAlgorithm&lt; T &gt; ga)</argsstring>
+        <name>init</name>
+        <param>
+          <type>GeneticAlgorithm&lt; T &gt;</type>
+          <declname>ga</declname>
+        </param>
+        <exceptions> throws <ref refid="classjenes_1_1stage_1_1_stage_exception" kindref="compound">StageException</ref> </exceptions>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/Parallel.java" line="128" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/Parallel.java" bodystart="128" bodyend="143"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1stage_1_1_parallel_3_01_t_01extends_01_chromosome_01_4_1a67831e08edd3b98bf0d81778cf067aeb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void jenes.stage.Parallel&lt; T extends Chromosome &gt;.dispose</definition>
+        <argsstring>()</argsstring>
+        <name>dispose</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/Parallel.java" line="146" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/Parallel.java" bodystart="146" bodyend="150"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1stage_1_1_parallel_3_01_t_01extends_01_chromosome_01_4_1a504ed9a0dddbfd46a9bebd4a38dba964" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>final void</type>
+        <definition>final void jenes.stage.Parallel&lt; T extends Chromosome &gt;.process</definition>
+        <argsstring>(Population&lt; T &gt; in, Population&lt; T &gt; out)</argsstring>
+        <name>process</name>
+        <param>
+          <type>Population&lt; T &gt;</type>
+          <declname>in</declname>
+        </param>
+        <param>
+          <type>Population&lt; T &gt;</type>
+          <declname>out</declname>
+        </param>
+        <exceptions> throws <ref refid="classjenes_1_1stage_1_1_stage_exception" kindref="compound">StageException</ref> </exceptions>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/Parallel.java" line="152" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/Parallel.java" bodystart="152" bodyend="179"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1stage_1_1_parallel_3_01_t_01extends_01_chromosome_01_4_1ae8ea18096e341f41bf44c56ba1628a99" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void jenes.stage.Parallel&lt; T extends Chromosome &gt;.setBiggerIsBetter</definition>
+        <argsstring>(boolean flag, boolean recursively)</argsstring>
+        <name>setBiggerIsBetter</name>
+        <param>
+          <type>boolean</type>
+          <declname>flag</declname>
+        </param>
+        <param>
+          <type>boolean</type>
+          <declname>recursively</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/Parallel.java" line="207" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/Parallel.java" bodystart="207" bodyend="214"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1stage_1_1_parallel_3_01_t_01extends_01_chromosome_01_4_1ae50a3b3fae5a0b2c3465a0bae243263b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void jenes.stage.Parallel&lt; T extends Chromosome &gt;.setFitness</definition>
+        <argsstring>(Fitness fit, boolean recursively)</argsstring>
+        <name>setFitness</name>
+        <param>
+          <type>Fitness</type>
+          <declname>fit</declname>
+        </param>
+        <param>
+          <type>boolean</type>
+          <declname>recursively</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/Parallel.java" line="217" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/Parallel.java" bodystart="217" bodyend="224"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classjenes_1_1stage_1_1_parallel_3_01_t_01extends_01_chromosome_01_4_1aafb82610de353045546319738543fab9" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void jenes.stage.Parallel&lt; T extends Chromosome &gt;.distribute</definition>
+        <argsstring>(Population&lt; T &gt; in, Population&lt; T &gt;[] branches)</argsstring>
+        <name>distribute</name>
+        <param>
+          <type>Population&lt; T &gt;</type>
+          <declname>in</declname>
+        </param>
+        <param>
+          <type>Population&lt; T &gt;[]</type>
+          <declname>branches</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Distributes the specified population between those ones in the specified array. If some populations within inStagePop are not empty they will contain the initial individuals too at the end of distribute operation. </para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>in</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>he population to distribute </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>branches</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the array of sub populations to fill </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/Parallel.java" line="189" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/Parallel.java" bodystart="189" bodyend="191"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1stage_1_1_parallel_3_01_t_01extends_01_chromosome_01_4_1a9cd26799d837f1e1f5ddfcabd0d18aaa" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void jenes.stage.Parallel&lt; T extends Chromosome &gt;.mergePopulation</definition>
+        <argsstring>(Population&lt; T &gt;[] branches, Population&lt; T &gt; out)</argsstring>
+        <name>mergePopulation</name>
+        <param>
+          <type>Population&lt; T &gt;[]</type>
+          <declname>branches</declname>
+        </param>
+        <param>
+          <type>Population&lt; T &gt;</type>
+          <declname>out</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Merges the populations within the specified array in the specified one. If population is not empty it will contain the initial individuals too at the end of merge operation. </para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>branches</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the populations to be merged </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>out</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the final population </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/Parallel.java" line="201" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/Parallel.java" bodystart="201" bodyend="203"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>A parallel is formed by differents branches; each branch receives a subpopolation according to the population dispenser used (see <ref refid="" kindref="compound">Dispenser#distribute(Population, Population[])</ref>).<linebreak/>
+ </para><para>Each branch is a stage and can be added with the <ref refid="" kindref="compound">add(AbstractStage)</ref> method. The output population is obtained merging the output of each branch. The dispenser is responsable of this merging. </para><para>Note: generally a dispenser can add the same input individual in different branches. So don&apos;t modify the stages input individuals. </para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>&lt;T&gt;</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The class chromosomes flowing across the stage.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="version"><para>2.0 </para></simplesect>
+<simplesect kind="since"><para>1.0</para></simplesect>
+<simplesect kind="see"><para>jenes.stage.Dispenser </para><simplesectsep/><para>jenes.stage.ExclusiveDispenser </para></simplesect>
+</para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="464">
+        <label>jenes::stage::AbstractStage&lt; T &gt;</label>
+      </node>
+      <node id="463">
+        <label>jenes.stage.Parallel&lt; T extends Chromosome &gt;</label>
+        <link refid="classjenes_1_1stage_1_1_parallel_3_01_t_01extends_01_chromosome_01_4"/>
+        <childnode refid="464" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="466">
+        <label>jenes::stage::AbstractStage&lt; T &gt;</label>
+      </node>
+      <node id="465">
+        <label>jenes.stage.Parallel&lt; T extends Chromosome &gt;</label>
+        <link refid="classjenes_1_1stage_1_1_parallel_3_01_t_01extends_01_chromosome_01_4"/>
+        <childnode refid="466" relation="public-inheritance">
+        </childnode>
+        <childnode refid="467" relation="usage">
+          <edgelabel>branchesOut</edgelabel>
+          <edgelabel>branchesIn</edgelabel>
+        </childnode>
+        <childnode refid="468" relation="usage">
+          <edgelabel>stages</edgelabel>
+        </childnode>
+      </node>
+      <node id="468">
+        <label>List&lt; AbstractStage&lt; T &gt; &gt;</label>
+      </node>
+      <node id="467">
+        <label>Population&lt; T &gt;</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/Parallel.java" line="49" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/Parallel.java" bodystart="49" bodyend="225"/>
+    <listofallmembers>
+      <member refid="classjenes_1_1stage_1_1_parallel_3_01_t_01extends_01_chromosome_01_4_1afe3cf6bd36f7e0f7246cbf609d9cbdf2" prot="public" virt="non-virtual"><scope>jenes::stage::Parallel&lt; T extends Chromosome &gt;</scope><name>add</name></member>
+      <member refid="classjenes_1_1stage_1_1_parallel_3_01_t_01extends_01_chromosome_01_4_1a5745695a937bdcbb1090bcac60cd7dd4" prot="private" virt="non-virtual"><scope>jenes::stage::Parallel&lt; T extends Chromosome &gt;</scope><name>branchesIn</name></member>
+      <member refid="classjenes_1_1stage_1_1_parallel_3_01_t_01extends_01_chromosome_01_4_1acdcebb561ac787a51ec7c535e6345c7d" prot="private" virt="non-virtual"><scope>jenes::stage::Parallel&lt; T extends Chromosome &gt;</scope><name>branchesOut</name></member>
+      <member refid="classjenes_1_1stage_1_1_parallel_3_01_t_01extends_01_chromosome_01_4_1a65e70bc6dd645a250f0f0d41c36061c9" prot="private" virt="non-virtual"><scope>jenes::stage::Parallel&lt; T extends Chromosome &gt;</scope><name>dispenser</name></member>
+      <member refid="classjenes_1_1stage_1_1_parallel_3_01_t_01extends_01_chromosome_01_4_1a67831e08edd3b98bf0d81778cf067aeb" prot="public" virt="non-virtual"><scope>jenes::stage::Parallel&lt; T extends Chromosome &gt;</scope><name>dispose</name></member>
+      <member refid="classjenes_1_1stage_1_1_parallel_3_01_t_01extends_01_chromosome_01_4_1aafb82610de353045546319738543fab9" prot="protected" virt="non-virtual"><scope>jenes::stage::Parallel&lt; T extends Chromosome &gt;</scope><name>distribute</name></member>
+      <member refid="classjenes_1_1stage_1_1_parallel_3_01_t_01extends_01_chromosome_01_4_1a75d99b7406d735b297e6192b2ac130e9" prot="public" virt="non-virtual"><scope>jenes::stage::Parallel&lt; T extends Chromosome &gt;</scope><name>init</name></member>
+      <member refid="classjenes_1_1stage_1_1_parallel_3_01_t_01extends_01_chromosome_01_4_1a9cd26799d837f1e1f5ddfcabd0d18aaa" prot="protected" virt="non-virtual"><scope>jenes::stage::Parallel&lt; T extends Chromosome &gt;</scope><name>mergePopulation</name></member>
+      <member refid="classjenes_1_1stage_1_1_parallel_3_01_t_01extends_01_chromosome_01_4_1a933c7a845f624f290f27c9921e6e8ca9" prot="public" virt="non-virtual"><scope>jenes::stage::Parallel&lt; T extends Chromosome &gt;</scope><name>Parallel</name></member>
+      <member refid="classjenes_1_1stage_1_1_parallel_3_01_t_01extends_01_chromosome_01_4_1a504ed9a0dddbfd46a9bebd4a38dba964" prot="public" virt="non-virtual"><scope>jenes::stage::Parallel&lt; T extends Chromosome &gt;</scope><name>process</name></member>
+      <member refid="classjenes_1_1stage_1_1_parallel_3_01_t_01extends_01_chromosome_01_4_1adb15ae336a8829eb0a8f984eb7aac3ca" prot="public" virt="non-virtual"><scope>jenes::stage::Parallel&lt; T extends Chromosome &gt;</scope><name>remove</name></member>
+      <member refid="classjenes_1_1stage_1_1_parallel_3_01_t_01extends_01_chromosome_01_4_1acf777ee17edc34cb81d2d0fc145cffc4" prot="public" virt="non-virtual"><scope>jenes::stage::Parallel&lt; T extends Chromosome &gt;</scope><name>remove</name></member>
+      <member refid="classjenes_1_1stage_1_1_parallel_3_01_t_01extends_01_chromosome_01_4_1acc2efb924520eb73061928e39580202c" prot="public" virt="non-virtual"><scope>jenes::stage::Parallel&lt; T extends Chromosome &gt;</scope><name>removeAllBranches</name></member>
+      <member refid="classjenes_1_1stage_1_1_parallel_3_01_t_01extends_01_chromosome_01_4_1ae8ea18096e341f41bf44c56ba1628a99" prot="public" virt="non-virtual"><scope>jenes::stage::Parallel&lt; T extends Chromosome &gt;</scope><name>setBiggerIsBetter</name></member>
+      <member refid="classjenes_1_1stage_1_1_parallel_3_01_t_01extends_01_chromosome_01_4_1a115d20da27789c0a053ed7e161838477" prot="public" virt="non-virtual"><scope>jenes::stage::Parallel&lt; T extends Chromosome &gt;</scope><name>setBranch</name></member>
+      <member refid="classjenes_1_1stage_1_1_parallel_3_01_t_01extends_01_chromosome_01_4_1ae50a3b3fae5a0b2c3465a0bae243263b" prot="public" virt="non-virtual"><scope>jenes::stage::Parallel&lt; T extends Chromosome &gt;</scope><name>setFitness</name></member>
+      <member refid="classjenes_1_1stage_1_1_parallel_3_01_t_01extends_01_chromosome_01_4_1a4a31a724db62564311c6ab6c0c6a8037" prot="private" virt="non-virtual"><scope>jenes::stage::Parallel&lt; T extends Chromosome &gt;</scope><name>stages</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

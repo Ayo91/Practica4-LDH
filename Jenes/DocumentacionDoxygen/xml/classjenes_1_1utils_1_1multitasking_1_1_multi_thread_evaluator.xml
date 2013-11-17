@@ -1,0 +1,293 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="classjenes_1_1utils_1_1multitasking_1_1_multi_thread_evaluator" kind="class" prot="public">
+    <compoundname>jenes::utils::multitasking::MultiThreadEvaluator</compoundname>
+    <basecompoundref refid="classjenes_1_1utils_1_1multitasking_1_1_multi_thread_runner" prot="public" virt="non-virtual">jenes.utils.multitasking.MultiThreadRunner</basecompoundref>
+    <innerclass refid="classjenes_1_1utils_1_1multitasking_1_1_multi_thread_evaluator_1_1_evaluation_task" prot="private">jenes::utils::multitasking::MultiThreadEvaluator::EvaluationTask</innerclass>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classjenes_1_1utils_1_1multitasking_1_1_multi_thread_evaluator_1aa6a82db6c77826d99c361ce5959ae441" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int jenes.utils.multitasking.MultiThreadEvaluator.todo</definition>
+        <argsstring></argsstring>
+        <name>todo</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>shared counter... number of tasks currently in queue </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/utils/multitasking/MultiThreadEvaluator.java" line="39" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/utils/multitasking/MultiThreadEvaluator.java" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classjenes_1_1utils_1_1multitasking_1_1_multi_thread_evaluator_1aa8b1d2ff749ebd5fd37f9a7f5b419260" prot="private" static="no" mutable="no">
+        <type>Stack&lt; Fitness &gt;</type>
+        <definition>Stack&lt;Fitness&gt; jenes.utils.multitasking.MultiThreadEvaluator.fitnessPool</definition>
+        <argsstring></argsstring>
+        <name>fitnessPool</name>
+        <initializer>= new Stack&lt;Fitness&gt;()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Due to concurrency the multi thread evaluator clones a fixed number of <ref refid="" kindref="compound">Fitness</ref> instances </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/utils/multitasking/MultiThreadEvaluator.java" line="44" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/utils/multitasking/MultiThreadEvaluator.java" bodystart="44" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classjenes_1_1utils_1_1multitasking_1_1_multi_thread_evaluator_1a672829f7b70815c7bb1c9379ab403312" prot="private" static="no" mutable="no">
+        <type>Stack&lt; <ref refid="classjenes_1_1utils_1_1multitasking_1_1_multi_thread_evaluator_1_1_evaluation_task" kindref="compound">EvaluationTask</ref> &gt;</type>
+        <definition>Stack&lt;EvaluationTask&gt; jenes.utils.multitasking.MultiThreadEvaluator.tasksPool</definition>
+        <argsstring></argsstring>
+        <name>tasksPool</name>
+        <initializer>= new Stack&lt;<ref refid="classjenes_1_1utils_1_1multitasking_1_1_multi_thread_evaluator_1_1_evaluation_task" kindref="compound">EvaluationTask</ref>&gt;()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The evaluation Task cache pool </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/utils/multitasking/MultiThreadEvaluator.java" line="48" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/utils/multitasking/MultiThreadEvaluator.java" bodystart="48" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classjenes_1_1utils_1_1multitasking_1_1_multi_thread_evaluator_1a842d648ae03a8d7f835a24c522d229ae" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>jenes.utils.multitasking.MultiThreadEvaluator.MultiThreadEvaluator</definition>
+        <argsstring>(int nthreads)</argsstring>
+        <name>MultiThreadEvaluator</name>
+        <param>
+          <type>int</type>
+          <declname>nthreads</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Default constructor that define the thread number to use <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>nthreads</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="see"><para><ref refid="classjenes_1_1utils_1_1multitasking_1_1_multi_thread_runner_1a6319362b08c06d8bf26989407d223c31" kindref="member">MultiThreadRunner::MultiThreadRunner(int)</ref> </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/utils/multitasking/MultiThreadEvaluator.java" line="55" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/utils/multitasking/MultiThreadEvaluator.java" bodystart="55" bodyend="57"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1utils_1_1multitasking_1_1_multi_thread_evaluator_1ac9949bf8de0efb0cb47feb2df56140ff" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>jenes.utils.multitasking.MultiThreadEvaluator.MultiThreadEvaluator</definition>
+        <argsstring>()</argsstring>
+        <name>MultiThreadEvaluator</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Default constructor that generates an execution enviroinment with a number of threads equals to the number of phisical cores. <simplesect kind="see"><para><ref refid="classjenes_1_1utils_1_1multitasking_1_1_multi_thread_runner_1ab0815486f3159f086cd06ccab94df319" kindref="member">MultiThreadRunner::MultiThreadRunner()</ref> </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/utils/multitasking/MultiThreadEvaluator.java" line="64" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/utils/multitasking/MultiThreadEvaluator.java" bodystart="64" bodyend="66"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1utils_1_1multitasking_1_1_multi_thread_evaluator_1a2a9d9427ca8c2b8a9dfc541c85bada42" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void jenes.utils.multitasking.MultiThreadEvaluator.onEvaluationBegin</definition>
+        <argsstring>(Population pop, boolean forced)</argsstring>
+        <name>onEvaluationBegin</name>
+        <param>
+          <type>Population</type>
+          <declname>pop</declname>
+        </param>
+        <param>
+          <type>boolean</type>
+          <declname>forced</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/utils/multitasking/MultiThreadEvaluator.java" line="69" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/utils/multitasking/MultiThreadEvaluator.java" bodystart="69" bodyend="89"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1utils_1_1multitasking_1_1_multi_thread_evaluator_1ad99c13b137f1089a9f30377548b42e25" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>synchronized void</type>
+        <definition>synchronized void jenes.utils.multitasking.MultiThreadEvaluator.evaluateIndividual</definition>
+        <argsstring>(Individual individual)</argsstring>
+        <name>evaluateIndividual</name>
+        <reimplements refid="classjenes_1_1utils_1_1multitasking_1_1_runner_1a250c5e0ffdb86ef0bb0e78e625a449e7">evaluateIndividual</reimplements>
+        <param>
+          <type>Individual</type>
+          <declname>individual</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Call-back invoked in substitution to <ref refid="" kindref="compound">GeneticAlgorithm#evaluateIndividual(jenes.population.Individual)</ref> <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>individual</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/utils/multitasking/MultiThreadEvaluator.java" line="92" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/utils/multitasking/MultiThreadEvaluator.java" bodystart="92" bodyend="100"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1utils_1_1multitasking_1_1_multi_thread_evaluator_1a3cd56b43989da43e4b3c2b79260d5f5f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>synchronized void</type>
+        <definition>synchronized void jenes.utils.multitasking.MultiThreadEvaluator.onEvaluationEnd</definition>
+        <argsstring>()</argsstring>
+        <name>onEvaluationEnd</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/utils/multitasking/MultiThreadEvaluator.java" line="127" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/utils/multitasking/MultiThreadEvaluator.java" bodystart="127" bodyend="136"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classjenes_1_1utils_1_1multitasking_1_1_multi_thread_evaluator_1a90ae547a26d2566f5000856c053450af" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void jenes.utils.multitasking.MultiThreadEvaluator.refreshFitnessPool</definition>
+        <argsstring>()</argsstring>
+        <name>refreshFitnessPool</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/utils/multitasking/MultiThreadEvaluator.java" line="102" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/utils/multitasking/MultiThreadEvaluator.java" bodystart="102" bodyend="111"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1utils_1_1multitasking_1_1_multi_thread_evaluator_1a52406c9c6f2169319c48bba068bd102a" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>synchronized Fitness</type>
+        <definition>synchronized Fitness jenes.utils.multitasking.MultiThreadEvaluator.getFitness</definition>
+        <argsstring>()</argsstring>
+        <name>getFitness</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/utils/multitasking/MultiThreadEvaluator.java" line="113" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/utils/multitasking/MultiThreadEvaluator.java" bodystart="113" bodyend="116"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1utils_1_1multitasking_1_1_multi_thread_evaluator_1a8d7fbd44425e92968dbf904454b7ccbc" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>synchronized void</type>
+        <definition>synchronized void jenes.utils.multitasking.MultiThreadEvaluator.releaseFitness</definition>
+        <argsstring>(Fitness fit)</argsstring>
+        <name>releaseFitness</name>
+        <param>
+          <type>Fitness</type>
+          <declname>fit</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/utils/multitasking/MultiThreadEvaluator.java" line="118" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/utils/multitasking/MultiThreadEvaluator.java" bodystart="118" bodyend="124"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>This class represent a simple implementation of a multi thread runner</para><para><simplesect kind="since"><para>2.0</para></simplesect>
+<simplesect kind="see"><para><ref refid="classjenes_1_1utils_1_1multitasking_1_1_multi_thread_runner" kindref="compound">MultiThreadRunner</ref> </para></simplesect>
+</para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="393">
+        <label>jenes.utils.multitasking.MultiThreadEvaluator</label>
+        <link refid="classjenes_1_1utils_1_1multitasking_1_1_multi_thread_evaluator"/>
+        <childnode refid="394" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="395">
+        <label>jenes.utils.multitasking.Runner</label>
+        <link refid="classjenes_1_1utils_1_1multitasking_1_1_runner"/>
+      </node>
+      <node id="394">
+        <label>jenes.utils.multitasking.MultiThreadRunner</label>
+        <link refid="classjenes_1_1utils_1_1multitasking_1_1_multi_thread_runner"/>
+        <childnode refid="395" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="402">
+        <label>Stack&lt; jenes.utils.multitasking.MultiThreadEvaluator.EvaluationTask &gt;</label>
+      </node>
+      <node id="396">
+        <label>jenes.utils.multitasking.MultiThreadEvaluator</label>
+        <link refid="classjenes_1_1utils_1_1multitasking_1_1_multi_thread_evaluator"/>
+        <childnode refid="397" relation="public-inheritance">
+        </childnode>
+        <childnode refid="401" relation="usage">
+          <edgelabel>fitnessPool</edgelabel>
+        </childnode>
+        <childnode refid="402" relation="usage">
+          <edgelabel>tasksPool</edgelabel>
+        </childnode>
+      </node>
+      <node id="400">
+        <label>ExecutorService</label>
+      </node>
+      <node id="398">
+        <label>jenes.utils.multitasking.Runner</label>
+        <link refid="classjenes_1_1utils_1_1multitasking_1_1_runner"/>
+        <childnode refid="399" relation="usage">
+          <edgelabel>algorithm</edgelabel>
+        </childnode>
+      </node>
+      <node id="399">
+        <label>GeneticAlgorithm</label>
+      </node>
+      <node id="397">
+        <label>jenes.utils.multitasking.MultiThreadRunner</label>
+        <link refid="classjenes_1_1utils_1_1multitasking_1_1_multi_thread_runner"/>
+        <childnode refid="398" relation="public-inheritance">
+        </childnode>
+        <childnode refid="400" relation="usage">
+          <edgelabel>threadGroup</edgelabel>
+        </childnode>
+      </node>
+      <node id="401">
+        <label>Stack&lt; Fitness &gt;</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/utils/multitasking/MultiThreadEvaluator.java" line="34" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/utils/multitasking/MultiThreadEvaluator.java" bodystart="34" bodyend="156"/>
+    <listofallmembers>
+      <member refid="classjenes_1_1utils_1_1multitasking_1_1_runner_1a699ccf526b6116f97abc09e4ce390c89" prot="protected" virt="non-virtual"><scope>jenes::utils::multitasking::MultiThreadEvaluator</scope><name>algorithm</name></member>
+      <member refid="classjenes_1_1utils_1_1multitasking_1_1_multi_thread_evaluator_1ad99c13b137f1089a9f30377548b42e25" prot="public" virt="virtual"><scope>jenes::utils::multitasking::MultiThreadEvaluator</scope><name>evaluateIndividual</name></member>
+      <member refid="classjenes_1_1utils_1_1multitasking_1_1_runner_1a24d074cbd5140cd8bc65623fa1961f39" prot="public" virt="non-virtual"><scope>jenes::utils::multitasking::MultiThreadEvaluator</scope><name>execute</name></member>
+      <member refid="classjenes_1_1utils_1_1multitasking_1_1_runner_1ae222d69f44508fc432c05074272e0ae3" prot="public" virt="non-virtual"><scope>jenes::utils::multitasking::MultiThreadEvaluator</scope><name>execute</name></member>
+      <member refid="classjenes_1_1utils_1_1multitasking_1_1_runner_1a7205f2d93d68f40e3e87dccf92cc3720" prot="public" virt="non-virtual"><scope>jenes::utils::multitasking::MultiThreadEvaluator</scope><name>execute</name></member>
+      <member refid="classjenes_1_1utils_1_1multitasking_1_1_multi_thread_evaluator_1aa8b1d2ff749ebd5fd37f9a7f5b419260" prot="private" virt="non-virtual"><scope>jenes::utils::multitasking::MultiThreadEvaluator</scope><name>fitnessPool</name></member>
+      <member refid="classjenes_1_1utils_1_1multitasking_1_1_multi_thread_evaluator_1a52406c9c6f2169319c48bba068bd102a" prot="private" virt="non-virtual"><scope>jenes::utils::multitasking::MultiThreadEvaluator</scope><name>getFitness</name></member>
+      <member refid="classjenes_1_1utils_1_1multitasking_1_1_runner_1a462a121a840bbf06593bbd7da219d8b9" prot="public" virt="non-virtual"><scope>jenes::utils::multitasking::MultiThreadEvaluator</scope><name>getGeneticAlgorithm</name></member>
+      <member refid="classjenes_1_1utils_1_1multitasking_1_1_multi_thread_runner_1a69370630a898026070fe8e806cec8fe0" prot="public" virt="non-virtual"><scope>jenes::utils::multitasking::MultiThreadEvaluator</scope><name>getNthreads</name></member>
+      <member refid="classjenes_1_1utils_1_1multitasking_1_1_multi_thread_evaluator_1a842d648ae03a8d7f835a24c522d229ae" prot="public" virt="non-virtual"><scope>jenes::utils::multitasking::MultiThreadEvaluator</scope><name>MultiThreadEvaluator</name></member>
+      <member refid="classjenes_1_1utils_1_1multitasking_1_1_multi_thread_evaluator_1ac9949bf8de0efb0cb47feb2df56140ff" prot="public" virt="non-virtual"><scope>jenes::utils::multitasking::MultiThreadEvaluator</scope><name>MultiThreadEvaluator</name></member>
+      <member refid="classjenes_1_1utils_1_1multitasking_1_1_multi_thread_runner_1ab0815486f3159f086cd06ccab94df319" prot="public" virt="non-virtual"><scope>jenes::utils::multitasking::MultiThreadEvaluator</scope><name>MultiThreadRunner</name></member>
+      <member refid="classjenes_1_1utils_1_1multitasking_1_1_multi_thread_runner_1a6319362b08c06d8bf26989407d223c31" prot="public" virt="non-virtual"><scope>jenes::utils::multitasking::MultiThreadEvaluator</scope><name>MultiThreadRunner</name></member>
+      <member refid="classjenes_1_1utils_1_1multitasking_1_1_multi_thread_runner_1aa20fe700a6b2abd3694b4a1d5629db8f" prot="protected" virt="non-virtual"><scope>jenes::utils::multitasking::MultiThreadEvaluator</scope><name>nthreads</name></member>
+      <member refid="classjenes_1_1utils_1_1multitasking_1_1_multi_thread_evaluator_1a2a9d9427ca8c2b8a9dfc541c85bada42" prot="public" virt="non-virtual"><scope>jenes::utils::multitasking::MultiThreadEvaluator</scope><name>onEvaluationBegin</name></member>
+      <member refid="classjenes_1_1utils_1_1multitasking_1_1_multi_thread_evaluator_1a3cd56b43989da43e4b3c2b79260d5f5f" prot="public" virt="non-virtual"><scope>jenes::utils::multitasking::MultiThreadEvaluator</scope><name>onEvaluationEnd</name></member>
+      <member refid="classjenes_1_1utils_1_1multitasking_1_1_runner_1a4c4d4a0cd7aec110d60da5c660903398" prot="public" virt="non-virtual"><scope>jenes::utils::multitasking::MultiThreadEvaluator</scope><name>onInit</name></member>
+      <member refid="classjenes_1_1utils_1_1multitasking_1_1_multi_thread_evaluator_1a90ae547a26d2566f5000856c053450af" prot="private" virt="non-virtual"><scope>jenes::utils::multitasking::MultiThreadEvaluator</scope><name>refreshFitnessPool</name></member>
+      <member refid="classjenes_1_1utils_1_1multitasking_1_1_multi_thread_evaluator_1a8d7fbd44425e92968dbf904454b7ccbc" prot="private" virt="non-virtual"><scope>jenes::utils::multitasking::MultiThreadEvaluator</scope><name>releaseFitness</name></member>
+      <member refid="classjenes_1_1utils_1_1multitasking_1_1_runner_1adad9fb400d736e55bcd3dfdf07742437" prot="public" virt="non-virtual"><scope>jenes::utils::multitasking::MultiThreadEvaluator</scope><name>setAlgorithm</name></member>
+      <member refid="classjenes_1_1utils_1_1multitasking_1_1_multi_thread_runner_1a52fc59a28c3187e84b871b9b823b7f43" prot="public" virt="non-virtual"><scope>jenes::utils::multitasking::MultiThreadEvaluator</scope><name>start</name></member>
+      <member refid="classjenes_1_1utils_1_1multitasking_1_1_multi_thread_runner_1a5f00a9b63ff1322d586ad62ec060d597" prot="public" virt="non-virtual"><scope>jenes::utils::multitasking::MultiThreadEvaluator</scope><name>stop</name></member>
+      <member refid="classjenes_1_1utils_1_1multitasking_1_1_multi_thread_evaluator_1a672829f7b70815c7bb1c9379ab403312" prot="private" virt="non-virtual"><scope>jenes::utils::multitasking::MultiThreadEvaluator</scope><name>tasksPool</name></member>
+      <member refid="classjenes_1_1utils_1_1multitasking_1_1_multi_thread_runner_1afd9939cc7a261bd4bb6c8f3de6f58337" prot="protected" virt="non-virtual"><scope>jenes::utils::multitasking::MultiThreadEvaluator</scope><name>threadGroup</name></member>
+      <member refid="classjenes_1_1utils_1_1multitasking_1_1_multi_thread_evaluator_1aa6a82db6c77826d99c361ce5959ae441" prot="private" virt="non-virtual"><scope>jenes::utils::multitasking::MultiThreadEvaluator</scope><name>todo</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

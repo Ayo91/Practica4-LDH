@@ -1,0 +1,501 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="classjenes_1_1chromosome_1_1_permutation_chromosome" kind="class" prot="public">
+    <compoundname>jenes::chromosome::PermutationChromosome</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">jenes::chromosome::Chromosome&lt; PermutationChromosome &gt;</basecompoundref>
+      <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="classjenes_1_1chromosome_1_1_permutation_chromosome_1a8b5701fbbb3cdfef29d346e0375260fc" prot="protected" static="no" mutable="no">
+        <type>int[]</type>
+        <definition>int [] jenes.chromosome.PermutationChromosome.permutation</definition>
+        <argsstring></argsstring>
+        <name>permutation</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>This data structure keeps the permutation order </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/chromosome/PermutationChromosome.java" line="38" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/chromosome/PermutationChromosome.java" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classjenes_1_1chromosome_1_1_permutation_chromosome_1aeb2d393eb8a9cc106205e13fb88446cc" prot="protected" static="no" mutable="no">
+        <type>int[]</type>
+        <definition>int [] jenes.chromosome.PermutationChromosome.position</definition>
+        <argsstring></argsstring>
+        <name>position</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>This data structure keeps the position of elements in the permuted order </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/chromosome/PermutationChromosome.java" line="42" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/chromosome/PermutationChromosome.java" bodystart="42" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classjenes_1_1chromosome_1_1_permutation_chromosome_1a61c7a5da5ced308153f942ec265a912b" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int jenes.chromosome.PermutationChromosome.temp_permutation[]</definition>
+        <argsstring>[]</argsstring>
+        <name>temp_permutation</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>This structure is used by crossover to keep original elements when the crossover begins. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/chromosome/PermutationChromosome.java" line="46" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/chromosome/PermutationChromosome.java" bodystart="46" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classjenes_1_1chromosome_1_1_permutation_chromosome_1a10cdd7769af8702d9b367b1a7a17214d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>jenes.chromosome.PermutationChromosome.PermutationChromosome</definition>
+        <argsstring>(final PermutationChromosome chromosome)</argsstring>
+        <name>PermutationChromosome</name>
+        <param>
+          <type>final <ref refid="classjenes_1_1chromosome_1_1_permutation_chromosome" kindref="compound">PermutationChromosome</ref></type>
+          <declname>chromosome</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Creates a new <ref refid="classjenes_1_1chromosome_1_1_permutation_chromosome" kindref="compound">PermutationChromosome</ref> using the specified one as model</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>chromosome</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the chromosome model </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/chromosome/PermutationChromosome.java" line="53" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/chromosome/PermutationChromosome.java" bodystart="53" bodyend="61"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1chromosome_1_1_permutation_chromosome_1a7c3b4e904d419c51af512f1f82faa109" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>jenes.chromosome.PermutationChromosome.PermutationChromosome</definition>
+        <argsstring>(final int length)</argsstring>
+        <name>PermutationChromosome</name>
+        <param>
+          <type>final int</type>
+          <declname>length</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Creates a new <ref refid="classjenes_1_1chromosome_1_1_permutation_chromosome" kindref="compound">PermutationChromosome</ref> with the specified length.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>length</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the chromosome length </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/chromosome/PermutationChromosome.java" line="68" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/chromosome/PermutationChromosome.java" bodystart="68" bodyend="77"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1chromosome_1_1_permutation_chromosome_1abbdf232b2c833492472f1c487c23fadd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>final int</type>
+        <definition>final int jenes.chromosome.PermutationChromosome.length</definition>
+        <argsstring>()</argsstring>
+        <name>length</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/chromosome/PermutationChromosome.java" line="79" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/chromosome/PermutationChromosome.java" bodystart="79" bodyend="81"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1chromosome_1_1_permutation_chromosome_1a8c2aee80f46c4634d6797a346a6560cc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>final int</type>
+        <definition>final int jenes.chromosome.PermutationChromosome.getElementAt</definition>
+        <argsstring>(final int index)</argsstring>
+        <name>getElementAt</name>
+        <param>
+          <type>final int</type>
+          <declname>index</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns the element at the specified position</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>index</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>of the element to return </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>the desired allele value </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/chromosome/PermutationChromosome.java" line="89" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/chromosome/PermutationChromosome.java" bodystart="89" bodyend="91"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1chromosome_1_1_permutation_chromosome_1a0c8a75c9417def5db8724d22aadf0303" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>final int</type>
+        <definition>final int jenes.chromosome.PermutationChromosome.getPositionOf</definition>
+        <argsstring>(final int element)</argsstring>
+        <name>getPositionOf</name>
+        <param>
+          <type>final int</type>
+          <declname>element</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Provides the element position</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>element</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>a chromosome element </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>the position of the specified element </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/chromosome/PermutationChromosome.java" line="99" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/chromosome/PermutationChromosome.java" bodystart="99" bodyend="101"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1chromosome_1_1_permutation_chromosome_1a10210f11733f4d94e2743112179a2bf6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>final void</type>
+        <definition>final void jenes.chromosome.PermutationChromosome.setDefaultValueAt</definition>
+        <argsstring>(final int pos)</argsstring>
+        <name>setDefaultValueAt</name>
+        <param>
+          <type>final int</type>
+          <declname>pos</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Sets the default value at the specified position. For the permutation chromosome it is the original value in that position, that is pos itself.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>pos</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the position where to set the default value </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/chromosome/PermutationChromosome.java" line="109" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/chromosome/PermutationChromosome.java" bodystart="109" bodyend="112"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1chromosome_1_1_permutation_chromosome_1a3fda59734f77c447518e49086f7be0c2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>final void</type>
+        <definition>final void jenes.chromosome.PermutationChromosome.cross</definition>
+        <argsstring>(final PermutationChromosome chromosome, final int from)</argsstring>
+        <name>cross</name>
+        <param>
+          <type>final <ref refid="classjenes_1_1chromosome_1_1_permutation_chromosome" kindref="compound">PermutationChromosome</ref></type>
+          <declname>chromosome</declname>
+        </param>
+        <param>
+          <type>final int</type>
+          <declname>from</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/chromosome/PermutationChromosome.java" line="114" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/chromosome/PermutationChromosome.java" bodystart="114" bodyend="116"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1chromosome_1_1_permutation_chromosome_1a19caa5ba36809bcbca85c990741731cb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>final void</type>
+        <definition>final void jenes.chromosome.PermutationChromosome.cross</definition>
+        <argsstring>(final PermutationChromosome chromosome, final int from, int to)</argsstring>
+        <name>cross</name>
+        <param>
+          <type>final <ref refid="classjenes_1_1chromosome_1_1_permutation_chromosome" kindref="compound">PermutationChromosome</ref></type>
+          <declname>chromosome</declname>
+        </param>
+        <param>
+          <type>final int</type>
+          <declname>from</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>to</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/chromosome/PermutationChromosome.java" line="118" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/chromosome/PermutationChromosome.java" bodystart="118" bodyend="169"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1chromosome_1_1_permutation_chromosome_1a722e6ef2208337802c0a229b77a56629" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>final void</type>
+        <definition>final void jenes.chromosome.PermutationChromosome.leftShift</definition>
+        <argsstring>(final int from, int to)</argsstring>
+        <name>leftShift</name>
+        <param>
+          <type>final int</type>
+          <declname>from</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>to</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/chromosome/PermutationChromosome.java" line="171" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/chromosome/PermutationChromosome.java" bodystart="171" bodyend="188"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1chromosome_1_1_permutation_chromosome_1afc488bdb0b77b15da659cde89a4e08b7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>final void</type>
+        <definition>final void jenes.chromosome.PermutationChromosome.rightShift</definition>
+        <argsstring>(final int from, int to)</argsstring>
+        <name>rightShift</name>
+        <param>
+          <type>final int</type>
+          <declname>from</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>to</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/chromosome/PermutationChromosome.java" line="190" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/chromosome/PermutationChromosome.java" bodystart="190" bodyend="206"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1chromosome_1_1_permutation_chromosome_1aea4acb031fb2b00f579be5c448825c47" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>final void</type>
+        <definition>final void jenes.chromosome.PermutationChromosome.randomize</definition>
+        <argsstring>(final int pos)</argsstring>
+        <name>randomize</name>
+        <param>
+          <type>final int</type>
+          <declname>pos</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Perform a random transformation of gene at the specified positions, by exchanging it with another element randomly chosen.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>pos</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the position to randomize </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/chromosome/PermutationChromosome.java" line="213" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/chromosome/PermutationChromosome.java" bodystart="213" bodyend="216"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1chromosome_1_1_permutation_chromosome_1af1bec1fbdb637818dd33fbbe3c43d07f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>final void</type>
+        <definition>final void jenes.chromosome.PermutationChromosome.randomize</definition>
+        <argsstring>()</argsstring>
+        <name>randomize</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/chromosome/PermutationChromosome.java" line="218" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/chromosome/PermutationChromosome.java" bodystart="218" bodyend="222"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1chromosome_1_1_permutation_chromosome_1ad1e5735c594b7c43f7cca5996da5741e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>final void</type>
+        <definition>final void jenes.chromosome.PermutationChromosome.setAs</definition>
+        <argsstring>(final PermutationChromosome chromosome)</argsstring>
+        <name>setAs</name>
+        <param>
+          <type>final <ref refid="classjenes_1_1chromosome_1_1_permutation_chromosome" kindref="compound">PermutationChromosome</ref></type>
+          <declname>chromosome</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/chromosome/PermutationChromosome.java" line="224" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/chromosome/PermutationChromosome.java" bodystart="224" bodyend="234"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1chromosome_1_1_permutation_chromosome_1a9dbfb8b76280184a204e89f737740f8f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>final void</type>
+        <definition>final void jenes.chromosome.PermutationChromosome.swap</definition>
+        <argsstring>(final int pos1, final int pos2)</argsstring>
+        <name>swap</name>
+        <param>
+          <type>final int</type>
+          <declname>pos1</declname>
+        </param>
+        <param>
+          <type>final int</type>
+          <declname>pos2</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/chromosome/PermutationChromosome.java" line="236" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/chromosome/PermutationChromosome.java" bodystart="236" bodyend="247"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1chromosome_1_1_permutation_chromosome_1a2cac25997ad82e5f3793bd65c8de1b37" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>final boolean</type>
+        <definition>final boolean jenes.chromosome.PermutationChromosome.equals</definition>
+        <argsstring>(final PermutationChromosome chromosome)</argsstring>
+        <name>equals</name>
+        <param>
+          <type>final <ref refid="classjenes_1_1chromosome_1_1_permutation_chromosome" kindref="compound">PermutationChromosome</ref></type>
+          <declname>chromosome</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/chromosome/PermutationChromosome.java" line="249" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/chromosome/PermutationChromosome.java" bodystart="249" bodyend="259"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1chromosome_1_1_permutation_chromosome_1a026be97457b0600bf9c4467e34073e93" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>final <ref refid="classjenes_1_1chromosome_1_1_permutation_chromosome" kindref="compound">PermutationChromosome</ref></type>
+        <definition>final PermutationChromosome jenes.chromosome.PermutationChromosome.clone</definition>
+        <argsstring>()</argsstring>
+        <name>clone</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/chromosome/PermutationChromosome.java" line="262" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/chromosome/PermutationChromosome.java" bodystart="262" bodyend="264"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1chromosome_1_1_permutation_chromosome_1a63f526a0f6f85fda55f2bcacbacd2072" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>final String</type>
+        <definition>final String jenes.chromosome.PermutationChromosome.toString</definition>
+        <argsstring>()</argsstring>
+        <name>toString</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/chromosome/PermutationChromosome.java" line="267" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/chromosome/PermutationChromosome.java" bodystart="267" bodyend="278"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1chromosome_1_1_permutation_chromosome_1a0aeb1df52bf751baa4706e5d94dae60d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>final int[]</type>
+        <definition>final int [] jenes.chromosome.PermutationChromosome.toNaturalOrdering</definition>
+        <argsstring>()</argsstring>
+        <name>toNaturalOrdering</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Provides the gene offsets to reach the natural order, according to equation p = n + o, where p is the permutation vector, n the natural order (i.e. 0,1,2..) and o the offset vector.</para><para>In other words, if we sum to permutation the offsets, we get the natural ordering, or if we subtract the offsets to the natural order we get the permutation.</para><para><simplesect kind="return"><para>- gene offsets; </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/chromosome/PermutationChromosome.java" line="289" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/chromosome/PermutationChromosome.java" bodystart="289" bodyend="295"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1chromosome_1_1_permutation_chromosome_1a20c34256408cab0b265d69decd40dabd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void jenes.chromosome.PermutationChromosome.difference</definition>
+        <argsstring>(final PermutationChromosome chromosome, final double[] diff)</argsstring>
+        <name>difference</name>
+        <param>
+          <type>final <ref refid="classjenes_1_1chromosome_1_1_permutation_chromosome" kindref="compound">PermutationChromosome</ref></type>
+          <declname>chromosome</declname>
+        </param>
+        <param>
+          <type>final double[]</type>
+          <declname>diff</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/chromosome/PermutationChromosome.java" line="298" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/chromosome/PermutationChromosome.java" bodystart="298" bodyend="308"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1chromosome_1_1_permutation_chromosome_1a8b14d4ba9c616335a901103f1879569a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Object[]</type>
+        <definition>Object [] jenes.chromosome.PermutationChromosome.toArray</definition>
+        <argsstring>()</argsstring>
+        <name>toArray</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/chromosome/PermutationChromosome.java" line="310" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/chromosome/PermutationChromosome.java" bodystart="310" bodyend="316"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>This class provides a chromosome able to model permutations. An array of integer values is its genoma. Each value is in the range [0,length-1] where length is the chromosome length. The most importatnt property is that each value is never duplicated: each value is contained just once. All the chromosome operations preserve this chromosome property.</para><para><simplesect kind="version"><para>2.0 </para></simplesect>
+<simplesect kind="since"><para>1.0 </para></simplesect>
+</para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="503">
+        <label>jenes.chromosome.PermutationChromosome</label>
+        <link refid="classjenes_1_1chromosome_1_1_permutation_chromosome"/>
+        <childnode refid="504" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="504">
+        <label>jenes::chromosome::Chromosome&lt; PermutationChromosome &gt;</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="505">
+        <label>jenes.chromosome.PermutationChromosome</label>
+        <link refid="classjenes_1_1chromosome_1_1_permutation_chromosome"/>
+        <childnode refid="506" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="506">
+        <label>jenes::chromosome::Chromosome&lt; PermutationChromosome &gt;</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/chromosome/PermutationChromosome.java" line="33" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/chromosome/PermutationChromosome.java" bodystart="33" bodyend="317"/>
+    <listofallmembers>
+      <member refid="classjenes_1_1chromosome_1_1_permutation_chromosome_1a026be97457b0600bf9c4467e34073e93" prot="public" virt="non-virtual"><scope>jenes::chromosome::PermutationChromosome</scope><name>clone</name></member>
+      <member refid="classjenes_1_1chromosome_1_1_permutation_chromosome_1a3fda59734f77c447518e49086f7be0c2" prot="public" virt="non-virtual"><scope>jenes::chromosome::PermutationChromosome</scope><name>cross</name></member>
+      <member refid="classjenes_1_1chromosome_1_1_permutation_chromosome_1a19caa5ba36809bcbca85c990741731cb" prot="public" virt="non-virtual"><scope>jenes::chromosome::PermutationChromosome</scope><name>cross</name></member>
+      <member refid="classjenes_1_1chromosome_1_1_permutation_chromosome_1a20c34256408cab0b265d69decd40dabd" prot="public" virt="non-virtual"><scope>jenes::chromosome::PermutationChromosome</scope><name>difference</name></member>
+      <member refid="classjenes_1_1chromosome_1_1_permutation_chromosome_1a2cac25997ad82e5f3793bd65c8de1b37" prot="public" virt="non-virtual"><scope>jenes::chromosome::PermutationChromosome</scope><name>equals</name></member>
+      <member refid="classjenes_1_1chromosome_1_1_permutation_chromosome_1a8c2aee80f46c4634d6797a346a6560cc" prot="public" virt="non-virtual"><scope>jenes::chromosome::PermutationChromosome</scope><name>getElementAt</name></member>
+      <member refid="classjenes_1_1chromosome_1_1_permutation_chromosome_1a0c8a75c9417def5db8724d22aadf0303" prot="public" virt="non-virtual"><scope>jenes::chromosome::PermutationChromosome</scope><name>getPositionOf</name></member>
+      <member refid="classjenes_1_1chromosome_1_1_permutation_chromosome_1a722e6ef2208337802c0a229b77a56629" prot="public" virt="non-virtual"><scope>jenes::chromosome::PermutationChromosome</scope><name>leftShift</name></member>
+      <member refid="classjenes_1_1chromosome_1_1_permutation_chromosome_1abbdf232b2c833492472f1c487c23fadd" prot="public" virt="non-virtual"><scope>jenes::chromosome::PermutationChromosome</scope><name>length</name></member>
+      <member refid="classjenes_1_1chromosome_1_1_permutation_chromosome_1a8b5701fbbb3cdfef29d346e0375260fc" prot="protected" virt="non-virtual"><scope>jenes::chromosome::PermutationChromosome</scope><name>permutation</name></member>
+      <member refid="classjenes_1_1chromosome_1_1_permutation_chromosome_1a10cdd7769af8702d9b367b1a7a17214d" prot="public" virt="non-virtual"><scope>jenes::chromosome::PermutationChromosome</scope><name>PermutationChromosome</name></member>
+      <member refid="classjenes_1_1chromosome_1_1_permutation_chromosome_1a7c3b4e904d419c51af512f1f82faa109" prot="public" virt="non-virtual"><scope>jenes::chromosome::PermutationChromosome</scope><name>PermutationChromosome</name></member>
+      <member refid="classjenes_1_1chromosome_1_1_permutation_chromosome_1aeb2d393eb8a9cc106205e13fb88446cc" prot="protected" virt="non-virtual"><scope>jenes::chromosome::PermutationChromosome</scope><name>position</name></member>
+      <member refid="classjenes_1_1chromosome_1_1_permutation_chromosome_1aea4acb031fb2b00f579be5c448825c47" prot="public" virt="non-virtual"><scope>jenes::chromosome::PermutationChromosome</scope><name>randomize</name></member>
+      <member refid="classjenes_1_1chromosome_1_1_permutation_chromosome_1af1bec1fbdb637818dd33fbbe3c43d07f" prot="public" virt="non-virtual"><scope>jenes::chromosome::PermutationChromosome</scope><name>randomize</name></member>
+      <member refid="classjenes_1_1chromosome_1_1_permutation_chromosome_1afc488bdb0b77b15da659cde89a4e08b7" prot="public" virt="non-virtual"><scope>jenes::chromosome::PermutationChromosome</scope><name>rightShift</name></member>
+      <member refid="classjenes_1_1chromosome_1_1_permutation_chromosome_1ad1e5735c594b7c43f7cca5996da5741e" prot="public" virt="non-virtual"><scope>jenes::chromosome::PermutationChromosome</scope><name>setAs</name></member>
+      <member refid="classjenes_1_1chromosome_1_1_permutation_chromosome_1a10210f11733f4d94e2743112179a2bf6" prot="public" virt="non-virtual"><scope>jenes::chromosome::PermutationChromosome</scope><name>setDefaultValueAt</name></member>
+      <member refid="classjenes_1_1chromosome_1_1_permutation_chromosome_1a9dbfb8b76280184a204e89f737740f8f" prot="public" virt="non-virtual"><scope>jenes::chromosome::PermutationChromosome</scope><name>swap</name></member>
+      <member refid="classjenes_1_1chromosome_1_1_permutation_chromosome_1a61c7a5da5ced308153f942ec265a912b" prot="private" virt="non-virtual"><scope>jenes::chromosome::PermutationChromosome</scope><name>temp_permutation</name></member>
+      <member refid="classjenes_1_1chromosome_1_1_permutation_chromosome_1a8b14d4ba9c616335a901103f1879569a" prot="public" virt="non-virtual"><scope>jenes::chromosome::PermutationChromosome</scope><name>toArray</name></member>
+      <member refid="classjenes_1_1chromosome_1_1_permutation_chromosome_1a0aeb1df52bf751baa4706e5d94dae60d" prot="public" virt="non-virtual"><scope>jenes::chromosome::PermutationChromosome</scope><name>toNaturalOrdering</name></member>
+      <member refid="classjenes_1_1chromosome_1_1_permutation_chromosome_1a63f526a0f6f85fda55f2bcacbacd2072" prot="public" virt="non-virtual"><scope>jenes::chromosome::PermutationChromosome</scope><name>toString</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

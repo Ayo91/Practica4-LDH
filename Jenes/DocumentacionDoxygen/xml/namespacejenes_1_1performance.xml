@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="namespacejenes_1_1performance" kind="namespace">
+    <compoundname>jenes::performance</compoundname>
+    <innerclass refid="classjenes_1_1performance_1_1_de_jong_test" prot="public">jenes::performance::DeJongTest</innerclass>
+    <innerclass refid="classjenes_1_1performance_1_1_j_e_n_e_s_test" prot="public">jenes::performance::JENESTest</innerclass>
+    <innerclass refid="classjenes_1_1performance_1_1_performance_statistics" prot="public">jenes::performance::PerformanceStatistics</innerclass>
+    <innerclass refid="classjenes_1_1performance_1_1_royal_g_a" prot="public">jenes::performance::RoyalGA</innerclass>
+    <innerclass refid="classjenes_1_1performance_1_1_royal_test" prot="public">jenes::performance::RoyalTest</innerclass>
+    <innerclass refid="classjenes_1_1performance_1_1_statistics" prot="public">jenes::performance::Statistics</innerclass>
+    <innerclass refid="classjenes_1_1performance_1_1_travel_salesman_problem" prot="public">jenes::performance::TravelSalesmanProblem</innerclass>
+    <innerclass refid="classjenes_1_1performance_1_1_t_s_p_crossover" prot="public">jenes::performance::TSPCrossover</innerclass>
+    <innerclass refid="classjenes_1_1performance_1_1_t_s_p_g_a" prot="public">jenes::performance::TSPGA</innerclass>
+    <innerclass refid="classjenes_1_1performance_1_1_t_s_p_mutator" prot="public">jenes::performance::TSPMutator</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/performance/DeJongTest.java" line="19" column="1"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,1840 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="classjenes_1_1_genetic_algorithm_3_01_t_01extends_01_chromosome_01_4" kind="class" prot="public">
+    <compoundname>jenes::GeneticAlgorithm&lt; T extends Chromosome &gt;</compoundname>
+    <innerclass refid="enumjenes_1_1_genetic_algorithm_3_01_t_01extends_01_chromosome_01_4_1_1_elitism_strategy" prot="public">jenes::GeneticAlgorithm&lt; T extends Chromosome &gt;::ElitismStrategy</innerclass>
+    <innerclass refid="enumjenes_1_1_genetic_algorithm_3_01_t_01extends_01_chromosome_01_4_1_1_resize_strategy" prot="public">jenes::GeneticAlgorithm&lt; T extends Chromosome &gt;::ResizeStrategy</innerclass>
+    <innerclass refid="classjenes_1_1_genetic_algorithm_3_01_t_01extends_01_chromosome_01_4_1_1_statistics" prot="public">jenes::GeneticAlgorithm&lt; T extends Chromosome &gt;::Statistics</innerclass>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classjenes_1_1_genetic_algorithm_3_01_t_01extends_01_chromosome_01_4_1a2492ee1b00f5631a1c1b1c6f15ea3421" prot="public" static="yes" mutable="no">
+        <type>final int</type>
+        <definition>final int jenes.GeneticAlgorithm&lt; T extends Chromosome &gt;.DEFAULT_GENERATION_LIMIT</definition>
+        <argsstring></argsstring>
+        <name>DEFAULT_GENERATION_LIMIT</name>
+        <initializer>= 100</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The default maximum number of generations </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/GeneticAlgorithm.java" line="187" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/GeneticAlgorithm.java" bodystart="187" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classjenes_1_1_genetic_algorithm_3_01_t_01extends_01_chromosome_01_4_1a23df2e338c3439d7457ff6a150c573e1" prot="public" static="yes" mutable="no">
+        <type>final int</type>
+        <definition>final int jenes.GeneticAlgorithm&lt; T extends Chromosome &gt;.DEFAULT_HISTORY_SIZE</definition>
+        <argsstring></argsstring>
+        <name>DEFAULT_HISTORY_SIZE</name>
+        <initializer>= 2</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The default history size </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/GeneticAlgorithm.java" line="189" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/GeneticAlgorithm.java" bodystart="189" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classjenes_1_1_genetic_algorithm_3_01_t_01extends_01_chromosome_01_4_1aa64b297086826bfbda1fbaccebe4cb24" prot="public" static="yes" mutable="no">
+        <type>final int</type>
+        <definition>final int jenes.GeneticAlgorithm&lt; T extends Chromosome &gt;.MIN_HISTORY_SIZE</definition>
+        <argsstring></argsstring>
+        <name>MIN_HISTORY_SIZE</name>
+        <initializer>= 2</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The minimum history size </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/GeneticAlgorithm.java" line="191" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/GeneticAlgorithm.java" bodystart="191" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classjenes_1_1_genetic_algorithm_3_01_t_01extends_01_chromosome_01_4_1acd26085cf69c68d607ef08d0bf829224" prot="public" static="yes" mutable="no">
+        <type>final int</type>
+        <definition>final int jenes.GeneticAlgorithm&lt; T extends Chromosome &gt;.MAX_HISTORY_SIZE</definition>
+        <argsstring></argsstring>
+        <name>MAX_HISTORY_SIZE</name>
+        <initializer>= 100</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The maximum history size </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/GeneticAlgorithm.java" line="193" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/GeneticAlgorithm.java" bodystart="193" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="classjenes_1_1_genetic_algorithm_3_01_t_01extends_01_chromosome_01_4_1a0040f9dbb0018e8bb28dde97dacac7d8" prot="protected" static="no" mutable="no">
+        <type>Sequence&lt; T &gt;</type>
+        <definition>Sequence&lt;T&gt; jenes.GeneticAlgorithm&lt; T extends Chromosome &gt;.body</definition>
+        <argsstring></argsstring>
+        <name>body</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The main algorithm sequence </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/GeneticAlgorithm.java" line="195" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/GeneticAlgorithm.java" bodystart="195" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classjenes_1_1_genetic_algorithm_3_01_t_01extends_01_chromosome_01_4_1afc23d5cbab5434f5ec5684cda9434b93" prot="protected" static="no" mutable="no">
+        <type>Statistics</type>
+        <definition>Statistics jenes.GeneticAlgorithm&lt; T extends Chromosome &gt;.statistics</definition>
+        <argsstring></argsstring>
+        <name>statistics</name>
+        <initializer>= null</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The statistics object responsible for storing statistics about this genetic algorithm. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/GeneticAlgorithm.java" line="200" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/GeneticAlgorithm.java" bodystart="200" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classjenes_1_1_genetic_algorithm_3_01_t_01extends_01_chromosome_01_4_1ac5a1ddc5e78e2b81c754eb990a91f17b" prot="protected" static="no" mutable="no">
+        <type>int</type>
+        <definition>int jenes.GeneticAlgorithm&lt; T extends Chromosome &gt;.generation</definition>
+        <argsstring></argsstring>
+        <name>generation</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Current generation count </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/GeneticAlgorithm.java" line="202" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/GeneticAlgorithm.java" bodystart="202" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classjenes_1_1_genetic_algorithm_3_01_t_01extends_01_chromosome_01_4_1adcb3e16398451c2e318de21d77b51d35" prot="protected" static="no" mutable="no">
+        <type>double</type>
+        <definition>double jenes.GeneticAlgorithm&lt; T extends Chromosome &gt;.randomization</definition>
+        <argsstring></argsstring>
+        <name>randomization</name>
+        <initializer>= 1.0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Rate of randomization of initial population </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/GeneticAlgorithm.java" line="204" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/GeneticAlgorithm.java" bodystart="204" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classjenes_1_1_genetic_algorithm_3_01_t_01extends_01_chromosome_01_4_1a6677c80cf6ad470a0124fc2fa3051310" prot="protected" static="no" mutable="no">
+        <type>int</type>
+        <definition>int jenes.GeneticAlgorithm&lt; T extends Chromosome &gt;.generationLimit</definition>
+        <argsstring></argsstring>
+        <name>generationLimit</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Maximum number of generations </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/GeneticAlgorithm.java" line="206" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/GeneticAlgorithm.java" bodystart="206" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classjenes_1_1_genetic_algorithm_3_01_t_01extends_01_chromosome_01_4_1ac4280b01e7da0ddc049050b19e28b8b9" prot="protected" static="no" mutable="no">
+        <type>int</type>
+        <definition>int jenes.GeneticAlgorithm&lt; T extends Chromosome &gt;.elitism</definition>
+        <argsstring></argsstring>
+        <name>elitism</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The elitism number </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/GeneticAlgorithm.java" line="223" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/GeneticAlgorithm.java" bodystart="223" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classjenes_1_1_genetic_algorithm_3_01_t_01extends_01_chromosome_01_4_1aacba3e1823ba66a2dd6d3c902f8ff719" prot="protected" static="no" mutable="no">
+        <type>ElitismStrategy</type>
+        <definition>ElitismStrategy jenes.GeneticAlgorithm&lt; T extends Chromosome &gt;.elitismStrategy</definition>
+        <argsstring></argsstring>
+        <name>elitismStrategy</name>
+        <initializer>= <ref refid="enumjenes_1_1_genetic_algorithm_3_01_t_01extends_01_chromosome_01_4_1_1_elitism_strategy_1a60c1acf7a272aca7e29b422a124a2ee2" kindref="member">ElitismStrategy.WORST</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The elitism strategy used by this genetic algorithm </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/GeneticAlgorithm.java" line="225" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/GeneticAlgorithm.java" bodystart="225" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classjenes_1_1_genetic_algorithm_3_01_t_01extends_01_chromosome_01_4_1ab6535da7a5097e18e6305d0f26f7cf5f" prot="protected" static="no" mutable="no">
+        <type>Population&lt; T &gt;</type>
+        <definition>Population&lt;T&gt; jenes.GeneticAlgorithm&lt; T extends Chromosome &gt;.initialPopulation</definition>
+        <argsstring></argsstring>
+        <name>initialPopulation</name>
+        <initializer>= null</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The initial population </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/GeneticAlgorithm.java" line="234" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/GeneticAlgorithm.java" bodystart="234" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classjenes_1_1_genetic_algorithm_3_01_t_01extends_01_chromosome_01_4_1a53540867ddd13889614232b3cbea6d6f" prot="protected" static="no" mutable="no">
+        <type>List&lt; AlgorithmEventListener&lt; T &gt; &gt;</type>
+        <definition>List&lt;AlgorithmEventListener&lt;T&gt; &gt; jenes.GeneticAlgorithm&lt; T extends Chromosome &gt;.algorithmListeners</definition>
+        <argsstring></argsstring>
+        <name>algorithmListeners</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The genetic algorithm listeners </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/GeneticAlgorithm.java" line="245" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/GeneticAlgorithm.java" bodystart="245" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classjenes_1_1_genetic_algorithm_3_01_t_01extends_01_chromosome_01_4_1a265c4e10d321e68ae5757abf68d88739" prot="protected" static="no" mutable="no">
+        <type>List&lt; GenerationEventListener&lt; T &gt; &gt;</type>
+        <definition>List&lt;GenerationEventListener&lt;T&gt; &gt; jenes.GeneticAlgorithm&lt; T extends Chromosome &gt;.generationListeners</definition>
+        <argsstring></argsstring>
+        <name>generationListeners</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The generation listeners </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/GeneticAlgorithm.java" line="247" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/GeneticAlgorithm.java" bodystart="247" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classjenes_1_1_genetic_algorithm_3_01_t_01extends_01_chromosome_01_4_1a56f08a1d1f3355921b83f08745dbb3b3" prot="protected" static="no" mutable="no">
+        <type>ResizeStrategy</type>
+        <definition>ResizeStrategy jenes.GeneticAlgorithm&lt; T extends Chromosome &gt;.resizeStrategy</definition>
+        <argsstring></argsstring>
+        <name>resizeStrategy</name>
+        <initializer>= <ref refid="enumjenes_1_1_genetic_algorithm_3_01_t_01extends_01_chromosome_01_4_1_1_resize_strategy_1ab5fbe0d69a54b0b5286d2231726934e5" kindref="member">ResizeStrategy.AUTO</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The resize strategy used by this genetic algorithm </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/GeneticAlgorithm.java" line="260" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/GeneticAlgorithm.java" bodystart="260" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classjenes_1_1_genetic_algorithm_3_01_t_01extends_01_chromosome_01_4_1adb627d0c6d6744f53ef5c3b7506913e9" prot="protected" static="no" mutable="no">
+        <type>boolean</type>
+        <definition>boolean jenes.GeneticAlgorithm&lt; T extends Chromosome &gt;.fullEvaluationForced</definition>
+        <argsstring></argsstring>
+        <name>fullEvaluationForced</name>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The flag controlling the evalution. If true, individuals are evaluated in any case. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/GeneticAlgorithm.java" line="262" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/GeneticAlgorithm.java" bodystart="262" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classjenes_1_1_genetic_algorithm_3_01_t_01extends_01_chromosome_01_4_1a1579283e210144ba90b937be0911a028" prot="protected" static="no" mutable="no">
+        <type><ref refid="classjenes_1_1utils_1_1_random" kindref="compound">Random</ref></type>
+        <definition>Random jenes.GeneticAlgorithm&lt; T extends Chromosome &gt;.random</definition>
+        <argsstring></argsstring>
+        <name>random</name>
+        <initializer>= <ref refid="classjenes_1_1utils_1_1_random_1aa8b8341f82ccf69de0b44c9f6f174820" kindref="member">Random.getInstance</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The random instance </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/GeneticAlgorithm.java" line="264" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/GeneticAlgorithm.java" bodystart="264" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classjenes_1_1_genetic_algorithm_3_01_t_01extends_01_chromosome_01_4_1a9d6056090be623c86c46ad62d37ff164" prot="private" static="no" mutable="no">
+        <type><ref refid="classjenes_1_1utils_1_1multitasking_1_1_runner" kindref="compound">Runner</ref></type>
+        <definition>Runner jenes.GeneticAlgorithm&lt; T extends Chromosome &gt;.runner</definition>
+        <argsstring></argsstring>
+        <name>runner</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Jenes could now support performance optimization in executing fitness evaluation by delegating this task to the performance-optimizer support <simplesect kind="since"><para>2.0 </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/GeneticAlgorithm.java" line="212" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/GeneticAlgorithm.java" bodystart="212" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classjenes_1_1_genetic_algorithm_3_01_t_01extends_01_chromosome_01_4_1a19813646965d357e4e3526fe6b64a0a4" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int jenes.GeneticAlgorithm&lt; T extends Chromosome &gt;.historySize</definition>
+        <argsstring></argsstring>
+        <name>historySize</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/GeneticAlgorithm.java" line="231" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/GeneticAlgorithm.java" bodystart="231" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classjenes_1_1_genetic_algorithm_3_01_t_01extends_01_chromosome_01_4_1a4213a84e54e3d515be8824b4e5c4a70e" prot="private" static="no" mutable="no">
+        <type>Population&lt; T &gt;</type>
+        <definition>Population&lt;T&gt; jenes.GeneticAlgorithm&lt; T extends Chromosome &gt;.history[]</definition>
+        <argsstring>[]</argsstring>
+        <name>history</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/GeneticAlgorithm.java" line="232" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/GeneticAlgorithm.java" bodystart="232" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classjenes_1_1_genetic_algorithm_3_01_t_01extends_01_chromosome_01_4_1a13cd44ba0fe337e32a545fa925f570c7" prot="private" static="no" mutable="no">
+        <type>Population&lt; T &gt;</type>
+        <definition>Population&lt;T&gt; jenes.GeneticAlgorithm&lt; T extends Chromosome &gt;.currentPopulation</definition>
+        <argsstring></argsstring>
+        <name>currentPopulation</name>
+        <initializer>= null</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/GeneticAlgorithm.java" line="240" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/GeneticAlgorithm.java" bodystart="240" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classjenes_1_1_genetic_algorithm_3_01_t_01extends_01_chromosome_01_4_1a7d361b32fc05b1ad9b2f84b2f8b4a6aa" prot="private" static="no" mutable="no">
+        <type>Population&lt; T &gt;</type>
+        <definition>Population&lt;T&gt; jenes.GeneticAlgorithm&lt; T extends Chromosome &gt;.nextPopulation</definition>
+        <argsstring></argsstring>
+        <name>nextPopulation</name>
+        <initializer>= null</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/GeneticAlgorithm.java" line="241" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/GeneticAlgorithm.java" bodystart="241" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classjenes_1_1_genetic_algorithm_3_01_t_01extends_01_chromosome_01_4_1a355d3311ff5b27ae057c3dd06c75e7cd" prot="private" static="no" mutable="no">
+        <type>Pool&lt; T &gt;</type>
+        <definition>Pool&lt;T&gt; jenes.GeneticAlgorithm&lt; T extends Chromosome &gt;.pool</definition>
+        <argsstring></argsstring>
+        <name>pool</name>
+        <initializer>= null</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The individuals pool used by populations </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/GeneticAlgorithm.java" line="243" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/GeneticAlgorithm.java" bodystart="243" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classjenes_1_1_genetic_algorithm_3_01_t_01extends_01_chromosome_01_4_1acfda239e0d2154eb26a7be4f6aa1315d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>jenes.GeneticAlgorithm&lt; T extends Chromosome &gt;.GeneticAlgorithm</definition>
+        <argsstring>()</argsstring>
+        <name>GeneticAlgorithm</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs a new genetic algorithm with no initial population and the default generation limit. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/GeneticAlgorithm.java" line="271" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/GeneticAlgorithm.java" bodystart="271" bodyend="273"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1_genetic_algorithm_3_01_t_01extends_01_chromosome_01_4_1aede3d2fbd3c3d1cf04a4e419649cae93" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>jenes.GeneticAlgorithm&lt; T extends Chromosome &gt;.GeneticAlgorithm</definition>
+        <argsstring>(final Population&lt; T &gt; pop)</argsstring>
+        <name>GeneticAlgorithm</name>
+        <param>
+          <type>final Population&lt; T &gt;</type>
+          <declname>pop</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs a new genetic algorithm with the specified population and the default generation limit. </para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>pop</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the sample population </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/GeneticAlgorithm.java" line="283" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/GeneticAlgorithm.java" bodystart="283" bodyend="285"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1_genetic_algorithm_3_01_t_01extends_01_chromosome_01_4_1afe0501230c1645d2a6cdf54af2672639" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>jenes.GeneticAlgorithm&lt; T extends Chromosome &gt;.GeneticAlgorithm</definition>
+        <argsstring>(final Population&lt; T &gt; pop, final int genlimit)</argsstring>
+        <name>GeneticAlgorithm</name>
+        <param>
+          <type>final Population&lt; T &gt;</type>
+          <declname>pop</declname>
+        </param>
+        <param>
+          <type>final int</type>
+          <declname>genlimit</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs a new genetic algorithm with the specified population and the specified generation limit. </para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>pop</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the sample population </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>genlimit</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the generations upper bound </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/GeneticAlgorithm.java" line="297" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/GeneticAlgorithm.java" bodystart="297" bodyend="299"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1_genetic_algorithm_3_01_t_01extends_01_chromosome_01_4_1aefcf45276a730906c98ff8de90b6c48e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>jenes.GeneticAlgorithm&lt; T extends Chromosome &gt;.GeneticAlgorithm</definition>
+        <argsstring>(final Fitness fitness)</argsstring>
+        <name>GeneticAlgorithm</name>
+        <param>
+          <type>final Fitness</type>
+          <declname>fitness</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs a new genetic algorithm with no initial population and the default generation limit. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/GeneticAlgorithm.java" line="306" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/GeneticAlgorithm.java" bodystart="306" bodyend="308"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1_genetic_algorithm_3_01_t_01extends_01_chromosome_01_4_1a08a57814b09412baed3146d2cc6e2174" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>jenes.GeneticAlgorithm&lt; T extends Chromosome &gt;.GeneticAlgorithm</definition>
+        <argsstring>(final Fitness fitness, final Population&lt; T &gt; pop)</argsstring>
+        <name>GeneticAlgorithm</name>
+        <param>
+          <type>final Fitness</type>
+          <declname>fitness</declname>
+        </param>
+        <param>
+          <type>final Population&lt; T &gt;</type>
+          <declname>pop</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs a new genetic algorithm with the specified population and the default generation limit. </para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>pop</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the sample population </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/GeneticAlgorithm.java" line="318" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/GeneticAlgorithm.java" bodystart="318" bodyend="320"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1_genetic_algorithm_3_01_t_01extends_01_chromosome_01_4_1af3997e737162629c161c04a65dd830a0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>jenes.GeneticAlgorithm&lt; T extends Chromosome &gt;.GeneticAlgorithm</definition>
+        <argsstring>(final Fitness fitness, final Population&lt; T &gt; pop, final int genlimit)</argsstring>
+        <name>GeneticAlgorithm</name>
+        <param>
+          <type>final Fitness</type>
+          <declname>fitness</declname>
+        </param>
+        <param>
+          <type>final Population&lt; T &gt;</type>
+          <declname>pop</declname>
+        </param>
+        <param>
+          <type>final int</type>
+          <declname>genlimit</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs a new genetic algorithm with the specified population and the specified generation limit. </para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>pop</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the sample population </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>genlimit</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the generations upper bound </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/GeneticAlgorithm.java" line="332" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/GeneticAlgorithm.java" bodystart="332" bodyend="360"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1_genetic_algorithm_3_01_t_01extends_01_chromosome_01_4_1a687996ee45582145be24e2086fc8c210" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>final Fitness</type>
+        <definition>final Fitness jenes.GeneticAlgorithm&lt; T extends Chromosome &gt;.getFitness</definition>
+        <argsstring>()</argsstring>
+        <name>getFitness</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns the <ref refid="" kindref="compound">Fitness</ref> from this genetic algorithm&apos;s body </para><para><simplesect kind="return"><para>fitness </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/GeneticAlgorithm.java" line="368" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/GeneticAlgorithm.java" bodystart="368" bodyend="370"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1_genetic_algorithm_3_01_t_01extends_01_chromosome_01_4_1aff762153c3f11a2ad83936867ca31617" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>final void</type>
+        <definition>final void jenes.GeneticAlgorithm&lt; T extends Chromosome &gt;.setFitness</definition>
+        <argsstring>(Fitness fitness)</argsstring>
+        <name>setFitness</name>
+        <param>
+          <type>Fitness</type>
+          <declname>fitness</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Sets the <ref refid="" kindref="compound">Fitness</ref></para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>fitness</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>new fitness </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/GeneticAlgorithm.java" line="377" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/GeneticAlgorithm.java" bodystart="377" bodyend="379"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1_genetic_algorithm_3_01_t_01extends_01_chromosome_01_4_1a7d5cb4716cbc586aa85774c5dc934d15" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>final boolean</type>
+        <definition>final boolean jenes.GeneticAlgorithm&lt; T extends Chromosome &gt;.isFitnessChanged</definition>
+        <argsstring>()</argsstring>
+        <name>isFitnessChanged</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Says if the fitness is changed or not. <simplesect kind="return"><para><computeroutput>true</computeroutput>, if fitness is changed </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/GeneticAlgorithm.java" line="385" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/GeneticAlgorithm.java" bodystart="385" bodyend="387"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1_genetic_algorithm_3_01_t_01extends_01_chromosome_01_4_1a63ea13380fe4a30d1eabd394e44d6e96" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classjenes_1_1utils_1_1multitasking_1_1_runner" kindref="compound">Runner</ref></type>
+        <definition>Runner jenes.GeneticAlgorithm&lt; T extends Chromosome &gt;.getRunner</definition>
+        <argsstring>()</argsstring>
+        <name>getRunner</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Get current runner implementation <simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/GeneticAlgorithm.java" line="393" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/GeneticAlgorithm.java" bodystart="393" bodyend="395"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1_genetic_algorithm_3_01_t_01extends_01_chromosome_01_4_1a6ff8bcd8e9049106c7959637e4e10e70" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void jenes.GeneticAlgorithm&lt; T extends Chromosome &gt;.setRunner</definition>
+        <argsstring>(Runner runner)</argsstring>
+        <name>setRunner</name>
+        <param>
+          <type><ref refid="classjenes_1_1utils_1_1multitasking_1_1_runner" kindref="compound">Runner</ref></type>
+          <declname>runner</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Set the <ref refid="" kindref="compound">Runner</ref></para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>runner</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/GeneticAlgorithm.java" line="402" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/GeneticAlgorithm.java" bodystart="402" bodyend="405"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1_genetic_algorithm_3_01_t_01extends_01_chromosome_01_4_1a7e5f06abe9e8661cdb38bd0fa663da6c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void jenes.GeneticAlgorithm&lt; T extends Chromosome &gt;.setRandomSeed</definition>
+        <argsstring>(long seed)</argsstring>
+        <name>setRandomSeed</name>
+        <param>
+          <type>long</type>
+          <declname>seed</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Impose <ref refid="" kindref="compound">Random</ref> seed in order to reproduce an execution producing the same enviroinment</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>seed</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the seed to set </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/GeneticAlgorithm.java" line="413" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/GeneticAlgorithm.java" bodystart="413" bodyend="415"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1_genetic_algorithm_3_01_t_01extends_01_chromosome_01_4_1ab52be3b0fcd2f424ae191ff4e642edf3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>final int</type>
+        <definition>final int jenes.GeneticAlgorithm&lt; T extends Chromosome &gt;.getHistorySize</definition>
+        <argsstring>()</argsstring>
+        <name>getHistorySize</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns the history size that is the number of populations kept by history </para><para><simplesect kind="return"><para>the history length </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/GeneticAlgorithm.java" line="424" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/GeneticAlgorithm.java" bodystart="424" bodyend="426"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1_genetic_algorithm_3_01_t_01extends_01_chromosome_01_4_1ad254fc6b2ff476bc7f7837d03e677786" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>final Pool&lt; T &gt;</type>
+        <definition>final Pool&lt;T&gt; jenes.GeneticAlgorithm&lt; T extends Chromosome &gt;.getPool</definition>
+        <argsstring>()</argsstring>
+        <name>getPool</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns the individuals pool used by populations</para><para><simplesect kind="return"><para>pool </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/GeneticAlgorithm.java" line="433" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/GeneticAlgorithm.java" bodystart="433" bodyend="435"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1_genetic_algorithm_3_01_t_01extends_01_chromosome_01_4_1a71407144e93e7522d2d474c25781d65c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void jenes.GeneticAlgorithm&lt; T extends Chromosome &gt;.setHistorySize</definition>
+        <argsstring>(int hs)</argsstring>
+        <name>setHistorySize</name>
+        <param>
+          <type>int</type>
+          <declname>hs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Sets the history size, that is the number of populations kept by history.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>hs</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the new number of history populations </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/GeneticAlgorithm.java" line="442" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/GeneticAlgorithm.java" bodystart="442" bodyend="460"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1_genetic_algorithm_3_01_t_01extends_01_chromosome_01_4_1a99718490498059da48833dfbdfc8076e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>final Population&lt; T &gt;</type>
+        <definition>final Population&lt;T&gt; jenes.GeneticAlgorithm&lt; T extends Chromosome &gt;.getHistoryAt</definition>
+        <argsstring>(int pos)</argsstring>
+        <name>getHistoryAt</name>
+        <param>
+          <type>int</type>
+          <declname>pos</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns the history population at the specified generation. The <computeroutput>pos</computeroutput> value can be relative or absolute. If relative, it must be a negative number that specifies how many generations to go back in order to get the population. So that, 0 means the current generation, -1 means one generation back, -2 means two generations back, and so on. If positive, the generation index is absolute. If the population at the specified generation is not available, the method returns null. </para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>pos</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the population position </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>the history population, if available. Otherwise it returns null. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/GeneticAlgorithm.java" line="475" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/GeneticAlgorithm.java" bodystart="475" bodyend="478"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1_genetic_algorithm_3_01_t_01extends_01_chromosome_01_4_1ab5ff704fa1d7b01bcfc5f0ca36b20e34" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>final Population&lt; T &gt;</type>
+        <definition>final Population&lt;T&gt; jenes.GeneticAlgorithm&lt; T extends Chromosome &gt;.getInitialPopulation</definition>
+        <argsstring>()</argsstring>
+        <name>getInitialPopulation</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns the initial population. This is the population given as input to the genetic algorithm, thus it is not affected by the initial population randomization. </para><para><simplesect kind="return"><para>the initial population </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/GeneticAlgorithm.java" line="488" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/GeneticAlgorithm.java" bodystart="488" bodyend="490"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1_genetic_algorithm_3_01_t_01extends_01_chromosome_01_4_1a855bc56ffb3e1704ced2fdf68cc96d8f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>final Population&lt; T &gt;</type>
+        <definition>final Population&lt;T&gt; jenes.GeneticAlgorithm&lt; T extends Chromosome &gt;.getCurrentPopulation</definition>
+        <argsstring>()</argsstring>
+        <name>getCurrentPopulation</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns the current population. This is the population given as input to the algorithm&apos;s body at the current generation. When the algorithm starts, it is a copy of the initial population, and it is eventually affected by the randomization process. </para><para><simplesect kind="return"><para>the current population. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/GeneticAlgorithm.java" line="501" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/GeneticAlgorithm.java" bodystart="501" bodyend="503"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1_genetic_algorithm_3_01_t_01extends_01_chromosome_01_4_1a5d22b21350638a64a66d3599b2777982" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>final Population&lt; T &gt;</type>
+        <definition>final Population&lt;T&gt; jenes.GeneticAlgorithm&lt; T extends Chromosome &gt;.getNextPopulation</definition>
+        <argsstring>()</argsstring>
+        <name>getNextPopulation</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns the genetic algorithm next population. This is the population being processed by the algorithm&apos;s body at the current generation. It is the population that will be given as input to the algorithm&apos;s body sequence at the following generation. </para><para><simplesect kind="return"><para>the next population </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/GeneticAlgorithm.java" line="514" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/GeneticAlgorithm.java" bodystart="514" bodyend="516"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1_genetic_algorithm_3_01_t_01extends_01_chromosome_01_4_1a8afdd855dc891b981cbf675c63db72c3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>final void</type>
+        <definition>final void jenes.GeneticAlgorithm&lt; T extends Chromosome &gt;.evolve</definition>
+        <argsstring>()</argsstring>
+        <name>evolve</name>
+        <exceptions> throws <ref refid="classjenes_1_1_algorithm_exception" kindref="compound">AlgorithmException</ref> </exceptions>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Evolves the algorithms by restarting the algorithm from the initial population.</para><para><parameterlist kind="exception"><parameteritem>
+<parameternamelist>
+<parametername><ref refid="classjenes_1_1_algorithm_exception" kindref="compound">jenes.AlgorithmException</ref></parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/GeneticAlgorithm.java" line="523" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/GeneticAlgorithm.java" bodystart="523" bodyend="525"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1_genetic_algorithm_3_01_t_01extends_01_chromosome_01_4_1afea32755ac446883e283d2eec6bc69fa" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>final void</type>
+        <definition>final void jenes.GeneticAlgorithm&lt; T extends Chromosome &gt;.evolve</definition>
+        <argsstring>(final Population&lt; T &gt; pop)</argsstring>
+        <name>evolve</name>
+        <param>
+          <type>final Population&lt; T &gt;</type>
+          <declname>pop</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Evolves the algorithms by resetting the initial population and restarting the algorithm.</para><para><parameterlist kind="exception"><parameteritem>
+<parameternamelist>
+<parametername><ref refid="classjenes_1_1_algorithm_exception" kindref="compound">jenes.AlgorithmException</ref></parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/GeneticAlgorithm.java" line="532" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/GeneticAlgorithm.java" bodystart="532" bodyend="535"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1_genetic_algorithm_3_01_t_01extends_01_chromosome_01_4_1af8bb6842d525c274bfb8a3efc9ca5b23" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>final void</type>
+        <definition>final void jenes.GeneticAlgorithm&lt; T extends Chromosome &gt;.evolve</definition>
+        <argsstring>(boolean restart)</argsstring>
+        <name>evolve</name>
+        <param>
+          <type>boolean</type>
+          <declname>restart</declname>
+        </param>
+        <exceptions> throws <ref refid="classjenes_1_1_algorithm_exception" kindref="compound">AlgorithmException</ref> </exceptions>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Evolves the algorithm until the termination condition or the generation limit is reached. Depending on the argument, the algorithm restarts or continues from the last population.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>restart</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>if true, the initial population is reset; if false, the algorithm continues from the last population.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<parameterlist kind="exception"><parameteritem>
+<parameternamelist>
+<parametername><ref refid="classjenes_1_1_algorithm_exception" kindref="compound">jenes.AlgorithmException</ref></parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/GeneticAlgorithm.java" line="548" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/GeneticAlgorithm.java" bodystart="548" bodyend="598"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1_genetic_algorithm_3_01_t_01extends_01_chromosome_01_4_1ab90dc099bae1616275779f59f400a59b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>final void</type>
+        <definition>final void jenes.GeneticAlgorithm&lt; T extends Chromosome &gt;.evaluatePopulation</definition>
+        <argsstring>(final Population&lt; T &gt; population)</argsstring>
+        <name>evaluatePopulation</name>
+        <param>
+          <type>final Population&lt; T &gt;</type>
+          <declname>population</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Evaluates the population. The method iterates the evaluation on each individual. Evalution is performed according to <computeroutput>fullEvaluationForced</computeroutput> </para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>population</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the population to be evaluated </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/GeneticAlgorithm.java" line="761" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/GeneticAlgorithm.java" bodystart="761" bodyend="763"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1_genetic_algorithm_3_01_t_01extends_01_chromosome_01_4_1a4a04df077e2b7752248689668889a5a5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>final void</type>
+        <definition>final void jenes.GeneticAlgorithm&lt; T extends Chromosome &gt;.evaluatePopulation</definition>
+        <argsstring>(final Population&lt; T &gt; population, final boolean forced)</argsstring>
+        <name>evaluatePopulation</name>
+        <param>
+          <type>final Population&lt; T &gt;</type>
+          <declname>population</declname>
+        </param>
+        <param>
+          <type>final boolean</type>
+          <declname>forced</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Evaluates the population. The method iterates the evaluation on each individual. Evalution is performed according to flag </para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>population</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the population to be evaluated  forced if true, all individuals are evaluated. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/GeneticAlgorithm.java" line="775" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/GeneticAlgorithm.java" bodystart="775" bodyend="814"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1_genetic_algorithm_3_01_t_01extends_01_chromosome_01_4_1a17d1c99e638312a18394c6d76dedb2f3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void jenes.GeneticAlgorithm&lt; T extends Chromosome &gt;.evaluateIndividual</definition>
+        <argsstring>(final Individual&lt; T &gt; individual)</argsstring>
+        <name>evaluateIndividual</name>
+        <param>
+          <type>final Individual&lt; T &gt;</type>
+          <declname>individual</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Evaluates a single individual. This evaluation of individuals is specifically related to the problem to solve. If the genetic algorithm&apos;s body has a <ref refid="" kindref="compound">Fitness</ref>, this method calls <ref refid="" kindref="compound">Fitness#evaluate(jenes.population.Individual)</ref> method, otherwise method requiring an implementation by the sublass. </para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>individual</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the individual to be evaluated </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/GeneticAlgorithm.java" line="826" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/GeneticAlgorithm.java" bodystart="826" bodyend="830"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1_genetic_algorithm_3_01_t_01extends_01_chromosome_01_4_1acf14a43bc2c8bed69aa0334b18d58ba7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>final void</type>
+        <definition>final void jenes.GeneticAlgorithm&lt; T extends Chromosome &gt;.setRandomization</definition>
+        <argsstring>(final boolean value)</argsstring>
+        <name>setRandomization</name>
+        <param>
+          <type>final boolean</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Sets the randomization rate to 0 or 1, according to the flag. By this method is possible to apply the randomization process to the whole population or not at all. </para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>value</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>if true the rate is set to 1, otherwise to 0. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/GeneticAlgorithm.java" line="882" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/GeneticAlgorithm.java" bodystart="882" bodyend="884"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1_genetic_algorithm_3_01_t_01extends_01_chromosome_01_4_1a78cb20ba6256d06e7cd04696e697cc4e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void jenes.GeneticAlgorithm&lt; T extends Chromosome &gt;.setRandomization</definition>
+        <argsstring>(final double rate)</argsstring>
+        <name>setRandomization</name>
+        <param>
+          <type>final double</type>
+          <declname>rate</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Sets the randomization rate. The randomization rate represents the percentage of individuals that will be randomized. The value should be within [0,1]. However the method automatically trims values outside the unary range, so that negative values are trimmed to 0 and values bigger than 1, are trimmed to 1. Therefore the method is consistent for any value. </para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>rate</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the randomization rate to use during the randomization phase </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/GeneticAlgorithm.java" line="898" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/GeneticAlgorithm.java" bodystart="898" bodyend="906"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1_genetic_algorithm_3_01_t_01extends_01_chromosome_01_4_1add75e6182615af89791921472d2fbc9f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>final double</type>
+        <definition>final double jenes.GeneticAlgorithm&lt; T extends Chromosome &gt;.getRandomization</definition>
+        <argsstring>()</argsstring>
+        <name>getRandomization</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Provides the randomization rate, that is the percentage of individuals being randomized by the algorithm. </para><para><simplesect kind="return"><para>the randomization rate. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/GeneticAlgorithm.java" line="915" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/GeneticAlgorithm.java" bodystart="915" bodyend="917"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1_genetic_algorithm_3_01_t_01extends_01_chromosome_01_4_1a25602ec654959a43a64f12e92251cb47" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>final int</type>
+        <definition>final int jenes.GeneticAlgorithm&lt; T extends Chromosome &gt;.getGeneration</definition>
+        <argsstring>()</argsstring>
+        <name>getGeneration</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns the current generation counter</para><para><simplesect kind="return"><para>the current generation counter </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/GeneticAlgorithm.java" line="924" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/GeneticAlgorithm.java" bodystart="924" bodyend="926"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1_genetic_algorithm_3_01_t_01extends_01_chromosome_01_4_1ac6eceff2ad4a055f3c6047fb4c272ef3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>final int</type>
+        <definition>final int jenes.GeneticAlgorithm&lt; T extends Chromosome &gt;.getGenerationLimit</definition>
+        <argsstring>()</argsstring>
+        <name>getGenerationLimit</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns the generation limit </para><para><simplesect kind="return"><para>the maximum number of generations </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/GeneticAlgorithm.java" line="934" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/GeneticAlgorithm.java" bodystart="934" bodyend="936"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1_genetic_algorithm_3_01_t_01extends_01_chromosome_01_4_1a1e4d04de7cf34838296ad6745ac046f5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void jenes.GeneticAlgorithm&lt; T extends Chromosome &gt;.setGenerationLimit</definition>
+        <argsstring>(final int limit)</argsstring>
+        <name>setGenerationLimit</name>
+        <param>
+          <type>final int</type>
+          <declname>limit</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Sets the generation limit </para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>limit</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the new generation limit </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/GeneticAlgorithm.java" line="945" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/GeneticAlgorithm.java" bodystart="945" bodyend="947"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1_genetic_algorithm_3_01_t_01extends_01_chromosome_01_4_1aa0ab85fdb0cb1880a469044affbb32e7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void jenes.GeneticAlgorithm&lt; T extends Chromosome &gt;.addStage</definition>
+        <argsstring>(final AbstractStage&lt; T &gt; stage)</argsstring>
+        <name>addStage</name>
+        <param>
+          <type>final AbstractStage&lt; T &gt;</type>
+          <declname>stage</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Adds a new stage at the genetic algorithm&apos;s body </para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>stage</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the stage to be add </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/GeneticAlgorithm.java" line="956" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/GeneticAlgorithm.java" bodystart="956" bodyend="958"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1_genetic_algorithm_3_01_t_01extends_01_chromosome_01_4_1a34e6ea627850ec240d4c0bba39170d4b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>final boolean</type>
+        <definition>final boolean jenes.GeneticAlgorithm&lt; T extends Chromosome &gt;.isBiggerBetter</definition>
+        <argsstring>()</argsstring>
+        <name>isBiggerBetter</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Says if the algorithm&apos;s body objective is set to maximize or minimize individual fitness. </para><para><simplesect kind="return"><para>true is the body objective is to maximize the fitness false otherwise </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/GeneticAlgorithm.java" line="969" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/GeneticAlgorithm.java" bodystart="969" bodyend="971"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1_genetic_algorithm_3_01_t_01extends_01_chromosome_01_4_1afcc4f944d2d47d757e177a22a660bfd3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void jenes.GeneticAlgorithm&lt; T extends Chromosome &gt;.setBiggerIsBetter</definition>
+        <argsstring>(final boolean flag)</argsstring>
+        <name>setBiggerIsBetter</name>
+        <param>
+          <type>final boolean</type>
+          <declname>flag</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Sets the algorithm&apos;s body objective to maximize (true) or minimize (false) the individual fitness. All stages belonging to the body sequence are recursevely set according to the flag. </para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>flag</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>true to set the body to maximize the fitness, false to minimize </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/GeneticAlgorithm.java" line="984" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/GeneticAlgorithm.java" bodystart="984" bodyend="986"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1_genetic_algorithm_3_01_t_01extends_01_chromosome_01_4_1a7305deb720716287d256832f0bd44785" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>boolean</type>
+        <definition>boolean jenes.GeneticAlgorithm&lt; T extends Chromosome &gt;.isFullEvaluationForced</definition>
+        <argsstring>()</argsstring>
+        <name>isFullEvaluationForced</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns the current evaluation mode. By defualt it is false. <simplesect kind="return"><para>true, if evaluation is referred to the whole popuation. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/GeneticAlgorithm.java" line="992" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/GeneticAlgorithm.java" bodystart="992" bodyend="994"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1_genetic_algorithm_3_01_t_01extends_01_chromosome_01_4_1a9fe6f2d66ffcbce1233194871cdfc5ae" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void jenes.GeneticAlgorithm&lt; T extends Chromosome &gt;.setFullEvaluationForced</definition>
+        <argsstring>(boolean flag)</argsstring>
+        <name>setFullEvaluationForced</name>
+        <param>
+          <type>boolean</type>
+          <declname>flag</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Sets the evalaution mode. <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>flag</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- true if evaluation is referred to the whole popuation. False if evaluation is only referred to unevaluated individuals. By default it is false. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/GeneticAlgorithm.java" line="1001" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/GeneticAlgorithm.java" bodystart="1001" bodyend="1003"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1_genetic_algorithm_3_01_t_01extends_01_chromosome_01_4_1a8bbf6df4fc231cfc88a7e879d2bbf814" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>final int</type>
+        <definition>final int jenes.GeneticAlgorithm&lt; T extends Chromosome &gt;.getElitism</definition>
+        <argsstring>()</argsstring>
+        <name>getElitism</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns the number of individuals considered for elitism by the genetic algorithm. </para><para><simplesect kind="return"><para>the elitism parameter </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/GeneticAlgorithm.java" line="1054" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/GeneticAlgorithm.java" bodystart="1054" bodyend="1056"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1_genetic_algorithm_3_01_t_01extends_01_chromosome_01_4_1a27f67506714b18eb15d890bfa3d5b0ab" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void jenes.GeneticAlgorithm&lt; T extends Chromosome &gt;.setElitism</definition>
+        <argsstring>(final int elitism)</argsstring>
+        <name>setElitism</name>
+        <param>
+          <type>final int</type>
+          <declname>elitism</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Sets the number of individuals considered for elitism by the genetic algorithm. If it is 0, elitism has no place in this algorithm. </para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>elitism</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the new elitism parameter </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/GeneticAlgorithm.java" line="1066" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/GeneticAlgorithm.java" bodystart="1066" bodyend="1068"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1_genetic_algorithm_3_01_t_01extends_01_chromosome_01_4_1ad227ba9924206ee18f69d24ea4ee4ab0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>final ElitismStrategy</type>
+        <definition>final ElitismStrategy jenes.GeneticAlgorithm&lt; T extends Chromosome &gt;.getElitismStrategy</definition>
+        <argsstring>()</argsstring>
+        <name>getElitismStrategy</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns the elitism strategy used by this genetic algorithm </para><para><simplesect kind="return"><para>the elitism strategy </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/GeneticAlgorithm.java" line="1076" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/GeneticAlgorithm.java" bodystart="1076" bodyend="1078"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1_genetic_algorithm_3_01_t_01extends_01_chromosome_01_4_1aedc89ba915f6a528ef4052eb31a8c467" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void jenes.GeneticAlgorithm&lt; T extends Chromosome &gt;.setElitismStrategy</definition>
+        <argsstring>(final ElitismStrategy es)</argsstring>
+        <name>setElitismStrategy</name>
+        <param>
+          <type>final ElitismStrategy</type>
+          <declname>es</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Sets the elitism strategy to used by this genetic algorithm. This stratehy can be RANDOM or WORST: in the first case the random individuals will be replaced by the elite individuals; in the latter the algorithm will replace the worst individuals. </para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>es</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the elitism strategy </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/GeneticAlgorithm.java" line="1090" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/GeneticAlgorithm.java" bodystart="1090" bodyend="1092"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1_genetic_algorithm_3_01_t_01extends_01_chromosome_01_4_1a685af9b6322920d9431977fd25c5cf77" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void jenes.GeneticAlgorithm&lt; T extends Chromosome &gt;.setResizeStrategy</definition>
+        <argsstring>(final ResizeStrategy rs)</argsstring>
+        <name>setResizeStrategy</name>
+        <param>
+          <type>final ResizeStrategy</type>
+          <declname>rs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Sets the resize stragety. This is for advanced use. The genetic algorithm should have a need to resize an existing population, in particular to expand it. Expanding the population would eventually require to create new <computeroutput>Individual</computeroutput>. The resize strategy specifies the way to perform such a task. Possible strategies are: <itemizedlist>
+<listitem>
+<para><ref refid="enumjenes_1_1_genetic_algorithm_3_01_t_01extends_01_chromosome_01_4_1_1_resize_strategy_1ab5fbe0d69a54b0b5286d2231726934e5" kindref="member">ResizeStrategy#AUTO</ref>: entails the creation of new individuals, generally by cloning. </para></listitem>
+<listitem>
+<para><ref refid="enumjenes_1_1_genetic_algorithm_3_01_t_01extends_01_chromosome_01_4_1_1_resize_strategy_1a69a9defbff3c22d92a210f7a72646869" kindref="member">ResizeStrategy#EMPTY</ref>: expands the population, without creating new individuals. </para></listitem>
+<listitem>
+<para><ref refid="enumjenes_1_1_genetic_algorithm_3_01_t_01extends_01_chromosome_01_4_1_1_resize_strategy_1a2efbc067403542b53491c6ca5d3200fe" kindref="member">ResizeStrategy#NONE</ref>: disables the automatic resize of populations. </para></listitem>
+</itemizedlist>
+</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>rs</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the new resize strategy </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/GeneticAlgorithm.java" line="1113" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/GeneticAlgorithm.java" bodystart="1113" bodyend="1115"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1_genetic_algorithm_3_01_t_01extends_01_chromosome_01_4_1a379c5a3789ba72941a081d32fbcc4474" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>final ResizeStrategy</type>
+        <definition>final ResizeStrategy jenes.GeneticAlgorithm&lt; T extends Chromosome &gt;.getResizeStrategy</definition>
+        <argsstring>()</argsstring>
+        <name>getResizeStrategy</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns the resize strategy used by this genetic algorithm. </para><para><simplesect kind="return"><para>the resize strategy </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/GeneticAlgorithm.java" line="1123" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/GeneticAlgorithm.java" bodystart="1123" bodyend="1125"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1_genetic_algorithm_3_01_t_01extends_01_chromosome_01_4_1aeab54a329fb6df5686a2fce4a8a8727a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>final Sequence&lt; T &gt;</type>
+        <definition>final Sequence&lt;T&gt; jenes.GeneticAlgorithm&lt; T extends Chromosome &gt;.getBody</definition>
+        <argsstring>()</argsstring>
+        <name>getBody</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns the algorithm&apos;s body sequence. </para><para><simplesect kind="return"><para>the body stage sequence </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/GeneticAlgorithm.java" line="1133" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/GeneticAlgorithm.java" bodystart="1133" bodyend="1135"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1_genetic_algorithm_3_01_t_01extends_01_chromosome_01_4_1a168e2b37b5351108e62d8fb887e1fae4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>final void</type>
+        <definition>final void jenes.GeneticAlgorithm&lt; T extends Chromosome &gt;.addAlgorithmEventListener</definition>
+        <argsstring>(final AlgorithmEventListener&lt; T &gt; ael)</argsstring>
+        <name>addAlgorithmEventListener</name>
+        <param>
+          <type>final AlgorithmEventListener&lt; T &gt;</type>
+          <declname>ael</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Adds a new algorthm event listener </para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>ael</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the listener to add </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/GeneticAlgorithm.java" line="1144" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/GeneticAlgorithm.java" bodystart="1144" bodyend="1146"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1_genetic_algorithm_3_01_t_01extends_01_chromosome_01_4_1a8cab61e04f54ed5abbda047815a1683d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>final void</type>
+        <definition>final void jenes.GeneticAlgorithm&lt; T extends Chromosome &gt;.removeAlgorithmEventListener</definition>
+        <argsstring>(final AlgorithmEventListener ael)</argsstring>
+        <name>removeAlgorithmEventListener</name>
+        <param>
+          <type>final AlgorithmEventListener</type>
+          <declname>ael</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Removes an algorithm event listener </para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>ael</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the listener to remove </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/GeneticAlgorithm.java" line="1155" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/GeneticAlgorithm.java" bodystart="1155" bodyend="1158"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1_genetic_algorithm_3_01_t_01extends_01_chromosome_01_4_1aa39f1ae905e67a5a3f7d7ad5cb25d276" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>final void</type>
+        <definition>final void jenes.GeneticAlgorithm&lt; T extends Chromosome &gt;.addGenerationEventListener</definition>
+        <argsstring>(final GenerationEventListener&lt; T &gt; gel)</argsstring>
+        <name>addGenerationEventListener</name>
+        <param>
+          <type>final GenerationEventListener&lt; T &gt;</type>
+          <declname>gel</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Adds a new generation event listener </para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>gel</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the generation listener to add </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/GeneticAlgorithm.java" line="1167" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/GeneticAlgorithm.java" bodystart="1167" bodyend="1170"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1_genetic_algorithm_3_01_t_01extends_01_chromosome_01_4_1a33e632148218289d0bc43e202a804bf1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>final void</type>
+        <definition>final void jenes.GeneticAlgorithm&lt; T extends Chromosome &gt;.removeGenerationEventListener</definition>
+        <argsstring>(final GenerationEventListener gel)</argsstring>
+        <name>removeGenerationEventListener</name>
+        <param>
+          <type>final GenerationEventListener</type>
+          <declname>gel</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Removes the generation event listener </para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>gel</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the listener to remove </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/GeneticAlgorithm.java" line="1179" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/GeneticAlgorithm.java" bodystart="1179" bodyend="1182"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1_genetic_algorithm_3_01_t_01extends_01_chromosome_01_4_1a484fcdba7cf2e4aa4a6ec1c0006e2193" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>final Statistics</type>
+        <definition>final Statistics jenes.GeneticAlgorithm&lt; T extends Chromosome &gt;.getStatistics</definition>
+        <argsstring>()</argsstring>
+        <name>getStatistics</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns algoritm statistics at the moment of invokation. </para><para><simplesect kind="return"><para>an object containing the algorithm statistics </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/GeneticAlgorithm.java" line="1190" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/GeneticAlgorithm.java" bodystart="1190" bodyend="1194"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1_genetic_algorithm_3_01_t_01extends_01_chromosome_01_4_1a8a4f4965c968047c55a8b56240267a4f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>final void</type>
+        <definition>final void jenes.GeneticAlgorithm&lt; T extends Chromosome &gt;.updateStatistics</definition>
+        <argsstring>(final Statistics stats)</argsstring>
+        <name>updateStatistics</name>
+        <param>
+          <type>final Statistics</type>
+          <declname>stats</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Updates the algoritm statistics at the moment of invokation. </para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>stats</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the statistics object to be updated </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/GeneticAlgorithm.java" line="1203" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/GeneticAlgorithm.java" bodystart="1203" bodyend="1207"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1_genetic_algorithm_3_01_t_01extends_01_chromosome_01_4_1af847a2a8cba2288fbddf726ec12eaf47" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>final String</type>
+        <definition>final String jenes.GeneticAlgorithm&lt; T extends Chromosome &gt;.toString</definition>
+        <argsstring>()</argsstring>
+        <name>toString</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/GeneticAlgorithm.java" line="1210" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/GeneticAlgorithm.java" bodystart="1210" bodyend="1212"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classjenes_1_1_genetic_algorithm_3_01_t_01extends_01_chromosome_01_4_1a41376d72c82d4503693eebb3832cf772" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>boolean</type>
+        <definition>boolean jenes.GeneticAlgorithm&lt; T extends Chromosome &gt;.end</definition>
+        <argsstring>()</argsstring>
+        <name>end</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Provides the algorithm termination condition. By default it returns false as reaching the generation limit is the sole ending criterion Subclasses can override this method in order to provide a problem specific termination condition. </para><para><simplesect kind="return"><para>true if the ga evolution reached the termination condition, false otherwise </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/GeneticAlgorithm.java" line="610" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/GeneticAlgorithm.java" bodystart="610" bodyend="613"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1_genetic_algorithm_3_01_t_01extends_01_chromosome_01_4_1a6fd4badfc67b0c2b0d43c6dd4a14875e" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>final void</type>
+        <definition>final void jenes.GeneticAlgorithm&lt; T extends Chromosome &gt;.start</definition>
+        <argsstring>(boolean reset)</argsstring>
+        <name>start</name>
+        <param>
+          <type>boolean</type>
+          <declname>reset</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Starts this genetic algorithm. This method performs the algorithm initialization and notifies the start and init events. It is automatically invoked by the method <ref refid="classjenes_1_1_genetic_algorithm_3_01_t_01extends_01_chromosome_01_4_1a8afdd855dc891b981cbf675c63db72c3" kindref="member">evolve()</ref>, thus it should not be explicity invoked.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>reset</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>if true, the algorithm reset the initial population. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/GeneticAlgorithm.java" line="623" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/GeneticAlgorithm.java" bodystart="623" bodyend="680"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1_genetic_algorithm_3_01_t_01extends_01_chromosome_01_4_1a6d0de9962bff7d63a4c197eeef6da7d0" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>final void</type>
+        <definition>final void jenes.GeneticAlgorithm&lt; T extends Chromosome &gt;.stop</definition>
+        <argsstring>()</argsstring>
+        <name>stop</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Terminates the genetic algorithm, notifying the stop event to listeners. It is automatically invoked by the method <ref refid="classjenes_1_1_genetic_algorithm_3_01_t_01extends_01_chromosome_01_4_1a8afdd855dc891b981cbf675c63db72c3" kindref="member">evolve()</ref>, thus it should not be explicity invoked. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/GeneticAlgorithm.java" line="687" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/GeneticAlgorithm.java" bodystart="687" bodyend="703"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1_genetic_algorithm_3_01_t_01extends_01_chromosome_01_4_1a0ed4a97cf7e3266913eaad8092913de3" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void jenes.GeneticAlgorithm&lt; T extends Chromosome &gt;.onStart</definition>
+        <argsstring>(long time)</argsstring>
+        <name>onStart</name>
+        <param>
+          <type>long</type>
+          <declname>time</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Invoked when a start ga event occurs. By default, no action is performed. Override this method to make the <computeroutput>GeneticAlgorithm</computeroutput> subclass able to be notfied of the start event.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>time</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the start event time expressed in milliseconds </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/GeneticAlgorithm.java" line="713" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/GeneticAlgorithm.java" bodystart="713" bodyend="715"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1_genetic_algorithm_3_01_t_01extends_01_chromosome_01_4_1a85479397ce0f8bd995b97fa91f4d6690" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void jenes.GeneticAlgorithm&lt; T extends Chromosome &gt;.onInit</definition>
+        <argsstring>(long time)</argsstring>
+        <name>onInit</name>
+        <param>
+          <type>long</type>
+          <declname>time</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Invoked when an init end ga event occurs. By default, no action is performed. Override this method to make the <computeroutput>GeneticAlgorithm</computeroutput> subclass able to be notfied of the init event.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>time</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the init event time expressed in milliseconds </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/GeneticAlgorithm.java" line="725" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/GeneticAlgorithm.java" bodystart="725" bodyend="727"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1_genetic_algorithm_3_01_t_01extends_01_chromosome_01_4_1a04258af6f64ec98561b015651d20f9ea" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void jenes.GeneticAlgorithm&lt; T extends Chromosome &gt;.onStop</definition>
+        <argsstring>(long time)</argsstring>
+        <name>onStop</name>
+        <param>
+          <type>long</type>
+          <declname>time</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Invoked when a stop event occurs. By default, no action is performed. Override this method to make the <computeroutput>GeneticAlgorithm</computeroutput> subclass able to be notfied of the stop event.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>time</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the stop event time expressed in milliseconds </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/GeneticAlgorithm.java" line="737" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/GeneticAlgorithm.java" bodystart="737" bodyend="739"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1_genetic_algorithm_3_01_t_01extends_01_chromosome_01_4_1aed0d630f1e0b290bb87ba9ab8b164b89" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void jenes.GeneticAlgorithm&lt; T extends Chromosome &gt;.onGeneration</definition>
+        <argsstring>(long time)</argsstring>
+        <name>onGeneration</name>
+        <param>
+          <type>long</type>
+          <declname>time</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Invoked when a generation ga end event occurs. By default, no action is performed. Override this method to make the <computeroutput>GeneticAlgorithm</computeroutput> subclass able to be notfied of the generation event.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>time</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the generation event time expressed in milliseconds </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/GeneticAlgorithm.java" line="749" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/GeneticAlgorithm.java" bodystart="749" bodyend="751"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1_genetic_algorithm_3_01_t_01extends_01_chromosome_01_4_1a7824bcf504331528000af8be62073d53" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>final void</type>
+        <definition>final void jenes.GeneticAlgorithm&lt; T extends Chromosome &gt;.randomizePopulation</definition>
+        <argsstring>(final Population&lt; T &gt; pop)</argsstring>
+        <name>randomizePopulation</name>
+        <param>
+          <type>final Population&lt; T &gt;</type>
+          <declname>pop</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Perform a population randomization, by itering on individuals. This process is generally useful to enrich the population diversity, necessary to the genetic algorithm for exploiting the search space, especially the initial population is created by cloning a sample individual. </para><para>The percentage of individuals to be randomized can be finely controlled by the randomization rate. This is useful in many problems where a dominant solution should be kept in the population, but still providing a random genetic variety. The randomization rate is controlled by the <ref refid="" kindref="compound">setRandomization(double)</ref> method. </para><para>This method is automatically invoked by the <ref refid="classjenes_1_1_genetic_algorithm_3_01_t_01extends_01_chromosome_01_4_1a6fd4badfc67b0c2b0d43c6dd4a14875e" kindref="member">start(boolean)</ref> method, so no explicit invokation is required.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>pop</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the population to randomize </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/GeneticAlgorithm.java" line="850" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/GeneticAlgorithm.java" bodystart="850" bodyend="855"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1_genetic_algorithm_3_01_t_01extends_01_chromosome_01_4_1a7cefcc35bf6c98eb9b7c33c074b32d69" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void jenes.GeneticAlgorithm&lt; T extends Chromosome &gt;.randomizeIndividual</definition>
+        <argsstring>(final Individual&lt; T &gt; individual)</argsstring>
+        <name>randomizeIndividual</name>
+        <param>
+          <type>final Individual&lt; T &gt;</type>
+          <declname>individual</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Performs an individual randomization. It is invoked by <ref refid="" kindref="compound">randomizePopulation(Population)</ref>. By default randomization is delegated to the individual. In some problems, it would be useful to control the randomization process of individual. This is especially the case of when there are some constraints on genes in order to make the individual valid. </para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>individual</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the individual to be randomize </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/GeneticAlgorithm.java" line="869" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/GeneticAlgorithm.java" bodystart="869" bodyend="871"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1_genetic_algorithm_3_01_t_01extends_01_chromosome_01_4_1a85647664d61cca550ed40dd70b074365" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>final void</type>
+        <definition>final void jenes.GeneticAlgorithm&lt; T extends Chromosome &gt;.applyElitism</definition>
+        <argsstring>()</argsstring>
+        <name>applyElitism</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Applies the elitism to the current population, according to the chosen strategy. This method is authomatically invoked by <ref refid="classjenes_1_1_genetic_algorithm_3_01_t_01extends_01_chromosome_01_4_1a8afdd855dc891b981cbf675c63db72c3" kindref="member">evolve()</ref>, and should not be explicitaly invoked. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/GeneticAlgorithm.java" line="1010" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/GeneticAlgorithm.java" bodystart="1010" bodyend="1045"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>This is the main class of JENES, providing the skeleton for implementing genetic algorithms. </para><para>A genetic algorithm can be implemented by providing a <computeroutput>Fitness</computeroutput> function. An alternative way (but deprecated) is to subclass <computeroutput>GeneticAlgorithm</computeroutput> and to overwrite the method <ref refid="" kindref="compound">evaluateIndividual(Individual)</ref>. </para><para>The genetic algorithm body is made of a sequence of stages. Which stages and in which order to consider is left to the algorithm needs. Generally, the sequence is made of a selection operator, followed by a a crossover operator, and then by a mutation operator. This schema is implemented by <ref refid="" kindref="compound">jenes.algorithms.SimpleGA</ref>. </para><para>An example of code is provided below. First, the initial population has to be created. </para><para><blockquote><para></para><para><preformatted>
+BooleanChromosome chrom = new BooleanChromosome(CHROMOSOME_LENGTH);
+Individual&lt;BooleanChromosome&gt; ind = new Individual&lt;BooleanChromosome&gt;(chrom);
+Population&lt;BooleanChromosome&gt; pop = new Population&lt;BooleanChromosome&gt;(ind,
+        POPULATION_SIZE);
+</preformatted></para><para></para></blockquote></para><para>A fitness function is implmented.</para><para><blockquote><para><preformatted>
+Fitness&lt;BooleanChromosome&gt; fit = new Fitness&lt;BooleanChromosome&gt;(true) {</preformatted></para><para><preformatted>    
+    public void evaluate(Individual&lt;BooleanChromosome&gt; individual) {
+        BooleanChromosome chrom = individual.getChromosome();
+        int count = 0;
+        int length=chrom.length();
+        for(int i=0;i&lt;length;i++)
+            if(chrom.getValue(i))
+                count++;</preformatted></para><para><preformatted>            individual.setScore(count);
+         }           
+    };
+</preformatted> </para></blockquote></para><para>Then, the genetic algorithm is instanced. </para><para><blockquote><para></para><para><preformatted>
+GeneticAlgorithm&lt;BooleanChromosome&gt; ga = new GeneticAlgorithm&lt;BooleanChromosome&gt;(fit, pop, GENERATION_LIMIT);
+</preformatted></para><para></para></blockquote></para><para>In this example, we used an anonymous subclass, but other subclassing methods can be used. After, stages (operators in particular) are added to the algorithm&apos;s body. </para><para><blockquote><para></para><para><preformatted>
+AbstractStage&lt;BooleanChromosome&gt; selection = new TournamentSelector&lt;BooleanChromosome&gt;(3);
+AbstractStage&lt;BooleanChromosome&gt; crossover = new OnePointCrossover&lt;BooleanChromosome&gt;(0.8);
+AbstractStage&lt;BooleanChromosome&gt; mutation = new SimpleMutator&lt;BooleanChromosome&gt;(0.2);</preformatted></para><para><preformatted>ga.addStage(selection);
+ga.addStage(crossover);
+ga.addStage(mutation);
+</preformatted></para><para></para></blockquote></para><para>Finally, the algorithm is executed. </para><para><blockquote><para></para><para><preformatted>
+ga.evolve();
+</preformatted></para><para></para></blockquote></para><para>A genetic algorithm processes a <ref refid="" kindref="compound">Population</ref> of <ref refid="" kindref="compound">Individual</ref>s. At each generation there are an input and output population. The reference to these populations can be respectively obtained by the methods <ref refid="classjenes_1_1_genetic_algorithm_3_01_t_01extends_01_chromosome_01_4_1a855bc56ffb3e1704ced2fdf68cc96d8f" kindref="member">getCurrentPopulation()</ref> and <ref refid="classjenes_1_1_genetic_algorithm_3_01_t_01extends_01_chromosome_01_4_1a5d22b21350638a64a66d3599b2777982" kindref="member">getNextPopulation()</ref>. Past populations are buffered in the algorithm&apos;s history. An history population can be retrieve by the method <ref refid="classjenes_1_1_genetic_algorithm_3_01_t_01extends_01_chromosome_01_4_1a99718490498059da48833dfbdfc8076e" kindref="member">getHistoryAt(int)</ref>. The reference to an history population is valid for the history length. After, populations are collected for reuse, so references to them are not anymore valid. </para><para>The genetic algorithm execution is invoked by the method <ref refid="classjenes_1_1_genetic_algorithm_3_01_t_01extends_01_chromosome_01_4_1a8afdd855dc891b981cbf675c63db72c3" kindref="member">evolve()</ref>. The algorithm execution passes through the following events: <itemizedlist>
+<listitem>
+<para>Start: the algorithm is just created. </para></listitem>
+<listitem>
+<para>Init: internal structures, such as the population given as input at generation 0 and history, are initialized. </para></listitem>
+<listitem>
+<para>Generation: a generation has been just performed. </para></listitem>
+<listitem>
+<para>Stop: the algorithm terminates its executions. </para></listitem>
+</itemizedlist>
+Each of these events can be captured by <ref refid="" kindref="compound">AlgorithmEventListener</ref>s and <ref refid="" kindref="compound">GenerationEventListener</ref>s. They can also be caputured by the <computeroutput>GeneticAlgorithm</computeroutput> subclass, by overriding the methods <ref refid="classjenes_1_1_genetic_algorithm_3_01_t_01extends_01_chromosome_01_4_1a0ed4a97cf7e3266913eaad8092913de3" kindref="member">onStart</ref>, <ref refid="classjenes_1_1_genetic_algorithm_3_01_t_01extends_01_chromosome_01_4_1a85479397ce0f8bd995b97fa91f4d6690" kindref="member">onInit</ref>, <ref refid="classjenes_1_1_genetic_algorithm_3_01_t_01extends_01_chromosome_01_4_1aed0d630f1e0b290bb87ba9ab8b164b89" kindref="member">onGeneration</ref>, and <ref refid="classjenes_1_1_genetic_algorithm_3_01_t_01extends_01_chromosome_01_4_1a04258af6f64ec98561b015651d20f9ea" kindref="member">onStop</ref>. Capturing events is useful to collect statistics and to perform analyses. Evolution terminates when the maximum number of generations is reached. It is possible to terminate the execution on the basis of some condition (e.g. precision level, variance of population, ecc.) by overriding the method <ref refid="classjenes_1_1_genetic_algorithm_3_01_t_01extends_01_chromosome_01_4_1a41376d72c82d4503693eebb3832cf772" kindref="member">end()</ref>. </para><para><computeroutput>GeneticAlgorithm</computeroutput> include a support for elitism, that is best individuals at each generation are assured to be at the next generation. The number of elite individuals is set by the method <ref refid="" kindref="compound">setElitism(int)</ref>. These individuals are substituted to some individuals to the processed population according to the following strategies: <itemizedlist>
+<listitem>
+<para><ref refid="enumjenes_1_1_genetic_algorithm_3_01_t_01extends_01_chromosome_01_4_1_1_elitism_strategy_1a591ab5eac2a1d3f09f99ab362ee54f65" kindref="member">ElitismStrategy#RANDOM</ref>: next population individuals are randomly selected and substituted by elite. </para></listitem>
+<listitem>
+<para><ref refid="enumjenes_1_1_genetic_algorithm_3_01_t_01extends_01_chromosome_01_4_1_1_elitism_strategy_1a60c1acf7a272aca7e29b422a124a2ee2" kindref="member">ElitismStrategy#WORST</ref>: next population worst individuals are substituted by elite. </para></listitem>
+</itemizedlist>
+The first strategy is more efficient as it does not require to order the population. The drawback is that individuals with a good fitness could be substituted by elite. The second strategy is slower, but assures that only worst individuals are substituted. </para><para>The genetic algorithm can be used for both maximizing or minimizing the fitness function. This can be accomplished by setting the fitness. </para><para><computeroutput>GeneticAlgorithm</computeroutput> can process populations with a variable number of individuals at each generation. </para><para><computeroutput>GeneticAlgorithm</computeroutput> performs by default an initial randomization of the population. </para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>&lt;T&gt;</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The class of chromosomes to work with.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="version"><para>2.0 </para></simplesect>
+<simplesect kind="since"><para>1.0 </para></simplesect>
+</para>    </detaileddescription>
+    <collaborationgraph>
+      <node id="215">
+        <label>Sequence&lt; T &gt;</label>
+      </node>
+      <node id="207">
+        <label>jenes.GeneticAlgorithm&lt; T extends Chromosome &gt;</label>
+        <link refid="classjenes_1_1_genetic_algorithm_3_01_t_01extends_01_chromosome_01_4"/>
+        <childnode refid="208" relation="usage">
+          <edgelabel>statistics</edgelabel>
+        </childnode>
+        <childnode refid="209" relation="usage">
+          <edgelabel>runner</edgelabel>
+        </childnode>
+        <childnode refid="211" relation="usage">
+          <edgelabel>random</edgelabel>
+        </childnode>
+        <childnode refid="214" relation="usage">
+          <edgelabel>currentPopulation</edgelabel>
+          <edgelabel>nextPopulation</edgelabel>
+          <edgelabel>initialPopulation</edgelabel>
+          <edgelabel>history</edgelabel>
+        </childnode>
+        <childnode refid="215" relation="usage">
+          <edgelabel>body</edgelabel>
+        </childnode>
+        <childnode refid="216" relation="usage">
+          <edgelabel>pool</edgelabel>
+        </childnode>
+        <childnode refid="217" relation="usage">
+          <edgelabel>generationListeners</edgelabel>
+        </childnode>
+        <childnode refid="218" relation="usage">
+          <edgelabel>algorithmListeners</edgelabel>
+        </childnode>
+      </node>
+      <node id="217">
+        <label>List&lt; GenerationEventListener&lt; T &gt; &gt;</label>
+      </node>
+      <node id="213">
+        <label>Serializable</label>
+      </node>
+      <node id="211">
+        <label>jenes.utils.Random</label>
+        <link refid="classjenes_1_1utils_1_1_random"/>
+        <childnode refid="212" relation="public-inheritance">
+        </childnode>
+        <childnode refid="211" relation="usage">
+          <edgelabel>mtfe</edgelabel>
+        </childnode>
+      </node>
+      <node id="212">
+        <label>jenes.utils.MersenneTwisterFast</label>
+        <link refid="classjenes_1_1utils_1_1_mersenne_twister_fast"/>
+        <childnode refid="213" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="214">
+        <label>Population&lt; T &gt;</label>
+      </node>
+      <node id="218">
+        <label>List&lt; AlgorithmEventListener&lt; T &gt; &gt;</label>
+      </node>
+      <node id="209">
+        <label>jenes.utils.multitasking.Runner</label>
+        <link refid="classjenes_1_1utils_1_1multitasking_1_1_runner"/>
+        <childnode refid="210" relation="usage">
+          <edgelabel>algorithm</edgelabel>
+        </childnode>
+      </node>
+      <node id="208">
+        <label>Statistics</label>
+      </node>
+      <node id="216">
+        <label>Pool&lt; T &gt;</label>
+      </node>
+      <node id="210">
+        <label>GeneticAlgorithm</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/GeneticAlgorithm.java" line="184" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/GeneticAlgorithm.java" bodystart="184" bodyend="1432"/>
+    <listofallmembers>
+      <member refid="classjenes_1_1_genetic_algorithm_3_01_t_01extends_01_chromosome_01_4_1a168e2b37b5351108e62d8fb887e1fae4" prot="public" virt="non-virtual"><scope>jenes::GeneticAlgorithm&lt; T extends Chromosome &gt;</scope><name>addAlgorithmEventListener</name></member>
+      <member refid="classjenes_1_1_genetic_algorithm_3_01_t_01extends_01_chromosome_01_4_1aa39f1ae905e67a5a3f7d7ad5cb25d276" prot="public" virt="non-virtual"><scope>jenes::GeneticAlgorithm&lt; T extends Chromosome &gt;</scope><name>addGenerationEventListener</name></member>
+      <member refid="classjenes_1_1_genetic_algorithm_3_01_t_01extends_01_chromosome_01_4_1aa0ab85fdb0cb1880a469044affbb32e7" prot="public" virt="non-virtual"><scope>jenes::GeneticAlgorithm&lt; T extends Chromosome &gt;</scope><name>addStage</name></member>
+      <member refid="classjenes_1_1_genetic_algorithm_3_01_t_01extends_01_chromosome_01_4_1a53540867ddd13889614232b3cbea6d6f" prot="protected" virt="non-virtual"><scope>jenes::GeneticAlgorithm&lt; T extends Chromosome &gt;</scope><name>algorithmListeners</name></member>
+      <member refid="classjenes_1_1_genetic_algorithm_3_01_t_01extends_01_chromosome_01_4_1a85647664d61cca550ed40dd70b074365" prot="protected" virt="non-virtual"><scope>jenes::GeneticAlgorithm&lt; T extends Chromosome &gt;</scope><name>applyElitism</name></member>
+      <member refid="classjenes_1_1_genetic_algorithm_3_01_t_01extends_01_chromosome_01_4_1a0040f9dbb0018e8bb28dde97dacac7d8" prot="protected" virt="non-virtual"><scope>jenes::GeneticAlgorithm&lt; T extends Chromosome &gt;</scope><name>body</name></member>
+      <member refid="classjenes_1_1_genetic_algorithm_3_01_t_01extends_01_chromosome_01_4_1a13cd44ba0fe337e32a545fa925f570c7" prot="private" virt="non-virtual"><scope>jenes::GeneticAlgorithm&lt; T extends Chromosome &gt;</scope><name>currentPopulation</name></member>
+      <member refid="classjenes_1_1_genetic_algorithm_3_01_t_01extends_01_chromosome_01_4_1a2492ee1b00f5631a1c1b1c6f15ea3421" prot="public" virt="non-virtual"><scope>jenes::GeneticAlgorithm&lt; T extends Chromosome &gt;</scope><name>DEFAULT_GENERATION_LIMIT</name></member>
+      <member refid="classjenes_1_1_genetic_algorithm_3_01_t_01extends_01_chromosome_01_4_1a23df2e338c3439d7457ff6a150c573e1" prot="public" virt="non-virtual"><scope>jenes::GeneticAlgorithm&lt; T extends Chromosome &gt;</scope><name>DEFAULT_HISTORY_SIZE</name></member>
+      <member refid="classjenes_1_1_genetic_algorithm_3_01_t_01extends_01_chromosome_01_4_1ac4280b01e7da0ddc049050b19e28b8b9" prot="protected" virt="non-virtual"><scope>jenes::GeneticAlgorithm&lt; T extends Chromosome &gt;</scope><name>elitism</name></member>
+      <member refid="classjenes_1_1_genetic_algorithm_3_01_t_01extends_01_chromosome_01_4_1aacba3e1823ba66a2dd6d3c902f8ff719" prot="protected" virt="non-virtual"><scope>jenes::GeneticAlgorithm&lt; T extends Chromosome &gt;</scope><name>elitismStrategy</name></member>
+      <member refid="classjenes_1_1_genetic_algorithm_3_01_t_01extends_01_chromosome_01_4_1a41376d72c82d4503693eebb3832cf772" prot="protected" virt="non-virtual"><scope>jenes::GeneticAlgorithm&lt; T extends Chromosome &gt;</scope><name>end</name></member>
+      <member refid="classjenes_1_1_genetic_algorithm_3_01_t_01extends_01_chromosome_01_4_1a17d1c99e638312a18394c6d76dedb2f3" prot="public" virt="non-virtual"><scope>jenes::GeneticAlgorithm&lt; T extends Chromosome &gt;</scope><name>evaluateIndividual</name></member>
+      <member refid="classjenes_1_1_genetic_algorithm_3_01_t_01extends_01_chromosome_01_4_1ab90dc099bae1616275779f59f400a59b" prot="public" virt="non-virtual"><scope>jenes::GeneticAlgorithm&lt; T extends Chromosome &gt;</scope><name>evaluatePopulation</name></member>
+      <member refid="classjenes_1_1_genetic_algorithm_3_01_t_01extends_01_chromosome_01_4_1a4a04df077e2b7752248689668889a5a5" prot="public" virt="non-virtual"><scope>jenes::GeneticAlgorithm&lt; T extends Chromosome &gt;</scope><name>evaluatePopulation</name></member>
+      <member refid="classjenes_1_1_genetic_algorithm_3_01_t_01extends_01_chromosome_01_4_1a8afdd855dc891b981cbf675c63db72c3" prot="public" virt="non-virtual"><scope>jenes::GeneticAlgorithm&lt; T extends Chromosome &gt;</scope><name>evolve</name></member>
+      <member refid="classjenes_1_1_genetic_algorithm_3_01_t_01extends_01_chromosome_01_4_1afea32755ac446883e283d2eec6bc69fa" prot="public" virt="non-virtual"><scope>jenes::GeneticAlgorithm&lt; T extends Chromosome &gt;</scope><name>evolve</name></member>
+      <member refid="classjenes_1_1_genetic_algorithm_3_01_t_01extends_01_chromosome_01_4_1af8bb6842d525c274bfb8a3efc9ca5b23" prot="public" virt="non-virtual"><scope>jenes::GeneticAlgorithm&lt; T extends Chromosome &gt;</scope><name>evolve</name></member>
+      <member refid="classjenes_1_1_genetic_algorithm_3_01_t_01extends_01_chromosome_01_4_1adb627d0c6d6744f53ef5c3b7506913e9" prot="protected" virt="non-virtual"><scope>jenes::GeneticAlgorithm&lt; T extends Chromosome &gt;</scope><name>fullEvaluationForced</name></member>
+      <member refid="classjenes_1_1_genetic_algorithm_3_01_t_01extends_01_chromosome_01_4_1ac5a1ddc5e78e2b81c754eb990a91f17b" prot="protected" virt="non-virtual"><scope>jenes::GeneticAlgorithm&lt; T extends Chromosome &gt;</scope><name>generation</name></member>
+      <member refid="classjenes_1_1_genetic_algorithm_3_01_t_01extends_01_chromosome_01_4_1a6677c80cf6ad470a0124fc2fa3051310" prot="protected" virt="non-virtual"><scope>jenes::GeneticAlgorithm&lt; T extends Chromosome &gt;</scope><name>generationLimit</name></member>
+      <member refid="classjenes_1_1_genetic_algorithm_3_01_t_01extends_01_chromosome_01_4_1a265c4e10d321e68ae5757abf68d88739" prot="protected" virt="non-virtual"><scope>jenes::GeneticAlgorithm&lt; T extends Chromosome &gt;</scope><name>generationListeners</name></member>
+      <member refid="classjenes_1_1_genetic_algorithm_3_01_t_01extends_01_chromosome_01_4_1acfda239e0d2154eb26a7be4f6aa1315d" prot="public" virt="non-virtual"><scope>jenes::GeneticAlgorithm&lt; T extends Chromosome &gt;</scope><name>GeneticAlgorithm</name></member>
+      <member refid="classjenes_1_1_genetic_algorithm_3_01_t_01extends_01_chromosome_01_4_1aede3d2fbd3c3d1cf04a4e419649cae93" prot="public" virt="non-virtual"><scope>jenes::GeneticAlgorithm&lt; T extends Chromosome &gt;</scope><name>GeneticAlgorithm</name></member>
+      <member refid="classjenes_1_1_genetic_algorithm_3_01_t_01extends_01_chromosome_01_4_1afe0501230c1645d2a6cdf54af2672639" prot="public" virt="non-virtual"><scope>jenes::GeneticAlgorithm&lt; T extends Chromosome &gt;</scope><name>GeneticAlgorithm</name></member>
+      <member refid="classjenes_1_1_genetic_algorithm_3_01_t_01extends_01_chromosome_01_4_1aefcf45276a730906c98ff8de90b6c48e" prot="public" virt="non-virtual"><scope>jenes::GeneticAlgorithm&lt; T extends Chromosome &gt;</scope><name>GeneticAlgorithm</name></member>
+      <member refid="classjenes_1_1_genetic_algorithm_3_01_t_01extends_01_chromosome_01_4_1a08a57814b09412baed3146d2cc6e2174" prot="public" virt="non-virtual"><scope>jenes::GeneticAlgorithm&lt; T extends Chromosome &gt;</scope><name>GeneticAlgorithm</name></member>
+      <member refid="classjenes_1_1_genetic_algorithm_3_01_t_01extends_01_chromosome_01_4_1af3997e737162629c161c04a65dd830a0" prot="public" virt="non-virtual"><scope>jenes::GeneticAlgorithm&lt; T extends Chromosome &gt;</scope><name>GeneticAlgorithm</name></member>
+      <member refid="classjenes_1_1_genetic_algorithm_3_01_t_01extends_01_chromosome_01_4_1aeab54a329fb6df5686a2fce4a8a8727a" prot="public" virt="non-virtual"><scope>jenes::GeneticAlgorithm&lt; T extends Chromosome &gt;</scope><name>getBody</name></member>
+      <member refid="classjenes_1_1_genetic_algorithm_3_01_t_01extends_01_chromosome_01_4_1a855bc56ffb3e1704ced2fdf68cc96d8f" prot="public" virt="non-virtual"><scope>jenes::GeneticAlgorithm&lt; T extends Chromosome &gt;</scope><name>getCurrentPopulation</name></member>
+      <member refid="classjenes_1_1_genetic_algorithm_3_01_t_01extends_01_chromosome_01_4_1a8bbf6df4fc231cfc88a7e879d2bbf814" prot="public" virt="non-virtual"><scope>jenes::GeneticAlgorithm&lt; T extends Chromosome &gt;</scope><name>getElitism</name></member>
+      <member refid="classjenes_1_1_genetic_algorithm_3_01_t_01extends_01_chromosome_01_4_1ad227ba9924206ee18f69d24ea4ee4ab0" prot="public" virt="non-virtual"><scope>jenes::GeneticAlgorithm&lt; T extends Chromosome &gt;</scope><name>getElitismStrategy</name></member>
+      <member refid="classjenes_1_1_genetic_algorithm_3_01_t_01extends_01_chromosome_01_4_1a687996ee45582145be24e2086fc8c210" prot="public" virt="non-virtual"><scope>jenes::GeneticAlgorithm&lt; T extends Chromosome &gt;</scope><name>getFitness</name></member>
+      <member refid="classjenes_1_1_genetic_algorithm_3_01_t_01extends_01_chromosome_01_4_1a25602ec654959a43a64f12e92251cb47" prot="public" virt="non-virtual"><scope>jenes::GeneticAlgorithm&lt; T extends Chromosome &gt;</scope><name>getGeneration</name></member>
+      <member refid="classjenes_1_1_genetic_algorithm_3_01_t_01extends_01_chromosome_01_4_1ac6eceff2ad4a055f3c6047fb4c272ef3" prot="public" virt="non-virtual"><scope>jenes::GeneticAlgorithm&lt; T extends Chromosome &gt;</scope><name>getGenerationLimit</name></member>
+      <member refid="classjenes_1_1_genetic_algorithm_3_01_t_01extends_01_chromosome_01_4_1a99718490498059da48833dfbdfc8076e" prot="public" virt="non-virtual"><scope>jenes::GeneticAlgorithm&lt; T extends Chromosome &gt;</scope><name>getHistoryAt</name></member>
+      <member refid="classjenes_1_1_genetic_algorithm_3_01_t_01extends_01_chromosome_01_4_1ab52be3b0fcd2f424ae191ff4e642edf3" prot="public" virt="non-virtual"><scope>jenes::GeneticAlgorithm&lt; T extends Chromosome &gt;</scope><name>getHistorySize</name></member>
+      <member refid="classjenes_1_1_genetic_algorithm_3_01_t_01extends_01_chromosome_01_4_1ab5ff704fa1d7b01bcfc5f0ca36b20e34" prot="public" virt="non-virtual"><scope>jenes::GeneticAlgorithm&lt; T extends Chromosome &gt;</scope><name>getInitialPopulation</name></member>
+      <member refid="classjenes_1_1_genetic_algorithm_3_01_t_01extends_01_chromosome_01_4_1a5d22b21350638a64a66d3599b2777982" prot="public" virt="non-virtual"><scope>jenes::GeneticAlgorithm&lt; T extends Chromosome &gt;</scope><name>getNextPopulation</name></member>
+      <member refid="classjenes_1_1_genetic_algorithm_3_01_t_01extends_01_chromosome_01_4_1ad254fc6b2ff476bc7f7837d03e677786" prot="public" virt="non-virtual"><scope>jenes::GeneticAlgorithm&lt; T extends Chromosome &gt;</scope><name>getPool</name></member>
+      <member refid="classjenes_1_1_genetic_algorithm_3_01_t_01extends_01_chromosome_01_4_1add75e6182615af89791921472d2fbc9f" prot="public" virt="non-virtual"><scope>jenes::GeneticAlgorithm&lt; T extends Chromosome &gt;</scope><name>getRandomization</name></member>
+      <member refid="classjenes_1_1_genetic_algorithm_3_01_t_01extends_01_chromosome_01_4_1a379c5a3789ba72941a081d32fbcc4474" prot="public" virt="non-virtual"><scope>jenes::GeneticAlgorithm&lt; T extends Chromosome &gt;</scope><name>getResizeStrategy</name></member>
+      <member refid="classjenes_1_1_genetic_algorithm_3_01_t_01extends_01_chromosome_01_4_1a63ea13380fe4a30d1eabd394e44d6e96" prot="public" virt="non-virtual"><scope>jenes::GeneticAlgorithm&lt; T extends Chromosome &gt;</scope><name>getRunner</name></member>
+      <member refid="classjenes_1_1_genetic_algorithm_3_01_t_01extends_01_chromosome_01_4_1a484fcdba7cf2e4aa4a6ec1c0006e2193" prot="public" virt="non-virtual"><scope>jenes::GeneticAlgorithm&lt; T extends Chromosome &gt;</scope><name>getStatistics</name></member>
+      <member refid="classjenes_1_1_genetic_algorithm_3_01_t_01extends_01_chromosome_01_4_1a4213a84e54e3d515be8824b4e5c4a70e" prot="private" virt="non-virtual"><scope>jenes::GeneticAlgorithm&lt; T extends Chromosome &gt;</scope><name>history</name></member>
+      <member refid="classjenes_1_1_genetic_algorithm_3_01_t_01extends_01_chromosome_01_4_1a19813646965d357e4e3526fe6b64a0a4" prot="private" virt="non-virtual"><scope>jenes::GeneticAlgorithm&lt; T extends Chromosome &gt;</scope><name>historySize</name></member>
+      <member refid="classjenes_1_1_genetic_algorithm_3_01_t_01extends_01_chromosome_01_4_1ab6535da7a5097e18e6305d0f26f7cf5f" prot="protected" virt="non-virtual"><scope>jenes::GeneticAlgorithm&lt; T extends Chromosome &gt;</scope><name>initialPopulation</name></member>
+      <member refid="classjenes_1_1_genetic_algorithm_3_01_t_01extends_01_chromosome_01_4_1a34e6ea627850ec240d4c0bba39170d4b" prot="public" virt="non-virtual"><scope>jenes::GeneticAlgorithm&lt; T extends Chromosome &gt;</scope><name>isBiggerBetter</name></member>
+      <member refid="classjenes_1_1_genetic_algorithm_3_01_t_01extends_01_chromosome_01_4_1a7d5cb4716cbc586aa85774c5dc934d15" prot="public" virt="non-virtual"><scope>jenes::GeneticAlgorithm&lt; T extends Chromosome &gt;</scope><name>isFitnessChanged</name></member>
+      <member refid="classjenes_1_1_genetic_algorithm_3_01_t_01extends_01_chromosome_01_4_1a7305deb720716287d256832f0bd44785" prot="public" virt="non-virtual"><scope>jenes::GeneticAlgorithm&lt; T extends Chromosome &gt;</scope><name>isFullEvaluationForced</name></member>
+      <member refid="classjenes_1_1_genetic_algorithm_3_01_t_01extends_01_chromosome_01_4_1acd26085cf69c68d607ef08d0bf829224" prot="public" virt="non-virtual"><scope>jenes::GeneticAlgorithm&lt; T extends Chromosome &gt;</scope><name>MAX_HISTORY_SIZE</name></member>
+      <member refid="classjenes_1_1_genetic_algorithm_3_01_t_01extends_01_chromosome_01_4_1aa64b297086826bfbda1fbaccebe4cb24" prot="public" virt="non-virtual"><scope>jenes::GeneticAlgorithm&lt; T extends Chromosome &gt;</scope><name>MIN_HISTORY_SIZE</name></member>
+      <member refid="classjenes_1_1_genetic_algorithm_3_01_t_01extends_01_chromosome_01_4_1a7d361b32fc05b1ad9b2f84b2f8b4a6aa" prot="private" virt="non-virtual"><scope>jenes::GeneticAlgorithm&lt; T extends Chromosome &gt;</scope><name>nextPopulation</name></member>
+      <member refid="classjenes_1_1_genetic_algorithm_3_01_t_01extends_01_chromosome_01_4_1aed0d630f1e0b290bb87ba9ab8b164b89" prot="protected" virt="non-virtual"><scope>jenes::GeneticAlgorithm&lt; T extends Chromosome &gt;</scope><name>onGeneration</name></member>
+      <member refid="classjenes_1_1_genetic_algorithm_3_01_t_01extends_01_chromosome_01_4_1a85479397ce0f8bd995b97fa91f4d6690" prot="protected" virt="non-virtual"><scope>jenes::GeneticAlgorithm&lt; T extends Chromosome &gt;</scope><name>onInit</name></member>
+      <member refid="classjenes_1_1_genetic_algorithm_3_01_t_01extends_01_chromosome_01_4_1a0ed4a97cf7e3266913eaad8092913de3" prot="protected" virt="non-virtual"><scope>jenes::GeneticAlgorithm&lt; T extends Chromosome &gt;</scope><name>onStart</name></member>
+      <member refid="classjenes_1_1_genetic_algorithm_3_01_t_01extends_01_chromosome_01_4_1a04258af6f64ec98561b015651d20f9ea" prot="protected" virt="non-virtual"><scope>jenes::GeneticAlgorithm&lt; T extends Chromosome &gt;</scope><name>onStop</name></member>
+      <member refid="classjenes_1_1_genetic_algorithm_3_01_t_01extends_01_chromosome_01_4_1a355d3311ff5b27ae057c3dd06c75e7cd" prot="private" virt="non-virtual"><scope>jenes::GeneticAlgorithm&lt; T extends Chromosome &gt;</scope><name>pool</name></member>
+      <member refid="classjenes_1_1_genetic_algorithm_3_01_t_01extends_01_chromosome_01_4_1a1579283e210144ba90b937be0911a028" prot="protected" virt="non-virtual"><scope>jenes::GeneticAlgorithm&lt; T extends Chromosome &gt;</scope><name>random</name></member>
+      <member refid="classjenes_1_1_genetic_algorithm_3_01_t_01extends_01_chromosome_01_4_1adcb3e16398451c2e318de21d77b51d35" prot="protected" virt="non-virtual"><scope>jenes::GeneticAlgorithm&lt; T extends Chromosome &gt;</scope><name>randomization</name></member>
+      <member refid="classjenes_1_1_genetic_algorithm_3_01_t_01extends_01_chromosome_01_4_1a7cefcc35bf6c98eb9b7c33c074b32d69" prot="protected" virt="non-virtual"><scope>jenes::GeneticAlgorithm&lt; T extends Chromosome &gt;</scope><name>randomizeIndividual</name></member>
+      <member refid="classjenes_1_1_genetic_algorithm_3_01_t_01extends_01_chromosome_01_4_1a7824bcf504331528000af8be62073d53" prot="protected" virt="non-virtual"><scope>jenes::GeneticAlgorithm&lt; T extends Chromosome &gt;</scope><name>randomizePopulation</name></member>
+      <member refid="classjenes_1_1_genetic_algorithm_3_01_t_01extends_01_chromosome_01_4_1a8cab61e04f54ed5abbda047815a1683d" prot="public" virt="non-virtual"><scope>jenes::GeneticAlgorithm&lt; T extends Chromosome &gt;</scope><name>removeAlgorithmEventListener</name></member>
+      <member refid="classjenes_1_1_genetic_algorithm_3_01_t_01extends_01_chromosome_01_4_1a33e632148218289d0bc43e202a804bf1" prot="public" virt="non-virtual"><scope>jenes::GeneticAlgorithm&lt; T extends Chromosome &gt;</scope><name>removeGenerationEventListener</name></member>
+      <member refid="classjenes_1_1_genetic_algorithm_3_01_t_01extends_01_chromosome_01_4_1a56f08a1d1f3355921b83f08745dbb3b3" prot="protected" virt="non-virtual"><scope>jenes::GeneticAlgorithm&lt; T extends Chromosome &gt;</scope><name>resizeStrategy</name></member>
+      <member refid="classjenes_1_1_genetic_algorithm_3_01_t_01extends_01_chromosome_01_4_1a9d6056090be623c86c46ad62d37ff164" prot="private" virt="non-virtual"><scope>jenes::GeneticAlgorithm&lt; T extends Chromosome &gt;</scope><name>runner</name></member>
+      <member refid="classjenes_1_1_genetic_algorithm_3_01_t_01extends_01_chromosome_01_4_1afcc4f944d2d47d757e177a22a660bfd3" prot="public" virt="non-virtual"><scope>jenes::GeneticAlgorithm&lt; T extends Chromosome &gt;</scope><name>setBiggerIsBetter</name></member>
+      <member refid="classjenes_1_1_genetic_algorithm_3_01_t_01extends_01_chromosome_01_4_1a27f67506714b18eb15d890bfa3d5b0ab" prot="public" virt="non-virtual"><scope>jenes::GeneticAlgorithm&lt; T extends Chromosome &gt;</scope><name>setElitism</name></member>
+      <member refid="classjenes_1_1_genetic_algorithm_3_01_t_01extends_01_chromosome_01_4_1aedc89ba915f6a528ef4052eb31a8c467" prot="public" virt="non-virtual"><scope>jenes::GeneticAlgorithm&lt; T extends Chromosome &gt;</scope><name>setElitismStrategy</name></member>
+      <member refid="classjenes_1_1_genetic_algorithm_3_01_t_01extends_01_chromosome_01_4_1aff762153c3f11a2ad83936867ca31617" prot="public" virt="non-virtual"><scope>jenes::GeneticAlgorithm&lt; T extends Chromosome &gt;</scope><name>setFitness</name></member>
+      <member refid="classjenes_1_1_genetic_algorithm_3_01_t_01extends_01_chromosome_01_4_1a9fe6f2d66ffcbce1233194871cdfc5ae" prot="public" virt="non-virtual"><scope>jenes::GeneticAlgorithm&lt; T extends Chromosome &gt;</scope><name>setFullEvaluationForced</name></member>
+      <member refid="classjenes_1_1_genetic_algorithm_3_01_t_01extends_01_chromosome_01_4_1a1e4d04de7cf34838296ad6745ac046f5" prot="public" virt="non-virtual"><scope>jenes::GeneticAlgorithm&lt; T extends Chromosome &gt;</scope><name>setGenerationLimit</name></member>
+      <member refid="classjenes_1_1_genetic_algorithm_3_01_t_01extends_01_chromosome_01_4_1a71407144e93e7522d2d474c25781d65c" prot="public" virt="non-virtual"><scope>jenes::GeneticAlgorithm&lt; T extends Chromosome &gt;</scope><name>setHistorySize</name></member>
+      <member refid="classjenes_1_1_genetic_algorithm_3_01_t_01extends_01_chromosome_01_4_1acf14a43bc2c8bed69aa0334b18d58ba7" prot="public" virt="non-virtual"><scope>jenes::GeneticAlgorithm&lt; T extends Chromosome &gt;</scope><name>setRandomization</name></member>
+      <member refid="classjenes_1_1_genetic_algorithm_3_01_t_01extends_01_chromosome_01_4_1a78cb20ba6256d06e7cd04696e697cc4e" prot="public" virt="non-virtual"><scope>jenes::GeneticAlgorithm&lt; T extends Chromosome &gt;</scope><name>setRandomization</name></member>
+      <member refid="classjenes_1_1_genetic_algorithm_3_01_t_01extends_01_chromosome_01_4_1a7e5f06abe9e8661cdb38bd0fa663da6c" prot="public" virt="non-virtual"><scope>jenes::GeneticAlgorithm&lt; T extends Chromosome &gt;</scope><name>setRandomSeed</name></member>
+      <member refid="classjenes_1_1_genetic_algorithm_3_01_t_01extends_01_chromosome_01_4_1a685af9b6322920d9431977fd25c5cf77" prot="public" virt="non-virtual"><scope>jenes::GeneticAlgorithm&lt; T extends Chromosome &gt;</scope><name>setResizeStrategy</name></member>
+      <member refid="classjenes_1_1_genetic_algorithm_3_01_t_01extends_01_chromosome_01_4_1a6ff8bcd8e9049106c7959637e4e10e70" prot="public" virt="non-virtual"><scope>jenes::GeneticAlgorithm&lt; T extends Chromosome &gt;</scope><name>setRunner</name></member>
+      <member refid="classjenes_1_1_genetic_algorithm_3_01_t_01extends_01_chromosome_01_4_1a6fd4badfc67b0c2b0d43c6dd4a14875e" prot="protected" virt="non-virtual"><scope>jenes::GeneticAlgorithm&lt; T extends Chromosome &gt;</scope><name>start</name></member>
+      <member refid="classjenes_1_1_genetic_algorithm_3_01_t_01extends_01_chromosome_01_4_1afc23d5cbab5434f5ec5684cda9434b93" prot="protected" virt="non-virtual"><scope>jenes::GeneticAlgorithm&lt; T extends Chromosome &gt;</scope><name>statistics</name></member>
+      <member refid="classjenes_1_1_genetic_algorithm_3_01_t_01extends_01_chromosome_01_4_1a6d0de9962bff7d63a4c197eeef6da7d0" prot="protected" virt="non-virtual"><scope>jenes::GeneticAlgorithm&lt; T extends Chromosome &gt;</scope><name>stop</name></member>
+      <member refid="classjenes_1_1_genetic_algorithm_3_01_t_01extends_01_chromosome_01_4_1af847a2a8cba2288fbddf726ec12eaf47" prot="public" virt="non-virtual"><scope>jenes::GeneticAlgorithm&lt; T extends Chromosome &gt;</scope><name>toString</name></member>
+      <member refid="classjenes_1_1_genetic_algorithm_3_01_t_01extends_01_chromosome_01_4_1a8a4f4965c968047c55a8b56240267a4f" prot="public" virt="non-virtual"><scope>jenes::GeneticAlgorithm&lt; T extends Chromosome &gt;</scope><name>updateStatistics</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

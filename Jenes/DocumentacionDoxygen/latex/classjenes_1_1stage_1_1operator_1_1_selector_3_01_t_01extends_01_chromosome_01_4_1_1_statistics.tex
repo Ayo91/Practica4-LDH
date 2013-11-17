@@ -1,0 +1,83 @@
+\hypertarget{classjenes_1_1stage_1_1operator_1_1_selector_3_01_t_01extends_01_chromosome_01_4_1_1_statistics}{\section{jenes.\-stage.\-operator.\-Selector$<$ T extends Chromosome $>$.Statistics Class Reference}
+\label{classjenes_1_1stage_1_1operator_1_1_selector_3_01_t_01extends_01_chromosome_01_4_1_1_statistics}\index{jenes.\-stage.\-operator.\-Selector$<$ T extends Chromosome $>$.\-Statistics@{jenes.\-stage.\-operator.\-Selector$<$ T extends Chromosome $>$.\-Statistics}}
+}
+Inheritance diagram for jenes.\-stage.\-operator.\-Selector$<$ T extends Chromosome $>$.Statistics\-:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{classjenes_1_1stage_1_1operator_1_1_selector_3_01_t_01extends_01_chromosome_01_4_1_1_statistics}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+long \hyperlink{classjenes_1_1stage_1_1operator_1_1_selector_3_01_t_01extends_01_chromosome_01_4_1_1_statistics_a0145f6cec84ff007289d206f579a117a}{get\-Selections} ()
+\end{DoxyCompactItemize}
+\subsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{classjenes_1_1stage_1_1operator_1_1_selector_3_01_t_01extends_01_chromosome_01_4_1_1_statistics_ab1db0e72568009d65141927f039ffe84}{fill} (Operator$<$ T $>$.Statistics stats)
+\end{DoxyCompactItemize}
+\subsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+long \hyperlink{classjenes_1_1stage_1_1operator_1_1_selector_3_01_t_01extends_01_chromosome_01_4_1_1_statistics_a8308f3f0177bfe79fcbf46bd4ac93cc4}{selections}
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+A statistics object holding the number of selection performed and the time spent to execute them. The statistics is available by two methods\-: \hyperlink{}{Selector\#get\-Statistics()} to have a new statistics setted according to the crossover state or \hyperlink{}{Selector\#update\-Statistics(jenes.\-stage.\-operator.\-Operator.\-Statistics)} to modify an existing statistics according to the selector state. 
+
+Esamples of use are showed below. 
+
+\begin{quotation}
+
+\begin{DoxyPre}
+Selector.Statistics stat = a\_selector.getStatistics();
+\end{DoxyPre}
+\end{quotation}
+
+
+returns a new statistics object setted according to the specified selector state. 
+
+\begin{quotation}
+
+\begin{DoxyPre}
+Selector.Statistics stat = new Selector.Statistics();
+a\_selector.updateStatistics(stat);
+\end{DoxyPre}
+\end{quotation}
+
+
+modifies the existing statistics according to the specified selector state. 
+
+\subsection{Member Function Documentation}
+\hypertarget{classjenes_1_1stage_1_1operator_1_1_selector_3_01_t_01extends_01_chromosome_01_4_1_1_statistics_ab1db0e72568009d65141927f039ffe84}{\index{jenes\-::stage\-::operator\-::\-Selector$<$ T extends Chromosome $>$\-::\-Statistics@{jenes\-::stage\-::operator\-::\-Selector$<$ T extends Chromosome $>$\-::\-Statistics}!fill@{fill}}
+\index{fill@{fill}!jenes::stage::operator::Selector< T extends Chromosome >::Statistics@{jenes\-::stage\-::operator\-::\-Selector$<$ T extends Chromosome $>$\-::\-Statistics}}
+\subsubsection[{fill}]{\setlength{\rightskip}{0pt plus 5cm}void jenes.\-stage.\-operator.\-Selector$<$ T extends Chromosome $>$.Statistics.\-fill (
+\begin{DoxyParamCaption}
+\item[{Operator$<$ T $>$.Statistics}]{stats}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [protected]}}}\label{classjenes_1_1stage_1_1operator_1_1_selector_3_01_t_01extends_01_chromosome_01_4_1_1_statistics_ab1db0e72568009d65141927f039ffe84}
+\hypertarget{classjenes_1_1stage_1_1operator_1_1_selector_3_01_t_01extends_01_chromosome_01_4_1_1_statistics_a0145f6cec84ff007289d206f579a117a}{\index{jenes\-::stage\-::operator\-::\-Selector$<$ T extends Chromosome $>$\-::\-Statistics@{jenes\-::stage\-::operator\-::\-Selector$<$ T extends Chromosome $>$\-::\-Statistics}!get\-Selections@{get\-Selections}}
+\index{get\-Selections@{get\-Selections}!jenes::stage::operator::Selector< T extends Chromosome >::Statistics@{jenes\-::stage\-::operator\-::\-Selector$<$ T extends Chromosome $>$\-::\-Statistics}}
+\subsubsection[{get\-Selections}]{\setlength{\rightskip}{0pt plus 5cm}long jenes.\-stage.\-operator.\-Selector$<$ T extends Chromosome $>$.Statistics.\-get\-Selections (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classjenes_1_1stage_1_1operator_1_1_selector_3_01_t_01extends_01_chromosome_01_4_1_1_statistics_a0145f6cec84ff007289d206f579a117a}
+Returns the number of selection\-Rate performed.
+
+\begin{DoxyReturn}{Returns}
+the number of selection\-Rate performed. 
+\end{DoxyReturn}
+
+
+\subsection{Member Data Documentation}
+\hypertarget{classjenes_1_1stage_1_1operator_1_1_selector_3_01_t_01extends_01_chromosome_01_4_1_1_statistics_a8308f3f0177bfe79fcbf46bd4ac93cc4}{\index{jenes\-::stage\-::operator\-::\-Selector$<$ T extends Chromosome $>$\-::\-Statistics@{jenes\-::stage\-::operator\-::\-Selector$<$ T extends Chromosome $>$\-::\-Statistics}!selections@{selections}}
+\index{selections@{selections}!jenes::stage::operator::Selector< T extends Chromosome >::Statistics@{jenes\-::stage\-::operator\-::\-Selector$<$ T extends Chromosome $>$\-::\-Statistics}}
+\subsubsection[{selections}]{\setlength{\rightskip}{0pt plus 5cm}long jenes.\-stage.\-operator.\-Selector$<$ T extends Chromosome $>$.Statistics.\-selections\hspace{0.3cm}{\ttfamily [protected]}}}\label{classjenes_1_1stage_1_1operator_1_1_selector_3_01_t_01extends_01_chromosome_01_4_1_1_statistics_a8308f3f0177bfe79fcbf46bd4ac93cc4}
+Number of selection\-Rate performed. 
+
+The documentation for this class was generated from the following file\-:\begin{DoxyCompactItemize}
+\item 
+src/jenes/stage/operator/\hyperlink{_selector_8java}{Selector.\-java}\end{DoxyCompactItemize}

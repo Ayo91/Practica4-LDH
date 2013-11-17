@@ -1,0 +1,110 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="classjenes_1_1tutorials_1_1old_1_1problem2_1_1_simple_dispenser_3_01_t_01extends_01_chromosome_01_4" kind="class" prot="public">
+    <compoundname>jenes::tutorials::old::problem2::SimpleDispenser&lt; T extends Chromosome &gt;</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">jenes::stage::ExclusiveDispenser&lt; T &gt;</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classjenes_1_1tutorials_1_1old_1_1problem2_1_1_simple_dispenser_3_01_t_01extends_01_chromosome_01_4_1a5182803fa079af07b76c2e69f6af1cd6" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int jenes.tutorials.old.problem2.SimpleDispenser&lt; T extends Chromosome &gt;.count</definition>
+        <argsstring></argsstring>
+        <name>count</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/old/problem2/SimpleDispenser.java" line="43" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/old/problem2/SimpleDispenser.java" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classjenes_1_1tutorials_1_1old_1_1problem2_1_1_simple_dispenser_3_01_t_01extends_01_chromosome_01_4_1ad9405ac409bd21e83c50f78472835da7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>jenes.tutorials.old.problem2.SimpleDispenser&lt; T extends Chromosome &gt;.SimpleDispenser</definition>
+        <argsstring>(int span)</argsstring>
+        <name>SimpleDispenser</name>
+        <param>
+          <type>int</type>
+          <declname>span</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/old/problem2/SimpleDispenser.java" line="45" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/old/problem2/SimpleDispenser.java" bodystart="45" bodyend="47"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1tutorials_1_1old_1_1problem2_1_1_simple_dispenser_3_01_t_01extends_01_chromosome_01_4_1a428636fd68143e1c24ea22bf626c290b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void jenes.tutorials.old.problem2.SimpleDispenser&lt; T extends Chromosome &gt;.preDistribute</definition>
+        <argsstring>(Population&lt; T &gt; population)</argsstring>
+        <name>preDistribute</name>
+        <param>
+          <type>Population&lt; T &gt;</type>
+          <declname>population</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/old/problem2/SimpleDispenser.java" line="49" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/old/problem2/SimpleDispenser.java" bodystart="49" bodyend="51"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1tutorials_1_1old_1_1problem2_1_1_simple_dispenser_3_01_t_01extends_01_chromosome_01_4_1a593230e918223c099f243524d3496783" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int jenes.tutorials.old.problem2.SimpleDispenser&lt; T extends Chromosome &gt;.distribute</definition>
+        <argsstring>(Individual&lt; T &gt; ind)</argsstring>
+        <name>distribute</name>
+        <param>
+          <type>Individual&lt; T &gt;</type>
+          <declname>ind</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/old/problem2/SimpleDispenser.java" line="54" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/old/problem2/SimpleDispenser.java" bodystart="54" bodyend="56"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Tutorial showing how to extend <computeroutput>GeneticAlgorithm</computeroutput> and how to use the flexible and configurable breeding structure in Jenes. The problem consists in searching a pattern of integers with a given precision. Solutions flow through two different crossovers in parallel. Some are processed by a single point crossover, the other by a double point crossover. After solutions are mutated.</para><para>This class implements the strategy for dispensing solutions in the two branches. Odd solutions goes to the first, even to the second.</para><para><simplesect kind="version"><para>1.0</para></simplesect>
+<simplesect kind="since"><para>1.0 </para></simplesect>
+</para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="603">
+        <label>jenes.tutorials.old.problem2.SimpleDispenser&lt; T extends Chromosome &gt;</label>
+        <link refid="classjenes_1_1tutorials_1_1old_1_1problem2_1_1_simple_dispenser_3_01_t_01extends_01_chromosome_01_4"/>
+        <childnode refid="604" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="604">
+        <label>jenes::stage::ExclusiveDispenser&lt; T &gt;</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="605">
+        <label>jenes.tutorials.old.problem2.SimpleDispenser&lt; T extends Chromosome &gt;</label>
+        <link refid="classjenes_1_1tutorials_1_1old_1_1problem2_1_1_simple_dispenser_3_01_t_01extends_01_chromosome_01_4"/>
+        <childnode refid="606" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="606">
+        <label>jenes::stage::ExclusiveDispenser&lt; T &gt;</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/old/problem2/SimpleDispenser.java" line="41" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/old/problem2/SimpleDispenser.java" bodystart="41" bodyend="58"/>
+    <listofallmembers>
+      <member refid="classjenes_1_1tutorials_1_1old_1_1problem2_1_1_simple_dispenser_3_01_t_01extends_01_chromosome_01_4_1a5182803fa079af07b76c2e69f6af1cd6" prot="private" virt="non-virtual"><scope>jenes::tutorials::old::problem2::SimpleDispenser&lt; T extends Chromosome &gt;</scope><name>count</name></member>
+      <member refid="classjenes_1_1tutorials_1_1old_1_1problem2_1_1_simple_dispenser_3_01_t_01extends_01_chromosome_01_4_1a593230e918223c099f243524d3496783" prot="public" virt="non-virtual"><scope>jenes::tutorials::old::problem2::SimpleDispenser&lt; T extends Chromosome &gt;</scope><name>distribute</name></member>
+      <member refid="classjenes_1_1tutorials_1_1old_1_1problem2_1_1_simple_dispenser_3_01_t_01extends_01_chromosome_01_4_1a428636fd68143e1c24ea22bf626c290b" prot="public" virt="non-virtual"><scope>jenes::tutorials::old::problem2::SimpleDispenser&lt; T extends Chromosome &gt;</scope><name>preDistribute</name></member>
+      <member refid="classjenes_1_1tutorials_1_1old_1_1problem2_1_1_simple_dispenser_3_01_t_01extends_01_chromosome_01_4_1ad9405ac409bd21e83c50f78472835da7" prot="public" virt="non-virtual"><scope>jenes::tutorials::old::problem2::SimpleDispenser&lt; T extends Chromosome &gt;</scope><name>SimpleDispenser</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

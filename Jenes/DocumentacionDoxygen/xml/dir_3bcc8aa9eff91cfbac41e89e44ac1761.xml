@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="dir_3bcc8aa9eff91cfbac41e89e44ac1761" kind="dir">
+    <compoundname>src/jenes/tutorials/problem7</compoundname>
+    <innerfile refid="problem7_2_knapsack_logged_problem_8java">KnapsackLoggedProblem.java</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/problem7/"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,403 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="classjenes_1_1stage_1_1operator_1_1common_1_1_deterministic_crowder_3_01_t_01extends_01_chromosome_01_4" kind="class" prot="public">
+    <compoundname>jenes::stage::operator::common::DeterministicCrowder&lt; T extends Chromosome &gt;</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">jenes::stage::operator::Crowder&lt; T &gt;</basecompoundref>
+    <innerclass refid="enumjenes_1_1stage_1_1operator_1_1common_1_1_deterministic_crowder_3_01_t_01extends_01_chromosome_01_4_1_1_crossover_method" prot="public">jenes::stage::operator::common::DeterministicCrowder&lt; T extends Chromosome &gt;::CrossoverMethod</innerclass>
+    <innerclass refid="enumjenes_1_1stage_1_1operator_1_1common_1_1_deterministic_crowder_3_01_t_01extends_01_chromosome_01_4_1_1_mutation_method" prot="public">jenes::stage::operator::common::DeterministicCrowder&lt; T extends Chromosome &gt;::MutationMethod</innerclass>
+    <innerclass refid="enumjenes_1_1stage_1_1operator_1_1common_1_1_deterministic_crowder_3_01_t_01extends_01_chromosome_01_4_1_1_selection_method" prot="public">jenes::stage::operator::common::DeterministicCrowder&lt; T extends Chromosome &gt;::SelectionMethod</innerclass>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classjenes_1_1stage_1_1operator_1_1common_1_1_deterministic_crowder_3_01_t_01extends_01_chromosome_01_4_1a5ca3f3abce0f3163383ed9158b154289" prot="public" static="yes" mutable="no">
+        <type>final SelectionMethod</type>
+        <definition>final SelectionMethod jenes.stage.operator.common.DeterministicCrowder&lt; T extends Chromosome &gt;.DEFAULT_SELECTION_METHOD</definition>
+        <argsstring></argsstring>
+        <name>DEFAULT_SELECTION_METHOD</name>
+        <initializer>= <ref refid="enumjenes_1_1stage_1_1operator_1_1common_1_1_deterministic_crowder_3_01_t_01extends_01_chromosome_01_4_1_1_selection_method_1acf3d13065b946fb2e0e86d3cf8ca49fd" kindref="member">SelectionMethod.TOURNAMENT</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The default selection method </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/operator/common/DeterministicCrowder.java" line="54" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/operator/common/DeterministicCrowder.java" bodystart="54" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classjenes_1_1stage_1_1operator_1_1common_1_1_deterministic_crowder_3_01_t_01extends_01_chromosome_01_4_1aa09cba6e344d7681789f11213d6cccd0" prot="public" static="yes" mutable="no">
+        <type>final CrossoverMethod</type>
+        <definition>final CrossoverMethod jenes.stage.operator.common.DeterministicCrowder&lt; T extends Chromosome &gt;.DEFAULT_CROSSOVER_METHOD</definition>
+        <argsstring></argsstring>
+        <name>DEFAULT_CROSSOVER_METHOD</name>
+        <initializer>= <ref refid="enumjenes_1_1stage_1_1operator_1_1common_1_1_deterministic_crowder_3_01_t_01extends_01_chromosome_01_4_1_1_crossover_method_1a074512cc7f136f107813809e5422d0d5" kindref="member">CrossoverMethod.SINGLEPOINT</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The default crossover method </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/operator/common/DeterministicCrowder.java" line="57" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/operator/common/DeterministicCrowder.java" bodystart="57" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classjenes_1_1stage_1_1operator_1_1common_1_1_deterministic_crowder_3_01_t_01extends_01_chromosome_01_4_1a824ea51baffd4e4b2fb045d38b964321" prot="public" static="yes" mutable="no">
+        <type>final double</type>
+        <definition>final double jenes.stage.operator.common.DeterministicCrowder&lt; T extends Chromosome &gt;.DEFAULT_CROSSOVER_PROBABILITY</definition>
+        <argsstring></argsstring>
+        <name>DEFAULT_CROSSOVER_PROBABILITY</name>
+        <initializer>= 0.8</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The default crossover probability </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/operator/common/DeterministicCrowder.java" line="60" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/operator/common/DeterministicCrowder.java" bodystart="60" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classjenes_1_1stage_1_1operator_1_1common_1_1_deterministic_crowder_3_01_t_01extends_01_chromosome_01_4_1a5a4e77ddc158a661371ea5934cce2977" prot="public" static="yes" mutable="no">
+        <type>final double</type>
+        <definition>final double jenes.stage.operator.common.DeterministicCrowder&lt; T extends Chromosome &gt;.DEFAULT_MUTATION_PROBABILITY</definition>
+        <argsstring></argsstring>
+        <name>DEFAULT_MUTATION_PROBABILITY</name>
+        <initializer>= 0.0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The default mutation probability </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/operator/common/DeterministicCrowder.java" line="63" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/operator/common/DeterministicCrowder.java" bodystart="63" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classjenes_1_1stage_1_1operator_1_1common_1_1_deterministic_crowder_3_01_t_01extends_01_chromosome_01_4_1a741955421216546663d52fd901c75649" prot="private" static="no" mutable="no">
+        <type>Selector&lt; T &gt;</type>
+        <definition>Selector&lt;T&gt; jenes.stage.operator.common.DeterministicCrowder&lt; T extends Chromosome &gt;.selector</definition>
+        <argsstring></argsstring>
+        <name>selector</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Selector </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/operator/common/DeterministicCrowder.java" line="66" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/operator/common/DeterministicCrowder.java" bodystart="66" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classjenes_1_1stage_1_1operator_1_1common_1_1_deterministic_crowder_3_01_t_01extends_01_chromosome_01_4_1a992be483e017714e73cfb444385b637c" prot="private" static="no" mutable="no">
+        <type>Crossover&lt; T &gt;</type>
+        <definition>Crossover&lt;T&gt; jenes.stage.operator.common.DeterministicCrowder&lt; T extends Chromosome &gt;.crossover</definition>
+        <argsstring></argsstring>
+        <name>crossover</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Crossover </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/operator/common/DeterministicCrowder.java" line="68" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/operator/common/DeterministicCrowder.java" bodystart="68" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classjenes_1_1stage_1_1operator_1_1common_1_1_deterministic_crowder_3_01_t_01extends_01_chromosome_01_4_1ad52c0d6a4bc032c8c198bf05cc3acf6f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>jenes.stage.operator.common.DeterministicCrowder&lt; T extends Chromosome &gt;.DeterministicCrowder</definition>
+        <argsstring>()</argsstring>
+        <name>DeterministicCrowder</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Creates a DeterministicCrowder with default options. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/operator/common/DeterministicCrowder.java" line="73" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/operator/common/DeterministicCrowder.java" bodystart="73" bodyend="75"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1stage_1_1operator_1_1common_1_1_deterministic_crowder_3_01_t_01extends_01_chromosome_01_4_1ae974a4b359a9a467dfa434dd47a27cf7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>jenes.stage.operator.common.DeterministicCrowder&lt; T extends Chromosome &gt;.DeterministicCrowder</definition>
+        <argsstring>(final SelectionMethod selmethod, final CrossoverMethod crossmethod)</argsstring>
+        <name>DeterministicCrowder</name>
+        <param>
+          <type>final SelectionMethod</type>
+          <declname>selmethod</declname>
+        </param>
+        <param>
+          <type>final CrossoverMethod</type>
+          <declname>crossmethod</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/operator/common/DeterministicCrowder.java" line="78" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/operator/common/DeterministicCrowder.java" bodystart="78" bodyend="80"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1stage_1_1operator_1_1common_1_1_deterministic_crowder_3_01_t_01extends_01_chromosome_01_4_1aa59e2a1dcdb2cd6cc7a70e344a77dd31" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>jenes.stage.operator.common.DeterministicCrowder&lt; T extends Chromosome &gt;.DeterministicCrowder</definition>
+        <argsstring>(final SelectionMethod selmethod, final CrossoverMethod crossmethod, final double cp, final double mp)</argsstring>
+        <name>DeterministicCrowder</name>
+        <param>
+          <type>final SelectionMethod</type>
+          <declname>selmethod</declname>
+        </param>
+        <param>
+          <type>final CrossoverMethod</type>
+          <declname>crossmethod</declname>
+        </param>
+        <param>
+          <type>final double</type>
+          <declname>cp</declname>
+        </param>
+        <param>
+          <type>final double</type>
+          <declname>mp</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Creates a DeterministicCrowder</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>selmethod</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>selection method </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>crossmethod</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>crossover method </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>cp</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>croosover probability </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>mp</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>mutation probability </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/operator/common/DeterministicCrowder.java" line="90" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/operator/common/DeterministicCrowder.java" bodystart="90" bodyend="111"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1stage_1_1operator_1_1common_1_1_deterministic_crowder_3_01_t_01extends_01_chromosome_01_4_1ad7eed64a7fe60239ba3289ebf6003e8c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>jenes.stage.operator.common.DeterministicCrowder&lt; T extends Chromosome &gt;.DeterministicCrowder</definition>
+        <argsstring>(final Selector&lt; T &gt; selector, final Crossover&lt; T &gt; crossover)</argsstring>
+        <name>DeterministicCrowder</name>
+        <param>
+          <type>final Selector&lt; T &gt;</type>
+          <declname>selector</declname>
+        </param>
+        <param>
+          <type>final Crossover&lt; T &gt;</type>
+          <declname>crossover</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Creates DeterministicCrowder providing selector and crossover operator</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>selector</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>selection operator </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>crossover</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>crossover operator </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/operator/common/DeterministicCrowder.java" line="119" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/operator/common/DeterministicCrowder.java" bodystart="119" bodyend="121"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1stage_1_1operator_1_1common_1_1_deterministic_crowder_3_01_t_01extends_01_chromosome_01_4_1a6359043178a5e4d8922485528acbbcec" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>jenes.stage.operator.common.DeterministicCrowder&lt; T extends Chromosome &gt;.DeterministicCrowder</definition>
+        <argsstring>(final Selector&lt; T &gt; selector, final Crossover&lt; T &gt; crossover, final Mutator&lt; T &gt; mutator)</argsstring>
+        <name>DeterministicCrowder</name>
+        <param>
+          <type>final Selector&lt; T &gt;</type>
+          <declname>selector</declname>
+        </param>
+        <param>
+          <type>final Crossover&lt; T &gt;</type>
+          <declname>crossover</declname>
+        </param>
+        <param>
+          <type>final Mutator&lt; T &gt;</type>
+          <declname>mutator</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Creates DeterministicCrowder providing selector, crossover and mutator operators</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>selector</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>selection operator </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>crossover</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>crossover operator </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>mutator</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>mutation operator </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/operator/common/DeterministicCrowder.java" line="130" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/operator/common/DeterministicCrowder.java" bodystart="130" bodyend="140"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1stage_1_1operator_1_1common_1_1_deterministic_crowder_3_01_t_01extends_01_chromosome_01_4_1af7b258f528b701713808c16bca29ca66" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void jenes.stage.operator.common.DeterministicCrowder&lt; T extends Chromosome &gt;.setBiggerIsBetter</definition>
+        <argsstring>(boolean flag, boolean recursively)</argsstring>
+        <name>setBiggerIsBetter</name>
+        <param>
+          <type>boolean</type>
+          <declname>flag</declname>
+        </param>
+        <param>
+          <type>boolean</type>
+          <declname>recursively</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/operator/common/DeterministicCrowder.java" line="201" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/operator/common/DeterministicCrowder.java" bodystart="201" bodyend="204"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classjenes_1_1stage_1_1operator_1_1common_1_1_deterministic_crowder_3_01_t_01extends_01_chromosome_01_4_1aee04796d9d0ad969443b30cc88a1b964" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void jenes.stage.operator.common.DeterministicCrowder&lt; T extends Chromosome &gt;.preselect</definition>
+        <argsstring>(Population&lt; T &gt; in, Population&lt; T &gt; out)</argsstring>
+        <name>preselect</name>
+        <param>
+          <type>Population&lt; T &gt;</type>
+          <declname>in</declname>
+        </param>
+        <param>
+          <type>Population&lt; T &gt;</type>
+          <declname>out</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/operator/common/DeterministicCrowder.java" line="143" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/operator/common/DeterministicCrowder.java" bodystart="143" bodyend="146"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1stage_1_1operator_1_1common_1_1_deterministic_crowder_3_01_t_01extends_01_chromosome_01_4_1a8d9591e3962f36f1f2f59be9395806b4" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void jenes.stage.operator.common.DeterministicCrowder&lt; T extends Chromosome &gt;.replace</definition>
+        <argsstring>(Population&lt; T &gt; initial, Population&lt; T &gt; preselected, Population&lt; T &gt; evolved, Population&lt; T &gt; out)</argsstring>
+        <name>replace</name>
+        <param>
+          <type>Population&lt; T &gt;</type>
+          <declname>initial</declname>
+        </param>
+        <param>
+          <type>Population&lt; T &gt;</type>
+          <declname>preselected</declname>
+        </param>
+        <param>
+          <type>Population&lt; T &gt;</type>
+          <declname>evolved</declname>
+        </param>
+        <param>
+          <type>Population&lt; T &gt;</type>
+          <declname>out</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/operator/common/DeterministicCrowder.java" line="149" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/operator/common/DeterministicCrowder.java" bodystart="149" bodyend="197"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>This class implements the deterministic crowding.</para><para><simplesect kind="version"><para>2.0 </para></simplesect>
+<simplesect kind="since"><para>2.0 </para></simplesect>
+</para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="114">
+        <label>jenes.stage.operator.common.DeterministicCrowder&lt; T extends Chromosome &gt;</label>
+        <link refid="classjenes_1_1stage_1_1operator_1_1common_1_1_deterministic_crowder_3_01_t_01extends_01_chromosome_01_4"/>
+        <childnode refid="115" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="115">
+        <label>jenes::stage::operator::Crowder&lt; T &gt;</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="119">
+        <label>Selector&lt; T &gt;</label>
+      </node>
+      <node id="118">
+        <label>Crossover&lt; T &gt;</label>
+      </node>
+      <node id="116">
+        <label>jenes.stage.operator.common.DeterministicCrowder&lt; T extends Chromosome &gt;</label>
+        <link refid="classjenes_1_1stage_1_1operator_1_1common_1_1_deterministic_crowder_3_01_t_01extends_01_chromosome_01_4"/>
+        <childnode refid="117" relation="public-inheritance">
+        </childnode>
+        <childnode refid="118" relation="usage">
+          <edgelabel>crossover</edgelabel>
+        </childnode>
+        <childnode refid="119" relation="usage">
+          <edgelabel>selector</edgelabel>
+        </childnode>
+      </node>
+      <node id="117">
+        <label>jenes::stage::operator::Crowder&lt; T &gt;</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/operator/common/DeterministicCrowder.java" line="36" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/operator/common/DeterministicCrowder.java" bodystart="36" bodyend="206"/>
+    <listofallmembers>
+      <member refid="classjenes_1_1stage_1_1operator_1_1common_1_1_deterministic_crowder_3_01_t_01extends_01_chromosome_01_4_1a992be483e017714e73cfb444385b637c" prot="private" virt="non-virtual"><scope>jenes::stage::operator::common::DeterministicCrowder&lt; T extends Chromosome &gt;</scope><name>crossover</name></member>
+      <member refid="classjenes_1_1stage_1_1operator_1_1common_1_1_deterministic_crowder_3_01_t_01extends_01_chromosome_01_4_1aa09cba6e344d7681789f11213d6cccd0" prot="public" virt="non-virtual"><scope>jenes::stage::operator::common::DeterministicCrowder&lt; T extends Chromosome &gt;</scope><name>DEFAULT_CROSSOVER_METHOD</name></member>
+      <member refid="classjenes_1_1stage_1_1operator_1_1common_1_1_deterministic_crowder_3_01_t_01extends_01_chromosome_01_4_1a824ea51baffd4e4b2fb045d38b964321" prot="public" virt="non-virtual"><scope>jenes::stage::operator::common::DeterministicCrowder&lt; T extends Chromosome &gt;</scope><name>DEFAULT_CROSSOVER_PROBABILITY</name></member>
+      <member refid="classjenes_1_1stage_1_1operator_1_1common_1_1_deterministic_crowder_3_01_t_01extends_01_chromosome_01_4_1a5a4e77ddc158a661371ea5934cce2977" prot="public" virt="non-virtual"><scope>jenes::stage::operator::common::DeterministicCrowder&lt; T extends Chromosome &gt;</scope><name>DEFAULT_MUTATION_PROBABILITY</name></member>
+      <member refid="classjenes_1_1stage_1_1operator_1_1common_1_1_deterministic_crowder_3_01_t_01extends_01_chromosome_01_4_1a5ca3f3abce0f3163383ed9158b154289" prot="public" virt="non-virtual"><scope>jenes::stage::operator::common::DeterministicCrowder&lt; T extends Chromosome &gt;</scope><name>DEFAULT_SELECTION_METHOD</name></member>
+      <member refid="classjenes_1_1stage_1_1operator_1_1common_1_1_deterministic_crowder_3_01_t_01extends_01_chromosome_01_4_1ad52c0d6a4bc032c8c198bf05cc3acf6f" prot="public" virt="non-virtual"><scope>jenes::stage::operator::common::DeterministicCrowder&lt; T extends Chromosome &gt;</scope><name>DeterministicCrowder</name></member>
+      <member refid="classjenes_1_1stage_1_1operator_1_1common_1_1_deterministic_crowder_3_01_t_01extends_01_chromosome_01_4_1ae974a4b359a9a467dfa434dd47a27cf7" prot="public" virt="non-virtual"><scope>jenes::stage::operator::common::DeterministicCrowder&lt; T extends Chromosome &gt;</scope><name>DeterministicCrowder</name></member>
+      <member refid="classjenes_1_1stage_1_1operator_1_1common_1_1_deterministic_crowder_3_01_t_01extends_01_chromosome_01_4_1aa59e2a1dcdb2cd6cc7a70e344a77dd31" prot="public" virt="non-virtual"><scope>jenes::stage::operator::common::DeterministicCrowder&lt; T extends Chromosome &gt;</scope><name>DeterministicCrowder</name></member>
+      <member refid="classjenes_1_1stage_1_1operator_1_1common_1_1_deterministic_crowder_3_01_t_01extends_01_chromosome_01_4_1ad7eed64a7fe60239ba3289ebf6003e8c" prot="public" virt="non-virtual"><scope>jenes::stage::operator::common::DeterministicCrowder&lt; T extends Chromosome &gt;</scope><name>DeterministicCrowder</name></member>
+      <member refid="classjenes_1_1stage_1_1operator_1_1common_1_1_deterministic_crowder_3_01_t_01extends_01_chromosome_01_4_1a6359043178a5e4d8922485528acbbcec" prot="public" virt="non-virtual"><scope>jenes::stage::operator::common::DeterministicCrowder&lt; T extends Chromosome &gt;</scope><name>DeterministicCrowder</name></member>
+      <member refid="classjenes_1_1stage_1_1operator_1_1common_1_1_deterministic_crowder_3_01_t_01extends_01_chromosome_01_4_1aee04796d9d0ad969443b30cc88a1b964" prot="protected" virt="non-virtual"><scope>jenes::stage::operator::common::DeterministicCrowder&lt; T extends Chromosome &gt;</scope><name>preselect</name></member>
+      <member refid="classjenes_1_1stage_1_1operator_1_1common_1_1_deterministic_crowder_3_01_t_01extends_01_chromosome_01_4_1a8d9591e3962f36f1f2f59be9395806b4" prot="protected" virt="non-virtual"><scope>jenes::stage::operator::common::DeterministicCrowder&lt; T extends Chromosome &gt;</scope><name>replace</name></member>
+      <member refid="classjenes_1_1stage_1_1operator_1_1common_1_1_deterministic_crowder_3_01_t_01extends_01_chromosome_01_4_1a741955421216546663d52fd901c75649" prot="private" virt="non-virtual"><scope>jenes::stage::operator::common::DeterministicCrowder&lt; T extends Chromosome &gt;</scope><name>selector</name></member>
+      <member refid="classjenes_1_1stage_1_1operator_1_1common_1_1_deterministic_crowder_3_01_t_01extends_01_chromosome_01_4_1af7b258f528b701713808c16bca29ca66" prot="public" virt="non-virtual"><scope>jenes::stage::operator::common::DeterministicCrowder&lt; T extends Chromosome &gt;</scope><name>setBiggerIsBetter</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

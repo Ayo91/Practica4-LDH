@@ -1,0 +1,131 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="classjenes_1_1tutorials_1_1problem12_1_1_multi_objective_problem_1_1_problem_fitness" kind="class" prot="public">
+    <compoundname>jenes::tutorials::problem12::MultiObjectiveProblem::ProblemFitness</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">jenes::population::Fitness&lt; BitwiseChromosome &gt;</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classjenes_1_1tutorials_1_1problem12_1_1_multi_objective_problem_1_1_problem_fitness_1ab11c6567564d48f09f3d3c660d1ad6fa" prot="private" static="no" mutable="no">
+        <type>double[]</type>
+        <definition>double [] jenes.tutorials.problem12.MultiObjectiveProblem.ProblemFitness.x</definition>
+        <argsstring></argsstring>
+        <name>x</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/problem12/MultiObjectiveProblem.java" line="175" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/problem12/MultiObjectiveProblem.java" bodystart="175" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classjenes_1_1tutorials_1_1problem12_1_1_multi_objective_problem_1_1_problem_fitness_1ad8bff7799f57db81574946eb94ea9a90" prot="private" static="no" mutable="no">
+        <type><ref refid="classjenes_1_1tutorials_1_1problem12_1_1_multi_objective_problem_1_1_function" kindref="compound">Function</ref></type>
+        <definition>Function jenes.tutorials.problem12.MultiObjectiveProblem.ProblemFitness.f</definition>
+        <argsstring></argsstring>
+        <name>f</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/problem12/MultiObjectiveProblem.java" line="176" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/problem12/MultiObjectiveProblem.java" bodystart="176" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classjenes_1_1tutorials_1_1problem12_1_1_multi_objective_problem_1_1_problem_fitness_1a068552989c9e8129de22f836c6eca975" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>jenes.tutorials.problem12.MultiObjectiveProblem.ProblemFitness.ProblemFitness</definition>
+        <argsstring>(Function f, int nvars)</argsstring>
+        <name>ProblemFitness</name>
+        <param>
+          <type><ref refid="classjenes_1_1tutorials_1_1problem12_1_1_multi_objective_problem_1_1_function" kindref="compound">Function</ref></type>
+          <declname>f</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>nvars</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/problem12/MultiObjectiveProblem.java" line="178" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/problem12/MultiObjectiveProblem.java" bodystart="178" bodyend="182"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1tutorials_1_1problem12_1_1_multi_objective_problem_1_1_problem_fitness_1ac44148dc48a9c5389dd4494f86b45580" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void jenes.tutorials.problem12.MultiObjectiveProblem.ProblemFitness.evaluate</definition>
+        <argsstring>(Individual&lt; BitwiseChromosome &gt; individual)</argsstring>
+        <name>evaluate</name>
+        <param>
+          <type>Individual&lt; <ref refid="classjenes_1_1chromosome_1_1_bitwise_chromosome" kindref="compound">BitwiseChromosome</ref> &gt;</type>
+          <declname>individual</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/problem12/MultiObjectiveProblem.java" line="185" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/problem12/MultiObjectiveProblem.java" bodystart="185" bodyend="192"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classjenes_1_1tutorials_1_1problem12_1_1_multi_objective_problem_1_1_problem_fitness_1aa6d59fefc5d3beec2f4808adeeee225b" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classjenes_1_1tutorials_1_1problem12_1_1_multi_objective_problem_1_1_problem_fitness" kindref="compound">ProblemFitness</ref></type>
+        <definition>ProblemFitness jenes.tutorials.problem12.MultiObjectiveProblem.ProblemFitness.duplicate</definition>
+        <argsstring>()</argsstring>
+        <name>duplicate</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/problem12/MultiObjectiveProblem.java" line="195" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/problem12/MultiObjectiveProblem.java" bodystart="195" bodyend="200"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="523">
+        <label>jenes.tutorials.problem12.MultiObjectiveProblem.ProblemFitness</label>
+        <link refid="classjenes_1_1tutorials_1_1problem12_1_1_multi_objective_problem_1_1_problem_fitness"/>
+        <childnode refid="524" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="524">
+        <label>jenes::population::Fitness&lt; BitwiseChromosome &gt;</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="527">
+        <label>jenes.tutorials.problem12.MultiObjectiveProblem.Function</label>
+        <link refid="classjenes_1_1tutorials_1_1problem12_1_1_multi_objective_problem_1_1_function"/>
+      </node>
+      <node id="525">
+        <label>jenes.tutorials.problem12.MultiObjectiveProblem.ProblemFitness</label>
+        <link refid="classjenes_1_1tutorials_1_1problem12_1_1_multi_objective_problem_1_1_problem_fitness"/>
+        <childnode refid="526" relation="public-inheritance">
+        </childnode>
+        <childnode refid="527" relation="usage">
+          <edgelabel>f</edgelabel>
+        </childnode>
+      </node>
+      <node id="526">
+        <label>jenes::population::Fitness&lt; BitwiseChromosome &gt;</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/problem12/MultiObjectiveProblem.java" line="173" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/problem12/MultiObjectiveProblem.java" bodystart="173" bodyend="202"/>
+    <listofallmembers>
+      <member refid="classjenes_1_1tutorials_1_1problem12_1_1_multi_objective_problem_1_1_problem_fitness_1aa6d59fefc5d3beec2f4808adeeee225b" prot="protected" virt="non-virtual"><scope>jenes::tutorials::problem12::MultiObjectiveProblem::ProblemFitness</scope><name>duplicate</name></member>
+      <member refid="classjenes_1_1tutorials_1_1problem12_1_1_multi_objective_problem_1_1_problem_fitness_1ac44148dc48a9c5389dd4494f86b45580" prot="public" virt="non-virtual"><scope>jenes::tutorials::problem12::MultiObjectiveProblem::ProblemFitness</scope><name>evaluate</name></member>
+      <member refid="classjenes_1_1tutorials_1_1problem12_1_1_multi_objective_problem_1_1_problem_fitness_1ad8bff7799f57db81574946eb94ea9a90" prot="private" virt="non-virtual"><scope>jenes::tutorials::problem12::MultiObjectiveProblem::ProblemFitness</scope><name>f</name></member>
+      <member refid="classjenes_1_1tutorials_1_1problem12_1_1_multi_objective_problem_1_1_problem_fitness_1a068552989c9e8129de22f836c6eca975" prot="public" virt="non-virtual"><scope>jenes::tutorials::problem12::MultiObjectiveProblem::ProblemFitness</scope><name>ProblemFitness</name></member>
+      <member refid="classjenes_1_1tutorials_1_1problem12_1_1_multi_objective_problem_1_1_problem_fitness_1ab11c6567564d48f09f3d3c660d1ad6fa" prot="private" virt="non-virtual"><scope>jenes::tutorials::problem12::MultiObjectiveProblem::ProblemFitness</scope><name>x</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

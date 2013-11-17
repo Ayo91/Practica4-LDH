@@ -1,0 +1,194 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="classjenes_1_1tutorials_1_1old_1_1problem12_1_1_multi_objective_problem" kind="class" prot="public">
+    <compoundname>jenes::tutorials::old::problem12::MultiObjectiveProblem</compoundname>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="classjenes_1_1tutorials_1_1old_1_1problem12_1_1_multi_objective_problem_1a99a8a3d61d1075675f78916b3854d812" prot="private" static="yes" mutable="no">
+        <type>final int</type>
+        <definition>final int jenes.tutorials.old.problem12.MultiObjectiveProblem.POPULATION_SIZE</definition>
+        <argsstring></argsstring>
+        <name>POPULATION_SIZE</name>
+        <initializer>= 20</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/old/problem12/MultiObjectiveProblem.java" line="44" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/old/problem12/MultiObjectiveProblem.java" bodystart="44" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classjenes_1_1tutorials_1_1old_1_1problem12_1_1_multi_objective_problem_1a75371890b1a3cad7c72464217e1d40bf" prot="private" static="yes" mutable="no">
+        <type>final int</type>
+        <definition>final int jenes.tutorials.old.problem12.MultiObjectiveProblem.GENERATION_LIMIT</definition>
+        <argsstring></argsstring>
+        <name>GENERATION_LIMIT</name>
+        <initializer>= 100</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/old/problem12/MultiObjectiveProblem.java" line="45" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/old/problem12/MultiObjectiveProblem.java" bodystart="45" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classjenes_1_1tutorials_1_1old_1_1problem12_1_1_multi_objective_problem_1afb98f6a8f4a49545e794e12bc068f0d2" prot="private" static="yes" mutable="no">
+        <type>final BitCoding&lt; Integer &gt;</type>
+        <definition>final BitCoding&lt;Integer&gt; jenes.tutorials.old.problem12.MultiObjectiveProblem.CODING</definition>
+        <argsstring></argsstring>
+        <name>CODING</name>
+        <initializer>= new <ref refid="classjenes_1_1chromosome_1_1codings_1_1_word_coding" kindref="compound">WordCoding</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/old/problem12/MultiObjectiveProblem.java" line="46" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/old/problem12/MultiObjectiveProblem.java" bodystart="46" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classjenes_1_1tutorials_1_1old_1_1problem12_1_1_multi_objective_problem_1adf65303714e6888c5b091e3a184dfbc1" prot="private" static="yes" mutable="no">
+        <type>final double</type>
+        <definition>final double jenes.tutorials.old.problem12.MultiObjectiveProblem.CROSSOVER</definition>
+        <argsstring></argsstring>
+        <name>CROSSOVER</name>
+        <initializer>= 1.0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/old/problem12/MultiObjectiveProblem.java" line="47" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/old/problem12/MultiObjectiveProblem.java" bodystart="47" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classjenes_1_1tutorials_1_1old_1_1problem12_1_1_multi_objective_problem_1a99745284ba05404863148950017b761d" prot="private" static="yes" mutable="no">
+        <type>final double</type>
+        <definition>final double jenes.tutorials.old.problem12.MultiObjectiveProblem.MUTATION</definition>
+        <argsstring></argsstring>
+        <name>MUTATION</name>
+        <initializer>= 0.02</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/old/problem12/MultiObjectiveProblem.java" line="48" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/old/problem12/MultiObjectiveProblem.java" bodystart="48" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classjenes_1_1tutorials_1_1old_1_1problem12_1_1_multi_objective_problem_1a8d808c0e870ab23a05cd858695d256c9" prot="private" static="yes" mutable="no">
+        <type>final int</type>
+        <definition>final int jenes.tutorials.old.problem12.MultiObjectiveProblem.TRIALS</definition>
+        <argsstring></argsstring>
+        <name>TRIALS</name>
+        <initializer>= 3</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/old/problem12/MultiObjectiveProblem.java" line="49" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/old/problem12/MultiObjectiveProblem.java" bodystart="49" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classjenes_1_1tutorials_1_1old_1_1problem12_1_1_multi_objective_problem_1a07c4d7ac56183ed3ae3d023e7e624b75" prot="private" static="yes" mutable="no">
+        <type>int</type>
+        <definition>int jenes.tutorials.old.problem12.MultiObjectiveProblem.res</definition>
+        <argsstring></argsstring>
+        <name>res</name>
+        <initializer>= (1 &lt;&lt; CODING.SIZE.BITS) - 1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/old/problem12/MultiObjectiveProblem.java" line="50" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/old/problem12/MultiObjectiveProblem.java" bodystart="50" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classjenes_1_1tutorials_1_1old_1_1problem12_1_1_multi_objective_problem_1aa2f49784fd882a6a6ee3dea8ad5aa2d3" prot="private" static="yes" mutable="no">
+        <type>final String</type>
+        <definition>final String jenes.tutorials.old.problem12.MultiObjectiveProblem.FOLDER</definition>
+        <argsstring></argsstring>
+        <name>FOLDER</name>
+        <initializer>= &quot;files.Tutorial12&quot; + File.separatorChar</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/old/problem12/MultiObjectiveProblem.java" line="51" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/old/problem12/MultiObjectiveProblem.java" bodystart="51" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classjenes_1_1tutorials_1_1old_1_1problem12_1_1_multi_objective_problem_1aa56b8e189215e753714d1ed16fdf1075" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void jenes.tutorials.old.problem12.MultiObjectiveProblem.main</definition>
+        <argsstring>(String...args)</argsstring>
+        <name>main</name>
+        <param>
+          <type>String...</type>
+          <declname>args</declname>
+        </param>
+        <exceptions> throws IOException </exceptions>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/old/problem12/MultiObjectiveProblem.java" line="53" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/old/problem12/MultiObjectiveProblem.java" bodystart="53" bodyend="134"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1tutorials_1_1old_1_1problem12_1_1_multi_objective_problem_1a793287d33c3ae22a258312881dbed2a3" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void jenes.tutorials.old.problem12.MultiObjectiveProblem.decode</definition>
+        <argsstring>(Function f, BitwiseChromosome chrom, double[] x)</argsstring>
+        <name>decode</name>
+        <param>
+          <type><ref refid="classjenes_1_1tutorials_1_1old_1_1problem12_1_1_function" kindref="compound">Function</ref></type>
+          <declname>f</declname>
+        </param>
+        <param>
+          <type><ref refid="classjenes_1_1chromosome_1_1_bitwise_chromosome" kindref="compound">BitwiseChromosome</ref></type>
+          <declname>chrom</declname>
+        </param>
+        <param>
+          <type>double[]</type>
+          <declname>x</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/old/problem12/MultiObjectiveProblem.java" line="136" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/old/problem12/MultiObjectiveProblem.java" bodystart="136" bodyend="146"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>This tutorial represent an example of how to use multi-objective NSGA2 problem in Jenes. </para>    </detaileddescription>
+    <collaborationgraph>
+      <node id="388">
+        <label>jenes.tutorials.old.problem12.MultiObjectiveProblem</label>
+        <link refid="classjenes_1_1tutorials_1_1old_1_1problem12_1_1_multi_objective_problem"/>
+        <childnode refid="389" relation="usage">
+          <edgelabel>CODING</edgelabel>
+        </childnode>
+      </node>
+      <node id="389">
+        <label>BitCoding&lt; Integer &gt;</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/old/problem12/MultiObjectiveProblem.java" line="42" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/old/problem12/MultiObjectiveProblem.java" bodystart="42" bodyend="147"/>
+    <listofallmembers>
+      <member refid="classjenes_1_1tutorials_1_1old_1_1problem12_1_1_multi_objective_problem_1afb98f6a8f4a49545e794e12bc068f0d2" prot="private" virt="non-virtual"><scope>jenes::tutorials::old::problem12::MultiObjectiveProblem</scope><name>CODING</name></member>
+      <member refid="classjenes_1_1tutorials_1_1old_1_1problem12_1_1_multi_objective_problem_1adf65303714e6888c5b091e3a184dfbc1" prot="private" virt="non-virtual"><scope>jenes::tutorials::old::problem12::MultiObjectiveProblem</scope><name>CROSSOVER</name></member>
+      <member refid="classjenes_1_1tutorials_1_1old_1_1problem12_1_1_multi_objective_problem_1a793287d33c3ae22a258312881dbed2a3" prot="public" virt="non-virtual"><scope>jenes::tutorials::old::problem12::MultiObjectiveProblem</scope><name>decode</name></member>
+      <member refid="classjenes_1_1tutorials_1_1old_1_1problem12_1_1_multi_objective_problem_1aa2f49784fd882a6a6ee3dea8ad5aa2d3" prot="private" virt="non-virtual"><scope>jenes::tutorials::old::problem12::MultiObjectiveProblem</scope><name>FOLDER</name></member>
+      <member refid="classjenes_1_1tutorials_1_1old_1_1problem12_1_1_multi_objective_problem_1a75371890b1a3cad7c72464217e1d40bf" prot="private" virt="non-virtual"><scope>jenes::tutorials::old::problem12::MultiObjectiveProblem</scope><name>GENERATION_LIMIT</name></member>
+      <member refid="classjenes_1_1tutorials_1_1old_1_1problem12_1_1_multi_objective_problem_1aa56b8e189215e753714d1ed16fdf1075" prot="public" virt="non-virtual"><scope>jenes::tutorials::old::problem12::MultiObjectiveProblem</scope><name>main</name></member>
+      <member refid="classjenes_1_1tutorials_1_1old_1_1problem12_1_1_multi_objective_problem_1a99745284ba05404863148950017b761d" prot="private" virt="non-virtual"><scope>jenes::tutorials::old::problem12::MultiObjectiveProblem</scope><name>MUTATION</name></member>
+      <member refid="classjenes_1_1tutorials_1_1old_1_1problem12_1_1_multi_objective_problem_1a99a8a3d61d1075675f78916b3854d812" prot="private" virt="non-virtual"><scope>jenes::tutorials::old::problem12::MultiObjectiveProblem</scope><name>POPULATION_SIZE</name></member>
+      <member refid="classjenes_1_1tutorials_1_1old_1_1problem12_1_1_multi_objective_problem_1a07c4d7ac56183ed3ae3d023e7e624b75" prot="private" virt="non-virtual"><scope>jenes::tutorials::old::problem12::MultiObjectiveProblem</scope><name>res</name></member>
+      <member refid="classjenes_1_1tutorials_1_1old_1_1problem12_1_1_multi_objective_problem_1a8d808c0e870ab23a05cd858695d256c9" prot="private" virt="non-virtual"><scope>jenes::tutorials::old::problem12::MultiObjectiveProblem</scope><name>TRIALS</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

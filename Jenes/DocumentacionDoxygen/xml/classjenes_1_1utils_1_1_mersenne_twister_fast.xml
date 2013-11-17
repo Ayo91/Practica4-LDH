@@ -1,0 +1,522 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="classjenes_1_1utils_1_1_mersenne_twister_fast" kind="class" prot="public">
+    <compoundname>jenes::utils::MersenneTwisterFast</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Serializable</basecompoundref>
+    <derivedcompoundref refid="classjenes_1_1utils_1_1_random" prot="public" virt="non-virtual">jenes.utils.Random</derivedcompoundref>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="classjenes_1_1utils_1_1_mersenne_twister_fast_1a7d764d0e1d79a1a64977acd0d4e6d8ae" prot="private" static="yes" mutable="no">
+        <type>final int</type>
+        <definition>final int jenes.utils.MersenneTwisterFast.N</definition>
+        <argsstring></argsstring>
+        <name>N</name>
+        <initializer>= 624</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/utils/MersenneTwisterFast.java" line="92" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/utils/MersenneTwisterFast.java" bodystart="92" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classjenes_1_1utils_1_1_mersenne_twister_fast_1a7230af540751efe08187e45c15e4e9f8" prot="private" static="yes" mutable="no">
+        <type>final int</type>
+        <definition>final int jenes.utils.MersenneTwisterFast.M</definition>
+        <argsstring></argsstring>
+        <name>M</name>
+        <initializer>= 397</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/utils/MersenneTwisterFast.java" line="93" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/utils/MersenneTwisterFast.java" bodystart="93" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classjenes_1_1utils_1_1_mersenne_twister_fast_1a81b66e24b88e9d3338c3fa84c1ec2421" prot="private" static="yes" mutable="no">
+        <type>final int</type>
+        <definition>final int jenes.utils.MersenneTwisterFast.MATRIX_A</definition>
+        <argsstring></argsstring>
+        <name>MATRIX_A</name>
+        <initializer>= 0x9908b0df</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/utils/MersenneTwisterFast.java" line="94" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/utils/MersenneTwisterFast.java" bodystart="94" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classjenes_1_1utils_1_1_mersenne_twister_fast_1acb11c6167b19e7e19be9337e5f389c99" prot="private" static="yes" mutable="no">
+        <type>final int</type>
+        <definition>final int jenes.utils.MersenneTwisterFast.UPPER_MASK</definition>
+        <argsstring></argsstring>
+        <name>UPPER_MASK</name>
+        <initializer>= 0x80000000</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/utils/MersenneTwisterFast.java" line="95" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/utils/MersenneTwisterFast.java" bodystart="95" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classjenes_1_1utils_1_1_mersenne_twister_fast_1aa4a16f54a6dd22b49cede7adbfad7a24" prot="private" static="yes" mutable="no">
+        <type>final int</type>
+        <definition>final int jenes.utils.MersenneTwisterFast.LOWER_MASK</definition>
+        <argsstring></argsstring>
+        <name>LOWER_MASK</name>
+        <initializer>= 0x7fffffff</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/utils/MersenneTwisterFast.java" line="96" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/utils/MersenneTwisterFast.java" bodystart="96" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classjenes_1_1utils_1_1_mersenne_twister_fast_1a1ef24f834e07e21daa774f923a261cdc" prot="private" static="yes" mutable="no">
+        <type>final int</type>
+        <definition>final int jenes.utils.MersenneTwisterFast.TEMPERING_MASK_B</definition>
+        <argsstring></argsstring>
+        <name>TEMPERING_MASK_B</name>
+        <initializer>= 0x9d2c5680</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/utils/MersenneTwisterFast.java" line="100" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/utils/MersenneTwisterFast.java" bodystart="100" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classjenes_1_1utils_1_1_mersenne_twister_fast_1a54b88e85493a22103f45b6e380c9bf79" prot="private" static="yes" mutable="no">
+        <type>final int</type>
+        <definition>final int jenes.utils.MersenneTwisterFast.TEMPERING_MASK_C</definition>
+        <argsstring></argsstring>
+        <name>TEMPERING_MASK_C</name>
+        <initializer>= 0xefc60000</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/utils/MersenneTwisterFast.java" line="101" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/utils/MersenneTwisterFast.java" bodystart="101" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classjenes_1_1utils_1_1_mersenne_twister_fast_1a7c4e79e22cfb451e328e35c95ab5176b" prot="private" static="yes" mutable="no">
+        <type>final long</type>
+        <definition>final long jenes.utils.MersenneTwisterFast.GOOD_SEED</definition>
+        <argsstring></argsstring>
+        <name>GOOD_SEED</name>
+        <initializer>=  4357</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/utils/MersenneTwisterFast.java" line="113" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/utils/MersenneTwisterFast.java" bodystart="113" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classjenes_1_1utils_1_1_mersenne_twister_fast_1a982d8674fe867dbc2ed4d81e346bd53e" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int jenes.utils.MersenneTwisterFast.mt[]</definition>
+        <argsstring>[]</argsstring>
+        <name>mt</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/utils/MersenneTwisterFast.java" line="108" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/utils/MersenneTwisterFast.java" bodystart="108" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classjenes_1_1utils_1_1_mersenne_twister_fast_1a249ff994b5401de034349bd26d1048a5" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int jenes.utils.MersenneTwisterFast.mti</definition>
+        <argsstring></argsstring>
+        <name>mti</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/utils/MersenneTwisterFast.java" line="109" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/utils/MersenneTwisterFast.java" bodystart="109" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classjenes_1_1utils_1_1_mersenne_twister_fast_1ab47bd6db1f44c11be545d52af445754a" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int jenes.utils.MersenneTwisterFast.mag01[]</definition>
+        <argsstring>[]</argsstring>
+        <name>mag01</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/utils/MersenneTwisterFast.java" line="110" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/utils/MersenneTwisterFast.java" bodystart="110" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classjenes_1_1utils_1_1_mersenne_twister_fast_1aabc67f7eb3dd3b7d139ee7211ae88d72" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double jenes.utils.MersenneTwisterFast.nextNextGaussian</definition>
+        <argsstring></argsstring>
+        <name>nextNextGaussian</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/utils/MersenneTwisterFast.java" line="115" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/utils/MersenneTwisterFast.java" bodystart="115" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classjenes_1_1utils_1_1_mersenne_twister_fast_1a5386c1c630b71ef34d7ff55a040fa2a0" prot="private" static="no" mutable="no">
+        <type>boolean</type>
+        <definition>boolean jenes.utils.MersenneTwisterFast.haveNextNextGaussian</definition>
+        <argsstring></argsstring>
+        <name>haveNextNextGaussian</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/utils/MersenneTwisterFast.java" line="116" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/utils/MersenneTwisterFast.java" bodystart="116" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classjenes_1_1utils_1_1_mersenne_twister_fast_1af54ad21e36a866d458e55ad8c3d89ac2" prot="private" static="no" mutable="no">
+        <type>long</type>
+        <definition>long jenes.utils.MersenneTwisterFast.seed</definition>
+        <argsstring></argsstring>
+        <name>seed</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/utils/MersenneTwisterFast.java" line="117" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/utils/MersenneTwisterFast.java" bodystart="117" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classjenes_1_1utils_1_1_mersenne_twister_fast_1a7321af0f92bcda7c245ebfbb647f7e4c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>jenes.utils.MersenneTwisterFast.MersenneTwisterFast</definition>
+        <argsstring>()</argsstring>
+        <name>MersenneTwisterFast</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructor using the default seed. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/utils/MersenneTwisterFast.java" line="124" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/utils/MersenneTwisterFast.java" bodystart="124" bodyend="126"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1utils_1_1_mersenne_twister_fast_1a554aee5d390bb57ad30577b194c8b7b2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>jenes.utils.MersenneTwisterFast.MersenneTwisterFast</definition>
+        <argsstring>(final long seed)</argsstring>
+        <name>MersenneTwisterFast</name>
+        <param>
+          <type>final long</type>
+          <declname>seed</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructor using a given seed. Though you pass this seed in as a long, it&apos;s best to make sure it&apos;s actually an integer.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>seed</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>generator starting number, often the time of day. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/utils/MersenneTwisterFast.java" line="134" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/utils/MersenneTwisterFast.java" bodystart="134" bodyend="136"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1utils_1_1_mersenne_twister_fast_1aa44ca1bf8e9a2f272e248ea279f1e80c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>final void</type>
+        <definition>final void jenes.utils.MersenneTwisterFast.setSeed</definition>
+        <argsstring>(final long seed)</argsstring>
+        <name>setSeed</name>
+        <param>
+          <type>final long</type>
+          <declname>seed</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Initalize the pseudo random number generator. The Mersenne Twister only uses an integer for its seed; It&apos;s best that you don&apos;t pass in a long that&apos;s bigger than an int.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>seed</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>from constructor </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/utils/MersenneTwisterFast.java" line="147" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/utils/MersenneTwisterFast.java" bodystart="147" bodyend="170"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1utils_1_1_mersenne_twister_fast_1a063b45fa6e20a5eea9acbe45a8c48ce0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>final int</type>
+        <definition>final int jenes.utils.MersenneTwisterFast.nextInt</definition>
+        <argsstring>()</argsstring>
+        <name>nextInt</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/utils/MersenneTwisterFast.java" line="180" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/utils/MersenneTwisterFast.java" bodystart="180" bodyend="209"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1utils_1_1_mersenne_twister_fast_1a89d03c5b1815eff8c443ef081a869e78" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>final short</type>
+        <definition>final short jenes.utils.MersenneTwisterFast.nextShort</definition>
+        <argsstring>()</argsstring>
+        <name>nextShort</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/utils/MersenneTwisterFast.java" line="213" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/utils/MersenneTwisterFast.java" bodystart="213" bodyend="242"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1utils_1_1_mersenne_twister_fast_1a8f7cb8ea9832581729660f5c0346ee3a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>final char</type>
+        <definition>final char jenes.utils.MersenneTwisterFast.nextChar</definition>
+        <argsstring>()</argsstring>
+        <name>nextChar</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/utils/MersenneTwisterFast.java" line="246" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/utils/MersenneTwisterFast.java" bodystart="246" bodyend="275"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1utils_1_1_mersenne_twister_fast_1a54fa48ab055886a90aefdcb816257f4b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>final boolean</type>
+        <definition>final boolean jenes.utils.MersenneTwisterFast.nextBoolean</definition>
+        <argsstring>()</argsstring>
+        <name>nextBoolean</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/utils/MersenneTwisterFast.java" line="278" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/utils/MersenneTwisterFast.java" bodystart="278" bodyend="308"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1utils_1_1_mersenne_twister_fast_1a5e7c0943fcc746a30277f0e09abbf60f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>final byte</type>
+        <definition>final byte jenes.utils.MersenneTwisterFast.nextByte</definition>
+        <argsstring>()</argsstring>
+        <name>nextByte</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/utils/MersenneTwisterFast.java" line="311" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/utils/MersenneTwisterFast.java" bodystart="311" bodyend="339"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1utils_1_1_mersenne_twister_fast_1a237dc55841fd8bf544106d052833c374" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>final void</type>
+        <definition>final void jenes.utils.MersenneTwisterFast.nextBytes</definition>
+        <argsstring>(final byte[] bytes)</argsstring>
+        <name>nextBytes</name>
+        <param>
+          <type>final byte[]</type>
+          <declname>bytes</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/utils/MersenneTwisterFast.java" line="342" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/utils/MersenneTwisterFast.java" bodystart="342" bodyend="372"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1utils_1_1_mersenne_twister_fast_1a1de4f36e5e4035569bbb79bb06d4e9c7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>final long</type>
+        <definition>final long jenes.utils.MersenneTwisterFast.nextLong</definition>
+        <argsstring>()</argsstring>
+        <name>nextLong</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/utils/MersenneTwisterFast.java" line="375" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/utils/MersenneTwisterFast.java" bodystart="375" bodyend="430"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1utils_1_1_mersenne_twister_fast_1a64238ab497c1e504c798355f682ea2b9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>final double</type>
+        <definition>final double jenes.utils.MersenneTwisterFast.nextDouble</definition>
+        <argsstring>()</argsstring>
+        <name>nextDouble</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns a double uniformly distributed within [0,1[ </para><para><simplesect kind="return"><para>a random double value </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/utils/MersenneTwisterFast.java" line="437" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/utils/MersenneTwisterFast.java" bodystart="437" bodyend="493"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1utils_1_1_mersenne_twister_fast_1a4af0dd9a4366e476e4d45568cbb558e9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>final double</type>
+        <definition>final double jenes.utils.MersenneTwisterFast.nextGaussian</definition>
+        <argsstring>()</argsstring>
+        <name>nextGaussian</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/utils/MersenneTwisterFast.java" line="499" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/utils/MersenneTwisterFast.java" bodystart="499" bodyend="625"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1utils_1_1_mersenne_twister_fast_1af2d30f1dec2a94ca26a3b1ccc0624ce9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>final float</type>
+        <definition>final float jenes.utils.MersenneTwisterFast.nextFloat</definition>
+        <argsstring>()</argsstring>
+        <name>nextFloat</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/utils/MersenneTwisterFast.java" line="639" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/utils/MersenneTwisterFast.java" bodystart="639" bodyend="668"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1utils_1_1_mersenne_twister_fast_1ae66ea69e37e4866fbb3beecb4e66577a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>final int</type>
+        <definition>final int jenes.utils.MersenneTwisterFast.nextInt</definition>
+        <argsstring>(final int n)</argsstring>
+        <name>nextInt</name>
+        <param>
+          <type>final int</type>
+          <declname>n</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns an integer drawn uniformly from 0 to n-1. Suffice it to say, n must be &gt; 0, or an IllegalArgumentException is raised. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/utils/MersenneTwisterFast.java" line="674" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/utils/MersenneTwisterFast.java" bodystart="674" bodyend="742"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classjenes_1_1utils_1_1_mersenne_twister_fast_1a88963c0469e0bad7a1834469cf0f7a10" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>long</type>
+        <definition>long jenes.utils.MersenneTwisterFast.getSeed</definition>
+        <argsstring>()</argsstring>
+        <name>getSeed</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Return the current used seed for random generator <simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/utils/MersenneTwisterFast.java" line="176" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/utils/MersenneTwisterFast.java" bodystart="176" bodyend="178"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classjenes_1_1utils_1_1_mersenne_twister_fast_1a5c955ea4cf1b925290dd92ddecc0c510" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void jenes.utils.MersenneTwisterFast.main</definition>
+        <argsstring>(String args[])</argsstring>
+        <name>main</name>
+        <param>
+          <type>String</type>
+          <declname>args</declname>
+          <array>[]</array>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Tests the code. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/utils/MersenneTwisterFast.java" line="748" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/utils/MersenneTwisterFast.java" bodystart="748" bodyend="908"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Mersenne Twister and <ref refid="classjenes_1_1utils_1_1_mersenne_twister_fast" kindref="compound">MersenneTwisterFast</ref>: </para><para><bold><ref refid="classjenes_1_1utils_1_1_mersenne_twister_fast" kindref="compound">MersenneTwisterFast</ref></bold> is a drop-in subclass replacement for java.util.Random. It is properly synchronized and can be used in a multithreaded environment.</para><para><bold><ref refid="classjenes_1_1utils_1_1_mersenne_twister_fast" kindref="compound">MersenneTwisterFast</ref></bold> is not a subclass of java.util.Random. It has the same public methods as <ref refid="classjenes_1_1utils_1_1_random" kindref="compound">Random</ref> does, however, and it is algorithmically identical to MersenneTwister. <ref refid="classjenes_1_1utils_1_1_mersenne_twister_fast" kindref="compound">MersenneTwisterFast</ref> has hard-code inlined all of its methods directly, and made all of them final (well, the ones of consequence anyway). Further, these methods are <emphasis>not</emphasis> synchronized, so the same <ref refid="classjenes_1_1utils_1_1_mersenne_twister_fast" kindref="compound">MersenneTwisterFast</ref> instance cannot be shared by multiple threads. But all this helps <ref refid="classjenes_1_1utils_1_1_mersenne_twister_fast" kindref="compound">MersenneTwisterFast</ref> achieve over twice the speed of MersenneTwister.</para><para><bold>About the Mersenne Twister. </bold> This is a Java version of the C-program for MT19937: Integer version. next(32) generates one pseudorandom unsigned integer (32bit)</para><para>which is uniformly distributed among 0 to 2^32-1 for each call. next(int bits) &gt;&gt;&gt;&apos;s by (32-bits) to get a value ranging between 0 and 2^bits-1 long inclusive; hope that&apos;s correct. setSeed(seed) set initial values to the working area of 624 words. For setSeed(seed), seed is any 32-bit integer <bold>except for 0</bold>.</para><para>Orignally Coded by Takuji Nishimura, considering the suggestions by Topher Cooper and Marc Rieffel in July-Aug. 1997. More information can be found <ulink url="http://www.math.keio.ac.jp/matumoto/emt.html">here. </ulink></para><para>Translated to Java by Michael Lecuyer January 30, 1999 Copyright (C) 1999 Michael Lecuyer </para><para>This library is free software; you can redistribute it and or</para><para>modify it under the terms of the GNU Library General Public License as published by the Free Software Foundation; either version 2 of the License, or (at your option) any later version. This library is distributed in the hope that it will be useful,</para><para>but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU Library General Public License for more details. You should have received a copy of the GNU Library General Public License along with this library; if not, write to the Free Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA 02111-1307 USA </para><para>Makoto Matsumoto and Takuji Nishimura, the original authors ask &quot;When you use this, send an email to: matumoto@math.keio.ac.jp
+with an appropriate reference to your work&quot; You might also point out this was a translation. </para><para><bold>Reference. </bold> M. Matsumoto and T. Nishimura, &quot;Mersenne Twister: A 623-Dimensionally Equidistributed Uniform
+Pseudo-Random Number Generator&quot;, <emphasis>ACM Transactions on Modeling and Computer Simulation,</emphasis> Vol. 8, No. 1, January 1998, pp 3<ndash/>30.</para><para><bold>About this version. </bold> This is a modification of the <ulink url="http://www.theorem.com/java/index.htm#Mersenne">original code</ulink> made to conform to proper java.util.Random format by <ulink url="http://www.cs.umd.edu/users/seanl/">Sean Luke,</ulink> August 7, 1999.</para><para><bold>Bug Fixes. </bold>This implementation implements the bug fixes made in Java 1.2&apos;s version of <ref refid="classjenes_1_1utils_1_1_random" kindref="compound">Random</ref>, which means it can be used with earlier versions of Java. See <ulink url="http://www.javasoft.com/products/jdk/1.2/docs/api/java/util/Random.html">the JDK 1.2 java.util.Random documentation</ulink> for further documentation on the random-number generation contracts made. Additionally, there&apos;s an undocumented bug in the JDK java.util.Random.nextBytes() method, which this code fixes.</para><para><bold>Important Note. </bold> Just like java.util.Random, this generator accepts a long seed but doesn&apos;t use all of it. java.util.Random uses 48 bits. The Mersenne Twister instead uses 32 bits (int size). So it&apos;s best if your seed does not exceed the int range. </para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="375">
+        <label>Serializable</label>
+      </node>
+      <node id="376">
+        <label>jenes.utils.Random</label>
+        <link refid="classjenes_1_1utils_1_1_random"/>
+        <childnode refid="374" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="374">
+        <label>jenes.utils.MersenneTwisterFast</label>
+        <link refid="classjenes_1_1utils_1_1_mersenne_twister_fast"/>
+        <childnode refid="375" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="378">
+        <label>Serializable</label>
+      </node>
+      <node id="377">
+        <label>jenes.utils.MersenneTwisterFast</label>
+        <link refid="classjenes_1_1utils_1_1_mersenne_twister_fast"/>
+        <childnode refid="378" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/utils/MersenneTwisterFast.java" line="90" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/utils/MersenneTwisterFast.java" bodystart="90" bodyend="910"/>
+    <listofallmembers>
+      <member refid="classjenes_1_1utils_1_1_mersenne_twister_fast_1a88963c0469e0bad7a1834469cf0f7a10" prot="protected" virt="non-virtual"><scope>jenes::utils::MersenneTwisterFast</scope><name>getSeed</name></member>
+      <member refid="classjenes_1_1utils_1_1_mersenne_twister_fast_1a7c4e79e22cfb451e328e35c95ab5176b" prot="private" virt="non-virtual"><scope>jenes::utils::MersenneTwisterFast</scope><name>GOOD_SEED</name></member>
+      <member refid="classjenes_1_1utils_1_1_mersenne_twister_fast_1a5386c1c630b71ef34d7ff55a040fa2a0" prot="private" virt="non-virtual"><scope>jenes::utils::MersenneTwisterFast</scope><name>haveNextNextGaussian</name></member>
+      <member refid="classjenes_1_1utils_1_1_mersenne_twister_fast_1aa4a16f54a6dd22b49cede7adbfad7a24" prot="private" virt="non-virtual"><scope>jenes::utils::MersenneTwisterFast</scope><name>LOWER_MASK</name></member>
+      <member refid="classjenes_1_1utils_1_1_mersenne_twister_fast_1a7230af540751efe08187e45c15e4e9f8" prot="private" virt="non-virtual"><scope>jenes::utils::MersenneTwisterFast</scope><name>M</name></member>
+      <member refid="classjenes_1_1utils_1_1_mersenne_twister_fast_1ab47bd6db1f44c11be545d52af445754a" prot="private" virt="non-virtual"><scope>jenes::utils::MersenneTwisterFast</scope><name>mag01</name></member>
+      <member refid="classjenes_1_1utils_1_1_mersenne_twister_fast_1a5c955ea4cf1b925290dd92ddecc0c510" prot="public" virt="non-virtual"><scope>jenes::utils::MersenneTwisterFast</scope><name>main</name></member>
+      <member refid="classjenes_1_1utils_1_1_mersenne_twister_fast_1a81b66e24b88e9d3338c3fa84c1ec2421" prot="private" virt="non-virtual"><scope>jenes::utils::MersenneTwisterFast</scope><name>MATRIX_A</name></member>
+      <member refid="classjenes_1_1utils_1_1_mersenne_twister_fast_1a7321af0f92bcda7c245ebfbb647f7e4c" prot="public" virt="non-virtual"><scope>jenes::utils::MersenneTwisterFast</scope><name>MersenneTwisterFast</name></member>
+      <member refid="classjenes_1_1utils_1_1_mersenne_twister_fast_1a554aee5d390bb57ad30577b194c8b7b2" prot="public" virt="non-virtual"><scope>jenes::utils::MersenneTwisterFast</scope><name>MersenneTwisterFast</name></member>
+      <member refid="classjenes_1_1utils_1_1_mersenne_twister_fast_1a982d8674fe867dbc2ed4d81e346bd53e" prot="private" virt="non-virtual"><scope>jenes::utils::MersenneTwisterFast</scope><name>mt</name></member>
+      <member refid="classjenes_1_1utils_1_1_mersenne_twister_fast_1a249ff994b5401de034349bd26d1048a5" prot="private" virt="non-virtual"><scope>jenes::utils::MersenneTwisterFast</scope><name>mti</name></member>
+      <member refid="classjenes_1_1utils_1_1_mersenne_twister_fast_1a7d764d0e1d79a1a64977acd0d4e6d8ae" prot="private" virt="non-virtual"><scope>jenes::utils::MersenneTwisterFast</scope><name>N</name></member>
+      <member refid="classjenes_1_1utils_1_1_mersenne_twister_fast_1a54fa48ab055886a90aefdcb816257f4b" prot="public" virt="non-virtual"><scope>jenes::utils::MersenneTwisterFast</scope><name>nextBoolean</name></member>
+      <member refid="classjenes_1_1utils_1_1_mersenne_twister_fast_1a5e7c0943fcc746a30277f0e09abbf60f" prot="public" virt="non-virtual"><scope>jenes::utils::MersenneTwisterFast</scope><name>nextByte</name></member>
+      <member refid="classjenes_1_1utils_1_1_mersenne_twister_fast_1a237dc55841fd8bf544106d052833c374" prot="public" virt="non-virtual"><scope>jenes::utils::MersenneTwisterFast</scope><name>nextBytes</name></member>
+      <member refid="classjenes_1_1utils_1_1_mersenne_twister_fast_1a8f7cb8ea9832581729660f5c0346ee3a" prot="public" virt="non-virtual"><scope>jenes::utils::MersenneTwisterFast</scope><name>nextChar</name></member>
+      <member refid="classjenes_1_1utils_1_1_mersenne_twister_fast_1a64238ab497c1e504c798355f682ea2b9" prot="public" virt="non-virtual"><scope>jenes::utils::MersenneTwisterFast</scope><name>nextDouble</name></member>
+      <member refid="classjenes_1_1utils_1_1_mersenne_twister_fast_1af2d30f1dec2a94ca26a3b1ccc0624ce9" prot="public" virt="non-virtual"><scope>jenes::utils::MersenneTwisterFast</scope><name>nextFloat</name></member>
+      <member refid="classjenes_1_1utils_1_1_mersenne_twister_fast_1a4af0dd9a4366e476e4d45568cbb558e9" prot="public" virt="non-virtual"><scope>jenes::utils::MersenneTwisterFast</scope><name>nextGaussian</name></member>
+      <member refid="classjenes_1_1utils_1_1_mersenne_twister_fast_1a063b45fa6e20a5eea9acbe45a8c48ce0" prot="public" virt="non-virtual"><scope>jenes::utils::MersenneTwisterFast</scope><name>nextInt</name></member>
+      <member refid="classjenes_1_1utils_1_1_mersenne_twister_fast_1ae66ea69e37e4866fbb3beecb4e66577a" prot="public" virt="non-virtual"><scope>jenes::utils::MersenneTwisterFast</scope><name>nextInt</name></member>
+      <member refid="classjenes_1_1utils_1_1_mersenne_twister_fast_1a1de4f36e5e4035569bbb79bb06d4e9c7" prot="public" virt="non-virtual"><scope>jenes::utils::MersenneTwisterFast</scope><name>nextLong</name></member>
+      <member refid="classjenes_1_1utils_1_1_mersenne_twister_fast_1aabc67f7eb3dd3b7d139ee7211ae88d72" prot="private" virt="non-virtual"><scope>jenes::utils::MersenneTwisterFast</scope><name>nextNextGaussian</name></member>
+      <member refid="classjenes_1_1utils_1_1_mersenne_twister_fast_1a89d03c5b1815eff8c443ef081a869e78" prot="public" virt="non-virtual"><scope>jenes::utils::MersenneTwisterFast</scope><name>nextShort</name></member>
+      <member refid="classjenes_1_1utils_1_1_mersenne_twister_fast_1af54ad21e36a866d458e55ad8c3d89ac2" prot="private" virt="non-virtual"><scope>jenes::utils::MersenneTwisterFast</scope><name>seed</name></member>
+      <member refid="classjenes_1_1utils_1_1_mersenne_twister_fast_1aa44ca1bf8e9a2f272e248ea279f1e80c" prot="public" virt="non-virtual"><scope>jenes::utils::MersenneTwisterFast</scope><name>setSeed</name></member>
+      <member refid="classjenes_1_1utils_1_1_mersenne_twister_fast_1a1ef24f834e07e21daa774f923a261cdc" prot="private" virt="non-virtual"><scope>jenes::utils::MersenneTwisterFast</scope><name>TEMPERING_MASK_B</name></member>
+      <member refid="classjenes_1_1utils_1_1_mersenne_twister_fast_1a54b88e85493a22103f45b6e380c9bf79" prot="private" virt="non-virtual"><scope>jenes::utils::MersenneTwisterFast</scope><name>TEMPERING_MASK_C</name></member>
+      <member refid="classjenes_1_1utils_1_1_mersenne_twister_fast_1acb11c6167b19e7e19be9337e5f389c99" prot="private" virt="non-virtual"><scope>jenes::utils::MersenneTwisterFast</scope><name>UPPER_MASK</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

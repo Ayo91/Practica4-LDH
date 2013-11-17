@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="namespacejenes_1_1chromosome" kind="namespace">
+    <compoundname>jenes::chromosome</compoundname>
+    <innerclass refid="interfacejenes_1_1chromosome_1_1_allele_set_3_01_t_01_4" prot="public">jenes::chromosome::AlleleSet&lt; T &gt;</innerclass>
+    <innerclass refid="classjenes_1_1chromosome_1_1_bitwise_chromosome" prot="public">jenes::chromosome::BitwiseChromosome</innerclass>
+    <innerclass refid="classjenes_1_1chromosome_1_1_boolean_chromosome" prot="public">jenes::chromosome::BooleanChromosome</innerclass>
+    <innerclass refid="interfacejenes_1_1chromosome_1_1_chromosome_3_01_t_01extends_01_chromosome_01_4" prot="public">jenes::chromosome::Chromosome&lt; T extends Chromosome &gt;</innerclass>
+    <innerclass refid="classjenes_1_1chromosome_1_1_double_chromosome" prot="public">jenes::chromosome::DoubleChromosome</innerclass>
+    <innerclass refid="classjenes_1_1chromosome_1_1_generic_allele_set_3_01_t_01_4" prot="public">jenes::chromosome::GenericAlleleSet&lt; T &gt;</innerclass>
+    <innerclass refid="classjenes_1_1chromosome_1_1_integer_chromosome" prot="public">jenes::chromosome::IntegerChromosome</innerclass>
+    <innerclass refid="classjenes_1_1chromosome_1_1_object_chromosome" prot="public">jenes::chromosome::ObjectChromosome</innerclass>
+    <innerclass refid="classjenes_1_1chromosome_1_1_permutation_chromosome" prot="public">jenes::chromosome::PermutationChromosome</innerclass>
+    <innernamespace refid="namespacejenes_1_1chromosome_1_1codings">jenes::chromosome::codings</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/chromosome/AlleleSet.java" line="19" column="1"/>
+  </compounddef>
+</doxygen>

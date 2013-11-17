@@ -1,0 +1,177 @@
+\hypertarget{classjenes_1_1stage_1_1operator_1_1_crossover_3_01_t_01extends_01_chromosome_01_4}{\section{jenes.\-stage.\-operator.\-Crossover$<$ T extends Chromosome $>$ Class Reference}
+\label{classjenes_1_1stage_1_1operator_1_1_crossover_3_01_t_01extends_01_chromosome_01_4}\index{jenes.\-stage.\-operator.\-Crossover$<$ T extends Chromosome $>$@{jenes.\-stage.\-operator.\-Crossover$<$ T extends Chromosome $>$}}
+}
+Inheritance diagram for jenes.\-stage.\-operator.\-Crossover$<$ T extends Chromosome $>$\-:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{classjenes_1_1stage_1_1operator_1_1_crossover_3_01_t_01extends_01_chromosome_01_4}
+\end{center}
+\end{figure}
+\subsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+class \hyperlink{classjenes_1_1stage_1_1operator_1_1_crossover_3_01_t_01extends_01_chromosome_01_4_1_1_statistics}{Statistics}
+\end{DoxyCompactItemize}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classjenes_1_1stage_1_1operator_1_1_crossover_3_01_t_01extends_01_chromosome_01_4_a2287f5646b08b9c3167934ee620f2d6e}{Crossover} (final double \hyperlink{classjenes_1_1stage_1_1operator_1_1_crossover_3_01_t_01extends_01_chromosome_01_4_a2b4aec7312a223ba84862f7848b14542}{probability})
+\item 
+final double \hyperlink{classjenes_1_1stage_1_1operator_1_1_crossover_3_01_t_01extends_01_chromosome_01_4_a86b60220061c4bf1f0eaae66d22f5eb8}{get\-Probability} ()
+\item 
+final void \hyperlink{classjenes_1_1stage_1_1operator_1_1_crossover_3_01_t_01extends_01_chromosome_01_4_ac491f1c3b3b8c074f3b59bc33f65f389}{set\-Probability} (final double \hyperlink{classjenes_1_1stage_1_1operator_1_1_crossover_3_01_t_01extends_01_chromosome_01_4_a2b4aec7312a223ba84862f7848b14542}{probability})
+\item 
+abstract int \hyperlink{classjenes_1_1stage_1_1operator_1_1_crossover_3_01_t_01extends_01_chromosome_01_4_a8bb995f2cf77073b79c9276ee3e8535d}{spread} ()
+\item 
+final void \hyperlink{classjenes_1_1stage_1_1operator_1_1_crossover_3_01_t_01extends_01_chromosome_01_4_ac0b5d0219d2938f7756e616d04039ae0}{init} (final Genetic\-Algorithm$<$ T $>$ ga)  throws Stage\-Exception 
+\item 
+final void \hyperlink{classjenes_1_1stage_1_1operator_1_1_crossover_3_01_t_01extends_01_chromosome_01_4_ac14c88e86762023813c69bee4c31d7ea}{process} (final Population$<$ T $>$ in, final Population$<$ T $>$ out)  throws Stage\-Exception 
+\end{DoxyCompactItemize}
+\subsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+abstract void \hyperlink{classjenes_1_1stage_1_1operator_1_1_crossover_3_01_t_01extends_01_chromosome_01_4_ac47e22fb5a73617bde7a1131da5be161}{cross} (Individual$<$ T $>$ \hyperlink{classjenes_1_1stage_1_1operator_1_1_crossover_3_01_t_01extends_01_chromosome_01_4_ac25f80174c265f930c316c2fb4bc7c5c}{offsprings}\mbox{[}$\,$\mbox{]})
+\end{DoxyCompactItemize}
+\subsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+double \hyperlink{classjenes_1_1stage_1_1operator_1_1_crossover_3_01_t_01extends_01_chromosome_01_4_a2b4aec7312a223ba84862f7848b14542}{probability}
+\end{DoxyCompactItemize}
+\subsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+Individual\mbox{[}$\,$\mbox{]} \hyperlink{classjenes_1_1stage_1_1operator_1_1_crossover_3_01_t_01extends_01_chromosome_01_4_ac25f80174c265f930c316c2fb4bc7c5c}{offsprings}
+\item 
+int \hyperlink{classjenes_1_1stage_1_1operator_1_1_crossover_3_01_t_01extends_01_chromosome_01_4_ac70ed1d50508b2c367559c46e1f39453}{spread}
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+A genetic class representing a crossover operator. This implementation represents a generic crossover operation with \hyperlink{}{Crossover\#spread} parent and the same number of children; the operation is executed according to a crossover probability specified at the creation time. 
+
+The actual crossover is implemented by subclassing this abstract class and providing the \hyperlink{}{Crossover\#spread} and \hyperlink{}{Crossover\#cross(\-Individual\mbox{[}$\,$\mbox{]})} implementations\-: the former is required to specify the number of parents and children involved in each crossover operation; the second is required to specify what crossover algorithm to use. 
+
+Offsprings have not to be created in the \hyperlink{}{Crossover\#cross(\-Individual\mbox{[}$\,$\mbox{]})} method implementation\-: they are provided by the specified array; these ones have to be modify according to the crossover strategy. At the \hyperlink{}{Crossover\#cross(\-Individual\mbox{[}$\,$\mbox{]})} invocation time, the abstract crossover makes each of the array individuals equals to each one of the parents. 
+
+A \hyperlink{}{Crossover.\-Statistics} is associated to each crossover operator.
+
+
+\begin{DoxyParams}{Parameters}
+{\em $<$\-T$>$} & The class of chromosomes to work with.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyVersion}{Version}
+2.\-0 
+\end{DoxyVersion}
+\begin{DoxySince}{Since}
+1.\-0
+\end{DoxySince}
+\begin{DoxySeeAlso}{See Also}
+Individual 
+
+Population 
+\end{DoxySeeAlso}
+
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{classjenes_1_1stage_1_1operator_1_1_crossover_3_01_t_01extends_01_chromosome_01_4_a2287f5646b08b9c3167934ee620f2d6e}{\index{jenes\-::stage\-::operator\-::\-Crossover$<$ T extends Chromosome $>$@{jenes\-::stage\-::operator\-::\-Crossover$<$ T extends Chromosome $>$}!Crossover@{Crossover}}
+\index{Crossover@{Crossover}!jenes::stage::operator::Crossover< T extends Chromosome >@{jenes\-::stage\-::operator\-::\-Crossover$<$ T extends Chromosome $>$}}
+\subsubsection[{Crossover}]{\setlength{\rightskip}{0pt plus 5cm}jenes.\-stage.\-operator.\-Crossover$<$ T extends Chromosome $>$.Crossover (
+\begin{DoxyParamCaption}
+\item[{final double}]{probability}
+\end{DoxyParamCaption}
+)}}\label{classjenes_1_1stage_1_1operator_1_1_crossover_3_01_t_01extends_01_chromosome_01_4_a2287f5646b08b9c3167934ee620f2d6e}
+Constructs a new crossover instance with the specified crossover probability
+
+
+\begin{DoxyParams}{Parameters}
+{\em probability} & \\
+\hline
+\end{DoxyParams}
+
+
+\subsection{Member Function Documentation}
+\hypertarget{classjenes_1_1stage_1_1operator_1_1_crossover_3_01_t_01extends_01_chromosome_01_4_ac47e22fb5a73617bde7a1131da5be161}{\index{jenes\-::stage\-::operator\-::\-Crossover$<$ T extends Chromosome $>$@{jenes\-::stage\-::operator\-::\-Crossover$<$ T extends Chromosome $>$}!cross@{cross}}
+\index{cross@{cross}!jenes::stage::operator::Crossover< T extends Chromosome >@{jenes\-::stage\-::operator\-::\-Crossover$<$ T extends Chromosome $>$}}
+\subsubsection[{cross}]{\setlength{\rightskip}{0pt plus 5cm}abstract void jenes.\-stage.\-operator.\-Crossover$<$ T extends Chromosome $>$.cross (
+\begin{DoxyParamCaption}
+\item[{Individual$<$ T $>$}]{offsprings\mbox{[}$\,$\mbox{]}}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [protected]}, {\ttfamily [pure virtual]}}}\label{classjenes_1_1stage_1_1operator_1_1_crossover_3_01_t_01extends_01_chromosome_01_4_ac47e22fb5a73617bde7a1131da5be161}
+Executes the crossover. At the invocation time the specified array contains the individuals to be modify by cross; at the return time it contains the output crossover individuals.
+
+
+\begin{DoxyParams}{Parameters}
+{\em offsprings} & the individuals to be modified. \\
+\hline
+\end{DoxyParams}
+\hypertarget{classjenes_1_1stage_1_1operator_1_1_crossover_3_01_t_01extends_01_chromosome_01_4_a86b60220061c4bf1f0eaae66d22f5eb8}{\index{jenes\-::stage\-::operator\-::\-Crossover$<$ T extends Chromosome $>$@{jenes\-::stage\-::operator\-::\-Crossover$<$ T extends Chromosome $>$}!get\-Probability@{get\-Probability}}
+\index{get\-Probability@{get\-Probability}!jenes::stage::operator::Crossover< T extends Chromosome >@{jenes\-::stage\-::operator\-::\-Crossover$<$ T extends Chromosome $>$}}
+\subsubsection[{get\-Probability}]{\setlength{\rightskip}{0pt plus 5cm}final double jenes.\-stage.\-operator.\-Crossover$<$ T extends Chromosome $>$.get\-Probability (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classjenes_1_1stage_1_1operator_1_1_crossover_3_01_t_01extends_01_chromosome_01_4_a86b60220061c4bf1f0eaae66d22f5eb8}
+Returns the crossover probability
+
+\begin{DoxyReturn}{Returns}
+the probability 
+\end{DoxyReturn}
+\hypertarget{classjenes_1_1stage_1_1operator_1_1_crossover_3_01_t_01extends_01_chromosome_01_4_ac0b5d0219d2938f7756e616d04039ae0}{\index{jenes\-::stage\-::operator\-::\-Crossover$<$ T extends Chromosome $>$@{jenes\-::stage\-::operator\-::\-Crossover$<$ T extends Chromosome $>$}!init@{init}}
+\index{init@{init}!jenes::stage::operator::Crossover< T extends Chromosome >@{jenes\-::stage\-::operator\-::\-Crossover$<$ T extends Chromosome $>$}}
+\subsubsection[{init}]{\setlength{\rightskip}{0pt plus 5cm}final void jenes.\-stage.\-operator.\-Crossover$<$ T extends Chromosome $>$.init (
+\begin{DoxyParamCaption}
+\item[{final Genetic\-Algorithm$<$ T $>$}]{ga}
+\end{DoxyParamCaption}
+) throws {\bf Stage\-Exception}}}\label{classjenes_1_1stage_1_1operator_1_1_crossover_3_01_t_01extends_01_chromosome_01_4_ac0b5d0219d2938f7756e616d04039ae0}
+\hypertarget{classjenes_1_1stage_1_1operator_1_1_crossover_3_01_t_01extends_01_chromosome_01_4_ac14c88e86762023813c69bee4c31d7ea}{\index{jenes\-::stage\-::operator\-::\-Crossover$<$ T extends Chromosome $>$@{jenes\-::stage\-::operator\-::\-Crossover$<$ T extends Chromosome $>$}!process@{process}}
+\index{process@{process}!jenes::stage::operator::Crossover< T extends Chromosome >@{jenes\-::stage\-::operator\-::\-Crossover$<$ T extends Chromosome $>$}}
+\subsubsection[{process}]{\setlength{\rightskip}{0pt plus 5cm}final void jenes.\-stage.\-operator.\-Crossover$<$ T extends Chromosome $>$.process (
+\begin{DoxyParamCaption}
+\item[{final Population$<$ T $>$}]{in, }
+\item[{final Population$<$ T $>$}]{out}
+\end{DoxyParamCaption}
+) throws {\bf Stage\-Exception}}}\label{classjenes_1_1stage_1_1operator_1_1_crossover_3_01_t_01extends_01_chromosome_01_4_ac14c88e86762023813c69bee4c31d7ea}
+\hypertarget{classjenes_1_1stage_1_1operator_1_1_crossover_3_01_t_01extends_01_chromosome_01_4_ac491f1c3b3b8c074f3b59bc33f65f389}{\index{jenes\-::stage\-::operator\-::\-Crossover$<$ T extends Chromosome $>$@{jenes\-::stage\-::operator\-::\-Crossover$<$ T extends Chromosome $>$}!set\-Probability@{set\-Probability}}
+\index{set\-Probability@{set\-Probability}!jenes::stage::operator::Crossover< T extends Chromosome >@{jenes\-::stage\-::operator\-::\-Crossover$<$ T extends Chromosome $>$}}
+\subsubsection[{set\-Probability}]{\setlength{\rightskip}{0pt plus 5cm}final void jenes.\-stage.\-operator.\-Crossover$<$ T extends Chromosome $>$.set\-Probability (
+\begin{DoxyParamCaption}
+\item[{final double}]{probability}
+\end{DoxyParamCaption}
+)}}\label{classjenes_1_1stage_1_1operator_1_1_crossover_3_01_t_01extends_01_chromosome_01_4_ac491f1c3b3b8c074f3b59bc33f65f389}
+Sets the crossover probability
+
+
+\begin{DoxyParams}{Parameters}
+{\em probability} & the new crossover probability \\
+\hline
+\end{DoxyParams}
+\hypertarget{classjenes_1_1stage_1_1operator_1_1_crossover_3_01_t_01extends_01_chromosome_01_4_a8bb995f2cf77073b79c9276ee3e8535d}{\index{jenes\-::stage\-::operator\-::\-Crossover$<$ T extends Chromosome $>$@{jenes\-::stage\-::operator\-::\-Crossover$<$ T extends Chromosome $>$}!spread@{spread}}
+\index{spread@{spread}!jenes::stage::operator::Crossover< T extends Chromosome >@{jenes\-::stage\-::operator\-::\-Crossover$<$ T extends Chromosome $>$}}
+\subsubsection[{spread}]{\setlength{\rightskip}{0pt plus 5cm}abstract int jenes.\-stage.\-operator.\-Crossover$<$ T extends Chromosome $>$.spread (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [pure virtual]}}}\label{classjenes_1_1stage_1_1operator_1_1_crossover_3_01_t_01extends_01_chromosome_01_4_a8bb995f2cf77073b79c9276ee3e8535d}
+Returns the number of individuals involved by this crossover operator 
+
+\begin{DoxyReturn}{Returns}
+the number of individuals required by crossover 
+\end{DoxyReturn}
+
+
+\subsection{Member Data Documentation}
+\hypertarget{classjenes_1_1stage_1_1operator_1_1_crossover_3_01_t_01extends_01_chromosome_01_4_ac25f80174c265f930c316c2fb4bc7c5c}{\index{jenes\-::stage\-::operator\-::\-Crossover$<$ T extends Chromosome $>$@{jenes\-::stage\-::operator\-::\-Crossover$<$ T extends Chromosome $>$}!offsprings@{offsprings}}
+\index{offsprings@{offsprings}!jenes::stage::operator::Crossover< T extends Chromosome >@{jenes\-::stage\-::operator\-::\-Crossover$<$ T extends Chromosome $>$}}
+\subsubsection[{offsprings}]{\setlength{\rightskip}{0pt plus 5cm}Individual \mbox{[}$\,$\mbox{]} jenes.\-stage.\-operator.\-Crossover$<$ T extends Chromosome $>$.offsprings\hspace{0.3cm}{\ttfamily [private]}}}\label{classjenes_1_1stage_1_1operator_1_1_crossover_3_01_t_01extends_01_chromosome_01_4_ac25f80174c265f930c316c2fb4bc7c5c}
+\hypertarget{classjenes_1_1stage_1_1operator_1_1_crossover_3_01_t_01extends_01_chromosome_01_4_a2b4aec7312a223ba84862f7848b14542}{\index{jenes\-::stage\-::operator\-::\-Crossover$<$ T extends Chromosome $>$@{jenes\-::stage\-::operator\-::\-Crossover$<$ T extends Chromosome $>$}!probability@{probability}}
+\index{probability@{probability}!jenes::stage::operator::Crossover< T extends Chromosome >@{jenes\-::stage\-::operator\-::\-Crossover$<$ T extends Chromosome $>$}}
+\subsubsection[{probability}]{\setlength{\rightskip}{0pt plus 5cm}double jenes.\-stage.\-operator.\-Crossover$<$ T extends Chromosome $>$.probability\hspace{0.3cm}{\ttfamily [protected]}}}\label{classjenes_1_1stage_1_1operator_1_1_crossover_3_01_t_01extends_01_chromosome_01_4_a2b4aec7312a223ba84862f7848b14542}
+Crossover probability \hypertarget{classjenes_1_1stage_1_1operator_1_1_crossover_3_01_t_01extends_01_chromosome_01_4_ac70ed1d50508b2c367559c46e1f39453}{\index{jenes\-::stage\-::operator\-::\-Crossover$<$ T extends Chromosome $>$@{jenes\-::stage\-::operator\-::\-Crossover$<$ T extends Chromosome $>$}!spread@{spread}}
+\index{spread@{spread}!jenes::stage::operator::Crossover< T extends Chromosome >@{jenes\-::stage\-::operator\-::\-Crossover$<$ T extends Chromosome $>$}}
+\subsubsection[{spread}]{\setlength{\rightskip}{0pt plus 5cm}int jenes.\-stage.\-operator.\-Crossover$<$ T extends Chromosome $>$.spread\hspace{0.3cm}{\ttfamily [private]}}}\label{classjenes_1_1stage_1_1operator_1_1_crossover_3_01_t_01extends_01_chromosome_01_4_ac70ed1d50508b2c367559c46e1f39453}
+
+
+The documentation for this class was generated from the following file\-:\begin{DoxyCompactItemize}
+\item 
+src/jenes/stage/operator/\hyperlink{_crossover_8java}{Crossover.\-java}\end{DoxyCompactItemize}

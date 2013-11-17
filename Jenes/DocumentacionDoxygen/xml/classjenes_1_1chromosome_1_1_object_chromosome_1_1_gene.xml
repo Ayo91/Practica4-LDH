@@ -1,0 +1,192 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="classjenes_1_1chromosome_1_1_object_chromosome_1_1_gene" kind="class" prot="public">
+    <compoundname>jenes::chromosome::ObjectChromosome::Gene</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Cloneable</basecompoundref>
+      <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="classjenes_1_1chromosome_1_1_object_chromosome_1_1_gene_1a1f5727f2d06e896665bd77c5b93a78a2" prot="protected" static="no" mutable="no">
+        <type>Object</type>
+        <definition>Object jenes.chromosome.ObjectChromosome.Gene.value</definition>
+        <argsstring></argsstring>
+        <name>value</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The value (i.e. allele) assumed by the gene </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/chromosome/ObjectChromosome.java" line="61" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/chromosome/ObjectChromosome.java" bodystart="61" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classjenes_1_1chromosome_1_1_object_chromosome_1_1_gene_1a392d5ec4a86ae43a2bcda010bfa7256b" prot="protected" static="no" mutable="no">
+        <type>AlleleSet</type>
+        <definition>AlleleSet jenes.chromosome.ObjectChromosome.Gene.alleleSet</definition>
+        <argsstring></argsstring>
+        <name>alleleSet</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The set of possible values for the gene </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/chromosome/ObjectChromosome.java" line="65" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/chromosome/ObjectChromosome.java" bodystart="65" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classjenes_1_1chromosome_1_1_object_chromosome_1_1_gene_1ac397dc412cd6727d733c5f144e9b4fad" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>jenes.chromosome.ObjectChromosome.Gene.Gene</definition>
+        <argsstring>(final AlleleSet alleleSet)</argsstring>
+        <name>Gene</name>
+        <param>
+          <type>final AlleleSet</type>
+          <declname>alleleSet</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Creates a new <ref refid="classjenes_1_1chromosome_1_1_object_chromosome_1_1_gene" kindref="compound">Gene</ref> with the specified <computeroutput>AlleleSet</computeroutput>. The new gene will contain a random allele value. </para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>alleleSet</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the gene&apos;s <computeroutput>AlleleSet</computeroutput> </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/chromosome/ObjectChromosome.java" line="73" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/chromosome/ObjectChromosome.java" bodystart="73" bodyend="76"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classjenes_1_1chromosome_1_1_object_chromosome_1_1_gene_1abff8ba178d41215a409c1105fb258078" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>final AlleleSet</type>
+        <definition>final AlleleSet jenes.chromosome.ObjectChromosome.Gene.getAlleleSet</definition>
+        <argsstring>()</argsstring>
+        <name>getAlleleSet</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns the alleleSet of this gene. </para><para><simplesect kind="return"><para>the alleleSet of this gene </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/chromosome/ObjectChromosome.java" line="83" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/chromosome/ObjectChromosome.java" bodystart="83" bodyend="85"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1chromosome_1_1_object_chromosome_1_1_gene_1a38d07b4386798f456e02b0523b8ed2e2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>final void</type>
+        <definition>final void jenes.chromosome.ObjectChromosome.Gene.setAlleleSet</definition>
+        <argsstring>(final AlleleSet alleleSet)</argsstring>
+        <name>setAlleleSet</name>
+        <param>
+          <type>final AlleleSet</type>
+          <declname>alleleSet</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Sets the alleleSet of this <ref refid="classjenes_1_1chromosome_1_1_object_chromosome_1_1_gene" kindref="compound">Gene</ref> </para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>alleleSet</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the alleleSet to be setted to this gene </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/chromosome/ObjectChromosome.java" line="92" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/chromosome/ObjectChromosome.java" bodystart="92" bodyend="94"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1chromosome_1_1_object_chromosome_1_1_gene_1a8d7fdcee3b2afb3bbbb8d3c735a3091d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>final Object</type>
+        <definition>final Object jenes.chromosome.ObjectChromosome.Gene.getValue</definition>
+        <argsstring>()</argsstring>
+        <name>getValue</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns the object value of this gene </para><para><simplesect kind="return"><para>the pbject value of this gene </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/chromosome/ObjectChromosome.java" line="101" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/chromosome/ObjectChromosome.java" bodystart="101" bodyend="103"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1chromosome_1_1_object_chromosome_1_1_gene_1aae975ffe31a424c7af308a5f9fb1ef7d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>final void</type>
+        <definition>final void jenes.chromosome.ObjectChromosome.Gene.setValue</definition>
+        <argsstring>(final Object value)</argsstring>
+        <name>setValue</name>
+        <param>
+          <type>final Object</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Sets the gene value to this gene </para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>value</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the value to be setted to this gene </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/chromosome/ObjectChromosome.java" line="110" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/chromosome/ObjectChromosome.java" bodystart="110" bodyend="112"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1chromosome_1_1_object_chromosome_1_1_gene_1a9e0e9f30b3700d5703e568d17bc4e0e5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>final Object</type>
+        <definition>final Object jenes.chromosome.ObjectChromosome.Gene.clone</definition>
+        <argsstring>()</argsstring>
+        <name>clone</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/chromosome/ObjectChromosome.java" line="114" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/chromosome/ObjectChromosome.java" bodystart="114" bodyend="118"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>An <computeroutput><ref refid="classjenes_1_1chromosome_1_1_object_chromosome" kindref="compound">ObjectChromosome</ref></computeroutput>&apos;s gene. Each <computeroutput><ref refid="classjenes_1_1chromosome_1_1_object_chromosome_1_1_gene" kindref="compound">Gene</ref></computeroutput> has an <computeroutput>Object</computeroutput> value and an <computeroutput>AlleleSet</computeroutput> (that is the alphabet of its own value). </para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="197">
+        <label>Cloneable</label>
+      </node>
+      <node id="196">
+        <label>jenes.chromosome.ObjectChromosome.Gene</label>
+        <link refid="classjenes_1_1chromosome_1_1_object_chromosome_1_1_gene"/>
+        <childnode refid="197" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="199">
+        <label>Cloneable</label>
+      </node>
+      <node id="198">
+        <label>jenes.chromosome.ObjectChromosome.Gene</label>
+        <link refid="classjenes_1_1chromosome_1_1_object_chromosome_1_1_gene"/>
+        <childnode refid="199" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/chromosome/ObjectChromosome.java" line="56" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/chromosome/ObjectChromosome.java" bodystart="56" bodyend="119"/>
+    <listofallmembers>
+      <member refid="classjenes_1_1chromosome_1_1_object_chromosome_1_1_gene_1a392d5ec4a86ae43a2bcda010bfa7256b" prot="protected" virt="non-virtual"><scope>jenes::chromosome::ObjectChromosome::Gene</scope><name>alleleSet</name></member>
+      <member refid="classjenes_1_1chromosome_1_1_object_chromosome_1_1_gene_1a9e0e9f30b3700d5703e568d17bc4e0e5" prot="public" virt="non-virtual"><scope>jenes::chromosome::ObjectChromosome::Gene</scope><name>clone</name></member>
+      <member refid="classjenes_1_1chromosome_1_1_object_chromosome_1_1_gene_1ac397dc412cd6727d733c5f144e9b4fad" prot="private" virt="non-virtual"><scope>jenes::chromosome::ObjectChromosome::Gene</scope><name>Gene</name></member>
+      <member refid="classjenes_1_1chromosome_1_1_object_chromosome_1_1_gene_1abff8ba178d41215a409c1105fb258078" prot="public" virt="non-virtual"><scope>jenes::chromosome::ObjectChromosome::Gene</scope><name>getAlleleSet</name></member>
+      <member refid="classjenes_1_1chromosome_1_1_object_chromosome_1_1_gene_1a8d7fdcee3b2afb3bbbb8d3c735a3091d" prot="public" virt="non-virtual"><scope>jenes::chromosome::ObjectChromosome::Gene</scope><name>getValue</name></member>
+      <member refid="classjenes_1_1chromosome_1_1_object_chromosome_1_1_gene_1a38d07b4386798f456e02b0523b8ed2e2" prot="public" virt="non-virtual"><scope>jenes::chromosome::ObjectChromosome::Gene</scope><name>setAlleleSet</name></member>
+      <member refid="classjenes_1_1chromosome_1_1_object_chromosome_1_1_gene_1aae975ffe31a424c7af308a5f9fb1ef7d" prot="public" virt="non-virtual"><scope>jenes::chromosome::ObjectChromosome::Gene</scope><name>setValue</name></member>
+      <member refid="classjenes_1_1chromosome_1_1_object_chromosome_1_1_gene_1a1f5727f2d06e896665bd77c5b93a78a2" prot="protected" virt="non-virtual"><scope>jenes::chromosome::ObjectChromosome::Gene</scope><name>value</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="dir_c40e6450e6d5d136a63e67aebf74ec23" kind="dir">
+    <compoundname>src/jenes/tutorials/problem9</compoundname>
+    <innerfile refid="problem9_2_fitness_function_8java">FitnessFunction.java</innerfile>
+    <innerfile refid="_island_g_avs_simple_g_a_8java">IslandGAvsSimpleGA.java</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/problem9/"/>
+  </compounddef>
+</doxygen>

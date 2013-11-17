@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="enumjenes_1_1tutorials_1_1old_1_1problem5_1_1_color" kind="enum" prot="public">
+    <compoundname>jenes::tutorials::old::problem5::Color</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="enumjenes_1_1tutorials_1_1old_1_1problem5_1_1_color_1ad51840590e9a87bd4367c25e5022866b" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>jenes.tutorials.old.problem5.Color.RED</definition>
+        <argsstring></argsstring>
+        <name>RED</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/old/problem5/Color.java" line="36" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/old/problem5/Color.java" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="enumjenes_1_1tutorials_1_1old_1_1problem5_1_1_color_1a8c48229adc1957d055626d3ce74bc22f" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>jenes.tutorials.old.problem5.Color.BLACK</definition>
+        <argsstring></argsstring>
+        <name>BLACK</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/old/problem5/Color.java" line="36" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/old/problem5/Color.java" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-type">
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Tutorial illustrating the use of object-oriented chromosomes, whose allele set can be defined by the user for each gene.</para><para>In this example the chromosomes are combinations of colors. We aim at finding the vector of colors closest to a given sequence.</para><para>This class defines the enumeration of possible colors.</para><para><simplesect kind="version"><para>1.0 </para></simplesect>
+<simplesect kind="since"><para>1.0 </para></simplesect>
+</para>    </detaileddescription>
+    <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/old/problem5/Color.java" line="34" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/old/problem5/Color.java" bodystart="34" bodyend="38"/>
+    <listofallmembers>
+      <member refid="enumjenes_1_1tutorials_1_1old_1_1problem5_1_1_color_1a8c48229adc1957d055626d3ce74bc22f" prot="public" virt="non-virtual"><scope>jenes::tutorials::old::problem5::Color</scope><name>BLACK</name></member>
+      <member refid="enumjenes_1_1tutorials_1_1old_1_1problem5_1_1_color_1ad51840590e9a87bd4367c25e5022866b" prot="public" virt="non-virtual"><scope>jenes::tutorials::old::problem5::Color</scope><name>RED</name></member>
+      <member refid="enumjenes_1_1tutorials_1_1old_1_1problem5_1_1_color_1ae1a60e78c34e14765585db99fdb8516f" prot="public" virt="non-virtual"><scope>jenes::tutorials::old::problem5::Color</scope><name>WHITE</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

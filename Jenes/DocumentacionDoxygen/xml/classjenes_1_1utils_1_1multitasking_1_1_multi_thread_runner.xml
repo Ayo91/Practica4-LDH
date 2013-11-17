@@ -1,0 +1,189 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="classjenes_1_1utils_1_1multitasking_1_1_multi_thread_runner" kind="class" prot="public">
+    <compoundname>jenes::utils::multitasking::MultiThreadRunner</compoundname>
+    <basecompoundref refid="classjenes_1_1utils_1_1multitasking_1_1_runner" prot="public" virt="non-virtual">jenes.utils.multitasking.Runner</basecompoundref>
+    <derivedcompoundref refid="classjenes_1_1utils_1_1multitasking_1_1_multi_thread_evaluator" prot="public" virt="non-virtual">jenes.utils.multitasking.MultiThreadEvaluator</derivedcompoundref>
+      <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="classjenes_1_1utils_1_1multitasking_1_1_multi_thread_runner_1aa20fe700a6b2abd3694b4a1d5629db8f" prot="protected" static="no" mutable="no">
+        <type>int</type>
+        <definition>int jenes.utils.multitasking.MultiThreadRunner.nthreads</definition>
+        <argsstring></argsstring>
+        <name>nthreads</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/utils/multitasking/MultiThreadRunner.java" line="33" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/utils/multitasking/MultiThreadRunner.java" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classjenes_1_1utils_1_1multitasking_1_1_multi_thread_runner_1afd9939cc7a261bd4bb6c8f3de6f58337" prot="protected" static="no" mutable="no">
+        <type>ExecutorService</type>
+        <definition>ExecutorService jenes.utils.multitasking.MultiThreadRunner.threadGroup</definition>
+        <argsstring></argsstring>
+        <name>threadGroup</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Instance of the thread pool </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/utils/multitasking/MultiThreadRunner.java" line="37" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/utils/multitasking/MultiThreadRunner.java" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classjenes_1_1utils_1_1multitasking_1_1_multi_thread_runner_1ab0815486f3159f086cd06ccab94df319" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>jenes.utils.multitasking.MultiThreadRunner.MultiThreadRunner</definition>
+        <argsstring>()</argsstring>
+        <name>MultiThreadRunner</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Default constructor. This will instantiate a <ref refid="classjenes_1_1utils_1_1multitasking_1_1_multi_thread_runner" kindref="compound">MultiThreadRunner</ref> envoiroinment wich thread number is equals to the maximum number of processor phisical avaible to the host Java Virtual Machine. <linebreak/>
+ This approach minimize the overhead in managing the thread because the latest JVMs could try to dispach each thread on a different phisical processor obtaining the best speed-up in performances. <simplesect kind="see"><para><ref refid="classjenes_1_1utils_1_1multitasking_1_1_multi_thread_runner_1a6319362b08c06d8bf26989407d223c31" kindref="member">MultiThreadRunner(int)</ref> </para><simplesectsep/><para>Runtime::availableProcessors() </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/utils/multitasking/MultiThreadRunner.java" line="49" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/utils/multitasking/MultiThreadRunner.java" bodystart="49" bodyend="51"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1utils_1_1multitasking_1_1_multi_thread_runner_1a6319362b08c06d8bf26989407d223c31" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>jenes.utils.multitasking.MultiThreadRunner.MultiThreadRunner</definition>
+        <argsstring>(int nthreads)</argsstring>
+        <name>MultiThreadRunner</name>
+        <param>
+          <type>int</type>
+          <declname>nthreads</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>This will instantiate a <ref refid="classjenes_1_1utils_1_1multitasking_1_1_multi_thread_runner" kindref="compound">MultiThreadRunner</ref> enviroinment with a fixed thread pool sized as defined by argument <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>nthreads</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the number of threads to use to parallelize algorithm execution </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/utils/multitasking/MultiThreadRunner.java" line="58" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/utils/multitasking/MultiThreadRunner.java" bodystart="58" bodyend="60"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1utils_1_1multitasking_1_1_multi_thread_runner_1a69370630a898026070fe8e806cec8fe0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int jenes.utils.multitasking.MultiThreadRunner.getNthreads</definition>
+        <argsstring>()</argsstring>
+        <name>getNthreads</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Get the number of threads currently setted for this enviroinment <simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/utils/multitasking/MultiThreadRunner.java" line="66" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/utils/multitasking/MultiThreadRunner.java" bodystart="66" bodyend="68"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1utils_1_1multitasking_1_1_multi_thread_runner_1a52fc59a28c3187e84b871b9b823b7f43" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void jenes.utils.multitasking.MultiThreadRunner.start</definition>
+        <argsstring>(boolean reset)</argsstring>
+        <name>start</name>
+        <param>
+          <type>boolean</type>
+          <declname>reset</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/utils/multitasking/MultiThreadRunner.java" line="71" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/utils/multitasking/MultiThreadRunner.java" bodystart="71" bodyend="74"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1utils_1_1multitasking_1_1_multi_thread_runner_1a5f00a9b63ff1322d586ad62ec060d597" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void jenes.utils.multitasking.MultiThreadRunner.stop</definition>
+        <argsstring>()</argsstring>
+        <name>stop</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/utils/multitasking/MultiThreadRunner.java" line="77" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/utils/multitasking/MultiThreadRunner.java" bodystart="77" bodyend="80"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>This class provide the basic implementation of a multi-thread enviroinment for <ref refid="" kindref="compound">GeneticAlgorithm</ref></para><para><simplesect kind="since"><para>2.0 </para></simplesect>
+</para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="407">
+        <label>jenes.utils.multitasking.MultiThreadEvaluator</label>
+        <link refid="classjenes_1_1utils_1_1multitasking_1_1_multi_thread_evaluator"/>
+        <childnode refid="405" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="406">
+        <label>jenes.utils.multitasking.Runner</label>
+        <link refid="classjenes_1_1utils_1_1multitasking_1_1_runner"/>
+      </node>
+      <node id="405">
+        <label>jenes.utils.multitasking.MultiThreadRunner</label>
+        <link refid="classjenes_1_1utils_1_1multitasking_1_1_multi_thread_runner"/>
+        <childnode refid="406" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="411">
+        <label>ExecutorService</label>
+      </node>
+      <node id="409">
+        <label>jenes.utils.multitasking.Runner</label>
+        <link refid="classjenes_1_1utils_1_1multitasking_1_1_runner"/>
+        <childnode refid="410" relation="usage">
+          <edgelabel>algorithm</edgelabel>
+        </childnode>
+      </node>
+      <node id="410">
+        <label>GeneticAlgorithm</label>
+      </node>
+      <node id="408">
+        <label>jenes.utils.multitasking.MultiThreadRunner</label>
+        <link refid="classjenes_1_1utils_1_1multitasking_1_1_multi_thread_runner"/>
+        <childnode refid="409" relation="public-inheritance">
+        </childnode>
+        <childnode refid="411" relation="usage">
+          <edgelabel>threadGroup</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/utils/multitasking/MultiThreadRunner.java" line="31" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/utils/multitasking/MultiThreadRunner.java" bodystart="31" bodyend="82"/>
+    <listofallmembers>
+      <member refid="classjenes_1_1utils_1_1multitasking_1_1_runner_1a699ccf526b6116f97abc09e4ce390c89" prot="protected" virt="non-virtual"><scope>jenes::utils::multitasking::MultiThreadRunner</scope><name>algorithm</name></member>
+      <member refid="classjenes_1_1utils_1_1multitasking_1_1_runner_1a250c5e0ffdb86ef0bb0e78e625a449e7" prot="public" virt="pure-virtual"><scope>jenes::utils::multitasking::MultiThreadRunner</scope><name>evaluateIndividual</name></member>
+      <member refid="classjenes_1_1utils_1_1multitasking_1_1_runner_1a24d074cbd5140cd8bc65623fa1961f39" prot="public" virt="non-virtual"><scope>jenes::utils::multitasking::MultiThreadRunner</scope><name>execute</name></member>
+      <member refid="classjenes_1_1utils_1_1multitasking_1_1_runner_1ae222d69f44508fc432c05074272e0ae3" prot="public" virt="non-virtual"><scope>jenes::utils::multitasking::MultiThreadRunner</scope><name>execute</name></member>
+      <member refid="classjenes_1_1utils_1_1multitasking_1_1_runner_1a7205f2d93d68f40e3e87dccf92cc3720" prot="public" virt="non-virtual"><scope>jenes::utils::multitasking::MultiThreadRunner</scope><name>execute</name></member>
+      <member refid="classjenes_1_1utils_1_1multitasking_1_1_runner_1a462a121a840bbf06593bbd7da219d8b9" prot="public" virt="non-virtual"><scope>jenes::utils::multitasking::MultiThreadRunner</scope><name>getGeneticAlgorithm</name></member>
+      <member refid="classjenes_1_1utils_1_1multitasking_1_1_multi_thread_runner_1a69370630a898026070fe8e806cec8fe0" prot="public" virt="non-virtual"><scope>jenes::utils::multitasking::MultiThreadRunner</scope><name>getNthreads</name></member>
+      <member refid="classjenes_1_1utils_1_1multitasking_1_1_multi_thread_runner_1ab0815486f3159f086cd06ccab94df319" prot="public" virt="non-virtual"><scope>jenes::utils::multitasking::MultiThreadRunner</scope><name>MultiThreadRunner</name></member>
+      <member refid="classjenes_1_1utils_1_1multitasking_1_1_multi_thread_runner_1a6319362b08c06d8bf26989407d223c31" prot="public" virt="non-virtual"><scope>jenes::utils::multitasking::MultiThreadRunner</scope><name>MultiThreadRunner</name></member>
+      <member refid="classjenes_1_1utils_1_1multitasking_1_1_multi_thread_runner_1aa20fe700a6b2abd3694b4a1d5629db8f" prot="protected" virt="non-virtual"><scope>jenes::utils::multitasking::MultiThreadRunner</scope><name>nthreads</name></member>
+      <member refid="classjenes_1_1utils_1_1multitasking_1_1_runner_1a6ec13cf0fb2ff03461a3a397421505cf" prot="public" virt="non-virtual"><scope>jenes::utils::multitasking::MultiThreadRunner</scope><name>onEvaluationBegin</name></member>
+      <member refid="classjenes_1_1utils_1_1multitasking_1_1_runner_1a82c84ad942296d62849248b107ec3a2c" prot="public" virt="non-virtual"><scope>jenes::utils::multitasking::MultiThreadRunner</scope><name>onEvaluationEnd</name></member>
+      <member refid="classjenes_1_1utils_1_1multitasking_1_1_runner_1a4c4d4a0cd7aec110d60da5c660903398" prot="public" virt="non-virtual"><scope>jenes::utils::multitasking::MultiThreadRunner</scope><name>onInit</name></member>
+      <member refid="classjenes_1_1utils_1_1multitasking_1_1_runner_1adad9fb400d736e55bcd3dfdf07742437" prot="public" virt="non-virtual"><scope>jenes::utils::multitasking::MultiThreadRunner</scope><name>setAlgorithm</name></member>
+      <member refid="classjenes_1_1utils_1_1multitasking_1_1_multi_thread_runner_1a52fc59a28c3187e84b871b9b823b7f43" prot="public" virt="non-virtual"><scope>jenes::utils::multitasking::MultiThreadRunner</scope><name>start</name></member>
+      <member refid="classjenes_1_1utils_1_1multitasking_1_1_multi_thread_runner_1a5f00a9b63ff1322d586ad62ec060d597" prot="public" virt="non-virtual"><scope>jenes::utils::multitasking::MultiThreadRunner</scope><name>stop</name></member>
+      <member refid="classjenes_1_1utils_1_1multitasking_1_1_multi_thread_runner_1afd9939cc7a261bd4bb6c8f3de6f58337" prot="protected" virt="non-virtual"><scope>jenes::utils::multitasking::MultiThreadRunner</scope><name>threadGroup</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

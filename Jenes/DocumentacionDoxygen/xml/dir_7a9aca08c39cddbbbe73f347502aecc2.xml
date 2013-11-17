@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="dir_7a9aca08c39cddbbbe73f347502aecc2" kind="dir">
+    <compoundname>src/jenes/stage/operator</compoundname>
+    <innerdir refid="dir_3026c930e1c2a8db495b82daa9b0f1de">src/jenes/stage/operator/common</innerdir>
+    <innerfile refid="_crossover_8java">Crossover.java</innerfile>
+    <innerfile refid="_crowder_8java">Crowder.java</innerfile>
+    <innerfile refid="_mutator_8java">Mutator.java</innerfile>
+    <innerfile refid="_operator_8java">Operator.java</innerfile>
+    <innerfile refid="_scaling_8java">Scaling.java</innerfile>
+    <innerfile refid="_selector_8java">Selector.java</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/operator/"/>
+  </compounddef>
+</doxygen>

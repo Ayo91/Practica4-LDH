@@ -1,0 +1,121 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="classjenes_1_1tutorials_1_1old_1_1problem3_1_1_t_s_p_g_a" kind="class" prot="public">
+    <compoundname>jenes::tutorials::old::problem3::TSPGA</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">jenes::GeneticAlgorithm&lt; IntegerChromosome &gt;</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classjenes_1_1tutorials_1_1old_1_1problem3_1_1_t_s_p_g_a_1a1613f59b74e07f37759305abfd0d26b0" prot="private" static="no" mutable="no">
+        <type>double[][]</type>
+        <definition>double [][] jenes.tutorials.old.problem3.TSPGA.matrix</definition>
+        <argsstring></argsstring>
+        <name>matrix</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/old/problem3/TSPGA.java" line="38" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/old/problem3/TSPGA.java" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classjenes_1_1tutorials_1_1old_1_1problem3_1_1_t_s_p_g_a_1aee42308116b327b1b73b5996bcb39aba" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>jenes.tutorials.old.problem3.TSPGA.TSPGA</definition>
+        <argsstring>(double[][] matrix, Population&lt; IntegerChromosome &gt; pop, int genlimit)</argsstring>
+        <name>TSPGA</name>
+        <param>
+          <type>double</type>
+          <declname>matrix</declname>
+          <array>[][]</array>
+        </param>
+        <param>
+          <type>Population&lt; <ref refid="classjenes_1_1chromosome_1_1_integer_chromosome" kindref="compound">IntegerChromosome</ref> &gt;</type>
+          <declname>pop</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>genlimit</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/old/problem3/TSPGA.java" line="40" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/old/problem3/TSPGA.java" bodystart="40" bodyend="43"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1tutorials_1_1old_1_1problem3_1_1_t_s_p_g_a_1a4485dcb637c0d0352c4372e4bef4da18" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void jenes.tutorials.old.problem3.TSPGA.evaluateIndividual</definition>
+        <argsstring>(Individual&lt; IntegerChromosome &gt; individual)</argsstring>
+        <name>evaluateIndividual</name>
+        <param>
+          <type>Individual&lt; <ref refid="classjenes_1_1chromosome_1_1_integer_chromosome" kindref="compound">IntegerChromosome</ref> &gt;</type>
+          <declname>individual</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/old/problem3/TSPGA.java" line="46" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/old/problem3/TSPGA.java" bodystart="46" bodyend="58"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classjenes_1_1tutorials_1_1old_1_1problem3_1_1_t_s_p_g_a_1ae2fb356349da4c72fec6398f226877c9" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void jenes.tutorials.old.problem3.TSPGA.randomizeIndividual</definition>
+        <argsstring>(Individual&lt; IntegerChromosome &gt; individual)</argsstring>
+        <name>randomizeIndividual</name>
+        <param>
+          <type>Individual&lt; <ref refid="classjenes_1_1chromosome_1_1_integer_chromosome" kindref="compound">IntegerChromosome</ref> &gt;</type>
+          <declname>individual</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/old/problem3/TSPGA.java" line="61" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/old/problem3/TSPGA.java" bodystart="61" bodyend="69"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Tutorial showing how to implement problem specific operators. The problem faced in this example is the well known Tavel Salesman Problem (TSP)</para><para>This class implements the algorithm.</para><para><simplesect kind="version"><para>1.0 </para></simplesect>
+<simplesect kind="since"><para>1.0 </para></simplesect>
+</para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="728">
+        <label>jenes.tutorials.old.problem3.TSPGA</label>
+        <link refid="classjenes_1_1tutorials_1_1old_1_1problem3_1_1_t_s_p_g_a"/>
+        <childnode refid="729" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="729">
+        <label>jenes::GeneticAlgorithm&lt; IntegerChromosome &gt;</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="730">
+        <label>jenes.tutorials.old.problem3.TSPGA</label>
+        <link refid="classjenes_1_1tutorials_1_1old_1_1problem3_1_1_t_s_p_g_a"/>
+        <childnode refid="731" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="731">
+        <label>jenes::GeneticAlgorithm&lt; IntegerChromosome &gt;</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/old/problem3/TSPGA.java" line="36" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/old/problem3/TSPGA.java" bodystart="36" bodyend="71"/>
+    <listofallmembers>
+      <member refid="classjenes_1_1tutorials_1_1old_1_1problem3_1_1_t_s_p_g_a_1a4485dcb637c0d0352c4372e4bef4da18" prot="public" virt="non-virtual"><scope>jenes::tutorials::old::problem3::TSPGA</scope><name>evaluateIndividual</name></member>
+      <member refid="classjenes_1_1tutorials_1_1old_1_1problem3_1_1_t_s_p_g_a_1a1613f59b74e07f37759305abfd0d26b0" prot="private" virt="non-virtual"><scope>jenes::tutorials::old::problem3::TSPGA</scope><name>matrix</name></member>
+      <member refid="classjenes_1_1tutorials_1_1old_1_1problem3_1_1_t_s_p_g_a_1ae2fb356349da4c72fec6398f226877c9" prot="protected" virt="non-virtual"><scope>jenes::tutorials::old::problem3::TSPGA</scope><name>randomizeIndividual</name></member>
+      <member refid="classjenes_1_1tutorials_1_1old_1_1problem3_1_1_t_s_p_g_a_1aee42308116b327b1b73b5996bcb39aba" prot="public" virt="non-virtual"><scope>jenes::tutorials::old::problem3::TSPGA</scope><name>TSPGA</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

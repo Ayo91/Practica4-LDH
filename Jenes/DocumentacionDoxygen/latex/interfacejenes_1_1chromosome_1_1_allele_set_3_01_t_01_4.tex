@@ -1,0 +1,120 @@
+\hypertarget{interfacejenes_1_1chromosome_1_1_allele_set_3_01_t_01_4}{\section{jenes.\-chromosome.\-Allele\-Set$<$ T $>$ Interface Reference}
+\label{interfacejenes_1_1chromosome_1_1_allele_set_3_01_t_01_4}\index{jenes.\-chromosome.\-Allele\-Set$<$ T $>$@{jenes.\-chromosome.\-Allele\-Set$<$ T $>$}}
+}
+Inheritance diagram for jenes.\-chromosome.\-Allele\-Set$<$ T $>$\-:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{interfacejenes_1_1chromosome_1_1_allele_set_3_01_t_01_4}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+abstract T \hyperlink{interfacejenes_1_1chromosome_1_1_allele_set_3_01_t_01_4_a10625403643dc57a5c655a92a49aa644}{get\-Element\-At} (int pos)
+\item 
+abstract T \hyperlink{interfacejenes_1_1chromosome_1_1_allele_set_3_01_t_01_4_ac09d409c55d941892df658d21b3d4bff}{get\-Random\-Value} ()
+\item 
+abstract int \hyperlink{interfacejenes_1_1chromosome_1_1_allele_set_3_01_t_01_4_a3acbb10df92ebafc589d5d8546949f2f}{size} ()
+\item 
+abstract double \hyperlink{interfacejenes_1_1chromosome_1_1_allele_set_3_01_t_01_4_a74ab0cb120fcfdee8e878727d6c50815}{difference} (T a0, T a1)
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+An Allele\-Set represents an alphabet of object gene allele values. Each \hyperlink{classjenes_1_1chromosome_1_1_object_chromosome_1_1_gene}{Object\-Chromosome.\-Gene} of an \hyperlink{classjenes_1_1chromosome_1_1_object_chromosome}{Object\-Chromosome} has an allele set containing all the object values it can assume. A custom set of values can be determined by implementing this interface.
+
+
+\begin{DoxyParams}{Parameters}
+{\em $<$\-T$>$} & class of elements held by Allele\-Set\\
+\hline
+\end{DoxyParams}
+\begin{DoxyVersion}{Version}
+2.\-0 
+\end{DoxyVersion}
+\begin{DoxySince}{Since}
+1.\-0
+\end{DoxySince}
+\begin{DoxySeeAlso}{See Also}
+\hyperlink{classjenes_1_1chromosome_1_1_object_chromosome}{jenes.\-chromosome.\-Object\-Chromosome} 
+\end{DoxySeeAlso}
+
+
+\subsection{Member Function Documentation}
+\hypertarget{interfacejenes_1_1chromosome_1_1_allele_set_3_01_t_01_4_a74ab0cb120fcfdee8e878727d6c50815}{\index{jenes\-::chromosome\-::\-Allele\-Set$<$ T $>$@{jenes\-::chromosome\-::\-Allele\-Set$<$ T $>$}!difference@{difference}}
+\index{difference@{difference}!jenes::chromosome::AlleleSet< T >@{jenes\-::chromosome\-::\-Allele\-Set$<$ T $>$}}
+\subsubsection[{difference}]{\setlength{\rightskip}{0pt plus 5cm}abstract double jenes.\-chromosome.\-Allele\-Set$<$ T $>$.difference (
+\begin{DoxyParamCaption}
+\item[{T}]{a0, }
+\item[{T}]{a1}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [pure virtual]}}}\label{interfacejenes_1_1chromosome_1_1_allele_set_3_01_t_01_4_a74ab0cb120fcfdee8e878727d6c50815}
+Provides the genetic difference between two alleles.
+
+
+\begin{DoxyParams}{Parameters}
+{\em a0} & -\/ first allele \\
+\hline
+{\em a1} & -\/ second allele \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+-\/ the genetic difeerence 
+\end{DoxyReturn}
+
+
+Implemented in \hyperlink{classjenes_1_1chromosome_1_1_generic_allele_set_3_01_t_01_4_ace70b10ee535ccc3a7cbcd42739b8d5c}{jenes.\-chromosome.\-Generic\-Allele\-Set$<$ T $>$}.
+
+\hypertarget{interfacejenes_1_1chromosome_1_1_allele_set_3_01_t_01_4_a10625403643dc57a5c655a92a49aa644}{\index{jenes\-::chromosome\-::\-Allele\-Set$<$ T $>$@{jenes\-::chromosome\-::\-Allele\-Set$<$ T $>$}!get\-Element\-At@{get\-Element\-At}}
+\index{get\-Element\-At@{get\-Element\-At}!jenes::chromosome::AlleleSet< T >@{jenes\-::chromosome\-::\-Allele\-Set$<$ T $>$}}
+\subsubsection[{get\-Element\-At}]{\setlength{\rightskip}{0pt plus 5cm}abstract T jenes.\-chromosome.\-Allele\-Set$<$ T $>$.get\-Element\-At (
+\begin{DoxyParamCaption}
+\item[{int}]{pos}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [pure virtual]}}}\label{interfacejenes_1_1chromosome_1_1_allele_set_3_01_t_01_4_a10625403643dc57a5c655a92a49aa644}
+Gets the allele value at the specified position 
+
+
+\begin{DoxyParams}{Parameters}
+{\em pos} & the index of the desidered allele value \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+the allele value at the specified position 
+\end{DoxyReturn}
+\hypertarget{interfacejenes_1_1chromosome_1_1_allele_set_3_01_t_01_4_ac09d409c55d941892df658d21b3d4bff}{\index{jenes\-::chromosome\-::\-Allele\-Set$<$ T $>$@{jenes\-::chromosome\-::\-Allele\-Set$<$ T $>$}!get\-Random\-Value@{get\-Random\-Value}}
+\index{get\-Random\-Value@{get\-Random\-Value}!jenes::chromosome::AlleleSet< T >@{jenes\-::chromosome\-::\-Allele\-Set$<$ T $>$}}
+\subsubsection[{get\-Random\-Value}]{\setlength{\rightskip}{0pt plus 5cm}abstract T jenes.\-chromosome.\-Allele\-Set$<$ T $>$.get\-Random\-Value (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [pure virtual]}}}\label{interfacejenes_1_1chromosome_1_1_allele_set_3_01_t_01_4_ac09d409c55d941892df658d21b3d4bff}
+Gets a random allele value within this alphabet. The allele value returned has to be a copy of the value in the allele set. 
+
+\begin{DoxyReturn}{Returns}
+the random value selected 
+\end{DoxyReturn}
+
+
+Implemented in \hyperlink{classjenes_1_1chromosome_1_1_generic_allele_set_3_01_t_01_4_a2f330d71d992e0d724bc31730b56229e}{jenes.\-chromosome.\-Generic\-Allele\-Set$<$ T $>$}.
+
+\hypertarget{interfacejenes_1_1chromosome_1_1_allele_set_3_01_t_01_4_a3acbb10df92ebafc589d5d8546949f2f}{\index{jenes\-::chromosome\-::\-Allele\-Set$<$ T $>$@{jenes\-::chromosome\-::\-Allele\-Set$<$ T $>$}!size@{size}}
+\index{size@{size}!jenes::chromosome::AlleleSet< T >@{jenes\-::chromosome\-::\-Allele\-Set$<$ T $>$}}
+\subsubsection[{size}]{\setlength{\rightskip}{0pt plus 5cm}abstract int jenes.\-chromosome.\-Allele\-Set$<$ T $>$.size (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [pure virtual]}}}\label{interfacejenes_1_1chromosome_1_1_allele_set_3_01_t_01_4_a3acbb10df92ebafc589d5d8546949f2f}
+Returns the alphabet size 
+
+\begin{DoxyReturn}{Returns}
+the alphabet size 
+\end{DoxyReturn}
+
+
+Implemented in \hyperlink{classjenes_1_1chromosome_1_1_generic_allele_set_3_01_t_01_4_a568ca617716496507d41e348c5bc2845}{jenes.\-chromosome.\-Generic\-Allele\-Set$<$ T $>$}.
+
+
+
+The documentation for this interface was generated from the following file\-:\begin{DoxyCompactItemize}
+\item 
+src/jenes/chromosome/\hyperlink{_allele_set_8java}{Allele\-Set.\-java}\end{DoxyCompactItemize}

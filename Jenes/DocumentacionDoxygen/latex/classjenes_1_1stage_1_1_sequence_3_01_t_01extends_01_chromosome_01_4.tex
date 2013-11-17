@@ -1,0 +1,202 @@
+\hypertarget{classjenes_1_1stage_1_1_sequence_3_01_t_01extends_01_chromosome_01_4}{\section{jenes.\-stage.\-Sequence$<$ T extends Chromosome $>$ Class Reference}
+\label{classjenes_1_1stage_1_1_sequence_3_01_t_01extends_01_chromosome_01_4}\index{jenes.\-stage.\-Sequence$<$ T extends Chromosome $>$@{jenes.\-stage.\-Sequence$<$ T extends Chromosome $>$}}
+}
+Inheritance diagram for jenes.\-stage.\-Sequence$<$ T extends Chromosome $>$\-:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{classjenes_1_1stage_1_1_sequence_3_01_t_01extends_01_chromosome_01_4}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+Population$<$ T $>$ \hyperlink{classjenes_1_1stage_1_1_sequence_3_01_t_01extends_01_chromosome_01_4_a8d41af628fe9c1e2fdf4be3c9938a172}{Sequence} ()
+\item 
+void \hyperlink{classjenes_1_1stage_1_1_sequence_3_01_t_01extends_01_chromosome_01_4_a7d0e59aeed366cb6f71f754f61bfceb3}{append\-Stage} (Abstract\-Stage$<$ T $>$ stage)
+\item 
+void \hyperlink{classjenes_1_1stage_1_1_sequence_3_01_t_01extends_01_chromosome_01_4_a922e6363fc19620738e95ddfc649ea6e}{insert\-Stage\-At} (Abstract\-Stage$<$ T $>$ stage, int pos)
+\item 
+void \hyperlink{classjenes_1_1stage_1_1_sequence_3_01_t_01extends_01_chromosome_01_4_ab020311ac8fad8d6d884df9634c211b8}{remove\-All} ()
+\item 
+int \hyperlink{classjenes_1_1stage_1_1_sequence_3_01_t_01extends_01_chromosome_01_4_af16f419e9be758779fa14cf53f31bfe1}{get\-Size} ()
+\item 
+Abstract\-Stage$<$ T $>$ \hyperlink{classjenes_1_1stage_1_1_sequence_3_01_t_01extends_01_chromosome_01_4_aa9e1d97737fed4c5141cda315c216b32}{get\-Stage\-At} (int pos)
+\item 
+Abstract\-Stage$<$ T $>$ \hyperlink{classjenes_1_1stage_1_1_sequence_3_01_t_01extends_01_chromosome_01_4_a1336b162d37aaa9b402c49480d12f8ef}{remove\-At} (int pos)
+\item 
+void \hyperlink{classjenes_1_1stage_1_1_sequence_3_01_t_01extends_01_chromosome_01_4_a98d9ad6e0fdc1547971fe7fce029e25f}{init} (Genetic\-Algorithm$<$ T $>$ ga)
+\item 
+void \hyperlink{classjenes_1_1stage_1_1_sequence_3_01_t_01extends_01_chromosome_01_4_a4faf3479fa76eef530633ce8339971e5}{dispose} ()
+\item 
+final void \hyperlink{classjenes_1_1stage_1_1_sequence_3_01_t_01extends_01_chromosome_01_4_adc0e7397edd44839ef221122db3696e8}{process} (Population$<$ T $>$ in, Population$<$ T $>$ out)  throws Stage\-Exception 
+\item 
+void \hyperlink{classjenes_1_1stage_1_1_sequence_3_01_t_01extends_01_chromosome_01_4_a759a03c3336352cc390b2024afcc2ab1}{set\-Bigger\-Is\-Better} (boolean flag, boolean recursively)
+\item 
+void \hyperlink{classjenes_1_1stage_1_1_sequence_3_01_t_01extends_01_chromosome_01_4_a1ec43e74c2534861caf2475405869853}{set\-Fitness} (Fitness fit, boolean recursively)
+\end{DoxyCompactItemize}
+\subsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+List$<$ Abstract\-Stage$<$ T $>$ $>$ \hyperlink{classjenes_1_1stage_1_1_sequence_3_01_t_01extends_01_chromosome_01_4_a7bf8fc1d26c7aadb73974beccf970343}{stages}
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+A sequence is like a \char`\"{}pipe\char`\"{} of other stages.\par
+ Stages are executed sequentially in the order they are added to the sequence. Each stage receives an input population (produced as output by the previous stage) and produces an output population.
+
+
+\begin{DoxyParams}{Parameters}
+{\em $<$\-T$>$} & The class chromosomes flowing across the stage.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyVersion}{Version}
+2.\-0 
+\end{DoxyVersion}
+\begin{DoxySince}{Since}
+1.\-0 
+\end{DoxySince}
+
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{classjenes_1_1stage_1_1_sequence_3_01_t_01extends_01_chromosome_01_4_a8d41af628fe9c1e2fdf4be3c9938a172}{\index{jenes\-::stage\-::\-Sequence$<$ T extends Chromosome $>$@{jenes\-::stage\-::\-Sequence$<$ T extends Chromosome $>$}!Sequence@{Sequence}}
+\index{Sequence@{Sequence}!jenes::stage::Sequence< T extends Chromosome >@{jenes\-::stage\-::\-Sequence$<$ T extends Chromosome $>$}}
+\subsubsection[{Sequence}]{\setlength{\rightskip}{0pt plus 5cm}Population$<$T$>$ jenes.\-stage.\-Sequence$<$ T extends Chromosome $>$.Sequence (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classjenes_1_1stage_1_1_sequence_3_01_t_01extends_01_chromosome_01_4_a8d41af628fe9c1e2fdf4be3c9938a172}
+Constructs a new sequence stage. 
+
+\subsection{Member Function Documentation}
+\hypertarget{classjenes_1_1stage_1_1_sequence_3_01_t_01extends_01_chromosome_01_4_a7d0e59aeed366cb6f71f754f61bfceb3}{\index{jenes\-::stage\-::\-Sequence$<$ T extends Chromosome $>$@{jenes\-::stage\-::\-Sequence$<$ T extends Chromosome $>$}!append\-Stage@{append\-Stage}}
+\index{append\-Stage@{append\-Stage}!jenes::stage::Sequence< T extends Chromosome >@{jenes\-::stage\-::\-Sequence$<$ T extends Chromosome $>$}}
+\subsubsection[{append\-Stage}]{\setlength{\rightskip}{0pt plus 5cm}void jenes.\-stage.\-Sequence$<$ T extends Chromosome $>$.append\-Stage (
+\begin{DoxyParamCaption}
+\item[{Abstract\-Stage$<$ T $>$}]{stage}
+\end{DoxyParamCaption}
+)}}\label{classjenes_1_1stage_1_1_sequence_3_01_t_01extends_01_chromosome_01_4_a7d0e59aeed366cb6f71f754f61bfceb3}
+Adds the specified stage at the end of this sequence 
+
+
+\begin{DoxyParams}{Parameters}
+{\em stage} & the stage to add \\
+\hline
+\end{DoxyParams}
+\hypertarget{classjenes_1_1stage_1_1_sequence_3_01_t_01extends_01_chromosome_01_4_a4faf3479fa76eef530633ce8339971e5}{\index{jenes\-::stage\-::\-Sequence$<$ T extends Chromosome $>$@{jenes\-::stage\-::\-Sequence$<$ T extends Chromosome $>$}!dispose@{dispose}}
+\index{dispose@{dispose}!jenes::stage::Sequence< T extends Chromosome >@{jenes\-::stage\-::\-Sequence$<$ T extends Chromosome $>$}}
+\subsubsection[{dispose}]{\setlength{\rightskip}{0pt plus 5cm}void jenes.\-stage.\-Sequence$<$ T extends Chromosome $>$.dispose (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classjenes_1_1stage_1_1_sequence_3_01_t_01extends_01_chromosome_01_4_a4faf3479fa76eef530633ce8339971e5}
+Disposes all of its internal stages \hypertarget{classjenes_1_1stage_1_1_sequence_3_01_t_01extends_01_chromosome_01_4_af16f419e9be758779fa14cf53f31bfe1}{\index{jenes\-::stage\-::\-Sequence$<$ T extends Chromosome $>$@{jenes\-::stage\-::\-Sequence$<$ T extends Chromosome $>$}!get\-Size@{get\-Size}}
+\index{get\-Size@{get\-Size}!jenes::stage::Sequence< T extends Chromosome >@{jenes\-::stage\-::\-Sequence$<$ T extends Chromosome $>$}}
+\subsubsection[{get\-Size}]{\setlength{\rightskip}{0pt plus 5cm}int jenes.\-stage.\-Sequence$<$ T extends Chromosome $>$.get\-Size (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classjenes_1_1stage_1_1_sequence_3_01_t_01extends_01_chromosome_01_4_af16f419e9be758779fa14cf53f31bfe1}
+Returns the number of stages \begin{DoxyReturn}{Returns}
+the number of stages 
+\end{DoxyReturn}
+\hypertarget{classjenes_1_1stage_1_1_sequence_3_01_t_01extends_01_chromosome_01_4_aa9e1d97737fed4c5141cda315c216b32}{\index{jenes\-::stage\-::\-Sequence$<$ T extends Chromosome $>$@{jenes\-::stage\-::\-Sequence$<$ T extends Chromosome $>$}!get\-Stage\-At@{get\-Stage\-At}}
+\index{get\-Stage\-At@{get\-Stage\-At}!jenes::stage::Sequence< T extends Chromosome >@{jenes\-::stage\-::\-Sequence$<$ T extends Chromosome $>$}}
+\subsubsection[{get\-Stage\-At}]{\setlength{\rightskip}{0pt plus 5cm}Abstract\-Stage$<$T$>$ jenes.\-stage.\-Sequence$<$ T extends Chromosome $>$.get\-Stage\-At (
+\begin{DoxyParamCaption}
+\item[{int}]{pos}
+\end{DoxyParamCaption}
+)}}\label{classjenes_1_1stage_1_1_sequence_3_01_t_01extends_01_chromosome_01_4_aa9e1d97737fed4c5141cda315c216b32}
+Returns the stage at the specified position
+
+
+\begin{DoxyParams}{Parameters}
+{\em pos} & index of the stage to return \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The stage at the specified position 
+\end{DoxyReturn}
+\hypertarget{classjenes_1_1stage_1_1_sequence_3_01_t_01extends_01_chromosome_01_4_a98d9ad6e0fdc1547971fe7fce029e25f}{\index{jenes\-::stage\-::\-Sequence$<$ T extends Chromosome $>$@{jenes\-::stage\-::\-Sequence$<$ T extends Chromosome $>$}!init@{init}}
+\index{init@{init}!jenes::stage::Sequence< T extends Chromosome >@{jenes\-::stage\-::\-Sequence$<$ T extends Chromosome $>$}}
+\subsubsection[{init}]{\setlength{\rightskip}{0pt plus 5cm}void jenes.\-stage.\-Sequence$<$ T extends Chromosome $>$.init (
+\begin{DoxyParamCaption}
+\item[{Genetic\-Algorithm$<$ T $>$}]{ga}
+\end{DoxyParamCaption}
+)}}\label{classjenes_1_1stage_1_1_sequence_3_01_t_01extends_01_chromosome_01_4_a98d9ad6e0fdc1547971fe7fce029e25f}
+Initializes all of its internal stages \hypertarget{classjenes_1_1stage_1_1_sequence_3_01_t_01extends_01_chromosome_01_4_a922e6363fc19620738e95ddfc649ea6e}{\index{jenes\-::stage\-::\-Sequence$<$ T extends Chromosome $>$@{jenes\-::stage\-::\-Sequence$<$ T extends Chromosome $>$}!insert\-Stage\-At@{insert\-Stage\-At}}
+\index{insert\-Stage\-At@{insert\-Stage\-At}!jenes::stage::Sequence< T extends Chromosome >@{jenes\-::stage\-::\-Sequence$<$ T extends Chromosome $>$}}
+\subsubsection[{insert\-Stage\-At}]{\setlength{\rightskip}{0pt plus 5cm}void jenes.\-stage.\-Sequence$<$ T extends Chromosome $>$.insert\-Stage\-At (
+\begin{DoxyParamCaption}
+\item[{Abstract\-Stage$<$ T $>$}]{stage, }
+\item[{int}]{pos}
+\end{DoxyParamCaption}
+)}}\label{classjenes_1_1stage_1_1_sequence_3_01_t_01extends_01_chromosome_01_4_a922e6363fc19620738e95ddfc649ea6e}
+Adds the specified stage to the specified position 
+
+
+\begin{DoxyParams}{Parameters}
+{\em stage} & the stage to add \\
+\hline
+{\em pos} & the position where to insert the new stage \\
+\hline
+\end{DoxyParams}
+\hypertarget{classjenes_1_1stage_1_1_sequence_3_01_t_01extends_01_chromosome_01_4_adc0e7397edd44839ef221122db3696e8}{\index{jenes\-::stage\-::\-Sequence$<$ T extends Chromosome $>$@{jenes\-::stage\-::\-Sequence$<$ T extends Chromosome $>$}!process@{process}}
+\index{process@{process}!jenes::stage::Sequence< T extends Chromosome >@{jenes\-::stage\-::\-Sequence$<$ T extends Chromosome $>$}}
+\subsubsection[{process}]{\setlength{\rightskip}{0pt plus 5cm}final void jenes.\-stage.\-Sequence$<$ T extends Chromosome $>$.process (
+\begin{DoxyParamCaption}
+\item[{Population$<$ T $>$}]{in, }
+\item[{Population$<$ T $>$}]{out}
+\end{DoxyParamCaption}
+) throws {\bf Stage\-Exception}}}\label{classjenes_1_1stage_1_1_sequence_3_01_t_01extends_01_chromosome_01_4_adc0e7397edd44839ef221122db3696e8}
+Invokes the process method on all of its internal stages \hypertarget{classjenes_1_1stage_1_1_sequence_3_01_t_01extends_01_chromosome_01_4_ab020311ac8fad8d6d884df9634c211b8}{\index{jenes\-::stage\-::\-Sequence$<$ T extends Chromosome $>$@{jenes\-::stage\-::\-Sequence$<$ T extends Chromosome $>$}!remove\-All@{remove\-All}}
+\index{remove\-All@{remove\-All}!jenes::stage::Sequence< T extends Chromosome >@{jenes\-::stage\-::\-Sequence$<$ T extends Chromosome $>$}}
+\subsubsection[{remove\-All}]{\setlength{\rightskip}{0pt plus 5cm}void jenes.\-stage.\-Sequence$<$ T extends Chromosome $>$.remove\-All (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classjenes_1_1stage_1_1_sequence_3_01_t_01extends_01_chromosome_01_4_ab020311ac8fad8d6d884df9634c211b8}
+Removes all the stages from this sequence \hypertarget{classjenes_1_1stage_1_1_sequence_3_01_t_01extends_01_chromosome_01_4_a1336b162d37aaa9b402c49480d12f8ef}{\index{jenes\-::stage\-::\-Sequence$<$ T extends Chromosome $>$@{jenes\-::stage\-::\-Sequence$<$ T extends Chromosome $>$}!remove\-At@{remove\-At}}
+\index{remove\-At@{remove\-At}!jenes::stage::Sequence< T extends Chromosome >@{jenes\-::stage\-::\-Sequence$<$ T extends Chromosome $>$}}
+\subsubsection[{remove\-At}]{\setlength{\rightskip}{0pt plus 5cm}Abstract\-Stage$<$T$>$ jenes.\-stage.\-Sequence$<$ T extends Chromosome $>$.remove\-At (
+\begin{DoxyParamCaption}
+\item[{int}]{pos}
+\end{DoxyParamCaption}
+)}}\label{classjenes_1_1stage_1_1_sequence_3_01_t_01extends_01_chromosome_01_4_a1336b162d37aaa9b402c49480d12f8ef}
+Removes the stage at the specified position 
+
+
+\begin{DoxyParams}{Parameters}
+{\em pos} & the position of the stage to remove \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+the Abstract\-Stage instance that has been removed 
+\end{DoxyReturn}
+\hypertarget{classjenes_1_1stage_1_1_sequence_3_01_t_01extends_01_chromosome_01_4_a759a03c3336352cc390b2024afcc2ab1}{\index{jenes\-::stage\-::\-Sequence$<$ T extends Chromosome $>$@{jenes\-::stage\-::\-Sequence$<$ T extends Chromosome $>$}!set\-Bigger\-Is\-Better@{set\-Bigger\-Is\-Better}}
+\index{set\-Bigger\-Is\-Better@{set\-Bigger\-Is\-Better}!jenes::stage::Sequence< T extends Chromosome >@{jenes\-::stage\-::\-Sequence$<$ T extends Chromosome $>$}}
+\subsubsection[{set\-Bigger\-Is\-Better}]{\setlength{\rightskip}{0pt plus 5cm}void jenes.\-stage.\-Sequence$<$ T extends Chromosome $>$.set\-Bigger\-Is\-Better (
+\begin{DoxyParamCaption}
+\item[{boolean}]{flag, }
+\item[{boolean}]{recursively}
+\end{DoxyParamCaption}
+)}}\label{classjenes_1_1stage_1_1_sequence_3_01_t_01extends_01_chromosome_01_4_a759a03c3336352cc390b2024afcc2ab1}
+\hypertarget{classjenes_1_1stage_1_1_sequence_3_01_t_01extends_01_chromosome_01_4_a1ec43e74c2534861caf2475405869853}{\index{jenes\-::stage\-::\-Sequence$<$ T extends Chromosome $>$@{jenes\-::stage\-::\-Sequence$<$ T extends Chromosome $>$}!set\-Fitness@{set\-Fitness}}
+\index{set\-Fitness@{set\-Fitness}!jenes::stage::Sequence< T extends Chromosome >@{jenes\-::stage\-::\-Sequence$<$ T extends Chromosome $>$}}
+\subsubsection[{set\-Fitness}]{\setlength{\rightskip}{0pt plus 5cm}void jenes.\-stage.\-Sequence$<$ T extends Chromosome $>$.set\-Fitness (
+\begin{DoxyParamCaption}
+\item[{Fitness}]{fit, }
+\item[{boolean}]{recursively}
+\end{DoxyParamCaption}
+)}}\label{classjenes_1_1stage_1_1_sequence_3_01_t_01extends_01_chromosome_01_4_a1ec43e74c2534861caf2475405869853}
+
+
+\subsection{Member Data Documentation}
+\hypertarget{classjenes_1_1stage_1_1_sequence_3_01_t_01extends_01_chromosome_01_4_a7bf8fc1d26c7aadb73974beccf970343}{\index{jenes\-::stage\-::\-Sequence$<$ T extends Chromosome $>$@{jenes\-::stage\-::\-Sequence$<$ T extends Chromosome $>$}!stages@{stages}}
+\index{stages@{stages}!jenes::stage::Sequence< T extends Chromosome >@{jenes\-::stage\-::\-Sequence$<$ T extends Chromosome $>$}}
+\subsubsection[{stages}]{\setlength{\rightskip}{0pt plus 5cm}List$<$Abstract\-Stage$<$T$>$ $>$ jenes.\-stage.\-Sequence$<$ T extends Chromosome $>$.stages\hspace{0.3cm}{\ttfamily [private]}}}\label{classjenes_1_1stage_1_1_sequence_3_01_t_01extends_01_chromosome_01_4_a7bf8fc1d26c7aadb73974beccf970343}
+
+
+The documentation for this class was generated from the following file\-:\begin{DoxyCompactItemize}
+\item 
+src/jenes/stage/\hyperlink{_sequence_8java}{Sequence.\-java}\end{DoxyCompactItemize}

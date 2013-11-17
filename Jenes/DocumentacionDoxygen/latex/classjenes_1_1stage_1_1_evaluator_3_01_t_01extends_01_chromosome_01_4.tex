@@ -1,0 +1,123 @@
+\hypertarget{classjenes_1_1stage_1_1_evaluator_3_01_t_01extends_01_chromosome_01_4}{\section{jenes.\-stage.\-Evaluator$<$ T extends Chromosome $>$ Class Reference}
+\label{classjenes_1_1stage_1_1_evaluator_3_01_t_01extends_01_chromosome_01_4}\index{jenes.\-stage.\-Evaluator$<$ T extends Chromosome $>$@{jenes.\-stage.\-Evaluator$<$ T extends Chromosome $>$}}
+}
+Inheritance diagram for jenes.\-stage.\-Evaluator$<$ T extends Chromosome $>$\-:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{classjenes_1_1stage_1_1_evaluator_3_01_t_01extends_01_chromosome_01_4}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classjenes_1_1stage_1_1_evaluator_3_01_t_01extends_01_chromosome_01_4_afe7302209d1e39a0267bf4320d6d298d}{Evaluator} ()
+\item 
+\hyperlink{classjenes_1_1stage_1_1_evaluator_3_01_t_01extends_01_chromosome_01_4_ad156e40a9579040474e6720f14c49919}{Evaluator} (boolean \hyperlink{classjenes_1_1stage_1_1_evaluator_3_01_t_01extends_01_chromosome_01_4_a8ad6c1bcd555e06450a444d2d18b6b89}{force})
+\item 
+boolean \hyperlink{classjenes_1_1stage_1_1_evaluator_3_01_t_01extends_01_chromosome_01_4_a617f44ce8de8d0e4bab8506e81038e76}{is\-Force} ()
+\item 
+void \hyperlink{classjenes_1_1stage_1_1_evaluator_3_01_t_01extends_01_chromosome_01_4_acd9d554678a83708eeb2d373def60e71}{set\-Force} (boolean \hyperlink{classjenes_1_1stage_1_1_evaluator_3_01_t_01extends_01_chromosome_01_4_a8ad6c1bcd555e06450a444d2d18b6b89}{force})
+\item 
+void \hyperlink{classjenes_1_1stage_1_1_evaluator_3_01_t_01extends_01_chromosome_01_4_a25aee75f7acf2406ca17526f588a8f15}{process} (Population$<$ T $>$ in, Population$<$ T $>$ out)  throws Stage\-Exception 
+\end{DoxyCompactItemize}
+\subsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+boolean \hyperlink{classjenes_1_1stage_1_1_evaluator_3_01_t_01extends_01_chromosome_01_4_a8ad6c1bcd555e06450a444d2d18b6b89}{force}
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+This stage performs a population evaluation. In general, individuals that have been alread avaluated, do not require be evaluated again. However, in order to provide full control to the user, the class has the property {\ttfamily force} that if set, forces the evaluation of all individuals, despite the fact that the some individuals cold have been already evaluated. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em $<$\-T$>$} & The class chromosomes flowing across the stage.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyVersion}{Version}
+1.\-3 
+\end{DoxyVersion}
+\begin{DoxySince}{Since}
+1.\-0 
+\end{DoxySince}
+
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{classjenes_1_1stage_1_1_evaluator_3_01_t_01extends_01_chromosome_01_4_afe7302209d1e39a0267bf4320d6d298d}{\index{jenes\-::stage\-::\-Evaluator$<$ T extends Chromosome $>$@{jenes\-::stage\-::\-Evaluator$<$ T extends Chromosome $>$}!Evaluator@{Evaluator}}
+\index{Evaluator@{Evaluator}!jenes::stage::Evaluator< T extends Chromosome >@{jenes\-::stage\-::\-Evaluator$<$ T extends Chromosome $>$}}
+\subsubsection[{Evaluator}]{\setlength{\rightskip}{0pt plus 5cm}jenes.\-stage.\-Evaluator$<$ T extends Chromosome $>$.Evaluator (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classjenes_1_1stage_1_1_evaluator_3_01_t_01extends_01_chromosome_01_4_afe7302209d1e39a0267bf4320d6d298d}
+Creates a new Evaluator instance. By default $<$colde$>$force is false. \hypertarget{classjenes_1_1stage_1_1_evaluator_3_01_t_01extends_01_chromosome_01_4_ad156e40a9579040474e6720f14c49919}{\index{jenes\-::stage\-::\-Evaluator$<$ T extends Chromosome $>$@{jenes\-::stage\-::\-Evaluator$<$ T extends Chromosome $>$}!Evaluator@{Evaluator}}
+\index{Evaluator@{Evaluator}!jenes::stage::Evaluator< T extends Chromosome >@{jenes\-::stage\-::\-Evaluator$<$ T extends Chromosome $>$}}
+\subsubsection[{Evaluator}]{\setlength{\rightskip}{0pt plus 5cm}jenes.\-stage.\-Evaluator$<$ T extends Chromosome $>$.Evaluator (
+\begin{DoxyParamCaption}
+\item[{boolean}]{force}
+\end{DoxyParamCaption}
+)}}\label{classjenes_1_1stage_1_1_evaluator_3_01_t_01extends_01_chromosome_01_4_ad156e40a9579040474e6720f14c49919}
+Creates a new Evaluator instance, specifying the value of $<$colde$>$force.
+
+
+\begin{DoxyParams}{Parameters}
+{\em force} & -\/ if true, all individuals are forced to be evaluated in any case. \\
+\hline
+\end{DoxyParams}
+
+
+\subsection{Member Function Documentation}
+\hypertarget{classjenes_1_1stage_1_1_evaluator_3_01_t_01extends_01_chromosome_01_4_a617f44ce8de8d0e4bab8506e81038e76}{\index{jenes\-::stage\-::\-Evaluator$<$ T extends Chromosome $>$@{jenes\-::stage\-::\-Evaluator$<$ T extends Chromosome $>$}!is\-Force@{is\-Force}}
+\index{is\-Force@{is\-Force}!jenes::stage::Evaluator< T extends Chromosome >@{jenes\-::stage\-::\-Evaluator$<$ T extends Chromosome $>$}}
+\subsubsection[{is\-Force}]{\setlength{\rightskip}{0pt plus 5cm}boolean jenes.\-stage.\-Evaluator$<$ T extends Chromosome $>$.is\-Force (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classjenes_1_1stage_1_1_evaluator_3_01_t_01extends_01_chromosome_01_4_a617f44ce8de8d0e4bab8506e81038e76}
+Returns the current value of {\ttfamily force}. By default this value is false. \begin{DoxyReturn}{Returns}
+the value of {\ttfamily force}. 
+\end{DoxyReturn}
+\hypertarget{classjenes_1_1stage_1_1_evaluator_3_01_t_01extends_01_chromosome_01_4_a25aee75f7acf2406ca17526f588a8f15}{\index{jenes\-::stage\-::\-Evaluator$<$ T extends Chromosome $>$@{jenes\-::stage\-::\-Evaluator$<$ T extends Chromosome $>$}!process@{process}}
+\index{process@{process}!jenes::stage::Evaluator< T extends Chromosome >@{jenes\-::stage\-::\-Evaluator$<$ T extends Chromosome $>$}}
+\subsubsection[{process}]{\setlength{\rightskip}{0pt plus 5cm}void jenes.\-stage.\-Evaluator$<$ T extends Chromosome $>$.process (
+\begin{DoxyParamCaption}
+\item[{Population$<$ T $>$}]{in, }
+\item[{Population$<$ T $>$}]{out}
+\end{DoxyParamCaption}
+) throws {\bf Stage\-Exception}}}\label{classjenes_1_1stage_1_1_evaluator_3_01_t_01extends_01_chromosome_01_4_a25aee75f7acf2406ca17526f588a8f15}
+Performs an evaluation of input population. 
+\begin{DoxyParams}{Parameters}
+{\em in} & -\/ the input population. \\
+\hline
+{\em out} & -\/ equals the input population \\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em \hyperlink{classjenes_1_1stage_1_1_stage_exception}{Stage\-Exception}} & \\
+\hline
+\end{DoxyExceptions}
+\hypertarget{classjenes_1_1stage_1_1_evaluator_3_01_t_01extends_01_chromosome_01_4_acd9d554678a83708eeb2d373def60e71}{\index{jenes\-::stage\-::\-Evaluator$<$ T extends Chromosome $>$@{jenes\-::stage\-::\-Evaluator$<$ T extends Chromosome $>$}!set\-Force@{set\-Force}}
+\index{set\-Force@{set\-Force}!jenes::stage::Evaluator< T extends Chromosome >@{jenes\-::stage\-::\-Evaluator$<$ T extends Chromosome $>$}}
+\subsubsection[{set\-Force}]{\setlength{\rightskip}{0pt plus 5cm}void jenes.\-stage.\-Evaluator$<$ T extends Chromosome $>$.set\-Force (
+\begin{DoxyParamCaption}
+\item[{boolean}]{force}
+\end{DoxyParamCaption}
+)}}\label{classjenes_1_1stage_1_1_evaluator_3_01_t_01extends_01_chromosome_01_4_acd9d554678a83708eeb2d373def60e71}
+Sets the value of {\ttfamily force}. 
+\begin{DoxyParams}{Parameters}
+{\em force} & -\/ if true, all individuals are forced to be evaluated in any case. \\
+\hline
+\end{DoxyParams}
+
+
+\subsection{Member Data Documentation}
+\hypertarget{classjenes_1_1stage_1_1_evaluator_3_01_t_01extends_01_chromosome_01_4_a8ad6c1bcd555e06450a444d2d18b6b89}{\index{jenes\-::stage\-::\-Evaluator$<$ T extends Chromosome $>$@{jenes\-::stage\-::\-Evaluator$<$ T extends Chromosome $>$}!force@{force}}
+\index{force@{force}!jenes::stage::Evaluator< T extends Chromosome >@{jenes\-::stage\-::\-Evaluator$<$ T extends Chromosome $>$}}
+\subsubsection[{force}]{\setlength{\rightskip}{0pt plus 5cm}boolean jenes.\-stage.\-Evaluator$<$ T extends Chromosome $>$.force\hspace{0.3cm}{\ttfamily [protected]}}}\label{classjenes_1_1stage_1_1_evaluator_3_01_t_01extends_01_chromosome_01_4_a8ad6c1bcd555e06450a444d2d18b6b89}
+The property controlling if evaluation should be extened also to individuals already evaluated. 
+
+The documentation for this class was generated from the following file\-:\begin{DoxyCompactItemize}
+\item 
+src/jenes/stage/\hyperlink{_evaluator_8java}{Evaluator.\-java}\end{DoxyCompactItemize}

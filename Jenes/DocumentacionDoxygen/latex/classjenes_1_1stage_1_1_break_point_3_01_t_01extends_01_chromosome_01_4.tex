@@ -1,0 +1,106 @@
+\hypertarget{classjenes_1_1stage_1_1_break_point_3_01_t_01extends_01_chromosome_01_4}{\section{jenes.\-stage.\-Break\-Point$<$ T extends Chromosome $>$ Class Reference}
+\label{classjenes_1_1stage_1_1_break_point_3_01_t_01extends_01_chromosome_01_4}\index{jenes.\-stage.\-Break\-Point$<$ T extends Chromosome $>$@{jenes.\-stage.\-Break\-Point$<$ T extends Chromosome $>$}}
+}
+Inheritance diagram for jenes.\-stage.\-Break\-Point$<$ T extends Chromosome $>$\-:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{classjenes_1_1stage_1_1_break_point_3_01_t_01extends_01_chromosome_01_4}
+\end{center}
+\end{figure}
+\subsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+class \hyperlink{classjenes_1_1stage_1_1_break_point_3_01_t_01extends_01_chromosome_01_4_1_1_listener}{Listener}
+\end{DoxyCompactItemize}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classjenes_1_1stage_1_1_break_point_3_01_t_01extends_01_chromosome_01_4_a242b4e33e148a17a0f2d19e1963aa990}{Break\-Point} ()
+\item 
+void \hyperlink{classjenes_1_1stage_1_1_break_point_3_01_t_01extends_01_chromosome_01_4_aac70bbcb2e82710fe969bf1545c3a9f4}{add} (Listener listener)
+\item 
+void \hyperlink{classjenes_1_1stage_1_1_break_point_3_01_t_01extends_01_chromosome_01_4_a367d07e34b42c06b692ec35d0a8f8a40}{remove} (Listener listener)
+\item 
+void \hyperlink{classjenes_1_1stage_1_1_break_point_3_01_t_01extends_01_chromosome_01_4_a2fa0c075727e667e633bb9d3eb2b9e71}{process} (Population$<$ T $>$ in, Population$<$ T $>$ out)  throws Stage\-Exception 
+\end{DoxyCompactItemize}
+\subsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+List$<$ Listener $>$ \hyperlink{classjenes_1_1stage_1_1_break_point_3_01_t_01extends_01_chromosome_01_4_a63fa2b0e419a40565240722068e83a68}{listeners}
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Stage representing a break point. It notifies its listeners when its \hyperlink{}{process(\-Population, Population)} method is invocated. The population isn't alterated so the output population is equals to the input one.
+
+
+\begin{DoxyParams}{Parameters}
+{\em $<$\-T$>$} & The class chromosomes flowing across the stage.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyVersion}{Version}
+1.\-2 
+\end{DoxyVersion}
+\begin{DoxySince}{Since}
+1.\-0 
+\end{DoxySince}
+
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{classjenes_1_1stage_1_1_break_point_3_01_t_01extends_01_chromosome_01_4_a242b4e33e148a17a0f2d19e1963aa990}{\index{jenes\-::stage\-::\-Break\-Point$<$ T extends Chromosome $>$@{jenes\-::stage\-::\-Break\-Point$<$ T extends Chromosome $>$}!Break\-Point@{Break\-Point}}
+\index{Break\-Point@{Break\-Point}!jenes::stage::BreakPoint< T extends Chromosome >@{jenes\-::stage\-::\-Break\-Point$<$ T extends Chromosome $>$}}
+\subsubsection[{Break\-Point}]{\setlength{\rightskip}{0pt plus 5cm}jenes.\-stage.\-Break\-Point$<$ T extends Chromosome $>$.Break\-Point (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classjenes_1_1stage_1_1_break_point_3_01_t_01extends_01_chromosome_01_4_a242b4e33e148a17a0f2d19e1963aa990}
+Constructs a new Break\-Point stage 
+
+\subsection{Member Function Documentation}
+\hypertarget{classjenes_1_1stage_1_1_break_point_3_01_t_01extends_01_chromosome_01_4_aac70bbcb2e82710fe969bf1545c3a9f4}{\index{jenes\-::stage\-::\-Break\-Point$<$ T extends Chromosome $>$@{jenes\-::stage\-::\-Break\-Point$<$ T extends Chromosome $>$}!add@{add}}
+\index{add@{add}!jenes::stage::BreakPoint< T extends Chromosome >@{jenes\-::stage\-::\-Break\-Point$<$ T extends Chromosome $>$}}
+\subsubsection[{add}]{\setlength{\rightskip}{0pt plus 5cm}void jenes.\-stage.\-Break\-Point$<$ T extends Chromosome $>$.add (
+\begin{DoxyParamCaption}
+\item[{Listener}]{listener}
+\end{DoxyParamCaption}
+)}}\label{classjenes_1_1stage_1_1_break_point_3_01_t_01extends_01_chromosome_01_4_aac70bbcb2e82710fe969bf1545c3a9f4}
+Adds the specified listener at this break point stage
+
+
+\begin{DoxyParams}{Parameters}
+{\em listener} & the listener to notify when the break point process time occurs. \\
+\hline
+\end{DoxyParams}
+\hypertarget{classjenes_1_1stage_1_1_break_point_3_01_t_01extends_01_chromosome_01_4_a2fa0c075727e667e633bb9d3eb2b9e71}{\index{jenes\-::stage\-::\-Break\-Point$<$ T extends Chromosome $>$@{jenes\-::stage\-::\-Break\-Point$<$ T extends Chromosome $>$}!process@{process}}
+\index{process@{process}!jenes::stage::BreakPoint< T extends Chromosome >@{jenes\-::stage\-::\-Break\-Point$<$ T extends Chromosome $>$}}
+\subsubsection[{process}]{\setlength{\rightskip}{0pt plus 5cm}void jenes.\-stage.\-Break\-Point$<$ T extends Chromosome $>$.process (
+\begin{DoxyParamCaption}
+\item[{Population$<$ T $>$}]{in, }
+\item[{Population$<$ T $>$}]{out}
+\end{DoxyParamCaption}
+) throws {\bf Stage\-Exception}}}\label{classjenes_1_1stage_1_1_break_point_3_01_t_01extends_01_chromosome_01_4_a2fa0c075727e667e633bb9d3eb2b9e71}
+\hypertarget{classjenes_1_1stage_1_1_break_point_3_01_t_01extends_01_chromosome_01_4_a367d07e34b42c06b692ec35d0a8f8a40}{\index{jenes\-::stage\-::\-Break\-Point$<$ T extends Chromosome $>$@{jenes\-::stage\-::\-Break\-Point$<$ T extends Chromosome $>$}!remove@{remove}}
+\index{remove@{remove}!jenes::stage::BreakPoint< T extends Chromosome >@{jenes\-::stage\-::\-Break\-Point$<$ T extends Chromosome $>$}}
+\subsubsection[{remove}]{\setlength{\rightskip}{0pt plus 5cm}void jenes.\-stage.\-Break\-Point$<$ T extends Chromosome $>$.remove (
+\begin{DoxyParamCaption}
+\item[{Listener}]{listener}
+\end{DoxyParamCaption}
+)}}\label{classjenes_1_1stage_1_1_break_point_3_01_t_01extends_01_chromosome_01_4_a367d07e34b42c06b692ec35d0a8f8a40}
+Removes the specified listener between the ones
+
+
+\begin{DoxyParams}{Parameters}
+{\em listener} & the listener to remove \\
+\hline
+\end{DoxyParams}
+
+
+\subsection{Member Data Documentation}
+\hypertarget{classjenes_1_1stage_1_1_break_point_3_01_t_01extends_01_chromosome_01_4_a63fa2b0e419a40565240722068e83a68}{\index{jenes\-::stage\-::\-Break\-Point$<$ T extends Chromosome $>$@{jenes\-::stage\-::\-Break\-Point$<$ T extends Chromosome $>$}!listeners@{listeners}}
+\index{listeners@{listeners}!jenes::stage::BreakPoint< T extends Chromosome >@{jenes\-::stage\-::\-Break\-Point$<$ T extends Chromosome $>$}}
+\subsubsection[{listeners}]{\setlength{\rightskip}{0pt plus 5cm}List$<$Listener$>$ jenes.\-stage.\-Break\-Point$<$ T extends Chromosome $>$.listeners\hspace{0.3cm}{\ttfamily [private]}}}\label{classjenes_1_1stage_1_1_break_point_3_01_t_01extends_01_chromosome_01_4_a63fa2b0e419a40565240722068e83a68}
+the list of the break point listeners 
+
+The documentation for this class was generated from the following file\-:\begin{DoxyCompactItemize}
+\item 
+src/jenes/stage/\hyperlink{_break_point_8java}{Break\-Point.\-java}\end{DoxyCompactItemize}

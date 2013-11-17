@@ -1,0 +1,94 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="classjenes_1_1stage_1_1operator_1_1_mutator_3_01_t_01extends_01_chromosome_01_4_1_1_statistics" kind="class" prot="public">
+    <compoundname>jenes::stage::operator::Mutator&lt; T extends Chromosome &gt;::Statistics</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">OperatorStatistics&lt; T &gt;</basecompoundref>
+      <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="classjenes_1_1stage_1_1operator_1_1_mutator_3_01_t_01extends_01_chromosome_01_4_1_1_statistics_1a4328be89d9643f783f5c08164a0aa916" prot="protected" static="no" mutable="no">
+        <type>long</type>
+        <definition>long jenes.stage.operator.Mutator&lt; T extends Chromosome &gt;.Statistics.mutations</definition>
+        <argsstring></argsstring>
+        <name>mutations</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Number of mutations performed. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/operator/Mutator.java" line="126" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/operator/Mutator.java" bodystart="126" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classjenes_1_1stage_1_1operator_1_1_mutator_3_01_t_01extends_01_chromosome_01_4_1_1_statistics_1afc74de8d8cf1b0d1cdaf9ec3a170c80e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>long</type>
+        <definition>long jenes.stage.operator.Mutator&lt; T extends Chromosome &gt;.Statistics.getMutations</definition>
+        <argsstring>()</argsstring>
+        <name>getMutations</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns the number of mutations performed</para><para><simplesect kind="return"><para>the number of mutations performed </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/operator/Mutator.java" line="133" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/operator/Mutator.java" bodystart="133" bodyend="135"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classjenes_1_1stage_1_1operator_1_1_mutator_3_01_t_01extends_01_chromosome_01_4_1_1_statistics_1af114cf6ccf66e1bd5d5d7337b4e15e28" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void jenes.stage.operator.Mutator&lt; T extends Chromosome &gt;.Statistics.fill</definition>
+        <argsstring>(Operator&lt; T &gt;.Statistics stats)</argsstring>
+        <name>fill</name>
+        <param>
+          <type>Operator&lt; T &gt;.Statistics</type>
+          <declname>stats</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/operator/Mutator.java" line="138" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/operator/Mutator.java" bodystart="138" bodyend="141"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>A statistics object holding the number of mutation performed and the time spent to execute them. The statistics is available by two methods: <ref refid="" kindref="compound">Mutator#getStatistics()</ref> to have a new statistics setted according to the mutator state or <ref refid="" kindref="compound">Mutator#updateStatistics(jenes.stage.operator.Operator.Statistics)</ref> to modify an existing statistics according to the mutator state. </para><para>Esamples of use are showed below. </para><para><blockquote><para><preformatted>
+Mutator.Statistics stat = a_mutator.getStatistics();
+</preformatted></para></blockquote></para><para>returns a new statistics object setted according to the specified mutator state. </para><para><blockquote><para><preformatted>
+Mutator.Statistics stat = new Mutator.Statistics();
+a_mutator.updateStatistics(stat);
+</preformatted></para></blockquote></para><para>modifies the existing statistics according to the specified mutator state. </para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="638">
+        <label>jenes.stage.operator.Mutator&lt; T extends Chromosome &gt;.Statistics</label>
+        <link refid="classjenes_1_1stage_1_1operator_1_1_mutator_3_01_t_01extends_01_chromosome_01_4_1_1_statistics"/>
+        <childnode refid="639" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="639">
+        <label>Operator&lt;T&gt;Statistics</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="640">
+        <label>jenes.stage.operator.Mutator&lt; T extends Chromosome &gt;.Statistics</label>
+        <link refid="classjenes_1_1stage_1_1operator_1_1_mutator_3_01_t_01extends_01_chromosome_01_4_1_1_statistics"/>
+        <childnode refid="641" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="641">
+        <label>Operator&lt;T&gt;Statistics</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/operator/Mutator.java" line="123" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/operator/Mutator.java" bodystart="123" bodyend="142"/>
+    <listofallmembers>
+      <member refid="classjenes_1_1stage_1_1operator_1_1_mutator_3_01_t_01extends_01_chromosome_01_4_1_1_statistics_1af114cf6ccf66e1bd5d5d7337b4e15e28" prot="protected" virt="non-virtual"><scope>jenes::stage::operator::Mutator&lt; T extends Chromosome &gt;::Statistics</scope><name>fill</name></member>
+      <member refid="classjenes_1_1stage_1_1operator_1_1_mutator_3_01_t_01extends_01_chromosome_01_4_1_1_statistics_1afc74de8d8cf1b0d1cdaf9ec3a170c80e" prot="public" virt="non-virtual"><scope>jenes::stage::operator::Mutator&lt; T extends Chromosome &gt;::Statistics</scope><name>getMutations</name></member>
+      <member refid="classjenes_1_1stage_1_1operator_1_1_mutator_3_01_t_01extends_01_chromosome_01_4_1_1_statistics_1a4328be89d9643f783f5c08164a0aa916" prot="protected" virt="non-virtual"><scope>jenes::stage::operator::Mutator&lt; T extends Chromosome &gt;::Statistics</scope><name>mutations</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

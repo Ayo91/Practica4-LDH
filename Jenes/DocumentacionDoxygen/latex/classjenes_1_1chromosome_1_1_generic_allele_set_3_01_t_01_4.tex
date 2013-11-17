@@ -1,0 +1,263 @@
+\hypertarget{classjenes_1_1chromosome_1_1_generic_allele_set_3_01_t_01_4}{\section{jenes.\-chromosome.\-Generic\-Allele\-Set$<$ T $>$ Class Reference}
+\label{classjenes_1_1chromosome_1_1_generic_allele_set_3_01_t_01_4}\index{jenes.\-chromosome.\-Generic\-Allele\-Set$<$ T $>$@{jenes.\-chromosome.\-Generic\-Allele\-Set$<$ T $>$}}
+}
+Inheritance diagram for jenes.\-chromosome.\-Generic\-Allele\-Set$<$ T $>$\-:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{classjenes_1_1chromosome_1_1_generic_allele_set_3_01_t_01_4}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classjenes_1_1chromosome_1_1_generic_allele_set_3_01_t_01_4_afc6f6f35af245d54ba7ad6f57a9a3893}{Generic\-Allele\-Set} (final Set$<$ T $>$ \hyperlink{classjenes_1_1chromosome_1_1_generic_allele_set_3_01_t_01_4_a2594723bce2ac24a1d465de4732418bc}{set})
+\item 
+\hyperlink{classjenes_1_1chromosome_1_1_generic_allele_set_3_01_t_01_4_ae7a1970427bae039c3f4ae6340b53ca7}{Generic\-Allele\-Set} (final T...\-values)
+\item 
+\hyperlink{classjenes_1_1chromosome_1_1_generic_allele_set_3_01_t_01_4_a8cbf2394287ce6321fcd338dc4c44a8e}{Generic\-Allele\-Set} (final List$<$ T $>$ list)
+\item 
+final T \hyperlink{classjenes_1_1chromosome_1_1_generic_allele_set_3_01_t_01_4_acf8f796e2243cc0b745b8d21e45ac7df}{get\-Element\-At} (final int pos)
+\item 
+final int \hyperlink{classjenes_1_1chromosome_1_1_generic_allele_set_3_01_t_01_4_a9b5dd0079f5d0cb76d2f89e92bde3fa6}{get\-Index\-Of} (final T a)
+\item 
+final T \hyperlink{classjenes_1_1chromosome_1_1_generic_allele_set_3_01_t_01_4_a2f330d71d992e0d724bc31730b56229e}{get\-Random\-Value} ()
+\item 
+final int \hyperlink{classjenes_1_1chromosome_1_1_generic_allele_set_3_01_t_01_4_a568ca617716496507d41e348c5bc2845}{size} ()
+\item 
+void \hyperlink{classjenes_1_1chromosome_1_1_generic_allele_set_3_01_t_01_4_a234b0a286a14fcaf0bf10894813465c5}{set\-Differences} (double\mbox{[}$\,$\mbox{]}\mbox{[}$\,$\mbox{]} \hyperlink{classjenes_1_1chromosome_1_1_generic_allele_set_3_01_t_01_4_a6eef912e60066cc7271f44ecc704ce1c}{diff})
+\item 
+double\mbox{[}$\,$\mbox{]}\mbox{[}$\,$\mbox{]} \hyperlink{classjenes_1_1chromosome_1_1_generic_allele_set_3_01_t_01_4_a9c24972536c41a2d4660d9cad2694eba}{get\-Default\-Differences} ()
+\item 
+double \hyperlink{classjenes_1_1chromosome_1_1_generic_allele_set_3_01_t_01_4_ace70b10ee535ccc3a7cbcd42739b8d5c}{difference} (T a0, T a1)
+\end{DoxyCompactItemize}
+\subsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+T\mbox{[}$\,$\mbox{]} \hyperlink{classjenes_1_1chromosome_1_1_generic_allele_set_3_01_t_01_4_a2594723bce2ac24a1d465de4732418bc}{set}
+\item 
+double\mbox{[}$\,$\mbox{]}\mbox{[}$\,$\mbox{]} \hyperlink{classjenes_1_1chromosome_1_1_generic_allele_set_3_01_t_01_4_a6eef912e60066cc7271f44ecc704ce1c}{diff}
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+A Generic\-Allele\-Set represents a concrete allele set implementation. It is usefull to instantiate a new Allele\-Set when the allele values are contained by a list, by an array or by a \hyperlink{}{Set}. At creation time, the aplhabet objects are not cloned so\-: 
+
+Note that this implementation is not synchronized. If multiple threads access a Generic\-Allele\-Set concurrently, and at least one of the threads modifies the set, it must be synchronized externally or wrapped using the \hyperlink{}{Collections\#synchronized\-Set(\-Set)} method. 
+
+Note that if values are modified externally, the allele set object also change according at that modification. 
+
+Some examples of code are provided below. 
+
+\begin{quotation}
+
+\begin{DoxyPre}
+   Set s = Collections.synchronizedSet(new HashSet(...));
+   GenericAlleleSet geneticAlleleSet = new GenericAlleleSet(s);
+\end{DoxyPre}
+\end{quotation}
+to build a generic allele set with the object value accesses synchronized. 
+
+\begin{quotation}
+
+\begin{DoxyPre}
+   GenericAlleleSet generic alleleSet = new GenericAlleleSet<Boolean>(true, false),
+\end{DoxyPre}
+\end{quotation}
+to build a generic allele set with the boolean values as allele object values. 
+
+\begin{quotation}
+
+\begin{DoxyPre}
+   GenericAlleleSet generic alleleSet = new GenericAlleleSet(AnyJavaEnum.values()) );
+\end{DoxyPre}
+\end{quotation}
+to build a generic allele set with the enum values. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em $<$\-T$>$} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyVersion}{Version}
+2.\-0 
+\end{DoxyVersion}
+\begin{DoxySince}{Since}
+1.\-0
+\end{DoxySince}
+\begin{DoxySeeAlso}{See Also}
+\hyperlink{classjenes_1_1chromosome_1_1_object_chromosome}{jenes.\-chromosome.\-Object\-Chromosome} 
+\end{DoxySeeAlso}
+
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{classjenes_1_1chromosome_1_1_generic_allele_set_3_01_t_01_4_afc6f6f35af245d54ba7ad6f57a9a3893}{\index{jenes\-::chromosome\-::\-Generic\-Allele\-Set$<$ T $>$@{jenes\-::chromosome\-::\-Generic\-Allele\-Set$<$ T $>$}!Generic\-Allele\-Set@{Generic\-Allele\-Set}}
+\index{Generic\-Allele\-Set@{Generic\-Allele\-Set}!jenes::chromosome::GenericAlleleSet< T >@{jenes\-::chromosome\-::\-Generic\-Allele\-Set$<$ T $>$}}
+\subsubsection[{Generic\-Allele\-Set}]{\setlength{\rightskip}{0pt plus 5cm}jenes.\-chromosome.\-Generic\-Allele\-Set$<$ T $>$.Generic\-Allele\-Set (
+\begin{DoxyParamCaption}
+\item[{final Set$<$ T $>$}]{set}
+\end{DoxyParamCaption}
+)}}\label{classjenes_1_1chromosome_1_1_generic_allele_set_3_01_t_01_4_afc6f6f35af245d54ba7ad6f57a9a3893}
+Creates a new Allele\-Set instance with the alphabet values contained by the specified set 
+
+
+\begin{DoxyParams}{Parameters}
+{\em set} & the set with the alphabet allele values \\
+\hline
+\end{DoxyParams}
+\hypertarget{classjenes_1_1chromosome_1_1_generic_allele_set_3_01_t_01_4_ae7a1970427bae039c3f4ae6340b53ca7}{\index{jenes\-::chromosome\-::\-Generic\-Allele\-Set$<$ T $>$@{jenes\-::chromosome\-::\-Generic\-Allele\-Set$<$ T $>$}!Generic\-Allele\-Set@{Generic\-Allele\-Set}}
+\index{Generic\-Allele\-Set@{Generic\-Allele\-Set}!jenes::chromosome::GenericAlleleSet< T >@{jenes\-::chromosome\-::\-Generic\-Allele\-Set$<$ T $>$}}
+\subsubsection[{Generic\-Allele\-Set}]{\setlength{\rightskip}{0pt plus 5cm}jenes.\-chromosome.\-Generic\-Allele\-Set$<$ T $>$.Generic\-Allele\-Set (
+\begin{DoxyParamCaption}
+\item[{final T...}]{values}
+\end{DoxyParamCaption}
+)}}\label{classjenes_1_1chromosome_1_1_generic_allele_set_3_01_t_01_4_ae7a1970427bae039c3f4ae6340b53ca7}
+Creates a new Allele\-Set instance with the alphabet values contained by the specified array 
+
+
+\begin{DoxyParams}{Parameters}
+{\em values} & the alphabet values array \\
+\hline
+\end{DoxyParams}
+\hypertarget{classjenes_1_1chromosome_1_1_generic_allele_set_3_01_t_01_4_a8cbf2394287ce6321fcd338dc4c44a8e}{\index{jenes\-::chromosome\-::\-Generic\-Allele\-Set$<$ T $>$@{jenes\-::chromosome\-::\-Generic\-Allele\-Set$<$ T $>$}!Generic\-Allele\-Set@{Generic\-Allele\-Set}}
+\index{Generic\-Allele\-Set@{Generic\-Allele\-Set}!jenes::chromosome::GenericAlleleSet< T >@{jenes\-::chromosome\-::\-Generic\-Allele\-Set$<$ T $>$}}
+\subsubsection[{Generic\-Allele\-Set}]{\setlength{\rightskip}{0pt plus 5cm}jenes.\-chromosome.\-Generic\-Allele\-Set$<$ T $>$.Generic\-Allele\-Set (
+\begin{DoxyParamCaption}
+\item[{final List$<$ T $>$}]{list}
+\end{DoxyParamCaption}
+)}}\label{classjenes_1_1chromosome_1_1_generic_allele_set_3_01_t_01_4_a8cbf2394287ce6321fcd338dc4c44a8e}
+Creates a new Allele\-Set instance with the alphabet values contained by the specified list 
+
+
+\begin{DoxyParams}{Parameters}
+{\em list} & the alphabet values list \\
+\hline
+\end{DoxyParams}
+
+
+\subsection{Member Function Documentation}
+\hypertarget{classjenes_1_1chromosome_1_1_generic_allele_set_3_01_t_01_4_ace70b10ee535ccc3a7cbcd42739b8d5c}{\index{jenes\-::chromosome\-::\-Generic\-Allele\-Set$<$ T $>$@{jenes\-::chromosome\-::\-Generic\-Allele\-Set$<$ T $>$}!difference@{difference}}
+\index{difference@{difference}!jenes::chromosome::GenericAlleleSet< T >@{jenes\-::chromosome\-::\-Generic\-Allele\-Set$<$ T $>$}}
+\subsubsection[{difference}]{\setlength{\rightskip}{0pt plus 5cm}double jenes.\-chromosome.\-Generic\-Allele\-Set$<$ T $>$.difference (
+\begin{DoxyParamCaption}
+\item[{T}]{a0, }
+\item[{T}]{a1}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [virtual]}}}\label{classjenes_1_1chromosome_1_1_generic_allele_set_3_01_t_01_4_ace70b10ee535ccc3a7cbcd42739b8d5c}
+Provides the genetic difference between two alleles.
+
+
+\begin{DoxyParams}{Parameters}
+{\em a0} & -\/ first allele \\
+\hline
+{\em a1} & -\/ second allele \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+-\/ the genetic difeerence 
+\end{DoxyReturn}
+
+
+Implements \hyperlink{interfacejenes_1_1chromosome_1_1_allele_set_3_01_t_01_4_a74ab0cb120fcfdee8e878727d6c50815}{jenes.\-chromosome.\-Allele\-Set$<$ T $>$}.
+
+\hypertarget{classjenes_1_1chromosome_1_1_generic_allele_set_3_01_t_01_4_a9c24972536c41a2d4660d9cad2694eba}{\index{jenes\-::chromosome\-::\-Generic\-Allele\-Set$<$ T $>$@{jenes\-::chromosome\-::\-Generic\-Allele\-Set$<$ T $>$}!get\-Default\-Differences@{get\-Default\-Differences}}
+\index{get\-Default\-Differences@{get\-Default\-Differences}!jenes::chromosome::GenericAlleleSet< T >@{jenes\-::chromosome\-::\-Generic\-Allele\-Set$<$ T $>$}}
+\subsubsection[{get\-Default\-Differences}]{\setlength{\rightskip}{0pt plus 5cm}double \mbox{[}$\,$\mbox{]}\mbox{[}$\,$\mbox{]} jenes.\-chromosome.\-Generic\-Allele\-Set$<$ T $>$.get\-Default\-Differences (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classjenes_1_1chromosome_1_1_generic_allele_set_3_01_t_01_4_a9c24972536c41a2d4660d9cad2694eba}
+Returns the default difference matrix as given by the difference of allele positions in the set. \begin{DoxyReturn}{Returns}
+the allele difference matrix. 
+\end{DoxyReturn}
+\hypertarget{classjenes_1_1chromosome_1_1_generic_allele_set_3_01_t_01_4_acf8f796e2243cc0b745b8d21e45ac7df}{\index{jenes\-::chromosome\-::\-Generic\-Allele\-Set$<$ T $>$@{jenes\-::chromosome\-::\-Generic\-Allele\-Set$<$ T $>$}!get\-Element\-At@{get\-Element\-At}}
+\index{get\-Element\-At@{get\-Element\-At}!jenes::chromosome::GenericAlleleSet< T >@{jenes\-::chromosome\-::\-Generic\-Allele\-Set$<$ T $>$}}
+\subsubsection[{get\-Element\-At}]{\setlength{\rightskip}{0pt plus 5cm}final T jenes.\-chromosome.\-Generic\-Allele\-Set$<$ T $>$.get\-Element\-At (
+\begin{DoxyParamCaption}
+\item[{final int}]{pos}
+\end{DoxyParamCaption}
+)}}\label{classjenes_1_1chromosome_1_1_generic_allele_set_3_01_t_01_4_acf8f796e2243cc0b745b8d21e45ac7df}
+Returns the allele at a given positition. 
+\begin{DoxyParams}{Parameters}
+{\em pos} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+the element 
+\end{DoxyReturn}
+\hypertarget{classjenes_1_1chromosome_1_1_generic_allele_set_3_01_t_01_4_a9b5dd0079f5d0cb76d2f89e92bde3fa6}{\index{jenes\-::chromosome\-::\-Generic\-Allele\-Set$<$ T $>$@{jenes\-::chromosome\-::\-Generic\-Allele\-Set$<$ T $>$}!get\-Index\-Of@{get\-Index\-Of}}
+\index{get\-Index\-Of@{get\-Index\-Of}!jenes::chromosome::GenericAlleleSet< T >@{jenes\-::chromosome\-::\-Generic\-Allele\-Set$<$ T $>$}}
+\subsubsection[{get\-Index\-Of}]{\setlength{\rightskip}{0pt plus 5cm}final int jenes.\-chromosome.\-Generic\-Allele\-Set$<$ T $>$.get\-Index\-Of (
+\begin{DoxyParamCaption}
+\item[{final T}]{a}
+\end{DoxyParamCaption}
+)}}\label{classjenes_1_1chromosome_1_1_generic_allele_set_3_01_t_01_4_a9b5dd0079f5d0cb76d2f89e92bde3fa6}
+Returns the index of element a.
+
+
+\begin{DoxyParams}{Parameters}
+{\em a} & -\/ the allele to find \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+the allele index 
+\end{DoxyReturn}
+\hypertarget{classjenes_1_1chromosome_1_1_generic_allele_set_3_01_t_01_4_a2f330d71d992e0d724bc31730b56229e}{\index{jenes\-::chromosome\-::\-Generic\-Allele\-Set$<$ T $>$@{jenes\-::chromosome\-::\-Generic\-Allele\-Set$<$ T $>$}!get\-Random\-Value@{get\-Random\-Value}}
+\index{get\-Random\-Value@{get\-Random\-Value}!jenes::chromosome::GenericAlleleSet< T >@{jenes\-::chromosome\-::\-Generic\-Allele\-Set$<$ T $>$}}
+\subsubsection[{get\-Random\-Value}]{\setlength{\rightskip}{0pt plus 5cm}final T jenes.\-chromosome.\-Generic\-Allele\-Set$<$ T $>$.get\-Random\-Value (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [virtual]}}}\label{classjenes_1_1chromosome_1_1_generic_allele_set_3_01_t_01_4_a2f330d71d992e0d724bc31730b56229e}
+Returns an allele randomly chosen.
+
+\begin{DoxyReturn}{Returns}
+a value 
+\end{DoxyReturn}
+
+
+Implements \hyperlink{interfacejenes_1_1chromosome_1_1_allele_set_3_01_t_01_4_ac09d409c55d941892df658d21b3d4bff}{jenes.\-chromosome.\-Allele\-Set$<$ T $>$}.
+
+\hypertarget{classjenes_1_1chromosome_1_1_generic_allele_set_3_01_t_01_4_a234b0a286a14fcaf0bf10894813465c5}{\index{jenes\-::chromosome\-::\-Generic\-Allele\-Set$<$ T $>$@{jenes\-::chromosome\-::\-Generic\-Allele\-Set$<$ T $>$}!set\-Differences@{set\-Differences}}
+\index{set\-Differences@{set\-Differences}!jenes::chromosome::GenericAlleleSet< T >@{jenes\-::chromosome\-::\-Generic\-Allele\-Set$<$ T $>$}}
+\subsubsection[{set\-Differences}]{\setlength{\rightskip}{0pt plus 5cm}void jenes.\-chromosome.\-Generic\-Allele\-Set$<$ T $>$.set\-Differences (
+\begin{DoxyParamCaption}
+\item[{double}]{diff\mbox{[}$\,$\mbox{]}\mbox{[}$\,$\mbox{]}}
+\end{DoxyParamCaption}
+)}}\label{classjenes_1_1chromosome_1_1_generic_allele_set_3_01_t_01_4_a234b0a286a14fcaf0bf10894813465c5}
+Sets the difference matrix between alleles. It is expected that diff is a square matrix according to set size, with diff(i,i) = 0 and diff(i,j) = -\/diff(j,i).
+
+
+\begin{DoxyParams}{Parameters}
+{\em diff} & -\/ the difference matrix \\
+\hline
+\end{DoxyParams}
+\hypertarget{classjenes_1_1chromosome_1_1_generic_allele_set_3_01_t_01_4_a568ca617716496507d41e348c5bc2845}{\index{jenes\-::chromosome\-::\-Generic\-Allele\-Set$<$ T $>$@{jenes\-::chromosome\-::\-Generic\-Allele\-Set$<$ T $>$}!size@{size}}
+\index{size@{size}!jenes::chromosome::GenericAlleleSet< T >@{jenes\-::chromosome\-::\-Generic\-Allele\-Set$<$ T $>$}}
+\subsubsection[{size}]{\setlength{\rightskip}{0pt plus 5cm}final int jenes.\-chromosome.\-Generic\-Allele\-Set$<$ T $>$.size (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [virtual]}}}\label{classjenes_1_1chromosome_1_1_generic_allele_set_3_01_t_01_4_a568ca617716496507d41e348c5bc2845}
+Returns the number of alleles held by the allele set.
+
+\begin{DoxyReturn}{Returns}
+the number of alleles 
+\end{DoxyReturn}
+
+
+Implements \hyperlink{interfacejenes_1_1chromosome_1_1_allele_set_3_01_t_01_4_a3acbb10df92ebafc589d5d8546949f2f}{jenes.\-chromosome.\-Allele\-Set$<$ T $>$}.
+
+
+
+\subsection{Member Data Documentation}
+\hypertarget{classjenes_1_1chromosome_1_1_generic_allele_set_3_01_t_01_4_a6eef912e60066cc7271f44ecc704ce1c}{\index{jenes\-::chromosome\-::\-Generic\-Allele\-Set$<$ T $>$@{jenes\-::chromosome\-::\-Generic\-Allele\-Set$<$ T $>$}!diff@{diff}}
+\index{diff@{diff}!jenes::chromosome::GenericAlleleSet< T >@{jenes\-::chromosome\-::\-Generic\-Allele\-Set$<$ T $>$}}
+\subsubsection[{diff}]{\setlength{\rightskip}{0pt plus 5cm}double \mbox{[}$\,$\mbox{]}\mbox{[}$\,$\mbox{]} jenes.\-chromosome.\-Generic\-Allele\-Set$<$ T $>$.diff\hspace{0.3cm}{\ttfamily [private]}}}\label{classjenes_1_1chromosome_1_1_generic_allele_set_3_01_t_01_4_a6eef912e60066cc7271f44ecc704ce1c}
+\hypertarget{classjenes_1_1chromosome_1_1_generic_allele_set_3_01_t_01_4_a2594723bce2ac24a1d465de4732418bc}{\index{jenes\-::chromosome\-::\-Generic\-Allele\-Set$<$ T $>$@{jenes\-::chromosome\-::\-Generic\-Allele\-Set$<$ T $>$}!set@{set}}
+\index{set@{set}!jenes::chromosome::GenericAlleleSet< T >@{jenes\-::chromosome\-::\-Generic\-Allele\-Set$<$ T $>$}}
+\subsubsection[{set}]{\setlength{\rightskip}{0pt plus 5cm}T \mbox{[}$\,$\mbox{]} jenes.\-chromosome.\-Generic\-Allele\-Set$<$ T $>$.set\hspace{0.3cm}{\ttfamily [private]}}}\label{classjenes_1_1chromosome_1_1_generic_allele_set_3_01_t_01_4_a2594723bce2ac24a1d465de4732418bc}
+
+
+The documentation for this class was generated from the following file\-:\begin{DoxyCompactItemize}
+\item 
+src/jenes/chromosome/\hyperlink{_generic_allele_set_8java}{Generic\-Allele\-Set.\-java}\end{DoxyCompactItemize}

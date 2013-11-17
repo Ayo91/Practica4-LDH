@@ -1,0 +1,76 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="classjenes_1_1tutorials_1_1problem6_1_1_knapsack_g_a_1_1_knapsack_fitness" kind="class" prot="private">
+    <compoundname>jenes::tutorials::problem6::KnapsackGA::KnapsackFitness</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">jenes::population::Fitness&lt; BooleanChromosome &gt;</basecompoundref>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classjenes_1_1tutorials_1_1problem6_1_1_knapsack_g_a_1_1_knapsack_fitness_1adb0a278aa853f8fb7f9e0866c9620bce" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>jenes.tutorials.problem6.KnapsackGA.KnapsackFitness.KnapsackFitness</definition>
+        <argsstring>(boolean maximize)</argsstring>
+        <name>KnapsackFitness</name>
+        <param>
+          <type>boolean</type>
+          <declname>maximize</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/problem6/KnapsackGA.java" line="46" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/problem6/KnapsackGA.java" bodystart="46" bodyend="48"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classjenes_1_1tutorials_1_1problem6_1_1_knapsack_g_a_1_1_knapsack_fitness_1a4770eb011017fa41a4b296c19e1480aa" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void jenes.tutorials.problem6.KnapsackGA.KnapsackFitness.evaluate</definition>
+        <argsstring>(Individual&lt; BooleanChromosome &gt; individual)</argsstring>
+        <name>evaluate</name>
+        <param>
+          <type>Individual&lt; <ref refid="classjenes_1_1chromosome_1_1_boolean_chromosome" kindref="compound">BooleanChromosome</ref> &gt;</type>
+          <declname>individual</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/problem6/KnapsackGA.java" line="51" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/problem6/KnapsackGA.java" bodystart="51" bodyend="56"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="309">
+        <label>jenes::population::Fitness&lt; BooleanChromosome &gt;</label>
+      </node>
+      <node id="308">
+        <label>jenes.tutorials.problem6.KnapsackGA.KnapsackFitness</label>
+        <link refid="classjenes_1_1tutorials_1_1problem6_1_1_knapsack_g_a_1_1_knapsack_fitness"/>
+        <childnode refid="309" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="311">
+        <label>jenes::population::Fitness&lt; BooleanChromosome &gt;</label>
+      </node>
+      <node id="310">
+        <label>jenes.tutorials.problem6.KnapsackGA.KnapsackFitness</label>
+        <link refid="classjenes_1_1tutorials_1_1problem6_1_1_knapsack_g_a_1_1_knapsack_fitness"/>
+        <childnode refid="311" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/problem6/KnapsackGA.java" line="44" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/problem6/KnapsackGA.java" bodystart="44" bodyend="58"/>
+    <listofallmembers>
+      <member refid="classjenes_1_1tutorials_1_1problem6_1_1_knapsack_g_a_1_1_knapsack_fitness_1a4770eb011017fa41a4b296c19e1480aa" prot="public" virt="non-virtual"><scope>jenes::tutorials::problem6::KnapsackGA::KnapsackFitness</scope><name>evaluate</name></member>
+      <member refid="classjenes_1_1tutorials_1_1problem6_1_1_knapsack_g_a_1_1_knapsack_fitness_1adb0a278aa853f8fb7f9e0866c9620bce" prot="private" virt="non-virtual"><scope>jenes::tutorials::problem6::KnapsackGA::KnapsackFitness</scope><name>KnapsackFitness</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

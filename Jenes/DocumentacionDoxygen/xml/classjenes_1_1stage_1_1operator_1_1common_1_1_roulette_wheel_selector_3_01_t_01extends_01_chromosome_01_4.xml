@@ -1,0 +1,136 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="classjenes_1_1stage_1_1operator_1_1common_1_1_roulette_wheel_selector_3_01_t_01extends_01_chromosome_01_4" kind="class" prot="public">
+    <compoundname>jenes::stage::operator::common::RouletteWheelSelector&lt; T extends Chromosome &gt;</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">jenes::stage::operator::Selector&lt; T &gt;</basecompoundref>
+      <sectiondef kind="package-attrib">
+      <memberdef kind="variable" id="classjenes_1_1stage_1_1operator_1_1common_1_1_roulette_wheel_selector_3_01_t_01extends_01_chromosome_01_4_1ac030f795440f2d69c4e08f80219cda30" prot="package" static="no" mutable="no">
+        <type>double[]</type>
+        <definition>double [] jenes.stage.operator.common.RouletteWheelSelector&lt; T extends Chromosome &gt;.cumulativeFit</definition>
+        <argsstring></argsstring>
+        <name>cumulativeFit</name>
+        <initializer>= null</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/operator/common/RouletteWheelSelector.java" line="44" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/operator/common/RouletteWheelSelector.java" bodystart="44" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classjenes_1_1stage_1_1operator_1_1common_1_1_roulette_wheel_selector_3_01_t_01extends_01_chromosome_01_4_1af64e3d25c886903470c3e188b287af4c" prot="package" static="no" mutable="no">
+        <type>double[]</type>
+        <definition>double [] jenes.stage.operator.common.RouletteWheelSelector&lt; T extends Chromosome &gt;.fit</definition>
+        <argsstring></argsstring>
+        <name>fit</name>
+        <initializer>= null</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/operator/common/RouletteWheelSelector.java" line="45" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/operator/common/RouletteWheelSelector.java" bodystart="45" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classjenes_1_1stage_1_1operator_1_1common_1_1_roulette_wheel_selector_3_01_t_01extends_01_chromosome_01_4_1ac073a280077bd972cab00cd2608ae415" prot="package" static="no" mutable="no">
+        <type>double[]</type>
+        <definition>double [] jenes.stage.operator.common.RouletteWheelSelector&lt; T extends Chromosome &gt;.partialFit</definition>
+        <argsstring></argsstring>
+        <name>partialFit</name>
+        <initializer>= null</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/operator/common/RouletteWheelSelector.java" line="46" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/operator/common/RouletteWheelSelector.java" bodystart="46" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classjenes_1_1stage_1_1operator_1_1common_1_1_roulette_wheel_selector_3_01_t_01extends_01_chromosome_01_4_1a13a6b76fa77779367d05a063ff6191bf" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void jenes.stage.operator.common.RouletteWheelSelector&lt; T extends Chromosome &gt;.preSelect</definition>
+        <argsstring>(Population&lt; T &gt; pop, Filter filter)</argsstring>
+        <name>preSelect</name>
+        <param>
+          <type>Population&lt; T &gt;</type>
+          <declname>pop</declname>
+        </param>
+        <param>
+          <type>Filter</type>
+          <declname>filter</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/operator/common/RouletteWheelSelector.java" line="49" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/operator/common/RouletteWheelSelector.java" bodystart="49" bodyend="96"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1stage_1_1operator_1_1common_1_1_roulette_wheel_selector_3_01_t_01extends_01_chromosome_01_4_1ad74c66e053cb97c75ce8a9f78a8208e5" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Individual&lt; T &gt;</type>
+        <definition>Individual&lt;T&gt; jenes.stage.operator.common.RouletteWheelSelector&lt; T extends Chromosome &gt;.select</definition>
+        <argsstring>(List&lt; Individual&lt; T &gt;&gt; list)</argsstring>
+        <name>select</name>
+        <param>
+          <type>List&lt; Individual&lt; T &gt;&gt;</type>
+          <declname>list</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/operator/common/RouletteWheelSelector.java" line="99" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/operator/common/RouletteWheelSelector.java" bodystart="99" bodyend="129"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>A classic roulette wheel selection operator. If s if the input population size, s individuals will be selected. The best ones have a higher selection probability. A <ref refid="" kindref="compound">preSelect(Population)</ref> method is useful to set up the selection state according to the population state to undergo at the selection process. </para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>&lt;T&gt;</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The class of chromosomes to work with.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="version"><para>2.0 </para></simplesect>
+<simplesect kind="since"><para>1.0</para></simplesect>
+<simplesect kind="see"><para>Individual </para><simplesectsep/><para>Population </para></simplesect>
+</para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="548">
+        <label>jenes.stage.operator.common.RouletteWheelSelector&lt; T extends Chromosome &gt;</label>
+        <link refid="classjenes_1_1stage_1_1operator_1_1common_1_1_roulette_wheel_selector_3_01_t_01extends_01_chromosome_01_4"/>
+        <childnode refid="549" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="549">
+        <label>jenes::stage::operator::Selector&lt; T &gt;</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="550">
+        <label>jenes.stage.operator.common.RouletteWheelSelector&lt; T extends Chromosome &gt;</label>
+        <link refid="classjenes_1_1stage_1_1operator_1_1common_1_1_roulette_wheel_selector_3_01_t_01extends_01_chromosome_01_4"/>
+        <childnode refid="551" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="551">
+        <label>jenes::stage::operator::Selector&lt; T &gt;</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/operator/common/RouletteWheelSelector.java" line="42" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/operator/common/RouletteWheelSelector.java" bodystart="42" bodyend="189"/>
+    <listofallmembers>
+      <member refid="classjenes_1_1stage_1_1operator_1_1common_1_1_roulette_wheel_selector_3_01_t_01extends_01_chromosome_01_4_1ac030f795440f2d69c4e08f80219cda30" prot="package" virt="non-virtual"><scope>jenes::stage::operator::common::RouletteWheelSelector&lt; T extends Chromosome &gt;</scope><name>cumulativeFit</name></member>
+      <member refid="classjenes_1_1stage_1_1operator_1_1common_1_1_roulette_wheel_selector_3_01_t_01extends_01_chromosome_01_4_1af64e3d25c886903470c3e188b287af4c" prot="package" virt="non-virtual"><scope>jenes::stage::operator::common::RouletteWheelSelector&lt; T extends Chromosome &gt;</scope><name>fit</name></member>
+      <member refid="classjenes_1_1stage_1_1operator_1_1common_1_1_roulette_wheel_selector_3_01_t_01extends_01_chromosome_01_4_1ac073a280077bd972cab00cd2608ae415" prot="package" virt="non-virtual"><scope>jenes::stage::operator::common::RouletteWheelSelector&lt; T extends Chromosome &gt;</scope><name>partialFit</name></member>
+      <member refid="classjenes_1_1stage_1_1operator_1_1common_1_1_roulette_wheel_selector_3_01_t_01extends_01_chromosome_01_4_1a13a6b76fa77779367d05a063ff6191bf" prot="protected" virt="non-virtual"><scope>jenes::stage::operator::common::RouletteWheelSelector&lt; T extends Chromosome &gt;</scope><name>preSelect</name></member>
+      <member refid="classjenes_1_1stage_1_1operator_1_1common_1_1_roulette_wheel_selector_3_01_t_01extends_01_chromosome_01_4_1ad74c66e053cb97c75ce8a9f78a8208e5" prot="protected" virt="non-virtual"><scope>jenes::stage::operator::common::RouletteWheelSelector&lt; T extends Chromosome &gt;</scope><name>select</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

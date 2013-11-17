@@ -1,0 +1,76 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="classjenes_1_1performance_1_1_t_s_p_mutator" kind="class" prot="public">
+    <compoundname>jenes::performance::TSPMutator</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">jenes::stage::operator::Mutator&lt; IntegerChromosome &gt;</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classjenes_1_1performance_1_1_t_s_p_mutator_1a66ff4b3c4ac9985a10c35e6bf4005904" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>jenes.performance.TSPMutator.TSPMutator</definition>
+        <argsstring>(double probability)</argsstring>
+        <name>TSPMutator</name>
+        <param>
+          <type>double</type>
+          <declname>probability</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/performance/TSPMutator.java" line="29" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/performance/TSPMutator.java" bodystart="29" bodyend="31"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classjenes_1_1performance_1_1_t_s_p_mutator_1aefe31787293640658a112692d2c103d5" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void jenes.performance.TSPMutator.mutate</definition>
+        <argsstring>(Individual&lt; IntegerChromosome &gt; t)</argsstring>
+        <name>mutate</name>
+        <param>
+          <type>Individual&lt; <ref refid="classjenes_1_1chromosome_1_1_integer_chromosome" kindref="compound">IntegerChromosome</ref> &gt;</type>
+          <declname>t</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/performance/TSPMutator.java" line="34" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/performance/TSPMutator.java" bodystart="34" bodyend="67"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="743">
+        <label>jenes::stage::operator::Mutator&lt; IntegerChromosome &gt;</label>
+      </node>
+      <node id="742">
+        <label>jenes.performance.TSPMutator</label>
+        <link refid="classjenes_1_1performance_1_1_t_s_p_mutator"/>
+        <childnode refid="743" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="745">
+        <label>jenes::stage::operator::Mutator&lt; IntegerChromosome &gt;</label>
+      </node>
+      <node id="744">
+        <label>jenes.performance.TSPMutator</label>
+        <link refid="classjenes_1_1performance_1_1_t_s_p_mutator"/>
+        <childnode refid="745" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/performance/TSPMutator.java" line="27" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/performance/TSPMutator.java" bodystart="27" bodyend="68"/>
+    <listofallmembers>
+      <member refid="classjenes_1_1performance_1_1_t_s_p_mutator_1aefe31787293640658a112692d2c103d5" prot="protected" virt="non-virtual"><scope>jenes::performance::TSPMutator</scope><name>mutate</name></member>
+      <member refid="classjenes_1_1performance_1_1_t_s_p_mutator_1a66ff4b3c4ac9985a10c35e6bf4005904" prot="public" virt="non-virtual"><scope>jenes::performance::TSPMutator</scope><name>TSPMutator</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

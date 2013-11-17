@@ -1,0 +1,162 @@
+\hypertarget{classjenes_1_1tutorials_1_1problem6_1_1_knapsack_problem}{\section{jenes.\-tutorials.\-problem6.\-Knapsack\-Problem Class Reference}
+\label{classjenes_1_1tutorials_1_1problem6_1_1_knapsack_problem}\index{jenes.\-tutorials.\-problem6.\-Knapsack\-Problem@{jenes.\-tutorials.\-problem6.\-Knapsack\-Problem}}
+}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classjenes_1_1tutorials_1_1problem6_1_1_knapsack_problem_a5c921b1c3d9dbbe35decc777cf59169d}{Knapsack\-Problem} (double\mbox{[}$\,$\mbox{]} \hyperlink{classjenes_1_1tutorials_1_1problem6_1_1_knapsack_problem_acad1c415f8d164b4ffa0d99db5fc6772}{utilities}, double\mbox{[}$\,$\mbox{]} \hyperlink{classjenes_1_1tutorials_1_1problem6_1_1_knapsack_problem_a1c7f18379c5ca910013fc02748a53bf9}{weights})
+\item 
+void \hyperlink{classjenes_1_1tutorials_1_1problem6_1_1_knapsack_problem_a174433680cf824c4238f690d84a43e38}{run} ()
+\item 
+double \hyperlink{classjenes_1_1tutorials_1_1problem6_1_1_knapsack_problem_af5b99c0408de24f2d7598f14dc597ef7}{get\-Capacity} ()
+\item 
+void \hyperlink{classjenes_1_1tutorials_1_1problem6_1_1_knapsack_problem_a9caf9c53d4ce0e4b17ceb163ee8ab837}{set\-Capacity} (double c)
+\item 
+double\mbox{[}$\,$\mbox{]} \hyperlink{classjenes_1_1tutorials_1_1problem6_1_1_knapsack_problem_a1eddd1274f86fe1b3e61668f072dc364}{get\-Utilities} ()
+\item 
+double\mbox{[}$\,$\mbox{]} \hyperlink{classjenes_1_1tutorials_1_1problem6_1_1_knapsack_problem_a3f94e77e8f2ea920b9ec1dede3ed53f8}{get\-Weights} ()
+\end{DoxyCompactItemize}
+\subsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static \hyperlink{classjenes_1_1tutorials_1_1problem6_1_1_knapsack_problem}{Knapsack\-Problem} \hyperlink{classjenes_1_1tutorials_1_1problem6_1_1_knapsack_problem_aa51d99e0afc8f76e96448bf45d9f412f}{build} (int n)
+\item 
+static void \hyperlink{classjenes_1_1tutorials_1_1problem6_1_1_knapsack_problem_ae706a456c3248ec8360f10138d364c3e}{main} (String\mbox{[}$\,$\mbox{]} args)
+\end{DoxyCompactItemize}
+\subsection*{Static Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static String \hyperlink{classjenes_1_1tutorials_1_1problem6_1_1_knapsack_problem_aae8373d29def494dd9bbf86c729a5336}{to\-String} (double\mbox{[}$\,$\mbox{]} values)
+\end{DoxyCompactItemize}
+\subsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classjenes_1_1tutorials_1_1problem6_1_1_knapsack_g_a}{Knapsack\-G\-A} \hyperlink{classjenes_1_1tutorials_1_1problem6_1_1_knapsack_problem_a4a10c09e3ae2ffc56a67b59f57767189}{algorithm}
+\item 
+double\mbox{[}$\,$\mbox{]} \hyperlink{classjenes_1_1tutorials_1_1problem6_1_1_knapsack_problem_acad1c415f8d164b4ffa0d99db5fc6772}{utilities}
+\item 
+double\mbox{[}$\,$\mbox{]} \hyperlink{classjenes_1_1tutorials_1_1problem6_1_1_knapsack_problem_a1c7f18379c5ca910013fc02748a53bf9}{weights}
+\end{DoxyCompactItemize}
+\subsection*{Static Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+static int \hyperlink{classjenes_1_1tutorials_1_1problem6_1_1_knapsack_problem_a138e3d34c9168d33b53f3bb67e2207d7}{P\-O\-P\-S\-I\-Z\-E} =100
+\item 
+static int \hyperlink{classjenes_1_1tutorials_1_1problem6_1_1_knapsack_problem_a594ddc19149baf7d1c8c7487c85a4ed5}{G\-E\-N\-E\-R\-A\-T\-I\-O\-N\-\_\-\-L\-I\-M\-I\-T} =100
+\item 
+static final double\mbox{[}$\,$\mbox{]} \hyperlink{classjenes_1_1tutorials_1_1problem6_1_1_knapsack_problem_a7dfea169d398ccf63ee9cb6dae89752b}{W\-E\-I\-G\-H\-T\-S} = \{1, 5, 3, 2, 8, 6, 4, 7, 9, 6\}
+\item 
+static final double\mbox{[}$\,$\mbox{]} \hyperlink{classjenes_1_1tutorials_1_1problem6_1_1_knapsack_problem_ac49eb8a17fa93f76613151b296c23567}{U\-T\-I\-L\-I\-T\-I\-E\-S} = \{7, 2, 7, 1, 6, 4, 2, 8, 9, 2\}
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Tutorial showing how to minimization and maximization sub-\/prolems can cohesists in the breeding structure of Jenes.
+
+This class defines the problem to solve.
+
+\begin{DoxyVersion}{Version}
+2.\-0 
+\end{DoxyVersion}
+\begin{DoxySince}{Since}
+1.\-0 
+\end{DoxySince}
+
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{classjenes_1_1tutorials_1_1problem6_1_1_knapsack_problem_a5c921b1c3d9dbbe35decc777cf59169d}{\index{jenes\-::tutorials\-::problem6\-::\-Knapsack\-Problem@{jenes\-::tutorials\-::problem6\-::\-Knapsack\-Problem}!Knapsack\-Problem@{Knapsack\-Problem}}
+\index{Knapsack\-Problem@{Knapsack\-Problem}!jenes::tutorials::problem6::KnapsackProblem@{jenes\-::tutorials\-::problem6\-::\-Knapsack\-Problem}}
+\subsubsection[{Knapsack\-Problem}]{\setlength{\rightskip}{0pt plus 5cm}jenes.\-tutorials.\-problem6.\-Knapsack\-Problem.\-Knapsack\-Problem (
+\begin{DoxyParamCaption}
+\item[{double\mbox{[}$\,$\mbox{]}}]{utilities, }
+\item[{double\mbox{[}$\,$\mbox{]}}]{weights}
+\end{DoxyParamCaption}
+)}}\label{classjenes_1_1tutorials_1_1problem6_1_1_knapsack_problem_a5c921b1c3d9dbbe35decc777cf59169d}
+
+
+\subsection{Member Function Documentation}
+\hypertarget{classjenes_1_1tutorials_1_1problem6_1_1_knapsack_problem_aa51d99e0afc8f76e96448bf45d9f412f}{\index{jenes\-::tutorials\-::problem6\-::\-Knapsack\-Problem@{jenes\-::tutorials\-::problem6\-::\-Knapsack\-Problem}!build@{build}}
+\index{build@{build}!jenes::tutorials::problem6::KnapsackProblem@{jenes\-::tutorials\-::problem6\-::\-Knapsack\-Problem}}
+\subsubsection[{build}]{\setlength{\rightskip}{0pt plus 5cm}static {\bf Knapsack\-Problem} jenes.\-tutorials.\-problem6.\-Knapsack\-Problem.\-build (
+\begin{DoxyParamCaption}
+\item[{int}]{n}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}}\label{classjenes_1_1tutorials_1_1problem6_1_1_knapsack_problem_aa51d99e0afc8f76e96448bf45d9f412f}
+\hypertarget{classjenes_1_1tutorials_1_1problem6_1_1_knapsack_problem_af5b99c0408de24f2d7598f14dc597ef7}{\index{jenes\-::tutorials\-::problem6\-::\-Knapsack\-Problem@{jenes\-::tutorials\-::problem6\-::\-Knapsack\-Problem}!get\-Capacity@{get\-Capacity}}
+\index{get\-Capacity@{get\-Capacity}!jenes::tutorials::problem6::KnapsackProblem@{jenes\-::tutorials\-::problem6\-::\-Knapsack\-Problem}}
+\subsubsection[{get\-Capacity}]{\setlength{\rightskip}{0pt plus 5cm}double jenes.\-tutorials.\-problem6.\-Knapsack\-Problem.\-get\-Capacity (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classjenes_1_1tutorials_1_1problem6_1_1_knapsack_problem_af5b99c0408de24f2d7598f14dc597ef7}
+\hypertarget{classjenes_1_1tutorials_1_1problem6_1_1_knapsack_problem_a1eddd1274f86fe1b3e61668f072dc364}{\index{jenes\-::tutorials\-::problem6\-::\-Knapsack\-Problem@{jenes\-::tutorials\-::problem6\-::\-Knapsack\-Problem}!get\-Utilities@{get\-Utilities}}
+\index{get\-Utilities@{get\-Utilities}!jenes::tutorials::problem6::KnapsackProblem@{jenes\-::tutorials\-::problem6\-::\-Knapsack\-Problem}}
+\subsubsection[{get\-Utilities}]{\setlength{\rightskip}{0pt plus 5cm}double \mbox{[}$\,$\mbox{]} jenes.\-tutorials.\-problem6.\-Knapsack\-Problem.\-get\-Utilities (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classjenes_1_1tutorials_1_1problem6_1_1_knapsack_problem_a1eddd1274f86fe1b3e61668f072dc364}
+\hypertarget{classjenes_1_1tutorials_1_1problem6_1_1_knapsack_problem_a3f94e77e8f2ea920b9ec1dede3ed53f8}{\index{jenes\-::tutorials\-::problem6\-::\-Knapsack\-Problem@{jenes\-::tutorials\-::problem6\-::\-Knapsack\-Problem}!get\-Weights@{get\-Weights}}
+\index{get\-Weights@{get\-Weights}!jenes::tutorials::problem6::KnapsackProblem@{jenes\-::tutorials\-::problem6\-::\-Knapsack\-Problem}}
+\subsubsection[{get\-Weights}]{\setlength{\rightskip}{0pt plus 5cm}double \mbox{[}$\,$\mbox{]} jenes.\-tutorials.\-problem6.\-Knapsack\-Problem.\-get\-Weights (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classjenes_1_1tutorials_1_1problem6_1_1_knapsack_problem_a3f94e77e8f2ea920b9ec1dede3ed53f8}
+\hypertarget{classjenes_1_1tutorials_1_1problem6_1_1_knapsack_problem_ae706a456c3248ec8360f10138d364c3e}{\index{jenes\-::tutorials\-::problem6\-::\-Knapsack\-Problem@{jenes\-::tutorials\-::problem6\-::\-Knapsack\-Problem}!main@{main}}
+\index{main@{main}!jenes::tutorials::problem6::KnapsackProblem@{jenes\-::tutorials\-::problem6\-::\-Knapsack\-Problem}}
+\subsubsection[{main}]{\setlength{\rightskip}{0pt plus 5cm}static void jenes.\-tutorials.\-problem6.\-Knapsack\-Problem.\-main (
+\begin{DoxyParamCaption}
+\item[{String\mbox{[}$\,$\mbox{]}}]{args}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}}\label{classjenes_1_1tutorials_1_1problem6_1_1_knapsack_problem_ae706a456c3248ec8360f10138d364c3e}
+\hypertarget{classjenes_1_1tutorials_1_1problem6_1_1_knapsack_problem_a174433680cf824c4238f690d84a43e38}{\index{jenes\-::tutorials\-::problem6\-::\-Knapsack\-Problem@{jenes\-::tutorials\-::problem6\-::\-Knapsack\-Problem}!run@{run}}
+\index{run@{run}!jenes::tutorials::problem6::KnapsackProblem@{jenes\-::tutorials\-::problem6\-::\-Knapsack\-Problem}}
+\subsubsection[{run}]{\setlength{\rightskip}{0pt plus 5cm}void jenes.\-tutorials.\-problem6.\-Knapsack\-Problem.\-run (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classjenes_1_1tutorials_1_1problem6_1_1_knapsack_problem_a174433680cf824c4238f690d84a43e38}
+\hypertarget{classjenes_1_1tutorials_1_1problem6_1_1_knapsack_problem_a9caf9c53d4ce0e4b17ceb163ee8ab837}{\index{jenes\-::tutorials\-::problem6\-::\-Knapsack\-Problem@{jenes\-::tutorials\-::problem6\-::\-Knapsack\-Problem}!set\-Capacity@{set\-Capacity}}
+\index{set\-Capacity@{set\-Capacity}!jenes::tutorials::problem6::KnapsackProblem@{jenes\-::tutorials\-::problem6\-::\-Knapsack\-Problem}}
+\subsubsection[{set\-Capacity}]{\setlength{\rightskip}{0pt plus 5cm}void jenes.\-tutorials.\-problem6.\-Knapsack\-Problem.\-set\-Capacity (
+\begin{DoxyParamCaption}
+\item[{double}]{c}
+\end{DoxyParamCaption}
+)}}\label{classjenes_1_1tutorials_1_1problem6_1_1_knapsack_problem_a9caf9c53d4ce0e4b17ceb163ee8ab837}
+\hypertarget{classjenes_1_1tutorials_1_1problem6_1_1_knapsack_problem_aae8373d29def494dd9bbf86c729a5336}{\index{jenes\-::tutorials\-::problem6\-::\-Knapsack\-Problem@{jenes\-::tutorials\-::problem6\-::\-Knapsack\-Problem}!to\-String@{to\-String}}
+\index{to\-String@{to\-String}!jenes::tutorials::problem6::KnapsackProblem@{jenes\-::tutorials\-::problem6\-::\-Knapsack\-Problem}}
+\subsubsection[{to\-String}]{\setlength{\rightskip}{0pt plus 5cm}static String jenes.\-tutorials.\-problem6.\-Knapsack\-Problem.\-to\-String (
+\begin{DoxyParamCaption}
+\item[{double\mbox{[}$\,$\mbox{]}}]{values}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}}\label{classjenes_1_1tutorials_1_1problem6_1_1_knapsack_problem_aae8373d29def494dd9bbf86c729a5336}
+
+
+\subsection{Member Data Documentation}
+\hypertarget{classjenes_1_1tutorials_1_1problem6_1_1_knapsack_problem_a4a10c09e3ae2ffc56a67b59f57767189}{\index{jenes\-::tutorials\-::problem6\-::\-Knapsack\-Problem@{jenes\-::tutorials\-::problem6\-::\-Knapsack\-Problem}!algorithm@{algorithm}}
+\index{algorithm@{algorithm}!jenes::tutorials::problem6::KnapsackProblem@{jenes\-::tutorials\-::problem6\-::\-Knapsack\-Problem}}
+\subsubsection[{algorithm}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Knapsack\-G\-A} jenes.\-tutorials.\-problem6.\-Knapsack\-Problem.\-algorithm\hspace{0.3cm}{\ttfamily [private]}}}\label{classjenes_1_1tutorials_1_1problem6_1_1_knapsack_problem_a4a10c09e3ae2ffc56a67b59f57767189}
+\hypertarget{classjenes_1_1tutorials_1_1problem6_1_1_knapsack_problem_a594ddc19149baf7d1c8c7487c85a4ed5}{\index{jenes\-::tutorials\-::problem6\-::\-Knapsack\-Problem@{jenes\-::tutorials\-::problem6\-::\-Knapsack\-Problem}!G\-E\-N\-E\-R\-A\-T\-I\-O\-N\-\_\-\-L\-I\-M\-I\-T@{G\-E\-N\-E\-R\-A\-T\-I\-O\-N\-\_\-\-L\-I\-M\-I\-T}}
+\index{G\-E\-N\-E\-R\-A\-T\-I\-O\-N\-\_\-\-L\-I\-M\-I\-T@{G\-E\-N\-E\-R\-A\-T\-I\-O\-N\-\_\-\-L\-I\-M\-I\-T}!jenes::tutorials::problem6::KnapsackProblem@{jenes\-::tutorials\-::problem6\-::\-Knapsack\-Problem}}
+\subsubsection[{G\-E\-N\-E\-R\-A\-T\-I\-O\-N\-\_\-\-L\-I\-M\-I\-T}]{\setlength{\rightskip}{0pt plus 5cm}int jenes.\-tutorials.\-problem6.\-Knapsack\-Problem.\-G\-E\-N\-E\-R\-A\-T\-I\-O\-N\-\_\-\-L\-I\-M\-I\-T =100\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}}\label{classjenes_1_1tutorials_1_1problem6_1_1_knapsack_problem_a594ddc19149baf7d1c8c7487c85a4ed5}
+\hypertarget{classjenes_1_1tutorials_1_1problem6_1_1_knapsack_problem_a138e3d34c9168d33b53f3bb67e2207d7}{\index{jenes\-::tutorials\-::problem6\-::\-Knapsack\-Problem@{jenes\-::tutorials\-::problem6\-::\-Knapsack\-Problem}!P\-O\-P\-S\-I\-Z\-E@{P\-O\-P\-S\-I\-Z\-E}}
+\index{P\-O\-P\-S\-I\-Z\-E@{P\-O\-P\-S\-I\-Z\-E}!jenes::tutorials::problem6::KnapsackProblem@{jenes\-::tutorials\-::problem6\-::\-Knapsack\-Problem}}
+\subsubsection[{P\-O\-P\-S\-I\-Z\-E}]{\setlength{\rightskip}{0pt plus 5cm}int jenes.\-tutorials.\-problem6.\-Knapsack\-Problem.\-P\-O\-P\-S\-I\-Z\-E =100\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}}\label{classjenes_1_1tutorials_1_1problem6_1_1_knapsack_problem_a138e3d34c9168d33b53f3bb67e2207d7}
+\hypertarget{classjenes_1_1tutorials_1_1problem6_1_1_knapsack_problem_ac49eb8a17fa93f76613151b296c23567}{\index{jenes\-::tutorials\-::problem6\-::\-Knapsack\-Problem@{jenes\-::tutorials\-::problem6\-::\-Knapsack\-Problem}!U\-T\-I\-L\-I\-T\-I\-E\-S@{U\-T\-I\-L\-I\-T\-I\-E\-S}}
+\index{U\-T\-I\-L\-I\-T\-I\-E\-S@{U\-T\-I\-L\-I\-T\-I\-E\-S}!jenes::tutorials::problem6::KnapsackProblem@{jenes\-::tutorials\-::problem6\-::\-Knapsack\-Problem}}
+\subsubsection[{U\-T\-I\-L\-I\-T\-I\-E\-S}]{\setlength{\rightskip}{0pt plus 5cm}final double \mbox{[}$\,$\mbox{]} jenes.\-tutorials.\-problem6.\-Knapsack\-Problem.\-U\-T\-I\-L\-I\-T\-I\-E\-S = \{7, 2, 7, 1, 6, 4, 2, 8, 9, 2\}\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}}\label{classjenes_1_1tutorials_1_1problem6_1_1_knapsack_problem_ac49eb8a17fa93f76613151b296c23567}
+\hypertarget{classjenes_1_1tutorials_1_1problem6_1_1_knapsack_problem_acad1c415f8d164b4ffa0d99db5fc6772}{\index{jenes\-::tutorials\-::problem6\-::\-Knapsack\-Problem@{jenes\-::tutorials\-::problem6\-::\-Knapsack\-Problem}!utilities@{utilities}}
+\index{utilities@{utilities}!jenes::tutorials::problem6::KnapsackProblem@{jenes\-::tutorials\-::problem6\-::\-Knapsack\-Problem}}
+\subsubsection[{utilities}]{\setlength{\rightskip}{0pt plus 5cm}double \mbox{[}$\,$\mbox{]} jenes.\-tutorials.\-problem6.\-Knapsack\-Problem.\-utilities\hspace{0.3cm}{\ttfamily [private]}}}\label{classjenes_1_1tutorials_1_1problem6_1_1_knapsack_problem_acad1c415f8d164b4ffa0d99db5fc6772}
+\hypertarget{classjenes_1_1tutorials_1_1problem6_1_1_knapsack_problem_a7dfea169d398ccf63ee9cb6dae89752b}{\index{jenes\-::tutorials\-::problem6\-::\-Knapsack\-Problem@{jenes\-::tutorials\-::problem6\-::\-Knapsack\-Problem}!W\-E\-I\-G\-H\-T\-S@{W\-E\-I\-G\-H\-T\-S}}
+\index{W\-E\-I\-G\-H\-T\-S@{W\-E\-I\-G\-H\-T\-S}!jenes::tutorials::problem6::KnapsackProblem@{jenes\-::tutorials\-::problem6\-::\-Knapsack\-Problem}}
+\subsubsection[{W\-E\-I\-G\-H\-T\-S}]{\setlength{\rightskip}{0pt plus 5cm}final double \mbox{[}$\,$\mbox{]} jenes.\-tutorials.\-problem6.\-Knapsack\-Problem.\-W\-E\-I\-G\-H\-T\-S = \{1, 5, 3, 2, 8, 6, 4, 7, 9, 6\}\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}}\label{classjenes_1_1tutorials_1_1problem6_1_1_knapsack_problem_a7dfea169d398ccf63ee9cb6dae89752b}
+\hypertarget{classjenes_1_1tutorials_1_1problem6_1_1_knapsack_problem_a1c7f18379c5ca910013fc02748a53bf9}{\index{jenes\-::tutorials\-::problem6\-::\-Knapsack\-Problem@{jenes\-::tutorials\-::problem6\-::\-Knapsack\-Problem}!weights@{weights}}
+\index{weights@{weights}!jenes::tutorials::problem6::KnapsackProblem@{jenes\-::tutorials\-::problem6\-::\-Knapsack\-Problem}}
+\subsubsection[{weights}]{\setlength{\rightskip}{0pt plus 5cm}double \mbox{[}$\,$\mbox{]} jenes.\-tutorials.\-problem6.\-Knapsack\-Problem.\-weights\hspace{0.3cm}{\ttfamily [private]}}}\label{classjenes_1_1tutorials_1_1problem6_1_1_knapsack_problem_a1c7f18379c5ca910013fc02748a53bf9}
+
+
+The documentation for this class was generated from the following file\-:\begin{DoxyCompactItemize}
+\item 
+src/jenes/tutorials/problem6/\hyperlink{problem6_2_knapsack_problem_8java}{Knapsack\-Problem.\-java}\end{DoxyCompactItemize}

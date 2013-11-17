@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="dir_3026c930e1c2a8db495b82daa9b0f1de" kind="dir">
+    <compoundname>src/jenes/stage/operator/common</compoundname>
+    <innerfile refid="_de_jong_crowder_8java">DeJongCrowder.java</innerfile>
+    <innerfile refid="_deterministic_crowder_8java">DeterministicCrowder.java</innerfile>
+    <innerfile refid="_heuristic_crossover_8java">HeuristicCrossover.java</innerfile>
+    <innerfile refid="_intermediate_crossover_8java">IntermediateCrossover.java</innerfile>
+    <innerfile refid="_multi_niche_crowder_8java">MultiNicheCrowder.java</innerfile>
+    <innerfile refid="_one_point_crossover_8java">OnePointCrossover.java</innerfile>
+    <innerfile refid="_proportional_scaling_8java">ProportionalScaling.java</innerfile>
+    <innerfile refid="_rank_scaling_8java">RankScaling.java</innerfile>
+    <innerfile refid="_roulette_wheel_selector_8java">RouletteWheelSelector.java</innerfile>
+    <innerfile refid="_simple_mutator_8java">SimpleMutator.java</innerfile>
+    <innerfile refid="_steady_state_8java">SteadyState.java</innerfile>
+    <innerfile refid="_top_scaling_8java">TopScaling.java</innerfile>
+    <innerfile refid="_tournament_selector_8java">TournamentSelector.java</innerfile>
+    <innerfile refid="_two_points_crossover_8java">TwoPointsCrossover.java</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/operator/common/"/>
+  </compounddef>
+</doxygen>

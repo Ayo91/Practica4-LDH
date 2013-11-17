@@ -1,0 +1,157 @@
+\hypertarget{classjenes_1_1utils_1_1multitasking_1_1_multi_thread_evaluator}{\section{jenes.\-utils.\-multitasking.\-Multi\-Thread\-Evaluator Class Reference}
+\label{classjenes_1_1utils_1_1multitasking_1_1_multi_thread_evaluator}\index{jenes.\-utils.\-multitasking.\-Multi\-Thread\-Evaluator@{jenes.\-utils.\-multitasking.\-Multi\-Thread\-Evaluator}}
+}
+Inheritance diagram for jenes.\-utils.\-multitasking.\-Multi\-Thread\-Evaluator\-:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=3.000000cm]{classjenes_1_1utils_1_1multitasking_1_1_multi_thread_evaluator}
+\end{center}
+\end{figure}
+\subsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+class \hyperlink{classjenes_1_1utils_1_1multitasking_1_1_multi_thread_evaluator_1_1_evaluation_task}{Evaluation\-Task}
+\end{DoxyCompactItemize}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classjenes_1_1utils_1_1multitasking_1_1_multi_thread_evaluator_a842d648ae03a8d7f835a24c522d229ae}{Multi\-Thread\-Evaluator} (int \hyperlink{classjenes_1_1utils_1_1multitasking_1_1_multi_thread_runner_aa20fe700a6b2abd3694b4a1d5629db8f}{nthreads})
+\item 
+\hyperlink{classjenes_1_1utils_1_1multitasking_1_1_multi_thread_evaluator_ac9949bf8de0efb0cb47feb2df56140ff}{Multi\-Thread\-Evaluator} ()
+\item 
+void \hyperlink{classjenes_1_1utils_1_1multitasking_1_1_multi_thread_evaluator_a2a9d9427ca8c2b8a9dfc541c85bada42}{on\-Evaluation\-Begin} (Population pop, boolean forced)
+\item 
+synchronized void \hyperlink{classjenes_1_1utils_1_1multitasking_1_1_multi_thread_evaluator_ad99c13b137f1089a9f30377548b42e25}{evaluate\-Individual} (Individual individual)
+\item 
+synchronized void \hyperlink{classjenes_1_1utils_1_1multitasking_1_1_multi_thread_evaluator_a3cd56b43989da43e4b3c2b79260d5f5f}{on\-Evaluation\-End} ()
+\end{DoxyCompactItemize}
+\subsection*{Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{classjenes_1_1utils_1_1multitasking_1_1_multi_thread_evaluator_a90ae547a26d2566f5000856c053450af}{refresh\-Fitness\-Pool} ()
+\item 
+synchronized Fitness \hyperlink{classjenes_1_1utils_1_1multitasking_1_1_multi_thread_evaluator_a52406c9c6f2169319c48bba068bd102a}{get\-Fitness} ()
+\item 
+synchronized void \hyperlink{classjenes_1_1utils_1_1multitasking_1_1_multi_thread_evaluator_a8d7fbd44425e92968dbf904454b7ccbc}{release\-Fitness} (Fitness fit)
+\end{DoxyCompactItemize}
+\subsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+int \hyperlink{classjenes_1_1utils_1_1multitasking_1_1_multi_thread_evaluator_aa6a82db6c77826d99c361ce5959ae441}{todo} = 0
+\item 
+Stack$<$ Fitness $>$ \hyperlink{classjenes_1_1utils_1_1multitasking_1_1_multi_thread_evaluator_aa8b1d2ff749ebd5fd37f9a7f5b419260}{fitness\-Pool} = new Stack$<$Fitness$>$()
+\item 
+Stack$<$ \hyperlink{classjenes_1_1utils_1_1multitasking_1_1_multi_thread_evaluator_1_1_evaluation_task}{Evaluation\-Task} $>$ \hyperlink{classjenes_1_1utils_1_1multitasking_1_1_multi_thread_evaluator_a672829f7b70815c7bb1c9379ab403312}{tasks\-Pool} = new Stack$<$\hyperlink{classjenes_1_1utils_1_1multitasking_1_1_multi_thread_evaluator_1_1_evaluation_task}{Evaluation\-Task}$>$()
+\end{DoxyCompactItemize}
+\subsection*{Additional Inherited Members}
+
+
+\subsection{Detailed Description}
+This class represent a simple implementation of a multi thread runner
+
+\begin{DoxySince}{Since}
+2.\-0
+\end{DoxySince}
+\begin{DoxySeeAlso}{See Also}
+\hyperlink{classjenes_1_1utils_1_1multitasking_1_1_multi_thread_runner}{Multi\-Thread\-Runner} 
+\end{DoxySeeAlso}
+
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{classjenes_1_1utils_1_1multitasking_1_1_multi_thread_evaluator_a842d648ae03a8d7f835a24c522d229ae}{\index{jenes\-::utils\-::multitasking\-::\-Multi\-Thread\-Evaluator@{jenes\-::utils\-::multitasking\-::\-Multi\-Thread\-Evaluator}!Multi\-Thread\-Evaluator@{Multi\-Thread\-Evaluator}}
+\index{Multi\-Thread\-Evaluator@{Multi\-Thread\-Evaluator}!jenes::utils::multitasking::MultiThreadEvaluator@{jenes\-::utils\-::multitasking\-::\-Multi\-Thread\-Evaluator}}
+\subsubsection[{Multi\-Thread\-Evaluator}]{\setlength{\rightskip}{0pt plus 5cm}jenes.\-utils.\-multitasking.\-Multi\-Thread\-Evaluator.\-Multi\-Thread\-Evaluator (
+\begin{DoxyParamCaption}
+\item[{int}]{nthreads}
+\end{DoxyParamCaption}
+)}}\label{classjenes_1_1utils_1_1multitasking_1_1_multi_thread_evaluator_a842d648ae03a8d7f835a24c522d229ae}
+Default constructor that define the thread number to use 
+\begin{DoxyParams}{Parameters}
+{\em nthreads} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxySeeAlso}{See Also}
+\hyperlink{classjenes_1_1utils_1_1multitasking_1_1_multi_thread_runner_a6319362b08c06d8bf26989407d223c31}{Multi\-Thread\-Runner\-::\-Multi\-Thread\-Runner(int)} 
+\end{DoxySeeAlso}
+\hypertarget{classjenes_1_1utils_1_1multitasking_1_1_multi_thread_evaluator_ac9949bf8de0efb0cb47feb2df56140ff}{\index{jenes\-::utils\-::multitasking\-::\-Multi\-Thread\-Evaluator@{jenes\-::utils\-::multitasking\-::\-Multi\-Thread\-Evaluator}!Multi\-Thread\-Evaluator@{Multi\-Thread\-Evaluator}}
+\index{Multi\-Thread\-Evaluator@{Multi\-Thread\-Evaluator}!jenes::utils::multitasking::MultiThreadEvaluator@{jenes\-::utils\-::multitasking\-::\-Multi\-Thread\-Evaluator}}
+\subsubsection[{Multi\-Thread\-Evaluator}]{\setlength{\rightskip}{0pt plus 5cm}jenes.\-utils.\-multitasking.\-Multi\-Thread\-Evaluator.\-Multi\-Thread\-Evaluator (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classjenes_1_1utils_1_1multitasking_1_1_multi_thread_evaluator_ac9949bf8de0efb0cb47feb2df56140ff}
+Default constructor that generates an execution enviroinment with a number of threads equals to the number of phisical cores. \begin{DoxySeeAlso}{See Also}
+\hyperlink{classjenes_1_1utils_1_1multitasking_1_1_multi_thread_runner_ab0815486f3159f086cd06ccab94df319}{Multi\-Thread\-Runner\-::\-Multi\-Thread\-Runner()} 
+\end{DoxySeeAlso}
+
+
+\subsection{Member Function Documentation}
+\hypertarget{classjenes_1_1utils_1_1multitasking_1_1_multi_thread_evaluator_ad99c13b137f1089a9f30377548b42e25}{\index{jenes\-::utils\-::multitasking\-::\-Multi\-Thread\-Evaluator@{jenes\-::utils\-::multitasking\-::\-Multi\-Thread\-Evaluator}!evaluate\-Individual@{evaluate\-Individual}}
+\index{evaluate\-Individual@{evaluate\-Individual}!jenes::utils::multitasking::MultiThreadEvaluator@{jenes\-::utils\-::multitasking\-::\-Multi\-Thread\-Evaluator}}
+\subsubsection[{evaluate\-Individual}]{\setlength{\rightskip}{0pt plus 5cm}synchronized void jenes.\-utils.\-multitasking.\-Multi\-Thread\-Evaluator.\-evaluate\-Individual (
+\begin{DoxyParamCaption}
+\item[{Individual}]{individual}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [virtual]}}}\label{classjenes_1_1utils_1_1multitasking_1_1_multi_thread_evaluator_ad99c13b137f1089a9f30377548b42e25}
+Call-\/back invoked in substitution to \hyperlink{}{Genetic\-Algorithm\#evaluate\-Individual(jenes.\-population.\-Individual)} 
+\begin{DoxyParams}{Parameters}
+{\em individual} & \\
+\hline
+\end{DoxyParams}
+
+
+Implements \hyperlink{classjenes_1_1utils_1_1multitasking_1_1_runner_a250c5e0ffdb86ef0bb0e78e625a449e7}{jenes.\-utils.\-multitasking.\-Runner}.
+
+\hypertarget{classjenes_1_1utils_1_1multitasking_1_1_multi_thread_evaluator_a52406c9c6f2169319c48bba068bd102a}{\index{jenes\-::utils\-::multitasking\-::\-Multi\-Thread\-Evaluator@{jenes\-::utils\-::multitasking\-::\-Multi\-Thread\-Evaluator}!get\-Fitness@{get\-Fitness}}
+\index{get\-Fitness@{get\-Fitness}!jenes::utils::multitasking::MultiThreadEvaluator@{jenes\-::utils\-::multitasking\-::\-Multi\-Thread\-Evaluator}}
+\subsubsection[{get\-Fitness}]{\setlength{\rightskip}{0pt plus 5cm}synchronized Fitness jenes.\-utils.\-multitasking.\-Multi\-Thread\-Evaluator.\-get\-Fitness (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [private]}}}\label{classjenes_1_1utils_1_1multitasking_1_1_multi_thread_evaluator_a52406c9c6f2169319c48bba068bd102a}
+\hypertarget{classjenes_1_1utils_1_1multitasking_1_1_multi_thread_evaluator_a2a9d9427ca8c2b8a9dfc541c85bada42}{\index{jenes\-::utils\-::multitasking\-::\-Multi\-Thread\-Evaluator@{jenes\-::utils\-::multitasking\-::\-Multi\-Thread\-Evaluator}!on\-Evaluation\-Begin@{on\-Evaluation\-Begin}}
+\index{on\-Evaluation\-Begin@{on\-Evaluation\-Begin}!jenes::utils::multitasking::MultiThreadEvaluator@{jenes\-::utils\-::multitasking\-::\-Multi\-Thread\-Evaluator}}
+\subsubsection[{on\-Evaluation\-Begin}]{\setlength{\rightskip}{0pt plus 5cm}void jenes.\-utils.\-multitasking.\-Multi\-Thread\-Evaluator.\-on\-Evaluation\-Begin (
+\begin{DoxyParamCaption}
+\item[{Population}]{pop, }
+\item[{boolean}]{forced}
+\end{DoxyParamCaption}
+)}}\label{classjenes_1_1utils_1_1multitasking_1_1_multi_thread_evaluator_a2a9d9427ca8c2b8a9dfc541c85bada42}
+\hypertarget{classjenes_1_1utils_1_1multitasking_1_1_multi_thread_evaluator_a3cd56b43989da43e4b3c2b79260d5f5f}{\index{jenes\-::utils\-::multitasking\-::\-Multi\-Thread\-Evaluator@{jenes\-::utils\-::multitasking\-::\-Multi\-Thread\-Evaluator}!on\-Evaluation\-End@{on\-Evaluation\-End}}
+\index{on\-Evaluation\-End@{on\-Evaluation\-End}!jenes::utils::multitasking::MultiThreadEvaluator@{jenes\-::utils\-::multitasking\-::\-Multi\-Thread\-Evaluator}}
+\subsubsection[{on\-Evaluation\-End}]{\setlength{\rightskip}{0pt plus 5cm}synchronized void jenes.\-utils.\-multitasking.\-Multi\-Thread\-Evaluator.\-on\-Evaluation\-End (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classjenes_1_1utils_1_1multitasking_1_1_multi_thread_evaluator_a3cd56b43989da43e4b3c2b79260d5f5f}
+\hypertarget{classjenes_1_1utils_1_1multitasking_1_1_multi_thread_evaluator_a90ae547a26d2566f5000856c053450af}{\index{jenes\-::utils\-::multitasking\-::\-Multi\-Thread\-Evaluator@{jenes\-::utils\-::multitasking\-::\-Multi\-Thread\-Evaluator}!refresh\-Fitness\-Pool@{refresh\-Fitness\-Pool}}
+\index{refresh\-Fitness\-Pool@{refresh\-Fitness\-Pool}!jenes::utils::multitasking::MultiThreadEvaluator@{jenes\-::utils\-::multitasking\-::\-Multi\-Thread\-Evaluator}}
+\subsubsection[{refresh\-Fitness\-Pool}]{\setlength{\rightskip}{0pt plus 5cm}void jenes.\-utils.\-multitasking.\-Multi\-Thread\-Evaluator.\-refresh\-Fitness\-Pool (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [private]}}}\label{classjenes_1_1utils_1_1multitasking_1_1_multi_thread_evaluator_a90ae547a26d2566f5000856c053450af}
+\hypertarget{classjenes_1_1utils_1_1multitasking_1_1_multi_thread_evaluator_a8d7fbd44425e92968dbf904454b7ccbc}{\index{jenes\-::utils\-::multitasking\-::\-Multi\-Thread\-Evaluator@{jenes\-::utils\-::multitasking\-::\-Multi\-Thread\-Evaluator}!release\-Fitness@{release\-Fitness}}
+\index{release\-Fitness@{release\-Fitness}!jenes::utils::multitasking::MultiThreadEvaluator@{jenes\-::utils\-::multitasking\-::\-Multi\-Thread\-Evaluator}}
+\subsubsection[{release\-Fitness}]{\setlength{\rightskip}{0pt plus 5cm}synchronized void jenes.\-utils.\-multitasking.\-Multi\-Thread\-Evaluator.\-release\-Fitness (
+\begin{DoxyParamCaption}
+\item[{Fitness}]{fit}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [private]}}}\label{classjenes_1_1utils_1_1multitasking_1_1_multi_thread_evaluator_a8d7fbd44425e92968dbf904454b7ccbc}
+
+
+\subsection{Member Data Documentation}
+\hypertarget{classjenes_1_1utils_1_1multitasking_1_1_multi_thread_evaluator_aa8b1d2ff749ebd5fd37f9a7f5b419260}{\index{jenes\-::utils\-::multitasking\-::\-Multi\-Thread\-Evaluator@{jenes\-::utils\-::multitasking\-::\-Multi\-Thread\-Evaluator}!fitness\-Pool@{fitness\-Pool}}
+\index{fitness\-Pool@{fitness\-Pool}!jenes::utils::multitasking::MultiThreadEvaluator@{jenes\-::utils\-::multitasking\-::\-Multi\-Thread\-Evaluator}}
+\subsubsection[{fitness\-Pool}]{\setlength{\rightskip}{0pt plus 5cm}Stack$<$Fitness$>$ jenes.\-utils.\-multitasking.\-Multi\-Thread\-Evaluator.\-fitness\-Pool = new Stack$<$Fitness$>$()\hspace{0.3cm}{\ttfamily [private]}}}\label{classjenes_1_1utils_1_1multitasking_1_1_multi_thread_evaluator_aa8b1d2ff749ebd5fd37f9a7f5b419260}
+Due to concurrency the multi thread evaluator clones a fixed number of \hyperlink{}{Fitness} instances \hypertarget{classjenes_1_1utils_1_1multitasking_1_1_multi_thread_evaluator_a672829f7b70815c7bb1c9379ab403312}{\index{jenes\-::utils\-::multitasking\-::\-Multi\-Thread\-Evaluator@{jenes\-::utils\-::multitasking\-::\-Multi\-Thread\-Evaluator}!tasks\-Pool@{tasks\-Pool}}
+\index{tasks\-Pool@{tasks\-Pool}!jenes::utils::multitasking::MultiThreadEvaluator@{jenes\-::utils\-::multitasking\-::\-Multi\-Thread\-Evaluator}}
+\subsubsection[{tasks\-Pool}]{\setlength{\rightskip}{0pt plus 5cm}Stack$<${\bf Evaluation\-Task}$>$ jenes.\-utils.\-multitasking.\-Multi\-Thread\-Evaluator.\-tasks\-Pool = new Stack$<${\bf Evaluation\-Task}$>$()\hspace{0.3cm}{\ttfamily [private]}}}\label{classjenes_1_1utils_1_1multitasking_1_1_multi_thread_evaluator_a672829f7b70815c7bb1c9379ab403312}
+The evaluation Task cache pool \hypertarget{classjenes_1_1utils_1_1multitasking_1_1_multi_thread_evaluator_aa6a82db6c77826d99c361ce5959ae441}{\index{jenes\-::utils\-::multitasking\-::\-Multi\-Thread\-Evaluator@{jenes\-::utils\-::multitasking\-::\-Multi\-Thread\-Evaluator}!todo@{todo}}
+\index{todo@{todo}!jenes::utils::multitasking::MultiThreadEvaluator@{jenes\-::utils\-::multitasking\-::\-Multi\-Thread\-Evaluator}}
+\subsubsection[{todo}]{\setlength{\rightskip}{0pt plus 5cm}int jenes.\-utils.\-multitasking.\-Multi\-Thread\-Evaluator.\-todo = 0\hspace{0.3cm}{\ttfamily [private]}}}\label{classjenes_1_1utils_1_1multitasking_1_1_multi_thread_evaluator_aa6a82db6c77826d99c361ce5959ae441}
+shared counter... number of tasks currently in queue 
+
+The documentation for this class was generated from the following file\-:\begin{DoxyCompactItemize}
+\item 
+src/jenes/utils/multitasking/\hyperlink{_multi_thread_evaluator_8java}{Multi\-Thread\-Evaluator.\-java}\end{DoxyCompactItemize}

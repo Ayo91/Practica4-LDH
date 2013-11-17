@@ -1,0 +1,715 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="classjenes_1_1chromosome_1_1_double_chromosome" kind="class" prot="public">
+    <compoundname>jenes::chromosome::DoubleChromosome</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">jenes::chromosome::Chromosome&lt; DoubleChromosome &gt;</basecompoundref>
+      <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="classjenes_1_1chromosome_1_1_double_chromosome_1a0a987b7f1fa1c4cec652330ad77b6ba6" prot="protected" static="no" mutable="no">
+        <type>double[]</type>
+        <definition>double [] jenes.chromosome.DoubleChromosome.genes</definition>
+        <argsstring></argsstring>
+        <name>genes</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/chromosome/DoubleChromosome.java" line="36" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/chromosome/DoubleChromosome.java" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classjenes_1_1chromosome_1_1_double_chromosome_1a56362107033b220e75d83b75ea91b74e" prot="protected" static="no" mutable="no">
+        <type>double</type>
+        <definition>double jenes.chromosome.DoubleChromosome.upperBound</definition>
+        <argsstring></argsstring>
+        <name>upperBound</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/chromosome/DoubleChromosome.java" line="37" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/chromosome/DoubleChromosome.java" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classjenes_1_1chromosome_1_1_double_chromosome_1a5c2d56f7d05b08c75013a7529ae46839" prot="protected" static="no" mutable="no">
+        <type>double</type>
+        <definition>double jenes.chromosome.DoubleChromosome.defaultValue</definition>
+        <argsstring></argsstring>
+        <name>defaultValue</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/chromosome/DoubleChromosome.java" line="38" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/chromosome/DoubleChromosome.java" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="package-attrib">
+      <memberdef kind="variable" id="classjenes_1_1chromosome_1_1_double_chromosome_1af7c35ef9163f9ea35beb27b2c5985aa4" prot="package" static="no" mutable="no">
+        <type>double</type>
+        <definition>double jenes.chromosome.DoubleChromosome.lowerBound</definition>
+        <argsstring></argsstring>
+        <name>lowerBound</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/chromosome/DoubleChromosome.java" line="37" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/chromosome/DoubleChromosome.java" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classjenes_1_1chromosome_1_1_double_chromosome_1a849079d41a2f10db681ba24de10d2619" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>jenes.chromosome.DoubleChromosome.DoubleChromosome</definition>
+        <argsstring>(final DoubleChromosome chromosome)</argsstring>
+        <name>DoubleChromosome</name>
+        <param>
+          <type>final <ref refid="classjenes_1_1chromosome_1_1_double_chromosome" kindref="compound">DoubleChromosome</ref></type>
+          <declname>chromosome</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Creates a new <ref refid="classjenes_1_1chromosome_1_1_double_chromosome" kindref="compound">DoubleChromosome</ref> as a copy of the specified chromosome </para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>chromosome</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the chromosome to be copied </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/chromosome/DoubleChromosome.java" line="45" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/chromosome/DoubleChromosome.java" bodystart="45" bodyend="53"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1chromosome_1_1_double_chromosome_1a7166da8f71e5b0cf37e751c053f6ff5f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>jenes.chromosome.DoubleChromosome.DoubleChromosome</definition>
+        <argsstring>(final int length, final double lowerBound, final double upperBound)</argsstring>
+        <name>DoubleChromosome</name>
+        <param>
+          <type>final int</type>
+          <declname>length</declname>
+        </param>
+        <param>
+          <type>final double</type>
+          <declname>lowerBound</declname>
+        </param>
+        <param>
+          <type>final double</type>
+          <declname>upperBound</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Creates a <ref refid="classjenes_1_1chromosome_1_1_double_chromosome" kindref="compound">DoubleChromosome</ref> with each allele in the range [lowerBound, upperBound[ </para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>length</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the chromosome length </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>lowerBound</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the lower bound </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>upperBound</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the upper bound </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/chromosome/DoubleChromosome.java" line="63" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/chromosome/DoubleChromosome.java" bodystart="63" bodyend="71"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1chromosome_1_1_double_chromosome_1a82130d84dadedda332121b92f801d2e6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>final void</type>
+        <definition>final void jenes.chromosome.DoubleChromosome.setDefaultValueAt</definition>
+        <argsstring>(final int pos)</argsstring>
+        <name>setDefaultValueAt</name>
+        <param>
+          <type>final int</type>
+          <declname>pos</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/chromosome/DoubleChromosome.java" line="73" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/chromosome/DoubleChromosome.java" bodystart="73" bodyend="75"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1chromosome_1_1_double_chromosome_1ac471f6b6cb7989e6b90c5e70e7b8a9a2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>final <ref refid="classjenes_1_1chromosome_1_1_double_chromosome" kindref="compound">DoubleChromosome</ref></type>
+        <definition>final DoubleChromosome jenes.chromosome.DoubleChromosome.clone</definition>
+        <argsstring>()</argsstring>
+        <name>clone</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/chromosome/DoubleChromosome.java" line="78" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/chromosome/DoubleChromosome.java" bodystart="78" bodyend="80"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1chromosome_1_1_double_chromosome_1ac34343c04259b0e3da8a7b2579cbd5fc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>final void</type>
+        <definition>final void jenes.chromosome.DoubleChromosome.swap</definition>
+        <argsstring>(final int pos1, final int pos2)</argsstring>
+        <name>swap</name>
+        <param>
+          <type>final int</type>
+          <declname>pos1</declname>
+        </param>
+        <param>
+          <type>final int</type>
+          <declname>pos2</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/chromosome/DoubleChromosome.java" line="82" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/chromosome/DoubleChromosome.java" bodystart="82" bodyend="86"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1chromosome_1_1_double_chromosome_1a1ecf9f1d70333b8cbabdba918946cdfc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>final void</type>
+        <definition>final void jenes.chromosome.DoubleChromosome.randomize</definition>
+        <argsstring>()</argsstring>
+        <name>randomize</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/chromosome/DoubleChromosome.java" line="88" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/chromosome/DoubleChromosome.java" bodystart="88" bodyend="92"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1chromosome_1_1_double_chromosome_1a370f8d51fa8635eeadf925e2faf11991" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>final void</type>
+        <definition>final void jenes.chromosome.DoubleChromosome.randomize</definition>
+        <argsstring>(final int pos)</argsstring>
+        <name>randomize</name>
+        <param>
+          <type>final int</type>
+          <declname>pos</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/chromosome/DoubleChromosome.java" line="94" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/chromosome/DoubleChromosome.java" bodystart="94" bodyend="96"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1chromosome_1_1_double_chromosome_1a8d8eb8ce2b20abad8d462ae87a213e85" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>final void</type>
+        <definition>final void jenes.chromosome.DoubleChromosome.leftShift</definition>
+        <argsstring>(final int from, int to)</argsstring>
+        <name>leftShift</name>
+        <param>
+          <type>final int</type>
+          <declname>from</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>to</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/chromosome/DoubleChromosome.java" line="98" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/chromosome/DoubleChromosome.java" bodystart="98" bodyend="113"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1chromosome_1_1_double_chromosome_1ae2c6d9bac13241a8338623c612d0f70b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>final void</type>
+        <definition>final void jenes.chromosome.DoubleChromosome.rightShift</definition>
+        <argsstring>(final int from, int to)</argsstring>
+        <name>rightShift</name>
+        <param>
+          <type>final int</type>
+          <declname>from</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>to</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/chromosome/DoubleChromosome.java" line="115" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/chromosome/DoubleChromosome.java" bodystart="115" bodyend="130"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1chromosome_1_1_double_chromosome_1a0938c891dcd64d56dcbfbc9136438b92" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>final int</type>
+        <definition>final int jenes.chromosome.DoubleChromosome.length</definition>
+        <argsstring>()</argsstring>
+        <name>length</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/chromosome/DoubleChromosome.java" line="132" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/chromosome/DoubleChromosome.java" bodystart="132" bodyend="134"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1chromosome_1_1_double_chromosome_1a7479d1ee74934b04f478dcf8fad35464" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>final void</type>
+        <definition>final void jenes.chromosome.DoubleChromosome.setAs</definition>
+        <argsstring>(final DoubleChromosome chromosome)</argsstring>
+        <name>setAs</name>
+        <param>
+          <type>final <ref refid="classjenes_1_1chromosome_1_1_double_chromosome" kindref="compound">DoubleChromosome</ref></type>
+          <declname>chromosome</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/chromosome/DoubleChromosome.java" line="136" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/chromosome/DoubleChromosome.java" bodystart="136" bodyend="147"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1chromosome_1_1_double_chromosome_1a0461bfc35a8ca0c503ba0a4017005f89" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>final void</type>
+        <definition>final void jenes.chromosome.DoubleChromosome.cross</definition>
+        <argsstring>(final DoubleChromosome chromosome, final int from)</argsstring>
+        <name>cross</name>
+        <param>
+          <type>final <ref refid="classjenes_1_1chromosome_1_1_double_chromosome" kindref="compound">DoubleChromosome</ref></type>
+          <declname>chromosome</declname>
+        </param>
+        <param>
+          <type>final int</type>
+          <declname>from</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/chromosome/DoubleChromosome.java" line="149" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/chromosome/DoubleChromosome.java" bodystart="149" bodyend="169"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1chromosome_1_1_double_chromosome_1acaad58427cf1db8071fe2032755bbdce" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>final void</type>
+        <definition>final void jenes.chromosome.DoubleChromosome.cross</definition>
+        <argsstring>(final DoubleChromosome chromosome, final int from, final int to)</argsstring>
+        <name>cross</name>
+        <param>
+          <type>final <ref refid="classjenes_1_1chromosome_1_1_double_chromosome" kindref="compound">DoubleChromosome</ref></type>
+          <declname>chromosome</declname>
+        </param>
+        <param>
+          <type>final int</type>
+          <declname>from</declname>
+        </param>
+        <param>
+          <type>final int</type>
+          <declname>to</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/chromosome/DoubleChromosome.java" line="171" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/chromosome/DoubleChromosome.java" bodystart="171" bodyend="190"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1chromosome_1_1_double_chromosome_1a83b26a42b307ce1316523e262f044fdd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>final void</type>
+        <definition>final void jenes.chromosome.DoubleChromosome.average</definition>
+        <argsstring>(final DoubleChromosome chromosome, double ratio)</argsstring>
+        <name>average</name>
+        <param>
+          <type>final <ref refid="classjenes_1_1chromosome_1_1_double_chromosome" kindref="compound">DoubleChromosome</ref></type>
+          <declname>chromosome</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>ratio</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Performs the weighted average between the genes in the two chromosomes. If ratio = 1, the chromosomes, do not change. If ratio = 0, chromosomes are swapped. The operation is performed until the end of shortest chromosome is reached.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>chromosome</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- the chromosome to combine </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>ratio</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- the coefficient used in the weighted average </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/chromosome/DoubleChromosome.java" line="200" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/chromosome/DoubleChromosome.java" bodystart="200" bodyend="219"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1chromosome_1_1_double_chromosome_1aeebe5bd21dbc2e8dbbdc135d4d10a4cc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>final void</type>
+        <definition>final void jenes.chromosome.DoubleChromosome.owa</definition>
+        <argsstring>(final DoubleChromosome chromosome, double ratio)</argsstring>
+        <name>owa</name>
+        <param>
+          <type>final <ref refid="classjenes_1_1chromosome_1_1_double_chromosome" kindref="compound">DoubleChromosome</ref></type>
+          <declname>chromosome</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>ratio</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Performs the ordered weighted average (OWA) between the genes in the two chromosomes. If ratio = 1, the second chromosome holds the maximal values, the first the minimal. The opposite in case of ratio = 0. The operation is performed until the end of shortest chromosome is reached.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>chromosome</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- the chromosome to combine </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>ratio</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- the coefficient used in the weighted average </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/chromosome/DoubleChromosome.java" line="230" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/chromosome/DoubleChromosome.java" bodystart="230" bodyend="255"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1chromosome_1_1_double_chromosome_1acb68cbcac3e7859d4f380530355012c8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>final double</type>
+        <definition>final double jenes.chromosome.DoubleChromosome.getValue</definition>
+        <argsstring>(final int pos)</argsstring>
+        <name>getValue</name>
+        <param>
+          <type>final int</type>
+          <declname>pos</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns the double value at the specified position </para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>pos</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>a position of this chromosome </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>the double value at the specified position </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/chromosome/DoubleChromosome.java" line="263" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/chromosome/DoubleChromosome.java" bodystart="263" bodyend="269"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1chromosome_1_1_double_chromosome_1a3dea8e4aee9041437b101d1f74d10d1f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>final double[]</type>
+        <definition>final double [] jenes.chromosome.DoubleChromosome.getValues</definition>
+        <argsstring>()</argsstring>
+        <name>getValues</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns the double values </para><para><simplesect kind="return"><para>values </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/chromosome/DoubleChromosome.java" line="276" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/chromosome/DoubleChromosome.java" bodystart="276" bodyend="280"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1chromosome_1_1_double_chromosome_1a0e7543f12f4ab7591f9b4687c44c801c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>final double[]</type>
+        <definition>final double [] jenes.chromosome.DoubleChromosome.getValues</definition>
+        <argsstring>(final double values[])</argsstring>
+        <name>getValues</name>
+        <param>
+          <type>final double</type>
+          <declname>values</declname>
+          <array>[]</array>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Provides the gene values by the array passed as parameter and returning it on return. If the argument values is null, the array is first created. </para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>values</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the array to fill </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>the array of values </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/chromosome/DoubleChromosome.java" line="289" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/chromosome/DoubleChromosome.java" bodystart="289" bodyend="297"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1chromosome_1_1_double_chromosome_1ab0f087d0d5ac5ac273c63c4e3af2efff" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>final void</type>
+        <definition>final void jenes.chromosome.DoubleChromosome.setDefaultValue</definition>
+        <argsstring>(final double defaultValue)</argsstring>
+        <name>setDefaultValue</name>
+        <param>
+          <type>final double</type>
+          <declname>defaultValue</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Sets the default value of this chromosome </para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>defaultValue</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the new default value to be used </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/chromosome/DoubleChromosome.java" line="304" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/chromosome/DoubleChromosome.java" bodystart="304" bodyend="306"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1chromosome_1_1_double_chromosome_1ae129a0daa2e01593859f5b26c508d36b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>final double</type>
+        <definition>final double jenes.chromosome.DoubleChromosome.getDefaultValue</definition>
+        <argsstring>()</argsstring>
+        <name>getDefaultValue</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns the default value of this chromosome </para><para><simplesect kind="return"><para>the double default value of this chromosome </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/chromosome/DoubleChromosome.java" line="313" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/chromosome/DoubleChromosome.java" bodystart="313" bodyend="315"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1chromosome_1_1_double_chromosome_1a4581d7735d8ed661473b0e72ff19f956" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>final void</type>
+        <definition>final void jenes.chromosome.DoubleChromosome.setValue</definition>
+        <argsstring>(final int pos, final double value)</argsstring>
+        <name>setValue</name>
+        <param>
+          <type>final int</type>
+          <declname>pos</declname>
+        </param>
+        <param>
+          <type>final double</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Sets the specified value at the specified position </para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>pos</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the position to be modify </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>value</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the value to be insert </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/chromosome/DoubleChromosome.java" line="323" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/chromosome/DoubleChromosome.java" bodystart="323" bodyend="333"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1chromosome_1_1_double_chromosome_1aeaf1116586c3fac1fa8c1dad28b7f727" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>final String</type>
+        <definition>final String jenes.chromosome.DoubleChromosome.toString</definition>
+        <argsstring>()</argsstring>
+        <name>toString</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Provides a textual chromosome representation <simplesect kind="return"><para>the textual chromosome representation </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/chromosome/DoubleChromosome.java" line="340" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/chromosome/DoubleChromosome.java" bodystart="340" bodyend="351"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1chromosome_1_1_double_chromosome_1aa45c550b4cb16cba001dd6c754a5d8bd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>final double</type>
+        <definition>final double jenes.chromosome.DoubleChromosome.getLowerBound</definition>
+        <argsstring>()</argsstring>
+        <name>getLowerBound</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns the lower bound value for a gene of this chromosome</para><para><simplesect kind="return"><para>the alleles lower bound </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/chromosome/DoubleChromosome.java" line="358" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/chromosome/DoubleChromosome.java" bodystart="358" bodyend="360"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1chromosome_1_1_double_chromosome_1a7f4fe0c4dd1645f02ebbb2633d6610c8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>final double</type>
+        <definition>final double jenes.chromosome.DoubleChromosome.getUpperBound</definition>
+        <argsstring>()</argsstring>
+        <name>getUpperBound</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns the upper bound value for a gene of this chromosome</para><para><simplesect kind="return"><para>the alleles upper bound </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/chromosome/DoubleChromosome.java" line="367" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/chromosome/DoubleChromosome.java" bodystart="367" bodyend="369"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1chromosome_1_1_double_chromosome_1ad661abf584ceb5195b6b248798709fc9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>final boolean</type>
+        <definition>final boolean jenes.chromosome.DoubleChromosome.equals</definition>
+        <argsstring>(final DoubleChromosome chromosome)</argsstring>
+        <name>equals</name>
+        <param>
+          <type>final <ref refid="classjenes_1_1chromosome_1_1_double_chromosome" kindref="compound">DoubleChromosome</ref></type>
+          <declname>chromosome</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Compares the chromosome with another.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>chromosome</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the chromosome to compare to. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>True, if the two chromosome are equal. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/chromosome/DoubleChromosome.java" line="377" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/chromosome/DoubleChromosome.java" bodystart="377" bodyend="387"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1chromosome_1_1_double_chromosome_1a10f461747c9f99c02405626cf82aee46" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void jenes.chromosome.DoubleChromosome.difference</definition>
+        <argsstring>(final DoubleChromosome chromosome, final double[] diff)</argsstring>
+        <name>difference</name>
+        <param>
+          <type>final <ref refid="classjenes_1_1chromosome_1_1_double_chromosome" kindref="compound">DoubleChromosome</ref></type>
+          <declname>chromosome</declname>
+        </param>
+        <param>
+          <type>final double[]</type>
+          <declname>diff</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/chromosome/DoubleChromosome.java" line="390" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/chromosome/DoubleChromosome.java" bodystart="390" bodyend="400"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1chromosome_1_1_double_chromosome_1a101d1eb5ebc632c0c5d0a1c5b65daa90" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Object[]</type>
+        <definition>Object [] jenes.chromosome.DoubleChromosome.toArray</definition>
+        <argsstring>()</argsstring>
+        <name>toArray</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/chromosome/DoubleChromosome.java" line="402" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/chromosome/DoubleChromosome.java" bodystart="402" bodyend="408"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>A <ref refid="classjenes_1_1chromosome_1_1_double_chromosome" kindref="compound">DoubleChromosome</ref> is made of an array of double values. Each value is in the range [lowerBound,upperBound[. The lower bound is include included, the upper bound not. Both the bounds are specified ad the instantiation time. <ref refid="classjenes_1_1chromosome_1_1_double_chromosome" kindref="compound">DoubleChromosome</ref> is a fixed length chromosome class, thus number of genes is specified at instantiation time and cannot be modified after.</para><para><simplesect kind="version"><para>2.0 </para></simplesect>
+<simplesect kind="since"><para>1.0 </para></simplesect>
+</para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="140">
+        <label>jenes::chromosome::Chromosome&lt; DoubleChromosome &gt;</label>
+      </node>
+      <node id="139">
+        <label>jenes.chromosome.DoubleChromosome</label>
+        <link refid="classjenes_1_1chromosome_1_1_double_chromosome"/>
+        <childnode refid="140" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="142">
+        <label>jenes::chromosome::Chromosome&lt; DoubleChromosome &gt;</label>
+      </node>
+      <node id="141">
+        <label>jenes.chromosome.DoubleChromosome</label>
+        <link refid="classjenes_1_1chromosome_1_1_double_chromosome"/>
+        <childnode refid="142" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/chromosome/DoubleChromosome.java" line="34" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/chromosome/DoubleChromosome.java" bodystart="34" bodyend="409"/>
+    <listofallmembers>
+      <member refid="classjenes_1_1chromosome_1_1_double_chromosome_1a83b26a42b307ce1316523e262f044fdd" prot="public" virt="non-virtual"><scope>jenes::chromosome::DoubleChromosome</scope><name>average</name></member>
+      <member refid="classjenes_1_1chromosome_1_1_double_chromosome_1ac471f6b6cb7989e6b90c5e70e7b8a9a2" prot="public" virt="non-virtual"><scope>jenes::chromosome::DoubleChromosome</scope><name>clone</name></member>
+      <member refid="classjenes_1_1chromosome_1_1_double_chromosome_1a0461bfc35a8ca0c503ba0a4017005f89" prot="public" virt="non-virtual"><scope>jenes::chromosome::DoubleChromosome</scope><name>cross</name></member>
+      <member refid="classjenes_1_1chromosome_1_1_double_chromosome_1acaad58427cf1db8071fe2032755bbdce" prot="public" virt="non-virtual"><scope>jenes::chromosome::DoubleChromosome</scope><name>cross</name></member>
+      <member refid="classjenes_1_1chromosome_1_1_double_chromosome_1a5c2d56f7d05b08c75013a7529ae46839" prot="protected" virt="non-virtual"><scope>jenes::chromosome::DoubleChromosome</scope><name>defaultValue</name></member>
+      <member refid="classjenes_1_1chromosome_1_1_double_chromosome_1a10f461747c9f99c02405626cf82aee46" prot="public" virt="non-virtual"><scope>jenes::chromosome::DoubleChromosome</scope><name>difference</name></member>
+      <member refid="classjenes_1_1chromosome_1_1_double_chromosome_1a849079d41a2f10db681ba24de10d2619" prot="public" virt="non-virtual"><scope>jenes::chromosome::DoubleChromosome</scope><name>DoubleChromosome</name></member>
+      <member refid="classjenes_1_1chromosome_1_1_double_chromosome_1a7166da8f71e5b0cf37e751c053f6ff5f" prot="public" virt="non-virtual"><scope>jenes::chromosome::DoubleChromosome</scope><name>DoubleChromosome</name></member>
+      <member refid="classjenes_1_1chromosome_1_1_double_chromosome_1ad661abf584ceb5195b6b248798709fc9" prot="public" virt="non-virtual"><scope>jenes::chromosome::DoubleChromosome</scope><name>equals</name></member>
+      <member refid="classjenes_1_1chromosome_1_1_double_chromosome_1a0a987b7f1fa1c4cec652330ad77b6ba6" prot="protected" virt="non-virtual"><scope>jenes::chromosome::DoubleChromosome</scope><name>genes</name></member>
+      <member refid="classjenes_1_1chromosome_1_1_double_chromosome_1ae129a0daa2e01593859f5b26c508d36b" prot="public" virt="non-virtual"><scope>jenes::chromosome::DoubleChromosome</scope><name>getDefaultValue</name></member>
+      <member refid="classjenes_1_1chromosome_1_1_double_chromosome_1aa45c550b4cb16cba001dd6c754a5d8bd" prot="public" virt="non-virtual"><scope>jenes::chromosome::DoubleChromosome</scope><name>getLowerBound</name></member>
+      <member refid="classjenes_1_1chromosome_1_1_double_chromosome_1a7f4fe0c4dd1645f02ebbb2633d6610c8" prot="public" virt="non-virtual"><scope>jenes::chromosome::DoubleChromosome</scope><name>getUpperBound</name></member>
+      <member refid="classjenes_1_1chromosome_1_1_double_chromosome_1acb68cbcac3e7859d4f380530355012c8" prot="public" virt="non-virtual"><scope>jenes::chromosome::DoubleChromosome</scope><name>getValue</name></member>
+      <member refid="classjenes_1_1chromosome_1_1_double_chromosome_1a3dea8e4aee9041437b101d1f74d10d1f" prot="public" virt="non-virtual"><scope>jenes::chromosome::DoubleChromosome</scope><name>getValues</name></member>
+      <member refid="classjenes_1_1chromosome_1_1_double_chromosome_1a0e7543f12f4ab7591f9b4687c44c801c" prot="public" virt="non-virtual"><scope>jenes::chromosome::DoubleChromosome</scope><name>getValues</name></member>
+      <member refid="classjenes_1_1chromosome_1_1_double_chromosome_1a8d8eb8ce2b20abad8d462ae87a213e85" prot="public" virt="non-virtual"><scope>jenes::chromosome::DoubleChromosome</scope><name>leftShift</name></member>
+      <member refid="classjenes_1_1chromosome_1_1_double_chromosome_1a0938c891dcd64d56dcbfbc9136438b92" prot="public" virt="non-virtual"><scope>jenes::chromosome::DoubleChromosome</scope><name>length</name></member>
+      <member refid="classjenes_1_1chromosome_1_1_double_chromosome_1af7c35ef9163f9ea35beb27b2c5985aa4" prot="package" virt="non-virtual"><scope>jenes::chromosome::DoubleChromosome</scope><name>lowerBound</name></member>
+      <member refid="classjenes_1_1chromosome_1_1_double_chromosome_1aeebe5bd21dbc2e8dbbdc135d4d10a4cc" prot="public" virt="non-virtual"><scope>jenes::chromosome::DoubleChromosome</scope><name>owa</name></member>
+      <member refid="classjenes_1_1chromosome_1_1_double_chromosome_1a1ecf9f1d70333b8cbabdba918946cdfc" prot="public" virt="non-virtual"><scope>jenes::chromosome::DoubleChromosome</scope><name>randomize</name></member>
+      <member refid="classjenes_1_1chromosome_1_1_double_chromosome_1a370f8d51fa8635eeadf925e2faf11991" prot="public" virt="non-virtual"><scope>jenes::chromosome::DoubleChromosome</scope><name>randomize</name></member>
+      <member refid="classjenes_1_1chromosome_1_1_double_chromosome_1ae2c6d9bac13241a8338623c612d0f70b" prot="public" virt="non-virtual"><scope>jenes::chromosome::DoubleChromosome</scope><name>rightShift</name></member>
+      <member refid="classjenes_1_1chromosome_1_1_double_chromosome_1a7479d1ee74934b04f478dcf8fad35464" prot="public" virt="non-virtual"><scope>jenes::chromosome::DoubleChromosome</scope><name>setAs</name></member>
+      <member refid="classjenes_1_1chromosome_1_1_double_chromosome_1ab0f087d0d5ac5ac273c63c4e3af2efff" prot="public" virt="non-virtual"><scope>jenes::chromosome::DoubleChromosome</scope><name>setDefaultValue</name></member>
+      <member refid="classjenes_1_1chromosome_1_1_double_chromosome_1a82130d84dadedda332121b92f801d2e6" prot="public" virt="non-virtual"><scope>jenes::chromosome::DoubleChromosome</scope><name>setDefaultValueAt</name></member>
+      <member refid="classjenes_1_1chromosome_1_1_double_chromosome_1a4581d7735d8ed661473b0e72ff19f956" prot="public" virt="non-virtual"><scope>jenes::chromosome::DoubleChromosome</scope><name>setValue</name></member>
+      <member refid="classjenes_1_1chromosome_1_1_double_chromosome_1ac34343c04259b0e3da8a7b2579cbd5fc" prot="public" virt="non-virtual"><scope>jenes::chromosome::DoubleChromosome</scope><name>swap</name></member>
+      <member refid="classjenes_1_1chromosome_1_1_double_chromosome_1a101d1eb5ebc632c0c5d0a1c5b65daa90" prot="public" virt="non-virtual"><scope>jenes::chromosome::DoubleChromosome</scope><name>toArray</name></member>
+      <member refid="classjenes_1_1chromosome_1_1_double_chromosome_1aeaf1116586c3fac1fa8c1dad28b7f727" prot="public" virt="non-virtual"><scope>jenes::chromosome::DoubleChromosome</scope><name>toString</name></member>
+      <member refid="classjenes_1_1chromosome_1_1_double_chromosome_1a56362107033b220e75d83b75ea91b74e" prot="protected" virt="non-virtual"><scope>jenes::chromosome::DoubleChromosome</scope><name>upperBound</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,191 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="classjenes_1_1population_1_1_population_3_01_t_01extends_01_chromosome_01_4_1_1_pareto_3_01_k_01extends_01_chromosome_01_4" kind="class" prot="public">
+    <compoundname>jenes::population::Population&lt; T extends Chromosome &gt;::Pareto&lt; K extends Chromosome &gt;</compoundname>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classjenes_1_1population_1_1_population_3_01_t_01extends_01_chromosome_01_4_1_1_pareto_3_01_k_01extends_01_chromosome_01_4_1acf401dc9cc74ecbdf610d67bd9131aa2" prot="private" static="no" mutable="no">
+        <type>List&lt; List&lt; Individual&lt; K &gt; &gt; &gt;</type>
+        <definition>List&lt;List&lt;Individual&lt;K&gt; &gt; &gt; jenes.population.Population&lt; T extends Chromosome &gt;.Pareto&lt; K extends Chromosome &gt;.fronts</definition>
+        <argsstring></argsstring>
+        <name>fronts</name>
+        <initializer>= new ArrayList&lt;List&lt;Individual&lt;K&gt;&gt;&gt;()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/population/Population.java" line="1550" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/population/Population.java" bodystart="1550" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classjenes_1_1population_1_1_population_3_01_t_01extends_01_chromosome_01_4_1_1_pareto_3_01_k_01extends_01_chromosome_01_4_1a0e57bf4123e1f77b9fac2736483e7269" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>jenes.population.Population&lt; T extends Chromosome &gt;.Pareto&lt; K extends Chromosome &gt;.Pareto</definition>
+        <argsstring>(Population&lt; K &gt; pop)</argsstring>
+        <name>Pareto</name>
+        <param>
+          <type><ref refid="classjenes_1_1population_1_1_population_3_01_t_01extends_01_chromosome_01_4_1a0f7b4a9eda8a4dadbc70f8585def56bd" kindref="member">Population</ref>&lt; K &gt;</type>
+          <declname>pop</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/population/Population.java" line="1552" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/population/Population.java" bodystart="1552" bodyend="1554"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1population_1_1_population_3_01_t_01extends_01_chromosome_01_4_1_1_pareto_3_01_k_01extends_01_chromosome_01_4_1ad19a5d88b2f536c37ac49dfe940f9f09" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>jenes.population.Population&lt; T extends Chromosome &gt;.Pareto&lt; K extends Chromosome &gt;.Pareto</definition>
+        <argsstring>(Statistics.Group g)</argsstring>
+        <name>Pareto</name>
+        <param>
+          <type>Statistics.Group</type>
+          <declname>g</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/population/Population.java" line="1556" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/population/Population.java" bodystart="1556" bodyend="1558"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1population_1_1_population_3_01_t_01extends_01_chromosome_01_4_1_1_pareto_3_01_k_01extends_01_chromosome_01_4_1a8deb39cab44789a4d0e80016f499b029" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void jenes.population.Population&lt; T extends Chromosome &gt;.Pareto&lt; K extends Chromosome &gt;.build</definition>
+        <argsstring>(List&lt; Individual&lt; K &gt;&gt; list, boolean...bis)</argsstring>
+        <name>build</name>
+        <param>
+          <type>List&lt; Individual&lt; K &gt;&gt;</type>
+          <declname>list</declname>
+        </param>
+        <param>
+          <type>boolean...</type>
+          <declname>bis</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/population/Population.java" line="1570" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/population/Population.java" bodystart="1570" bodyend="1583"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classjenes_1_1population_1_1_population_3_01_t_01extends_01_chromosome_01_4_1_1_pareto_3_01_k_01extends_01_chromosome_01_4_1a912b5564361154ab53b642c1387fb6d8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>jenes.population.Population&lt; T extends Chromosome &gt;.Pareto&lt; K extends Chromosome &gt;.Pareto</definition>
+        <argsstring>(List&lt; Individual&lt; K &gt;&gt; list, boolean...bis)</argsstring>
+        <name>Pareto</name>
+        <param>
+          <type>List&lt; Individual&lt; K &gt;&gt;</type>
+          <declname>list</declname>
+        </param>
+        <param>
+          <type>boolean...</type>
+          <declname>bis</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Builds a new pareto front.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>list</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>list of individuals that make the pareto front </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>bis</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>flag that indicates if maximize or minimize the score. A flag for each objective. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/population/Population.java" line="1566" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/population/Population.java" bodystart="1566" bodyend="1568"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1population_1_1_population_3_01_t_01extends_01_chromosome_01_4_1_1_pareto_3_01_k_01extends_01_chromosome_01_4_1adc2ce719244d5694e7fee563f4d66dd3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int jenes.population.Population&lt; T extends Chromosome &gt;.Pareto&lt; K extends Chromosome &gt;.getNumOfFronts</definition>
+        <argsstring>()</argsstring>
+        <name>getNumOfFronts</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns the number of fronts</para><para><simplesect kind="return"><para>the numbers of fronts </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/population/Population.java" line="1590" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/population/Population.java" bodystart="1590" bodyend="1592"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1population_1_1_population_3_01_t_01extends_01_chromosome_01_4_1_1_pareto_3_01_k_01extends_01_chromosome_01_4_1af8ce7e8db89e0bc4178700eb34395965" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>List&lt; Individual&lt; K &gt; &gt;</type>
+        <definition>List&lt;Individual&lt;K&gt; &gt; jenes.population.Population&lt; T extends Chromosome &gt;.Pareto&lt; K extends Chromosome &gt;.getFront</definition>
+        <argsstring>(int k)</argsstring>
+        <name>getFront</name>
+        <param>
+          <type>int</type>
+          <declname>k</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns a front at a specific position</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>k</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>index of front</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>a front at position <computeroutput>k</computeroutput> </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/population/Population.java" line="1601" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/population/Population.java" bodystart="1601" bodyend="1603"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>This class represents a Pareto front for a multi objective solution</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>&lt;K&gt;</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>extends <ref refid="" kindref="compound">Chromosome</ref> </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>    </detaileddescription>
+    <collaborationgraph>
+      <node id="470">
+        <label>jenes.population.Population&lt; T extends Chromosome &gt;.Pareto&lt; K extends Chromosome &gt;</label>
+        <link refid="classjenes_1_1population_1_1_population_3_01_t_01extends_01_chromosome_01_4_1_1_pareto_3_01_k_01extends_01_chromosome_01_4"/>
+        <childnode refid="471" relation="usage">
+          <edgelabel>fronts</edgelabel>
+        </childnode>
+      </node>
+      <node id="471">
+        <label>List&lt; List&lt; Individual&lt; K &gt; &gt; &gt;</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/population/Population.java" line="1548" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/population/Population.java" bodystart="1548" bodyend="1604"/>
+    <listofallmembers>
+      <member refid="classjenes_1_1population_1_1_population_3_01_t_01extends_01_chromosome_01_4_1_1_pareto_3_01_k_01extends_01_chromosome_01_4_1a8deb39cab44789a4d0e80016f499b029" prot="private" virt="non-virtual"><scope>jenes::population::Population&lt; T extends Chromosome &gt;::Pareto&lt; K extends Chromosome &gt;</scope><name>build</name></member>
+      <member refid="classjenes_1_1population_1_1_population_3_01_t_01extends_01_chromosome_01_4_1_1_pareto_3_01_k_01extends_01_chromosome_01_4_1acf401dc9cc74ecbdf610d67bd9131aa2" prot="private" virt="non-virtual"><scope>jenes::population::Population&lt; T extends Chromosome &gt;::Pareto&lt; K extends Chromosome &gt;</scope><name>fronts</name></member>
+      <member refid="classjenes_1_1population_1_1_population_3_01_t_01extends_01_chromosome_01_4_1_1_pareto_3_01_k_01extends_01_chromosome_01_4_1af8ce7e8db89e0bc4178700eb34395965" prot="public" virt="non-virtual"><scope>jenes::population::Population&lt; T extends Chromosome &gt;::Pareto&lt; K extends Chromosome &gt;</scope><name>getFront</name></member>
+      <member refid="classjenes_1_1population_1_1_population_3_01_t_01extends_01_chromosome_01_4_1_1_pareto_3_01_k_01extends_01_chromosome_01_4_1adc2ce719244d5694e7fee563f4d66dd3" prot="public" virt="non-virtual"><scope>jenes::population::Population&lt; T extends Chromosome &gt;::Pareto&lt; K extends Chromosome &gt;</scope><name>getNumOfFronts</name></member>
+      <member refid="classjenes_1_1population_1_1_population_3_01_t_01extends_01_chromosome_01_4_1_1_pareto_3_01_k_01extends_01_chromosome_01_4_1a0e57bf4123e1f77b9fac2736483e7269" prot="private" virt="non-virtual"><scope>jenes::population::Population&lt; T extends Chromosome &gt;::Pareto&lt; K extends Chromosome &gt;</scope><name>Pareto</name></member>
+      <member refid="classjenes_1_1population_1_1_population_3_01_t_01extends_01_chromosome_01_4_1_1_pareto_3_01_k_01extends_01_chromosome_01_4_1ad19a5d88b2f536c37ac49dfe940f9f09" prot="private" virt="non-virtual"><scope>jenes::population::Population&lt; T extends Chromosome &gt;::Pareto&lt; K extends Chromosome &gt;</scope><name>Pareto</name></member>
+      <member refid="classjenes_1_1population_1_1_population_3_01_t_01extends_01_chromosome_01_4_1_1_pareto_3_01_k_01extends_01_chromosome_01_4_1a912b5564361154ab53b642c1387fb6d8" prot="public" virt="non-virtual"><scope>jenes::population::Population&lt; T extends Chromosome &gt;::Pareto&lt; K extends Chromosome &gt;</scope><name>Pareto</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="dir_4eb68f43d19ee21d844fcef8247346db" kind="dir">
+    <compoundname>src/jenes/tutorials/problem8</compoundname>
+    <innerfile refid="_numeric_crossover_8java">NumericCrossover.java</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/problem8/"/>
+  </compounddef>
+</doxygen>

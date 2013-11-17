@@ -1,0 +1,244 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="classjenes_1_1algorithms_1_1_n_s_g_a2_3_01_t_01extends_01_chromosome_01_4" kind="class" prot="public">
+    <compoundname>jenes::algorithms::NSGA2&lt; T extends Chromosome &gt;</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">jenes::algorithms::CrowdingGA&lt; T &gt;</basecompoundref>
+    <innerclass refid="classjenes_1_1algorithms_1_1_n_s_g_a2_3_01_t_01extends_01_chromosome_01_4_1_1_dominance_crowder_a9a2fee645e4624e57f18141d651cc84" prot="private">jenes::algorithms::NSGA2&lt; T extends Chromosome &gt;::DominanceCrowder&lt; C extends Chromosome &gt;</innerclass>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classjenes_1_1algorithms_1_1_n_s_g_a2_3_01_t_01extends_01_chromosome_01_4_1a63cad03fd3ef9a70933b35dbe043b4ea" prot="public" static="yes" mutable="no">
+        <type>final int</type>
+        <definition>final int jenes.algorithms.NSGA2&lt; T extends Chromosome &gt;.DEFAULT_GENERATION_LIMIT</definition>
+        <argsstring></argsstring>
+        <name>DEFAULT_GENERATION_LIMIT</name>
+        <initializer>= 100</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The default generation limit </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/algorithms/NSGA2.java" line="39" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/algorithms/NSGA2.java" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classjenes_1_1algorithms_1_1_n_s_g_a2_3_01_t_01extends_01_chromosome_01_4_1aa480c4702a4fbf2bb1ec8c8f9c7dc82b" prot="public" static="yes" mutable="no">
+        <type>final int</type>
+        <definition>final int jenes.algorithms.NSGA2&lt; T extends Chromosome &gt;.DEFAULT_SELECTION_TRIALS</definition>
+        <argsstring></argsstring>
+        <name>DEFAULT_SELECTION_TRIALS</name>
+        <initializer>= 3</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The default number of attempts to <ref refid="" kindref="compound">TournamentSelector</ref> </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/algorithms/NSGA2.java" line="42" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/algorithms/NSGA2.java" bodystart="42" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classjenes_1_1algorithms_1_1_n_s_g_a2_3_01_t_01extends_01_chromosome_01_4_1a0e9264bdd3c0f0f73fecdc89038b2898" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>jenes.algorithms.NSGA2&lt; T extends Chromosome &gt;.NSGA2</definition>
+        <argsstring>(Fitness fitness)</argsstring>
+        <name>NSGA2</name>
+        <param>
+          <type>Fitness</type>
+          <declname>fitness</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Default constructor <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>fitness</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the fitness function to adopt in evolving this algorithm </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/algorithms/NSGA2.java" line="48" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/algorithms/NSGA2.java" bodystart="48" bodyend="54"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1algorithms_1_1_n_s_g_a2_3_01_t_01extends_01_chromosome_01_4_1a49f57f66489874c5bf12b3f9c89e6fcc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>jenes.algorithms.NSGA2&lt; T extends Chromosome &gt;.NSGA2</definition>
+        <argsstring>(final Fitness fitness, final Population&lt; T &gt; population)</argsstring>
+        <name>NSGA2</name>
+        <param>
+          <type>final Fitness</type>
+          <declname>fitness</declname>
+        </param>
+        <param>
+          <type>final Population&lt; T &gt;</type>
+          <declname>population</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generates a new NSGA2 instance </para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>fitness</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the fitness function to adopt in evolving this algorithm </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>population</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the initial population </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/algorithms/NSGA2.java" line="62" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/algorithms/NSGA2.java" bodystart="62" bodyend="68"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1algorithms_1_1_n_s_g_a2_3_01_t_01extends_01_chromosome_01_4_1a4da7d36c029be00959ea063643833486" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>jenes.algorithms.NSGA2&lt; T extends Chromosome &gt;.NSGA2</definition>
+        <argsstring>(final Fitness fitness, final Population&lt; T &gt; population, final int generations)</argsstring>
+        <name>NSGA2</name>
+        <param>
+          <type>final Fitness</type>
+          <declname>fitness</declname>
+        </param>
+        <param>
+          <type>final Population&lt; T &gt;</type>
+          <declname>population</declname>
+        </param>
+        <param>
+          <type>final int</type>
+          <declname>generations</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generates a new NSGA2 instance </para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>fitness</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the fitness function to adopt in evolving this algorithm </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>population</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the initial population </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>generations</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the generation limit </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/algorithms/NSGA2.java" line="77" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/algorithms/NSGA2.java" bodystart="77" bodyend="83"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1algorithms_1_1_n_s_g_a2_3_01_t_01extends_01_chromosome_01_4_1ac0873ceec23f2908e64650b2e0f2b62a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>jenes.algorithms.NSGA2&lt; T extends Chromosome &gt;.NSGA2</definition>
+        <argsstring>(final Fitness fitness, final Population&lt; T &gt; population, final int generations, final int trials)</argsstring>
+        <name>NSGA2</name>
+        <param>
+          <type>final Fitness</type>
+          <declname>fitness</declname>
+        </param>
+        <param>
+          <type>final Population&lt; T &gt;</type>
+          <declname>population</declname>
+        </param>
+        <param>
+          <type>final int</type>
+          <declname>generations</declname>
+        </param>
+        <param>
+          <type>final int</type>
+          <declname>trials</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generates a new NSGA2 instance </para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>fitness</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the fitness function to adopt in evolving this algorithm </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>population</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the initial population </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>generations</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the generation limit </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>trials</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>number of attempts in tournament selector </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="see"><para>TournamentSelector </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/algorithms/NSGA2.java" line="95" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/algorithms/NSGA2.java" bodystart="95" bodyend="98"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Multi-objective genetic algorithm as proposed by Deb.</para><para><simplesect kind="version"><para>2.0 </para></simplesect>
+<simplesect kind="since"><para>2.0 </para></simplesect>
+</para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="423">
+        <label>jenes::algorithms::CrowdingGA&lt; T &gt;</label>
+      </node>
+      <node id="422">
+        <label>jenes.algorithms.NSGA2&lt; T extends Chromosome &gt;</label>
+        <link refid="classjenes_1_1algorithms_1_1_n_s_g_a2_3_01_t_01extends_01_chromosome_01_4"/>
+        <childnode refid="423" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="425">
+        <label>jenes::algorithms::CrowdingGA&lt; T &gt;</label>
+      </node>
+      <node id="424">
+        <label>jenes.algorithms.NSGA2&lt; T extends Chromosome &gt;</label>
+        <link refid="classjenes_1_1algorithms_1_1_n_s_g_a2_3_01_t_01extends_01_chromosome_01_4"/>
+        <childnode refid="425" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/algorithms/NSGA2.java" line="36" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/algorithms/NSGA2.java" bodystart="36" bodyend="143"/>
+    <listofallmembers>
+      <member refid="classjenes_1_1algorithms_1_1_n_s_g_a2_3_01_t_01extends_01_chromosome_01_4_1a63cad03fd3ef9a70933b35dbe043b4ea" prot="public" virt="non-virtual"><scope>jenes::algorithms::NSGA2&lt; T extends Chromosome &gt;</scope><name>DEFAULT_GENERATION_LIMIT</name></member>
+      <member refid="classjenes_1_1algorithms_1_1_n_s_g_a2_3_01_t_01extends_01_chromosome_01_4_1aa480c4702a4fbf2bb1ec8c8f9c7dc82b" prot="public" virt="non-virtual"><scope>jenes::algorithms::NSGA2&lt; T extends Chromosome &gt;</scope><name>DEFAULT_SELECTION_TRIALS</name></member>
+      <member refid="classjenes_1_1algorithms_1_1_n_s_g_a2_3_01_t_01extends_01_chromosome_01_4_1a0e9264bdd3c0f0f73fecdc89038b2898" prot="public" virt="non-virtual"><scope>jenes::algorithms::NSGA2&lt; T extends Chromosome &gt;</scope><name>NSGA2</name></member>
+      <member refid="classjenes_1_1algorithms_1_1_n_s_g_a2_3_01_t_01extends_01_chromosome_01_4_1a49f57f66489874c5bf12b3f9c89e6fcc" prot="public" virt="non-virtual"><scope>jenes::algorithms::NSGA2&lt; T extends Chromosome &gt;</scope><name>NSGA2</name></member>
+      <member refid="classjenes_1_1algorithms_1_1_n_s_g_a2_3_01_t_01extends_01_chromosome_01_4_1a4da7d36c029be00959ea063643833486" prot="public" virt="non-virtual"><scope>jenes::algorithms::NSGA2&lt; T extends Chromosome &gt;</scope><name>NSGA2</name></member>
+      <member refid="classjenes_1_1algorithms_1_1_n_s_g_a2_3_01_t_01extends_01_chromosome_01_4_1ac0873ceec23f2908e64650b2e0f2b62a" prot="public" virt="non-virtual"><scope>jenes::algorithms::NSGA2&lt; T extends Chromosome &gt;</scope><name>NSGA2</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

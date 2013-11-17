@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="dir_5cfbd225d03cb3ca9e9ae571c00ac0fd" kind="dir">
+    <compoundname>src/jenes/tutorials/old/problem2</compoundname>
+    <innerfile refid="old_2problem2_2_pattern_g_a_8java">PatternGA.java</innerfile>
+    <innerfile refid="old_2problem2_2_pattern_problem_8java">PatternProblem.java</innerfile>
+    <innerfile refid="old_2problem2_2_simple_dispenser_8java">SimpleDispenser.java</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/old/problem2/"/>
+  </compounddef>
+</doxygen>

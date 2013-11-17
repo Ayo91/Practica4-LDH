@@ -1,0 +1,85 @@
+\hypertarget{classjenes_1_1statistics_1_1_statistics_logger_1_1_loggable_statistics}{\section{jenes.\-statistics.\-Statistics\-Logger.\-Loggable\-Statistics Class Reference}
+\label{classjenes_1_1statistics_1_1_statistics_logger_1_1_loggable_statistics}\index{jenes.\-statistics.\-Statistics\-Logger.\-Loggable\-Statistics@{jenes.\-statistics.\-Statistics\-Logger.\-Loggable\-Statistics}}
+}
+Inheritance diagram for jenes.\-statistics.\-Statistics\-Logger.\-Loggable\-Statistics\-:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=0.303523cm]{classjenes_1_1statistics_1_1_statistics_logger_1_1_loggable_statistics}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+final Collection$<$ String $>$ \hyperlink{classjenes_1_1statistics_1_1_statistics_logger_1_1_loggable_statistics_af29fe4dc17044a8879b62b4d05482d51}{get\-Figures} ()
+\item 
+final Object \hyperlink{classjenes_1_1statistics_1_1_statistics_logger_1_1_loggable_statistics_acb7ffceff2aa39fbd545f17df39dd877}{get\-Value} (String figure)
+\end{DoxyCompactItemize}
+\subsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classjenes_1_1statistics_1_1_statistics_logger_1_1_loggable_statistics_ae5a06be4a046efa2cafa4d6e9943c5a9}{Loggable\-Statistics} ()
+\end{DoxyCompactItemize}
+\subsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+Map$<$ String, Method $>$ \hyperlink{classjenes_1_1statistics_1_1_statistics_logger_1_1_loggable_statistics_a4c3dcfc80b9300adc8ed0942ae912f8d}{statmethods}
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+This class provides the support for making a statistics loggable.
+
+It is simply required to make the own statistics class extending \hyperlink{classjenes_1_1statistics_1_1_statistics_logger_1_1_loggable_statistics}{Loggable\-Statistics}.
+
+\begin{DoxyAuthor}{Author}
+Luigi Troiano 
+\end{DoxyAuthor}
+
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{classjenes_1_1statistics_1_1_statistics_logger_1_1_loggable_statistics_ae5a06be4a046efa2cafa4d6e9943c5a9}{\index{jenes\-::statistics\-::\-Statistics\-Logger\-::\-Loggable\-Statistics@{jenes\-::statistics\-::\-Statistics\-Logger\-::\-Loggable\-Statistics}!Loggable\-Statistics@{Loggable\-Statistics}}
+\index{Loggable\-Statistics@{Loggable\-Statistics}!jenes::statistics::StatisticsLogger::LoggableStatistics@{jenes\-::statistics\-::\-Statistics\-Logger\-::\-Loggable\-Statistics}}
+\subsubsection[{Loggable\-Statistics}]{\setlength{\rightskip}{0pt plus 5cm}jenes.\-statistics.\-Statistics\-Logger.\-Loggable\-Statistics.\-Loggable\-Statistics (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [protected]}}}\label{classjenes_1_1statistics_1_1_statistics_logger_1_1_loggable_statistics_ae5a06be4a046efa2cafa4d6e9943c5a9}
+Constructs a new \hyperlink{classjenes_1_1statistics_1_1_statistics_logger_1_1_loggable_statistics}{Loggable\-Statistics}, retriving the names of figures by reflection. 
+
+\subsection{Member Function Documentation}
+\hypertarget{classjenes_1_1statistics_1_1_statistics_logger_1_1_loggable_statistics_af29fe4dc17044a8879b62b4d05482d51}{\index{jenes\-::statistics\-::\-Statistics\-Logger\-::\-Loggable\-Statistics@{jenes\-::statistics\-::\-Statistics\-Logger\-::\-Loggable\-Statistics}!get\-Figures@{get\-Figures}}
+\index{get\-Figures@{get\-Figures}!jenes::statistics::StatisticsLogger::LoggableStatistics@{jenes\-::statistics\-::\-Statistics\-Logger\-::\-Loggable\-Statistics}}
+\subsubsection[{get\-Figures}]{\setlength{\rightskip}{0pt plus 5cm}final Collection$<$String$>$ jenes.\-statistics.\-Statistics\-Logger.\-Loggable\-Statistics.\-get\-Figures (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classjenes_1_1statistics_1_1_statistics_logger_1_1_loggable_statistics_af29fe4dc17044a8879b62b4d05482d51}
+Provides the collection of figures made available by the subclass instance. \begin{DoxyReturn}{Returns}
+the collection of figures 
+\end{DoxyReturn}
+\hypertarget{classjenes_1_1statistics_1_1_statistics_logger_1_1_loggable_statistics_acb7ffceff2aa39fbd545f17df39dd877}{\index{jenes\-::statistics\-::\-Statistics\-Logger\-::\-Loggable\-Statistics@{jenes\-::statistics\-::\-Statistics\-Logger\-::\-Loggable\-Statistics}!get\-Value@{get\-Value}}
+\index{get\-Value@{get\-Value}!jenes::statistics::StatisticsLogger::LoggableStatistics@{jenes\-::statistics\-::\-Statistics\-Logger\-::\-Loggable\-Statistics}}
+\subsubsection[{get\-Value}]{\setlength{\rightskip}{0pt plus 5cm}final Object jenes.\-statistics.\-Statistics\-Logger.\-Loggable\-Statistics.\-get\-Value (
+\begin{DoxyParamCaption}
+\item[{String}]{figure}
+\end{DoxyParamCaption}
+)}}\label{classjenes_1_1statistics_1_1_statistics_logger_1_1_loggable_statistics_acb7ffceff2aa39fbd545f17df39dd877}
+Returns the figure value. 
+\begin{DoxyParams}{Parameters}
+{\em figure} & -\/ the figure to retrieve \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+the value if the figure exists, Double.\-Na\-N otherwise 
+\end{DoxyReturn}
+
+
+\subsection{Member Data Documentation}
+\hypertarget{classjenes_1_1statistics_1_1_statistics_logger_1_1_loggable_statistics_a4c3dcfc80b9300adc8ed0942ae912f8d}{\index{jenes\-::statistics\-::\-Statistics\-Logger\-::\-Loggable\-Statistics@{jenes\-::statistics\-::\-Statistics\-Logger\-::\-Loggable\-Statistics}!statmethods@{statmethods}}
+\index{statmethods@{statmethods}!jenes::statistics::StatisticsLogger::LoggableStatistics@{jenes\-::statistics\-::\-Statistics\-Logger\-::\-Loggable\-Statistics}}
+\subsubsection[{statmethods}]{\setlength{\rightskip}{0pt plus 5cm}Map$<$String, Method$>$ jenes.\-statistics.\-Statistics\-Logger.\-Loggable\-Statistics.\-statmethods\hspace{0.3cm}{\ttfamily [private]}}}\label{classjenes_1_1statistics_1_1_statistics_logger_1_1_loggable_statistics_a4c3dcfc80b9300adc8ed0942ae912f8d}
+
+
+The documentation for this class was generated from the following file\-:\begin{DoxyCompactItemize}
+\item 
+src/jenes/statistics/\hyperlink{_statistics_logger_8java}{Statistics\-Logger.\-java}\end{DoxyCompactItemize}

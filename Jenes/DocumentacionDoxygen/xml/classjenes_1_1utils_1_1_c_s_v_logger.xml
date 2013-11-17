@@ -1,0 +1,437 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="classjenes_1_1utils_1_1_c_s_v_logger" kind="class" prot="public">
+    <compoundname>jenes::utils::CSVLogger</compoundname>
+    <basecompoundref refid="classjenes_1_1utils_1_1_abstract_logger" prot="public" virt="non-virtual">jenes.utils.AbstractLogger</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classjenes_1_1utils_1_1_c_s_v_logger_1a37a4fd771c2013343778dd982244c2db" prot="private" static="no" mutable="no">
+        <type>boolean</type>
+        <definition>boolean jenes.utils.CSVLogger.header</definition>
+        <argsstring></argsstring>
+        <name>header</name>
+        <initializer>= true</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/utils/CSVLogger.java" line="38" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/utils/CSVLogger.java" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classjenes_1_1utils_1_1_c_s_v_logger_1a7b4d74ee20080fcfb995fbf9eb747c1f" prot="private" static="no" mutable="no">
+        <type>StringWriter</type>
+        <definition>StringWriter jenes.utils.CSVLogger.buffer</definition>
+        <argsstring></argsstring>
+        <name>buffer</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/utils/CSVLogger.java" line="39" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/utils/CSVLogger.java" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classjenes_1_1utils_1_1_c_s_v_logger_1ad13ae42760c41f1899e66981e0cc0274" prot="private" static="no" mutable="no">
+        <type>PrintWriter</type>
+        <definition>PrintWriter jenes.utils.CSVLogger.out</definition>
+        <argsstring></argsstring>
+        <name>out</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/utils/CSVLogger.java" line="40" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/utils/CSVLogger.java" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classjenes_1_1utils_1_1_c_s_v_logger_1ab776f8518f5adaad782861e258ca494a" prot="private" static="no" mutable="no">
+        <type>String</type>
+        <definition>String jenes.utils.CSVLogger.separator</definition>
+        <argsstring></argsstring>
+        <name>separator</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/utils/CSVLogger.java" line="41" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/utils/CSVLogger.java" bodystart="41" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classjenes_1_1utils_1_1_c_s_v_logger_1a7ddf63656836e437a692c15feb38ef8f" prot="private" static="no" mutable="no">
+        <type>boolean</type>
+        <definition>boolean jenes.utils.CSVLogger.started</definition>
+        <argsstring></argsstring>
+        <name>started</name>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/utils/CSVLogger.java" line="43" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/utils/CSVLogger.java" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classjenes_1_1utils_1_1_c_s_v_logger_1a8cac9e217f74d86b4e26b025d8e1381c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>jenes.utils.CSVLogger.CSVLogger</definition>
+        <argsstring>(String[] schema)</argsstring>
+        <name>CSVLogger</name>
+        <param>
+          <type>String[]</type>
+          <declname>schema</declname>
+        </param>
+        <exceptions> throws FileNotFoundException </exceptions>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Creates a logger with the specified schema, and log.csv as default filename, tab as default separator. The header is placed on the first line.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>schema</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- the array making the schema of records </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<parameterlist kind="exception"><parameteritem>
+<parameternamelist>
+<parametername>java.io.FileNotFoundException</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/utils/CSVLogger.java" line="53" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/utils/CSVLogger.java" bodystart="53" bodyend="55"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1utils_1_1_c_s_v_logger_1a52ccc76492a8a16e018198bcfa702360" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>jenes.utils.CSVLogger.CSVLogger</definition>
+        <argsstring>(String[] schema, String filename)</argsstring>
+        <name>CSVLogger</name>
+        <param>
+          <type>String[]</type>
+          <declname>schema</declname>
+        </param>
+        <param>
+          <type>String</type>
+          <declname>filename</declname>
+        </param>
+        <exceptions> throws FileNotFoundException </exceptions>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Creates a logger with the specified schema and filename, tab as default separator. The header is placed on the first line.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>schema</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- the array making the schema of records </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>filename</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- the output filename </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<parameterlist kind="exception"><parameteritem>
+<parameternamelist>
+<parametername>java.io.FileNotFoundException</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/utils/CSVLogger.java" line="65" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/utils/CSVLogger.java" bodystart="65" bodyend="67"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1utils_1_1_c_s_v_logger_1ad6242d77cf75372bfbf55e9b0973bfb4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>jenes.utils.CSVLogger.CSVLogger</definition>
+        <argsstring>(String[] schema, String filename, String separator)</argsstring>
+        <name>CSVLogger</name>
+        <param>
+          <type>String[]</type>
+          <declname>schema</declname>
+        </param>
+        <param>
+          <type>String</type>
+          <declname>filename</declname>
+        </param>
+        <param>
+          <type>String</type>
+          <declname>separator</declname>
+        </param>
+        <exceptions> throws FileNotFoundException </exceptions>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Creates a logger with the specified schema, filename and separator. The header is placed on the first line.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>schema</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- the array making the schema of records </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>filename</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- the output filename </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>separator</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- the values separator </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<parameterlist kind="exception"><parameteritem>
+<parameternamelist>
+<parametername>java.io.FileNotFoundException</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/utils/CSVLogger.java" line="78" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/utils/CSVLogger.java" bodystart="78" bodyend="80"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1utils_1_1_c_s_v_logger_1ad39241223c9d49bfa34a21db4aa1f8b1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>jenes.utils.CSVLogger.CSVLogger</definition>
+        <argsstring>(String[] schema, String filename, String separator, boolean header)</argsstring>
+        <name>CSVLogger</name>
+        <param>
+          <type>String[]</type>
+          <declname>schema</declname>
+        </param>
+        <param>
+          <type>String</type>
+          <declname>filename</declname>
+        </param>
+        <param>
+          <type>String</type>
+          <declname>separator</declname>
+        </param>
+        <param>
+          <type>boolean</type>
+          <declname>header</declname>
+        </param>
+        <exceptions> throws FileNotFoundException </exceptions>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Creates a logger with the specified schema, filename and separator. The header is placed on the first line if required.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>schema</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- the array making the schema of records </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>filename</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- the output filename </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>separator</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- the values separator </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>header</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- the header is included if true, otherwise not. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<parameterlist kind="exception"><parameteritem>
+<parameternamelist>
+<parametername>java.io.FileNotFoundException</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/utils/CSVLogger.java" line="93" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/utils/CSVLogger.java" bodystart="93" bodyend="99"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1utils_1_1_c_s_v_logger_1a00671f9154ae65398d676e6526fa08f2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>PrintWriter</type>
+        <definition>PrintWriter jenes.utils.CSVLogger.getOut</definition>
+        <argsstring>()</argsstring>
+        <name>getOut</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Return the output stream used for logging.</para><para><simplesect kind="return"><para>the log writer </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/utils/CSVLogger.java" line="106" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/utils/CSVLogger.java" bodystart="106" bodyend="108"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classjenes_1_1utils_1_1_c_s_v_logger_1a863bcfda3e93b023949a81e7f6d149e7" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>void jenes.utils.CSVLogger.store</definition>
+        <argsstring>()</argsstring>
+        <name>store</name>
+        <reimplements refid="classjenes_1_1utils_1_1_abstract_logger_1a6acf83a83999e26ae4ed45cbf355111b">store</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Stores the current record. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/utils/CSVLogger.java" line="111" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/utils/CSVLogger.java" bodystart="111" bodyend="126"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1utils_1_1_c_s_v_logger_1a09a4f4fc362db6d4090d75642521ee65" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>void jenes.utils.CSVLogger.doSave</definition>
+        <argsstring>()</argsstring>
+        <name>doSave</name>
+        <reimplements refid="classjenes_1_1utils_1_1_abstract_logger_1a41fcd50b050c467fe1b413fc5b49c167">doSave</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Saves cached records on media </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/utils/CSVLogger.java" line="129" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/utils/CSVLogger.java" bodystart="129" bodyend="133"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1utils_1_1_c_s_v_logger_1ac89f6fe5bd609fcc02ca7adf1407f279" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>void jenes.utils.CSVLogger.doClose</definition>
+        <argsstring>()</argsstring>
+        <name>doClose</name>
+        <reimplements refid="classjenes_1_1utils_1_1_abstract_logger_1a5253672b3f3f81287db2fc604ca921a9">doClose</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Closes the logger. Any further log is not allowed. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/utils/CSVLogger.java" line="136" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/utils/CSVLogger.java" bodystart="136" bodyend="138"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classjenes_1_1utils_1_1_c_s_v_logger_1afa1083ea9d3cb8141eeb8b4edccd358e" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void jenes.utils.CSVLogger.writeHeader</definition>
+        <argsstring>()</argsstring>
+        <name>writeHeader</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/utils/CSVLogger.java" line="140" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/utils/CSVLogger.java" bodystart="140" bodyend="150"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>This class defines a StatisticsLogger based on CSV (comma separated values) file. The logger has a schema, made of the fields the user means to record. If the schema is not specified, the logger use the set of keys making a record as schema. The default separator is tab, but a different separator can be specified at instantiation time. The default logfile is named log.csv and placed into the working directory. The logger can record or not the first line with the header made of the field names.</para><para><simplesect kind="version"><para>1.3 </para></simplesect>
+<simplesect kind="since"><para>1.3 </para></simplesect>
+</para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="98">
+        <label>jenes.utils.CSVLogger</label>
+        <link refid="classjenes_1_1utils_1_1_c_s_v_logger"/>
+        <childnode refid="99" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="99">
+        <label>jenes.utils.AbstractLogger</label>
+        <link refid="classjenes_1_1utils_1_1_abstract_logger"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="105">
+        <label>PrintWriter</label>
+      </node>
+      <node id="104">
+        <label>StringWriter</label>
+      </node>
+      <node id="100">
+        <label>jenes.utils.CSVLogger</label>
+        <link refid="classjenes_1_1utils_1_1_c_s_v_logger"/>
+        <childnode refid="101" relation="public-inheritance">
+        </childnode>
+        <childnode refid="104" relation="usage">
+          <edgelabel>buffer</edgelabel>
+        </childnode>
+        <childnode refid="105" relation="usage">
+          <edgelabel>out</edgelabel>
+        </childnode>
+      </node>
+      <node id="102">
+        <label>List&lt; String &gt;</label>
+      </node>
+      <node id="101">
+        <label>jenes.utils.AbstractLogger</label>
+        <link refid="classjenes_1_1utils_1_1_abstract_logger"/>
+        <childnode refid="102" relation="usage">
+          <edgelabel>schema</edgelabel>
+        </childnode>
+        <childnode refid="103" relation="usage">
+          <edgelabel>record</edgelabel>
+        </childnode>
+      </node>
+      <node id="103">
+        <label>Map&lt; String, Object &gt;</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/utils/CSVLogger.java" line="36" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/utils/CSVLogger.java" bodystart="36" bodyend="152"/>
+    <listofallmembers>
+      <member refid="classjenes_1_1utils_1_1_abstract_logger_1a357a64e024ede4da833b79455ba63644" prot="public" virt="non-virtual"><scope>jenes::utils::CSVLogger</scope><name>AbstractLogger</name></member>
+      <member refid="classjenes_1_1utils_1_1_c_s_v_logger_1a7b4d74ee20080fcfb995fbf9eb747c1f" prot="private" virt="non-virtual"><scope>jenes::utils::CSVLogger</scope><name>buffer</name></member>
+      <member refid="classjenes_1_1utils_1_1_abstract_logger_1a7d973cbb6b91f254a5430a8875898dbe" prot="public" virt="non-virtual"><scope>jenes::utils::CSVLogger</scope><name>close</name></member>
+      <member refid="classjenes_1_1utils_1_1_abstract_logger_1a68fe91d1c7bad9146db3bddd92bbcab3" prot="protected" virt="non-virtual"><scope>jenes::utils::CSVLogger</scope><name>closed</name></member>
+      <member refid="classjenes_1_1utils_1_1_c_s_v_logger_1a8cac9e217f74d86b4e26b025d8e1381c" prot="public" virt="non-virtual"><scope>jenes::utils::CSVLogger</scope><name>CSVLogger</name></member>
+      <member refid="classjenes_1_1utils_1_1_c_s_v_logger_1a52ccc76492a8a16e018198bcfa702360" prot="public" virt="non-virtual"><scope>jenes::utils::CSVLogger</scope><name>CSVLogger</name></member>
+      <member refid="classjenes_1_1utils_1_1_c_s_v_logger_1ad6242d77cf75372bfbf55e9b0973bfb4" prot="public" virt="non-virtual"><scope>jenes::utils::CSVLogger</scope><name>CSVLogger</name></member>
+      <member refid="classjenes_1_1utils_1_1_c_s_v_logger_1ad39241223c9d49bfa34a21db4aa1f8b1" prot="public" virt="non-virtual"><scope>jenes::utils::CSVLogger</scope><name>CSVLogger</name></member>
+      <member refid="classjenes_1_1utils_1_1_c_s_v_logger_1ac89f6fe5bd609fcc02ca7adf1407f279" prot="protected" virt="virtual"><scope>jenes::utils::CSVLogger</scope><name>doClose</name></member>
+      <member refid="classjenes_1_1utils_1_1_c_s_v_logger_1a09a4f4fc362db6d4090d75642521ee65" prot="protected" virt="virtual"><scope>jenes::utils::CSVLogger</scope><name>doSave</name></member>
+      <member refid="classjenes_1_1utils_1_1_abstract_logger_1af2c45f653c6e5e79bc4e85dc3ecc4ab4" prot="protected" virt="non-virtual"><scope>jenes::utils::CSVLogger</scope><name>finalize</name></member>
+      <member refid="classjenes_1_1utils_1_1_abstract_logger_1acceb0a183912b0ec7fc95554ab2e3001" prot="public" virt="non-virtual"><scope>jenes::utils::CSVLogger</scope><name>get</name></member>
+      <member refid="classjenes_1_1utils_1_1_abstract_logger_1ae939c8578c5342d8f11ff61388ddfd80" prot="public" virt="non-virtual"><scope>jenes::utils::CSVLogger</scope><name>getFields</name></member>
+      <member refid="classjenes_1_1utils_1_1_c_s_v_logger_1a00671f9154ae65398d676e6526fa08f2" prot="public" virt="non-virtual"><scope>jenes::utils::CSVLogger</scope><name>getOut</name></member>
+      <member refid="classjenes_1_1utils_1_1_abstract_logger_1a3f4dc79a211f8e01c621d42dec8d4de2" prot="public" virt="non-virtual"><scope>jenes::utils::CSVLogger</scope><name>getSchema</name></member>
+      <member refid="classjenes_1_1utils_1_1_c_s_v_logger_1a37a4fd771c2013343778dd982244c2db" prot="private" virt="non-virtual"><scope>jenes::utils::CSVLogger</scope><name>header</name></member>
+      <member refid="classjenes_1_1utils_1_1_abstract_logger_1af4f01e740a9332b8bb32817e01e7b030" prot="public" virt="non-virtual"><scope>jenes::utils::CSVLogger</scope><name>isRecordComplete</name></member>
+      <member refid="classjenes_1_1utils_1_1_abstract_logger_1a26e56f4617fbd249359186c90ec265ba" prot="public" virt="non-virtual"><scope>jenes::utils::CSVLogger</scope><name>log</name></member>
+      <member refid="classjenes_1_1utils_1_1_c_s_v_logger_1ad13ae42760c41f1899e66981e0cc0274" prot="private" virt="non-virtual"><scope>jenes::utils::CSVLogger</scope><name>out</name></member>
+      <member refid="classjenes_1_1utils_1_1_abstract_logger_1a0f00b8fa60e88b7c2834be7cdf1fc07e" prot="public" virt="non-virtual"><scope>jenes::utils::CSVLogger</scope><name>put</name></member>
+      <member refid="classjenes_1_1utils_1_1_abstract_logger_1ae85e356ad12255a9c5ec8f9f25659ef7" prot="protected" virt="non-virtual"><scope>jenes::utils::CSVLogger</scope><name>record</name></member>
+      <member refid="classjenes_1_1utils_1_1_abstract_logger_1a736fbff3759196a70dbf6618f10e8786" prot="public" virt="non-virtual"><scope>jenes::utils::CSVLogger</scope><name>save</name></member>
+      <member refid="classjenes_1_1utils_1_1_abstract_logger_1a3a2030876857a0512fae7e0ad400c570" prot="protected" virt="non-virtual"><scope>jenes::utils::CSVLogger</scope><name>schema</name></member>
+      <member refid="classjenes_1_1utils_1_1_c_s_v_logger_1ab776f8518f5adaad782861e258ca494a" prot="private" virt="non-virtual"><scope>jenes::utils::CSVLogger</scope><name>separator</name></member>
+      <member refid="classjenes_1_1utils_1_1_c_s_v_logger_1a7ddf63656836e437a692c15feb38ef8f" prot="private" virt="non-virtual"><scope>jenes::utils::CSVLogger</scope><name>started</name></member>
+      <member refid="classjenes_1_1utils_1_1_c_s_v_logger_1a863bcfda3e93b023949a81e7f6d149e7" prot="protected" virt="virtual"><scope>jenes::utils::CSVLogger</scope><name>store</name></member>
+      <member refid="classjenes_1_1utils_1_1_c_s_v_logger_1afa1083ea9d3cb8141eeb8b4edccd358e" prot="private" virt="non-virtual"><scope>jenes::utils::CSVLogger</scope><name>writeHeader</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

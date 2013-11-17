@@ -1,0 +1,83 @@
+\hypertarget{classjenes_1_1stage_1_1operator_1_1_mutator_3_01_t_01extends_01_chromosome_01_4_1_1_statistics}{\section{jenes.\-stage.\-operator.\-Mutator$<$ T extends Chromosome $>$.Statistics Class Reference}
+\label{classjenes_1_1stage_1_1operator_1_1_mutator_3_01_t_01extends_01_chromosome_01_4_1_1_statistics}\index{jenes.\-stage.\-operator.\-Mutator$<$ T extends Chromosome $>$.\-Statistics@{jenes.\-stage.\-operator.\-Mutator$<$ T extends Chromosome $>$.\-Statistics}}
+}
+Inheritance diagram for jenes.\-stage.\-operator.\-Mutator$<$ T extends Chromosome $>$.Statistics\-:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{classjenes_1_1stage_1_1operator_1_1_mutator_3_01_t_01extends_01_chromosome_01_4_1_1_statistics}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+long \hyperlink{classjenes_1_1stage_1_1operator_1_1_mutator_3_01_t_01extends_01_chromosome_01_4_1_1_statistics_afc74de8d8cf1b0d1cdaf9ec3a170c80e}{get\-Mutations} ()
+\end{DoxyCompactItemize}
+\subsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{classjenes_1_1stage_1_1operator_1_1_mutator_3_01_t_01extends_01_chromosome_01_4_1_1_statistics_af114cf6ccf66e1bd5d5d7337b4e15e28}{fill} (Operator$<$ T $>$.Statistics stats)
+\end{DoxyCompactItemize}
+\subsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+long \hyperlink{classjenes_1_1stage_1_1operator_1_1_mutator_3_01_t_01extends_01_chromosome_01_4_1_1_statistics_a4328be89d9643f783f5c08164a0aa916}{mutations}
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+A statistics object holding the number of mutation performed and the time spent to execute them. The statistics is available by two methods\-: \hyperlink{}{Mutator\#get\-Statistics()} to have a new statistics setted according to the mutator state or \hyperlink{}{Mutator\#update\-Statistics(jenes.\-stage.\-operator.\-Operator.\-Statistics)} to modify an existing statistics according to the mutator state. 
+
+Esamples of use are showed below. 
+
+\begin{quotation}
+
+\begin{DoxyPre}
+Mutator.Statistics stat = a\_mutator.getStatistics();
+\end{DoxyPre}
+\end{quotation}
+
+
+returns a new statistics object setted according to the specified mutator state. 
+
+\begin{quotation}
+
+\begin{DoxyPre}
+Mutator.Statistics stat = new Mutator.Statistics();
+a\_mutator.updateStatistics(stat);
+\end{DoxyPre}
+\end{quotation}
+
+
+modifies the existing statistics according to the specified mutator state. 
+
+\subsection{Member Function Documentation}
+\hypertarget{classjenes_1_1stage_1_1operator_1_1_mutator_3_01_t_01extends_01_chromosome_01_4_1_1_statistics_af114cf6ccf66e1bd5d5d7337b4e15e28}{\index{jenes\-::stage\-::operator\-::\-Mutator$<$ T extends Chromosome $>$\-::\-Statistics@{jenes\-::stage\-::operator\-::\-Mutator$<$ T extends Chromosome $>$\-::\-Statistics}!fill@{fill}}
+\index{fill@{fill}!jenes::stage::operator::Mutator< T extends Chromosome >::Statistics@{jenes\-::stage\-::operator\-::\-Mutator$<$ T extends Chromosome $>$\-::\-Statistics}}
+\subsubsection[{fill}]{\setlength{\rightskip}{0pt plus 5cm}void jenes.\-stage.\-operator.\-Mutator$<$ T extends Chromosome $>$.Statistics.\-fill (
+\begin{DoxyParamCaption}
+\item[{Operator$<$ T $>$.Statistics}]{stats}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [protected]}}}\label{classjenes_1_1stage_1_1operator_1_1_mutator_3_01_t_01extends_01_chromosome_01_4_1_1_statistics_af114cf6ccf66e1bd5d5d7337b4e15e28}
+\hypertarget{classjenes_1_1stage_1_1operator_1_1_mutator_3_01_t_01extends_01_chromosome_01_4_1_1_statistics_afc74de8d8cf1b0d1cdaf9ec3a170c80e}{\index{jenes\-::stage\-::operator\-::\-Mutator$<$ T extends Chromosome $>$\-::\-Statistics@{jenes\-::stage\-::operator\-::\-Mutator$<$ T extends Chromosome $>$\-::\-Statistics}!get\-Mutations@{get\-Mutations}}
+\index{get\-Mutations@{get\-Mutations}!jenes::stage::operator::Mutator< T extends Chromosome >::Statistics@{jenes\-::stage\-::operator\-::\-Mutator$<$ T extends Chromosome $>$\-::\-Statistics}}
+\subsubsection[{get\-Mutations}]{\setlength{\rightskip}{0pt plus 5cm}long jenes.\-stage.\-operator.\-Mutator$<$ T extends Chromosome $>$.Statistics.\-get\-Mutations (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classjenes_1_1stage_1_1operator_1_1_mutator_3_01_t_01extends_01_chromosome_01_4_1_1_statistics_afc74de8d8cf1b0d1cdaf9ec3a170c80e}
+Returns the number of mutations performed
+
+\begin{DoxyReturn}{Returns}
+the number of mutations performed 
+\end{DoxyReturn}
+
+
+\subsection{Member Data Documentation}
+\hypertarget{classjenes_1_1stage_1_1operator_1_1_mutator_3_01_t_01extends_01_chromosome_01_4_1_1_statistics_a4328be89d9643f783f5c08164a0aa916}{\index{jenes\-::stage\-::operator\-::\-Mutator$<$ T extends Chromosome $>$\-::\-Statistics@{jenes\-::stage\-::operator\-::\-Mutator$<$ T extends Chromosome $>$\-::\-Statistics}!mutations@{mutations}}
+\index{mutations@{mutations}!jenes::stage::operator::Mutator< T extends Chromosome >::Statistics@{jenes\-::stage\-::operator\-::\-Mutator$<$ T extends Chromosome $>$\-::\-Statistics}}
+\subsubsection[{mutations}]{\setlength{\rightskip}{0pt plus 5cm}long jenes.\-stage.\-operator.\-Mutator$<$ T extends Chromosome $>$.Statistics.\-mutations\hspace{0.3cm}{\ttfamily [protected]}}}\label{classjenes_1_1stage_1_1operator_1_1_mutator_3_01_t_01extends_01_chromosome_01_4_1_1_statistics_a4328be89d9643f783f5c08164a0aa916}
+Number of mutations performed. 
+
+The documentation for this class was generated from the following file\-:\begin{DoxyCompactItemize}
+\item 
+src/jenes/stage/operator/\hyperlink{_mutator_8java}{Mutator.\-java}\end{DoxyCompactItemize}

@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="namespacejenes_1_1population" kind="namespace">
+    <compoundname>jenes::population</compoundname>
+    <innerclass refid="classjenes_1_1population_1_1_fitness_3_01_c_01extends_01_chromosome_01_4" prot="public">jenes::population::Fitness&lt; C extends Chromosome &gt;</innerclass>
+    <innerclass refid="classjenes_1_1population_1_1_individual_3_01_t_01extends_01_chromosome_01_4" prot="public">jenes::population::Individual&lt; T extends Chromosome &gt;</innerclass>
+    <innerclass refid="classjenes_1_1population_1_1_pool_3_01_t_01extends_01_chromosome_01_4" prot="public">jenes::population::Pool&lt; T extends Chromosome &gt;</innerclass>
+    <innerclass refid="classjenes_1_1population_1_1_population_3_01_t_01extends_01_chromosome_01_4" prot="public">jenes::population::Population&lt; T extends Chromosome &gt;</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/population/Fitness.java" line="19" column="1"/>
+  </compounddef>
+</doxygen>

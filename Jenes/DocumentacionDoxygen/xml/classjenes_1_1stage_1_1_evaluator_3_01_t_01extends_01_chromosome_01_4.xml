@@ -1,0 +1,191 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="classjenes_1_1stage_1_1_evaluator_3_01_t_01extends_01_chromosome_01_4" kind="class" prot="public">
+    <compoundname>jenes::stage::Evaluator&lt; T extends Chromosome &gt;</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">jenes::stage::AbstractStage&lt; T &gt;</basecompoundref>
+      <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="classjenes_1_1stage_1_1_evaluator_3_01_t_01extends_01_chromosome_01_4_1a8ad6c1bcd555e06450a444d2d18b6b89" prot="protected" static="no" mutable="no">
+        <type>boolean</type>
+        <definition>boolean jenes.stage.Evaluator&lt; T extends Chromosome &gt;.force</definition>
+        <argsstring></argsstring>
+        <name>force</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The property controlling if evaluation should be extened also to individuals already evaluated. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/Evaluator.java" line="40" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/Evaluator.java" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classjenes_1_1stage_1_1_evaluator_3_01_t_01extends_01_chromosome_01_4_1afe7302209d1e39a0267bf4320d6d298d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>jenes.stage.Evaluator&lt; T extends Chromosome &gt;.Evaluator</definition>
+        <argsstring>()</argsstring>
+        <name>Evaluator</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Creates a new Evaluator instance. By default &lt;colde&gt;force is false. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/Evaluator.java" line="45" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/Evaluator.java" bodystart="45" bodyend="47"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1stage_1_1_evaluator_3_01_t_01extends_01_chromosome_01_4_1ad156e40a9579040474e6720f14c49919" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>jenes.stage.Evaluator&lt; T extends Chromosome &gt;.Evaluator</definition>
+        <argsstring>(boolean force)</argsstring>
+        <name>Evaluator</name>
+        <param>
+          <type>boolean</type>
+          <declname>force</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Creates a new Evaluator instance, specifying the value of &lt;colde&gt;force.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>force</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- if true, all individuals are forced to be evaluated in any case. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/Evaluator.java" line="54" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/Evaluator.java" bodystart="54" bodyend="56"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1stage_1_1_evaluator_3_01_t_01extends_01_chromosome_01_4_1a617f44ce8de8d0e4bab8506e81038e76" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>boolean</type>
+        <definition>boolean jenes.stage.Evaluator&lt; T extends Chromosome &gt;.isForce</definition>
+        <argsstring>()</argsstring>
+        <name>isForce</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns the current value of <computeroutput>force</computeroutput>. By default this value is false. <simplesect kind="return"><para>the value of <computeroutput>force</computeroutput>. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/Evaluator.java" line="62" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/Evaluator.java" bodystart="62" bodyend="64"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1stage_1_1_evaluator_3_01_t_01extends_01_chromosome_01_4_1acd9d554678a83708eeb2d373def60e71" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void jenes.stage.Evaluator&lt; T extends Chromosome &gt;.setForce</definition>
+        <argsstring>(boolean force)</argsstring>
+        <name>setForce</name>
+        <param>
+          <type>boolean</type>
+          <declname>force</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Sets the value of <computeroutput>force</computeroutput>. <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>force</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- if true, all individuals are forced to be evaluated in any case. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/Evaluator.java" line="70" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/Evaluator.java" bodystart="70" bodyend="72"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1stage_1_1_evaluator_3_01_t_01extends_01_chromosome_01_4_1a25aee75f7acf2406ca17526f588a8f15" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void jenes.stage.Evaluator&lt; T extends Chromosome &gt;.process</definition>
+        <argsstring>(Population&lt; T &gt; in, Population&lt; T &gt; out)</argsstring>
+        <name>process</name>
+        <param>
+          <type>Population&lt; T &gt;</type>
+          <declname>in</declname>
+        </param>
+        <param>
+          <type>Population&lt; T &gt;</type>
+          <declname>out</declname>
+        </param>
+        <exceptions> throws <ref refid="classjenes_1_1stage_1_1_stage_exception" kindref="compound">StageException</ref> </exceptions>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Performs an evaluation of input population. <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>in</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- the input population. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>out</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- equals the input population </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<parameterlist kind="exception"><parameteritem>
+<parameternamelist>
+<parametername><ref refid="classjenes_1_1stage_1_1_stage_exception" kindref="compound">StageException</ref></parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/Evaluator.java" line="81" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/Evaluator.java" bodystart="81" bodyend="84"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>This stage performs a population evaluation. In general, individuals that have been alread avaluated, do not require be evaluated again. However, in order to provide full control to the user, the class has the property <computeroutput>force</computeroutput> that if set, forces the evaluation of all individuals, despite the fact that the some individuals cold have been already evaluated. </para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>&lt;T&gt;</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The class chromosomes flowing across the stage.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="version"><para>1.3 </para></simplesect>
+<simplesect kind="since"><para>1.0 </para></simplesect>
+</para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="159">
+        <label>jenes.stage.Evaluator&lt; T extends Chromosome &gt;</label>
+        <link refid="classjenes_1_1stage_1_1_evaluator_3_01_t_01extends_01_chromosome_01_4"/>
+        <childnode refid="160" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="160">
+        <label>jenes::stage::AbstractStage&lt; T &gt;</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="161">
+        <label>jenes.stage.Evaluator&lt; T extends Chromosome &gt;</label>
+        <link refid="classjenes_1_1stage_1_1_evaluator_3_01_t_01extends_01_chromosome_01_4"/>
+        <childnode refid="162" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="162">
+        <label>jenes::stage::AbstractStage&lt; T &gt;</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/Evaluator.java" line="35" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/Evaluator.java" bodystart="35" bodyend="86"/>
+    <listofallmembers>
+      <member refid="classjenes_1_1stage_1_1_evaluator_3_01_t_01extends_01_chromosome_01_4_1afe7302209d1e39a0267bf4320d6d298d" prot="public" virt="non-virtual"><scope>jenes::stage::Evaluator&lt; T extends Chromosome &gt;</scope><name>Evaluator</name></member>
+      <member refid="classjenes_1_1stage_1_1_evaluator_3_01_t_01extends_01_chromosome_01_4_1ad156e40a9579040474e6720f14c49919" prot="public" virt="non-virtual"><scope>jenes::stage::Evaluator&lt; T extends Chromosome &gt;</scope><name>Evaluator</name></member>
+      <member refid="classjenes_1_1stage_1_1_evaluator_3_01_t_01extends_01_chromosome_01_4_1a8ad6c1bcd555e06450a444d2d18b6b89" prot="protected" virt="non-virtual"><scope>jenes::stage::Evaluator&lt; T extends Chromosome &gt;</scope><name>force</name></member>
+      <member refid="classjenes_1_1stage_1_1_evaluator_3_01_t_01extends_01_chromosome_01_4_1a617f44ce8de8d0e4bab8506e81038e76" prot="public" virt="non-virtual"><scope>jenes::stage::Evaluator&lt; T extends Chromosome &gt;</scope><name>isForce</name></member>
+      <member refid="classjenes_1_1stage_1_1_evaluator_3_01_t_01extends_01_chromosome_01_4_1a25aee75f7acf2406ca17526f588a8f15" prot="public" virt="non-virtual"><scope>jenes::stage::Evaluator&lt; T extends Chromosome &gt;</scope><name>process</name></member>
+      <member refid="classjenes_1_1stage_1_1_evaluator_3_01_t_01extends_01_chromosome_01_4_1acd9d554678a83708eeb2d373def60e71" prot="public" virt="non-virtual"><scope>jenes::stage::Evaluator&lt; T extends Chromosome &gt;</scope><name>setForce</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

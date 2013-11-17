@@ -1,0 +1,337 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="classjenes_1_1utils_1_1_random" kind="class" prot="public">
+    <compoundname>jenes::utils::Random</compoundname>
+    <basecompoundref refid="classjenes_1_1utils_1_1_mersenne_twister_fast" prot="public" virt="non-virtual">jenes.utils.MersenneTwisterFast</basecompoundref>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="classjenes_1_1utils_1_1_random_1a4d07f44b9a2f1bc18feb0059dd70b79a" prot="private" static="yes" mutable="no">
+        <type><ref refid="classjenes_1_1utils_1_1_random" kindref="compound">Random</ref></type>
+        <definition>Random jenes.utils.Random.mtfe</definition>
+        <argsstring></argsstring>
+        <name>mtfe</name>
+        <initializer>=null</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The static <ref refid="classjenes_1_1utils_1_1_random" kindref="compound">Random</ref> instance </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/utils/Random.java" line="41" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/utils/Random.java" bodystart="41" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classjenes_1_1utils_1_1_random_1aee05c4e6476472dc9dc02d2fd94061b5" prot="public" static="yes" mutable="no">
+        <type>final long</type>
+        <definition>final long jenes.utils.Random.STANDARD_SEED</definition>
+        <argsstring></argsstring>
+        <name>STANDARD_SEED</name>
+        <initializer>= 4357</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The seed used as default </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/utils/Random.java" line="44" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/utils/Random.java" bodystart="44" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classjenes_1_1utils_1_1_random_1abc0a49a2ae768940772ae28962f5c71d" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>jenes.utils.Random.Random</definition>
+        <argsstring>()</argsstring>
+        <name>Random</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs a new <ref refid="classjenes_1_1utils_1_1_random" kindref="compound">Random</ref> instance. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/utils/Random.java" line="50" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/utils/Random.java" bodystart="50" bodyend="52"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classjenes_1_1utils_1_1_random_1aa8b8341f82ccf69de0b44c9f6f174820" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classjenes_1_1utils_1_1_random" kindref="compound">Random</ref></type>
+        <definition>static Random jenes.utils.Random.getInstance</definition>
+        <argsstring>()</argsstring>
+        <name>getInstance</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns the <ref refid="classjenes_1_1utils_1_1_random" kindref="compound">Random</ref> singleton. At the first invocation the <ref refid="classjenes_1_1utils_1_1_random" kindref="compound">Random</ref> object is instantiated.</para><para><simplesect kind="return"><para>the <ref refid="classjenes_1_1utils_1_1_random" kindref="compound">Random</ref> instance </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/utils/Random.java" line="60" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/utils/Random.java" bodystart="60" bodyend="66"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1utils_1_1_random_1a83dd69fffe081a48e58702c0f118b12e" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classjenes_1_1utils_1_1_random" kindref="compound">Random</ref></type>
+        <definition>static Random jenes.utils.Random.getInstance</definition>
+        <argsstring>(long seed)</argsstring>
+        <name>getInstance</name>
+        <param>
+          <type>long</type>
+          <declname>seed</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns the <ref refid="classjenes_1_1utils_1_1_random" kindref="compound">Random</ref> sigleton imposing the seed given as argument <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>seed</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/utils/Random.java" line="73" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/utils/Random.java" bodystart="73" bodyend="79"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classjenes_1_1utils_1_1_random_1a6eec3abcf133f7ce43d6a13441523a01" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>final void</type>
+        <definition>final void jenes.utils.Random.setTimeSeed</definition>
+        <argsstring>()</argsstring>
+        <name>setTimeSeed</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Sets the current time as <ref refid="classjenes_1_1utils_1_1_random" kindref="compound">Random</ref> seed. This method will make the <ref refid="classjenes_1_1utils_1_1_random" kindref="compound">Random</ref> sequence of values different run by run. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/utils/Random.java" line="84" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/utils/Random.java" bodystart="84" bodyend="86"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1utils_1_1_random_1a484017ff9c5473f7fc3fc7b52cb92433" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>final void</type>
+        <definition>final void jenes.utils.Random.setStandardSeed</definition>
+        <argsstring>()</argsstring>
+        <name>setStandardSeed</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Sets the stardard value as <ref refid="classjenes_1_1utils_1_1_random" kindref="compound">Random</ref> seed. This method will assure the <ref refid="classjenes_1_1utils_1_1_random" kindref="compound">Random</ref> sequence of values will not change by run. It should be used for debugging purpose only. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/utils/Random.java" line="93" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/utils/Random.java" bodystart="93" bodyend="95"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1utils_1_1_random_1a55f9b0a836c137e520658f55ad806859" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>long</type>
+        <definition>long jenes.utils.Random.getSeed</definition>
+        <argsstring>()</argsstring>
+        <name>getSeed</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Return the current seed used for random <simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/utils/Random.java" line="102" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/utils/Random.java" bodystart="102" bodyend="104"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1utils_1_1_random_1abe2919ddf9245e0576591fa0ea26593f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>final double</type>
+        <definition>final double jenes.utils.Random.nextDouble</definition>
+        <argsstring>(final double bound)</argsstring>
+        <name>nextDouble</name>
+        <param>
+          <type>final double</type>
+          <declname>bound</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns a random double uniformly distributed within the interval [0,bound[. Please note that bound is excluded. </para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>bound</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the upper bound </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>a random double uniformly distributed within [0,bound[ </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/utils/Random.java" line="113" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/utils/Random.java" bodystart="113" bodyend="115"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1utils_1_1_random_1a19babaa9c19de0243430cef2c445df9c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>final double</type>
+        <definition>final double jenes.utils.Random.nextDouble</definition>
+        <argsstring>(final double lowerBound, final double upperBound)</argsstring>
+        <name>nextDouble</name>
+        <param>
+          <type>final double</type>
+          <declname>lowerBound</declname>
+        </param>
+        <param>
+          <type>final double</type>
+          <declname>upperBound</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns a double uniformly distributed within the interval [lowerBound,upperBound[. Please note that the upperBound is excluded. </para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>lowerBound</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the interval lower bound </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>upperBound</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the interval upper bound </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>a double uniformly distributed within [lowerBound,upperBound[ </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/utils/Random.java" line="125" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/utils/Random.java" bodystart="125" bodyend="128"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1utils_1_1_random_1ab066d2d2f6d32c89598c552a9dadedc0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>final int</type>
+        <definition>final int jenes.utils.Random.nextInt</definition>
+        <argsstring>(final int lowerBound, final int upperBound)</argsstring>
+        <name>nextInt</name>
+        <param>
+          <type>final int</type>
+          <declname>lowerBound</declname>
+        </param>
+        <param>
+          <type>final int</type>
+          <declname>upperBound</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns a random integer drawn uniformly in the interval [lowerBound, upperBound[. Please note that upperBound is excluded. Thus the integer is between lowerBound and upperBound-1. </para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>lowerBound</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the interval lower bound </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>upperBound</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the interval upper bound </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>an integer drawn uniformly from lowerBound to upperBound-1. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/utils/Random.java" line="138" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/utils/Random.java" bodystart="138" bodyend="142"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1utils_1_1_random_1a16e9050a46f8218ec8e0f73c6456a5db" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>final boolean</type>
+        <definition>final boolean jenes.utils.Random.nextBoolean</definition>
+        <argsstring>(final double coin)</argsstring>
+        <name>nextBoolean</name>
+        <param>
+          <type>final double</type>
+          <declname>coin</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns a random boolean value. </para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>coin</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the probability to have a true value </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>a boolean value </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/utils/Random.java" line="150" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/utils/Random.java" bodystart="150" bodyend="152"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>This class provides the random generator used by JENES. </para><para><ref refid="classjenes_1_1utils_1_1_random" kindref="compound">Random</ref> extends the <ref refid="classjenes_1_1utils_1_1_mersenne_twister_fast" kindref="compound">MersenneTwisterFast</ref> class with some methods useful to JENES for obtaining values within a range. </para><para><ref refid="classjenes_1_1utils_1_1_random" kindref="compound">Random</ref> implements the singleton design pattern, thus only one instance of <ref refid="classjenes_1_1utils_1_1_random" kindref="compound">Random</ref> is available and retrieved by invoking the method <ref refid="classjenes_1_1utils_1_1_random_1aa8b8341f82ccf69de0b44c9f6f174820" kindref="member">getInstance()</ref>. </para><para>The random sequence is controlled by the seed. The standard seed assures that the same sequence of random values is produced by different runs. The time based seed, assures that the sequences varies run by run. </para><para><simplesect kind="version"><para>1.2 </para></simplesect>
+<simplesect kind="since"><para>1.0 </para></simplesect>
+</para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="534">
+        <label>Serializable</label>
+      </node>
+      <node id="532">
+        <label>jenes.utils.Random</label>
+        <link refid="classjenes_1_1utils_1_1_random"/>
+        <childnode refid="533" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="533">
+        <label>jenes.utils.MersenneTwisterFast</label>
+        <link refid="classjenes_1_1utils_1_1_mersenne_twister_fast"/>
+        <childnode refid="534" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="537">
+        <label>Serializable</label>
+      </node>
+      <node id="535">
+        <label>jenes.utils.Random</label>
+        <link refid="classjenes_1_1utils_1_1_random"/>
+        <childnode refid="536" relation="public-inheritance">
+        </childnode>
+        <childnode refid="535" relation="usage">
+          <edgelabel>mtfe</edgelabel>
+        </childnode>
+      </node>
+      <node id="536">
+        <label>jenes.utils.MersenneTwisterFast</label>
+        <link refid="classjenes_1_1utils_1_1_mersenne_twister_fast"/>
+        <childnode refid="537" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/utils/Random.java" line="37" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/utils/Random.java" bodystart="37" bodyend="153"/>
+    <listofallmembers>
+      <member refid="classjenes_1_1utils_1_1_random_1aa8b8341f82ccf69de0b44c9f6f174820" prot="public" virt="non-virtual"><scope>jenes::utils::Random</scope><name>getInstance</name></member>
+      <member refid="classjenes_1_1utils_1_1_random_1a83dd69fffe081a48e58702c0f118b12e" prot="public" virt="non-virtual"><scope>jenes::utils::Random</scope><name>getInstance</name></member>
+      <member refid="classjenes_1_1utils_1_1_random_1a55f9b0a836c137e520658f55ad806859" prot="public" virt="non-virtual"><scope>jenes::utils::Random</scope><name>getSeed</name></member>
+      <member refid="classjenes_1_1utils_1_1_mersenne_twister_fast_1a5c955ea4cf1b925290dd92ddecc0c510" prot="public" virt="non-virtual"><scope>jenes::utils::Random</scope><name>main</name></member>
+      <member refid="classjenes_1_1utils_1_1_mersenne_twister_fast_1a7321af0f92bcda7c245ebfbb647f7e4c" prot="public" virt="non-virtual"><scope>jenes::utils::Random</scope><name>MersenneTwisterFast</name></member>
+      <member refid="classjenes_1_1utils_1_1_mersenne_twister_fast_1a554aee5d390bb57ad30577b194c8b7b2" prot="public" virt="non-virtual"><scope>jenes::utils::Random</scope><name>MersenneTwisterFast</name></member>
+      <member refid="classjenes_1_1utils_1_1_random_1a4d07f44b9a2f1bc18feb0059dd70b79a" prot="private" virt="non-virtual"><scope>jenes::utils::Random</scope><name>mtfe</name></member>
+      <member refid="classjenes_1_1utils_1_1_random_1a16e9050a46f8218ec8e0f73c6456a5db" prot="public" virt="non-virtual"><scope>jenes::utils::Random</scope><name>nextBoolean</name></member>
+      <member refid="classjenes_1_1utils_1_1_mersenne_twister_fast_1a54fa48ab055886a90aefdcb816257f4b" prot="public" virt="non-virtual" ambiguityscope="jenes::utils::MersenneTwisterFast."><scope>jenes::utils::Random</scope><name>nextBoolean</name></member>
+      <member refid="classjenes_1_1utils_1_1_mersenne_twister_fast_1a5e7c0943fcc746a30277f0e09abbf60f" prot="public" virt="non-virtual"><scope>jenes::utils::Random</scope><name>nextByte</name></member>
+      <member refid="classjenes_1_1utils_1_1_mersenne_twister_fast_1a237dc55841fd8bf544106d052833c374" prot="public" virt="non-virtual"><scope>jenes::utils::Random</scope><name>nextBytes</name></member>
+      <member refid="classjenes_1_1utils_1_1_mersenne_twister_fast_1a8f7cb8ea9832581729660f5c0346ee3a" prot="public" virt="non-virtual"><scope>jenes::utils::Random</scope><name>nextChar</name></member>
+      <member refid="classjenes_1_1utils_1_1_random_1abe2919ddf9245e0576591fa0ea26593f" prot="public" virt="non-virtual"><scope>jenes::utils::Random</scope><name>nextDouble</name></member>
+      <member refid="classjenes_1_1utils_1_1_random_1a19babaa9c19de0243430cef2c445df9c" prot="public" virt="non-virtual"><scope>jenes::utils::Random</scope><name>nextDouble</name></member>
+      <member refid="classjenes_1_1utils_1_1_mersenne_twister_fast_1a64238ab497c1e504c798355f682ea2b9" prot="public" virt="non-virtual" ambiguityscope="jenes::utils::MersenneTwisterFast."><scope>jenes::utils::Random</scope><name>nextDouble</name></member>
+      <member refid="classjenes_1_1utils_1_1_mersenne_twister_fast_1af2d30f1dec2a94ca26a3b1ccc0624ce9" prot="public" virt="non-virtual"><scope>jenes::utils::Random</scope><name>nextFloat</name></member>
+      <member refid="classjenes_1_1utils_1_1_mersenne_twister_fast_1a4af0dd9a4366e476e4d45568cbb558e9" prot="public" virt="non-virtual"><scope>jenes::utils::Random</scope><name>nextGaussian</name></member>
+      <member refid="classjenes_1_1utils_1_1_random_1ab066d2d2f6d32c89598c552a9dadedc0" prot="public" virt="non-virtual"><scope>jenes::utils::Random</scope><name>nextInt</name></member>
+      <member refid="classjenes_1_1utils_1_1_mersenne_twister_fast_1a063b45fa6e20a5eea9acbe45a8c48ce0" prot="public" virt="non-virtual" ambiguityscope="jenes::utils::MersenneTwisterFast."><scope>jenes::utils::Random</scope><name>nextInt</name></member>
+      <member refid="classjenes_1_1utils_1_1_mersenne_twister_fast_1ae66ea69e37e4866fbb3beecb4e66577a" prot="public" virt="non-virtual" ambiguityscope="jenes::utils::MersenneTwisterFast."><scope>jenes::utils::Random</scope><name>nextInt</name></member>
+      <member refid="classjenes_1_1utils_1_1_mersenne_twister_fast_1a1de4f36e5e4035569bbb79bb06d4e9c7" prot="public" virt="non-virtual"><scope>jenes::utils::Random</scope><name>nextLong</name></member>
+      <member refid="classjenes_1_1utils_1_1_mersenne_twister_fast_1a89d03c5b1815eff8c443ef081a869e78" prot="public" virt="non-virtual"><scope>jenes::utils::Random</scope><name>nextShort</name></member>
+      <member refid="classjenes_1_1utils_1_1_random_1abc0a49a2ae768940772ae28962f5c71d" prot="private" virt="non-virtual"><scope>jenes::utils::Random</scope><name>Random</name></member>
+      <member refid="classjenes_1_1utils_1_1_mersenne_twister_fast_1aa44ca1bf8e9a2f272e248ea279f1e80c" prot="public" virt="non-virtual"><scope>jenes::utils::Random</scope><name>setSeed</name></member>
+      <member refid="classjenes_1_1utils_1_1_random_1a484017ff9c5473f7fc3fc7b52cb92433" prot="public" virt="non-virtual"><scope>jenes::utils::Random</scope><name>setStandardSeed</name></member>
+      <member refid="classjenes_1_1utils_1_1_random_1a6eec3abcf133f7ce43d6a13441523a01" prot="public" virt="non-virtual"><scope>jenes::utils::Random</scope><name>setTimeSeed</name></member>
+      <member refid="classjenes_1_1utils_1_1_random_1aee05c4e6476472dc9dc02d2fd94061b5" prot="public" virt="non-virtual"><scope>jenes::utils::Random</scope><name>STANDARD_SEED</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

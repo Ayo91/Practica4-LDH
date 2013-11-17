@@ -1,0 +1,170 @@
+\hypertarget{classjenes_1_1stage_1_1_dispenser_3_01_t_01extends_01_chromosome_01_4}{\section{jenes.\-stage.\-Dispenser$<$ T extends Chromosome $>$ Class Reference}
+\label{classjenes_1_1stage_1_1_dispenser_3_01_t_01extends_01_chromosome_01_4}\index{jenes.\-stage.\-Dispenser$<$ T extends Chromosome $>$@{jenes.\-stage.\-Dispenser$<$ T extends Chromosome $>$}}
+}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classjenes_1_1stage_1_1_dispenser_3_01_t_01extends_01_chromosome_01_4_a8972dc3bcea956122cc623784a833bcf}{Dispenser} (int \hyperlink{classjenes_1_1stage_1_1_dispenser_3_01_t_01extends_01_chromosome_01_4_a8f9bc0997e0536729db0c55bc9e240a5}{span})
+\item 
+int \hyperlink{classjenes_1_1stage_1_1_dispenser_3_01_t_01extends_01_chromosome_01_4_a6ece937f3d7564424f6367e96e1b21c7}{span} ()
+\item 
+abstract void \hyperlink{classjenes_1_1stage_1_1_dispenser_3_01_t_01extends_01_chromosome_01_4_ae9eb1e3be8a72e70e2bc75c53f31265b}{distribute} (Population$<$ T $>$ in, Population$<$ T $>$\mbox{[}$\,$\mbox{]} branches)
+\item 
+abstract void \hyperlink{classjenes_1_1stage_1_1_dispenser_3_01_t_01extends_01_chromosome_01_4_ae35fcd8e2c1ecf6c9069107122b8a894}{merge\-Population} (Population$<$ T $>$\mbox{[}$\,$\mbox{]} branches, Population$<$ T $>$ out)
+\end{DoxyCompactItemize}
+\subsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+int \hyperlink{classjenes_1_1stage_1_1_dispenser_3_01_t_01extends_01_chromosome_01_4_a8f9bc0997e0536729db0c55bc9e240a5}{span}
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+A Dispencer distributes a population between the branches of a parallel stage and merges the output of each branch in the output population of the parallel.\par
+ \par
+ The distribute method adds individual taken from the input population in one (or more) of the input population of the branches (see \hyperlink{}{distribute(\-Population, Population\mbox{[}$\,$\mbox{]})}). The number of branches is indicated by the span parameter passed to the constructor.\par
+ \par
+ For example, if span==2 can have\par
+ 
+
+\begin{quotation}
+
+\begin{DoxyPre}        
+    int count=0;    
+    for( Individual<T> i : in ) \{
+        int branch=count\%2;
+            branches[branch].add(i);
+    \}
+\end{DoxyPre}
+\end{quotation}
+The method \hyperlink{}{merge\-Population(\-Population\mbox{[}$\,$\mbox{]}, Population)} takes the output populations from the branches array and merges them in the output population according to some policy. A simple implementation is\-: 
+
+\begin{quotation}
+
+\begin{DoxyPre}
+    int count = 0;
+    for(Population<T>  branch : branches) \{
+        for(Individual<T> i : branch) \{
+            Individual<T> dest = out.getIndividual(count++);
+            // This check is necessary because out could have
+            // lesser elements than those resulting from branches
+            if( dest != null )
+                dest.setAs(i);
+            else\{
+                if(count<=out.size())
+                    throw new IllegalStateException("out population can't contains null individual");
+                out.add(i.clone());
+            \}
+        \}
+    \}\end{DoxyPre}
+
+
+
+\begin{DoxyPre}    // If out has more elements than the sum of elements
+    // resulting from branches, we remove the exceeding elements
+    int outSize=out.size();
+    for( int i = outSize-1; i >= count; --i )
+        out.remove(i);
+\end{DoxyPre}
+\end{quotation}
+
+
+
+\begin{DoxyPre}\end{DoxyPre}
+
+
+
+\begin{DoxyPre}
+\begin{DoxyParams}{Parameters}
+{\em <T>} & The class chromosomes flowing across the stage.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyVersion}{Version}
+1.2
+
+\end{DoxyVersion}
+\begin{DoxySince}{Since}
+1.0
+\end{DoxySince}
+\begin{DoxySeeAlso}{See Also}
+jenes.stage.Parallel
+
+\end{DoxySeeAlso}
+\end{DoxyPre}
+
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{classjenes_1_1stage_1_1_dispenser_3_01_t_01extends_01_chromosome_01_4_a8972dc3bcea956122cc623784a833bcf}{\index{jenes\-::stage\-::\-Dispenser$<$ T extends Chromosome $>$@{jenes\-::stage\-::\-Dispenser$<$ T extends Chromosome $>$}!Dispenser@{Dispenser}}
+\index{Dispenser@{Dispenser}!jenes::stage::Dispenser< T extends Chromosome >@{jenes\-::stage\-::\-Dispenser$<$ T extends Chromosome $>$}}
+\subsubsection[{Dispenser}]{\setlength{\rightskip}{0pt plus 5cm}jenes.\-stage.\-Dispenser$<$ T extends Chromosome $>$.Dispenser (
+\begin{DoxyParamCaption}
+\item[{int}]{span}
+\end{DoxyParamCaption}
+)}}\label{classjenes_1_1stage_1_1_dispenser_3_01_t_01extends_01_chromosome_01_4_a8972dc3bcea956122cc623784a833bcf}
+Constructs a new dispencer with the specfied amplitude
+
+
+\begin{DoxyParams}{Parameters}
+{\em span} & the dispencer amplitude \\
+\hline
+\end{DoxyParams}
+
+
+\subsection{Member Function Documentation}
+\hypertarget{classjenes_1_1stage_1_1_dispenser_3_01_t_01extends_01_chromosome_01_4_ae9eb1e3be8a72e70e2bc75c53f31265b}{\index{jenes\-::stage\-::\-Dispenser$<$ T extends Chromosome $>$@{jenes\-::stage\-::\-Dispenser$<$ T extends Chromosome $>$}!distribute@{distribute}}
+\index{distribute@{distribute}!jenes::stage::Dispenser< T extends Chromosome >@{jenes\-::stage\-::\-Dispenser$<$ T extends Chromosome $>$}}
+\subsubsection[{distribute}]{\setlength{\rightskip}{0pt plus 5cm}abstract void jenes.\-stage.\-Dispenser$<$ T extends Chromosome $>$.distribute (
+\begin{DoxyParamCaption}
+\item[{Population$<$ T $>$}]{in, }
+\item[{Population$<$ T $>$\mbox{[}$\,$\mbox{]}}]{branches}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [pure virtual]}}}\label{classjenes_1_1stage_1_1_dispenser_3_01_t_01extends_01_chromosome_01_4_ae9eb1e3be8a72e70e2bc75c53f31265b}
+Distributes the specified population between those ones in the specified array. If some populations within in\-Stage\-Pop are not empty they will contain the initial individuals too at the end of distribute operation. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em in} & the population to be distributed \\
+\hline
+{\em branches} & the array of sub populations of the initial one \\
+\hline
+\end{DoxyParams}
+\hypertarget{classjenes_1_1stage_1_1_dispenser_3_01_t_01extends_01_chromosome_01_4_ae35fcd8e2c1ecf6c9069107122b8a894}{\index{jenes\-::stage\-::\-Dispenser$<$ T extends Chromosome $>$@{jenes\-::stage\-::\-Dispenser$<$ T extends Chromosome $>$}!merge\-Population@{merge\-Population}}
+\index{merge\-Population@{merge\-Population}!jenes::stage::Dispenser< T extends Chromosome >@{jenes\-::stage\-::\-Dispenser$<$ T extends Chromosome $>$}}
+\subsubsection[{merge\-Population}]{\setlength{\rightskip}{0pt plus 5cm}abstract void jenes.\-stage.\-Dispenser$<$ T extends Chromosome $>$.merge\-Population (
+\begin{DoxyParamCaption}
+\item[{Population$<$ T $>$\mbox{[}$\,$\mbox{]}}]{branches, }
+\item[{Population$<$ T $>$}]{out}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [pure virtual]}}}\label{classjenes_1_1stage_1_1_dispenser_3_01_t_01extends_01_chromosome_01_4_ae35fcd8e2c1ecf6c9069107122b8a894}
+Merges the populations within the specified array in the specified one. If population is not empty it will contain the initial individuals too at the end of merge operation. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em out} & the final population \\
+\hline
+{\em branches} & the populations to be merged \\
+\hline
+\end{DoxyParams}
+\hypertarget{classjenes_1_1stage_1_1_dispenser_3_01_t_01extends_01_chromosome_01_4_a6ece937f3d7564424f6367e96e1b21c7}{\index{jenes\-::stage\-::\-Dispenser$<$ T extends Chromosome $>$@{jenes\-::stage\-::\-Dispenser$<$ T extends Chromosome $>$}!span@{span}}
+\index{span@{span}!jenes::stage::Dispenser< T extends Chromosome >@{jenes\-::stage\-::\-Dispenser$<$ T extends Chromosome $>$}}
+\subsubsection[{span}]{\setlength{\rightskip}{0pt plus 5cm}int jenes.\-stage.\-Dispenser$<$ T extends Chromosome $>$.span (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classjenes_1_1stage_1_1_dispenser_3_01_t_01extends_01_chromosome_01_4_a6ece937f3d7564424f6367e96e1b21c7}
+Returns the dispenser amplitude. 
+
+\begin{DoxyReturn}{Returns}
+the dispenser amplitude 
+\end{DoxyReturn}
+
+
+\subsection{Member Data Documentation}
+\hypertarget{classjenes_1_1stage_1_1_dispenser_3_01_t_01extends_01_chromosome_01_4_a8f9bc0997e0536729db0c55bc9e240a5}{\index{jenes\-::stage\-::\-Dispenser$<$ T extends Chromosome $>$@{jenes\-::stage\-::\-Dispenser$<$ T extends Chromosome $>$}!span@{span}}
+\index{span@{span}!jenes::stage::Dispenser< T extends Chromosome >@{jenes\-::stage\-::\-Dispenser$<$ T extends Chromosome $>$}}
+\subsubsection[{span}]{\setlength{\rightskip}{0pt plus 5cm}int jenes.\-stage.\-Dispenser$<$ T extends Chromosome $>$.span\hspace{0.3cm}{\ttfamily [protected]}}}\label{classjenes_1_1stage_1_1_dispenser_3_01_t_01extends_01_chromosome_01_4_a8f9bc0997e0536729db0c55bc9e240a5}
+The dispencer amplitude, that is the number of populations where it will add individuals in the distribution method 
+
+The documentation for this class was generated from the following file\-:\begin{DoxyCompactItemize}
+\item 
+src/jenes/stage/\hyperlink{_dispenser_8java}{Dispenser.\-java}\end{DoxyCompactItemize}

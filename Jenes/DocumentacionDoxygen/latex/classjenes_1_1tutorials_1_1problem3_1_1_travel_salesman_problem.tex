@@ -1,0 +1,129 @@
+\hypertarget{classjenes_1_1tutorials_1_1problem3_1_1_travel_salesman_problem}{\section{jenes.\-tutorials.\-problem3.\-Travel\-Salesman\-Problem Class Reference}
+\label{classjenes_1_1tutorials_1_1problem3_1_1_travel_salesman_problem}\index{jenes.\-tutorials.\-problem3.\-Travel\-Salesman\-Problem@{jenes.\-tutorials.\-problem3.\-Travel\-Salesman\-Problem}}
+}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classjenes_1_1tutorials_1_1problem3_1_1_travel_salesman_problem_a6a5b57b4c96b1cd6367be99ff5542b0d}{Travel\-Salesman\-Problem} (double\mbox{[}$\,$\mbox{]}\mbox{[}$\,$\mbox{]} matrix)
+\item 
+void \hyperlink{classjenes_1_1tutorials_1_1problem3_1_1_travel_salesman_problem_ac2507cd4e4fecd4a68fa76dee8ee40e1}{solve} ()
+\item 
+void \hyperlink{classjenes_1_1tutorials_1_1problem3_1_1_travel_salesman_problem_a6f115876612aecf1c22058ebc96f21d8}{solve\-P\-C} ()
+\end{DoxyCompactItemize}
+\subsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static void \hyperlink{classjenes_1_1tutorials_1_1problem3_1_1_travel_salesman_problem_a2ca005fbeba6c5fdf1406aed8ebd6b56}{main} (String\mbox{[}$\,$\mbox{]} args)
+\item 
+static double\mbox{[}$\,$\mbox{]}\mbox{[}$\,$\mbox{]} \hyperlink{classjenes_1_1tutorials_1_1problem3_1_1_travel_salesman_problem_a5101bfe709c445cb0dacc93024979082}{simple\-Map} (int \hyperlink{classjenes_1_1tutorials_1_1problem3_1_1_travel_salesman_problem_af256e6139f6148cb3d585c54684321a1}{cities})
+\item 
+static double\mbox{[}$\,$\mbox{]}\mbox{[}$\,$\mbox{]} \hyperlink{classjenes_1_1tutorials_1_1problem3_1_1_travel_salesman_problem_aaac8cbd0414b02891c9572b3e07c2637}{random\-Map} (int \hyperlink{classjenes_1_1tutorials_1_1problem3_1_1_travel_salesman_problem_af256e6139f6148cb3d585c54684321a1}{cities})
+\end{DoxyCompactItemize}
+\subsection*{Static Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+static final int \hyperlink{classjenes_1_1tutorials_1_1problem3_1_1_travel_salesman_problem_afda171e13788bcb67f73fd82bd89498b}{P\-O\-P\-U\-L\-A\-T\-I\-O\-N\-\_\-\-S\-I\-Z\-E} = 1000
+\item 
+static final int \hyperlink{classjenes_1_1tutorials_1_1problem3_1_1_travel_salesman_problem_a94747a5d97d1f3974d74a27e641285c8}{M\-A\-X\-\_\-\-D\-I\-S\-T\-A\-N\-C\-E} = 10
+\end{DoxyCompactItemize}
+\subsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classjenes_1_1tutorials_1_1problem3_1_1_t_s_p_g_a}{T\-S\-P\-G\-A} \hyperlink{classjenes_1_1tutorials_1_1problem3_1_1_travel_salesman_problem_a48d702f266e2d1cf065a3e1674d3f9ca}{algorithm}
+\item 
+int \hyperlink{classjenes_1_1tutorials_1_1problem3_1_1_travel_salesman_problem_af256e6139f6148cb3d585c54684321a1}{cities}
+\item 
+double\mbox{[}$\,$\mbox{]}\mbox{[}$\,$\mbox{]} \hyperlink{classjenes_1_1tutorials_1_1problem3_1_1_travel_salesman_problem_a44794d38e04e405daa3b78f1c838a167}{map}
+\end{DoxyCompactItemize}
+\subsection*{Static Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+static int \hyperlink{classjenes_1_1tutorials_1_1problem3_1_1_travel_salesman_problem_acc389d21c65ac25614a59cee47a08ae9}{G\-E\-N\-E\-R\-A\-T\-I\-O\-N\-\_\-\-L\-I\-M\-I\-T} = 2000
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Tutorial showing how to implement problem specific operators. The problem faced in this example is the well known Tavel Salesman Problem (T\-S\-P)
+
+This class specifies the problem.
+
+\begin{DoxyVersion}{Version}
+2.\-0 
+\end{DoxyVersion}
+\begin{DoxySince}{Since}
+1.\-0 
+\end{DoxySince}
+
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{classjenes_1_1tutorials_1_1problem3_1_1_travel_salesman_problem_a6a5b57b4c96b1cd6367be99ff5542b0d}{\index{jenes\-::tutorials\-::problem3\-::\-Travel\-Salesman\-Problem@{jenes\-::tutorials\-::problem3\-::\-Travel\-Salesman\-Problem}!Travel\-Salesman\-Problem@{Travel\-Salesman\-Problem}}
+\index{Travel\-Salesman\-Problem@{Travel\-Salesman\-Problem}!jenes::tutorials::problem3::TravelSalesmanProblem@{jenes\-::tutorials\-::problem3\-::\-Travel\-Salesman\-Problem}}
+\subsubsection[{Travel\-Salesman\-Problem}]{\setlength{\rightskip}{0pt plus 5cm}jenes.\-tutorials.\-problem3.\-Travel\-Salesman\-Problem.\-Travel\-Salesman\-Problem (
+\begin{DoxyParamCaption}
+\item[{double}]{matrix\mbox{[}$\,$\mbox{]}\mbox{[}$\,$\mbox{]}}
+\end{DoxyParamCaption}
+)}}\label{classjenes_1_1tutorials_1_1problem3_1_1_travel_salesman_problem_a6a5b57b4c96b1cd6367be99ff5542b0d}
+
+
+\subsection{Member Function Documentation}
+\hypertarget{classjenes_1_1tutorials_1_1problem3_1_1_travel_salesman_problem_a2ca005fbeba6c5fdf1406aed8ebd6b56}{\index{jenes\-::tutorials\-::problem3\-::\-Travel\-Salesman\-Problem@{jenes\-::tutorials\-::problem3\-::\-Travel\-Salesman\-Problem}!main@{main}}
+\index{main@{main}!jenes::tutorials::problem3::TravelSalesmanProblem@{jenes\-::tutorials\-::problem3\-::\-Travel\-Salesman\-Problem}}
+\subsubsection[{main}]{\setlength{\rightskip}{0pt plus 5cm}static void jenes.\-tutorials.\-problem3.\-Travel\-Salesman\-Problem.\-main (
+\begin{DoxyParamCaption}
+\item[{String\mbox{[}$\,$\mbox{]}}]{args}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}}\label{classjenes_1_1tutorials_1_1problem3_1_1_travel_salesman_problem_a2ca005fbeba6c5fdf1406aed8ebd6b56}
+\hypertarget{classjenes_1_1tutorials_1_1problem3_1_1_travel_salesman_problem_aaac8cbd0414b02891c9572b3e07c2637}{\index{jenes\-::tutorials\-::problem3\-::\-Travel\-Salesman\-Problem@{jenes\-::tutorials\-::problem3\-::\-Travel\-Salesman\-Problem}!random\-Map@{random\-Map}}
+\index{random\-Map@{random\-Map}!jenes::tutorials::problem3::TravelSalesmanProblem@{jenes\-::tutorials\-::problem3\-::\-Travel\-Salesman\-Problem}}
+\subsubsection[{random\-Map}]{\setlength{\rightskip}{0pt plus 5cm}static double \mbox{[}$\,$\mbox{]}\mbox{[}$\,$\mbox{]} jenes.\-tutorials.\-problem3.\-Travel\-Salesman\-Problem.\-random\-Map (
+\begin{DoxyParamCaption}
+\item[{int}]{cities}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}}\label{classjenes_1_1tutorials_1_1problem3_1_1_travel_salesman_problem_aaac8cbd0414b02891c9572b3e07c2637}
+\hypertarget{classjenes_1_1tutorials_1_1problem3_1_1_travel_salesman_problem_a5101bfe709c445cb0dacc93024979082}{\index{jenes\-::tutorials\-::problem3\-::\-Travel\-Salesman\-Problem@{jenes\-::tutorials\-::problem3\-::\-Travel\-Salesman\-Problem}!simple\-Map@{simple\-Map}}
+\index{simple\-Map@{simple\-Map}!jenes::tutorials::problem3::TravelSalesmanProblem@{jenes\-::tutorials\-::problem3\-::\-Travel\-Salesman\-Problem}}
+\subsubsection[{simple\-Map}]{\setlength{\rightskip}{0pt plus 5cm}static double \mbox{[}$\,$\mbox{]}\mbox{[}$\,$\mbox{]} jenes.\-tutorials.\-problem3.\-Travel\-Salesman\-Problem.\-simple\-Map (
+\begin{DoxyParamCaption}
+\item[{int}]{cities}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}}\label{classjenes_1_1tutorials_1_1problem3_1_1_travel_salesman_problem_a5101bfe709c445cb0dacc93024979082}
+\hypertarget{classjenes_1_1tutorials_1_1problem3_1_1_travel_salesman_problem_ac2507cd4e4fecd4a68fa76dee8ee40e1}{\index{jenes\-::tutorials\-::problem3\-::\-Travel\-Salesman\-Problem@{jenes\-::tutorials\-::problem3\-::\-Travel\-Salesman\-Problem}!solve@{solve}}
+\index{solve@{solve}!jenes::tutorials::problem3::TravelSalesmanProblem@{jenes\-::tutorials\-::problem3\-::\-Travel\-Salesman\-Problem}}
+\subsubsection[{solve}]{\setlength{\rightskip}{0pt plus 5cm}void jenes.\-tutorials.\-problem3.\-Travel\-Salesman\-Problem.\-solve (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classjenes_1_1tutorials_1_1problem3_1_1_travel_salesman_problem_ac2507cd4e4fecd4a68fa76dee8ee40e1}
+\hypertarget{classjenes_1_1tutorials_1_1problem3_1_1_travel_salesman_problem_a6f115876612aecf1c22058ebc96f21d8}{\index{jenes\-::tutorials\-::problem3\-::\-Travel\-Salesman\-Problem@{jenes\-::tutorials\-::problem3\-::\-Travel\-Salesman\-Problem}!solve\-P\-C@{solve\-P\-C}}
+\index{solve\-P\-C@{solve\-P\-C}!jenes::tutorials::problem3::TravelSalesmanProblem@{jenes\-::tutorials\-::problem3\-::\-Travel\-Salesman\-Problem}}
+\subsubsection[{solve\-P\-C}]{\setlength{\rightskip}{0pt plus 5cm}void jenes.\-tutorials.\-problem3.\-Travel\-Salesman\-Problem.\-solve\-P\-C (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classjenes_1_1tutorials_1_1problem3_1_1_travel_salesman_problem_a6f115876612aecf1c22058ebc96f21d8}
+
+
+\subsection{Member Data Documentation}
+\hypertarget{classjenes_1_1tutorials_1_1problem3_1_1_travel_salesman_problem_a48d702f266e2d1cf065a3e1674d3f9ca}{\index{jenes\-::tutorials\-::problem3\-::\-Travel\-Salesman\-Problem@{jenes\-::tutorials\-::problem3\-::\-Travel\-Salesman\-Problem}!algorithm@{algorithm}}
+\index{algorithm@{algorithm}!jenes::tutorials::problem3::TravelSalesmanProblem@{jenes\-::tutorials\-::problem3\-::\-Travel\-Salesman\-Problem}}
+\subsubsection[{algorithm}]{\setlength{\rightskip}{0pt plus 5cm}{\bf T\-S\-P\-G\-A} jenes.\-tutorials.\-problem3.\-Travel\-Salesman\-Problem.\-algorithm\hspace{0.3cm}{\ttfamily [private]}}}\label{classjenes_1_1tutorials_1_1problem3_1_1_travel_salesman_problem_a48d702f266e2d1cf065a3e1674d3f9ca}
+\hypertarget{classjenes_1_1tutorials_1_1problem3_1_1_travel_salesman_problem_af256e6139f6148cb3d585c54684321a1}{\index{jenes\-::tutorials\-::problem3\-::\-Travel\-Salesman\-Problem@{jenes\-::tutorials\-::problem3\-::\-Travel\-Salesman\-Problem}!cities@{cities}}
+\index{cities@{cities}!jenes::tutorials::problem3::TravelSalesmanProblem@{jenes\-::tutorials\-::problem3\-::\-Travel\-Salesman\-Problem}}
+\subsubsection[{cities}]{\setlength{\rightskip}{0pt plus 5cm}int jenes.\-tutorials.\-problem3.\-Travel\-Salesman\-Problem.\-cities\hspace{0.3cm}{\ttfamily [private]}}}\label{classjenes_1_1tutorials_1_1problem3_1_1_travel_salesman_problem_af256e6139f6148cb3d585c54684321a1}
+\hypertarget{classjenes_1_1tutorials_1_1problem3_1_1_travel_salesman_problem_acc389d21c65ac25614a59cee47a08ae9}{\index{jenes\-::tutorials\-::problem3\-::\-Travel\-Salesman\-Problem@{jenes\-::tutorials\-::problem3\-::\-Travel\-Salesman\-Problem}!G\-E\-N\-E\-R\-A\-T\-I\-O\-N\-\_\-\-L\-I\-M\-I\-T@{G\-E\-N\-E\-R\-A\-T\-I\-O\-N\-\_\-\-L\-I\-M\-I\-T}}
+\index{G\-E\-N\-E\-R\-A\-T\-I\-O\-N\-\_\-\-L\-I\-M\-I\-T@{G\-E\-N\-E\-R\-A\-T\-I\-O\-N\-\_\-\-L\-I\-M\-I\-T}!jenes::tutorials::problem3::TravelSalesmanProblem@{jenes\-::tutorials\-::problem3\-::\-Travel\-Salesman\-Problem}}
+\subsubsection[{G\-E\-N\-E\-R\-A\-T\-I\-O\-N\-\_\-\-L\-I\-M\-I\-T}]{\setlength{\rightskip}{0pt plus 5cm}int jenes.\-tutorials.\-problem3.\-Travel\-Salesman\-Problem.\-G\-E\-N\-E\-R\-A\-T\-I\-O\-N\-\_\-\-L\-I\-M\-I\-T = 2000\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}}\label{classjenes_1_1tutorials_1_1problem3_1_1_travel_salesman_problem_acc389d21c65ac25614a59cee47a08ae9}
+\hypertarget{classjenes_1_1tutorials_1_1problem3_1_1_travel_salesman_problem_a44794d38e04e405daa3b78f1c838a167}{\index{jenes\-::tutorials\-::problem3\-::\-Travel\-Salesman\-Problem@{jenes\-::tutorials\-::problem3\-::\-Travel\-Salesman\-Problem}!map@{map}}
+\index{map@{map}!jenes::tutorials::problem3::TravelSalesmanProblem@{jenes\-::tutorials\-::problem3\-::\-Travel\-Salesman\-Problem}}
+\subsubsection[{map}]{\setlength{\rightskip}{0pt plus 5cm}double \mbox{[}$\,$\mbox{]}\mbox{[}$\,$\mbox{]} jenes.\-tutorials.\-problem3.\-Travel\-Salesman\-Problem.\-map\hspace{0.3cm}{\ttfamily [private]}}}\label{classjenes_1_1tutorials_1_1problem3_1_1_travel_salesman_problem_a44794d38e04e405daa3b78f1c838a167}
+\hypertarget{classjenes_1_1tutorials_1_1problem3_1_1_travel_salesman_problem_a94747a5d97d1f3974d74a27e641285c8}{\index{jenes\-::tutorials\-::problem3\-::\-Travel\-Salesman\-Problem@{jenes\-::tutorials\-::problem3\-::\-Travel\-Salesman\-Problem}!M\-A\-X\-\_\-\-D\-I\-S\-T\-A\-N\-C\-E@{M\-A\-X\-\_\-\-D\-I\-S\-T\-A\-N\-C\-E}}
+\index{M\-A\-X\-\_\-\-D\-I\-S\-T\-A\-N\-C\-E@{M\-A\-X\-\_\-\-D\-I\-S\-T\-A\-N\-C\-E}!jenes::tutorials::problem3::TravelSalesmanProblem@{jenes\-::tutorials\-::problem3\-::\-Travel\-Salesman\-Problem}}
+\subsubsection[{M\-A\-X\-\_\-\-D\-I\-S\-T\-A\-N\-C\-E}]{\setlength{\rightskip}{0pt plus 5cm}final int jenes.\-tutorials.\-problem3.\-Travel\-Salesman\-Problem.\-M\-A\-X\-\_\-\-D\-I\-S\-T\-A\-N\-C\-E = 10\hspace{0.3cm}{\ttfamily [static]}}}\label{classjenes_1_1tutorials_1_1problem3_1_1_travel_salesman_problem_a94747a5d97d1f3974d74a27e641285c8}
+\hypertarget{classjenes_1_1tutorials_1_1problem3_1_1_travel_salesman_problem_afda171e13788bcb67f73fd82bd89498b}{\index{jenes\-::tutorials\-::problem3\-::\-Travel\-Salesman\-Problem@{jenes\-::tutorials\-::problem3\-::\-Travel\-Salesman\-Problem}!P\-O\-P\-U\-L\-A\-T\-I\-O\-N\-\_\-\-S\-I\-Z\-E@{P\-O\-P\-U\-L\-A\-T\-I\-O\-N\-\_\-\-S\-I\-Z\-E}}
+\index{P\-O\-P\-U\-L\-A\-T\-I\-O\-N\-\_\-\-S\-I\-Z\-E@{P\-O\-P\-U\-L\-A\-T\-I\-O\-N\-\_\-\-S\-I\-Z\-E}!jenes::tutorials::problem3::TravelSalesmanProblem@{jenes\-::tutorials\-::problem3\-::\-Travel\-Salesman\-Problem}}
+\subsubsection[{P\-O\-P\-U\-L\-A\-T\-I\-O\-N\-\_\-\-S\-I\-Z\-E}]{\setlength{\rightskip}{0pt plus 5cm}final int jenes.\-tutorials.\-problem3.\-Travel\-Salesman\-Problem.\-P\-O\-P\-U\-L\-A\-T\-I\-O\-N\-\_\-\-S\-I\-Z\-E = 1000\hspace{0.3cm}{\ttfamily [static]}}}\label{classjenes_1_1tutorials_1_1problem3_1_1_travel_salesman_problem_afda171e13788bcb67f73fd82bd89498b}
+
+
+The documentation for this class was generated from the following file\-:\begin{DoxyCompactItemize}
+\item 
+src/jenes/tutorials/problem3/\hyperlink{tutorials_2problem3_2_travel_salesman_problem_8java}{Travel\-Salesman\-Problem.\-java}\end{DoxyCompactItemize}

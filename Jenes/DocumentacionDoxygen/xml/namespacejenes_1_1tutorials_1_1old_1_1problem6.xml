@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="namespacejenes_1_1tutorials_1_1old_1_1problem6" kind="namespace">
+    <compoundname>jenes::tutorials::old::problem6</compoundname>
+    <innerclass refid="classjenes_1_1tutorials_1_1old_1_1problem6_1_1_knapsack_g_a" prot="public">jenes::tutorials::old::problem6::KnapsackGA</innerclass>
+    <innerclass refid="classjenes_1_1tutorials_1_1old_1_1problem6_1_1_knapsack_problem" prot="public">jenes::tutorials::old::problem6::KnapsackProblem</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/old/problem6/KnapsackGA.java" line="19" column="1"/>
+  </compounddef>
+</doxygen>

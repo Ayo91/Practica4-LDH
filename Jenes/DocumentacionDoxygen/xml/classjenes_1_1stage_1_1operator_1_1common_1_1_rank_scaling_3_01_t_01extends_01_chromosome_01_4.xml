@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="classjenes_1_1stage_1_1operator_1_1common_1_1_rank_scaling_3_01_t_01extends_01_chromosome_01_4" kind="class" prot="public">
+    <compoundname>jenes::stage::operator::common::RankScaling&lt; T extends Chromosome &gt;</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">jenes::stage::operator::Scaling&lt; T &gt;</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classjenes_1_1stage_1_1operator_1_1common_1_1_rank_scaling_3_01_t_01extends_01_chromosome_01_4_1a8158f18c672b8764a11ba70a52514132" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void jenes.stage.operator.common.RankScaling&lt; T extends Chromosome &gt;.scale</definition>
+        <argsstring>(Population&lt; T &gt; pop)</argsstring>
+        <name>scale</name>
+        <param>
+          <type>Population&lt; T &gt;</type>
+          <declname>pop</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/operator/common/RankScaling.java" line="38" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/operator/common/RankScaling.java" bodystart="38" bodyend="70"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>This operator implements the rank scaling. Rank scaling re-assigns the rank as fitness value to indiduals. The operator is compatible with multi-objective optimization. In that case, rank is in turn computed for each each objective.</para><para><simplesect kind="version"><para>2.0 </para></simplesect>
+<simplesect kind="since"><para>2.0 </para></simplesect>
+</para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="538">
+        <label>jenes.stage.operator.common.RankScaling&lt; T extends Chromosome &gt;</label>
+        <link refid="classjenes_1_1stage_1_1operator_1_1common_1_1_rank_scaling_3_01_t_01extends_01_chromosome_01_4"/>
+        <childnode refid="539" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="539">
+        <label>jenes::stage::operator::Scaling&lt; T &gt;</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="540">
+        <label>jenes.stage.operator.common.RankScaling&lt; T extends Chromosome &gt;</label>
+        <link refid="classjenes_1_1stage_1_1operator_1_1common_1_1_rank_scaling_3_01_t_01extends_01_chromosome_01_4"/>
+        <childnode refid="541" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="541">
+        <label>jenes::stage::operator::Scaling&lt; T &gt;</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/operator/common/RankScaling.java" line="35" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/operator/common/RankScaling.java" bodystart="35" bodyend="72"/>
+    <listofallmembers>
+      <member refid="classjenes_1_1stage_1_1operator_1_1common_1_1_rank_scaling_3_01_t_01extends_01_chromosome_01_4_1a8158f18c672b8764a11ba70a52514132" prot="public" virt="non-virtual"><scope>jenes::stage::operator::common::RankScaling&lt; T extends Chromosome &gt;</scope><name>scale</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,112 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="classjenes_1_1tutorials_1_1problem11_1_1_image_panel" kind="class" prot="public">
+    <compoundname>jenes::tutorials::problem11::ImagePanel</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">JPanel</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classjenes_1_1tutorials_1_1problem11_1_1_image_panel_1a87ad7d0b5c3007bbcb5cac0352d94e3c" prot="private" static="no" mutable="no">
+        <type>BufferedImage</type>
+        <definition>BufferedImage jenes.tutorials.problem11.ImagePanel.image</definition>
+        <argsstring></argsstring>
+        <name>image</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/problem11/ImagePanel.java" line="20" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/problem11/ImagePanel.java" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classjenes_1_1tutorials_1_1problem11_1_1_image_panel_1a72e9d512f6d00f9ab6fd18bf052f35fd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>jenes.tutorials.problem11.ImagePanel.ImagePanel</definition>
+        <argsstring>(BufferedImage image)</argsstring>
+        <name>ImagePanel</name>
+        <param>
+          <type>BufferedImage</type>
+          <declname>image</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/problem11/ImagePanel.java" line="22" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/problem11/ImagePanel.java" bodystart="22" bodyend="31"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1tutorials_1_1problem11_1_1_image_panel_1afa537b7985f0ccfc8ad9896df39595c7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Dimension</type>
+        <definition>Dimension jenes.tutorials.problem11.ImagePanel.getPreferredSize</definition>
+        <argsstring>()</argsstring>
+        <name>getPreferredSize</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/problem11/ImagePanel.java" line="46" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/problem11/ImagePanel.java" bodystart="46" bodyend="48"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classjenes_1_1tutorials_1_1problem11_1_1_image_panel_1a734663d1d6aeb4f2e02e788db04a1444" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void jenes.tutorials.problem11.ImagePanel.paintComponent</definition>
+        <argsstring>(Graphics g)</argsstring>
+        <name>paintComponent</name>
+        <param>
+          <type>Graphics</type>
+          <declname>g</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/problem11/ImagePanel.java" line="34" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/problem11/ImagePanel.java" bodystart="34" bodyend="43"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>An utility JPanel that renders an image given as argument of the constructor </para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="249">
+        <label>JPanel</label>
+      </node>
+      <node id="248">
+        <label>jenes.tutorials.problem11.ImagePanel</label>
+        <link refid="classjenes_1_1tutorials_1_1problem11_1_1_image_panel"/>
+        <childnode refid="249" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="251">
+        <label>JPanel</label>
+      </node>
+      <node id="250">
+        <label>jenes.tutorials.problem11.ImagePanel</label>
+        <link refid="classjenes_1_1tutorials_1_1problem11_1_1_image_panel"/>
+        <childnode refid="251" relation="public-inheritance">
+        </childnode>
+        <childnode refid="252" relation="usage">
+          <edgelabel>image</edgelabel>
+        </childnode>
+      </node>
+      <node id="252">
+        <label>BufferedImage</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/problem11/ImagePanel.java" line="18" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/problem11/ImagePanel.java" bodystart="18" bodyend="50"/>
+    <listofallmembers>
+      <member refid="classjenes_1_1tutorials_1_1problem11_1_1_image_panel_1afa537b7985f0ccfc8ad9896df39595c7" prot="public" virt="non-virtual"><scope>jenes::tutorials::problem11::ImagePanel</scope><name>getPreferredSize</name></member>
+      <member refid="classjenes_1_1tutorials_1_1problem11_1_1_image_panel_1a87ad7d0b5c3007bbcb5cac0352d94e3c" prot="private" virt="non-virtual"><scope>jenes::tutorials::problem11::ImagePanel</scope><name>image</name></member>
+      <member refid="classjenes_1_1tutorials_1_1problem11_1_1_image_panel_1a72e9d512f6d00f9ab6fd18bf052f35fd" prot="public" virt="non-virtual"><scope>jenes::tutorials::problem11::ImagePanel</scope><name>ImagePanel</name></member>
+      <member refid="classjenes_1_1tutorials_1_1problem11_1_1_image_panel_1a734663d1d6aeb4f2e02e788db04a1444" prot="protected" virt="non-virtual"><scope>jenes::tutorials::problem11::ImagePanel</scope><name>paintComponent</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

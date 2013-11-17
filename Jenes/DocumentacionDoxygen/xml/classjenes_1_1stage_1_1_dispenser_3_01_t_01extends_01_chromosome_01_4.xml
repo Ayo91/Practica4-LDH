@@ -1,0 +1,190 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="classjenes_1_1stage_1_1_dispenser_3_01_t_01extends_01_chromosome_01_4" kind="class" prot="public" abstract="yes">
+    <compoundname>jenes::stage::Dispenser&lt; T extends Chromosome &gt;</compoundname>
+      <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="classjenes_1_1stage_1_1_dispenser_3_01_t_01extends_01_chromosome_01_4_1a8f9bc0997e0536729db0c55bc9e240a5" prot="protected" static="no" mutable="no">
+        <type>int</type>
+        <definition>int jenes.stage.Dispenser&lt; T extends Chromosome &gt;.span</definition>
+        <argsstring></argsstring>
+        <name>span</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The dispencer amplitude, that is the number of populations where it will add individuals in the distribution method </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/Dispenser.java" line="78" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/Dispenser.java" bodystart="78" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classjenes_1_1stage_1_1_dispenser_3_01_t_01extends_01_chromosome_01_4_1a8972dc3bcea956122cc623784a833bcf" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>jenes.stage.Dispenser&lt; T extends Chromosome &gt;.Dispenser</definition>
+        <argsstring>(int span)</argsstring>
+        <name>Dispenser</name>
+        <param>
+          <type>int</type>
+          <declname>span</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs a new dispencer with the specfied amplitude</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>span</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the dispencer amplitude </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/Dispenser.java" line="85" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/Dispenser.java" bodystart="85" bodyend="87"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1stage_1_1_dispenser_3_01_t_01extends_01_chromosome_01_4_1a6ece937f3d7564424f6367e96e1b21c7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int jenes.stage.Dispenser&lt; T extends Chromosome &gt;.span</definition>
+        <argsstring>()</argsstring>
+        <name>span</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns the dispenser amplitude. </para><para><simplesect kind="return"><para>the dispenser amplitude </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/Dispenser.java" line="94" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/Dispenser.java" bodystart="94" bodyend="96"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1stage_1_1_dispenser_3_01_t_01extends_01_chromosome_01_4_1ae9eb1e3be8a72e70e2bc75c53f31265b" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>abstract void</type>
+        <definition>abstract void jenes.stage.Dispenser&lt; T extends Chromosome &gt;.distribute</definition>
+        <argsstring>(Population&lt; T &gt; in, Population&lt; T &gt;[] branches)</argsstring>
+        <name>distribute</name>
+        <param>
+          <type>Population&lt; T &gt;</type>
+          <declname>in</declname>
+        </param>
+        <param>
+          <type>Population&lt; T &gt;[]</type>
+          <declname>branches</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Distributes the specified population between those ones in the specified array. If some populations within inStagePop are not empty they will contain the initial individuals too at the end of distribute operation. </para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>in</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the population to be distributed </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>branches</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the array of sub populations of the initial one </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/Dispenser.java" line="106" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1stage_1_1_dispenser_3_01_t_01extends_01_chromosome_01_4_1ae35fcd8e2c1ecf6c9069107122b8a894" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>abstract void</type>
+        <definition>abstract void jenes.stage.Dispenser&lt; T extends Chromosome &gt;.mergePopulation</definition>
+        <argsstring>(Population&lt; T &gt;[] branches, Population&lt; T &gt; out)</argsstring>
+        <name>mergePopulation</name>
+        <param>
+          <type>Population&lt; T &gt;[]</type>
+          <declname>branches</declname>
+        </param>
+        <param>
+          <type>Population&lt; T &gt;</type>
+          <declname>out</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Merges the populations within the specified array in the specified one. If population is not empty it will contain the initial individuals too at the end of merge operation. </para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>out</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the final population </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>branches</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the populations to be merged </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/Dispenser.java" line="116" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>A Dispencer distributes a population between the branches of a parallel stage and merges the output of each branch in the output population of the parallel.<linebreak/>
+ <linebreak/>
+ The distribute method adds individual taken from the input population in one (or more) of the input population of the branches (see <ref refid="" kindref="compound">distribute(Population, Population[])</ref>). The number of branches is indicated by the span parameter passed to the constructor.<linebreak/>
+ <linebreak/>
+ For example, if span==2 can have<linebreak/>
+ </para><para><blockquote><para><preformatted>        
+    int count=0;    
+    for( Individual&lt;T&gt; i : in ) {
+        int branch=count%2;
+            branches[branch].add(i);
+    }
+</preformatted></para></blockquote>The method <ref refid="" kindref="compound">mergePopulation(Population[], Population)</ref> takes the output populations from the branches array and merges them in the output population according to some policy. A simple implementation is: </para><para><blockquote><para><preformatted>
+    int count = 0;
+    for(Population&lt;T&gt;  branch : branches) {
+        for(Individual&lt;T&gt; i : branch) {
+            Individual&lt;T&gt; dest = out.getIndividual(count++);
+            // This check is necessary because out could have
+            // lesser elements than those resulting from branches
+            if( dest != null )
+                dest.setAs(i);
+            else{
+                if(count&lt;=out.size())
+                    throw new IllegalStateException(&quot;out population can&apos;t contains null individual&quot;);
+                out.add(i.clone());
+            }
+        }
+    }</preformatted></para><para><preformatted>    // If out has more elements than the sum of elements
+    // resulting from branches, we remove the exceeding elements
+    int outSize=out.size();
+    for( int i = outSize-1; i &gt;= count; --i )
+        out.remove(i);
+</preformatted></para></blockquote></para><para><preformatted></preformatted></para><para><preformatted><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>&lt;T&gt;</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The class chromosomes flowing across the stage.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="version"><para>1.2
+</para></simplesect>
+<simplesect kind="since"><para>1.0</para></simplesect>
+<simplesect kind="see"><para>jenes.stage.Parallel
+</para></simplesect>
+</preformatted></para>    </detaileddescription>
+    <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/Dispenser.java" line="74" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/Dispenser.java" bodystart="74" bodyend="117"/>
+    <listofallmembers>
+      <member refid="classjenes_1_1stage_1_1_dispenser_3_01_t_01extends_01_chromosome_01_4_1a8972dc3bcea956122cc623784a833bcf" prot="public" virt="non-virtual"><scope>jenes::stage::Dispenser&lt; T extends Chromosome &gt;</scope><name>Dispenser</name></member>
+      <member refid="classjenes_1_1stage_1_1_dispenser_3_01_t_01extends_01_chromosome_01_4_1ae9eb1e3be8a72e70e2bc75c53f31265b" prot="public" virt="pure-virtual"><scope>jenes::stage::Dispenser&lt; T extends Chromosome &gt;</scope><name>distribute</name></member>
+      <member refid="classjenes_1_1stage_1_1_dispenser_3_01_t_01extends_01_chromosome_01_4_1ae35fcd8e2c1ecf6c9069107122b8a894" prot="public" virt="pure-virtual"><scope>jenes::stage::Dispenser&lt; T extends Chromosome &gt;</scope><name>mergePopulation</name></member>
+      <member refid="classjenes_1_1stage_1_1_dispenser_3_01_t_01extends_01_chromosome_01_4_1a8f9bc0997e0536729db0c55bc9e240a5" prot="protected" virt="non-virtual"><scope>jenes::stage::Dispenser&lt; T extends Chromosome &gt;</scope><name>span</name></member>
+      <member refid="classjenes_1_1stage_1_1_dispenser_3_01_t_01extends_01_chromosome_01_4_1a6ece937f3d7564424f6367e96e1b21c7" prot="public" virt="non-virtual"><scope>jenes::stage::Dispenser&lt; T extends Chromosome &gt;</scope><name>span</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

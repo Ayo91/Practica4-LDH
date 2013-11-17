@@ -1,0 +1,56 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="classjenes_1_1stage_1_1_break_point_3_01_t_01extends_01_chromosome_01_4_1_1_listener" kind="class" prot="public" abstract="yes">
+    <compoundname>jenes::stage::BreakPoint&lt; T extends Chromosome &gt;::Listener</compoundname>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classjenes_1_1stage_1_1_break_point_3_01_t_01extends_01_chromosome_01_4_1_1_listener_1a34cacdf431e970d8c40cd433a50b5fc0" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>abstract void</type>
+        <definition>abstract void jenes.stage.BreakPoint&lt; T extends Chromosome &gt;.Listener.onBreak</definition>
+        <argsstring>(int generation, long time)</argsstring>
+        <name>onBreak</name>
+        <param>
+          <type>int</type>
+          <declname>generation</declname>
+        </param>
+        <param>
+          <type>long</type>
+          <declname>time</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Notify a break point time</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>generation</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the current number generation </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>time</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the break point time </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/BreakPoint.java" line="64" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Abstract class representing a break point listener. When the process method of a break point stage is inciked by a Genetic Algorithm the <ref refid="classjenes_1_1stage_1_1_break_point_3_01_t_01extends_01_chromosome_01_4_1_1_listener_1a34cacdf431e970d8c40cd433a50b5fc0" kindref="member">onBreak(int, long)</ref> method of each registred listener is invoked.</para><para><simplesect kind="author"><para>Luigi Troiano </para><simplesectsep/><para>Pierpaolo Lombardi </para><simplesectsep/><para>Giuseppe Pascale </para><simplesectsep/><para>Thierry Bodhuin</para></simplesect>
+<simplesect kind="version"><para>1.2</para></simplesect>
+<simplesect kind="since"><para>1.0</para></simplesect>
+<simplesect kind="see"><para>jenes.stage.AbstractStage </para></simplesect>
+</para>    </detaileddescription>
+    <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/BreakPoint.java" line="57" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/BreakPoint.java" bodystart="57" bodyend="65"/>
+    <listofallmembers>
+      <member refid="classjenes_1_1stage_1_1_break_point_3_01_t_01extends_01_chromosome_01_4_1_1_listener_1a34cacdf431e970d8c40cd433a50b5fc0" prot="public" virt="pure-virtual"><scope>jenes::stage::BreakPoint&lt; T extends Chromosome &gt;::Listener</scope><name>onBreak</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

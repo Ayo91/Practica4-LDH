@@ -1,0 +1,95 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="classjenes_1_1chromosome_1_1_chromosome_3_01_t_01extends_01_chromosome_01_4_1_1_util" kind="class" prot="public">
+    <compoundname>jenes::chromosome::Chromosome&lt; T extends Chromosome &gt;::Util</compoundname>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classjenes_1_1chromosome_1_1_chromosome_3_01_t_01extends_01_chromosome_01_4_1_1_util_1a0c295f1ee65108c934fbe03c1c7c849e" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>final double[]</type>
+        <definition>static final double [] jenes.chromosome.Chromosome&lt; T extends Chromosome &gt;.Util.getDifference</definition>
+        <argsstring>(Chromosome c0, Chromosome c1)</argsstring>
+        <name>getDifference</name>
+        <param>
+          <type>Chromosome</type>
+          <declname>c0</declname>
+        </param>
+        <param>
+          <type>Chromosome</type>
+          <declname>c1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Provides the gene-by-gene quantitative difference vector.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>c0</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- the first chromosome to compare </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>c1</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- the second chromosome to compare </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>the vector of gene-by-gene getDifference </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/chromosome/Chromosome.java" line="157" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/chromosome/Chromosome.java" bodystart="157" bodyend="159"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1chromosome_1_1_chromosome_3_01_t_01extends_01_chromosome_01_4_1_1_util_1aa9c40ae514b0f60b28f678ba7dc1d95c" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>final double[]</type>
+        <definition>static final double [] jenes.chromosome.Chromosome&lt; T extends Chromosome &gt;.Util.getDifference</definition>
+        <argsstring>(Chromosome c0, Chromosome c1, double[] dist)</argsstring>
+        <name>getDifference</name>
+        <param>
+          <type>Chromosome</type>
+          <declname>c0</declname>
+        </param>
+        <param>
+          <type>Chromosome</type>
+          <declname>c1</declname>
+        </param>
+        <param>
+          <type>double[]</type>
+          <declname>dist</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Provides the gene-by-gene quantitative difference vector. This version fills and returns the vecor provided externally in order to optimize the memory usage. If <computeroutput>dist</computeroutput> is <computeroutput>null</computeroutput> or not properly sized, then the vector is first created.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>c0</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- the first chromosome to compare </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>c1</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- the second chromosome to compare </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>the vector of gene-by-gene getDifference </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/chromosome/Chromosome.java" line="170" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/chromosome/Chromosome.java" bodystart="170" bodyend="186"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/chromosome/Chromosome.java" line="148" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/chromosome/Chromosome.java" bodystart="148" bodyend="187"/>
+    <listofallmembers>
+      <member refid="classjenes_1_1chromosome_1_1_chromosome_3_01_t_01extends_01_chromosome_01_4_1_1_util_1a0c295f1ee65108c934fbe03c1c7c849e" prot="public" virt="non-virtual"><scope>jenes::chromosome::Chromosome&lt; T extends Chromosome &gt;::Util</scope><name>getDifference</name></member>
+      <member refid="classjenes_1_1chromosome_1_1_chromosome_3_01_t_01extends_01_chromosome_01_4_1_1_util_1aa9c40ae514b0f60b28f678ba7dc1d95c" prot="public" virt="non-virtual"><scope>jenes::chromosome::Chromosome&lt; T extends Chromosome &gt;::Util</scope><name>getDifference</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

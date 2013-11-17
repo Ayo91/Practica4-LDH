@@ -1,0 +1,260 @@
+\hypertarget{classjenes_1_1statistics_1_1_statistics_logger}{\section{jenes.\-statistics.\-Statistics\-Logger Class Reference}
+\label{classjenes_1_1statistics_1_1_statistics_logger}\index{jenes.\-statistics.\-Statistics\-Logger@{jenes.\-statistics.\-Statistics\-Logger}}
+}
+\subsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+interface \hyperlink{interfacejenes_1_1statistics_1_1_statistics_logger_1_1_loggable}{Loggable}
+\item 
+class \hyperlink{classjenes_1_1statistics_1_1_statistics_logger_1_1_loggable_statistics}{Loggable\-Statistics}
+\end{DoxyCompactItemize}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classjenes_1_1statistics_1_1_statistics_logger_ad4bf879bdfb673a6f82f3536fd5557b8}{Statistics\-Logger} (\hyperlink{classjenes_1_1utils_1_1_abstract_logger}{Abstract\-Logger} \hyperlink{classjenes_1_1statistics_1_1_statistics_logger_a8b3fff50891ab6715773b1e71dbfe30d}{logger}, String...\-figures)
+\item 
+void \hyperlink{classjenes_1_1statistics_1_1_statistics_logger_a8f7fc89cbbd6c6aad447057cd3eb6dbe}{record} (\hyperlink{classjenes_1_1statistics_1_1_statistics_logger_1_1_loggable_statistics}{Loggable\-Statistics} statistics)
+\item 
+void \hyperlink{classjenes_1_1statistics_1_1_statistics_logger_a31acd1617a14ed32519fc5487b30fd25}{record} (String prefix, \hyperlink{classjenes_1_1statistics_1_1_statistics_logger_1_1_loggable_statistics}{Loggable\-Statistics} statistics)
+\item 
+void \hyperlink{classjenes_1_1statistics_1_1_statistics_logger_a1e68400e5e02df74005d654dd52a9b34}{record} (String prefix, \hyperlink{classjenes_1_1statistics_1_1_statistics_logger_1_1_loggable_statistics}{Loggable\-Statistics} statistics, boolean \hyperlink{classjenes_1_1statistics_1_1_statistics_logger_a35539d6c4f5664617185d68c6efdf66a}{log})
+\item 
+void \hyperlink{classjenes_1_1statistics_1_1_statistics_logger_ac9ee13346b299296f315ad6cf247fdcf}{add} (String prefix, String key, Object value)
+\item 
+\hyperlink{classjenes_1_1utils_1_1_abstract_logger}{Abstract\-Logger} \hyperlink{classjenes_1_1statistics_1_1_statistics_logger_abd8fdfad668108933aa315c415050d63}{get\-Logger} ()
+\item 
+void \hyperlink{classjenes_1_1statistics_1_1_statistics_logger_a35539d6c4f5664617185d68c6efdf66a}{log} ()
+\item 
+void \hyperlink{classjenes_1_1statistics_1_1_statistics_logger_a80cde2facc21c7398050e89131a7321e}{save} ()
+\item 
+void \hyperlink{classjenes_1_1statistics_1_1_statistics_logger_aae3d375349f86fcd9a7ce450bae3d046}{close} ()
+\end{DoxyCompactItemize}
+\subsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{classjenes_1_1statistics_1_1_statistics_logger_ac1b95fdfa1e20c87b66d6f36b78d9ed1}{finalize} ()
+\end{DoxyCompactItemize}
+\subsection*{Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+String\mbox{[}$\,$\mbox{]} \hyperlink{classjenes_1_1statistics_1_1_statistics_logger_a2644fe91ad8cbd906f080d29c357990e}{get\-Figures\-From\-Schema} (String prefix, String\mbox{[}$\,$\mbox{]} schema)
+\item 
+void \hyperlink{classjenes_1_1statistics_1_1_statistics_logger_aecd5866bd413f3f9260603c885de1985}{store} (String prefix, \hyperlink{classjenes_1_1statistics_1_1_statistics_logger_1_1_loggable_statistics}{Loggable\-Statistics} statistics, String f, String\mbox{[}$\,$\mbox{]} schema)
+\item 
+void \hyperlink{classjenes_1_1statistics_1_1_statistics_logger_ab6f709ff2b69c85882208d04beea40f7}{add} (Object value, String key, String\mbox{[}$\,$\mbox{]} schema)
+\end{DoxyCompactItemize}
+\subsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classjenes_1_1utils_1_1_abstract_logger}{Abstract\-Logger} \hyperlink{classjenes_1_1statistics_1_1_statistics_logger_a8b3fff50891ab6715773b1e71dbfe30d}{logger}
+\item 
+String\mbox{[}$\,$\mbox{]} \hyperlink{classjenes_1_1statistics_1_1_statistics_logger_a294b6a4c271f4cbc935792d99bd284b3}{figures}
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+This class provides an utility wrapper for logging the statistics.
+
+In order to log statistics, the class has to extend {\ttfamily \hyperlink{classjenes_1_1statistics_1_1_statistics_logger_1_1_loggable_statistics}{Loggable\-Statistics}{\ttfamily  in order to automatically retrieve figures. Figures are provided by methods returning {\ttfamily double} value figures and annotated as {\ttfamily {\ttfamily .}}}}
+
+{\ttfamily {\ttfamily {\ttfamily {\ttfamily For example\-: \begin{quotation}
+
+\begin{DoxyPre}
+class MyStatistics extends \hyperlink{classjenes_1_1statistics_1_1_statistics_logger_1_1_loggable_statistics}{LoggableStatistics} \{
+   ...
+   \&\#064;\hyperlink{interfacejenes_1_1statistics_1_1_statistics_logger_1_1_loggable}{Loggable}("SomeFigure")
+   double getSomeValue() \{ ... \}
+   ...
+   \&\#064;\hyperlink{interfacejenes_1_1statistics_1_1_statistics_logger_1_1_loggable}{Loggable}("SomeCount")
+   double getSomeCount() \{ ... \}
+   ...
+\}
+
+\end{DoxyPre}
+\end{quotation}
+Statistics are passed to the logger as specified at instantiation time.}}}}
+
+{\ttfamily {\ttfamily {\ttfamily {\ttfamily \begin{DoxyVersion}{Version}
+2.\-0 
+\end{DoxyVersion}
+\begin{DoxySince}{Since}
+1.\-3
+\end{DoxySince}
+\begin{DoxySeeAlso}{See Also}
+\hyperlink{classjenes_1_1statistics_1_1_statistics_logger_1_1_loggable_statistics}{Statistics\-Logger.\-Loggable\-Statistics} 
+\end{DoxySeeAlso}
+}}}}
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{classjenes_1_1statistics_1_1_statistics_logger_ad4bf879bdfb673a6f82f3536fd5557b8}{\index{jenes\-::statistics\-::\-Statistics\-Logger@{jenes\-::statistics\-::\-Statistics\-Logger}!Statistics\-Logger@{Statistics\-Logger}}
+\index{Statistics\-Logger@{Statistics\-Logger}!jenes::statistics::StatisticsLogger@{jenes\-::statistics\-::\-Statistics\-Logger}}
+\subsubsection[{Statistics\-Logger}]{\setlength{\rightskip}{0pt plus 5cm}jenes.\-statistics.\-Statistics\-Logger.\-Statistics\-Logger (
+\begin{DoxyParamCaption}
+\item[{{\bf Abstract\-Logger}}]{logger, }
+\item[{String...}]{figures}
+\end{DoxyParamCaption}
+)}}\label{classjenes_1_1statistics_1_1_statistics_logger_ad4bf879bdfb673a6f82f3536fd5557b8}
+Creastes a \hyperlink{classjenes_1_1statistics_1_1_statistics_logger}{Statistics\-Logger}. If figures is empty, no filter is applied and all statistics are able to be saved.
+
+
+\begin{DoxyParams}{Parameters}
+{\em logger} & -\/ the logger used to save the statistics \\
+\hline
+{\em figures} & -\/ the figures that we are interested to save \\
+\hline
+\end{DoxyParams}
+
+
+\subsection{Member Function Documentation}
+\hypertarget{classjenes_1_1statistics_1_1_statistics_logger_ac9ee13346b299296f315ad6cf247fdcf}{\index{jenes\-::statistics\-::\-Statistics\-Logger@{jenes\-::statistics\-::\-Statistics\-Logger}!add@{add}}
+\index{add@{add}!jenes::statistics::StatisticsLogger@{jenes\-::statistics\-::\-Statistics\-Logger}}
+\subsubsection[{add}]{\setlength{\rightskip}{0pt plus 5cm}void jenes.\-statistics.\-Statistics\-Logger.\-add (
+\begin{DoxyParamCaption}
+\item[{String}]{prefix, }
+\item[{String}]{key, }
+\item[{Object}]{value}
+\end{DoxyParamCaption}
+)}}\label{classjenes_1_1statistics_1_1_statistics_logger_ac9ee13346b299296f315ad6cf247fdcf}
+Add a value into the current record.
+
+
+\begin{DoxyParams}{Parameters}
+{\em prefix} & -\/ the prefix of statistics name \\
+\hline
+{\em key} & -\/ the statistics name \\
+\hline
+{\em value} & -\/ the statistics value \\
+\hline
+\end{DoxyParams}
+\hypertarget{classjenes_1_1statistics_1_1_statistics_logger_ab6f709ff2b69c85882208d04beea40f7}{\index{jenes\-::statistics\-::\-Statistics\-Logger@{jenes\-::statistics\-::\-Statistics\-Logger}!add@{add}}
+\index{add@{add}!jenes::statistics::StatisticsLogger@{jenes\-::statistics\-::\-Statistics\-Logger}}
+\subsubsection[{add}]{\setlength{\rightskip}{0pt plus 5cm}void jenes.\-statistics.\-Statistics\-Logger.\-add (
+\begin{DoxyParamCaption}
+\item[{Object}]{value, }
+\item[{String}]{key, }
+\item[{String\mbox{[}$\,$\mbox{]}}]{schema}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [private]}}}\label{classjenes_1_1statistics_1_1_statistics_logger_ab6f709ff2b69c85882208d04beea40f7}
+\hypertarget{classjenes_1_1statistics_1_1_statistics_logger_aae3d375349f86fcd9a7ce450bae3d046}{\index{jenes\-::statistics\-::\-Statistics\-Logger@{jenes\-::statistics\-::\-Statistics\-Logger}!close@{close}}
+\index{close@{close}!jenes::statistics::StatisticsLogger@{jenes\-::statistics\-::\-Statistics\-Logger}}
+\subsubsection[{close}]{\setlength{\rightskip}{0pt plus 5cm}void jenes.\-statistics.\-Statistics\-Logger.\-close (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classjenes_1_1statistics_1_1_statistics_logger_aae3d375349f86fcd9a7ce450bae3d046}
+Closes the undelying logger. \hypertarget{classjenes_1_1statistics_1_1_statistics_logger_ac1b95fdfa1e20c87b66d6f36b78d9ed1}{\index{jenes\-::statistics\-::\-Statistics\-Logger@{jenes\-::statistics\-::\-Statistics\-Logger}!finalize@{finalize}}
+\index{finalize@{finalize}!jenes::statistics::StatisticsLogger@{jenes\-::statistics\-::\-Statistics\-Logger}}
+\subsubsection[{finalize}]{\setlength{\rightskip}{0pt plus 5cm}void jenes.\-statistics.\-Statistics\-Logger.\-finalize (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [protected]}}}\label{classjenes_1_1statistics_1_1_statistics_logger_ac1b95fdfa1e20c87b66d6f36b78d9ed1}
+\hypertarget{classjenes_1_1statistics_1_1_statistics_logger_a2644fe91ad8cbd906f080d29c357990e}{\index{jenes\-::statistics\-::\-Statistics\-Logger@{jenes\-::statistics\-::\-Statistics\-Logger}!get\-Figures\-From\-Schema@{get\-Figures\-From\-Schema}}
+\index{get\-Figures\-From\-Schema@{get\-Figures\-From\-Schema}!jenes::statistics::StatisticsLogger@{jenes\-::statistics\-::\-Statistics\-Logger}}
+\subsubsection[{get\-Figures\-From\-Schema}]{\setlength{\rightskip}{0pt plus 5cm}String \mbox{[}$\,$\mbox{]} jenes.\-statistics.\-Statistics\-Logger.\-get\-Figures\-From\-Schema (
+\begin{DoxyParamCaption}
+\item[{String}]{prefix, }
+\item[{String\mbox{[}$\,$\mbox{]}}]{schema}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [private]}}}\label{classjenes_1_1statistics_1_1_statistics_logger_a2644fe91ad8cbd906f080d29c357990e}
+\hypertarget{classjenes_1_1statistics_1_1_statistics_logger_abd8fdfad668108933aa315c415050d63}{\index{jenes\-::statistics\-::\-Statistics\-Logger@{jenes\-::statistics\-::\-Statistics\-Logger}!get\-Logger@{get\-Logger}}
+\index{get\-Logger@{get\-Logger}!jenes::statistics::StatisticsLogger@{jenes\-::statistics\-::\-Statistics\-Logger}}
+\subsubsection[{get\-Logger}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Abstract\-Logger} jenes.\-statistics.\-Statistics\-Logger.\-get\-Logger (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classjenes_1_1statistics_1_1_statistics_logger_abd8fdfad668108933aa315c415050d63}
+Returns the logger used for storing the statistics.
+
+\begin{DoxyReturn}{Returns}
+the logger 
+\end{DoxyReturn}
+\hypertarget{classjenes_1_1statistics_1_1_statistics_logger_a35539d6c4f5664617185d68c6efdf66a}{\index{jenes\-::statistics\-::\-Statistics\-Logger@{jenes\-::statistics\-::\-Statistics\-Logger}!log@{log}}
+\index{log@{log}!jenes::statistics::StatisticsLogger@{jenes\-::statistics\-::\-Statistics\-Logger}}
+\subsubsection[{log}]{\setlength{\rightskip}{0pt plus 5cm}void jenes.\-statistics.\-Statistics\-Logger.\-log (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classjenes_1_1statistics_1_1_statistics_logger_a35539d6c4f5664617185d68c6efdf66a}
+Logs a current record by storing it and making the record empty \hypertarget{classjenes_1_1statistics_1_1_statistics_logger_a8f7fc89cbbd6c6aad447057cd3eb6dbe}{\index{jenes\-::statistics\-::\-Statistics\-Logger@{jenes\-::statistics\-::\-Statistics\-Logger}!record@{record}}
+\index{record@{record}!jenes::statistics::StatisticsLogger@{jenes\-::statistics\-::\-Statistics\-Logger}}
+\subsubsection[{record}]{\setlength{\rightskip}{0pt plus 5cm}void jenes.\-statistics.\-Statistics\-Logger.\-record (
+\begin{DoxyParamCaption}
+\item[{{\bf Loggable\-Statistics}}]{statistics}
+\end{DoxyParamCaption}
+)}}\label{classjenes_1_1statistics_1_1_statistics_logger_a8f7fc89cbbd6c6aad447057cd3eb6dbe}
+Store a new statistic record in the logger.
+
+
+\begin{DoxyParams}{Parameters}
+{\em statistics} & -\/ the statistics being logged. \\
+\hline
+\end{DoxyParams}
+\hypertarget{classjenes_1_1statistics_1_1_statistics_logger_a31acd1617a14ed32519fc5487b30fd25}{\index{jenes\-::statistics\-::\-Statistics\-Logger@{jenes\-::statistics\-::\-Statistics\-Logger}!record@{record}}
+\index{record@{record}!jenes::statistics::StatisticsLogger@{jenes\-::statistics\-::\-Statistics\-Logger}}
+\subsubsection[{record}]{\setlength{\rightskip}{0pt plus 5cm}void jenes.\-statistics.\-Statistics\-Logger.\-record (
+\begin{DoxyParamCaption}
+\item[{String}]{prefix, }
+\item[{{\bf Loggable\-Statistics}}]{statistics}
+\end{DoxyParamCaption}
+)}}\label{classjenes_1_1statistics_1_1_statistics_logger_a31acd1617a14ed32519fc5487b30fd25}
+Store a new statistic record in the logger.
+
+
+\begin{DoxyParams}{Parameters}
+{\em prefix} & -\/ the prefix of statistics name \\
+\hline
+{\em statistics} & -\/ the statistics being logged. \\
+\hline
+\end{DoxyParams}
+\hypertarget{classjenes_1_1statistics_1_1_statistics_logger_a1e68400e5e02df74005d654dd52a9b34}{\index{jenes\-::statistics\-::\-Statistics\-Logger@{jenes\-::statistics\-::\-Statistics\-Logger}!record@{record}}
+\index{record@{record}!jenes::statistics::StatisticsLogger@{jenes\-::statistics\-::\-Statistics\-Logger}}
+\subsubsection[{record}]{\setlength{\rightskip}{0pt plus 5cm}void jenes.\-statistics.\-Statistics\-Logger.\-record (
+\begin{DoxyParamCaption}
+\item[{String}]{prefix, }
+\item[{{\bf Loggable\-Statistics}}]{statistics, }
+\item[{boolean}]{log}
+\end{DoxyParamCaption}
+)}}\label{classjenes_1_1statistics_1_1_statistics_logger_a1e68400e5e02df74005d654dd52a9b34}
+Store a new statistic record in the logger.
+
+
+\begin{DoxyParams}{Parameters}
+{\em prefix} & -\/ the prefix of statistics name \\
+\hline
+{\em statistics} & -\/ the statistics being logged. \\
+\hline
+{\em log} & -\/ if {\ttfamily true$<$/ code$>$ logs a current record by storing it and making the record empty. }\\
+\hline
+\end{DoxyParams}
+\hypertarget{classjenes_1_1statistics_1_1_statistics_logger_a80cde2facc21c7398050e89131a7321e}{\index{jenes\-::statistics\-::\-Statistics\-Logger@{jenes\-::statistics\-::\-Statistics\-Logger}!save@{save}}
+\index{save@{save}!jenes::statistics::StatisticsLogger@{jenes\-::statistics\-::\-Statistics\-Logger}}
+\subsubsection[{save}]{\setlength{\rightskip}{0pt plus 5cm}void jenes.\-statistics.\-Statistics\-Logger.\-save (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classjenes_1_1statistics_1_1_statistics_logger_a80cde2facc21c7398050e89131a7321e}
+Saves the undelying logger. \hypertarget{classjenes_1_1statistics_1_1_statistics_logger_aecd5866bd413f3f9260603c885de1985}{\index{jenes\-::statistics\-::\-Statistics\-Logger@{jenes\-::statistics\-::\-Statistics\-Logger}!store@{store}}
+\index{store@{store}!jenes::statistics::StatisticsLogger@{jenes\-::statistics\-::\-Statistics\-Logger}}
+\subsubsection[{store}]{\setlength{\rightskip}{0pt plus 5cm}void jenes.\-statistics.\-Statistics\-Logger.\-store (
+\begin{DoxyParamCaption}
+\item[{String}]{prefix, }
+\item[{{\bf Loggable\-Statistics}}]{statistics, }
+\item[{String}]{f, }
+\item[{String\mbox{[}$\,$\mbox{]}}]{schema}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [private]}}}\label{classjenes_1_1statistics_1_1_statistics_logger_aecd5866bd413f3f9260603c885de1985}
+
+
+\subsection{Member Data Documentation}
+\hypertarget{classjenes_1_1statistics_1_1_statistics_logger_a294b6a4c271f4cbc935792d99bd284b3}{\index{jenes\-::statistics\-::\-Statistics\-Logger@{jenes\-::statistics\-::\-Statistics\-Logger}!figures@{figures}}
+\index{figures@{figures}!jenes::statistics::StatisticsLogger@{jenes\-::statistics\-::\-Statistics\-Logger}}
+\subsubsection[{figures}]{\setlength{\rightskip}{0pt plus 5cm}String \mbox{[}$\,$\mbox{]} jenes.\-statistics.\-Statistics\-Logger.\-figures\hspace{0.3cm}{\ttfamily [private]}}}\label{classjenes_1_1statistics_1_1_statistics_logger_a294b6a4c271f4cbc935792d99bd284b3}
+The figures we are interested to save. If null, means all figures \hypertarget{classjenes_1_1statistics_1_1_statistics_logger_a8b3fff50891ab6715773b1e71dbfe30d}{\index{jenes\-::statistics\-::\-Statistics\-Logger@{jenes\-::statistics\-::\-Statistics\-Logger}!logger@{logger}}
+\index{logger@{logger}!jenes::statistics::StatisticsLogger@{jenes\-::statistics\-::\-Statistics\-Logger}}
+\subsubsection[{logger}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Abstract\-Logger} jenes.\-statistics.\-Statistics\-Logger.\-logger\hspace{0.3cm}{\ttfamily [private]}}}\label{classjenes_1_1statistics_1_1_statistics_logger_a8b3fff50891ab6715773b1e71dbfe30d}
+The logger used for saving the statistics 
+
+The documentation for this class was generated from the following file\-:\begin{DoxyCompactItemize}
+\item 
+src/jenes/statistics/\hyperlink{_statistics_logger_8java}{Statistics\-Logger.\-java}\end{DoxyCompactItemize}

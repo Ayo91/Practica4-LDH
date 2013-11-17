@@ -1,0 +1,216 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="classjenes_1_1_jenes_exception" kind="class" prot="public">
+    <compoundname>jenes::JenesException</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">RuntimeException</basecompoundref>
+    <innerclass refid="enumjenes_1_1_jenes_exception_1_1_context" prot="public">jenes::JenesException::Context</innerclass>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classjenes_1_1_jenes_exception_1aa082145f9f5ec052a640e6b2c43fdf71" prot="private" static="no" mutable="no">
+        <type>Object</type>
+        <definition>Object jenes.JenesException.source</definition>
+        <argsstring></argsstring>
+        <name>source</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/JenesException.java" line="32" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/JenesException.java" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classjenes_1_1_jenes_exception_1a0ed4376ac804c15c7b6b69f4ba5db061" prot="private" static="no" mutable="no">
+        <type><ref refid="enumjenes_1_1_jenes_exception_1_1_context" kindref="compound">Context</ref></type>
+        <definition>Context jenes.JenesException.context</definition>
+        <argsstring></argsstring>
+        <name>context</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/JenesException.java" line="33" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/JenesException.java" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classjenes_1_1_jenes_exception_1aff1de32172bcad9e5c5d547f6ba14176" prot="private" static="no" mutable="no">
+        <type>String</type>
+        <definition>String jenes.JenesException.description</definition>
+        <argsstring></argsstring>
+        <name>description</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/JenesException.java" line="34" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/JenesException.java" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classjenes_1_1_jenes_exception_1aed895f6a8b793ec64394b3ed9f8a01e3" prot="private" static="no" mutable="no">
+        <type>boolean</type>
+        <definition>boolean jenes.JenesException.fatal</definition>
+        <argsstring></argsstring>
+        <name>fatal</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/JenesException.java" line="35" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/JenesException.java" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classjenes_1_1_jenes_exception_1a0896ada42c15de11ae090d00f60712e6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>jenes.JenesException.JenesException</definition>
+        <argsstring>(Object source, Context context, String desc)</argsstring>
+        <name>JenesException</name>
+        <param>
+          <type>Object</type>
+          <declname>source</declname>
+        </param>
+        <param>
+          <type><ref refid="enumjenes_1_1_jenes_exception_1_1_context" kindref="compound">Context</ref></type>
+          <declname>context</declname>
+        </param>
+        <param>
+          <type>String</type>
+          <declname>desc</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/JenesException.java" line="37" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/JenesException.java" bodystart="37" bodyend="39"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1_jenes_exception_1ab12d2e209aa3cfe14f08b4732271d9d9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>jenes.JenesException.JenesException</definition>
+        <argsstring>(Object source, Context context, String desc, boolean fatal)</argsstring>
+        <name>JenesException</name>
+        <param>
+          <type>Object</type>
+          <declname>source</declname>
+        </param>
+        <param>
+          <type><ref refid="enumjenes_1_1_jenes_exception_1_1_context" kindref="compound">Context</ref></type>
+          <declname>context</declname>
+        </param>
+        <param>
+          <type>String</type>
+          <declname>desc</declname>
+        </param>
+        <param>
+          <type>boolean</type>
+          <declname>fatal</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/JenesException.java" line="41" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/JenesException.java" bodystart="41" bodyend="47"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1_jenes_exception_1a1dc5c4b0404aeab984604002fad7dbfb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Object</type>
+        <definition>Object jenes.JenesException.getSource</definition>
+        <argsstring>()</argsstring>
+        <name>getSource</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/JenesException.java" line="49" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/JenesException.java" bodystart="49" bodyend="51"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1_jenes_exception_1a9a47a0e830dda47c1f9841461fb29726" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="enumjenes_1_1_jenes_exception_1_1_context" kindref="compound">Context</ref></type>
+        <definition>Context jenes.JenesException.getContext</definition>
+        <argsstring>()</argsstring>
+        <name>getContext</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/JenesException.java" line="53" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/JenesException.java" bodystart="53" bodyend="55"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1_jenes_exception_1a0d37f5de0bddb6c1a3014816f217281c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String jenes.JenesException.getDescription</definition>
+        <argsstring>()</argsstring>
+        <name>getDescription</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/JenesException.java" line="57" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/JenesException.java" bodystart="57" bodyend="59"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1_jenes_exception_1a4d673283c5e13dd3b95e73cf780e9419" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>boolean</type>
+        <definition>boolean jenes.JenesException.isFatal</definition>
+        <argsstring>()</argsstring>
+        <name>isFatal</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/JenesException.java" line="61" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/JenesException.java" bodystart="61" bodyend="63"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>The default exception used in Jenes </para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="301">
+        <label>jenes.JenesException</label>
+        <link refid="classjenes_1_1_jenes_exception"/>
+        <childnode refid="302" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="302">
+        <label>RuntimeException</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="303">
+        <label>jenes.JenesException</label>
+        <link refid="classjenes_1_1_jenes_exception"/>
+        <childnode refid="304" relation="public-inheritance">
+        </childnode>
+        <childnode refid="305" relation="usage">
+          <edgelabel>context</edgelabel>
+        </childnode>
+      </node>
+      <node id="305">
+        <label>jenes.JenesException.Context</label>
+        <link refid="enumjenes_1_1_jenes_exception_1_1_context"/>
+      </node>
+      <node id="304">
+        <label>RuntimeException</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/JenesException.java" line="24" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/JenesException.java" bodystart="24" bodyend="65"/>
+    <listofallmembers>
+      <member refid="classjenes_1_1_jenes_exception_1a0ed4376ac804c15c7b6b69f4ba5db061" prot="private" virt="non-virtual"><scope>jenes::JenesException</scope><name>context</name></member>
+      <member refid="classjenes_1_1_jenes_exception_1aff1de32172bcad9e5c5d547f6ba14176" prot="private" virt="non-virtual"><scope>jenes::JenesException</scope><name>description</name></member>
+      <member refid="classjenes_1_1_jenes_exception_1aed895f6a8b793ec64394b3ed9f8a01e3" prot="private" virt="non-virtual"><scope>jenes::JenesException</scope><name>fatal</name></member>
+      <member refid="classjenes_1_1_jenes_exception_1a9a47a0e830dda47c1f9841461fb29726" prot="public" virt="non-virtual"><scope>jenes::JenesException</scope><name>getContext</name></member>
+      <member refid="classjenes_1_1_jenes_exception_1a0d37f5de0bddb6c1a3014816f217281c" prot="public" virt="non-virtual"><scope>jenes::JenesException</scope><name>getDescription</name></member>
+      <member refid="classjenes_1_1_jenes_exception_1a1dc5c4b0404aeab984604002fad7dbfb" prot="public" virt="non-virtual"><scope>jenes::JenesException</scope><name>getSource</name></member>
+      <member refid="classjenes_1_1_jenes_exception_1a4d673283c5e13dd3b95e73cf780e9419" prot="public" virt="non-virtual"><scope>jenes::JenesException</scope><name>isFatal</name></member>
+      <member refid="classjenes_1_1_jenes_exception_1a0896ada42c15de11ae090d00f60712e6" prot="public" virt="non-virtual"><scope>jenes::JenesException</scope><name>JenesException</name></member>
+      <member refid="classjenes_1_1_jenes_exception_1ab12d2e209aa3cfe14f08b4732271d9d9" prot="public" virt="non-virtual"><scope>jenes::JenesException</scope><name>JenesException</name></member>
+      <member refid="classjenes_1_1_jenes_exception_1aa082145f9f5ec052a640e6b2c43fdf71" prot="private" virt="non-virtual"><scope>jenes::JenesException</scope><name>source</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

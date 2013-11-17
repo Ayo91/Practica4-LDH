@@ -1,0 +1,120 @@
+\hypertarget{classjenes_1_1performance_1_1_royal_g_a}{\section{jenes.\-performance.\-Royal\-G\-A Class Reference}
+\label{classjenes_1_1performance_1_1_royal_g_a}\index{jenes.\-performance.\-Royal\-G\-A@{jenes.\-performance.\-Royal\-G\-A}}
+}
+Inheritance diagram for jenes.\-performance.\-Royal\-G\-A\-:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{classjenes_1_1performance_1_1_royal_g_a}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classjenes_1_1performance_1_1_royal_g_a_a6e77c8bfb3b7851b2e78dc907038d557}{Royal\-G\-A} (Population$<$ \hyperlink{classjenes_1_1chromosome_1_1_bitwise_chromosome}{Bitwise\-Chromosome} $>$ pop, int gen, int section\-Size, int block\-Size, int num\-Blocks)
+\item 
+void \hyperlink{classjenes_1_1performance_1_1_royal_g_a_ad135a4f53db8dcf6972681a8a1ab6f43}{evaluate\-Individual} (Individual$<$ \hyperlink{classjenes_1_1chromosome_1_1_bitwise_chromosome}{Bitwise\-Chromosome} $>$ individual)
+\end{DoxyCompactItemize}
+\subsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static void \hyperlink{classjenes_1_1performance_1_1_royal_g_a_a594d9cdab2d9779ea59a67bf67c47e7d}{main} (String\mbox{[}$\,$\mbox{]} args)
+\end{DoxyCompactItemize}
+\subsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+int \hyperlink{classjenes_1_1performance_1_1_royal_g_a_a3629231ca7912752ec359a34cb7b7c96}{N\-B\-L\-O\-C\-K\-S}
+\item 
+int \hyperlink{classjenes_1_1performance_1_1_royal_g_a_af34925b69833f3992b493edcf88332d0}{B\-L\-O\-C\-K\-S\-I\-Z\-E}
+\item 
+int \hyperlink{classjenes_1_1performance_1_1_royal_g_a_ac85d8ac758a78377f8307498a81667de}{B\-L\-O\-C\-K\-\_\-\-D\-E\-L\-T\-A}
+\item 
+int \hyperlink{classjenes_1_1performance_1_1_royal_g_a_a96a4ea92258f5359c683117bca66789b}{B\-L\-O\-C\-K\-\_\-\-T\-H\-R\-E\-S\-H\-O\-L\-D} = 4
+\item 
+double \hyperlink{classjenes_1_1performance_1_1_royal_g_a_a82df988f7c1f75c23da6f68f84e43e6f}{F\-I\-R\-S\-T\-\_\-\-B\-O\-N\-U\-S} = 1.\-0
+\item 
+double \hyperlink{classjenes_1_1performance_1_1_royal_g_a_a7408c7557c862b63264661fa7cf3e2a9}{F\-O\-L\-L\-O\-W\-I\-N\-G\-\_\-\-B\-O\-N\-U\-S} = 0.\-3
+\item 
+double \hyperlink{classjenes_1_1performance_1_1_royal_g_a_aef4b54dc14d35e6f66a15a1451f54b82}{P\-A\-R\-T\-\_\-\-C\-A\-L\-C\-U\-L\-A\-T\-I\-O\-N\-\_\-\-S\-T\-E\-P} = 0.\-02
+\item 
+int\mbox{[}$\,$\mbox{]} \hyperlink{classjenes_1_1performance_1_1_royal_g_a_a0e885c05d1d76c251fe4fa94de96d188}{block\-\_\-array}
+\end{DoxyCompactItemize}
+
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{classjenes_1_1performance_1_1_royal_g_a_a6e77c8bfb3b7851b2e78dc907038d557}{\index{jenes\-::performance\-::\-Royal\-G\-A@{jenes\-::performance\-::\-Royal\-G\-A}!Royal\-G\-A@{Royal\-G\-A}}
+\index{Royal\-G\-A@{Royal\-G\-A}!jenes::performance::RoyalGA@{jenes\-::performance\-::\-Royal\-G\-A}}
+\subsubsection[{Royal\-G\-A}]{\setlength{\rightskip}{0pt plus 5cm}jenes.\-performance.\-Royal\-G\-A.\-Royal\-G\-A (
+\begin{DoxyParamCaption}
+\item[{Population$<$ {\bf Bitwise\-Chromosome} $>$}]{pop, }
+\item[{int}]{gen, }
+\item[{int}]{section\-Size, }
+\item[{int}]{block\-Size, }
+\item[{int}]{num\-Blocks}
+\end{DoxyParamCaption}
+)}}\label{classjenes_1_1performance_1_1_royal_g_a_a6e77c8bfb3b7851b2e78dc907038d557}
+
+\begin{DoxyParams}{Parameters}
+{\em pop} & \\
+\hline
+{\em gen} & \\
+\hline
+{\em section\-Size} & the length of each section \\
+\hline
+{\em block\-Size} & the length of each block (each of them is contained by a section) \\
+\hline
+{\em num\-Blocks} & the number of blocks \\
+\hline
+\end{DoxyParams}
+
+
+\subsection{Member Function Documentation}
+\hypertarget{classjenes_1_1performance_1_1_royal_g_a_ad135a4f53db8dcf6972681a8a1ab6f43}{\index{jenes\-::performance\-::\-Royal\-G\-A@{jenes\-::performance\-::\-Royal\-G\-A}!evaluate\-Individual@{evaluate\-Individual}}
+\index{evaluate\-Individual@{evaluate\-Individual}!jenes::performance::RoyalGA@{jenes\-::performance\-::\-Royal\-G\-A}}
+\subsubsection[{evaluate\-Individual}]{\setlength{\rightskip}{0pt plus 5cm}void jenes.\-performance.\-Royal\-G\-A.\-evaluate\-Individual (
+\begin{DoxyParamCaption}
+\item[{Individual$<$ {\bf Bitwise\-Chromosome} $>$}]{individual}
+\end{DoxyParamCaption}
+)}}\label{classjenes_1_1performance_1_1_royal_g_a_ad135a4f53db8dcf6972681a8a1ab6f43}
+part calculation and first level bonus block
+
+higher level bonus blocks \hypertarget{classjenes_1_1performance_1_1_royal_g_a_a594d9cdab2d9779ea59a67bf67c47e7d}{\index{jenes\-::performance\-::\-Royal\-G\-A@{jenes\-::performance\-::\-Royal\-G\-A}!main@{main}}
+\index{main@{main}!jenes::performance::RoyalGA@{jenes\-::performance\-::\-Royal\-G\-A}}
+\subsubsection[{main}]{\setlength{\rightskip}{0pt plus 5cm}static void jenes.\-performance.\-Royal\-G\-A.\-main (
+\begin{DoxyParamCaption}
+\item[{String\mbox{[}$\,$\mbox{]}}]{args}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}}\label{classjenes_1_1performance_1_1_royal_g_a_a594d9cdab2d9779ea59a67bf67c47e7d}
+
+
+\subsection{Member Data Documentation}
+\hypertarget{classjenes_1_1performance_1_1_royal_g_a_a0e885c05d1d76c251fe4fa94de96d188}{\index{jenes\-::performance\-::\-Royal\-G\-A@{jenes\-::performance\-::\-Royal\-G\-A}!block\-\_\-array@{block\-\_\-array}}
+\index{block\-\_\-array@{block\-\_\-array}!jenes::performance::RoyalGA@{jenes\-::performance\-::\-Royal\-G\-A}}
+\subsubsection[{block\-\_\-array}]{\setlength{\rightskip}{0pt plus 5cm}int \mbox{[}$\,$\mbox{]} jenes.\-performance.\-Royal\-G\-A.\-block\-\_\-array\hspace{0.3cm}{\ttfamily [private]}}}\label{classjenes_1_1performance_1_1_royal_g_a_a0e885c05d1d76c251fe4fa94de96d188}
+\hypertarget{classjenes_1_1performance_1_1_royal_g_a_ac85d8ac758a78377f8307498a81667de}{\index{jenes\-::performance\-::\-Royal\-G\-A@{jenes\-::performance\-::\-Royal\-G\-A}!B\-L\-O\-C\-K\-\_\-\-D\-E\-L\-T\-A@{B\-L\-O\-C\-K\-\_\-\-D\-E\-L\-T\-A}}
+\index{B\-L\-O\-C\-K\-\_\-\-D\-E\-L\-T\-A@{B\-L\-O\-C\-K\-\_\-\-D\-E\-L\-T\-A}!jenes::performance::RoyalGA@{jenes\-::performance\-::\-Royal\-G\-A}}
+\subsubsection[{B\-L\-O\-C\-K\-\_\-\-D\-E\-L\-T\-A}]{\setlength{\rightskip}{0pt plus 5cm}int jenes.\-performance.\-Royal\-G\-A.\-B\-L\-O\-C\-K\-\_\-\-D\-E\-L\-T\-A\hspace{0.3cm}{\ttfamily [private]}}}\label{classjenes_1_1performance_1_1_royal_g_a_ac85d8ac758a78377f8307498a81667de}
+Offset between the start of two blocks. 
+
+Equals (B\-L\-O\-C\-K\-\_\-\-S\-I\-Z\-E + G\-A\-P\-S\-I\-Z\-E) \hypertarget{classjenes_1_1performance_1_1_royal_g_a_a96a4ea92258f5359c683117bca66789b}{\index{jenes\-::performance\-::\-Royal\-G\-A@{jenes\-::performance\-::\-Royal\-G\-A}!B\-L\-O\-C\-K\-\_\-\-T\-H\-R\-E\-S\-H\-O\-L\-D@{B\-L\-O\-C\-K\-\_\-\-T\-H\-R\-E\-S\-H\-O\-L\-D}}
+\index{B\-L\-O\-C\-K\-\_\-\-T\-H\-R\-E\-S\-H\-O\-L\-D@{B\-L\-O\-C\-K\-\_\-\-T\-H\-R\-E\-S\-H\-O\-L\-D}!jenes::performance::RoyalGA@{jenes\-::performance\-::\-Royal\-G\-A}}
+\subsubsection[{B\-L\-O\-C\-K\-\_\-\-T\-H\-R\-E\-S\-H\-O\-L\-D}]{\setlength{\rightskip}{0pt plus 5cm}int jenes.\-performance.\-Royal\-G\-A.\-B\-L\-O\-C\-K\-\_\-\-T\-H\-R\-E\-S\-H\-O\-L\-D = 4\hspace{0.3cm}{\ttfamily [private]}}}\label{classjenes_1_1performance_1_1_royal_g_a_a96a4ea92258f5359c683117bca66789b}
+Holland's m$\ast$, up to this many bits in low level block gets reward \hypertarget{classjenes_1_1performance_1_1_royal_g_a_af34925b69833f3992b493edcf88332d0}{\index{jenes\-::performance\-::\-Royal\-G\-A@{jenes\-::performance\-::\-Royal\-G\-A}!B\-L\-O\-C\-K\-S\-I\-Z\-E@{B\-L\-O\-C\-K\-S\-I\-Z\-E}}
+\index{B\-L\-O\-C\-K\-S\-I\-Z\-E@{B\-L\-O\-C\-K\-S\-I\-Z\-E}!jenes::performance::RoyalGA@{jenes\-::performance\-::\-Royal\-G\-A}}
+\subsubsection[{B\-L\-O\-C\-K\-S\-I\-Z\-E}]{\setlength{\rightskip}{0pt plus 5cm}int jenes.\-performance.\-Royal\-G\-A.\-B\-L\-O\-C\-K\-S\-I\-Z\-E\hspace{0.3cm}{\ttfamily [private]}}}\label{classjenes_1_1performance_1_1_royal_g_a_af34925b69833f3992b493edcf88332d0}
+Block size, i.\-e, length of target schemata. \hypertarget{classjenes_1_1performance_1_1_royal_g_a_a82df988f7c1f75c23da6f68f84e43e6f}{\index{jenes\-::performance\-::\-Royal\-G\-A@{jenes\-::performance\-::\-Royal\-G\-A}!F\-I\-R\-S\-T\-\_\-\-B\-O\-N\-U\-S@{F\-I\-R\-S\-T\-\_\-\-B\-O\-N\-U\-S}}
+\index{F\-I\-R\-S\-T\-\_\-\-B\-O\-N\-U\-S@{F\-I\-R\-S\-T\-\_\-\-B\-O\-N\-U\-S}!jenes::performance::RoyalGA@{jenes\-::performance\-::\-Royal\-G\-A}}
+\subsubsection[{F\-I\-R\-S\-T\-\_\-\-B\-O\-N\-U\-S}]{\setlength{\rightskip}{0pt plus 5cm}double jenes.\-performance.\-Royal\-G\-A.\-F\-I\-R\-S\-T\-\_\-\-B\-O\-N\-U\-S = 1.\-0\hspace{0.3cm}{\ttfamily [private]}}}\label{classjenes_1_1performance_1_1_royal_g_a_a82df988f7c1f75c23da6f68f84e43e6f}
+Holland's U$\ast$ reward parameter (first block earns this) \hypertarget{classjenes_1_1performance_1_1_royal_g_a_a7408c7557c862b63264661fa7cf3e2a9}{\index{jenes\-::performance\-::\-Royal\-G\-A@{jenes\-::performance\-::\-Royal\-G\-A}!F\-O\-L\-L\-O\-W\-I\-N\-G\-\_\-\-B\-O\-N\-U\-S@{F\-O\-L\-L\-O\-W\-I\-N\-G\-\_\-\-B\-O\-N\-U\-S}}
+\index{F\-O\-L\-L\-O\-W\-I\-N\-G\-\_\-\-B\-O\-N\-U\-S@{F\-O\-L\-L\-O\-W\-I\-N\-G\-\_\-\-B\-O\-N\-U\-S}!jenes::performance::RoyalGA@{jenes\-::performance\-::\-Royal\-G\-A}}
+\subsubsection[{F\-O\-L\-L\-O\-W\-I\-N\-G\-\_\-\-B\-O\-N\-U\-S}]{\setlength{\rightskip}{0pt plus 5cm}double jenes.\-performance.\-Royal\-G\-A.\-F\-O\-L\-L\-O\-W\-I\-N\-G\-\_\-\-B\-O\-N\-U\-S = 0.\-3\hspace{0.3cm}{\ttfamily [private]}}}\label{classjenes_1_1performance_1_1_royal_g_a_a7408c7557c862b63264661fa7cf3e2a9}
+Holland's u increment for lowest level match \hypertarget{classjenes_1_1performance_1_1_royal_g_a_a3629231ca7912752ec359a34cb7b7c96}{\index{jenes\-::performance\-::\-Royal\-G\-A@{jenes\-::performance\-::\-Royal\-G\-A}!N\-B\-L\-O\-C\-K\-S@{N\-B\-L\-O\-C\-K\-S}}
+\index{N\-B\-L\-O\-C\-K\-S@{N\-B\-L\-O\-C\-K\-S}!jenes::performance::RoyalGA@{jenes\-::performance\-::\-Royal\-G\-A}}
+\subsubsection[{N\-B\-L\-O\-C\-K\-S}]{\setlength{\rightskip}{0pt plus 5cm}int jenes.\-performance.\-Royal\-G\-A.\-N\-B\-L\-O\-C\-K\-S\hspace{0.3cm}{\ttfamily [private]}}}\label{classjenes_1_1performance_1_1_royal_g_a_a3629231ca7912752ec359a34cb7b7c96}
+Number of blocks \hypertarget{classjenes_1_1performance_1_1_royal_g_a_aef4b54dc14d35e6f66a15a1451f54b82}{\index{jenes\-::performance\-::\-Royal\-G\-A@{jenes\-::performance\-::\-Royal\-G\-A}!P\-A\-R\-T\-\_\-\-C\-A\-L\-C\-U\-L\-A\-T\-I\-O\-N\-\_\-\-S\-T\-E\-P@{P\-A\-R\-T\-\_\-\-C\-A\-L\-C\-U\-L\-A\-T\-I\-O\-N\-\_\-\-S\-T\-E\-P}}
+\index{P\-A\-R\-T\-\_\-\-C\-A\-L\-C\-U\-L\-A\-T\-I\-O\-N\-\_\-\-S\-T\-E\-P@{P\-A\-R\-T\-\_\-\-C\-A\-L\-C\-U\-L\-A\-T\-I\-O\-N\-\_\-\-S\-T\-E\-P}!jenes::performance::RoyalGA@{jenes\-::performance\-::\-Royal\-G\-A}}
+\subsubsection[{P\-A\-R\-T\-\_\-\-C\-A\-L\-C\-U\-L\-A\-T\-I\-O\-N\-\_\-\-S\-T\-E\-P}]{\setlength{\rightskip}{0pt plus 5cm}double jenes.\-performance.\-Royal\-G\-A.\-P\-A\-R\-T\-\_\-\-C\-A\-L\-C\-U\-L\-A\-T\-I\-O\-N\-\_\-\-S\-T\-E\-P = 0.\-02\hspace{0.3cm}{\ttfamily [private]}}}\label{classjenes_1_1performance_1_1_royal_g_a_aef4b54dc14d35e6f66a15a1451f54b82}
+Holland's v reward/penalty per bit 
+
+The documentation for this class was generated from the following file\-:\begin{DoxyCompactItemize}
+\item 
+src/jenes/performance/\hyperlink{_royal_g_a_8java}{Royal\-G\-A.\-java}\end{DoxyCompactItemize}

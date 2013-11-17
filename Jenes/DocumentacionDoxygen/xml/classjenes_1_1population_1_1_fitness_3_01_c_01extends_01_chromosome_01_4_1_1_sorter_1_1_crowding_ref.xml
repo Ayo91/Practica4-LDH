@@ -1,0 +1,69 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="classjenes_1_1population_1_1_fitness_3_01_c_01extends_01_chromosome_01_4_1_1_sorter_1_1_crowding_ref" kind="class" prot="private">
+    <compoundname>jenes::population::Fitness&lt; C extends Chromosome &gt;::Sorter::CrowdingRef</compoundname>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classjenes_1_1population_1_1_fitness_3_01_c_01extends_01_chromosome_01_4_1_1_sorter_1_1_crowding_ref_1af8a2da66d7ba48d280c26d5c38b9ef14" prot="private" static="no" mutable="no">
+        <type>Individual&lt;?extends Chromosome &gt;</type>
+        <definition>Individual&lt;? extends Chromosome&gt; jenes.population.Fitness&lt; C extends Chromosome &gt;.Sorter.CrowdingRef.ref</definition>
+        <argsstring></argsstring>
+        <name>ref</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Individual </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/population/Fitness.java" line="436" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/population/Fitness.java" bodystart="436" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classjenes_1_1population_1_1_fitness_3_01_c_01extends_01_chromosome_01_4_1_1_sorter_1_1_crowding_ref_1a68db3ef034534402446f55b2e3ea1652" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int jenes.population.Fitness&lt; C extends Chromosome &gt;.Sorter.CrowdingRef.front</definition>
+        <argsstring></argsstring>
+        <name>front</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Front assigned to the individual </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/population/Fitness.java" line="438" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/population/Fitness.java" bodystart="438" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classjenes_1_1population_1_1_fitness_3_01_c_01extends_01_chromosome_01_4_1_1_sorter_1_1_crowding_ref_1a4c5448dda1bbda6d3f620512fc9bd3e2" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double jenes.population.Fitness&lt; C extends Chromosome &gt;.Sorter.CrowdingRef.distance</definition>
+        <argsstring></argsstring>
+        <name>distance</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Crowding distance </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/population/Fitness.java" line="440" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/population/Fitness.java" bodystart="440" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Elements used by CROWDING mode. </para>    </detaileddescription>
+    <collaborationgraph>
+      <node id="96">
+        <label>jenes.population.Fitness&lt; C extends Chromosome &gt;.Sorter.CrowdingRef</label>
+        <link refid="classjenes_1_1population_1_1_fitness_3_01_c_01extends_01_chromosome_01_4_1_1_sorter_1_1_crowding_ref"/>
+        <childnode refid="97" relation="usage">
+          <edgelabel>ref</edgelabel>
+        </childnode>
+      </node>
+      <node id="97">
+        <label>Individual&lt;?extends Chromosome &gt;</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/population/Fitness.java" line="433" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/population/Fitness.java" bodystart="433" bodyend="441"/>
+    <listofallmembers>
+      <member refid="classjenes_1_1population_1_1_fitness_3_01_c_01extends_01_chromosome_01_4_1_1_sorter_1_1_crowding_ref_1a4c5448dda1bbda6d3f620512fc9bd3e2" prot="private" virt="non-virtual"><scope>jenes::population::Fitness&lt; C extends Chromosome &gt;::Sorter::CrowdingRef</scope><name>distance</name></member>
+      <member refid="classjenes_1_1population_1_1_fitness_3_01_c_01extends_01_chromosome_01_4_1_1_sorter_1_1_crowding_ref_1a68db3ef034534402446f55b2e3ea1652" prot="private" virt="non-virtual"><scope>jenes::population::Fitness&lt; C extends Chromosome &gt;::Sorter::CrowdingRef</scope><name>front</name></member>
+      <member refid="classjenes_1_1population_1_1_fitness_3_01_c_01extends_01_chromosome_01_4_1_1_sorter_1_1_crowding_ref_1af8a2da66d7ba48d280c26d5c38b9ef14" prot="private" virt="non-virtual"><scope>jenes::population::Fitness&lt; C extends Chromosome &gt;::Sorter::CrowdingRef</scope><name>ref</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

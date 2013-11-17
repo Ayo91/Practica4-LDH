@@ -1,0 +1,1344 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="classjenes_1_1algorithms_1_1_island_g_a_3_01_t_01extends_01_chromosome_01_4" kind="class" prot="public">
+    <compoundname>jenes::algorithms::IslandGA&lt; T extends Chromosome &gt;</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">jenes::GeneticAlgorithm&lt; T &gt;</basecompoundref>
+    <innerclass refid="classjenes_1_1algorithms_1_1_island_g_a_3_01_t_01extends_01_chromosome_01_4_1_1_graph" prot="public">jenes::algorithms::IslandGA&lt; T extends Chromosome &gt;::Graph</innerclass>
+    <innerclass refid="enumjenes_1_1algorithms_1_1_island_g_a_3_01_t_01extends_01_chromosome_01_4_1_1_replacement_strategy" prot="public">jenes::algorithms::IslandGA&lt; T extends Chromosome &gt;::ReplacementStrategy</innerclass>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classjenes_1_1algorithms_1_1_island_g_a_3_01_t_01extends_01_chromosome_01_4_1a02fc5f134e4e02b3a29afc3bce1ab46f" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int jenes.algorithms.IslandGA&lt; T extends Chromosome &gt;.niches</definition>
+        <argsstring></argsstring>
+        <name>niches</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The number of available niches. Each niche evolve a species on one iland </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/algorithms/IslandGA.java" line="42" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/algorithms/IslandGA.java" bodystart="42" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classjenes_1_1algorithms_1_1_island_g_a_3_01_t_01extends_01_chromosome_01_4_1a9bba629926d756819b7725f170b76fd4" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int jenes.algorithms.IslandGA&lt; T extends Chromosome &gt;.migration</definition>
+        <argsstring></argsstring>
+        <name>migration</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>How many individuals have to migrate between islands at each generation </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/algorithms/IslandGA.java" line="46" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/algorithms/IslandGA.java" bodystart="46" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classjenes_1_1algorithms_1_1_island_g_a_3_01_t_01extends_01_chromosome_01_4_1aa12c57824b7d6a8e875a75c07d9ad774" prot="private" static="no" mutable="no">
+        <type>Graph</type>
+        <definition>Graph jenes.algorithms.IslandGA&lt; T extends Chromosome &gt;.geography</definition>
+        <argsstring></argsstring>
+        <name>geography</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Represent the paths between islands </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/algorithms/IslandGA.java" line="50" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/algorithms/IslandGA.java" bodystart="50" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classjenes_1_1algorithms_1_1_island_g_a_3_01_t_01extends_01_chromosome_01_4_1ab3796d8a249ad849e429bf8b996fb720" prot="private" static="no" mutable="no">
+        <type>ReplacementStrategy</type>
+        <definition>ReplacementStrategy jenes.algorithms.IslandGA&lt; T extends Chromosome &gt;.replacement</definition>
+        <argsstring></argsstring>
+        <name>replacement</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Replacement strategy </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/algorithms/IslandGA.java" line="61" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/algorithms/IslandGA.java" bodystart="59" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classjenes_1_1algorithms_1_1_island_g_a_3_01_t_01extends_01_chromosome_01_4_1a836de3d7431d26f866ea38cc16ac20bb" prot="private" static="no" mutable="no">
+        <type>GeneticAlgorithm&lt; T &gt;[]</type>
+        <definition>GeneticAlgorithm&lt;T&gt; [] jenes.algorithms.IslandGA&lt; T extends Chromosome &gt;.islands</definition>
+        <argsstring></argsstring>
+        <name>islands</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Islands, each made of a genetic algorithm </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/algorithms/IslandGA.java" line="63" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/algorithms/IslandGA.java" bodystart="63" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classjenes_1_1algorithms_1_1_island_g_a_3_01_t_01extends_01_chromosome_01_4_1a8fee853479aae095ab664c153087ffbd" prot="private" static="no" mutable="no">
+        <type>Parallel&lt; T &gt;</type>
+        <definition>Parallel&lt;T&gt; jenes.algorithms.IslandGA&lt; T extends Chromosome &gt;.archipelago</definition>
+        <argsstring></argsstring>
+        <name>archipelago</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The parallel stage connecting islands </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/algorithms/IslandGA.java" line="73" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/algorithms/IslandGA.java" bodystart="73" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classjenes_1_1algorithms_1_1_island_g_a_3_01_t_01extends_01_chromosome_01_4_1a735171ab63805fccccdc5f87941fdfe2" prot="private" static="no" mutable="no">
+        <type>Individual&lt; T &gt;</type>
+        <definition>Individual&lt;T&gt; jenes.algorithms.IslandGA&lt; T extends Chromosome &gt;.migrants[][]</definition>
+        <argsstring>[][]</argsstring>
+        <name>migrants</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Used to perform migration between islands </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/algorithms/IslandGA.java" line="75" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/algorithms/IslandGA.java" bodystart="75" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classjenes_1_1algorithms_1_1_island_g_a_3_01_t_01extends_01_chromosome_01_4_1a37c9c99c1181aa1f194ad610bdb4d25f" prot="public" static="yes" mutable="no">
+        <type>final int</type>
+        <definition>final int jenes.algorithms.IslandGA&lt; T extends Chromosome &gt;.DEFAULT_NICHES</definition>
+        <argsstring></argsstring>
+        <name>DEFAULT_NICHES</name>
+        <initializer>= 5</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The default number of niches </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/algorithms/IslandGA.java" line="65" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/algorithms/IslandGA.java" bodystart="65" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classjenes_1_1algorithms_1_1_island_g_a_3_01_t_01extends_01_chromosome_01_4_1a114bd755cf3def2fffb318ab4f40569a" prot="public" static="yes" mutable="no">
+        <type>final int</type>
+        <definition>final int jenes.algorithms.IslandGA&lt; T extends Chromosome &gt;.DEFAULT_MIGRATION</definition>
+        <argsstring></argsstring>
+        <name>DEFAULT_MIGRATION</name>
+        <initializer>= 4</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The default migration rate between islands </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/algorithms/IslandGA.java" line="67" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/algorithms/IslandGA.java" bodystart="67" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classjenes_1_1algorithms_1_1_island_g_a_3_01_t_01extends_01_chromosome_01_4_1ae27b28d3f2b4f90898a4cc90a9bd1bd9" prot="public" static="yes" mutable="no">
+        <type>final Graph</type>
+        <definition>final Graph jenes.algorithms.IslandGA&lt; T extends Chromosome &gt;.DEFAULT_GEOGRAPHY</definition>
+        <argsstring></argsstring>
+        <name>DEFAULT_GEOGRAPHY</name>
+        <initializer>= <ref refid="classjenes_1_1algorithms_1_1_island_g_a_3_01_t_01extends_01_chromosome_01_4_1_1_graph_1afbb83bf011aa8a8c36be798322c92b8a" kindref="member">Graph.buildRing</ref>(<ref refid="classjenes_1_1algorithms_1_1_island_g_a_3_01_t_01extends_01_chromosome_01_4_1a37c9c99c1181aa1f194ad610bdb4d25f" kindref="member">DEFAULT_NICHES</ref>, true)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The default topology connecting islands </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/algorithms/IslandGA.java" line="69" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/algorithms/IslandGA.java" bodystart="69" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classjenes_1_1algorithms_1_1_island_g_a_3_01_t_01extends_01_chromosome_01_4_1a1fc6944fd99215488896c76893d5f3d0" prot="public" static="yes" mutable="no">
+        <type>final ReplacementStrategy</type>
+        <definition>final ReplacementStrategy jenes.algorithms.IslandGA&lt; T extends Chromosome &gt;.DEFAULT_REPLACEMENT</definition>
+        <argsstring></argsstring>
+        <name>DEFAULT_REPLACEMENT</name>
+        <initializer>= <ref refid="enumjenes_1_1algorithms_1_1_island_g_a_3_01_t_01extends_01_chromosome_01_4_1_1_replacement_strategy_1a7c1f4683ed158cfaf0d6e21ce739bdea" kindref="member">ReplacementStrategy.WORST</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The default replacement strategy </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/algorithms/IslandGA.java" line="71" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/algorithms/IslandGA.java" bodystart="71" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classjenes_1_1algorithms_1_1_island_g_a_3_01_t_01extends_01_chromosome_01_4_1ae36c7bc43e9b6f50a74cd3c2be85d17b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>jenes.algorithms.IslandGA&lt; T extends Chromosome &gt;.IslandGA</definition>
+        <argsstring>(final Fitness fitness)</argsstring>
+        <name>IslandGA</name>
+        <param>
+          <type>final Fitness</type>
+          <declname>fitness</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Creates a IslandGA instance</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>fitness</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/algorithms/IslandGA.java" line="82" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/algorithms/IslandGA.java" bodystart="82" bodyend="90"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1algorithms_1_1_island_g_a_3_01_t_01extends_01_chromosome_01_4_1a7e50ffddeef3cd18e479696e1d7258e4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>jenes.algorithms.IslandGA&lt; T extends Chromosome &gt;.IslandGA</definition>
+        <argsstring>(final Fitness fitness, final Population&lt; T &gt; population)</argsstring>
+        <name>IslandGA</name>
+        <param>
+          <type>final Fitness</type>
+          <declname>fitness</declname>
+        </param>
+        <param>
+          <type>final Population&lt; T &gt;</type>
+          <declname>population</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Creates a IslandGA instance</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>fitness</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the fitness object </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>population</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>initial population </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>genlimit</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the generation limit </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>niches</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the number of niches </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>migration</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the migration rate </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>geography</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>topology connecting islands </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>rp</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>replacement strategy </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/algorithms/IslandGA.java" line="103" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/algorithms/IslandGA.java" bodystart="103" bodyend="111"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1algorithms_1_1_island_g_a_3_01_t_01extends_01_chromosome_01_4_1abaca651c904eb2d4a89380444c3dfd52" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>jenes.algorithms.IslandGA&lt; T extends Chromosome &gt;.IslandGA</definition>
+        <argsstring>(final Fitness fitness, final Population&lt; T &gt; population, final int genlimit)</argsstring>
+        <name>IslandGA</name>
+        <param>
+          <type>final Fitness</type>
+          <declname>fitness</declname>
+        </param>
+        <param>
+          <type>final Population&lt; T &gt;</type>
+          <declname>population</declname>
+        </param>
+        <param>
+          <type>final int</type>
+          <declname>genlimit</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Creates a IslandGA instance</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>fitness</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the fitness object </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>population</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>initial population </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>genlimit</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the generation limit </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/algorithms/IslandGA.java" line="120" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/algorithms/IslandGA.java" bodystart="120" bodyend="128"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1algorithms_1_1_island_g_a_3_01_t_01extends_01_chromosome_01_4_1a462cff7f1ffe7db7a13ab925a8f85c50" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>jenes.algorithms.IslandGA&lt; T extends Chromosome &gt;.IslandGA</definition>
+        <argsstring>(final Fitness fitness, final Population&lt; T &gt; population, final int genlimit, final int niches)</argsstring>
+        <name>IslandGA</name>
+        <param>
+          <type>final Fitness</type>
+          <declname>fitness</declname>
+        </param>
+        <param>
+          <type>final Population&lt; T &gt;</type>
+          <declname>population</declname>
+        </param>
+        <param>
+          <type>final int</type>
+          <declname>genlimit</declname>
+        </param>
+        <param>
+          <type>final int</type>
+          <declname>niches</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Creates a IslandGA instance</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>fitness</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the fitness object </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>population</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>initial population </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>genlimit</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the generation limit </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>niches</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the number of niches </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/algorithms/IslandGA.java" line="138" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/algorithms/IslandGA.java" bodystart="138" bodyend="146"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1algorithms_1_1_island_g_a_3_01_t_01extends_01_chromosome_01_4_1a183f962ceb12d8cd2885b0ef4a6dd988" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>jenes.algorithms.IslandGA&lt; T extends Chromosome &gt;.IslandGA</definition>
+        <argsstring>(final Fitness fitness, final Population&lt; T &gt; population, final int genlimit, final int niches, final int migration)</argsstring>
+        <name>IslandGA</name>
+        <param>
+          <type>final Fitness</type>
+          <declname>fitness</declname>
+        </param>
+        <param>
+          <type>final Population&lt; T &gt;</type>
+          <declname>population</declname>
+        </param>
+        <param>
+          <type>final int</type>
+          <declname>genlimit</declname>
+        </param>
+        <param>
+          <type>final int</type>
+          <declname>niches</declname>
+        </param>
+        <param>
+          <type>final int</type>
+          <declname>migration</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Creates a IslandGA instance</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>fitness</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the fitness object </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>population</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>initial population </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>genlimit</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the generation limit </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>niches</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the number of niches </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>migration</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the migration rate </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/algorithms/IslandGA.java" line="157" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/algorithms/IslandGA.java" bodystart="157" bodyend="165"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1algorithms_1_1_island_g_a_3_01_t_01extends_01_chromosome_01_4_1a36fa940b12f68377764049c7898fd8bd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>jenes.algorithms.IslandGA&lt; T extends Chromosome &gt;.IslandGA</definition>
+        <argsstring>(final Fitness fitness, final Population&lt; T &gt; population, final int genlimit, final int niches, final int migration, final Graph geography)</argsstring>
+        <name>IslandGA</name>
+        <param>
+          <type>final Fitness</type>
+          <declname>fitness</declname>
+        </param>
+        <param>
+          <type>final Population&lt; T &gt;</type>
+          <declname>population</declname>
+        </param>
+        <param>
+          <type>final int</type>
+          <declname>genlimit</declname>
+        </param>
+        <param>
+          <type>final int</type>
+          <declname>niches</declname>
+        </param>
+        <param>
+          <type>final int</type>
+          <declname>migration</declname>
+        </param>
+        <param>
+          <type>final Graph</type>
+          <declname>geography</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Creates a IslandGA instance</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>fitness</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the fitness object </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>population</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>initial population </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>genlimit</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the generation limit </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>niches</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the number of niches </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>migration</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the migration rate </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>geography</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>topology connecting islands </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/algorithms/IslandGA.java" line="177" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/algorithms/IslandGA.java" bodystart="177" bodyend="185"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1algorithms_1_1_island_g_a_3_01_t_01extends_01_chromosome_01_4_1a1b122013a5bad475ec45c67737029e68" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>jenes.algorithms.IslandGA&lt; T extends Chromosome &gt;.IslandGA</definition>
+        <argsstring>(final Fitness fitness, final Population&lt; T &gt; population, final int genlimit, final int niches, final int migration, final Graph geography, final ReplacementStrategy rp)</argsstring>
+        <name>IslandGA</name>
+        <param>
+          <type>final Fitness</type>
+          <declname>fitness</declname>
+        </param>
+        <param>
+          <type>final Population&lt; T &gt;</type>
+          <declname>population</declname>
+        </param>
+        <param>
+          <type>final int</type>
+          <declname>genlimit</declname>
+        </param>
+        <param>
+          <type>final int</type>
+          <declname>niches</declname>
+        </param>
+        <param>
+          <type>final int</type>
+          <declname>migration</declname>
+        </param>
+        <param>
+          <type>final Graph</type>
+          <declname>geography</declname>
+        </param>
+        <param>
+          <type>final ReplacementStrategy</type>
+          <declname>rp</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Creates a IslandGA instance</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>fitness</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the fitness object </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>population</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>initial population </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>genlimit</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the generation limit </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>niches</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the number of niches </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>migration</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the migration rate </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>geography</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>topology connecting islands </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>rp</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>replacement strategy </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/algorithms/IslandGA.java" line="198" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/algorithms/IslandGA.java" bodystart="198" bodyend="249"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1algorithms_1_1_island_g_a_3_01_t_01extends_01_chromosome_01_4_1a1347ad1ffe4f878c6f92d4a12484f174" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>jenes.algorithms.IslandGA&lt; T extends Chromosome &gt;.IslandGA</definition>
+        <argsstring>(final Fitness fitness, final Population&lt; T &gt; population, final int genlimit, final int niches, final GeneticAlgorithm&lt; T &gt; algo)</argsstring>
+        <name>IslandGA</name>
+        <param>
+          <type>final Fitness</type>
+          <declname>fitness</declname>
+        </param>
+        <param>
+          <type>final Population&lt; T &gt;</type>
+          <declname>population</declname>
+        </param>
+        <param>
+          <type>final int</type>
+          <declname>genlimit</declname>
+        </param>
+        <param>
+          <type>final int</type>
+          <declname>niches</declname>
+        </param>
+        <param>
+          <type>final GeneticAlgorithm&lt; T &gt;</type>
+          <declname>algo</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Creates a IslandGA instance with an empty fitness</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>fitness</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the fitness object </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>population</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>initial population </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>genlimit</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the generation limit </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>niches</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the number of niches </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>algo</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the algorithm to be used for all niches </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/algorithms/IslandGA.java" line="260" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/algorithms/IslandGA.java" bodystart="260" bodyend="262"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1algorithms_1_1_island_g_a_3_01_t_01extends_01_chromosome_01_4_1a8cf783104bfb991a4a0db319cf2403c4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>jenes.algorithms.IslandGA&lt; T extends Chromosome &gt;.IslandGA</definition>
+        <argsstring>(final Fitness fitness, final Population&lt; T &gt; population, final int genlimit, final int niches, final GeneticAlgorithm&lt; T &gt; algo, final int migration)</argsstring>
+        <name>IslandGA</name>
+        <param>
+          <type>final Fitness</type>
+          <declname>fitness</declname>
+        </param>
+        <param>
+          <type>final Population&lt; T &gt;</type>
+          <declname>population</declname>
+        </param>
+        <param>
+          <type>final int</type>
+          <declname>genlimit</declname>
+        </param>
+        <param>
+          <type>final int</type>
+          <declname>niches</declname>
+        </param>
+        <param>
+          <type>final GeneticAlgorithm&lt; T &gt;</type>
+          <declname>algo</declname>
+        </param>
+        <param>
+          <type>final int</type>
+          <declname>migration</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Creates a IslandGA instance with an empty fitness</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>fitness</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the fitness object </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>population</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>initial population </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>genlimit</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the generation limit </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>niches</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the number of niches </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>algo</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the algorithm to be used for all niches </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>migration</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the migration rate </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/algorithms/IslandGA.java" line="274" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/algorithms/IslandGA.java" bodystart="274" bodyend="276"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1algorithms_1_1_island_g_a_3_01_t_01extends_01_chromosome_01_4_1aaa6ac59257e351c4b2d50870ec48afee" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>jenes.algorithms.IslandGA&lt; T extends Chromosome &gt;.IslandGA</definition>
+        <argsstring>(final Fitness fitness, final Population&lt; T &gt; population, final int genlimit, final int niches, final GeneticAlgorithm&lt; T &gt; algo, final int migration, final Graph geography)</argsstring>
+        <name>IslandGA</name>
+        <param>
+          <type>final Fitness</type>
+          <declname>fitness</declname>
+        </param>
+        <param>
+          <type>final Population&lt; T &gt;</type>
+          <declname>population</declname>
+        </param>
+        <param>
+          <type>final int</type>
+          <declname>genlimit</declname>
+        </param>
+        <param>
+          <type>final int</type>
+          <declname>niches</declname>
+        </param>
+        <param>
+          <type>final GeneticAlgorithm&lt; T &gt;</type>
+          <declname>algo</declname>
+        </param>
+        <param>
+          <type>final int</type>
+          <declname>migration</declname>
+        </param>
+        <param>
+          <type>final Graph</type>
+          <declname>geography</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Creates a IslandGA instance</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>fitness</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the fitness object </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>population</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>initial population </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>genlimit</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the generation limit </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>niches</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the number of niches </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>algo</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the algorithm to be used for all niches </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>migration</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the migration rate </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>geography</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>topology connecting islands </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/algorithms/IslandGA.java" line="289" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/algorithms/IslandGA.java" bodystart="289" bodyend="291"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1algorithms_1_1_island_g_a_3_01_t_01extends_01_chromosome_01_4_1a84cea4b1aab39f58e8c98f66592cdc17" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>jenes.algorithms.IslandGA&lt; T extends Chromosome &gt;.IslandGA</definition>
+        <argsstring>(final Fitness fitness, final Population&lt; T &gt; population, final int genlimit, final int niches, final GeneticAlgorithm&lt; T &gt; algo, final int migration, final Graph geography, final ReplacementStrategy rp)</argsstring>
+        <name>IslandGA</name>
+        <param>
+          <type>final Fitness</type>
+          <declname>fitness</declname>
+        </param>
+        <param>
+          <type>final Population&lt; T &gt;</type>
+          <declname>population</declname>
+        </param>
+        <param>
+          <type>final int</type>
+          <declname>genlimit</declname>
+        </param>
+        <param>
+          <type>final int</type>
+          <declname>niches</declname>
+        </param>
+        <param>
+          <type>final GeneticAlgorithm&lt; T &gt;</type>
+          <declname>algo</declname>
+        </param>
+        <param>
+          <type>final int</type>
+          <declname>migration</declname>
+        </param>
+        <param>
+          <type>final Graph</type>
+          <declname>geography</declname>
+        </param>
+        <param>
+          <type>final ReplacementStrategy</type>
+          <declname>rp</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Creates a IslandGA instance</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>fitness</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the fitness object </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>population</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>initial population </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>genlimit</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the generation limit </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>niches</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the number of niches </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>algo</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the algorithm to be used for all niches </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>migration</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the migration rate </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>geography</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>topology connecting islands </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>rp</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>replacement strategy </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/algorithms/IslandGA.java" line="305" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/algorithms/IslandGA.java" bodystart="305" bodyend="308"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1algorithms_1_1_island_g_a_3_01_t_01extends_01_chromosome_01_4_1a8789904f010dfb4d86c236f16738f3cc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void jenes.algorithms.IslandGA&lt; T extends Chromosome &gt;.setElitism</definition>
+        <argsstring>(final int elitism)</argsstring>
+        <name>setElitism</name>
+        <param>
+          <type>final int</type>
+          <declname>elitism</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Sets the elitism for all the islands <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>elitism</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/algorithms/IslandGA.java" line="315" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/algorithms/IslandGA.java" bodystart="315" bodyend="320"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1algorithms_1_1_island_g_a_3_01_t_01extends_01_chromosome_01_4_1aeb79089c053c729f16d8c1c5c1aa2601" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void jenes.algorithms.IslandGA&lt; T extends Chromosome &gt;.setIsland</definition>
+        <argsstring>(int i, GeneticAlgorithm&lt; T &gt; algo)</argsstring>
+        <name>setIsland</name>
+        <param>
+          <type>int</type>
+          <declname>i</declname>
+        </param>
+        <param>
+          <type>GeneticAlgorithm&lt; T &gt;</type>
+          <declname>algo</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Sets the algorithm for a specific island</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>i</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>island index </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>algo</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>algorithm </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/algorithms/IslandGA.java" line="328" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/algorithms/IslandGA.java" bodystart="328" bodyend="331"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1algorithms_1_1_island_g_a_3_01_t_01extends_01_chromosome_01_4_1a46c43be9c86897a05eb25db32c0935c1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void jenes.algorithms.IslandGA&lt; T extends Chromosome &gt;.setAllIslands</definition>
+        <argsstring>(GeneticAlgorithm&lt; T &gt; algo)</argsstring>
+        <name>setAllIslands</name>
+        <param>
+          <type>GeneticAlgorithm&lt; T &gt;</type>
+          <declname>algo</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Sets the algorithm for all islands</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>algo</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>algorithm </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/algorithms/IslandGA.java" line="338" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/algorithms/IslandGA.java" bodystart="338" bodyend="342"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1algorithms_1_1_island_g_a_3_01_t_01extends_01_chromosome_01_4_1aadf9a8c907983a8ff03a6358b8270d82" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>GeneticAlgorithm&lt; T &gt;[]</type>
+        <definition>GeneticAlgorithm&lt;T&gt; [] jenes.algorithms.IslandGA&lt; T extends Chromosome &gt;.getAllIslands</definition>
+        <argsstring>()</argsstring>
+        <name>getAllIslands</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Gets the list of algorithms used for the different islands</para><para><simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/algorithms/IslandGA.java" line="349" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/algorithms/IslandGA.java" bodystart="349" bodyend="351"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1algorithms_1_1_island_g_a_3_01_t_01extends_01_chromosome_01_4_1a36fb81c40aa049fc4af4c5a8ebdbc9e6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>final Graph</type>
+        <definition>final Graph jenes.algorithms.IslandGA&lt; T extends Chromosome &gt;.getGeography</definition>
+        <argsstring>()</argsstring>
+        <name>getGeography</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Return the topology connecting islands</para><para><simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/algorithms/IslandGA.java" line="421" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/algorithms/IslandGA.java" bodystart="421" bodyend="423"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1algorithms_1_1_island_g_a_3_01_t_01extends_01_chromosome_01_4_1ac40da22bb9de811c6a2712a67184dc06" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void jenes.algorithms.IslandGA&lt; T extends Chromosome &gt;.setGeography</definition>
+        <argsstring>(Graph geography)</argsstring>
+        <name>setGeography</name>
+        <param>
+          <type>Graph</type>
+          <declname>geography</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Sets the topology</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>geography</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/algorithms/IslandGA.java" line="430" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/algorithms/IslandGA.java" bodystart="430" bodyend="432"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1algorithms_1_1_island_g_a_3_01_t_01extends_01_chromosome_01_4_1a74419cc71fe52538d241f7362b63709a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>final int</type>
+        <definition>final int jenes.algorithms.IslandGA&lt; T extends Chromosome &gt;.getMigration</definition>
+        <argsstring>()</argsstring>
+        <name>getMigration</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns the migration rate <simplesect kind="return"><para>rate </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/algorithms/IslandGA.java" line="438" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/algorithms/IslandGA.java" bodystart="438" bodyend="440"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1algorithms_1_1_island_g_a_3_01_t_01extends_01_chromosome_01_4_1a309c1fe9c74c728b2ecab37e91f09322" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void jenes.algorithms.IslandGA&lt; T extends Chromosome &gt;.setMigration</definition>
+        <argsstring>(int migration)</argsstring>
+        <name>setMigration</name>
+        <param>
+          <type>int</type>
+          <declname>migration</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Sets the migration rate</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>migration</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/algorithms/IslandGA.java" line="447" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/algorithms/IslandGA.java" bodystart="447" bodyend="450"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1algorithms_1_1_island_g_a_3_01_t_01extends_01_chromosome_01_4_1a5642fdd072cd93a61d7ef3f1b5a806ad" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>final int</type>
+        <definition>final int jenes.algorithms.IslandGA&lt; T extends Chromosome &gt;.getNiches</definition>
+        <argsstring>()</argsstring>
+        <name>getNiches</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns the number of niches</para><para><simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/algorithms/IslandGA.java" line="457" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/algorithms/IslandGA.java" bodystart="457" bodyend="459"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1algorithms_1_1_island_g_a_3_01_t_01extends_01_chromosome_01_4_1a5ad013b697d423948678c584adde46f7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void jenes.algorithms.IslandGA&lt; T extends Chromosome &gt;.setNiches</definition>
+        <argsstring>(int niches)</argsstring>
+        <name>setNiches</name>
+        <param>
+          <type>int</type>
+          <declname>niches</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Sets the number of niches</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>niches</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/algorithms/IslandGA.java" line="466" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/algorithms/IslandGA.java" bodystart="466" bodyend="470"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1algorithms_1_1_island_g_a_3_01_t_01extends_01_chromosome_01_4_1aba40738c3ed2724093a13ec8019d2e11" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>final ReplacementStrategy</type>
+        <definition>final ReplacementStrategy jenes.algorithms.IslandGA&lt; T extends Chromosome &gt;.getReplacement</definition>
+        <argsstring>()</argsstring>
+        <name>getReplacement</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns the replacement strategy <simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/algorithms/IslandGA.java" line="476" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/algorithms/IslandGA.java" bodystart="476" bodyend="478"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1algorithms_1_1_island_g_a_3_01_t_01extends_01_chromosome_01_4_1a980d98b95084ac99094dac0d7d231366" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void jenes.algorithms.IslandGA&lt; T extends Chromosome &gt;.setReplacement</definition>
+        <argsstring>(ReplacementStrategy replacement)</argsstring>
+        <name>setReplacement</name>
+        <param>
+          <type>ReplacementStrategy</type>
+          <declname>replacement</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Sets the replacement stategy <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>replacement</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/algorithms/IslandGA.java" line="484" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/algorithms/IslandGA.java" bodystart="484" bodyend="486"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1algorithms_1_1_island_g_a_3_01_t_01extends_01_chromosome_01_4_1aedb02e8ab567910d449869a8bd778225" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void jenes.algorithms.IslandGA&lt; T extends Chromosome &gt;.setBiggerIsBetter</definition>
+        <argsstring>(boolean flag)</argsstring>
+        <name>setBiggerIsBetter</name>
+        <param>
+          <type>boolean</type>
+          <declname>flag</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/algorithms/IslandGA.java" line="489" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/algorithms/IslandGA.java" bodystart="489" bodyend="494"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classjenes_1_1algorithms_1_1_island_g_a_3_01_t_01extends_01_chromosome_01_4_1afdd01d6051280db25af39a8382a48239" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void jenes.algorithms.IslandGA&lt; T extends Chromosome &gt;.populateNiches</definition>
+        <argsstring>()</argsstring>
+        <name>populateNiches</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Distributes individuals among islands by setting their speciem </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/algorithms/IslandGA.java" line="356" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/algorithms/IslandGA.java" bodystart="356" bodyend="361"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1algorithms_1_1_island_g_a_3_01_t_01extends_01_chromosome_01_4_1a73312f19002cfeb0daf1f66e4eeccbd9" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void jenes.algorithms.IslandGA&lt; T extends Chromosome &gt;.migrate</definition>
+        <argsstring>(Population&lt; T &gt;[] branches)</argsstring>
+        <name>migrate</name>
+        <param>
+          <type>Population&lt; T &gt;[]</type>
+          <declname>branches</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Performs migration of individuals between islands</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>branches</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/algorithms/IslandGA.java" line="368" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/algorithms/IslandGA.java" bodystart="368" bodyend="414"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>IslandGA implements a niche based algorithm</para><para><simplesect kind="version"><para>2.0 </para></simplesect>
+<simplesect kind="since"><para>2.0 </para></simplesect>
+</para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="283">
+        <label>jenes.algorithms.IslandGA&lt; T extends Chromosome &gt;</label>
+        <link refid="classjenes_1_1algorithms_1_1_island_g_a_3_01_t_01extends_01_chromosome_01_4"/>
+        <childnode refid="284" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="284">
+        <label>jenes::GeneticAlgorithm&lt; T &gt;</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="285">
+        <label>jenes.algorithms.IslandGA&lt; T extends Chromosome &gt;</label>
+        <link refid="classjenes_1_1algorithms_1_1_island_g_a_3_01_t_01extends_01_chromosome_01_4"/>
+        <childnode refid="286" relation="public-inheritance">
+        </childnode>
+        <childnode refid="287" relation="usage">
+          <edgelabel>islands</edgelabel>
+        </childnode>
+        <childnode refid="288" relation="usage">
+          <edgelabel>archipelago</edgelabel>
+        </childnode>
+        <childnode refid="289" relation="usage">
+          <edgelabel>migrants</edgelabel>
+        </childnode>
+      </node>
+      <node id="289">
+        <label>Individual&lt; T &gt;</label>
+      </node>
+      <node id="287">
+        <label>GeneticAlgorithm&lt; T &gt;</label>
+      </node>
+      <node id="288">
+        <label>Parallel&lt; T &gt;</label>
+      </node>
+      <node id="286">
+        <label>jenes::GeneticAlgorithm&lt; T &gt;</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/algorithms/IslandGA.java" line="39" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/algorithms/IslandGA.java" bodystart="39" bodyend="598"/>
+    <listofallmembers>
+      <member refid="classjenes_1_1algorithms_1_1_island_g_a_3_01_t_01extends_01_chromosome_01_4_1a8fee853479aae095ab664c153087ffbd" prot="private" virt="non-virtual"><scope>jenes::algorithms::IslandGA&lt; T extends Chromosome &gt;</scope><name>archipelago</name></member>
+      <member refid="classjenes_1_1algorithms_1_1_island_g_a_3_01_t_01extends_01_chromosome_01_4_1ae27b28d3f2b4f90898a4cc90a9bd1bd9" prot="public" virt="non-virtual"><scope>jenes::algorithms::IslandGA&lt; T extends Chromosome &gt;</scope><name>DEFAULT_GEOGRAPHY</name></member>
+      <member refid="classjenes_1_1algorithms_1_1_island_g_a_3_01_t_01extends_01_chromosome_01_4_1a114bd755cf3def2fffb318ab4f40569a" prot="public" virt="non-virtual"><scope>jenes::algorithms::IslandGA&lt; T extends Chromosome &gt;</scope><name>DEFAULT_MIGRATION</name></member>
+      <member refid="classjenes_1_1algorithms_1_1_island_g_a_3_01_t_01extends_01_chromosome_01_4_1a37c9c99c1181aa1f194ad610bdb4d25f" prot="public" virt="non-virtual"><scope>jenes::algorithms::IslandGA&lt; T extends Chromosome &gt;</scope><name>DEFAULT_NICHES</name></member>
+      <member refid="classjenes_1_1algorithms_1_1_island_g_a_3_01_t_01extends_01_chromosome_01_4_1a1fc6944fd99215488896c76893d5f3d0" prot="public" virt="non-virtual"><scope>jenes::algorithms::IslandGA&lt; T extends Chromosome &gt;</scope><name>DEFAULT_REPLACEMENT</name></member>
+      <member refid="classjenes_1_1algorithms_1_1_island_g_a_3_01_t_01extends_01_chromosome_01_4_1aa12c57824b7d6a8e875a75c07d9ad774" prot="private" virt="non-virtual"><scope>jenes::algorithms::IslandGA&lt; T extends Chromosome &gt;</scope><name>geography</name></member>
+      <member refid="classjenes_1_1algorithms_1_1_island_g_a_3_01_t_01extends_01_chromosome_01_4_1aadf9a8c907983a8ff03a6358b8270d82" prot="public" virt="non-virtual"><scope>jenes::algorithms::IslandGA&lt; T extends Chromosome &gt;</scope><name>getAllIslands</name></member>
+      <member refid="classjenes_1_1algorithms_1_1_island_g_a_3_01_t_01extends_01_chromosome_01_4_1a36fb81c40aa049fc4af4c5a8ebdbc9e6" prot="public" virt="non-virtual"><scope>jenes::algorithms::IslandGA&lt; T extends Chromosome &gt;</scope><name>getGeography</name></member>
+      <member refid="classjenes_1_1algorithms_1_1_island_g_a_3_01_t_01extends_01_chromosome_01_4_1a74419cc71fe52538d241f7362b63709a" prot="public" virt="non-virtual"><scope>jenes::algorithms::IslandGA&lt; T extends Chromosome &gt;</scope><name>getMigration</name></member>
+      <member refid="classjenes_1_1algorithms_1_1_island_g_a_3_01_t_01extends_01_chromosome_01_4_1a5642fdd072cd93a61d7ef3f1b5a806ad" prot="public" virt="non-virtual"><scope>jenes::algorithms::IslandGA&lt; T extends Chromosome &gt;</scope><name>getNiches</name></member>
+      <member refid="classjenes_1_1algorithms_1_1_island_g_a_3_01_t_01extends_01_chromosome_01_4_1aba40738c3ed2724093a13ec8019d2e11" prot="public" virt="non-virtual"><scope>jenes::algorithms::IslandGA&lt; T extends Chromosome &gt;</scope><name>getReplacement</name></member>
+      <member refid="classjenes_1_1algorithms_1_1_island_g_a_3_01_t_01extends_01_chromosome_01_4_1ae36c7bc43e9b6f50a74cd3c2be85d17b" prot="public" virt="non-virtual"><scope>jenes::algorithms::IslandGA&lt; T extends Chromosome &gt;</scope><name>IslandGA</name></member>
+      <member refid="classjenes_1_1algorithms_1_1_island_g_a_3_01_t_01extends_01_chromosome_01_4_1a7e50ffddeef3cd18e479696e1d7258e4" prot="public" virt="non-virtual"><scope>jenes::algorithms::IslandGA&lt; T extends Chromosome &gt;</scope><name>IslandGA</name></member>
+      <member refid="classjenes_1_1algorithms_1_1_island_g_a_3_01_t_01extends_01_chromosome_01_4_1abaca651c904eb2d4a89380444c3dfd52" prot="public" virt="non-virtual"><scope>jenes::algorithms::IslandGA&lt; T extends Chromosome &gt;</scope><name>IslandGA</name></member>
+      <member refid="classjenes_1_1algorithms_1_1_island_g_a_3_01_t_01extends_01_chromosome_01_4_1a462cff7f1ffe7db7a13ab925a8f85c50" prot="public" virt="non-virtual"><scope>jenes::algorithms::IslandGA&lt; T extends Chromosome &gt;</scope><name>IslandGA</name></member>
+      <member refid="classjenes_1_1algorithms_1_1_island_g_a_3_01_t_01extends_01_chromosome_01_4_1a183f962ceb12d8cd2885b0ef4a6dd988" prot="public" virt="non-virtual"><scope>jenes::algorithms::IslandGA&lt; T extends Chromosome &gt;</scope><name>IslandGA</name></member>
+      <member refid="classjenes_1_1algorithms_1_1_island_g_a_3_01_t_01extends_01_chromosome_01_4_1a36fa940b12f68377764049c7898fd8bd" prot="public" virt="non-virtual"><scope>jenes::algorithms::IslandGA&lt; T extends Chromosome &gt;</scope><name>IslandGA</name></member>
+      <member refid="classjenes_1_1algorithms_1_1_island_g_a_3_01_t_01extends_01_chromosome_01_4_1a1b122013a5bad475ec45c67737029e68" prot="public" virt="non-virtual"><scope>jenes::algorithms::IslandGA&lt; T extends Chromosome &gt;</scope><name>IslandGA</name></member>
+      <member refid="classjenes_1_1algorithms_1_1_island_g_a_3_01_t_01extends_01_chromosome_01_4_1a1347ad1ffe4f878c6f92d4a12484f174" prot="public" virt="non-virtual"><scope>jenes::algorithms::IslandGA&lt; T extends Chromosome &gt;</scope><name>IslandGA</name></member>
+      <member refid="classjenes_1_1algorithms_1_1_island_g_a_3_01_t_01extends_01_chromosome_01_4_1a8cf783104bfb991a4a0db319cf2403c4" prot="public" virt="non-virtual"><scope>jenes::algorithms::IslandGA&lt; T extends Chromosome &gt;</scope><name>IslandGA</name></member>
+      <member refid="classjenes_1_1algorithms_1_1_island_g_a_3_01_t_01extends_01_chromosome_01_4_1aaa6ac59257e351c4b2d50870ec48afee" prot="public" virt="non-virtual"><scope>jenes::algorithms::IslandGA&lt; T extends Chromosome &gt;</scope><name>IslandGA</name></member>
+      <member refid="classjenes_1_1algorithms_1_1_island_g_a_3_01_t_01extends_01_chromosome_01_4_1a84cea4b1aab39f58e8c98f66592cdc17" prot="public" virt="non-virtual"><scope>jenes::algorithms::IslandGA&lt; T extends Chromosome &gt;</scope><name>IslandGA</name></member>
+      <member refid="classjenes_1_1algorithms_1_1_island_g_a_3_01_t_01extends_01_chromosome_01_4_1a836de3d7431d26f866ea38cc16ac20bb" prot="private" virt="non-virtual"><scope>jenes::algorithms::IslandGA&lt; T extends Chromosome &gt;</scope><name>islands</name></member>
+      <member refid="classjenes_1_1algorithms_1_1_island_g_a_3_01_t_01extends_01_chromosome_01_4_1a735171ab63805fccccdc5f87941fdfe2" prot="private" virt="non-virtual"><scope>jenes::algorithms::IslandGA&lt; T extends Chromosome &gt;</scope><name>migrants</name></member>
+      <member refid="classjenes_1_1algorithms_1_1_island_g_a_3_01_t_01extends_01_chromosome_01_4_1a73312f19002cfeb0daf1f66e4eeccbd9" prot="protected" virt="non-virtual"><scope>jenes::algorithms::IslandGA&lt; T extends Chromosome &gt;</scope><name>migrate</name></member>
+      <member refid="classjenes_1_1algorithms_1_1_island_g_a_3_01_t_01extends_01_chromosome_01_4_1a9bba629926d756819b7725f170b76fd4" prot="private" virt="non-virtual"><scope>jenes::algorithms::IslandGA&lt; T extends Chromosome &gt;</scope><name>migration</name></member>
+      <member refid="classjenes_1_1algorithms_1_1_island_g_a_3_01_t_01extends_01_chromosome_01_4_1a02fc5f134e4e02b3a29afc3bce1ab46f" prot="private" virt="non-virtual"><scope>jenes::algorithms::IslandGA&lt; T extends Chromosome &gt;</scope><name>niches</name></member>
+      <member refid="classjenes_1_1algorithms_1_1_island_g_a_3_01_t_01extends_01_chromosome_01_4_1afdd01d6051280db25af39a8382a48239" prot="protected" virt="non-virtual"><scope>jenes::algorithms::IslandGA&lt; T extends Chromosome &gt;</scope><name>populateNiches</name></member>
+      <member refid="classjenes_1_1algorithms_1_1_island_g_a_3_01_t_01extends_01_chromosome_01_4_1ab3796d8a249ad849e429bf8b996fb720" prot="private" virt="non-virtual"><scope>jenes::algorithms::IslandGA&lt; T extends Chromosome &gt;</scope><name>replacement</name></member>
+      <member refid="classjenes_1_1algorithms_1_1_island_g_a_3_01_t_01extends_01_chromosome_01_4_1a46c43be9c86897a05eb25db32c0935c1" prot="public" virt="non-virtual"><scope>jenes::algorithms::IslandGA&lt; T extends Chromosome &gt;</scope><name>setAllIslands</name></member>
+      <member refid="classjenes_1_1algorithms_1_1_island_g_a_3_01_t_01extends_01_chromosome_01_4_1aedb02e8ab567910d449869a8bd778225" prot="public" virt="non-virtual"><scope>jenes::algorithms::IslandGA&lt; T extends Chromosome &gt;</scope><name>setBiggerIsBetter</name></member>
+      <member refid="classjenes_1_1algorithms_1_1_island_g_a_3_01_t_01extends_01_chromosome_01_4_1a8789904f010dfb4d86c236f16738f3cc" prot="public" virt="non-virtual"><scope>jenes::algorithms::IslandGA&lt; T extends Chromosome &gt;</scope><name>setElitism</name></member>
+      <member refid="classjenes_1_1algorithms_1_1_island_g_a_3_01_t_01extends_01_chromosome_01_4_1ac40da22bb9de811c6a2712a67184dc06" prot="public" virt="non-virtual"><scope>jenes::algorithms::IslandGA&lt; T extends Chromosome &gt;</scope><name>setGeography</name></member>
+      <member refid="classjenes_1_1algorithms_1_1_island_g_a_3_01_t_01extends_01_chromosome_01_4_1aeb79089c053c729f16d8c1c5c1aa2601" prot="public" virt="non-virtual"><scope>jenes::algorithms::IslandGA&lt; T extends Chromosome &gt;</scope><name>setIsland</name></member>
+      <member refid="classjenes_1_1algorithms_1_1_island_g_a_3_01_t_01extends_01_chromosome_01_4_1a309c1fe9c74c728b2ecab37e91f09322" prot="public" virt="non-virtual"><scope>jenes::algorithms::IslandGA&lt; T extends Chromosome &gt;</scope><name>setMigration</name></member>
+      <member refid="classjenes_1_1algorithms_1_1_island_g_a_3_01_t_01extends_01_chromosome_01_4_1a5ad013b697d423948678c584adde46f7" prot="public" virt="non-virtual"><scope>jenes::algorithms::IslandGA&lt; T extends Chromosome &gt;</scope><name>setNiches</name></member>
+      <member refid="classjenes_1_1algorithms_1_1_island_g_a_3_01_t_01extends_01_chromosome_01_4_1a980d98b95084ac99094dac0d7d231366" prot="public" virt="non-virtual"><scope>jenes::algorithms::IslandGA&lt; T extends Chromosome &gt;</scope><name>setReplacement</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

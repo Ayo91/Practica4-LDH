@@ -1,0 +1,278 @@
+\hypertarget{interfacejenes_1_1chromosome_1_1_chromosome_3_01_t_01extends_01_chromosome_01_4}{\section{jenes.\-chromosome.\-Chromosome$<$ T extends Chromosome $>$ Interface Reference}
+\label{interfacejenes_1_1chromosome_1_1_chromosome_3_01_t_01extends_01_chromosome_01_4}\index{jenes.\-chromosome.\-Chromosome$<$ T extends Chromosome $>$@{jenes.\-chromosome.\-Chromosome$<$ T extends Chromosome $>$}}
+}
+Inheritance diagram for jenes.\-chromosome.\-Chromosome$<$ T extends Chromosome $>$\-:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{interfacejenes_1_1chromosome_1_1_chromosome_3_01_t_01extends_01_chromosome_01_4}
+\end{center}
+\end{figure}
+\subsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+class \hyperlink{classjenes_1_1chromosome_1_1_chromosome_3_01_t_01extends_01_chromosome_01_4_1_1_util}{Util}
+\end{DoxyCompactItemize}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{interfacejenes_1_1chromosome_1_1_chromosome_3_01_t_01extends_01_chromosome_01_4_ad3a9fc2dbf63e0fb2b486a08ace2a6e8}{swap} (int pos1, int pos2)
+\item 
+void \hyperlink{interfacejenes_1_1chromosome_1_1_chromosome_3_01_t_01extends_01_chromosome_01_4_a1afc86af7df16d75b9fceaac91b57216}{randomize} (int pos)
+\item 
+void \hyperlink{interfacejenes_1_1chromosome_1_1_chromosome_3_01_t_01extends_01_chromosome_01_4_ab04d66867a48c5ac9eafe26e0473d326}{left\-Shift} (int from, int to)
+\item 
+void \hyperlink{interfacejenes_1_1chromosome_1_1_chromosome_3_01_t_01extends_01_chromosome_01_4_a26ee95b79d8c4012acffd9d26ab1b620}{right\-Shift} (int from, int to)
+\item 
+void \hyperlink{interfacejenes_1_1chromosome_1_1_chromosome_3_01_t_01extends_01_chromosome_01_4_a7da893369a724b9bdde694ffd07e05ef}{set\-Default\-Value\-At} (int pos)
+\item 
+T \hyperlink{interfacejenes_1_1chromosome_1_1_chromosome_3_01_t_01extends_01_chromosome_01_4_a853c4aaab715bdcc4f89ed84dfbe1f00}{clone} ()
+\item 
+int \hyperlink{interfacejenes_1_1chromosome_1_1_chromosome_3_01_t_01extends_01_chromosome_01_4_a29f012dd3205c9bdb3fe3b749aa7c927}{length} ()
+\item 
+void \hyperlink{interfacejenes_1_1chromosome_1_1_chromosome_3_01_t_01extends_01_chromosome_01_4_ab54ea692387c9a052c6e47191f02f600}{randomize} ()
+\item 
+void \hyperlink{interfacejenes_1_1chromosome_1_1_chromosome_3_01_t_01extends_01_chromosome_01_4_a07cb1cba99dd05811c5f5530ffc0642e}{set\-As} (T chromosome)
+\item 
+void \hyperlink{interfacejenes_1_1chromosome_1_1_chromosome_3_01_t_01extends_01_chromosome_01_4_a3865a9034e0582dc11b6dc6cbd9b21da}{cross} (T chromosome, int from, int to)
+\item 
+void \hyperlink{interfacejenes_1_1chromosome_1_1_chromosome_3_01_t_01extends_01_chromosome_01_4_a56f3d45ef9dced649f9050d736e6e753}{cross} (T chromosome, int from)
+\item 
+boolean \hyperlink{interfacejenes_1_1chromosome_1_1_chromosome_3_01_t_01extends_01_chromosome_01_4_afa9dc889ff75457240750c802a5024db}{equals} (T chromosome)
+\item 
+void \hyperlink{interfacejenes_1_1chromosome_1_1_chromosome_3_01_t_01extends_01_chromosome_01_4_a7f4ba26864bc54607635b608be6a1e1d}{difference} (T chromosome, double\mbox{[}$\,$\mbox{]} diff)
+\item 
+Object\mbox{[}$\,$\mbox{]} \hyperlink{interfacejenes_1_1chromosome_1_1_chromosome_3_01_t_01extends_01_chromosome_01_4_aaf3edb9b3b7265edf5e754ca2b41603e}{to\-Array} ()
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+The interface Chromosome is provided by all chromosomes, specifying genoma operations used by genetic operators during the algorithm evolution. Concretizations of the Chromosome class are required to actually implement an algorithm. There are some concrete chromosome types based on boolean, double, integer and object values. All of these are fixed length chromosomes, as the number of genes dosen't change during the algorithm iterations. 
+
+If necessary, a variable length chromosome can be implemented by subclassing this abstract class and specifying the abstract methods.
+
+
+\begin{DoxyParams}{Parameters}
+{\em $<$\-T$>$} & The type of Chromosomes accepted as input and returned by operations.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyVersion}{Version}
+2.\-0 
+\end{DoxyVersion}
+\begin{DoxySince}{Since}
+1.\-0 
+\end{DoxySince}
+
+
+\subsection{Member Function Documentation}
+\hypertarget{interfacejenes_1_1chromosome_1_1_chromosome_3_01_t_01extends_01_chromosome_01_4_a853c4aaab715bdcc4f89ed84dfbe1f00}{\index{jenes\-::chromosome\-::\-Chromosome$<$ T extends Chromosome $>$@{jenes\-::chromosome\-::\-Chromosome$<$ T extends Chromosome $>$}!clone@{clone}}
+\index{clone@{clone}!jenes::chromosome::Chromosome< T extends Chromosome >@{jenes\-::chromosome\-::\-Chromosome$<$ T extends Chromosome $>$}}
+\subsubsection[{clone}]{\setlength{\rightskip}{0pt plus 5cm}T jenes.\-chromosome.\-Chromosome$<$ T extends Chromosome $>$.clone (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{interfacejenes_1_1chromosome_1_1_chromosome_3_01_t_01extends_01_chromosome_01_4_a853c4aaab715bdcc4f89ed84dfbe1f00}
+Performs a chromosome deep-\/cloning. 
+
+\begin{DoxyReturn}{Returns}
+a chromosome clone. 
+\end{DoxyReturn}
+\hypertarget{interfacejenes_1_1chromosome_1_1_chromosome_3_01_t_01extends_01_chromosome_01_4_a3865a9034e0582dc11b6dc6cbd9b21da}{\index{jenes\-::chromosome\-::\-Chromosome$<$ T extends Chromosome $>$@{jenes\-::chromosome\-::\-Chromosome$<$ T extends Chromosome $>$}!cross@{cross}}
+\index{cross@{cross}!jenes::chromosome::Chromosome< T extends Chromosome >@{jenes\-::chromosome\-::\-Chromosome$<$ T extends Chromosome $>$}}
+\subsubsection[{cross}]{\setlength{\rightskip}{0pt plus 5cm}void jenes.\-chromosome.\-Chromosome$<$ T extends Chromosome $>$.cross (
+\begin{DoxyParamCaption}
+\item[{T}]{chromosome, }
+\item[{int}]{from, }
+\item[{int}]{to}
+\end{DoxyParamCaption}
+)}}\label{interfacejenes_1_1chromosome_1_1_chromosome_3_01_t_01extends_01_chromosome_01_4_a3865a9034e0582dc11b6dc6cbd9b21da}
+Exchanges the genes chromosome within the range \mbox{[}from,to\mbox{]} 
+
+
+\begin{DoxyParams}{Parameters}
+{\em chromosome} & the chromosome to cross with \\
+\hline
+{\em from} & the start position of the genes to exchange \\
+\hline
+{\em to} & the final position of the genes to exchange \\
+\hline
+\end{DoxyParams}
+\hypertarget{interfacejenes_1_1chromosome_1_1_chromosome_3_01_t_01extends_01_chromosome_01_4_a56f3d45ef9dced649f9050d736e6e753}{\index{jenes\-::chromosome\-::\-Chromosome$<$ T extends Chromosome $>$@{jenes\-::chromosome\-::\-Chromosome$<$ T extends Chromosome $>$}!cross@{cross}}
+\index{cross@{cross}!jenes::chromosome::Chromosome< T extends Chromosome >@{jenes\-::chromosome\-::\-Chromosome$<$ T extends Chromosome $>$}}
+\subsubsection[{cross}]{\setlength{\rightskip}{0pt plus 5cm}void jenes.\-chromosome.\-Chromosome$<$ T extends Chromosome $>$.cross (
+\begin{DoxyParamCaption}
+\item[{T}]{chromosome, }
+\item[{int}]{from}
+\end{DoxyParamCaption}
+)}}\label{interfacejenes_1_1chromosome_1_1_chromosome_3_01_t_01extends_01_chromosome_01_4_a56f3d45ef9dced649f9050d736e6e753}
+Exchanges the genes chromosome starting from a given position 
+
+
+\begin{DoxyParams}{Parameters}
+{\em chromosome} & the chromosome to cross with \\
+\hline
+{\em from} & the start position of the genes to exchange \\
+\hline
+\end{DoxyParams}
+\hypertarget{interfacejenes_1_1chromosome_1_1_chromosome_3_01_t_01extends_01_chromosome_01_4_a7f4ba26864bc54607635b608be6a1e1d}{\index{jenes\-::chromosome\-::\-Chromosome$<$ T extends Chromosome $>$@{jenes\-::chromosome\-::\-Chromosome$<$ T extends Chromosome $>$}!difference@{difference}}
+\index{difference@{difference}!jenes::chromosome::Chromosome< T extends Chromosome >@{jenes\-::chromosome\-::\-Chromosome$<$ T extends Chromosome $>$}}
+\subsubsection[{difference}]{\setlength{\rightskip}{0pt plus 5cm}void jenes.\-chromosome.\-Chromosome$<$ T extends Chromosome $>$.difference (
+\begin{DoxyParamCaption}
+\item[{T}]{chromosome, }
+\item[{double\mbox{[}$\,$\mbox{]}}]{diff}
+\end{DoxyParamCaption}
+)}}\label{interfacejenes_1_1chromosome_1_1_chromosome_3_01_t_01extends_01_chromosome_01_4_a7f4ba26864bc54607635b608be6a1e1d}
+Computes the genetic difference between two chromosomes. N\-O\-T\-I\-C\-E\-: This should not be invoked directly. Please, use \#get\-Difference instead.
+
+
+\begin{DoxyParams}{Parameters}
+{\em diff} & -\/ the variable to be filled by the minus values \\
+\hline
+{\em chromosome} & -\/ the chromosome to quantify the minus from \\
+\hline
+\end{DoxyParams}
+\hypertarget{interfacejenes_1_1chromosome_1_1_chromosome_3_01_t_01extends_01_chromosome_01_4_afa9dc889ff75457240750c802a5024db}{\index{jenes\-::chromosome\-::\-Chromosome$<$ T extends Chromosome $>$@{jenes\-::chromosome\-::\-Chromosome$<$ T extends Chromosome $>$}!equals@{equals}}
+\index{equals@{equals}!jenes::chromosome::Chromosome< T extends Chromosome >@{jenes\-::chromosome\-::\-Chromosome$<$ T extends Chromosome $>$}}
+\subsubsection[{equals}]{\setlength{\rightskip}{0pt plus 5cm}boolean jenes.\-chromosome.\-Chromosome$<$ T extends Chromosome $>$.equals (
+\begin{DoxyParamCaption}
+\item[{T}]{chromosome}
+\end{DoxyParamCaption}
+)}}\label{interfacejenes_1_1chromosome_1_1_chromosome_3_01_t_01extends_01_chromosome_01_4_afa9dc889ff75457240750c802a5024db}
+Compares the chromosome with another.
+
+
+\begin{DoxyParams}{Parameters}
+{\em chromosome} & the cromosome to compare to. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+true if the two chromosome are equal, false otherwise. 
+\end{DoxyReturn}
+\hypertarget{interfacejenes_1_1chromosome_1_1_chromosome_3_01_t_01extends_01_chromosome_01_4_ab04d66867a48c5ac9eafe26e0473d326}{\index{jenes\-::chromosome\-::\-Chromosome$<$ T extends Chromosome $>$@{jenes\-::chromosome\-::\-Chromosome$<$ T extends Chromosome $>$}!left\-Shift@{left\-Shift}}
+\index{left\-Shift@{left\-Shift}!jenes::chromosome::Chromosome< T extends Chromosome >@{jenes\-::chromosome\-::\-Chromosome$<$ T extends Chromosome $>$}}
+\subsubsection[{left\-Shift}]{\setlength{\rightskip}{0pt plus 5cm}void jenes.\-chromosome.\-Chromosome$<$ T extends Chromosome $>$.left\-Shift (
+\begin{DoxyParamCaption}
+\item[{int}]{from, }
+\item[{int}]{to}
+\end{DoxyParamCaption}
+)}}\label{interfacejenes_1_1chromosome_1_1_chromosome_3_01_t_01extends_01_chromosome_01_4_ab04d66867a48c5ac9eafe26e0473d326}
+Makes a left-\/shift of the genes between two positions. The shift is circular, so the most left-\/side gene becomes the last gene on right. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em from} & the start position to be shifted \\
+\hline
+{\em to} & the final position to be shifted \\
+\hline
+\end{DoxyParams}
+\hypertarget{interfacejenes_1_1chromosome_1_1_chromosome_3_01_t_01extends_01_chromosome_01_4_a29f012dd3205c9bdb3fe3b749aa7c927}{\index{jenes\-::chromosome\-::\-Chromosome$<$ T extends Chromosome $>$@{jenes\-::chromosome\-::\-Chromosome$<$ T extends Chromosome $>$}!length@{length}}
+\index{length@{length}!jenes::chromosome::Chromosome< T extends Chromosome >@{jenes\-::chromosome\-::\-Chromosome$<$ T extends Chromosome $>$}}
+\subsubsection[{length}]{\setlength{\rightskip}{0pt plus 5cm}int jenes.\-chromosome.\-Chromosome$<$ T extends Chromosome $>$.length (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{interfacejenes_1_1chromosome_1_1_chromosome_3_01_t_01extends_01_chromosome_01_4_a29f012dd3205c9bdb3fe3b749aa7c927}
+Returns the number of genes contained in the chromosome. 
+
+\begin{DoxyReturn}{Returns}
+the length of chromosome. 
+\end{DoxyReturn}
+\hypertarget{interfacejenes_1_1chromosome_1_1_chromosome_3_01_t_01extends_01_chromosome_01_4_a1afc86af7df16d75b9fceaac91b57216}{\index{jenes\-::chromosome\-::\-Chromosome$<$ T extends Chromosome $>$@{jenes\-::chromosome\-::\-Chromosome$<$ T extends Chromosome $>$}!randomize@{randomize}}
+\index{randomize@{randomize}!jenes::chromosome::Chromosome< T extends Chromosome >@{jenes\-::chromosome\-::\-Chromosome$<$ T extends Chromosome $>$}}
+\subsubsection[{randomize}]{\setlength{\rightskip}{0pt plus 5cm}void jenes.\-chromosome.\-Chromosome$<$ T extends Chromosome $>$.randomize (
+\begin{DoxyParamCaption}
+\item[{int}]{pos}
+\end{DoxyParamCaption}
+)}}\label{interfacejenes_1_1chromosome_1_1_chromosome_3_01_t_01extends_01_chromosome_01_4_a1afc86af7df16d75b9fceaac91b57216}
+Sets a random value in the specified position 
+
+
+\begin{DoxyParams}{Parameters}
+{\em pos} & a position where to set the random value \\
+\hline
+\end{DoxyParams}
+\hypertarget{interfacejenes_1_1chromosome_1_1_chromosome_3_01_t_01extends_01_chromosome_01_4_ab54ea692387c9a052c6e47191f02f600}{\index{jenes\-::chromosome\-::\-Chromosome$<$ T extends Chromosome $>$@{jenes\-::chromosome\-::\-Chromosome$<$ T extends Chromosome $>$}!randomize@{randomize}}
+\index{randomize@{randomize}!jenes::chromosome::Chromosome< T extends Chromosome >@{jenes\-::chromosome\-::\-Chromosome$<$ T extends Chromosome $>$}}
+\subsubsection[{randomize}]{\setlength{\rightskip}{0pt plus 5cm}void jenes.\-chromosome.\-Chromosome$<$ T extends Chromosome $>$.randomize (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{interfacejenes_1_1chromosome_1_1_chromosome_3_01_t_01extends_01_chromosome_01_4_ab54ea692387c9a052c6e47191f02f600}
+Fills the chromosome with random value. \hypertarget{interfacejenes_1_1chromosome_1_1_chromosome_3_01_t_01extends_01_chromosome_01_4_a26ee95b79d8c4012acffd9d26ab1b620}{\index{jenes\-::chromosome\-::\-Chromosome$<$ T extends Chromosome $>$@{jenes\-::chromosome\-::\-Chromosome$<$ T extends Chromosome $>$}!right\-Shift@{right\-Shift}}
+\index{right\-Shift@{right\-Shift}!jenes::chromosome::Chromosome< T extends Chromosome >@{jenes\-::chromosome\-::\-Chromosome$<$ T extends Chromosome $>$}}
+\subsubsection[{right\-Shift}]{\setlength{\rightskip}{0pt plus 5cm}void jenes.\-chromosome.\-Chromosome$<$ T extends Chromosome $>$.right\-Shift (
+\begin{DoxyParamCaption}
+\item[{int}]{from, }
+\item[{int}]{to}
+\end{DoxyParamCaption}
+)}}\label{interfacejenes_1_1chromosome_1_1_chromosome_3_01_t_01extends_01_chromosome_01_4_a26ee95b79d8c4012acffd9d26ab1b620}
+Makes a right-\/shift of the genes between two positions. The shift is circular, so the most right-\/side gene becomes the first gene on left. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em from} & the start position to be shifted \\
+\hline
+{\em to} & the final position to be shifted \\
+\hline
+\end{DoxyParams}
+\hypertarget{interfacejenes_1_1chromosome_1_1_chromosome_3_01_t_01extends_01_chromosome_01_4_a07cb1cba99dd05811c5f5530ffc0642e}{\index{jenes\-::chromosome\-::\-Chromosome$<$ T extends Chromosome $>$@{jenes\-::chromosome\-::\-Chromosome$<$ T extends Chromosome $>$}!set\-As@{set\-As}}
+\index{set\-As@{set\-As}!jenes::chromosome::Chromosome< T extends Chromosome >@{jenes\-::chromosome\-::\-Chromosome$<$ T extends Chromosome $>$}}
+\subsubsection[{set\-As}]{\setlength{\rightskip}{0pt plus 5cm}void jenes.\-chromosome.\-Chromosome$<$ T extends Chromosome $>$.set\-As (
+\begin{DoxyParamCaption}
+\item[{T}]{chromosome}
+\end{DoxyParamCaption}
+)}}\label{interfacejenes_1_1chromosome_1_1_chromosome_3_01_t_01extends_01_chromosome_01_4_a07cb1cba99dd05811c5f5530ffc0642e}
+Makes the chromosome a copy of another chromosome. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em chromosome} & the chromosome to be copied \\
+\hline
+\end{DoxyParams}
+\hypertarget{interfacejenes_1_1chromosome_1_1_chromosome_3_01_t_01extends_01_chromosome_01_4_a7da893369a724b9bdde694ffd07e05ef}{\index{jenes\-::chromosome\-::\-Chromosome$<$ T extends Chromosome $>$@{jenes\-::chromosome\-::\-Chromosome$<$ T extends Chromosome $>$}!set\-Default\-Value\-At@{set\-Default\-Value\-At}}
+\index{set\-Default\-Value\-At@{set\-Default\-Value\-At}!jenes::chromosome::Chromosome< T extends Chromosome >@{jenes\-::chromosome\-::\-Chromosome$<$ T extends Chromosome $>$}}
+\subsubsection[{set\-Default\-Value\-At}]{\setlength{\rightskip}{0pt plus 5cm}void jenes.\-chromosome.\-Chromosome$<$ T extends Chromosome $>$.set\-Default\-Value\-At (
+\begin{DoxyParamCaption}
+\item[{int}]{pos}
+\end{DoxyParamCaption}
+)}}\label{interfacejenes_1_1chromosome_1_1_chromosome_3_01_t_01extends_01_chromosome_01_4_a7da893369a724b9bdde694ffd07e05ef}
+Sets the default value at a given position 
+
+
+\begin{DoxyParams}{Parameters}
+{\em pos} & the position where to set the default value \\
+\hline
+\end{DoxyParams}
+\hypertarget{interfacejenes_1_1chromosome_1_1_chromosome_3_01_t_01extends_01_chromosome_01_4_ad3a9fc2dbf63e0fb2b486a08ace2a6e8}{\index{jenes\-::chromosome\-::\-Chromosome$<$ T extends Chromosome $>$@{jenes\-::chromosome\-::\-Chromosome$<$ T extends Chromosome $>$}!swap@{swap}}
+\index{swap@{swap}!jenes::chromosome::Chromosome< T extends Chromosome >@{jenes\-::chromosome\-::\-Chromosome$<$ T extends Chromosome $>$}}
+\subsubsection[{swap}]{\setlength{\rightskip}{0pt plus 5cm}void jenes.\-chromosome.\-Chromosome$<$ T extends Chromosome $>$.swap (
+\begin{DoxyParamCaption}
+\item[{int}]{pos1, }
+\item[{int}]{pos2}
+\end{DoxyParamCaption}
+)}}\label{interfacejenes_1_1chromosome_1_1_chromosome_3_01_t_01extends_01_chromosome_01_4_ad3a9fc2dbf63e0fb2b486a08ace2a6e8}
+Exchanges two genes at the specified positions 
+
+
+\begin{DoxyParams}{Parameters}
+{\em pos1} & the position of first gene \\
+\hline
+{\em pos2} & the position of second gene \\
+\hline
+\end{DoxyParams}
+\hypertarget{interfacejenes_1_1chromosome_1_1_chromosome_3_01_t_01extends_01_chromosome_01_4_aaf3edb9b3b7265edf5e754ca2b41603e}{\index{jenes\-::chromosome\-::\-Chromosome$<$ T extends Chromosome $>$@{jenes\-::chromosome\-::\-Chromosome$<$ T extends Chromosome $>$}!to\-Array@{to\-Array}}
+\index{to\-Array@{to\-Array}!jenes::chromosome::Chromosome< T extends Chromosome >@{jenes\-::chromosome\-::\-Chromosome$<$ T extends Chromosome $>$}}
+\subsubsection[{to\-Array}]{\setlength{\rightskip}{0pt plus 5cm}Object \mbox{[}$\,$\mbox{]} jenes.\-chromosome.\-Chromosome$<$ T extends Chromosome $>$.to\-Array (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{interfacejenes_1_1chromosome_1_1_chromosome_3_01_t_01extends_01_chromosome_01_4_aaf3edb9b3b7265edf5e754ca2b41603e}
+Returns an array containing all of the genes in chromosome.
+
+\begin{DoxyReturn}{Returns}
+an array containing all of the genes in chromosome. 
+\end{DoxyReturn}
+
+
+The documentation for this interface was generated from the following file\-:\begin{DoxyCompactItemize}
+\item 
+src/jenes/chromosome/\hyperlink{_chromosome_8java}{Chromosome.\-java}\end{DoxyCompactItemize}

@@ -1,0 +1,308 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="classjenes_1_1tutorials_1_1problem6_1_1_knapsack_problem" kind="class" prot="public">
+    <compoundname>jenes::tutorials::problem6::KnapsackProblem</compoundname>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="classjenes_1_1tutorials_1_1problem6_1_1_knapsack_problem_1a138e3d34c9168d33b53f3bb67e2207d7" prot="private" static="yes" mutable="no">
+        <type>int</type>
+        <definition>int jenes.tutorials.problem6.KnapsackProblem.POPSIZE</definition>
+        <argsstring></argsstring>
+        <name>POPSIZE</name>
+        <initializer>=100</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/problem6/KnapsackProblem.java" line="39" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/problem6/KnapsackProblem.java" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classjenes_1_1tutorials_1_1problem6_1_1_knapsack_problem_1a594ddc19149baf7d1c8c7487c85a4ed5" prot="private" static="yes" mutable="no">
+        <type>int</type>
+        <definition>int jenes.tutorials.problem6.KnapsackProblem.GENERATION_LIMIT</definition>
+        <argsstring></argsstring>
+        <name>GENERATION_LIMIT</name>
+        <initializer>=100</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/problem6/KnapsackProblem.java" line="40" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/problem6/KnapsackProblem.java" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classjenes_1_1tutorials_1_1problem6_1_1_knapsack_problem_1a7dfea169d398ccf63ee9cb6dae89752b" prot="private" static="yes" mutable="no">
+        <type>final double[]</type>
+        <definition>final double [] jenes.tutorials.problem6.KnapsackProblem.WEIGHTS</definition>
+        <argsstring></argsstring>
+        <name>WEIGHTS</name>
+        <initializer>= {1, 5, 3, 2, 8, 6, 4, 7, 9, 6}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/problem6/KnapsackProblem.java" line="42" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/problem6/KnapsackProblem.java" bodystart="42" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classjenes_1_1tutorials_1_1problem6_1_1_knapsack_problem_1ac49eb8a17fa93f76613151b296c23567" prot="private" static="yes" mutable="no">
+        <type>final double[]</type>
+        <definition>final double [] jenes.tutorials.problem6.KnapsackProblem.UTILITIES</definition>
+        <argsstring></argsstring>
+        <name>UTILITIES</name>
+        <initializer>= {7, 2, 7, 1, 6, 4, 2, 8, 9, 2}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/problem6/KnapsackProblem.java" line="43" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/problem6/KnapsackProblem.java" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classjenes_1_1tutorials_1_1problem6_1_1_knapsack_problem_1a4a10c09e3ae2ffc56a67b59f57767189" prot="private" static="no" mutable="no">
+        <type><ref refid="classjenes_1_1tutorials_1_1problem6_1_1_knapsack_g_a" kindref="compound">KnapsackGA</ref></type>
+        <definition>KnapsackGA jenes.tutorials.problem6.KnapsackProblem.algorithm</definition>
+        <argsstring></argsstring>
+        <name>algorithm</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/problem6/KnapsackProblem.java" line="45" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/problem6/KnapsackProblem.java" bodystart="45" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classjenes_1_1tutorials_1_1problem6_1_1_knapsack_problem_1acad1c415f8d164b4ffa0d99db5fc6772" prot="private" static="no" mutable="no">
+        <type>double[]</type>
+        <definition>double [] jenes.tutorials.problem6.KnapsackProblem.utilities</definition>
+        <argsstring></argsstring>
+        <name>utilities</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/problem6/KnapsackProblem.java" line="46" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/problem6/KnapsackProblem.java" bodystart="46" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classjenes_1_1tutorials_1_1problem6_1_1_knapsack_problem_1a1c7f18379c5ca910013fc02748a53bf9" prot="private" static="no" mutable="no">
+        <type>double[]</type>
+        <definition>double [] jenes.tutorials.problem6.KnapsackProblem.weights</definition>
+        <argsstring></argsstring>
+        <name>weights</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/problem6/KnapsackProblem.java" line="47" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/problem6/KnapsackProblem.java" bodystart="47" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classjenes_1_1tutorials_1_1problem6_1_1_knapsack_problem_1a5c921b1c3d9dbbe35decc777cf59169d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>jenes.tutorials.problem6.KnapsackProblem.KnapsackProblem</definition>
+        <argsstring>(double[] utilities, double[] weights)</argsstring>
+        <name>KnapsackProblem</name>
+        <param>
+          <type>double[]</type>
+          <declname>utilities</declname>
+        </param>
+        <param>
+          <type>double[]</type>
+          <declname>weights</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/problem6/KnapsackProblem.java" line="49" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/problem6/KnapsackProblem.java" bodystart="49" bodyend="53"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1tutorials_1_1problem6_1_1_knapsack_problem_1a174433680cf824c4238f690d84a43e38" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void jenes.tutorials.problem6.KnapsackProblem.run</definition>
+        <argsstring>()</argsstring>
+        <name>run</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/problem6/KnapsackProblem.java" line="56" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/problem6/KnapsackProblem.java" bodystart="56" bodyend="64"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1tutorials_1_1problem6_1_1_knapsack_problem_1af5b99c0408de24f2d7598f14dc597ef7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>double</type>
+        <definition>double jenes.tutorials.problem6.KnapsackProblem.getCapacity</definition>
+        <argsstring>()</argsstring>
+        <name>getCapacity</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/problem6/KnapsackProblem.java" line="66" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/problem6/KnapsackProblem.java" bodystart="66" bodyend="68"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1tutorials_1_1problem6_1_1_knapsack_problem_1a9caf9c53d4ce0e4b17ceb163ee8ab837" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void jenes.tutorials.problem6.KnapsackProblem.setCapacity</definition>
+        <argsstring>(double c)</argsstring>
+        <name>setCapacity</name>
+        <param>
+          <type>double</type>
+          <declname>c</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/problem6/KnapsackProblem.java" line="70" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/problem6/KnapsackProblem.java" bodystart="70" bodyend="72"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1tutorials_1_1problem6_1_1_knapsack_problem_1a1eddd1274f86fe1b3e61668f072dc364" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>double[]</type>
+        <definition>double [] jenes.tutorials.problem6.KnapsackProblem.getUtilities</definition>
+        <argsstring>()</argsstring>
+        <name>getUtilities</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/problem6/KnapsackProblem.java" line="74" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/problem6/KnapsackProblem.java" bodystart="74" bodyend="76"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1tutorials_1_1problem6_1_1_knapsack_problem_1a3f94e77e8f2ea920b9ec1dede3ed53f8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>double[]</type>
+        <definition>double [] jenes.tutorials.problem6.KnapsackProblem.getWeights</definition>
+        <argsstring>()</argsstring>
+        <name>getWeights</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/problem6/KnapsackProblem.java" line="78" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/problem6/KnapsackProblem.java" bodystart="78" bodyend="80"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classjenes_1_1tutorials_1_1problem6_1_1_knapsack_problem_1aa51d99e0afc8f76e96448bf45d9f412f" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classjenes_1_1tutorials_1_1problem6_1_1_knapsack_problem" kindref="compound">KnapsackProblem</ref></type>
+        <definition>static KnapsackProblem jenes.tutorials.problem6.KnapsackProblem.build</definition>
+        <argsstring>(int n)</argsstring>
+        <name>build</name>
+        <param>
+          <type>int</type>
+          <declname>n</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/problem6/KnapsackProblem.java" line="82" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/problem6/KnapsackProblem.java" bodystart="82" bodyend="97"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1tutorials_1_1problem6_1_1_knapsack_problem_1ae706a456c3248ec8360f10138d364c3e" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void jenes.tutorials.problem6.KnapsackProblem.main</definition>
+        <argsstring>(String[] args)</argsstring>
+        <name>main</name>
+        <param>
+          <type>String[]</type>
+          <declname>args</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/problem6/KnapsackProblem.java" line="99" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/problem6/KnapsackProblem.java" bodystart="99" bodyend="132"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="classjenes_1_1tutorials_1_1problem6_1_1_knapsack_problem_1aae8373d29def494dd9bbf86c729a5336" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>static String jenes.tutorials.problem6.KnapsackProblem.toString</definition>
+        <argsstring>(double[] values)</argsstring>
+        <name>toString</name>
+        <param>
+          <type>double[]</type>
+          <declname>values</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/problem6/KnapsackProblem.java" line="134" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/problem6/KnapsackProblem.java" bodystart="134" bodyend="140"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Tutorial showing how to minimization and maximization sub-prolems can cohesists in the breeding structure of Jenes.</para><para>This class defines the problem to solve.</para><para><simplesect kind="version"><para>2.0 </para></simplesect>
+<simplesect kind="since"><para>1.0 </para></simplesect>
+</para>    </detaileddescription>
+    <collaborationgraph>
+      <node id="357">
+        <label>jenes.tutorials.problem6.KnapsackProblem</label>
+        <link refid="classjenes_1_1tutorials_1_1problem6_1_1_knapsack_problem"/>
+        <childnode refid="358" relation="usage">
+          <edgelabel>algorithm</edgelabel>
+        </childnode>
+      </node>
+      <node id="359">
+        <label>jenes::GeneticAlgorithm&lt; BooleanChromosome &gt;</label>
+      </node>
+      <node id="361">
+        <label>jenes::population::Fitness&lt; BooleanChromosome &gt;</label>
+      </node>
+      <node id="358">
+        <label>jenes.tutorials.problem6.KnapsackGA</label>
+        <link refid="classjenes_1_1tutorials_1_1problem6_1_1_knapsack_g_a"/>
+        <childnode refid="359" relation="public-inheritance">
+        </childnode>
+        <childnode refid="360" relation="usage">
+          <edgelabel>minimize</edgelabel>
+          <edgelabel>maximize</edgelabel>
+        </childnode>
+      </node>
+      <node id="360">
+        <label>jenes.tutorials.problem6.KnapsackGA.KnapsackFitness</label>
+        <link refid="classjenes_1_1tutorials_1_1problem6_1_1_knapsack_g_a_1_1_knapsack_fitness"/>
+        <childnode refid="361" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/problem6/KnapsackProblem.java" line="37" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/problem6/KnapsackProblem.java" bodystart="37" bodyend="142"/>
+    <listofallmembers>
+      <member refid="classjenes_1_1tutorials_1_1problem6_1_1_knapsack_problem_1a4a10c09e3ae2ffc56a67b59f57767189" prot="private" virt="non-virtual"><scope>jenes::tutorials::problem6::KnapsackProblem</scope><name>algorithm</name></member>
+      <member refid="classjenes_1_1tutorials_1_1problem6_1_1_knapsack_problem_1aa51d99e0afc8f76e96448bf45d9f412f" prot="public" virt="non-virtual"><scope>jenes::tutorials::problem6::KnapsackProblem</scope><name>build</name></member>
+      <member refid="classjenes_1_1tutorials_1_1problem6_1_1_knapsack_problem_1a594ddc19149baf7d1c8c7487c85a4ed5" prot="private" virt="non-virtual"><scope>jenes::tutorials::problem6::KnapsackProblem</scope><name>GENERATION_LIMIT</name></member>
+      <member refid="classjenes_1_1tutorials_1_1problem6_1_1_knapsack_problem_1af5b99c0408de24f2d7598f14dc597ef7" prot="public" virt="non-virtual"><scope>jenes::tutorials::problem6::KnapsackProblem</scope><name>getCapacity</name></member>
+      <member refid="classjenes_1_1tutorials_1_1problem6_1_1_knapsack_problem_1a1eddd1274f86fe1b3e61668f072dc364" prot="public" virt="non-virtual"><scope>jenes::tutorials::problem6::KnapsackProblem</scope><name>getUtilities</name></member>
+      <member refid="classjenes_1_1tutorials_1_1problem6_1_1_knapsack_problem_1a3f94e77e8f2ea920b9ec1dede3ed53f8" prot="public" virt="non-virtual"><scope>jenes::tutorials::problem6::KnapsackProblem</scope><name>getWeights</name></member>
+      <member refid="classjenes_1_1tutorials_1_1problem6_1_1_knapsack_problem_1a5c921b1c3d9dbbe35decc777cf59169d" prot="public" virt="non-virtual"><scope>jenes::tutorials::problem6::KnapsackProblem</scope><name>KnapsackProblem</name></member>
+      <member refid="classjenes_1_1tutorials_1_1problem6_1_1_knapsack_problem_1ae706a456c3248ec8360f10138d364c3e" prot="public" virt="non-virtual"><scope>jenes::tutorials::problem6::KnapsackProblem</scope><name>main</name></member>
+      <member refid="classjenes_1_1tutorials_1_1problem6_1_1_knapsack_problem_1a138e3d34c9168d33b53f3bb67e2207d7" prot="private" virt="non-virtual"><scope>jenes::tutorials::problem6::KnapsackProblem</scope><name>POPSIZE</name></member>
+      <member refid="classjenes_1_1tutorials_1_1problem6_1_1_knapsack_problem_1a174433680cf824c4238f690d84a43e38" prot="public" virt="non-virtual"><scope>jenes::tutorials::problem6::KnapsackProblem</scope><name>run</name></member>
+      <member refid="classjenes_1_1tutorials_1_1problem6_1_1_knapsack_problem_1a9caf9c53d4ce0e4b17ceb163ee8ab837" prot="public" virt="non-virtual"><scope>jenes::tutorials::problem6::KnapsackProblem</scope><name>setCapacity</name></member>
+      <member refid="classjenes_1_1tutorials_1_1problem6_1_1_knapsack_problem_1aae8373d29def494dd9bbf86c729a5336" prot="private" virt="non-virtual"><scope>jenes::tutorials::problem6::KnapsackProblem</scope><name>toString</name></member>
+      <member refid="classjenes_1_1tutorials_1_1problem6_1_1_knapsack_problem_1acad1c415f8d164b4ffa0d99db5fc6772" prot="private" virt="non-virtual"><scope>jenes::tutorials::problem6::KnapsackProblem</scope><name>utilities</name></member>
+      <member refid="classjenes_1_1tutorials_1_1problem6_1_1_knapsack_problem_1ac49eb8a17fa93f76613151b296c23567" prot="private" virt="non-virtual"><scope>jenes::tutorials::problem6::KnapsackProblem</scope><name>UTILITIES</name></member>
+      <member refid="classjenes_1_1tutorials_1_1problem6_1_1_knapsack_problem_1a7dfea169d398ccf63ee9cb6dae89752b" prot="private" virt="non-virtual"><scope>jenes::tutorials::problem6::KnapsackProblem</scope><name>WEIGHTS</name></member>
+      <member refid="classjenes_1_1tutorials_1_1problem6_1_1_knapsack_problem_1a1c7f18379c5ca910013fc02748a53bf9" prot="private" virt="non-virtual"><scope>jenes::tutorials::problem6::KnapsackProblem</scope><name>weights</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

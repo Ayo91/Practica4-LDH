@@ -1,0 +1,158 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="classjenes_1_1tutorials_1_1old_1_1problem5_1_1_integer_allele_set" kind="class" prot="public">
+    <compoundname>jenes::tutorials::old::problem5::IntegerAlleleSet</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">jenes::chromosome::GenericAlleleSet&lt; Integer &gt;</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classjenes_1_1tutorials_1_1old_1_1problem5_1_1_integer_allele_set_1a4bf775d640641b83dd1c53564b00f263" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>jenes.tutorials.old.problem5.IntegerAlleleSet.IntegerAlleleSet</definition>
+        <argsstring>(Set&lt; Integer &gt; set)</argsstring>
+        <name>IntegerAlleleSet</name>
+        <param>
+          <type>Set&lt; Integer &gt;</type>
+          <declname>set</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/old/problem5/IntegerAlleleSet.java" line="41" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/old/problem5/IntegerAlleleSet.java" bodystart="41" bodyend="43"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classjenes_1_1tutorials_1_1old_1_1problem5_1_1_integer_allele_set_1aab816bbf2219835d788ceb8b8a92007c" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classjenes_1_1tutorials_1_1old_1_1problem5_1_1_integer_allele_set" kindref="compound">IntegerAlleleSet</ref></type>
+        <definition>static IntegerAlleleSet jenes.tutorials.old.problem5.IntegerAlleleSet.createRandom</definition>
+        <argsstring>(int size, int lowerBound, int upperBound)</argsstring>
+        <name>createRandom</name>
+        <param>
+          <type>int</type>
+          <declname>size</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>lowerBound</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>upperBound</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Builds an <ref refid="classjenes_1_1tutorials_1_1old_1_1problem5_1_1_integer_allele_set" kindref="compound">IntegerAlleleSet</ref> with random values within the range [lowerBound,upperBound] </para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>size</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the allala set cardinality </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>lowerBound</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the min value to choose </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>upperBound</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the max value to choose </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>a new <ref refid="classjenes_1_1tutorials_1_1old_1_1problem5_1_1_integer_allele_set" kindref="compound">IntegerAlleleSet</ref> </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/old/problem5/IntegerAlleleSet.java" line="53" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/old/problem5/IntegerAlleleSet.java" bodystart="53" bodyend="72"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1tutorials_1_1old_1_1problem5_1_1_integer_allele_set_1af952e89dffc31630da0371be73bae906" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classjenes_1_1tutorials_1_1old_1_1problem5_1_1_integer_allele_set" kindref="compound">IntegerAlleleSet</ref></type>
+        <definition>static IntegerAlleleSet jenes.tutorials.old.problem5.IntegerAlleleSet.createUniform</definition>
+        <argsstring>(int size, int lowerBound, int upperBound)</argsstring>
+        <name>createUniform</name>
+        <param>
+          <type>int</type>
+          <declname>size</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>lowerBound</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>upperBound</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Builds a new <ref refid="classjenes_1_1tutorials_1_1old_1_1problem5_1_1_integer_allele_set" kindref="compound">IntegerAlleleSet</ref> with uniformly distributed values within the range [lowerBound,upperBound] </para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>size</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the allala set cardinality </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>lowerBound</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the min value to choose </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>upperBound</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the max value to choose </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>a new <ref refid="classjenes_1_1tutorials_1_1old_1_1problem5_1_1_integer_allele_set" kindref="compound">IntegerAlleleSet</ref> </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/old/problem5/IntegerAlleleSet.java" line="82" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/old/problem5/IntegerAlleleSet.java" bodystart="82" bodyend="94"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Tutorial illustrating the use of object-oriented chromosomes, whose allele set can be defined by the user for each gene.</para><para>In this example the chromosomes are combinations of colors. We aim at finding the vector of colors closest to a given sequence.</para><para>This class defines a set of integers.</para><para><simplesect kind="version"><para>1.0 </para></simplesect>
+<simplesect kind="since"><para>1.0 </para></simplesect>
+</para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="267">
+        <label>jenes.tutorials.old.problem5.IntegerAlleleSet</label>
+        <link refid="classjenes_1_1tutorials_1_1old_1_1problem5_1_1_integer_allele_set"/>
+        <childnode refid="268" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="268">
+        <label>jenes::chromosome::GenericAlleleSet&lt; Integer &gt;</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="269">
+        <label>jenes.tutorials.old.problem5.IntegerAlleleSet</label>
+        <link refid="classjenes_1_1tutorials_1_1old_1_1problem5_1_1_integer_allele_set"/>
+        <childnode refid="270" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="270">
+        <label>jenes::chromosome::GenericAlleleSet&lt; Integer &gt;</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/old/problem5/IntegerAlleleSet.java" line="39" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/old/problem5/IntegerAlleleSet.java" bodystart="39" bodyend="96"/>
+    <listofallmembers>
+      <member refid="classjenes_1_1tutorials_1_1old_1_1problem5_1_1_integer_allele_set_1aab816bbf2219835d788ceb8b8a92007c" prot="public" virt="non-virtual"><scope>jenes::tutorials::old::problem5::IntegerAlleleSet</scope><name>createRandom</name></member>
+      <member refid="classjenes_1_1tutorials_1_1old_1_1problem5_1_1_integer_allele_set_1af952e89dffc31630da0371be73bae906" prot="public" virt="non-virtual"><scope>jenes::tutorials::old::problem5::IntegerAlleleSet</scope><name>createUniform</name></member>
+      <member refid="classjenes_1_1tutorials_1_1old_1_1problem5_1_1_integer_allele_set_1a4bf775d640641b83dd1c53564b00f263" prot="public" virt="non-virtual"><scope>jenes::tutorials::old::problem5::IntegerAlleleSet</scope><name>IntegerAlleleSet</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

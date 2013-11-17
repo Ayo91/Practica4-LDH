@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="namespacejenes_1_1tutorials" kind="namespace">
+    <compoundname>jenes::tutorials</compoundname>
+    <innernamespace refid="namespacejenes_1_1tutorials_1_1old">jenes::tutorials::old</innernamespace>
+    <innernamespace refid="namespacejenes_1_1tutorials_1_1problem1">jenes::tutorials::problem1</innernamespace>
+    <innernamespace refid="namespacejenes_1_1tutorials_1_1problem10">jenes::tutorials::problem10</innernamespace>
+    <innernamespace refid="namespacejenes_1_1tutorials_1_1problem11">jenes::tutorials::problem11</innernamespace>
+    <innernamespace refid="namespacejenes_1_1tutorials_1_1problem12">jenes::tutorials::problem12</innernamespace>
+    <innernamespace refid="namespacejenes_1_1tutorials_1_1problem2">jenes::tutorials::problem2</innernamespace>
+    <innernamespace refid="namespacejenes_1_1tutorials_1_1problem3">jenes::tutorials::problem3</innernamespace>
+    <innernamespace refid="namespacejenes_1_1tutorials_1_1problem4">jenes::tutorials::problem4</innernamespace>
+    <innernamespace refid="namespacejenes_1_1tutorials_1_1problem5">jenes::tutorials::problem5</innernamespace>
+    <innernamespace refid="namespacejenes_1_1tutorials_1_1problem6">jenes::tutorials::problem6</innernamespace>
+    <innernamespace refid="namespacejenes_1_1tutorials_1_1problem7">jenes::tutorials::problem7</innernamespace>
+    <innernamespace refid="namespacejenes_1_1tutorials_1_1problem8">jenes::tutorials::problem8</innernamespace>
+    <innernamespace refid="namespacejenes_1_1tutorials_1_1problem9">jenes::tutorials::problem9</innernamespace>
+    <innernamespace refid="namespacejenes_1_1tutorials_1_1utils">jenes::tutorials::utils</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="[generated]" line="1" column="1"/>
+  </compounddef>
+</doxygen>

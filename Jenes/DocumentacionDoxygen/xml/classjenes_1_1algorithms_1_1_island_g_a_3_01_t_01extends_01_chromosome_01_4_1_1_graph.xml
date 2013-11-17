@@ -1,0 +1,219 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="classjenes_1_1algorithms_1_1_island_g_a_3_01_t_01extends_01_chromosome_01_4_1_1_graph" kind="class" prot="public">
+    <compoundname>jenes::algorithms::IslandGA&lt; T extends Chromosome &gt;::Graph</compoundname>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classjenes_1_1algorithms_1_1_island_g_a_3_01_t_01extends_01_chromosome_01_4_1_1_graph_1af71354252298085f8de138e9f47e789a" prot="private" static="no" mutable="no">
+        <type>boolean[][]</type>
+        <definition>boolean [][] jenes.algorithms.IslandGA&lt; T extends Chromosome &gt;.Graph.map</definition>
+        <argsstring></argsstring>
+        <name>map</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Connections </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/algorithms/IslandGA.java" line="502" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/algorithms/IslandGA.java" bodystart="502" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classjenes_1_1algorithms_1_1_island_g_a_3_01_t_01extends_01_chromosome_01_4_1_1_graph_1a531b51e8267b7ce8931ebef917040285" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>jenes.algorithms.IslandGA&lt; T extends Chromosome &gt;.Graph.Graph</definition>
+        <argsstring>(int n)</argsstring>
+        <name>Graph</name>
+        <param>
+          <type>int</type>
+          <declname>n</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Creates a graph </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/algorithms/IslandGA.java" line="505" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/algorithms/IslandGA.java" bodystart="505" bodyend="507"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1algorithms_1_1_island_g_a_3_01_t_01extends_01_chromosome_01_4_1_1_graph_1a74c26804c4ac66dbb3b74b3fad2e808f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void jenes.algorithms.IslandGA&lt; T extends Chromosome &gt;.Graph.setLink</definition>
+        <argsstring>(int from, int to, boolean flag)</argsstring>
+        <name>setLink</name>
+        <param>
+          <type>int</type>
+          <declname>from</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>to</declname>
+        </param>
+        <param>
+          <type>boolean</type>
+          <declname>flag</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Sets a link between two nodes</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>from</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>starting node </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>to</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>ending node </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>flag</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>true, if there a link between the two nodes </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/algorithms/IslandGA.java" line="516" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/algorithms/IslandGA.java" bodystart="516" bodyend="518"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1algorithms_1_1_island_g_a_3_01_t_01extends_01_chromosome_01_4_1_1_graph_1aa40de99735aa388e87c10f07ebe3be72" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>boolean</type>
+        <definition>boolean jenes.algorithms.IslandGA&lt; T extends Chromosome &gt;.Graph.getLink</definition>
+        <argsstring>(int from, int to)</argsstring>
+        <name>getLink</name>
+        <param>
+          <type>int</type>
+          <declname>from</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>to</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Return the link between two nodes</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>from</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>starting node </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>to</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>ending node </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/algorithms/IslandGA.java" line="527" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/algorithms/IslandGA.java" bodystart="527" bodyend="529"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classjenes_1_1algorithms_1_1_island_g_a_3_01_t_01extends_01_chromosome_01_4_1_1_graph_1afbb83bf011aa8a8c36be798322c92b8a" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classjenes_1_1algorithms_1_1_island_g_a_3_01_t_01extends_01_chromosome_01_4_1_1_graph_1a531b51e8267b7ce8931ebef917040285" kindref="member">Graph</ref></type>
+        <definition>static Graph jenes.algorithms.IslandGA&lt; T extends Chromosome &gt;.Graph.buildRing</definition>
+        <argsstring>(int n, boolean bidirectional)</argsstring>
+        <name>buildRing</name>
+        <param>
+          <type>int</type>
+          <declname>n</declname>
+        </param>
+        <param>
+          <type>boolean</type>
+          <declname>bidirectional</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Builds a ring</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>n</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>number of nodes </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>bidirectional</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>true, if for each edge, there is also its opposite </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/algorithms/IslandGA.java" line="538" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/algorithms/IslandGA.java" bodystart="538" bodyend="547"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1algorithms_1_1_island_g_a_3_01_t_01extends_01_chromosome_01_4_1_1_graph_1a2ca9b63bd17a6c3ffd60916d86761a2e" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classjenes_1_1algorithms_1_1_island_g_a_3_01_t_01extends_01_chromosome_01_4_1_1_graph_1a531b51e8267b7ce8931ebef917040285" kindref="member">Graph</ref></type>
+        <definition>static Graph jenes.algorithms.IslandGA&lt; T extends Chromosome &gt;.Graph.buildGrid</definition>
+        <argsstring>(int l, int m, boolean bidirectional)</argsstring>
+        <name>buildGrid</name>
+        <param>
+          <type>int</type>
+          <declname>l</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>m</declname>
+        </param>
+        <param>
+          <type>boolean</type>
+          <declname>bidirectional</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/algorithms/IslandGA.java" line="556" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/algorithms/IslandGA.java" bodystart="556" bodyend="579"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1algorithms_1_1_island_g_a_3_01_t_01extends_01_chromosome_01_4_1_1_graph_1a1cd6f1174e30a20a506e7cc4e4293af0" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classjenes_1_1algorithms_1_1_island_g_a_3_01_t_01extends_01_chromosome_01_4_1_1_graph_1a531b51e8267b7ce8931ebef917040285" kindref="member">Graph</ref></type>
+        <definition>static Graph jenes.algorithms.IslandGA&lt; T extends Chromosome &gt;.Graph.buildFull</definition>
+        <argsstring>(int n)</argsstring>
+        <name>buildFull</name>
+        <param>
+          <type>int</type>
+          <declname>n</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/algorithms/IslandGA.java" line="587" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/algorithms/IslandGA.java" bodystart="587" bodyend="596"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>The <ref refid="classjenes_1_1algorithms_1_1_island_g_a_3_01_t_01extends_01_chromosome_01_4_1_1_graph" kindref="compound">Graph</ref> represent the paths between islands in the algorithm landscape </para>    </detaileddescription>
+    <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/algorithms/IslandGA.java" line="499" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/algorithms/IslandGA.java" bodystart="499" bodyend="597"/>
+    <listofallmembers>
+      <member refid="classjenes_1_1algorithms_1_1_island_g_a_3_01_t_01extends_01_chromosome_01_4_1_1_graph_1a1cd6f1174e30a20a506e7cc4e4293af0" prot="public" virt="non-virtual"><scope>jenes::algorithms::IslandGA&lt; T extends Chromosome &gt;::Graph</scope><name>buildFull</name></member>
+      <member refid="classjenes_1_1algorithms_1_1_island_g_a_3_01_t_01extends_01_chromosome_01_4_1_1_graph_1a2ca9b63bd17a6c3ffd60916d86761a2e" prot="public" virt="non-virtual"><scope>jenes::algorithms::IslandGA&lt; T extends Chromosome &gt;::Graph</scope><name>buildGrid</name></member>
+      <member refid="classjenes_1_1algorithms_1_1_island_g_a_3_01_t_01extends_01_chromosome_01_4_1_1_graph_1afbb83bf011aa8a8c36be798322c92b8a" prot="public" virt="non-virtual"><scope>jenes::algorithms::IslandGA&lt; T extends Chromosome &gt;::Graph</scope><name>buildRing</name></member>
+      <member refid="classjenes_1_1algorithms_1_1_island_g_a_3_01_t_01extends_01_chromosome_01_4_1_1_graph_1aa40de99735aa388e87c10f07ebe3be72" prot="public" virt="non-virtual"><scope>jenes::algorithms::IslandGA&lt; T extends Chromosome &gt;::Graph</scope><name>getLink</name></member>
+      <member refid="classjenes_1_1algorithms_1_1_island_g_a_3_01_t_01extends_01_chromosome_01_4_1_1_graph_1a531b51e8267b7ce8931ebef917040285" prot="public" virt="non-virtual"><scope>jenes::algorithms::IslandGA&lt; T extends Chromosome &gt;::Graph</scope><name>Graph</name></member>
+      <member refid="classjenes_1_1algorithms_1_1_island_g_a_3_01_t_01extends_01_chromosome_01_4_1_1_graph_1af71354252298085f8de138e9f47e789a" prot="private" virt="non-virtual"><scope>jenes::algorithms::IslandGA&lt; T extends Chromosome &gt;::Graph</scope><name>map</name></member>
+      <member refid="classjenes_1_1algorithms_1_1_island_g_a_3_01_t_01extends_01_chromosome_01_4_1_1_graph_1a74c26804c4ac66dbb3b74b3fad2e808f" prot="public" virt="non-virtual"><scope>jenes::algorithms::IslandGA&lt; T extends Chromosome &gt;::Graph</scope><name>setLink</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

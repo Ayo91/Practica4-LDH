@@ -1,0 +1,81 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="classjenes_1_1tutorials_1_1old_1_1problem12_1_1_function_1_1_schaffer" kind="class" prot="public">
+    <compoundname>jenes::tutorials::old::problem12::Function::Schaffer</compoundname>
+    <basecompoundref refid="classjenes_1_1tutorials_1_1old_1_1problem12_1_1_function" prot="public" virt="non-virtual">jenes.tutorials.old.problem12.Function</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classjenes_1_1tutorials_1_1old_1_1problem12_1_1_function_1_1_schaffer_1ac632a384bd3db03bf007f92ea5e29f58" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>jenes.tutorials.old.problem12.Function.Schaffer.Schaffer</definition>
+        <argsstring>()</argsstring>
+        <name>Schaffer</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/old/problem12/Function.java" line="45" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/old/problem12/Function.java" bodystart="45" bodyend="47"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1tutorials_1_1old_1_1problem12_1_1_function_1_1_schaffer_1a1443f5f3a7da74a3f3d4552b63b9e12d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>double[]</type>
+        <definition>double [] jenes.tutorials.old.problem12.Function.Schaffer.evaluate</definition>
+        <argsstring>(double...x)</argsstring>
+        <name>evaluate</name>
+        <reimplements refid="classjenes_1_1tutorials_1_1old_1_1problem12_1_1_function_1aa1f4a7947b903e4ae9b9617940d4ed03">evaluate</reimplements>
+        <param>
+          <type>double...</type>
+          <declname>x</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/old/problem12/Function.java" line="49" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/old/problem12/Function.java" bodystart="49" bodyend="54"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Shaffer function </para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="572">
+        <label>jenes.tutorials.old.problem12.Function.Schaffer</label>
+        <link refid="classjenes_1_1tutorials_1_1old_1_1problem12_1_1_function_1_1_schaffer"/>
+        <childnode refid="573" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="573">
+        <label>jenes.tutorials.old.problem12.Function</label>
+        <link refid="classjenes_1_1tutorials_1_1old_1_1problem12_1_1_function"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="574">
+        <label>jenes.tutorials.old.problem12.Function.Schaffer</label>
+        <link refid="classjenes_1_1tutorials_1_1old_1_1problem12_1_1_function_1_1_schaffer"/>
+        <childnode refid="575" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="575">
+        <label>jenes.tutorials.old.problem12.Function</label>
+        <link refid="classjenes_1_1tutorials_1_1old_1_1problem12_1_1_function"/>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/old/problem12/Function.java" line="43" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/old/problem12/Function.java" bodystart="43" bodyend="55"/>
+    <listofallmembers>
+      <member refid="classjenes_1_1tutorials_1_1old_1_1problem12_1_1_function_1a0a732b2084fd09b6d69858b21a780a05" prot="protected" virt="non-virtual"><scope>jenes::tutorials::old::problem12::Function::Schaffer</scope><name>bounds</name></member>
+      <member refid="classjenes_1_1tutorials_1_1old_1_1problem12_1_1_function_1_1_schaffer_1a1443f5f3a7da74a3f3d4552b63b9e12d" prot="public" virt="virtual"><scope>jenes::tutorials::old::problem12::Function::Schaffer</scope><name>evaluate</name></member>
+      <member refid="classjenes_1_1tutorials_1_1old_1_1problem12_1_1_function_1a9c5f78b0b4d831eebec0071baa79f8ee" prot="public" virt="non-virtual"><scope>jenes::tutorials::old::problem12::Function::Schaffer</scope><name>Function</name></member>
+      <member refid="classjenes_1_1tutorials_1_1old_1_1problem12_1_1_function_1ae97b45b0a6c1d5db782a138e06d2f076" prot="public" virt="non-virtual"><scope>jenes::tutorials::old::problem12::Function::Schaffer</scope><name>getBounds</name></member>
+      <member refid="classjenes_1_1tutorials_1_1old_1_1problem12_1_1_function_1ae5415395c7c1fde07fbc5581afa0273c" prot="public" virt="non-virtual"><scope>jenes::tutorials::old::problem12::Function::Schaffer</scope><name>getGoals</name></member>
+      <member refid="classjenes_1_1tutorials_1_1old_1_1problem12_1_1_function_1a48a0197bf768aca5fc8154613cd30e8d" prot="public" virt="non-virtual"><scope>jenes::tutorials::old::problem12::Function::Schaffer</scope><name>getName</name></member>
+      <member refid="classjenes_1_1tutorials_1_1old_1_1problem12_1_1_function_1af412a211a5270eb27376db8cd0bc704d" prot="public" virt="non-virtual"><scope>jenes::tutorials::old::problem12::Function::Schaffer</scope><name>getNVars</name></member>
+      <member refid="classjenes_1_1tutorials_1_1old_1_1problem12_1_1_function_1a9ad846e268721b5a9d5d3e15763d5400" prot="protected" virt="non-virtual"><scope>jenes::tutorials::old::problem12::Function::Schaffer</scope><name>goals</name></member>
+      <member refid="classjenes_1_1tutorials_1_1old_1_1problem12_1_1_function_1a6cc32f98e4932a3251cbaffdf08b9773" prot="protected" virt="non-virtual"><scope>jenes::tutorials::old::problem12::Function::Schaffer</scope><name>name</name></member>
+      <member refid="classjenes_1_1tutorials_1_1old_1_1problem12_1_1_function_1_1_schaffer_1ac632a384bd3db03bf007f92ea5e29f58" prot="public" virt="non-virtual"><scope>jenes::tutorials::old::problem12::Function::Schaffer</scope><name>Schaffer</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

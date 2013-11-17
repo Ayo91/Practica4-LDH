@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="enumjenes_1_1stage_1_1operator_1_1common_1_1_steady_state_3_01_t_01extends_01_chromosome_01_4_1_1_replacement_strategy" kind="enum" prot="public">
+    <compoundname>jenes::stage::operator::common::SteadyState&lt; T extends Chromosome &gt;::ReplacementStrategy</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="enumjenes_1_1stage_1_1operator_1_1common_1_1_steady_state_3_01_t_01extends_01_chromosome_01_4_1_1_replacement_strategy_1a7cc73c0ae9c2f979dc4bb8aa9000582e" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>jenes.stage.operator.common.SteadyState&lt; T extends Chromosome &gt;.ReplacementStrategy.WORST</definition>
+        <argsstring></argsstring>
+        <name>WORST</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/operator/common/SteadyState.java" line="41" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/operator/common/SteadyState.java" bodystart="41" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="enumjenes_1_1stage_1_1operator_1_1common_1_1_steady_state_3_01_t_01extends_01_chromosome_01_4_1_1_replacement_strategy_1a601f61ea7c6745372f4ddc663636c2fb" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>jenes.stage.operator.common.SteadyState&lt; T extends Chromosome &gt;.ReplacementStrategy.RANDOM</definition>
+        <argsstring></argsstring>
+        <name>RANDOM</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/operator/common/SteadyState.java" line="42" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/operator/common/SteadyState.java" bodystart="41" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Replacement strategies </para>    </detaileddescription>
+    <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/operator/common/SteadyState.java" line="40" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/operator/common/SteadyState.java" bodystart="40" bodyend="42"/>
+    <listofallmembers>
+      <member refid="enumjenes_1_1stage_1_1operator_1_1common_1_1_steady_state_3_01_t_01extends_01_chromosome_01_4_1_1_replacement_strategy_1a601f61ea7c6745372f4ddc663636c2fb" prot="public" virt="non-virtual"><scope>jenes::stage::operator::common::SteadyState&lt; T extends Chromosome &gt;::ReplacementStrategy</scope><name>RANDOM</name></member>
+      <member refid="enumjenes_1_1stage_1_1operator_1_1common_1_1_steady_state_3_01_t_01extends_01_chromosome_01_4_1_1_replacement_strategy_1a7cc73c0ae9c2f979dc4bb8aa9000582e" prot="public" virt="non-virtual"><scope>jenes::stage::operator::common::SteadyState&lt; T extends Chromosome &gt;::ReplacementStrategy</scope><name>WORST</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

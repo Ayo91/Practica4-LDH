@@ -1,0 +1,163 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="classjenes_1_1tutorials_1_1old_1_1problem5_1_1_o_c_problem" kind="class" prot="public">
+    <compoundname>jenes::tutorials::old::problem5::OCProblem</compoundname>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="classjenes_1_1tutorials_1_1old_1_1problem5_1_1_o_c_problem_1af46aa659ca0eed22cbfabe28b78282d6" prot="private" static="yes" mutable="no">
+        <type>int</type>
+        <definition>int jenes.tutorials.old.problem5.OCProblem.POPULATION_SIZE</definition>
+        <argsstring></argsstring>
+        <name>POPULATION_SIZE</name>
+        <initializer>= 10</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/old/problem5/OCProblem.java" line="46" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/old/problem5/OCProblem.java" bodystart="46" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classjenes_1_1tutorials_1_1old_1_1problem5_1_1_o_c_problem_1a63d7a61bcda7da99c4588cc34165d115" prot="private" static="yes" mutable="no">
+        <type>int</type>
+        <definition>int jenes.tutorials.old.problem5.OCProblem.GENERATION_LIMIT</definition>
+        <argsstring></argsstring>
+        <name>GENERATION_LIMIT</name>
+        <initializer>= 100</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/old/problem5/OCProblem.java" line="47" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/old/problem5/OCProblem.java" bodystart="47" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classjenes_1_1tutorials_1_1old_1_1problem5_1_1_o_c_problem_1a9fb1b15412a3431af0d035babc358faf" prot="private" static="yes" mutable="no">
+        <type><ref refid="classjenes_1_1chromosome_1_1_object_chromosome" kindref="compound">ObjectChromosome</ref></type>
+        <definition>ObjectChromosome jenes.tutorials.old.problem5.OCProblem.template</definition>
+        <argsstring></argsstring>
+        <name>template</name>
+        <initializer>=
+            new <ref refid="classjenes_1_1chromosome_1_1_object_chromosome" kindref="compound">ObjectChromosome</ref>( <ref refid="classjenes_1_1tutorials_1_1old_1_1problem5_1_1_integer_allele_set_1af952e89dffc31630da0371be73bae906" kindref="member">IntegerAlleleSet.createUniform</ref>(10, 0, 9),
+            <ref refid="classjenes_1_1tutorials_1_1old_1_1problem5_1_1_integer_allele_set_1af952e89dffc31630da0371be73bae906" kindref="member">IntegerAlleleSet.createUniform</ref>(21, 10, 30),
+            <ref refid="classjenes_1_1tutorials_1_1old_1_1problem5_1_1_double_allele_set_1ab055f13f0aade5cd9bf21a42a6c00f67" kindref="member">DoubleAlleleSet.createRandom</ref>(10, 0, 1),
+            new GenericAlleleSet&lt;Boolean&gt;(true, false),
+            new GenericAlleleSet&lt;<ref refid="enumjenes_1_1tutorials_1_1old_1_1problem5_1_1_color" kindref="compound">Color</ref>&gt;(Color.values()) )</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/old/problem5/OCProblem.java" line="49" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/old/problem5/OCProblem.java" bodystart="49" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classjenes_1_1tutorials_1_1old_1_1problem5_1_1_o_c_problem_1af3e6937a8aa09bcde81d7c8e5a7fb6c2" prot="private" static="yes" mutable="no">
+        <type>GeneticAlgorithm&lt; <ref refid="classjenes_1_1chromosome_1_1_object_chromosome" kindref="compound">ObjectChromosome</ref> &gt;</type>
+        <definition>GeneticAlgorithm&lt;ObjectChromosome&gt; jenes.tutorials.old.problem5.OCProblem.ga</definition>
+        <argsstring></argsstring>
+        <name>ga</name>
+        <initializer>=
+            new GeneticAlgorithm&lt;<ref refid="classjenes_1_1chromosome_1_1_object_chromosome" kindref="compound">ObjectChromosome</ref>&gt;( new Population&lt;<ref refid="classjenes_1_1chromosome_1_1_object_chromosome" kindref="compound">ObjectChromosome</ref>&gt;(new Individual&lt;<ref refid="classjenes_1_1chromosome_1_1_object_chromosome" kindref="compound">ObjectChromosome</ref>&gt;(<ref refid="classjenes_1_1tutorials_1_1old_1_1problem5_1_1_o_c_problem_1a9fb1b15412a3431af0d035babc358faf" kindref="member">template</ref>), <ref refid="classjenes_1_1tutorials_1_1old_1_1problem5_1_1_o_c_problem_1af46aa659ca0eed22cbfabe28b78282d6" kindref="member">POPULATION_SIZE</ref>), <ref refid="classjenes_1_1tutorials_1_1old_1_1problem5_1_1_o_c_problem_1a63d7a61bcda7da99c4588cc34165d115" kindref="member">GENERATION_LIMIT</ref>){
+        
+        @Override
+        public void evaluateIndividual(Individual&lt;<ref refid="classjenes_1_1chromosome_1_1_object_chromosome" kindref="compound">ObjectChromosome</ref>&gt; individual) {
+            <ref refid="classjenes_1_1chromosome_1_1_object_chromosome" kindref="compound">ObjectChromosome</ref> <ref refid="classjenes_1_1tutorials_1_1old_1_1problem5_1_1_o_c_problem_1a9fb1b15412a3431af0d035babc358faf" kindref="member">template</ref> = individual.getChromosome();
+            
+            int i1 = (Integer)template.getValue(0);
+            int i2 = (Integer)template.getValue(1);
+            double d = (Double)template.getValue(2);
+            boolean b = (Boolean)template.getValue(3);
+            <ref refid="enumjenes_1_1tutorials_1_1old_1_1problem5_1_1_color" kindref="compound">Color</ref> c = (<ref refid="enumjenes_1_1tutorials_1_1old_1_1problem5_1_1_color" kindref="compound">Color</ref>)template.getValue(4);
+            
+            double acc = b ? (3*i1 + 4*i2 + d) : i1;
+            
+            switch( c ) {
+            case BLACK : acc += 10; break;
+            case RED   : acc += 10; break;
+            case WHITE : acc += 10; break;
+            }
+            
+            individual.setScore(acc);
+        }
+        
+    }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/old/problem5/OCProblem.java" line="56" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/old/problem5/OCProblem.java" bodystart="56" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classjenes_1_1tutorials_1_1old_1_1problem5_1_1_o_c_problem_1afb39fb22d5193f3dd2c7bcd0db99cee4" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void jenes.tutorials.old.problem5.OCProblem.main</definition>
+        <argsstring>(String[] args)</argsstring>
+        <name>main</name>
+        <param>
+          <type>String[]</type>
+          <declname>args</declname>
+        </param>
+        <exceptions> throws Exception </exceptions>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/old/problem5/OCProblem.java" line="82" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/old/problem5/OCProblem.java" bodystart="82" bodyend="108"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Tutorial illustrating the use of object-oriented chromosomes, whose allele set can be defined by the user for each gene.</para><para>In this example the chromosomes are combinations of colors. We aim at finding the vector of colors closest to a given sequence.</para><para>This class defines the problem.</para><para><simplesect kind="version"><para>1.0 </para></simplesect>
+<simplesect kind="since"><para>1.0 </para></simplesect>
+</para>    </detaileddescription>
+    <collaborationgraph>
+      <node id="437">
+        <label>jenes.tutorials.old.problem5.OCProblem</label>
+        <link refid="classjenes_1_1tutorials_1_1old_1_1problem5_1_1_o_c_problem"/>
+        <childnode refid="438" relation="usage">
+          <edgelabel>template</edgelabel>
+        </childnode>
+        <childnode refid="442" relation="usage">
+          <edgelabel>ga</edgelabel>
+        </childnode>
+      </node>
+      <node id="442">
+        <label>GeneticAlgorithm&lt; jenes.chromosome.ObjectChromosome &gt;</label>
+      </node>
+      <node id="441">
+        <label>Cloneable</label>
+      </node>
+      <node id="439">
+        <label>jenes::chromosome::Chromosome&lt; ObjectChromosome &gt;</label>
+      </node>
+      <node id="440">
+        <label>jenes.chromosome.ObjectChromosome.Gene</label>
+        <link refid="classjenes_1_1chromosome_1_1_object_chromosome_1_1_gene"/>
+        <childnode refid="441" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="438">
+        <label>jenes.chromosome.ObjectChromosome</label>
+        <link refid="classjenes_1_1chromosome_1_1_object_chromosome"/>
+        <childnode refid="439" relation="public-inheritance">
+        </childnode>
+        <childnode refid="440" relation="usage">
+          <edgelabel>genes</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/old/problem5/OCProblem.java" line="44" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/old/problem5/OCProblem.java" bodystart="44" bodyend="109"/>
+    <listofallmembers>
+      <member refid="classjenes_1_1tutorials_1_1old_1_1problem5_1_1_o_c_problem_1af3e6937a8aa09bcde81d7c8e5a7fb6c2" prot="private" virt="non-virtual"><scope>jenes::tutorials::old::problem5::OCProblem</scope><name>ga</name></member>
+      <member refid="classjenes_1_1tutorials_1_1old_1_1problem5_1_1_o_c_problem_1a63d7a61bcda7da99c4588cc34165d115" prot="private" virt="non-virtual"><scope>jenes::tutorials::old::problem5::OCProblem</scope><name>GENERATION_LIMIT</name></member>
+      <member refid="classjenes_1_1tutorials_1_1old_1_1problem5_1_1_o_c_problem_1afb39fb22d5193f3dd2c7bcd0db99cee4" prot="public" virt="non-virtual"><scope>jenes::tutorials::old::problem5::OCProblem</scope><name>main</name></member>
+      <member refid="classjenes_1_1tutorials_1_1old_1_1problem5_1_1_o_c_problem_1af46aa659ca0eed22cbfabe28b78282d6" prot="private" virt="non-virtual"><scope>jenes::tutorials::old::problem5::OCProblem</scope><name>POPULATION_SIZE</name></member>
+      <member refid="classjenes_1_1tutorials_1_1old_1_1problem5_1_1_o_c_problem_1a9fb1b15412a3431af0d035babc358faf" prot="private" virt="non-virtual"><scope>jenes::tutorials::old::problem5::OCProblem</scope><name>template</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,88 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="classjenes_1_1stage_1_1operator_1_1_operator_3_01_t_01extends_01_chromosome_01_4_1_1_statistics" kind="class" prot="public">
+    <compoundname>jenes::stage::operator::Operator&lt; T extends Chromosome &gt;::Statistics</compoundname>
+      <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="classjenes_1_1stage_1_1operator_1_1_operator_3_01_t_01extends_01_chromosome_01_4_1_1_statistics_1a3e7fc955df9ca708795c24336b12f937" prot="protected" static="no" mutable="no">
+        <type>long</type>
+        <definition>long jenes.stage.operator.Operator&lt; T extends Chromosome &gt;.Statistics.executionTime</definition>
+        <argsstring></argsstring>
+        <name>executionTime</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>the excecution time of the last procssing of the operator </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/operator/Operator.java" line="88" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/operator/Operator.java" bodystart="88" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classjenes_1_1stage_1_1operator_1_1_operator_3_01_t_01extends_01_chromosome_01_4_1_1_statistics_1adaa59a7b449045b5fd3c9abd3fbecf23" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>jenes.stage.operator.Operator&lt; T extends Chromosome &gt;.Statistics.Statistics</definition>
+        <argsstring>()</argsstring>
+        <name>Statistics</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs a new statistics operator </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/operator/Operator.java" line="94" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/operator/Operator.java" bodystart="94" bodyend="95"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1stage_1_1operator_1_1_operator_3_01_t_01extends_01_chromosome_01_4_1_1_statistics_1a7ad4b3ece9b2cdbf4a9142eda087a12d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>long</type>
+        <definition>long jenes.stage.operator.Operator&lt; T extends Chromosome &gt;.Statistics.getExecutionTime</definition>
+        <argsstring>()</argsstring>
+        <name>getExecutionTime</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns the execution of the last processing of the operator</para><para><simplesect kind="return"><para>the time of the last processing of the operator </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/operator/Operator.java" line="102" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/operator/Operator.java" bodystart="102" bodyend="104"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classjenes_1_1stage_1_1operator_1_1_operator_3_01_t_01extends_01_chromosome_01_4_1_1_statistics_1a26f2fb7bb11b9d05d95705ec95f470cf" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void jenes.stage.operator.Operator&lt; T extends Chromosome &gt;.Statistics.fill</definition>
+        <argsstring>(Statistics stats)</argsstring>
+        <name>fill</name>
+        <param>
+          <type><ref refid="classjenes_1_1stage_1_1operator_1_1_operator_3_01_t_01extends_01_chromosome_01_4_1_1_statistics_1adaa59a7b449045b5fd3c9abd3fbecf23" kindref="member">Statistics</ref></type>
+          <declname>stats</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Fills the specified statistics with the data of the operator statistics. At the end, these statistics will have the same state</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>stats</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the statistics to fill </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/operator/Operator.java" line="113" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/operator/Operator.java" bodystart="113" bodyend="115"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>A statistics object holding the time spent to execute the operator. The statistics is available by invoking the <ref refid="" kindref="compound">Statistics#fill(jenes.stage.operator.Operator.Statistics)</ref> method: it modifies the specified statistics stage according to that of the statistics associated at the operator. </para>    </detaileddescription>
+    <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/operator/Operator.java" line="85" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/operator/Operator.java" bodystart="85" bodyend="116"/>
+    <listofallmembers>
+      <member refid="classjenes_1_1stage_1_1operator_1_1_operator_3_01_t_01extends_01_chromosome_01_4_1_1_statistics_1a3e7fc955df9ca708795c24336b12f937" prot="protected" virt="non-virtual"><scope>jenes::stage::operator::Operator&lt; T extends Chromosome &gt;::Statistics</scope><name>executionTime</name></member>
+      <member refid="classjenes_1_1stage_1_1operator_1_1_operator_3_01_t_01extends_01_chromosome_01_4_1_1_statistics_1a26f2fb7bb11b9d05d95705ec95f470cf" prot="protected" virt="non-virtual"><scope>jenes::stage::operator::Operator&lt; T extends Chromosome &gt;::Statistics</scope><name>fill</name></member>
+      <member refid="classjenes_1_1stage_1_1operator_1_1_operator_3_01_t_01extends_01_chromosome_01_4_1_1_statistics_1a7ad4b3ece9b2cdbf4a9142eda087a12d" prot="public" virt="non-virtual"><scope>jenes::stage::operator::Operator&lt; T extends Chromosome &gt;::Statistics</scope><name>getExecutionTime</name></member>
+      <member refid="classjenes_1_1stage_1_1operator_1_1_operator_3_01_t_01extends_01_chromosome_01_4_1_1_statistics_1adaa59a7b449045b5fd3c9abd3fbecf23" prot="public" virt="non-virtual"><scope>jenes::stage::operator::Operator&lt; T extends Chromosome &gt;::Statistics</scope><name>Statistics</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

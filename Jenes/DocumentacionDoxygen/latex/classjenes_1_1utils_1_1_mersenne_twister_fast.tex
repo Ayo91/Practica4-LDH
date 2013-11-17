@@ -1,0 +1,307 @@
+\hypertarget{classjenes_1_1utils_1_1_mersenne_twister_fast}{\section{jenes.\-utils.\-Mersenne\-Twister\-Fast Class Reference}
+\label{classjenes_1_1utils_1_1_mersenne_twister_fast}\index{jenes.\-utils.\-Mersenne\-Twister\-Fast@{jenes.\-utils.\-Mersenne\-Twister\-Fast}}
+}
+Inheritance diagram for jenes.\-utils.\-Mersenne\-Twister\-Fast\-:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=3.000000cm]{classjenes_1_1utils_1_1_mersenne_twister_fast}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classjenes_1_1utils_1_1_mersenne_twister_fast_a7321af0f92bcda7c245ebfbb647f7e4c}{Mersenne\-Twister\-Fast} ()
+\item 
+\hyperlink{classjenes_1_1utils_1_1_mersenne_twister_fast_a554aee5d390bb57ad30577b194c8b7b2}{Mersenne\-Twister\-Fast} (final long \hyperlink{classjenes_1_1utils_1_1_mersenne_twister_fast_af54ad21e36a866d458e55ad8c3d89ac2}{seed})
+\item 
+final void \hyperlink{classjenes_1_1utils_1_1_mersenne_twister_fast_aa44ca1bf8e9a2f272e248ea279f1e80c}{set\-Seed} (final long \hyperlink{classjenes_1_1utils_1_1_mersenne_twister_fast_af54ad21e36a866d458e55ad8c3d89ac2}{seed})
+\item 
+final int \hyperlink{classjenes_1_1utils_1_1_mersenne_twister_fast_a063b45fa6e20a5eea9acbe45a8c48ce0}{next\-Int} ()
+\item 
+final short \hyperlink{classjenes_1_1utils_1_1_mersenne_twister_fast_a89d03c5b1815eff8c443ef081a869e78}{next\-Short} ()
+\item 
+final char \hyperlink{classjenes_1_1utils_1_1_mersenne_twister_fast_a8f7cb8ea9832581729660f5c0346ee3a}{next\-Char} ()
+\item 
+final boolean \hyperlink{classjenes_1_1utils_1_1_mersenne_twister_fast_a54fa48ab055886a90aefdcb816257f4b}{next\-Boolean} ()
+\item 
+final byte \hyperlink{classjenes_1_1utils_1_1_mersenne_twister_fast_a5e7c0943fcc746a30277f0e09abbf60f}{next\-Byte} ()
+\item 
+final void \hyperlink{classjenes_1_1utils_1_1_mersenne_twister_fast_a237dc55841fd8bf544106d052833c374}{next\-Bytes} (final byte\mbox{[}$\,$\mbox{]} bytes)
+\item 
+final long \hyperlink{classjenes_1_1utils_1_1_mersenne_twister_fast_a1de4f36e5e4035569bbb79bb06d4e9c7}{next\-Long} ()
+\item 
+final double \hyperlink{classjenes_1_1utils_1_1_mersenne_twister_fast_a64238ab497c1e504c798355f682ea2b9}{next\-Double} ()
+\item 
+final double \hyperlink{classjenes_1_1utils_1_1_mersenne_twister_fast_a4af0dd9a4366e476e4d45568cbb558e9}{next\-Gaussian} ()
+\item 
+final float \hyperlink{classjenes_1_1utils_1_1_mersenne_twister_fast_af2d30f1dec2a94ca26a3b1ccc0624ce9}{next\-Float} ()
+\item 
+final int \hyperlink{classjenes_1_1utils_1_1_mersenne_twister_fast_ae66ea69e37e4866fbb3beecb4e66577a}{next\-Int} (final int n)
+\end{DoxyCompactItemize}
+\subsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static void \hyperlink{classjenes_1_1utils_1_1_mersenne_twister_fast_a5c955ea4cf1b925290dd92ddecc0c510}{main} (String args\mbox{[}$\,$\mbox{]})
+\end{DoxyCompactItemize}
+\subsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+long \hyperlink{classjenes_1_1utils_1_1_mersenne_twister_fast_a88963c0469e0bad7a1834469cf0f7a10}{get\-Seed} ()
+\end{DoxyCompactItemize}
+\subsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+int \hyperlink{classjenes_1_1utils_1_1_mersenne_twister_fast_a982d8674fe867dbc2ed4d81e346bd53e}{mt} \mbox{[}$\,$\mbox{]}
+\item 
+int \hyperlink{classjenes_1_1utils_1_1_mersenne_twister_fast_a249ff994b5401de034349bd26d1048a5}{mti}
+\item 
+int \hyperlink{classjenes_1_1utils_1_1_mersenne_twister_fast_ab47bd6db1f44c11be545d52af445754a}{mag01} \mbox{[}$\,$\mbox{]}
+\item 
+double \hyperlink{classjenes_1_1utils_1_1_mersenne_twister_fast_aabc67f7eb3dd3b7d139ee7211ae88d72}{next\-Next\-Gaussian}
+\item 
+boolean \hyperlink{classjenes_1_1utils_1_1_mersenne_twister_fast_a5386c1c630b71ef34d7ff55a040fa2a0}{have\-Next\-Next\-Gaussian}
+\item 
+long \hyperlink{classjenes_1_1utils_1_1_mersenne_twister_fast_af54ad21e36a866d458e55ad8c3d89ac2}{seed}
+\end{DoxyCompactItemize}
+\subsection*{Static Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+static final int \hyperlink{classjenes_1_1utils_1_1_mersenne_twister_fast_a7d764d0e1d79a1a64977acd0d4e6d8ae}{N} = 624
+\item 
+static final int \hyperlink{classjenes_1_1utils_1_1_mersenne_twister_fast_a7230af540751efe08187e45c15e4e9f8}{M} = 397
+\item 
+static final int \hyperlink{classjenes_1_1utils_1_1_mersenne_twister_fast_a81b66e24b88e9d3338c3fa84c1ec2421}{M\-A\-T\-R\-I\-X\-\_\-\-A} = 0x9908b0df
+\item 
+static final int \hyperlink{classjenes_1_1utils_1_1_mersenne_twister_fast_acb11c6167b19e7e19be9337e5f389c99}{U\-P\-P\-E\-R\-\_\-\-M\-A\-S\-K} = 0x80000000
+\item 
+static final int \hyperlink{classjenes_1_1utils_1_1_mersenne_twister_fast_aa4a16f54a6dd22b49cede7adbfad7a24}{L\-O\-W\-E\-R\-\_\-\-M\-A\-S\-K} = 0x7fffffff
+\item 
+static final int \hyperlink{classjenes_1_1utils_1_1_mersenne_twister_fast_a1ef24f834e07e21daa774f923a261cdc}{T\-E\-M\-P\-E\-R\-I\-N\-G\-\_\-\-M\-A\-S\-K\-\_\-\-B} = 0x9d2c5680
+\item 
+static final int \hyperlink{classjenes_1_1utils_1_1_mersenne_twister_fast_a54b88e85493a22103f45b6e380c9bf79}{T\-E\-M\-P\-E\-R\-I\-N\-G\-\_\-\-M\-A\-S\-K\-\_\-\-C} = 0xefc60000
+\item 
+static final long \hyperlink{classjenes_1_1utils_1_1_mersenne_twister_fast_a7c4e79e22cfb451e328e35c95ab5176b}{G\-O\-O\-D\-\_\-\-S\-E\-E\-D} = 4357
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Mersenne Twister and \hyperlink{classjenes_1_1utils_1_1_mersenne_twister_fast}{Mersenne\-Twister\-Fast}\-: 
+
+{\bfseries \hyperlink{classjenes_1_1utils_1_1_mersenne_twister_fast}{Mersenne\-Twister\-Fast}} is a drop-\/in subclass replacement for java.\-util.\-Random. It is properly synchronized and can be used in a multithreaded environment.
+
+{\bfseries \hyperlink{classjenes_1_1utils_1_1_mersenne_twister_fast}{Mersenne\-Twister\-Fast}} is not a subclass of java.\-util.\-Random. It has the same public methods as \hyperlink{classjenes_1_1utils_1_1_random}{Random} does, however, and it is algorithmically identical to Mersenne\-Twister. \hyperlink{classjenes_1_1utils_1_1_mersenne_twister_fast}{Mersenne\-Twister\-Fast} has hard-\/code inlined all of its methods directly, and made all of them final (well, the ones of consequence anyway). Further, these methods are {\itshape not} synchronized, so the same \hyperlink{classjenes_1_1utils_1_1_mersenne_twister_fast}{Mersenne\-Twister\-Fast} instance cannot be shared by multiple threads. But all this helps \hyperlink{classjenes_1_1utils_1_1_mersenne_twister_fast}{Mersenne\-Twister\-Fast} achieve over twice the speed of Mersenne\-Twister.
+
+{\bfseries About the Mersenne Twister. } This is a Java version of the C-\/program for M\-T19937\-: Integer version. next(32) generates one pseudorandom unsigned integer (32bit)
+
+which is uniformly distributed among 0 to 2$^\wedge$32-\/1 for each call. next(int bits) $>$$>$$>$'s by (32-\/bits) to get a value ranging between 0 and 2$^\wedge$bits-\/1 long inclusive; hope that's correct. set\-Seed(seed) set initial values to the working area of 624 words. For set\-Seed(seed), seed is any 32-\/bit integer {\bfseries except for 0}.
+
+Orignally Coded by Takuji Nishimura, considering the suggestions by Topher Cooper and Marc Rieffel in July-\/\-Aug. 1997. More information can be found \href{http://www.math.keio.ac.jp/matumoto/emt.html}{\tt here. }
+
+Translated to Java by Michael Lecuyer January 30, 1999 Copyright (C) 1999 Michael Lecuyer 
+
+This library is free software; you can redistribute it and or
+
+modify it under the terms of the G\-N\-U Library General Public License as published by the Free Software Foundation; either version 2 of the License, or (at your option) any later version. This library is distributed in the hope that it will be useful,
+
+but W\-I\-T\-H\-O\-U\-T A\-N\-Y W\-A\-R\-R\-A\-N\-T\-Y; without even the implied warranty of M\-E\-R\-C\-H\-A\-N\-T\-A\-B\-I\-L\-I\-T\-Y or F\-I\-T\-N\-E\-S\-S F\-O\-R A P\-A\-R\-T\-I\-C\-U\-L\-A\-R P\-U\-R\-P\-O\-S\-E. See the G\-N\-U Library General Public License for more details. You should have received a copy of the G\-N\-U Library General Public License along with this library; if not, write to the Free Foundation, Inc., 59 Temple Place, Suite 330, Boston, M\-A 02111-\/1307 U\-S\-A 
+
+Makoto Matsumoto and Takuji Nishimura, the original authors ask \char`\"{}\-When you use this, send an email to\-: matumoto@math.\-keio.\-ac.\-jp
+with an appropriate reference to your work\char`\"{} You might also point out this was a translation. 
+
+{\bfseries Reference. } M. Matsumoto and T. Nishimura, \char`\"{}\-Mersenne Twister\-: A 623-\/\-Dimensionally Equidistributed Uniform
+\-Pseudo-\/\-Random Number Generator\char`\"{}, {\itshape A\-C\-M Transactions on Modeling and Computer Simulation,} Vol. 8, No. 1, January 1998, pp 3--30.
+
+{\bfseries About this version. } This is a modification of the \href{http://www.theorem.com/java/index.htm#Mersenne}{\tt original code} made to conform to proper java.\-util.\-Random format by \href{http://www.cs.umd.edu/users/seanl/}{\tt Sean Luke,} August 7, 1999.
+
+{\bfseries Bug Fixes. }This implementation implements the bug fixes made in Java 1.\-2's version of \hyperlink{classjenes_1_1utils_1_1_random}{Random}, which means it can be used with earlier versions of Java. See \href{http://www.javasoft.com/products/jdk/1.2/docs/api/java/util/Random.html}{\tt the J\-D\-K 1.\-2 java.\-util.\-Random documentation} for further documentation on the random-\/number generation contracts made. Additionally, there's an undocumented bug in the J\-D\-K java.\-util.\-Random.\-next\-Bytes() method, which this code fixes.
+
+{\bfseries Important Note. } Just like java.\-util.\-Random, this generator accepts a long seed but doesn't use all of it. java.\-util.\-Random uses 48 bits. The Mersenne Twister instead uses 32 bits (int size). So it's best if your seed does not exceed the int range. 
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{classjenes_1_1utils_1_1_mersenne_twister_fast_a7321af0f92bcda7c245ebfbb647f7e4c}{\index{jenes\-::utils\-::\-Mersenne\-Twister\-Fast@{jenes\-::utils\-::\-Mersenne\-Twister\-Fast}!Mersenne\-Twister\-Fast@{Mersenne\-Twister\-Fast}}
+\index{Mersenne\-Twister\-Fast@{Mersenne\-Twister\-Fast}!jenes::utils::MersenneTwisterFast@{jenes\-::utils\-::\-Mersenne\-Twister\-Fast}}
+\subsubsection[{Mersenne\-Twister\-Fast}]{\setlength{\rightskip}{0pt plus 5cm}jenes.\-utils.\-Mersenne\-Twister\-Fast.\-Mersenne\-Twister\-Fast (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classjenes_1_1utils_1_1_mersenne_twister_fast_a7321af0f92bcda7c245ebfbb647f7e4c}
+Constructor using the default seed. \hypertarget{classjenes_1_1utils_1_1_mersenne_twister_fast_a554aee5d390bb57ad30577b194c8b7b2}{\index{jenes\-::utils\-::\-Mersenne\-Twister\-Fast@{jenes\-::utils\-::\-Mersenne\-Twister\-Fast}!Mersenne\-Twister\-Fast@{Mersenne\-Twister\-Fast}}
+\index{Mersenne\-Twister\-Fast@{Mersenne\-Twister\-Fast}!jenes::utils::MersenneTwisterFast@{jenes\-::utils\-::\-Mersenne\-Twister\-Fast}}
+\subsubsection[{Mersenne\-Twister\-Fast}]{\setlength{\rightskip}{0pt plus 5cm}jenes.\-utils.\-Mersenne\-Twister\-Fast.\-Mersenne\-Twister\-Fast (
+\begin{DoxyParamCaption}
+\item[{final long}]{seed}
+\end{DoxyParamCaption}
+)}}\label{classjenes_1_1utils_1_1_mersenne_twister_fast_a554aee5d390bb57ad30577b194c8b7b2}
+Constructor using a given seed. Though you pass this seed in as a long, it's best to make sure it's actually an integer.
+
+
+\begin{DoxyParams}{Parameters}
+{\em seed} & generator starting number, often the time of day. \\
+\hline
+\end{DoxyParams}
+
+
+\subsection{Member Function Documentation}
+\hypertarget{classjenes_1_1utils_1_1_mersenne_twister_fast_a88963c0469e0bad7a1834469cf0f7a10}{\index{jenes\-::utils\-::\-Mersenne\-Twister\-Fast@{jenes\-::utils\-::\-Mersenne\-Twister\-Fast}!get\-Seed@{get\-Seed}}
+\index{get\-Seed@{get\-Seed}!jenes::utils::MersenneTwisterFast@{jenes\-::utils\-::\-Mersenne\-Twister\-Fast}}
+\subsubsection[{get\-Seed}]{\setlength{\rightskip}{0pt plus 5cm}long jenes.\-utils.\-Mersenne\-Twister\-Fast.\-get\-Seed (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [protected]}}}\label{classjenes_1_1utils_1_1_mersenne_twister_fast_a88963c0469e0bad7a1834469cf0f7a10}
+Return the current used seed for random generator \begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+\hypertarget{classjenes_1_1utils_1_1_mersenne_twister_fast_a5c955ea4cf1b925290dd92ddecc0c510}{\index{jenes\-::utils\-::\-Mersenne\-Twister\-Fast@{jenes\-::utils\-::\-Mersenne\-Twister\-Fast}!main@{main}}
+\index{main@{main}!jenes::utils::MersenneTwisterFast@{jenes\-::utils\-::\-Mersenne\-Twister\-Fast}}
+\subsubsection[{main}]{\setlength{\rightskip}{0pt plus 5cm}static void jenes.\-utils.\-Mersenne\-Twister\-Fast.\-main (
+\begin{DoxyParamCaption}
+\item[{String}]{args\mbox{[}$\,$\mbox{]}}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}}\label{classjenes_1_1utils_1_1_mersenne_twister_fast_a5c955ea4cf1b925290dd92ddecc0c510}
+Tests the code. \hypertarget{classjenes_1_1utils_1_1_mersenne_twister_fast_a54fa48ab055886a90aefdcb816257f4b}{\index{jenes\-::utils\-::\-Mersenne\-Twister\-Fast@{jenes\-::utils\-::\-Mersenne\-Twister\-Fast}!next\-Boolean@{next\-Boolean}}
+\index{next\-Boolean@{next\-Boolean}!jenes::utils::MersenneTwisterFast@{jenes\-::utils\-::\-Mersenne\-Twister\-Fast}}
+\subsubsection[{next\-Boolean}]{\setlength{\rightskip}{0pt plus 5cm}final boolean jenes.\-utils.\-Mersenne\-Twister\-Fast.\-next\-Boolean (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classjenes_1_1utils_1_1_mersenne_twister_fast_a54fa48ab055886a90aefdcb816257f4b}
+\hypertarget{classjenes_1_1utils_1_1_mersenne_twister_fast_a5e7c0943fcc746a30277f0e09abbf60f}{\index{jenes\-::utils\-::\-Mersenne\-Twister\-Fast@{jenes\-::utils\-::\-Mersenne\-Twister\-Fast}!next\-Byte@{next\-Byte}}
+\index{next\-Byte@{next\-Byte}!jenes::utils::MersenneTwisterFast@{jenes\-::utils\-::\-Mersenne\-Twister\-Fast}}
+\subsubsection[{next\-Byte}]{\setlength{\rightskip}{0pt plus 5cm}final byte jenes.\-utils.\-Mersenne\-Twister\-Fast.\-next\-Byte (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classjenes_1_1utils_1_1_mersenne_twister_fast_a5e7c0943fcc746a30277f0e09abbf60f}
+\hypertarget{classjenes_1_1utils_1_1_mersenne_twister_fast_a237dc55841fd8bf544106d052833c374}{\index{jenes\-::utils\-::\-Mersenne\-Twister\-Fast@{jenes\-::utils\-::\-Mersenne\-Twister\-Fast}!next\-Bytes@{next\-Bytes}}
+\index{next\-Bytes@{next\-Bytes}!jenes::utils::MersenneTwisterFast@{jenes\-::utils\-::\-Mersenne\-Twister\-Fast}}
+\subsubsection[{next\-Bytes}]{\setlength{\rightskip}{0pt plus 5cm}final void jenes.\-utils.\-Mersenne\-Twister\-Fast.\-next\-Bytes (
+\begin{DoxyParamCaption}
+\item[{final byte\mbox{[}$\,$\mbox{]}}]{bytes}
+\end{DoxyParamCaption}
+)}}\label{classjenes_1_1utils_1_1_mersenne_twister_fast_a237dc55841fd8bf544106d052833c374}
+\hypertarget{classjenes_1_1utils_1_1_mersenne_twister_fast_a8f7cb8ea9832581729660f5c0346ee3a}{\index{jenes\-::utils\-::\-Mersenne\-Twister\-Fast@{jenes\-::utils\-::\-Mersenne\-Twister\-Fast}!next\-Char@{next\-Char}}
+\index{next\-Char@{next\-Char}!jenes::utils::MersenneTwisterFast@{jenes\-::utils\-::\-Mersenne\-Twister\-Fast}}
+\subsubsection[{next\-Char}]{\setlength{\rightskip}{0pt plus 5cm}final char jenes.\-utils.\-Mersenne\-Twister\-Fast.\-next\-Char (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classjenes_1_1utils_1_1_mersenne_twister_fast_a8f7cb8ea9832581729660f5c0346ee3a}
+\hypertarget{classjenes_1_1utils_1_1_mersenne_twister_fast_a64238ab497c1e504c798355f682ea2b9}{\index{jenes\-::utils\-::\-Mersenne\-Twister\-Fast@{jenes\-::utils\-::\-Mersenne\-Twister\-Fast}!next\-Double@{next\-Double}}
+\index{next\-Double@{next\-Double}!jenes::utils::MersenneTwisterFast@{jenes\-::utils\-::\-Mersenne\-Twister\-Fast}}
+\subsubsection[{next\-Double}]{\setlength{\rightskip}{0pt plus 5cm}final double jenes.\-utils.\-Mersenne\-Twister\-Fast.\-next\-Double (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classjenes_1_1utils_1_1_mersenne_twister_fast_a64238ab497c1e504c798355f682ea2b9}
+Returns a double uniformly distributed within \mbox{[}0,1\mbox{[} 
+
+\begin{DoxyReturn}{Returns}
+a random double value 
+\end{DoxyReturn}
+\hypertarget{classjenes_1_1utils_1_1_mersenne_twister_fast_af2d30f1dec2a94ca26a3b1ccc0624ce9}{\index{jenes\-::utils\-::\-Mersenne\-Twister\-Fast@{jenes\-::utils\-::\-Mersenne\-Twister\-Fast}!next\-Float@{next\-Float}}
+\index{next\-Float@{next\-Float}!jenes::utils::MersenneTwisterFast@{jenes\-::utils\-::\-Mersenne\-Twister\-Fast}}
+\subsubsection[{next\-Float}]{\setlength{\rightskip}{0pt plus 5cm}final float jenes.\-utils.\-Mersenne\-Twister\-Fast.\-next\-Float (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classjenes_1_1utils_1_1_mersenne_twister_fast_af2d30f1dec2a94ca26a3b1ccc0624ce9}
+\hypertarget{classjenes_1_1utils_1_1_mersenne_twister_fast_a4af0dd9a4366e476e4d45568cbb558e9}{\index{jenes\-::utils\-::\-Mersenne\-Twister\-Fast@{jenes\-::utils\-::\-Mersenne\-Twister\-Fast}!next\-Gaussian@{next\-Gaussian}}
+\index{next\-Gaussian@{next\-Gaussian}!jenes::utils::MersenneTwisterFast@{jenes\-::utils\-::\-Mersenne\-Twister\-Fast}}
+\subsubsection[{next\-Gaussian}]{\setlength{\rightskip}{0pt plus 5cm}final double jenes.\-utils.\-Mersenne\-Twister\-Fast.\-next\-Gaussian (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classjenes_1_1utils_1_1_mersenne_twister_fast_a4af0dd9a4366e476e4d45568cbb558e9}
+\hypertarget{classjenes_1_1utils_1_1_mersenne_twister_fast_a063b45fa6e20a5eea9acbe45a8c48ce0}{\index{jenes\-::utils\-::\-Mersenne\-Twister\-Fast@{jenes\-::utils\-::\-Mersenne\-Twister\-Fast}!next\-Int@{next\-Int}}
+\index{next\-Int@{next\-Int}!jenes::utils::MersenneTwisterFast@{jenes\-::utils\-::\-Mersenne\-Twister\-Fast}}
+\subsubsection[{next\-Int}]{\setlength{\rightskip}{0pt plus 5cm}final int jenes.\-utils.\-Mersenne\-Twister\-Fast.\-next\-Int (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classjenes_1_1utils_1_1_mersenne_twister_fast_a063b45fa6e20a5eea9acbe45a8c48ce0}
+\hypertarget{classjenes_1_1utils_1_1_mersenne_twister_fast_ae66ea69e37e4866fbb3beecb4e66577a}{\index{jenes\-::utils\-::\-Mersenne\-Twister\-Fast@{jenes\-::utils\-::\-Mersenne\-Twister\-Fast}!next\-Int@{next\-Int}}
+\index{next\-Int@{next\-Int}!jenes::utils::MersenneTwisterFast@{jenes\-::utils\-::\-Mersenne\-Twister\-Fast}}
+\subsubsection[{next\-Int}]{\setlength{\rightskip}{0pt plus 5cm}final int jenes.\-utils.\-Mersenne\-Twister\-Fast.\-next\-Int (
+\begin{DoxyParamCaption}
+\item[{final int}]{n}
+\end{DoxyParamCaption}
+)}}\label{classjenes_1_1utils_1_1_mersenne_twister_fast_ae66ea69e37e4866fbb3beecb4e66577a}
+Returns an integer drawn uniformly from 0 to n-\/1. Suffice it to say, n must be $>$ 0, or an Illegal\-Argument\-Exception is raised. \hypertarget{classjenes_1_1utils_1_1_mersenne_twister_fast_a1de4f36e5e4035569bbb79bb06d4e9c7}{\index{jenes\-::utils\-::\-Mersenne\-Twister\-Fast@{jenes\-::utils\-::\-Mersenne\-Twister\-Fast}!next\-Long@{next\-Long}}
+\index{next\-Long@{next\-Long}!jenes::utils::MersenneTwisterFast@{jenes\-::utils\-::\-Mersenne\-Twister\-Fast}}
+\subsubsection[{next\-Long}]{\setlength{\rightskip}{0pt plus 5cm}final long jenes.\-utils.\-Mersenne\-Twister\-Fast.\-next\-Long (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classjenes_1_1utils_1_1_mersenne_twister_fast_a1de4f36e5e4035569bbb79bb06d4e9c7}
+\hypertarget{classjenes_1_1utils_1_1_mersenne_twister_fast_a89d03c5b1815eff8c443ef081a869e78}{\index{jenes\-::utils\-::\-Mersenne\-Twister\-Fast@{jenes\-::utils\-::\-Mersenne\-Twister\-Fast}!next\-Short@{next\-Short}}
+\index{next\-Short@{next\-Short}!jenes::utils::MersenneTwisterFast@{jenes\-::utils\-::\-Mersenne\-Twister\-Fast}}
+\subsubsection[{next\-Short}]{\setlength{\rightskip}{0pt plus 5cm}final short jenes.\-utils.\-Mersenne\-Twister\-Fast.\-next\-Short (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classjenes_1_1utils_1_1_mersenne_twister_fast_a89d03c5b1815eff8c443ef081a869e78}
+\hypertarget{classjenes_1_1utils_1_1_mersenne_twister_fast_aa44ca1bf8e9a2f272e248ea279f1e80c}{\index{jenes\-::utils\-::\-Mersenne\-Twister\-Fast@{jenes\-::utils\-::\-Mersenne\-Twister\-Fast}!set\-Seed@{set\-Seed}}
+\index{set\-Seed@{set\-Seed}!jenes::utils::MersenneTwisterFast@{jenes\-::utils\-::\-Mersenne\-Twister\-Fast}}
+\subsubsection[{set\-Seed}]{\setlength{\rightskip}{0pt plus 5cm}final void jenes.\-utils.\-Mersenne\-Twister\-Fast.\-set\-Seed (
+\begin{DoxyParamCaption}
+\item[{final long}]{seed}
+\end{DoxyParamCaption}
+)}}\label{classjenes_1_1utils_1_1_mersenne_twister_fast_aa44ca1bf8e9a2f272e248ea279f1e80c}
+Initalize the pseudo random number generator. The Mersenne Twister only uses an integer for its seed; It's best that you don't pass in a long that's bigger than an int.
+
+
+\begin{DoxyParams}{Parameters}
+{\em seed} & from constructor \\
+\hline
+\end{DoxyParams}
+
+
+\subsection{Member Data Documentation}
+\hypertarget{classjenes_1_1utils_1_1_mersenne_twister_fast_a7c4e79e22cfb451e328e35c95ab5176b}{\index{jenes\-::utils\-::\-Mersenne\-Twister\-Fast@{jenes\-::utils\-::\-Mersenne\-Twister\-Fast}!G\-O\-O\-D\-\_\-\-S\-E\-E\-D@{G\-O\-O\-D\-\_\-\-S\-E\-E\-D}}
+\index{G\-O\-O\-D\-\_\-\-S\-E\-E\-D@{G\-O\-O\-D\-\_\-\-S\-E\-E\-D}!jenes::utils::MersenneTwisterFast@{jenes\-::utils\-::\-Mersenne\-Twister\-Fast}}
+\subsubsection[{G\-O\-O\-D\-\_\-\-S\-E\-E\-D}]{\setlength{\rightskip}{0pt plus 5cm}final long jenes.\-utils.\-Mersenne\-Twister\-Fast.\-G\-O\-O\-D\-\_\-\-S\-E\-E\-D = 4357\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}}\label{classjenes_1_1utils_1_1_mersenne_twister_fast_a7c4e79e22cfb451e328e35c95ab5176b}
+\hypertarget{classjenes_1_1utils_1_1_mersenne_twister_fast_a5386c1c630b71ef34d7ff55a040fa2a0}{\index{jenes\-::utils\-::\-Mersenne\-Twister\-Fast@{jenes\-::utils\-::\-Mersenne\-Twister\-Fast}!have\-Next\-Next\-Gaussian@{have\-Next\-Next\-Gaussian}}
+\index{have\-Next\-Next\-Gaussian@{have\-Next\-Next\-Gaussian}!jenes::utils::MersenneTwisterFast@{jenes\-::utils\-::\-Mersenne\-Twister\-Fast}}
+\subsubsection[{have\-Next\-Next\-Gaussian}]{\setlength{\rightskip}{0pt plus 5cm}boolean jenes.\-utils.\-Mersenne\-Twister\-Fast.\-have\-Next\-Next\-Gaussian\hspace{0.3cm}{\ttfamily [private]}}}\label{classjenes_1_1utils_1_1_mersenne_twister_fast_a5386c1c630b71ef34d7ff55a040fa2a0}
+\hypertarget{classjenes_1_1utils_1_1_mersenne_twister_fast_aa4a16f54a6dd22b49cede7adbfad7a24}{\index{jenes\-::utils\-::\-Mersenne\-Twister\-Fast@{jenes\-::utils\-::\-Mersenne\-Twister\-Fast}!L\-O\-W\-E\-R\-\_\-\-M\-A\-S\-K@{L\-O\-W\-E\-R\-\_\-\-M\-A\-S\-K}}
+\index{L\-O\-W\-E\-R\-\_\-\-M\-A\-S\-K@{L\-O\-W\-E\-R\-\_\-\-M\-A\-S\-K}!jenes::utils::MersenneTwisterFast@{jenes\-::utils\-::\-Mersenne\-Twister\-Fast}}
+\subsubsection[{L\-O\-W\-E\-R\-\_\-\-M\-A\-S\-K}]{\setlength{\rightskip}{0pt plus 5cm}final int jenes.\-utils.\-Mersenne\-Twister\-Fast.\-L\-O\-W\-E\-R\-\_\-\-M\-A\-S\-K = 0x7fffffff\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}}\label{classjenes_1_1utils_1_1_mersenne_twister_fast_aa4a16f54a6dd22b49cede7adbfad7a24}
+\hypertarget{classjenes_1_1utils_1_1_mersenne_twister_fast_a7230af540751efe08187e45c15e4e9f8}{\index{jenes\-::utils\-::\-Mersenne\-Twister\-Fast@{jenes\-::utils\-::\-Mersenne\-Twister\-Fast}!M@{M}}
+\index{M@{M}!jenes::utils::MersenneTwisterFast@{jenes\-::utils\-::\-Mersenne\-Twister\-Fast}}
+\subsubsection[{M}]{\setlength{\rightskip}{0pt plus 5cm}final int jenes.\-utils.\-Mersenne\-Twister\-Fast.\-M = 397\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}}\label{classjenes_1_1utils_1_1_mersenne_twister_fast_a7230af540751efe08187e45c15e4e9f8}
+\hypertarget{classjenes_1_1utils_1_1_mersenne_twister_fast_ab47bd6db1f44c11be545d52af445754a}{\index{jenes\-::utils\-::\-Mersenne\-Twister\-Fast@{jenes\-::utils\-::\-Mersenne\-Twister\-Fast}!mag01@{mag01}}
+\index{mag01@{mag01}!jenes::utils::MersenneTwisterFast@{jenes\-::utils\-::\-Mersenne\-Twister\-Fast}}
+\subsubsection[{mag01}]{\setlength{\rightskip}{0pt plus 5cm}int jenes.\-utils.\-Mersenne\-Twister\-Fast.\-mag01\mbox{[}$\,$\mbox{]}\hspace{0.3cm}{\ttfamily [private]}}}\label{classjenes_1_1utils_1_1_mersenne_twister_fast_ab47bd6db1f44c11be545d52af445754a}
+\hypertarget{classjenes_1_1utils_1_1_mersenne_twister_fast_a81b66e24b88e9d3338c3fa84c1ec2421}{\index{jenes\-::utils\-::\-Mersenne\-Twister\-Fast@{jenes\-::utils\-::\-Mersenne\-Twister\-Fast}!M\-A\-T\-R\-I\-X\-\_\-\-A@{M\-A\-T\-R\-I\-X\-\_\-\-A}}
+\index{M\-A\-T\-R\-I\-X\-\_\-\-A@{M\-A\-T\-R\-I\-X\-\_\-\-A}!jenes::utils::MersenneTwisterFast@{jenes\-::utils\-::\-Mersenne\-Twister\-Fast}}
+\subsubsection[{M\-A\-T\-R\-I\-X\-\_\-\-A}]{\setlength{\rightskip}{0pt plus 5cm}final int jenes.\-utils.\-Mersenne\-Twister\-Fast.\-M\-A\-T\-R\-I\-X\-\_\-\-A = 0x9908b0df\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}}\label{classjenes_1_1utils_1_1_mersenne_twister_fast_a81b66e24b88e9d3338c3fa84c1ec2421}
+\hypertarget{classjenes_1_1utils_1_1_mersenne_twister_fast_a982d8674fe867dbc2ed4d81e346bd53e}{\index{jenes\-::utils\-::\-Mersenne\-Twister\-Fast@{jenes\-::utils\-::\-Mersenne\-Twister\-Fast}!mt@{mt}}
+\index{mt@{mt}!jenes::utils::MersenneTwisterFast@{jenes\-::utils\-::\-Mersenne\-Twister\-Fast}}
+\subsubsection[{mt}]{\setlength{\rightskip}{0pt plus 5cm}int jenes.\-utils.\-Mersenne\-Twister\-Fast.\-mt\mbox{[}$\,$\mbox{]}\hspace{0.3cm}{\ttfamily [private]}}}\label{classjenes_1_1utils_1_1_mersenne_twister_fast_a982d8674fe867dbc2ed4d81e346bd53e}
+\hypertarget{classjenes_1_1utils_1_1_mersenne_twister_fast_a249ff994b5401de034349bd26d1048a5}{\index{jenes\-::utils\-::\-Mersenne\-Twister\-Fast@{jenes\-::utils\-::\-Mersenne\-Twister\-Fast}!mti@{mti}}
+\index{mti@{mti}!jenes::utils::MersenneTwisterFast@{jenes\-::utils\-::\-Mersenne\-Twister\-Fast}}
+\subsubsection[{mti}]{\setlength{\rightskip}{0pt plus 5cm}int jenes.\-utils.\-Mersenne\-Twister\-Fast.\-mti\hspace{0.3cm}{\ttfamily [private]}}}\label{classjenes_1_1utils_1_1_mersenne_twister_fast_a249ff994b5401de034349bd26d1048a5}
+\hypertarget{classjenes_1_1utils_1_1_mersenne_twister_fast_a7d764d0e1d79a1a64977acd0d4e6d8ae}{\index{jenes\-::utils\-::\-Mersenne\-Twister\-Fast@{jenes\-::utils\-::\-Mersenne\-Twister\-Fast}!N@{N}}
+\index{N@{N}!jenes::utils::MersenneTwisterFast@{jenes\-::utils\-::\-Mersenne\-Twister\-Fast}}
+\subsubsection[{N}]{\setlength{\rightskip}{0pt plus 5cm}final int jenes.\-utils.\-Mersenne\-Twister\-Fast.\-N = 624\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}}\label{classjenes_1_1utils_1_1_mersenne_twister_fast_a7d764d0e1d79a1a64977acd0d4e6d8ae}
+\hypertarget{classjenes_1_1utils_1_1_mersenne_twister_fast_aabc67f7eb3dd3b7d139ee7211ae88d72}{\index{jenes\-::utils\-::\-Mersenne\-Twister\-Fast@{jenes\-::utils\-::\-Mersenne\-Twister\-Fast}!next\-Next\-Gaussian@{next\-Next\-Gaussian}}
+\index{next\-Next\-Gaussian@{next\-Next\-Gaussian}!jenes::utils::MersenneTwisterFast@{jenes\-::utils\-::\-Mersenne\-Twister\-Fast}}
+\subsubsection[{next\-Next\-Gaussian}]{\setlength{\rightskip}{0pt plus 5cm}double jenes.\-utils.\-Mersenne\-Twister\-Fast.\-next\-Next\-Gaussian\hspace{0.3cm}{\ttfamily [private]}}}\label{classjenes_1_1utils_1_1_mersenne_twister_fast_aabc67f7eb3dd3b7d139ee7211ae88d72}
+\hypertarget{classjenes_1_1utils_1_1_mersenne_twister_fast_af54ad21e36a866d458e55ad8c3d89ac2}{\index{jenes\-::utils\-::\-Mersenne\-Twister\-Fast@{jenes\-::utils\-::\-Mersenne\-Twister\-Fast}!seed@{seed}}
+\index{seed@{seed}!jenes::utils::MersenneTwisterFast@{jenes\-::utils\-::\-Mersenne\-Twister\-Fast}}
+\subsubsection[{seed}]{\setlength{\rightskip}{0pt plus 5cm}long jenes.\-utils.\-Mersenne\-Twister\-Fast.\-seed\hspace{0.3cm}{\ttfamily [private]}}}\label{classjenes_1_1utils_1_1_mersenne_twister_fast_af54ad21e36a866d458e55ad8c3d89ac2}
+\hypertarget{classjenes_1_1utils_1_1_mersenne_twister_fast_a1ef24f834e07e21daa774f923a261cdc}{\index{jenes\-::utils\-::\-Mersenne\-Twister\-Fast@{jenes\-::utils\-::\-Mersenne\-Twister\-Fast}!T\-E\-M\-P\-E\-R\-I\-N\-G\-\_\-\-M\-A\-S\-K\-\_\-\-B@{T\-E\-M\-P\-E\-R\-I\-N\-G\-\_\-\-M\-A\-S\-K\-\_\-\-B}}
+\index{T\-E\-M\-P\-E\-R\-I\-N\-G\-\_\-\-M\-A\-S\-K\-\_\-\-B@{T\-E\-M\-P\-E\-R\-I\-N\-G\-\_\-\-M\-A\-S\-K\-\_\-\-B}!jenes::utils::MersenneTwisterFast@{jenes\-::utils\-::\-Mersenne\-Twister\-Fast}}
+\subsubsection[{T\-E\-M\-P\-E\-R\-I\-N\-G\-\_\-\-M\-A\-S\-K\-\_\-\-B}]{\setlength{\rightskip}{0pt plus 5cm}final int jenes.\-utils.\-Mersenne\-Twister\-Fast.\-T\-E\-M\-P\-E\-R\-I\-N\-G\-\_\-\-M\-A\-S\-K\-\_\-\-B = 0x9d2c5680\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}}\label{classjenes_1_1utils_1_1_mersenne_twister_fast_a1ef24f834e07e21daa774f923a261cdc}
+\hypertarget{classjenes_1_1utils_1_1_mersenne_twister_fast_a54b88e85493a22103f45b6e380c9bf79}{\index{jenes\-::utils\-::\-Mersenne\-Twister\-Fast@{jenes\-::utils\-::\-Mersenne\-Twister\-Fast}!T\-E\-M\-P\-E\-R\-I\-N\-G\-\_\-\-M\-A\-S\-K\-\_\-\-C@{T\-E\-M\-P\-E\-R\-I\-N\-G\-\_\-\-M\-A\-S\-K\-\_\-\-C}}
+\index{T\-E\-M\-P\-E\-R\-I\-N\-G\-\_\-\-M\-A\-S\-K\-\_\-\-C@{T\-E\-M\-P\-E\-R\-I\-N\-G\-\_\-\-M\-A\-S\-K\-\_\-\-C}!jenes::utils::MersenneTwisterFast@{jenes\-::utils\-::\-Mersenne\-Twister\-Fast}}
+\subsubsection[{T\-E\-M\-P\-E\-R\-I\-N\-G\-\_\-\-M\-A\-S\-K\-\_\-\-C}]{\setlength{\rightskip}{0pt plus 5cm}final int jenes.\-utils.\-Mersenne\-Twister\-Fast.\-T\-E\-M\-P\-E\-R\-I\-N\-G\-\_\-\-M\-A\-S\-K\-\_\-\-C = 0xefc60000\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}}\label{classjenes_1_1utils_1_1_mersenne_twister_fast_a54b88e85493a22103f45b6e380c9bf79}
+\hypertarget{classjenes_1_1utils_1_1_mersenne_twister_fast_acb11c6167b19e7e19be9337e5f389c99}{\index{jenes\-::utils\-::\-Mersenne\-Twister\-Fast@{jenes\-::utils\-::\-Mersenne\-Twister\-Fast}!U\-P\-P\-E\-R\-\_\-\-M\-A\-S\-K@{U\-P\-P\-E\-R\-\_\-\-M\-A\-S\-K}}
+\index{U\-P\-P\-E\-R\-\_\-\-M\-A\-S\-K@{U\-P\-P\-E\-R\-\_\-\-M\-A\-S\-K}!jenes::utils::MersenneTwisterFast@{jenes\-::utils\-::\-Mersenne\-Twister\-Fast}}
+\subsubsection[{U\-P\-P\-E\-R\-\_\-\-M\-A\-S\-K}]{\setlength{\rightskip}{0pt plus 5cm}final int jenes.\-utils.\-Mersenne\-Twister\-Fast.\-U\-P\-P\-E\-R\-\_\-\-M\-A\-S\-K = 0x80000000\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}}\label{classjenes_1_1utils_1_1_mersenne_twister_fast_acb11c6167b19e7e19be9337e5f389c99}
+
+
+The documentation for this class was generated from the following file\-:\begin{DoxyCompactItemize}
+\item 
+src/jenes/utils/\hyperlink{_mersenne_twister_fast_8java}{Mersenne\-Twister\-Fast.\-java}\end{DoxyCompactItemize}

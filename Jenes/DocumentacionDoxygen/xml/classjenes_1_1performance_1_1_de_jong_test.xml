@@ -1,0 +1,263 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="classjenes_1_1performance_1_1_de_jong_test" kind="class" prot="public">
+    <compoundname>jenes::performance::DeJongTest</compoundname>
+      <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="classjenes_1_1performance_1_1_de_jong_test_1afd51b198721f632271f79c99a424ea50" prot="protected" static="no" mutable="no">
+        <type>int</type>
+        <definition>int jenes.performance.DeJongTest.POPULATION_SIZE</definition>
+        <argsstring></argsstring>
+        <name>POPULATION_SIZE</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/performance/DeJongTest.java" line="32" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/performance/DeJongTest.java" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classjenes_1_1performance_1_1_de_jong_test_1ae39588619e1072e384d5a3f7891ed6ec" prot="protected" static="no" mutable="no">
+        <type>int</type>
+        <definition>int jenes.performance.DeJongTest.GENERATION_LIMIT</definition>
+        <argsstring></argsstring>
+        <name>GENERATION_LIMIT</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/performance/DeJongTest.java" line="33" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/performance/DeJongTest.java" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classjenes_1_1performance_1_1_de_jong_test_1a96e009580c2dc5f12763e85c90075813" prot="protected" static="no" mutable="no">
+        <type>int</type>
+        <definition>int jenes.performance.DeJongTest.CHROMOSOME_SIZE</definition>
+        <argsstring></argsstring>
+        <name>CHROMOSOME_SIZE</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/performance/DeJongTest.java" line="34" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/performance/DeJongTest.java" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classjenes_1_1performance_1_1_de_jong_test_1a7bad08ed6ec02f47de08ae0bfe99e46a" prot="protected" static="no" mutable="no">
+        <type>double</type>
+        <definition>double jenes.performance.DeJongTest.MIN_VALUE</definition>
+        <argsstring></argsstring>
+        <name>MIN_VALUE</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/performance/DeJongTest.java" line="35" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/performance/DeJongTest.java" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classjenes_1_1performance_1_1_de_jong_test_1a9f4f1ca8380c04ab2e909d0370134b81" prot="protected" static="no" mutable="no">
+        <type>double</type>
+        <definition>double jenes.performance.DeJongTest.MAX_VALUE</definition>
+        <argsstring></argsstring>
+        <name>MAX_VALUE</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/performance/DeJongTest.java" line="36" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/performance/DeJongTest.java" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classjenes_1_1performance_1_1_de_jong_test_1af9f864ad4d54d913cbd97266a0a1c5a7" prot="protected" static="no" mutable="no">
+        <type>GeneticAlgorithm&lt; <ref refid="classjenes_1_1chromosome_1_1_bitwise_chromosome" kindref="compound">BitwiseChromosome</ref> &gt;</type>
+        <definition>GeneticAlgorithm&lt;BitwiseChromosome&gt; jenes.performance.DeJongTest.ga</definition>
+        <argsstring></argsstring>
+        <name>ga</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/performance/DeJongTest.java" line="37" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/performance/DeJongTest.java" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classjenes_1_1performance_1_1_de_jong_test_1a795332b956040573e1567a687b734c0f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>jenes.performance.DeJongTest.DeJongTest</definition>
+        <argsstring>(int problem, int popSize, int genLimit)</argsstring>
+        <name>DeJongTest</name>
+        <param>
+          <type>int</type>
+          <declname>problem</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>popSize</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>genLimit</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/performance/DeJongTest.java" line="39" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/performance/DeJongTest.java" bodystart="39" bodyend="59"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1performance_1_1_de_jong_test_1aac1afb2071483b28a6c55b62bfe32e31" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void jenes.performance.DeJongTest.solve</definition>
+        <argsstring>()</argsstring>
+        <name>solve</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/performance/DeJongTest.java" line="248" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/performance/DeJongTest.java" bodystart="248" bodyend="252"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classjenes_1_1performance_1_1_de_jong_test_1acd3c1b93304e2d46f53891a2bf82bf8b" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void jenes.performance.DeJongTest.buildProblem1</definition>
+        <argsstring>()</argsstring>
+        <name>buildProblem1</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/performance/DeJongTest.java" line="61" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/performance/DeJongTest.java" bodystart="61" bodyend="88"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1performance_1_1_de_jong_test_1ad444e70d87a8a65d868a08f836ddca44" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void jenes.performance.DeJongTest.buildProblem2</definition>
+        <argsstring>()</argsstring>
+        <name>buildProblem2</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/performance/DeJongTest.java" line="90" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/performance/DeJongTest.java" bodystart="90" bodyend="117"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1performance_1_1_de_jong_test_1a04ba560b3c32b954db4b0e2de7e0fea3" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void jenes.performance.DeJongTest.buildProblem3</definition>
+        <argsstring>()</argsstring>
+        <name>buildProblem3</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/performance/DeJongTest.java" line="119" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/performance/DeJongTest.java" bodystart="119" bodyend="150"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1performance_1_1_de_jong_test_1a1dd8d7b4740a0f65699bac3b7c64cebf" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void jenes.performance.DeJongTest.buildProblem4</definition>
+        <argsstring>()</argsstring>
+        <name>buildProblem4</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/performance/DeJongTest.java" line="152" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/performance/DeJongTest.java" bodystart="152" bodyend="184"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1performance_1_1_de_jong_test_1ad1282e40a9a1711898f700f17f90bcb0" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void jenes.performance.DeJongTest.buildProblem5</definition>
+        <argsstring>()</argsstring>
+        <name>buildProblem5</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/performance/DeJongTest.java" line="186" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/performance/DeJongTest.java" bodystart="186" bodyend="238"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1performance_1_1_de_jong_test_1afd03d3c06d2c0a3ff64a384413e1c1fd" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>final double</type>
+        <definition>final double jenes.performance.DeJongTest.convert</definition>
+        <argsstring>(int x)</argsstring>
+        <name>convert</name>
+        <param>
+          <type>int</type>
+          <declname>x</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/performance/DeJongTest.java" line="240" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/performance/DeJongTest.java" bodystart="240" bodyend="246"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classjenes_1_1performance_1_1_de_jong_test_1ab226b971a6f791d5a49dd4c2718f81d7" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void jenes.performance.DeJongTest.main</definition>
+        <argsstring>(String[] args)</argsstring>
+        <name>main</name>
+        <param>
+          <type>String[]</type>
+          <declname>args</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/performance/DeJongTest.java" line="254" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/performance/DeJongTest.java" bodystart="254" bodyend="261"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="112">
+        <label>jenes.performance.DeJongTest</label>
+        <link refid="classjenes_1_1performance_1_1_de_jong_test"/>
+        <childnode refid="113" relation="usage">
+          <edgelabel>ga</edgelabel>
+        </childnode>
+      </node>
+      <node id="113">
+        <label>GeneticAlgorithm&lt; jenes.chromosome.BitwiseChromosome &gt;</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/performance/DeJongTest.java" line="30" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/performance/DeJongTest.java" bodystart="30" bodyend="262"/>
+    <listofallmembers>
+      <member refid="classjenes_1_1performance_1_1_de_jong_test_1acd3c1b93304e2d46f53891a2bf82bf8b" prot="protected" virt="non-virtual"><scope>jenes::performance::DeJongTest</scope><name>buildProblem1</name></member>
+      <member refid="classjenes_1_1performance_1_1_de_jong_test_1ad444e70d87a8a65d868a08f836ddca44" prot="protected" virt="non-virtual"><scope>jenes::performance::DeJongTest</scope><name>buildProblem2</name></member>
+      <member refid="classjenes_1_1performance_1_1_de_jong_test_1a04ba560b3c32b954db4b0e2de7e0fea3" prot="protected" virt="non-virtual"><scope>jenes::performance::DeJongTest</scope><name>buildProblem3</name></member>
+      <member refid="classjenes_1_1performance_1_1_de_jong_test_1a1dd8d7b4740a0f65699bac3b7c64cebf" prot="protected" virt="non-virtual"><scope>jenes::performance::DeJongTest</scope><name>buildProblem4</name></member>
+      <member refid="classjenes_1_1performance_1_1_de_jong_test_1ad1282e40a9a1711898f700f17f90bcb0" prot="protected" virt="non-virtual"><scope>jenes::performance::DeJongTest</scope><name>buildProblem5</name></member>
+      <member refid="classjenes_1_1performance_1_1_de_jong_test_1a96e009580c2dc5f12763e85c90075813" prot="protected" virt="non-virtual"><scope>jenes::performance::DeJongTest</scope><name>CHROMOSOME_SIZE</name></member>
+      <member refid="classjenes_1_1performance_1_1_de_jong_test_1afd03d3c06d2c0a3ff64a384413e1c1fd" prot="protected" virt="non-virtual"><scope>jenes::performance::DeJongTest</scope><name>convert</name></member>
+      <member refid="classjenes_1_1performance_1_1_de_jong_test_1a795332b956040573e1567a687b734c0f" prot="public" virt="non-virtual"><scope>jenes::performance::DeJongTest</scope><name>DeJongTest</name></member>
+      <member refid="classjenes_1_1performance_1_1_de_jong_test_1af9f864ad4d54d913cbd97266a0a1c5a7" prot="protected" virt="non-virtual"><scope>jenes::performance::DeJongTest</scope><name>ga</name></member>
+      <member refid="classjenes_1_1performance_1_1_de_jong_test_1ae39588619e1072e384d5a3f7891ed6ec" prot="protected" virt="non-virtual"><scope>jenes::performance::DeJongTest</scope><name>GENERATION_LIMIT</name></member>
+      <member refid="classjenes_1_1performance_1_1_de_jong_test_1ab226b971a6f791d5a49dd4c2718f81d7" prot="public" virt="non-virtual"><scope>jenes::performance::DeJongTest</scope><name>main</name></member>
+      <member refid="classjenes_1_1performance_1_1_de_jong_test_1a9f4f1ca8380c04ab2e909d0370134b81" prot="protected" virt="non-virtual"><scope>jenes::performance::DeJongTest</scope><name>MAX_VALUE</name></member>
+      <member refid="classjenes_1_1performance_1_1_de_jong_test_1a7bad08ed6ec02f47de08ae0bfe99e46a" prot="protected" virt="non-virtual"><scope>jenes::performance::DeJongTest</scope><name>MIN_VALUE</name></member>
+      <member refid="classjenes_1_1performance_1_1_de_jong_test_1afd51b198721f632271f79c99a424ea50" prot="protected" virt="non-virtual"><scope>jenes::performance::DeJongTest</scope><name>POPULATION_SIZE</name></member>
+      <member refid="classjenes_1_1performance_1_1_de_jong_test_1aac1afb2071483b28a6c55b62bfe32e31" prot="public" virt="non-virtual"><scope>jenes::performance::DeJongTest</scope><name>solve</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

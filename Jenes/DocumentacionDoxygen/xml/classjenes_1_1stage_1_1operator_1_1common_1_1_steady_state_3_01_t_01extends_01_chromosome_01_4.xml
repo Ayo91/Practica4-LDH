@@ -1,0 +1,477 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="classjenes_1_1stage_1_1operator_1_1common_1_1_steady_state_3_01_t_01extends_01_chromosome_01_4" kind="class" prot="public">
+    <compoundname>jenes::stage::operator::common::SteadyState&lt; T extends Chromosome &gt;</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">jenes::stage::operator::Crowder&lt; T &gt;</basecompoundref>
+    <innerclass refid="enumjenes_1_1stage_1_1operator_1_1common_1_1_steady_state_3_01_t_01extends_01_chromosome_01_4_1_1_replacement_strategy" prot="public">jenes::stage::operator::common::SteadyState&lt; T extends Chromosome &gt;::ReplacementStrategy</innerclass>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classjenes_1_1stage_1_1operator_1_1common_1_1_steady_state_3_01_t_01extends_01_chromosome_01_4_1a4ed786deaaaefebd47fffc18e99b3710" prot="public" static="yes" mutable="no">
+        <type>final ReplacementStrategy</type>
+        <definition>final ReplacementStrategy jenes.stage.operator.common.SteadyState&lt; T extends Chromosome &gt;.DEFAULT_REPLACEMENT_STRATEGY</definition>
+        <argsstring></argsstring>
+        <name>DEFAULT_REPLACEMENT_STRATEGY</name>
+        <initializer>= <ref refid="enumjenes_1_1stage_1_1operator_1_1common_1_1_steady_state_3_01_t_01extends_01_chromosome_01_4_1_1_replacement_strategy_1a7cc73c0ae9c2f979dc4bb8aa9000582e" kindref="member">ReplacementStrategy.WORST</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Default replace strategy </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/operator/common/SteadyState.java" line="45" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/operator/common/SteadyState.java" bodystart="45" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classjenes_1_1stage_1_1operator_1_1common_1_1_steady_state_3_01_t_01extends_01_chromosome_01_4_1a9d6bcfbcf1911ce2936e782e96919ebd" prot="public" static="yes" mutable="no">
+        <type>final int</type>
+        <definition>final int jenes.stage.operator.common.SteadyState&lt; T extends Chromosome &gt;.DEFAULT_SELECTION_RATE</definition>
+        <argsstring></argsstring>
+        <name>DEFAULT_SELECTION_RATE</name>
+        <initializer>= 2</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Defualt selection rate </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/operator/common/SteadyState.java" line="48" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/operator/common/SteadyState.java" bodystart="48" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classjenes_1_1stage_1_1operator_1_1common_1_1_steady_state_3_01_t_01extends_01_chromosome_01_4_1a9700692d577e24267d1105f2a6e3d379" prot="public" static="yes" mutable="no">
+        <type>final int</type>
+        <definition>final int jenes.stage.operator.common.SteadyState&lt; T extends Chromosome &gt;.DEFAULT_REPLACEMENT_RATE</definition>
+        <argsstring></argsstring>
+        <name>DEFAULT_REPLACEMENT_RATE</name>
+        <initializer>= 1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Default replacement rate </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/operator/common/SteadyState.java" line="51" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/operator/common/SteadyState.java" bodystart="51" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="classjenes_1_1stage_1_1operator_1_1common_1_1_steady_state_3_01_t_01extends_01_chromosome_01_4_1a83a734a69acdc4ee13d42982a43e8ba1" prot="protected" static="no" mutable="no">
+        <type>Selector&lt; T &gt;</type>
+        <definition>Selector&lt;T&gt; jenes.stage.operator.common.SteadyState&lt; T extends Chromosome &gt;.selector</definition>
+        <argsstring></argsstring>
+        <name>selector</name>
+        <initializer>= null</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Selector </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/operator/common/SteadyState.java" line="54" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/operator/common/SteadyState.java" bodystart="54" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classjenes_1_1stage_1_1operator_1_1common_1_1_steady_state_3_01_t_01extends_01_chromosome_01_4_1a4d727adbb35eaad5d78fc59abaabea0c" prot="protected" static="no" mutable="no">
+        <type>ReplacementStrategy</type>
+        <definition>ReplacementStrategy jenes.stage.operator.common.SteadyState&lt; T extends Chromosome &gt;.replacementStrategy</definition>
+        <argsstring></argsstring>
+        <name>replacementStrategy</name>
+        <initializer>= <ref refid="classjenes_1_1stage_1_1operator_1_1common_1_1_steady_state_3_01_t_01extends_01_chromosome_01_4_1a4ed786deaaaefebd47fffc18e99b3710" kindref="member">DEFAULT_REPLACEMENT_STRATEGY</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Replacement strategy </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/operator/common/SteadyState.java" line="57" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/operator/common/SteadyState.java" bodystart="57" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classjenes_1_1stage_1_1operator_1_1common_1_1_steady_state_3_01_t_01extends_01_chromosome_01_4_1a84dd70ced0dad9433e4168f18eb735f9" prot="protected" static="no" mutable="no">
+        <type>int</type>
+        <definition>int jenes.stage.operator.common.SteadyState&lt; T extends Chromosome &gt;.replacementRate</definition>
+        <argsstring></argsstring>
+        <name>replacementRate</name>
+        <initializer>= <ref refid="classjenes_1_1stage_1_1operator_1_1common_1_1_steady_state_3_01_t_01extends_01_chromosome_01_4_1a9700692d577e24267d1105f2a6e3d379" kindref="member">DEFAULT_REPLACEMENT_RATE</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Replacement rate </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/operator/common/SteadyState.java" line="60" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/operator/common/SteadyState.java" bodystart="60" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classjenes_1_1stage_1_1operator_1_1common_1_1_steady_state_3_01_t_01extends_01_chromosome_01_4_1af39cd5e467ed1a020779c89894c5f63e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>jenes.stage.operator.common.SteadyState&lt; T extends Chromosome &gt;.SteadyState</definition>
+        <argsstring>(final Selector&lt; T &gt; selector, final AbstractStage&lt; T &gt;...stages)</argsstring>
+        <name>SteadyState</name>
+        <param>
+          <type>final Selector&lt; T &gt;</type>
+          <declname>selector</declname>
+        </param>
+        <param>
+          <type>final AbstractStage&lt; T &gt;...</type>
+          <declname>stages</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Creates a SteadySate instance</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>selector</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>selector </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>stages</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>body stages </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/operator/common/SteadyState.java" line="68" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/operator/common/SteadyState.java" bodystart="68" bodyend="70"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1stage_1_1operator_1_1common_1_1_steady_state_3_01_t_01extends_01_chromosome_01_4_1a3411aeb67d5f0914fdb6682627a507c9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>jenes.stage.operator.common.SteadyState&lt; T extends Chromosome &gt;.SteadyState</definition>
+        <argsstring>(final int rr, final int sr, final Selector&lt; T &gt; selector, final AbstractStage&lt; T &gt;...stages)</argsstring>
+        <name>SteadyState</name>
+        <param>
+          <type>final int</type>
+          <declname>rr</declname>
+        </param>
+        <param>
+          <type>final int</type>
+          <declname>sr</declname>
+        </param>
+        <param>
+          <type>final Selector&lt; T &gt;</type>
+          <declname>selector</declname>
+        </param>
+        <param>
+          <type>final AbstractStage&lt; T &gt;...</type>
+          <declname>stages</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Creates a SteadyState instance</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>rr</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>replacement rate </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>sr</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>selection rate </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>selector</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>selector </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>stages</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>body statges </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/operator/common/SteadyState.java" line="80" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/operator/common/SteadyState.java" bodystart="80" bodyend="90"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1stage_1_1operator_1_1common_1_1_steady_state_3_01_t_01extends_01_chromosome_01_4_1ac9493ab808eed1e19961d6ba1b97b52d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>final Selector&lt; T &gt;</type>
+        <definition>final Selector&lt;T&gt; jenes.stage.operator.common.SteadyState&lt; T extends Chromosome &gt;.getSelector</definition>
+        <argsstring>()</argsstring>
+        <name>getSelector</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns the selector</para><para><simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/operator/common/SteadyState.java" line="97" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/operator/common/SteadyState.java" bodystart="97" bodyend="99"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1stage_1_1operator_1_1common_1_1_steady_state_3_01_t_01extends_01_chromosome_01_4_1ad4c63d6921648fac68ea074d8fb49002" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void jenes.stage.operator.common.SteadyState&lt; T extends Chromosome &gt;.setSelector</definition>
+        <argsstring>(Selector&lt; T &gt; selector)</argsstring>
+        <name>setSelector</name>
+        <param>
+          <type>Selector&lt; T &gt;</type>
+          <declname>selector</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Sets the selector</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>selector</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/operator/common/SteadyState.java" line="106" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/operator/common/SteadyState.java" bodystart="106" bodyend="108"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1stage_1_1operator_1_1common_1_1_steady_state_3_01_t_01extends_01_chromosome_01_4_1a667fecf88fd68c6a89de0ee327eb9dcf" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>final int</type>
+        <definition>final int jenes.stage.operator.common.SteadyState&lt; T extends Chromosome &gt;.getSelectionRate</definition>
+        <argsstring>()</argsstring>
+        <name>getSelectionRate</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns the selection rate</para><para><simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/operator/common/SteadyState.java" line="115" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/operator/common/SteadyState.java" bodystart="115" bodyend="117"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1stage_1_1operator_1_1common_1_1_steady_state_3_01_t_01extends_01_chromosome_01_4_1ad3182abb1581d4136efe349b46c4dba9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void jenes.stage.operator.common.SteadyState&lt; T extends Chromosome &gt;.setSelectionRate</definition>
+        <argsstring>(int sr)</argsstring>
+        <name>setSelectionRate</name>
+        <param>
+          <type>int</type>
+          <declname>sr</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Sets the selection rate</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>sr</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>rate </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/operator/common/SteadyState.java" line="124" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/operator/common/SteadyState.java" bodystart="124" bodyend="126"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1stage_1_1operator_1_1common_1_1_steady_state_3_01_t_01extends_01_chromosome_01_4_1ae8a1e24e3306c72bdf30094774b68915" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>final ReplacementStrategy</type>
+        <definition>final ReplacementStrategy jenes.stage.operator.common.SteadyState&lt; T extends Chromosome &gt;.getReplacementPolicy</definition>
+        <argsstring>()</argsstring>
+        <name>getReplacementPolicy</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns the replacement policy</para><para><simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/operator/common/SteadyState.java" line="133" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/operator/common/SteadyState.java" bodystart="133" bodyend="135"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1stage_1_1operator_1_1common_1_1_steady_state_3_01_t_01extends_01_chromosome_01_4_1ab142c49cb09d7325f9bcc5d029acd36b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void jenes.stage.operator.common.SteadyState&lt; T extends Chromosome &gt;.setReplacementPolicy</definition>
+        <argsstring>(ReplacementStrategy replacement)</argsstring>
+        <name>setReplacementPolicy</name>
+        <param>
+          <type>ReplacementStrategy</type>
+          <declname>replacement</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Sets the replacement policy</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>replacement</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/operator/common/SteadyState.java" line="142" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/operator/common/SteadyState.java" bodystart="142" bodyend="144"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1stage_1_1operator_1_1common_1_1_steady_state_3_01_t_01extends_01_chromosome_01_4_1a32b13dd16c8bb611085477f02bc23cfc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>final int</type>
+        <definition>final int jenes.stage.operator.common.SteadyState&lt; T extends Chromosome &gt;.getReplacementRate</definition>
+        <argsstring>()</argsstring>
+        <name>getReplacementRate</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns the replacement rate</para><para><simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/operator/common/SteadyState.java" line="151" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/operator/common/SteadyState.java" bodystart="151" bodyend="153"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1stage_1_1operator_1_1common_1_1_steady_state_3_01_t_01extends_01_chromosome_01_4_1a8e504ea91d2e2c18fefa54042388e188" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void jenes.stage.operator.common.SteadyState&lt; T extends Chromosome &gt;.setReplacementRate</definition>
+        <argsstring>(int rate)</argsstring>
+        <name>setReplacementRate</name>
+        <param>
+          <type>int</type>
+          <declname>rate</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Sets the replacement rate</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>rate</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/operator/common/SteadyState.java" line="160" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/operator/common/SteadyState.java" bodystart="160" bodyend="162"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1stage_1_1operator_1_1common_1_1_steady_state_3_01_t_01extends_01_chromosome_01_4_1a4aaac6d7b52c8d107b98ab9170a14715" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void jenes.stage.operator.common.SteadyState&lt; T extends Chromosome &gt;.setBiggerIsBetter</definition>
+        <argsstring>(boolean flag, boolean recursively)</argsstring>
+        <name>setBiggerIsBetter</name>
+        <param>
+          <type>boolean</type>
+          <declname>flag</declname>
+        </param>
+        <param>
+          <type>boolean</type>
+          <declname>recursively</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/operator/common/SteadyState.java" line="228" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/operator/common/SteadyState.java" bodystart="228" bodyend="231"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classjenes_1_1stage_1_1operator_1_1common_1_1_steady_state_3_01_t_01extends_01_chromosome_01_4_1a4cc6031dfce1f23a49dfb6270be45358" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void jenes.stage.operator.common.SteadyState&lt; T extends Chromosome &gt;.preselect</definition>
+        <argsstring>(Population&lt; T &gt; in, Population&lt; T &gt; out)</argsstring>
+        <name>preselect</name>
+        <param>
+          <type>Population&lt; T &gt;</type>
+          <declname>in</declname>
+        </param>
+        <param>
+          <type>Population&lt; T &gt;</type>
+          <declname>out</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/operator/common/SteadyState.java" line="165" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/operator/common/SteadyState.java" bodystart="165" bodyend="167"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1stage_1_1operator_1_1common_1_1_steady_state_3_01_t_01extends_01_chromosome_01_4_1aedd46a5fd49b71554354612f991c1482" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void jenes.stage.operator.common.SteadyState&lt; T extends Chromosome &gt;.replace</definition>
+        <argsstring>(Population&lt; T &gt; initial, Population&lt; T &gt; preselected, Population&lt; T &gt; evolved, Population&lt; T &gt; out)</argsstring>
+        <name>replace</name>
+        <param>
+          <type>Population&lt; T &gt;</type>
+          <declname>initial</declname>
+        </param>
+        <param>
+          <type>Population&lt; T &gt;</type>
+          <declname>preselected</declname>
+        </param>
+        <param>
+          <type>Population&lt; T &gt;</type>
+          <declname>evolved</declname>
+        </param>
+        <param>
+          <type>Population&lt; T &gt;</type>
+          <declname>out</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/operator/common/SteadyState.java" line="170" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/operator/common/SteadyState.java" bodystart="170" bodyend="224"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>This class implements a steady-state stage.</para><para><simplesect kind="version"><para>2.0 </para></simplesect>
+<simplesect kind="since"><para>2.0 </para></simplesect>
+</para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="677">
+        <label>jenes.stage.operator.common.SteadyState&lt; T extends Chromosome &gt;</label>
+        <link refid="classjenes_1_1stage_1_1operator_1_1common_1_1_steady_state_3_01_t_01extends_01_chromosome_01_4"/>
+        <childnode refid="678" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="678">
+        <label>jenes::stage::operator::Crowder&lt; T &gt;</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="681">
+        <label>Selector&lt; T &gt;</label>
+      </node>
+      <node id="679">
+        <label>jenes.stage.operator.common.SteadyState&lt; T extends Chromosome &gt;</label>
+        <link refid="classjenes_1_1stage_1_1operator_1_1common_1_1_steady_state_3_01_t_01extends_01_chromosome_01_4"/>
+        <childnode refid="680" relation="public-inheritance">
+        </childnode>
+        <childnode refid="681" relation="usage">
+          <edgelabel>selector</edgelabel>
+        </childnode>
+      </node>
+      <node id="680">
+        <label>jenes::stage::operator::Crowder&lt; T &gt;</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/operator/common/SteadyState.java" line="35" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/operator/common/SteadyState.java" bodystart="35" bodyend="232"/>
+    <listofallmembers>
+      <member refid="classjenes_1_1stage_1_1operator_1_1common_1_1_steady_state_3_01_t_01extends_01_chromosome_01_4_1a9700692d577e24267d1105f2a6e3d379" prot="public" virt="non-virtual"><scope>jenes::stage::operator::common::SteadyState&lt; T extends Chromosome &gt;</scope><name>DEFAULT_REPLACEMENT_RATE</name></member>
+      <member refid="classjenes_1_1stage_1_1operator_1_1common_1_1_steady_state_3_01_t_01extends_01_chromosome_01_4_1a4ed786deaaaefebd47fffc18e99b3710" prot="public" virt="non-virtual"><scope>jenes::stage::operator::common::SteadyState&lt; T extends Chromosome &gt;</scope><name>DEFAULT_REPLACEMENT_STRATEGY</name></member>
+      <member refid="classjenes_1_1stage_1_1operator_1_1common_1_1_steady_state_3_01_t_01extends_01_chromosome_01_4_1a9d6bcfbcf1911ce2936e782e96919ebd" prot="public" virt="non-virtual"><scope>jenes::stage::operator::common::SteadyState&lt; T extends Chromosome &gt;</scope><name>DEFAULT_SELECTION_RATE</name></member>
+      <member refid="classjenes_1_1stage_1_1operator_1_1common_1_1_steady_state_3_01_t_01extends_01_chromosome_01_4_1ae8a1e24e3306c72bdf30094774b68915" prot="public" virt="non-virtual"><scope>jenes::stage::operator::common::SteadyState&lt; T extends Chromosome &gt;</scope><name>getReplacementPolicy</name></member>
+      <member refid="classjenes_1_1stage_1_1operator_1_1common_1_1_steady_state_3_01_t_01extends_01_chromosome_01_4_1a32b13dd16c8bb611085477f02bc23cfc" prot="public" virt="non-virtual"><scope>jenes::stage::operator::common::SteadyState&lt; T extends Chromosome &gt;</scope><name>getReplacementRate</name></member>
+      <member refid="classjenes_1_1stage_1_1operator_1_1common_1_1_steady_state_3_01_t_01extends_01_chromosome_01_4_1a667fecf88fd68c6a89de0ee327eb9dcf" prot="public" virt="non-virtual"><scope>jenes::stage::operator::common::SteadyState&lt; T extends Chromosome &gt;</scope><name>getSelectionRate</name></member>
+      <member refid="classjenes_1_1stage_1_1operator_1_1common_1_1_steady_state_3_01_t_01extends_01_chromosome_01_4_1ac9493ab808eed1e19961d6ba1b97b52d" prot="public" virt="non-virtual"><scope>jenes::stage::operator::common::SteadyState&lt; T extends Chromosome &gt;</scope><name>getSelector</name></member>
+      <member refid="classjenes_1_1stage_1_1operator_1_1common_1_1_steady_state_3_01_t_01extends_01_chromosome_01_4_1a4cc6031dfce1f23a49dfb6270be45358" prot="protected" virt="non-virtual"><scope>jenes::stage::operator::common::SteadyState&lt; T extends Chromosome &gt;</scope><name>preselect</name></member>
+      <member refid="classjenes_1_1stage_1_1operator_1_1common_1_1_steady_state_3_01_t_01extends_01_chromosome_01_4_1aedd46a5fd49b71554354612f991c1482" prot="protected" virt="non-virtual"><scope>jenes::stage::operator::common::SteadyState&lt; T extends Chromosome &gt;</scope><name>replace</name></member>
+      <member refid="classjenes_1_1stage_1_1operator_1_1common_1_1_steady_state_3_01_t_01extends_01_chromosome_01_4_1a84dd70ced0dad9433e4168f18eb735f9" prot="protected" virt="non-virtual"><scope>jenes::stage::operator::common::SteadyState&lt; T extends Chromosome &gt;</scope><name>replacementRate</name></member>
+      <member refid="classjenes_1_1stage_1_1operator_1_1common_1_1_steady_state_3_01_t_01extends_01_chromosome_01_4_1a4d727adbb35eaad5d78fc59abaabea0c" prot="protected" virt="non-virtual"><scope>jenes::stage::operator::common::SteadyState&lt; T extends Chromosome &gt;</scope><name>replacementStrategy</name></member>
+      <member refid="classjenes_1_1stage_1_1operator_1_1common_1_1_steady_state_3_01_t_01extends_01_chromosome_01_4_1a83a734a69acdc4ee13d42982a43e8ba1" prot="protected" virt="non-virtual"><scope>jenes::stage::operator::common::SteadyState&lt; T extends Chromosome &gt;</scope><name>selector</name></member>
+      <member refid="classjenes_1_1stage_1_1operator_1_1common_1_1_steady_state_3_01_t_01extends_01_chromosome_01_4_1a4aaac6d7b52c8d107b98ab9170a14715" prot="public" virt="non-virtual"><scope>jenes::stage::operator::common::SteadyState&lt; T extends Chromosome &gt;</scope><name>setBiggerIsBetter</name></member>
+      <member refid="classjenes_1_1stage_1_1operator_1_1common_1_1_steady_state_3_01_t_01extends_01_chromosome_01_4_1ab142c49cb09d7325f9bcc5d029acd36b" prot="public" virt="non-virtual"><scope>jenes::stage::operator::common::SteadyState&lt; T extends Chromosome &gt;</scope><name>setReplacementPolicy</name></member>
+      <member refid="classjenes_1_1stage_1_1operator_1_1common_1_1_steady_state_3_01_t_01extends_01_chromosome_01_4_1a8e504ea91d2e2c18fefa54042388e188" prot="public" virt="non-virtual"><scope>jenes::stage::operator::common::SteadyState&lt; T extends Chromosome &gt;</scope><name>setReplacementRate</name></member>
+      <member refid="classjenes_1_1stage_1_1operator_1_1common_1_1_steady_state_3_01_t_01extends_01_chromosome_01_4_1ad3182abb1581d4136efe349b46c4dba9" prot="public" virt="non-virtual"><scope>jenes::stage::operator::common::SteadyState&lt; T extends Chromosome &gt;</scope><name>setSelectionRate</name></member>
+      <member refid="classjenes_1_1stage_1_1operator_1_1common_1_1_steady_state_3_01_t_01extends_01_chromosome_01_4_1ad4c63d6921648fac68ea074d8fb49002" prot="public" virt="non-virtual"><scope>jenes::stage::operator::common::SteadyState&lt; T extends Chromosome &gt;</scope><name>setSelector</name></member>
+      <member refid="classjenes_1_1stage_1_1operator_1_1common_1_1_steady_state_3_01_t_01extends_01_chromosome_01_4_1af39cd5e467ed1a020779c89894c5f63e" prot="public" virt="non-virtual"><scope>jenes::stage::operator::common::SteadyState&lt; T extends Chromosome &gt;</scope><name>SteadyState</name></member>
+      <member refid="classjenes_1_1stage_1_1operator_1_1common_1_1_steady_state_3_01_t_01extends_01_chromosome_01_4_1a3411aeb67d5f0914fdb6682627a507c9" prot="public" virt="non-virtual"><scope>jenes::stage::operator::common::SteadyState&lt; T extends Chromosome &gt;</scope><name>SteadyState</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

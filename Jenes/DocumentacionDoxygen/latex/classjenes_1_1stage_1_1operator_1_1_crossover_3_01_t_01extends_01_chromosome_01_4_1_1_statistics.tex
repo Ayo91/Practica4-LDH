@@ -1,0 +1,83 @@
+\hypertarget{classjenes_1_1stage_1_1operator_1_1_crossover_3_01_t_01extends_01_chromosome_01_4_1_1_statistics}{\section{jenes.\-stage.\-operator.\-Crossover$<$ T extends Chromosome $>$.Statistics Class Reference}
+\label{classjenes_1_1stage_1_1operator_1_1_crossover_3_01_t_01extends_01_chromosome_01_4_1_1_statistics}\index{jenes.\-stage.\-operator.\-Crossover$<$ T extends Chromosome $>$.\-Statistics@{jenes.\-stage.\-operator.\-Crossover$<$ T extends Chromosome $>$.\-Statistics}}
+}
+Inheritance diagram for jenes.\-stage.\-operator.\-Crossover$<$ T extends Chromosome $>$.Statistics\-:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{classjenes_1_1stage_1_1operator_1_1_crossover_3_01_t_01extends_01_chromosome_01_4_1_1_statistics}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+final long \hyperlink{classjenes_1_1stage_1_1operator_1_1_crossover_3_01_t_01extends_01_chromosome_01_4_1_1_statistics_a6181ee46b3e760f5d440e758d95db04b}{get\-Crossovers} ()
+\end{DoxyCompactItemize}
+\subsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+final void \hyperlink{classjenes_1_1stage_1_1operator_1_1_crossover_3_01_t_01extends_01_chromosome_01_4_1_1_statistics_ae352590e85b1d1d821b0912a770f257a}{fill} (final Operator$<$ T $>$.Statistics stats)
+\end{DoxyCompactItemize}
+\subsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+long \hyperlink{classjenes_1_1stage_1_1operator_1_1_crossover_3_01_t_01extends_01_chromosome_01_4_1_1_statistics_abf1983cc628b3283b942dc68cc871bbc}{crossovers}
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+A statistics object holding the number of crossover performed and the time spent to execute them. The statistics is available by two methods\-: \hyperlink{}{Crossover\#get\-Statistics()} to have a new statistics setted according to the crossover state or \hyperlink{}{Crossover\#update\-Statistics(jenes.\-stage.\-operator.\-Operator.\-Statistics)} to modify an existing statistics according to the crossover state. 
+
+Esamples of use are showed below. 
+
+\begin{quotation}
+
+\begin{DoxyPre}
+Crossover.Statistics stat = a\_crossover.getStatistics();
+\end{DoxyPre}
+\end{quotation}
+
+
+returns a new statistics object setted according to the specified crossover state. 
+
+\begin{quotation}
+
+\begin{DoxyPre}
+Crossover.Statistics stat = new Crossover.Statistics();
+a\_crossover.updateStatistics(stat);
+\end{DoxyPre}
+\end{quotation}
+
+
+modifies the existing statistics according to the specified crossover state. 
+
+\subsection{Member Function Documentation}
+\hypertarget{classjenes_1_1stage_1_1operator_1_1_crossover_3_01_t_01extends_01_chromosome_01_4_1_1_statistics_ae352590e85b1d1d821b0912a770f257a}{\index{jenes\-::stage\-::operator\-::\-Crossover$<$ T extends Chromosome $>$\-::\-Statistics@{jenes\-::stage\-::operator\-::\-Crossover$<$ T extends Chromosome $>$\-::\-Statistics}!fill@{fill}}
+\index{fill@{fill}!jenes::stage::operator::Crossover< T extends Chromosome >::Statistics@{jenes\-::stage\-::operator\-::\-Crossover$<$ T extends Chromosome $>$\-::\-Statistics}}
+\subsubsection[{fill}]{\setlength{\rightskip}{0pt plus 5cm}final void jenes.\-stage.\-operator.\-Crossover$<$ T extends Chromosome $>$.Statistics.\-fill (
+\begin{DoxyParamCaption}
+\item[{final Operator$<$ T $>$.Statistics}]{stats}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [protected]}}}\label{classjenes_1_1stage_1_1operator_1_1_crossover_3_01_t_01extends_01_chromosome_01_4_1_1_statistics_ae352590e85b1d1d821b0912a770f257a}
+\hypertarget{classjenes_1_1stage_1_1operator_1_1_crossover_3_01_t_01extends_01_chromosome_01_4_1_1_statistics_a6181ee46b3e760f5d440e758d95db04b}{\index{jenes\-::stage\-::operator\-::\-Crossover$<$ T extends Chromosome $>$\-::\-Statistics@{jenes\-::stage\-::operator\-::\-Crossover$<$ T extends Chromosome $>$\-::\-Statistics}!get\-Crossovers@{get\-Crossovers}}
+\index{get\-Crossovers@{get\-Crossovers}!jenes::stage::operator::Crossover< T extends Chromosome >::Statistics@{jenes\-::stage\-::operator\-::\-Crossover$<$ T extends Chromosome $>$\-::\-Statistics}}
+\subsubsection[{get\-Crossovers}]{\setlength{\rightskip}{0pt plus 5cm}final long jenes.\-stage.\-operator.\-Crossover$<$ T extends Chromosome $>$.Statistics.\-get\-Crossovers (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classjenes_1_1stage_1_1operator_1_1_crossover_3_01_t_01extends_01_chromosome_01_4_1_1_statistics_a6181ee46b3e760f5d440e758d95db04b}
+Returns the number of crossovers performed.
+
+\begin{DoxyReturn}{Returns}
+the number of crossovers performed. 
+\end{DoxyReturn}
+
+
+\subsection{Member Data Documentation}
+\hypertarget{classjenes_1_1stage_1_1operator_1_1_crossover_3_01_t_01extends_01_chromosome_01_4_1_1_statistics_abf1983cc628b3283b942dc68cc871bbc}{\index{jenes\-::stage\-::operator\-::\-Crossover$<$ T extends Chromosome $>$\-::\-Statistics@{jenes\-::stage\-::operator\-::\-Crossover$<$ T extends Chromosome $>$\-::\-Statistics}!crossovers@{crossovers}}
+\index{crossovers@{crossovers}!jenes::stage::operator::Crossover< T extends Chromosome >::Statistics@{jenes\-::stage\-::operator\-::\-Crossover$<$ T extends Chromosome $>$\-::\-Statistics}}
+\subsubsection[{crossovers}]{\setlength{\rightskip}{0pt plus 5cm}long jenes.\-stage.\-operator.\-Crossover$<$ T extends Chromosome $>$.Statistics.\-crossovers\hspace{0.3cm}{\ttfamily [protected]}}}\label{classjenes_1_1stage_1_1operator_1_1_crossover_3_01_t_01extends_01_chromosome_01_4_1_1_statistics_abf1983cc628b3283b942dc68cc871bbc}
+Number of crossovers performed. 
+
+The documentation for this class was generated from the following file\-:\begin{DoxyCompactItemize}
+\item 
+src/jenes/stage/operator/\hyperlink{_crossover_8java}{Crossover.\-java}\end{DoxyCompactItemize}

@@ -1,0 +1,139 @@
+\hypertarget{classjenes_1_1stage_1_1operator_1_1_mutator_3_01_t_01extends_01_chromosome_01_4}{\section{jenes.\-stage.\-operator.\-Mutator$<$ T extends Chromosome $>$ Class Reference}
+\label{classjenes_1_1stage_1_1operator_1_1_mutator_3_01_t_01extends_01_chromosome_01_4}\index{jenes.\-stage.\-operator.\-Mutator$<$ T extends Chromosome $>$@{jenes.\-stage.\-operator.\-Mutator$<$ T extends Chromosome $>$}}
+}
+Inheritance diagram for jenes.\-stage.\-operator.\-Mutator$<$ T extends Chromosome $>$\-:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{classjenes_1_1stage_1_1operator_1_1_mutator_3_01_t_01extends_01_chromosome_01_4}
+\end{center}
+\end{figure}
+\subsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+class \hyperlink{classjenes_1_1stage_1_1operator_1_1_mutator_3_01_t_01extends_01_chromosome_01_4_1_1_statistics}{Statistics}
+\end{DoxyCompactItemize}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classjenes_1_1stage_1_1operator_1_1_mutator_3_01_t_01extends_01_chromosome_01_4_a01aea5c94d65f99cca8a24be7250a06a}{Mutator} (double \hyperlink{classjenes_1_1stage_1_1operator_1_1_mutator_3_01_t_01extends_01_chromosome_01_4_a60f38eb7afd1ad6a7d1c0c639df2d5fe}{probability})
+\item 
+double \hyperlink{classjenes_1_1stage_1_1operator_1_1_mutator_3_01_t_01extends_01_chromosome_01_4_af8cd41f87d99e8bc5d00bf9a21ffcd86}{get\-Probability} ()
+\item 
+void \hyperlink{classjenes_1_1stage_1_1operator_1_1_mutator_3_01_t_01extends_01_chromosome_01_4_a49b8a34032a575badd2080d6c90397cb}{set\-Probability} (double \hyperlink{classjenes_1_1stage_1_1operator_1_1_mutator_3_01_t_01extends_01_chromosome_01_4_a60f38eb7afd1ad6a7d1c0c639df2d5fe}{probability})
+\item 
+final void \hyperlink{classjenes_1_1stage_1_1operator_1_1_mutator_3_01_t_01extends_01_chromosome_01_4_a091269db32219198b26860ee4b295345}{process} (Population$<$ T $>$ in, Population$<$ T $>$ out)  throws Stage\-Exception 
+\end{DoxyCompactItemize}
+\subsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+abstract void \hyperlink{classjenes_1_1stage_1_1operator_1_1_mutator_3_01_t_01extends_01_chromosome_01_4_a5ea1c6fd8d4ed580d70e1fafd85bb3a8}{mutate} (Individual$<$ T $>$ t)
+\end{DoxyCompactItemize}
+\subsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+double \hyperlink{classjenes_1_1stage_1_1operator_1_1_mutator_3_01_t_01extends_01_chromosome_01_4_a60f38eb7afd1ad6a7d1c0c639df2d5fe}{probability}
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+A generic mutation operator. The operation is executed according to a mutation probability. 
+
+The actual operator is implemented by subclassing this abstract class and providing the \hyperlink{}{Mutator\#mutate(\-Individual)} implementation\-: the method is required to mutate an \hyperlink{}{Individual} according to a mutation strategy. No new individual copies have to be created during the mutation operation\-: the individual specified at the \hyperlink{}{Mutator\#mutate(\-Individual)} will take parte to the output mutator population. 
+
+A \hyperlink{}{Mutator.\-Statistics} is associated to each mutator operator.
+
+
+\begin{DoxyParams}{Parameters}
+{\em $<$\-T$>$} & The class of chromosomes to work with.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyVersion}{Version}
+1.\-2 
+\end{DoxyVersion}
+\begin{DoxySince}{Since}
+1.\-0
+\end{DoxySince}
+\begin{DoxySeeAlso}{See Also}
+Individual 
+
+Population 
+\end{DoxySeeAlso}
+
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{classjenes_1_1stage_1_1operator_1_1_mutator_3_01_t_01extends_01_chromosome_01_4_a01aea5c94d65f99cca8a24be7250a06a}{\index{jenes\-::stage\-::operator\-::\-Mutator$<$ T extends Chromosome $>$@{jenes\-::stage\-::operator\-::\-Mutator$<$ T extends Chromosome $>$}!Mutator@{Mutator}}
+\index{Mutator@{Mutator}!jenes::stage::operator::Mutator< T extends Chromosome >@{jenes\-::stage\-::operator\-::\-Mutator$<$ T extends Chromosome $>$}}
+\subsubsection[{Mutator}]{\setlength{\rightskip}{0pt plus 5cm}jenes.\-stage.\-operator.\-Mutator$<$ T extends Chromosome $>$.Mutator (
+\begin{DoxyParamCaption}
+\item[{double}]{probability}
+\end{DoxyParamCaption}
+)}}\label{classjenes_1_1stage_1_1operator_1_1_mutator_3_01_t_01extends_01_chromosome_01_4_a01aea5c94d65f99cca8a24be7250a06a}
+Constructs a new mutator instance with the specified mutator probability
+
+
+\begin{DoxyParams}{Parameters}
+{\em probability} & the mutator probability \\
+\hline
+\end{DoxyParams}
+
+
+\subsection{Member Function Documentation}
+\hypertarget{classjenes_1_1stage_1_1operator_1_1_mutator_3_01_t_01extends_01_chromosome_01_4_af8cd41f87d99e8bc5d00bf9a21ffcd86}{\index{jenes\-::stage\-::operator\-::\-Mutator$<$ T extends Chromosome $>$@{jenes\-::stage\-::operator\-::\-Mutator$<$ T extends Chromosome $>$}!get\-Probability@{get\-Probability}}
+\index{get\-Probability@{get\-Probability}!jenes::stage::operator::Mutator< T extends Chromosome >@{jenes\-::stage\-::operator\-::\-Mutator$<$ T extends Chromosome $>$}}
+\subsubsection[{get\-Probability}]{\setlength{\rightskip}{0pt plus 5cm}double jenes.\-stage.\-operator.\-Mutator$<$ T extends Chromosome $>$.get\-Probability (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classjenes_1_1stage_1_1operator_1_1_mutator_3_01_t_01extends_01_chromosome_01_4_af8cd41f87d99e8bc5d00bf9a21ffcd86}
+Returns the mutator probability
+
+\begin{DoxyReturn}{Returns}
+the mutator probability 
+\end{DoxyReturn}
+\hypertarget{classjenes_1_1stage_1_1operator_1_1_mutator_3_01_t_01extends_01_chromosome_01_4_a5ea1c6fd8d4ed580d70e1fafd85bb3a8}{\index{jenes\-::stage\-::operator\-::\-Mutator$<$ T extends Chromosome $>$@{jenes\-::stage\-::operator\-::\-Mutator$<$ T extends Chromosome $>$}!mutate@{mutate}}
+\index{mutate@{mutate}!jenes::stage::operator::Mutator< T extends Chromosome >@{jenes\-::stage\-::operator\-::\-Mutator$<$ T extends Chromosome $>$}}
+\subsubsection[{mutate}]{\setlength{\rightskip}{0pt plus 5cm}abstract void jenes.\-stage.\-operator.\-Mutator$<$ T extends Chromosome $>$.mutate (
+\begin{DoxyParamCaption}
+\item[{Individual$<$ T $>$}]{t}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [protected]}, {\ttfamily [pure virtual]}}}\label{classjenes_1_1stage_1_1operator_1_1_mutator_3_01_t_01extends_01_chromosome_01_4_a5ea1c6fd8d4ed580d70e1fafd85bb3a8}
+Mutates a single individual. This abstract method is implemented according to a mutation policy
+
+
+\begin{DoxyParams}{Parameters}
+{\em t} & the individual to mutate \\
+\hline
+\end{DoxyParams}
+\hypertarget{classjenes_1_1stage_1_1operator_1_1_mutator_3_01_t_01extends_01_chromosome_01_4_a091269db32219198b26860ee4b295345}{\index{jenes\-::stage\-::operator\-::\-Mutator$<$ T extends Chromosome $>$@{jenes\-::stage\-::operator\-::\-Mutator$<$ T extends Chromosome $>$}!process@{process}}
+\index{process@{process}!jenes::stage::operator::Mutator< T extends Chromosome >@{jenes\-::stage\-::operator\-::\-Mutator$<$ T extends Chromosome $>$}}
+\subsubsection[{process}]{\setlength{\rightskip}{0pt plus 5cm}final void jenes.\-stage.\-operator.\-Mutator$<$ T extends Chromosome $>$.process (
+\begin{DoxyParamCaption}
+\item[{Population$<$ T $>$}]{in, }
+\item[{Population$<$ T $>$}]{out}
+\end{DoxyParamCaption}
+) throws {\bf Stage\-Exception}}}\label{classjenes_1_1stage_1_1operator_1_1_mutator_3_01_t_01extends_01_chromosome_01_4_a091269db32219198b26860ee4b295345}
+\hypertarget{classjenes_1_1stage_1_1operator_1_1_mutator_3_01_t_01extends_01_chromosome_01_4_a49b8a34032a575badd2080d6c90397cb}{\index{jenes\-::stage\-::operator\-::\-Mutator$<$ T extends Chromosome $>$@{jenes\-::stage\-::operator\-::\-Mutator$<$ T extends Chromosome $>$}!set\-Probability@{set\-Probability}}
+\index{set\-Probability@{set\-Probability}!jenes::stage::operator::Mutator< T extends Chromosome >@{jenes\-::stage\-::operator\-::\-Mutator$<$ T extends Chromosome $>$}}
+\subsubsection[{set\-Probability}]{\setlength{\rightskip}{0pt plus 5cm}void jenes.\-stage.\-operator.\-Mutator$<$ T extends Chromosome $>$.set\-Probability (
+\begin{DoxyParamCaption}
+\item[{double}]{probability}
+\end{DoxyParamCaption}
+)}}\label{classjenes_1_1stage_1_1operator_1_1_mutator_3_01_t_01extends_01_chromosome_01_4_a49b8a34032a575badd2080d6c90397cb}
+Sets the mutator probability
+
+
+\begin{DoxyParams}{Parameters}
+{\em probability} & the new mutator probability \\
+\hline
+\end{DoxyParams}
+
+
+\subsection{Member Data Documentation}
+\hypertarget{classjenes_1_1stage_1_1operator_1_1_mutator_3_01_t_01extends_01_chromosome_01_4_a60f38eb7afd1ad6a7d1c0c639df2d5fe}{\index{jenes\-::stage\-::operator\-::\-Mutator$<$ T extends Chromosome $>$@{jenes\-::stage\-::operator\-::\-Mutator$<$ T extends Chromosome $>$}!probability@{probability}}
+\index{probability@{probability}!jenes::stage::operator::Mutator< T extends Chromosome >@{jenes\-::stage\-::operator\-::\-Mutator$<$ T extends Chromosome $>$}}
+\subsubsection[{probability}]{\setlength{\rightskip}{0pt plus 5cm}double jenes.\-stage.\-operator.\-Mutator$<$ T extends Chromosome $>$.probability\hspace{0.3cm}{\ttfamily [protected]}}}\label{classjenes_1_1stage_1_1operator_1_1_mutator_3_01_t_01extends_01_chromosome_01_4_a60f38eb7afd1ad6a7d1c0c639df2d5fe}
+The mutation probablility 
+
+The documentation for this class was generated from the following file\-:\begin{DoxyCompactItemize}
+\item 
+src/jenes/stage/operator/\hyperlink{_mutator_8java}{Mutator.\-java}\end{DoxyCompactItemize}

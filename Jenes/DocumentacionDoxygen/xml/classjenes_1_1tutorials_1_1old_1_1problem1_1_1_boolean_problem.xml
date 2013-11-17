@@ -1,0 +1,83 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="classjenes_1_1tutorials_1_1old_1_1problem1_1_1_boolean_problem" kind="class" prot="public">
+    <compoundname>jenes::tutorials::old::problem1::BooleanProblem</compoundname>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="classjenes_1_1tutorials_1_1old_1_1problem1_1_1_boolean_problem_1a2e3533716f1eb0515e413d6547f9b7b3" prot="private" static="yes" mutable="no">
+        <type>int</type>
+        <definition>int jenes.tutorials.old.problem1.BooleanProblem.POPULATION_SIZE</definition>
+        <argsstring></argsstring>
+        <name>POPULATION_SIZE</name>
+        <initializer>=50</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/old/problem1/BooleanProblem.java" line="41" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/old/problem1/BooleanProblem.java" bodystart="41" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classjenes_1_1tutorials_1_1old_1_1problem1_1_1_boolean_problem_1a2c993c43a52908b3284a0a74b243a5f1" prot="private" static="yes" mutable="no">
+        <type>int</type>
+        <definition>int jenes.tutorials.old.problem1.BooleanProblem.CHROMOSOME_LENGTH</definition>
+        <argsstring></argsstring>
+        <name>CHROMOSOME_LENGTH</name>
+        <initializer>=100</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/old/problem1/BooleanProblem.java" line="42" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/old/problem1/BooleanProblem.java" bodystart="42" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classjenes_1_1tutorials_1_1old_1_1problem1_1_1_boolean_problem_1a0bcad729c8eff87eac3654342286c4e0" prot="private" static="yes" mutable="no">
+        <type>int</type>
+        <definition>int jenes.tutorials.old.problem1.BooleanProblem.GENERATION_LIMIT</definition>
+        <argsstring></argsstring>
+        <name>GENERATION_LIMIT</name>
+        <initializer>=1000</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/old/problem1/BooleanProblem.java" line="43" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/old/problem1/BooleanProblem.java" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classjenes_1_1tutorials_1_1old_1_1problem1_1_1_boolean_problem_1a122005d28decbbdf9c0676bc5870dfd4" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void jenes.tutorials.old.problem1.BooleanProblem.main</definition>
+        <argsstring>(String[] args)</argsstring>
+        <name>main</name>
+        <param>
+          <type>String[]</type>
+          <declname>args</declname>
+        </param>
+        <exceptions> throws Exception </exceptions>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/old/problem1/BooleanProblem.java" line="45" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/old/problem1/BooleanProblem.java" bodystart="45" bodyend="100"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Tutorial implementing a basic genetic algorithm. The problem consists in finding a vector full of zeros or ones.</para><para><simplesect kind="version"><para>1.0</para></simplesect>
+<simplesect kind="since"><para>1.0 </para></simplesect>
+</para>    </detaileddescription>
+    <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/old/problem1/BooleanProblem.java" line="39" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/old/problem1/BooleanProblem.java" bodystart="39" bodyend="102"/>
+    <listofallmembers>
+      <member refid="classjenes_1_1tutorials_1_1old_1_1problem1_1_1_boolean_problem_1a2c993c43a52908b3284a0a74b243a5f1" prot="private" virt="non-virtual"><scope>jenes::tutorials::old::problem1::BooleanProblem</scope><name>CHROMOSOME_LENGTH</name></member>
+      <member refid="classjenes_1_1tutorials_1_1old_1_1problem1_1_1_boolean_problem_1a0bcad729c8eff87eac3654342286c4e0" prot="private" virt="non-virtual"><scope>jenes::tutorials::old::problem1::BooleanProblem</scope><name>GENERATION_LIMIT</name></member>
+      <member refid="classjenes_1_1tutorials_1_1old_1_1problem1_1_1_boolean_problem_1a122005d28decbbdf9c0676bc5870dfd4" prot="public" virt="non-virtual"><scope>jenes::tutorials::old::problem1::BooleanProblem</scope><name>main</name></member>
+      <member refid="classjenes_1_1tutorials_1_1old_1_1problem1_1_1_boolean_problem_1a2e3533716f1eb0515e413d6547f9b7b3" prot="private" virt="non-virtual"><scope>jenes::tutorials::old::problem1::BooleanProblem</scope><name>POPULATION_SIZE</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

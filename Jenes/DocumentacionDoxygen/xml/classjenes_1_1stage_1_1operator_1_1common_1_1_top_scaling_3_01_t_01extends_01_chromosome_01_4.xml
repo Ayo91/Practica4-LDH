@@ -1,0 +1,253 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="classjenes_1_1stage_1_1operator_1_1common_1_1_top_scaling_3_01_t_01extends_01_chromosome_01_4" kind="class" prot="public">
+    <compoundname>jenes::stage::operator::common::TopScaling&lt; T extends Chromosome &gt;</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">jenes::stage::operator::Scaling&lt; T &gt;</basecompoundref>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classjenes_1_1stage_1_1operator_1_1common_1_1_top_scaling_3_01_t_01extends_01_chromosome_01_4_1af21f9346a23ebaab4d7a5bd4367edafe" prot="public" static="yes" mutable="no">
+        <type>double</type>
+        <definition>double jenes.stage.operator.common.TopScaling&lt; T extends Chromosome &gt;.DEFAULT_FRACTION</definition>
+        <argsstring></argsstring>
+        <name>DEFAULT_FRACTION</name>
+        <initializer>= 0.4</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The defaulf fraction </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/operator/common/TopScaling.java" line="40" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/operator/common/TopScaling.java" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classjenes_1_1stage_1_1operator_1_1common_1_1_top_scaling_3_01_t_01extends_01_chromosome_01_4_1ac4dcb017229ce4f914aa9aa0fa9c06b9" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double jenes.stage.operator.common.TopScaling&lt; T extends Chromosome &gt;.fraction</definition>
+        <argsstring></argsstring>
+        <name>fraction</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The fraction </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/operator/common/TopScaling.java" line="43" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/operator/common/TopScaling.java" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classjenes_1_1stage_1_1operator_1_1common_1_1_top_scaling_3_01_t_01extends_01_chromosome_01_4_1a89dca8db478aefb4c249da3a7b75f0ad" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int jenes.stage.operator.common.TopScaling&lt; T extends Chromosome &gt;.quantity</definition>
+        <argsstring></argsstring>
+        <name>quantity</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The quantitiy </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/operator/common/TopScaling.java" line="46" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/operator/common/TopScaling.java" bodystart="46" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classjenes_1_1stage_1_1operator_1_1common_1_1_top_scaling_3_01_t_01extends_01_chromosome_01_4_1aa1be76204f86d57efff77e708cbcf2f9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>jenes.stage.operator.common.TopScaling&lt; T extends Chromosome &gt;.TopScaling</definition>
+        <argsstring>()</argsstring>
+        <name>TopScaling</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Creates an instance with default fraction </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/operator/common/TopScaling.java" line="49" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/operator/common/TopScaling.java" bodystart="49" bodyend="51"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1stage_1_1operator_1_1common_1_1_top_scaling_3_01_t_01extends_01_chromosome_01_4_1acb9c77ba5c63f60dcb5d27cf256c6d61" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>jenes.stage.operator.common.TopScaling&lt; T extends Chromosome &gt;.TopScaling</definition>
+        <argsstring>(double f)</argsstring>
+        <name>TopScaling</name>
+        <param>
+          <type>double</type>
+          <declname>f</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Creates an instance with the given fraction</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>f</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>fraction between 0 (0%) and 1 (i.e. 100%). </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/operator/common/TopScaling.java" line="57" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/operator/common/TopScaling.java" bodystart="57" bodyend="59"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1stage_1_1operator_1_1common_1_1_top_scaling_3_01_t_01extends_01_chromosome_01_4_1adb3a002d09932e82a52f848cd4b8247e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>jenes.stage.operator.common.TopScaling&lt; T extends Chromosome &gt;.TopScaling</definition>
+        <argsstring>(int q)</argsstring>
+        <name>TopScaling</name>
+        <param>
+          <type>int</type>
+          <declname>q</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Creates an instance with the given quantity of individuals </para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>q</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>quantity of top individuals </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/operator/common/TopScaling.java" line="65" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/operator/common/TopScaling.java" bodystart="65" bodyend="67"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1stage_1_1operator_1_1common_1_1_top_scaling_3_01_t_01extends_01_chromosome_01_4_1a4cb1be9e4948570a5f5d94ed97eb6cba" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>final double</type>
+        <definition>final double jenes.stage.operator.common.TopScaling&lt; T extends Chromosome &gt;.getFraction</definition>
+        <argsstring>()</argsstring>
+        <name>getFraction</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns the fraction </para><para><simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/operator/common/TopScaling.java" line="74" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/operator/common/TopScaling.java" bodystart="74" bodyend="76"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1stage_1_1operator_1_1common_1_1_top_scaling_3_01_t_01extends_01_chromosome_01_4_1ab39c283ff0bb662ac76df11474ef133f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>final void</type>
+        <definition>final void jenes.stage.operator.common.TopScaling&lt; T extends Chromosome &gt;.setFraction</definition>
+        <argsstring>(double f)</argsstring>
+        <name>setFraction</name>
+        <param>
+          <type>double</type>
+          <declname>f</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Sets the fraction of individuals to consider. The value provided as input is trimmed between 0 and 1. </para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>f</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the fraction </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/operator/common/TopScaling.java" line="83" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/operator/common/TopScaling.java" bodystart="83" bodyend="88"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1stage_1_1operator_1_1common_1_1_top_scaling_3_01_t_01extends_01_chromosome_01_4_1a165fa24c31055aecd832e837419bad6f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>final int</type>
+        <definition>final int jenes.stage.operator.common.TopScaling&lt; T extends Chromosome &gt;.getQuantity</definition>
+        <argsstring>()</argsstring>
+        <name>getQuantity</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Return the number of top individuals to consider</para><para><simplesect kind="return"><para>quantity </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/operator/common/TopScaling.java" line="95" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/operator/common/TopScaling.java" bodystart="95" bodyend="97"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1stage_1_1operator_1_1common_1_1_top_scaling_3_01_t_01extends_01_chromosome_01_4_1a53e27151e7c9b0b98e5c80e5018d2800" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>final void</type>
+        <definition>final void jenes.stage.operator.common.TopScaling&lt; T extends Chromosome &gt;.setQuantity</definition>
+        <argsstring>(int q)</argsstring>
+        <name>setQuantity</name>
+        <param>
+          <type>int</type>
+          <declname>q</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Sets the number of top individuals to consider. </para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>q</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>quantity </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/operator/common/TopScaling.java" line="104" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/operator/common/TopScaling.java" bodystart="104" bodyend="107"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1stage_1_1operator_1_1common_1_1_top_scaling_3_01_t_01extends_01_chromosome_01_4_1afb5fd14e2cdb722a139193172c56ceaa" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void jenes.stage.operator.common.TopScaling&lt; T extends Chromosome &gt;.scale</definition>
+        <argsstring>(Population&lt; T &gt; pop)</argsstring>
+        <name>scale</name>
+        <param>
+          <type>Population&lt; T &gt;</type>
+          <declname>pop</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/operator/common/TopScaling.java" line="110" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/operator/common/TopScaling.java" bodystart="110" bodyend="150"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>This operator performs fitness top-scaling. Given f, a fraction of individuals. Best individuals are given a score 1/m*n, where n is the number of individuals. Alternatively, a number q of individuals can be provided, instead of fraction f. The others are given 0. </para><para>TopScaling is compatible with multi-objective optimization.</para><para><simplesect kind="version"><para>2.0 </para></simplesect>
+<simplesect kind="since"><para>2.0 </para></simplesect>
+</para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="686">
+        <label>jenes.stage.operator.common.TopScaling&lt; T extends Chromosome &gt;</label>
+        <link refid="classjenes_1_1stage_1_1operator_1_1common_1_1_top_scaling_3_01_t_01extends_01_chromosome_01_4"/>
+        <childnode refid="687" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="687">
+        <label>jenes::stage::operator::Scaling&lt; T &gt;</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="688">
+        <label>jenes.stage.operator.common.TopScaling&lt; T extends Chromosome &gt;</label>
+        <link refid="classjenes_1_1stage_1_1operator_1_1common_1_1_top_scaling_3_01_t_01extends_01_chromosome_01_4"/>
+        <childnode refid="689" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="689">
+        <label>jenes::stage::operator::Scaling&lt; T &gt;</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/operator/common/TopScaling.java" line="37" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/operator/common/TopScaling.java" bodystart="37" bodyend="152"/>
+    <listofallmembers>
+      <member refid="classjenes_1_1stage_1_1operator_1_1common_1_1_top_scaling_3_01_t_01extends_01_chromosome_01_4_1af21f9346a23ebaab4d7a5bd4367edafe" prot="public" virt="non-virtual"><scope>jenes::stage::operator::common::TopScaling&lt; T extends Chromosome &gt;</scope><name>DEFAULT_FRACTION</name></member>
+      <member refid="classjenes_1_1stage_1_1operator_1_1common_1_1_top_scaling_3_01_t_01extends_01_chromosome_01_4_1ac4dcb017229ce4f914aa9aa0fa9c06b9" prot="private" virt="non-virtual"><scope>jenes::stage::operator::common::TopScaling&lt; T extends Chromosome &gt;</scope><name>fraction</name></member>
+      <member refid="classjenes_1_1stage_1_1operator_1_1common_1_1_top_scaling_3_01_t_01extends_01_chromosome_01_4_1a4cb1be9e4948570a5f5d94ed97eb6cba" prot="public" virt="non-virtual"><scope>jenes::stage::operator::common::TopScaling&lt; T extends Chromosome &gt;</scope><name>getFraction</name></member>
+      <member refid="classjenes_1_1stage_1_1operator_1_1common_1_1_top_scaling_3_01_t_01extends_01_chromosome_01_4_1a165fa24c31055aecd832e837419bad6f" prot="public" virt="non-virtual"><scope>jenes::stage::operator::common::TopScaling&lt; T extends Chromosome &gt;</scope><name>getQuantity</name></member>
+      <member refid="classjenes_1_1stage_1_1operator_1_1common_1_1_top_scaling_3_01_t_01extends_01_chromosome_01_4_1a89dca8db478aefb4c249da3a7b75f0ad" prot="private" virt="non-virtual"><scope>jenes::stage::operator::common::TopScaling&lt; T extends Chromosome &gt;</scope><name>quantity</name></member>
+      <member refid="classjenes_1_1stage_1_1operator_1_1common_1_1_top_scaling_3_01_t_01extends_01_chromosome_01_4_1afb5fd14e2cdb722a139193172c56ceaa" prot="public" virt="non-virtual"><scope>jenes::stage::operator::common::TopScaling&lt; T extends Chromosome &gt;</scope><name>scale</name></member>
+      <member refid="classjenes_1_1stage_1_1operator_1_1common_1_1_top_scaling_3_01_t_01extends_01_chromosome_01_4_1ab39c283ff0bb662ac76df11474ef133f" prot="public" virt="non-virtual"><scope>jenes::stage::operator::common::TopScaling&lt; T extends Chromosome &gt;</scope><name>setFraction</name></member>
+      <member refid="classjenes_1_1stage_1_1operator_1_1common_1_1_top_scaling_3_01_t_01extends_01_chromosome_01_4_1a53e27151e7c9b0b98e5c80e5018d2800" prot="public" virt="non-virtual"><scope>jenes::stage::operator::common::TopScaling&lt; T extends Chromosome &gt;</scope><name>setQuantity</name></member>
+      <member refid="classjenes_1_1stage_1_1operator_1_1common_1_1_top_scaling_3_01_t_01extends_01_chromosome_01_4_1aa1be76204f86d57efff77e708cbcf2f9" prot="public" virt="non-virtual"><scope>jenes::stage::operator::common::TopScaling&lt; T extends Chromosome &gt;</scope><name>TopScaling</name></member>
+      <member refid="classjenes_1_1stage_1_1operator_1_1common_1_1_top_scaling_3_01_t_01extends_01_chromosome_01_4_1acb9c77ba5c63f60dcb5d27cf256c6d61" prot="public" virt="non-virtual"><scope>jenes::stage::operator::common::TopScaling&lt; T extends Chromosome &gt;</scope><name>TopScaling</name></member>
+      <member refid="classjenes_1_1stage_1_1operator_1_1common_1_1_top_scaling_3_01_t_01extends_01_chromosome_01_4_1adb3a002d09932e82a52f848cd4b8247e" prot="public" virt="non-virtual"><scope>jenes::stage::operator::common::TopScaling&lt; T extends Chromosome &gt;</scope><name>TopScaling</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

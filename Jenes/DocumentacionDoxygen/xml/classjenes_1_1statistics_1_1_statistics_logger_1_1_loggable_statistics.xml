@@ -1,0 +1,143 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="classjenes_1_1statistics_1_1_statistics_logger_1_1_loggable_statistics" kind="class" prot="public">
+    <compoundname>jenes::statistics::StatisticsLogger::LoggableStatistics</compoundname>
+    <derivedcompoundref refid="classjenes_1_1_genetic_algorithm_3_01_t_01extends_01_chromosome_01_4_1_1_statistics" prot="public" virt="non-virtual">jenes.GeneticAlgorithm&lt; T extends Chromosome &gt;.Statistics</derivedcompoundref>
+    <derivedcompoundref refid="classjenes_1_1population_1_1_individual_3_01_t_01extends_01_chromosome_01_4_1_1_statistics_3_01_t_01extends_01_chromosome_01_4" prot="public" virt="non-virtual">jenes.population.Individual&lt; T extends Chromosome &gt;.Statistics&lt; T extends Chromosome &gt;</derivedcompoundref>
+    <derivedcompoundref refid="classjenes_1_1population_1_1_pool_3_01_t_01extends_01_chromosome_01_4_1_1_statistics" prot="public" virt="non-virtual">jenes.population.Pool&lt; T extends Chromosome &gt;.Statistics</derivedcompoundref>
+    <derivedcompoundref refid="classjenes_1_1population_1_1_population_3_01_t_01extends_01_chromosome_01_4_1_1_statistics_3_01_t_01extends_01_chromosome_01_4" prot="public" virt="non-virtual">jenes.population.Population&lt; T extends Chromosome &gt;.Statistics&lt; T extends Chromosome &gt;</derivedcompoundref>
+    <derivedcompoundref refid="classjenes_1_1population_1_1_population_3_01_t_01extends_01_chromosome_01_4_1_1_statistics_3_01_f7597188e8ce49bb3794d06ba6cb2ae1" prot="public" virt="non-virtual">jenes.population.Population&lt; T extends Chromosome &gt;.Statistics&lt; T extends Chromosome &gt;.Group&lt; T extends Chromosome &gt;</derivedcompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classjenes_1_1statistics_1_1_statistics_logger_1_1_loggable_statistics_1a4c3dcfc80b9300adc8ed0942ae912f8d" prot="private" static="no" mutable="no">
+        <type>Map&lt; String, Method &gt;</type>
+        <definition>Map&lt;String, Method&gt; jenes.statistics.StatisticsLogger.LoggableStatistics.statmethods</definition>
+        <argsstring></argsstring>
+        <name>statmethods</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/statistics/StatisticsLogger.java" line="232" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/statistics/StatisticsLogger.java" bodystart="232" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classjenes_1_1statistics_1_1_statistics_logger_1_1_loggable_statistics_1ae5a06be4a046efa2cafa4d6e9943c5a9" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>jenes.statistics.StatisticsLogger.LoggableStatistics.LoggableStatistics</definition>
+        <argsstring>()</argsstring>
+        <name>LoggableStatistics</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs a new <ref refid="classjenes_1_1statistics_1_1_statistics_logger_1_1_loggable_statistics" kindref="compound">LoggableStatistics</ref>, retriving the names of figures by reflection. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/statistics/StatisticsLogger.java" line="237" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/statistics/StatisticsLogger.java" bodystart="237" bodyend="246"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classjenes_1_1statistics_1_1_statistics_logger_1_1_loggable_statistics_1af29fe4dc17044a8879b62b4d05482d51" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>final Collection&lt; String &gt;</type>
+        <definition>final Collection&lt;String&gt; jenes.statistics.StatisticsLogger.LoggableStatistics.getFigures</definition>
+        <argsstring>()</argsstring>
+        <name>getFigures</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Provides the collection of figures made available by the subclass instance. <simplesect kind="return"><para>the collection of figures </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/statistics/StatisticsLogger.java" line="252" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/statistics/StatisticsLogger.java" bodystart="252" bodyend="254"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1statistics_1_1_statistics_logger_1_1_loggable_statistics_1acb7ffceff2aa39fbd545f17df39dd877" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>final Object</type>
+        <definition>final Object jenes.statistics.StatisticsLogger.LoggableStatistics.getValue</definition>
+        <argsstring>(String figure)</argsstring>
+        <name>getValue</name>
+        <param>
+          <type>String</type>
+          <declname>figure</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns the figure value. <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>figure</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- the figure to retrieve </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>the value if the figure exists, Double.NaN otherwise </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/statistics/StatisticsLogger.java" line="261" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/statistics/StatisticsLogger.java" bodystart="261" bodyend="283"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>This class provides the support for making a statistics loggable.</para><para>It is simply required to make the own statistics class extending <ref refid="classjenes_1_1statistics_1_1_statistics_logger_1_1_loggable_statistics" kindref="compound">LoggableStatistics</ref>.</para><para><simplesect kind="author"><para>Luigi Troiano </para></simplesect>
+</para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="371">
+        <label>jenes.population.Population&lt; T extends Chromosome &gt;.Statistics&lt; T extends Chromosome &gt;.Group&lt; T extends Chromosome &gt;</label>
+        <link refid="classjenes_1_1population_1_1_population_3_01_t_01extends_01_chromosome_01_4_1_1_statistics_3_01_f7597188e8ce49bb3794d06ba6cb2ae1"/>
+        <childnode refid="366" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="368">
+        <label>jenes.population.Individual&lt; T extends Chromosome &gt;.Statistics&lt; T extends Chromosome &gt;</label>
+        <link refid="classjenes_1_1population_1_1_individual_3_01_t_01extends_01_chromosome_01_4_1_1_statistics_3_01_t_01extends_01_chromosome_01_4"/>
+        <childnode refid="366" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="369">
+        <label>jenes.population.Pool&lt; T extends Chromosome &gt;.Statistics</label>
+        <link refid="classjenes_1_1population_1_1_pool_3_01_t_01extends_01_chromosome_01_4_1_1_statistics"/>
+        <childnode refid="366" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="366">
+        <label>jenes.statistics.StatisticsLogger.LoggableStatistics</label>
+        <link refid="classjenes_1_1statistics_1_1_statistics_logger_1_1_loggable_statistics"/>
+      </node>
+      <node id="370">
+        <label>jenes.population.Population&lt; T extends Chromosome &gt;.Statistics&lt; T extends Chromosome &gt;</label>
+        <link refid="classjenes_1_1population_1_1_population_3_01_t_01extends_01_chromosome_01_4_1_1_statistics_3_01_t_01extends_01_chromosome_01_4"/>
+        <childnode refid="366" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="367">
+        <label>jenes.GeneticAlgorithm&lt; T extends Chromosome &gt;.Statistics</label>
+        <link refid="classjenes_1_1_genetic_algorithm_3_01_t_01extends_01_chromosome_01_4_1_1_statistics"/>
+        <childnode refid="366" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="372">
+        <label>jenes.statistics.StatisticsLogger.LoggableStatistics</label>
+        <link refid="classjenes_1_1statistics_1_1_statistics_logger_1_1_loggable_statistics"/>
+        <childnode refid="373" relation="usage">
+          <edgelabel>statmethods</edgelabel>
+        </childnode>
+      </node>
+      <node id="373">
+        <label>Map&lt; String, Method &gt;</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/statistics/StatisticsLogger.java" line="230" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/statistics/StatisticsLogger.java" bodystart="230" bodyend="284"/>
+    <listofallmembers>
+      <member refid="classjenes_1_1statistics_1_1_statistics_logger_1_1_loggable_statistics_1af29fe4dc17044a8879b62b4d05482d51" prot="public" virt="non-virtual"><scope>jenes::statistics::StatisticsLogger::LoggableStatistics</scope><name>getFigures</name></member>
+      <member refid="classjenes_1_1statistics_1_1_statistics_logger_1_1_loggable_statistics_1acb7ffceff2aa39fbd545f17df39dd877" prot="public" virt="non-virtual"><scope>jenes::statistics::StatisticsLogger::LoggableStatistics</scope><name>getValue</name></member>
+      <member refid="classjenes_1_1statistics_1_1_statistics_logger_1_1_loggable_statistics_1ae5a06be4a046efa2cafa4d6e9943c5a9" prot="protected" virt="non-virtual"><scope>jenes::statistics::StatisticsLogger::LoggableStatistics</scope><name>LoggableStatistics</name></member>
+      <member refid="classjenes_1_1statistics_1_1_statistics_logger_1_1_loggable_statistics_1a4c3dcfc80b9300adc8ed0942ae912f8d" prot="private" virt="non-virtual"><scope>jenes::statistics::StatisticsLogger::LoggableStatistics</scope><name>statmethods</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

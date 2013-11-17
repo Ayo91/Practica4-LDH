@@ -1,0 +1,147 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="classjenes_1_1utils_1_1_pretty_printer" kind="class" prot="public">
+    <compoundname>jenes::utils::PrettyPrinter</compoundname>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classjenes_1_1utils_1_1_pretty_printer_1af1b7970ec18b6a847d1857cd9c804ff3" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>static String jenes.utils.PrettyPrinter.arrayToString</definition>
+        <argsstring>(double[] arr)</argsstring>
+        <name>arrayToString</name>
+        <param>
+          <type>double[]</type>
+          <declname>arr</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/utils/PrettyPrinter.java" line="26" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/utils/PrettyPrinter.java" bodystart="26" bodyend="28"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1utils_1_1_pretty_printer_1a4aea4a04a4f1c86a0b69c66b6831705d" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>static String jenes.utils.PrettyPrinter.arrayToString</definition>
+        <argsstring>(int digits, int precision, double[] arr)</argsstring>
+        <name>arrayToString</name>
+        <param>
+          <type>int</type>
+          <declname>digits</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>precision</declname>
+        </param>
+        <param>
+          <type>double[]</type>
+          <declname>arr</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/utils/PrettyPrinter.java" line="30" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/utils/PrettyPrinter.java" bodystart="30" bodyend="32"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1utils_1_1_pretty_printer_1a2bf0b08b7aeaa282a3169be54103e0a0" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>static String jenes.utils.PrettyPrinter.arrayToString</definition>
+        <argsstring>(String af, double[] arr)</argsstring>
+        <name>arrayToString</name>
+        <param>
+          <type>String</type>
+          <declname>af</declname>
+        </param>
+        <param>
+          <type>double[]</type>
+          <declname>arr</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/utils/PrettyPrinter.java" line="34" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/utils/PrettyPrinter.java" bodystart="34" bodyend="45"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1utils_1_1_pretty_printer_1a15b2c468ec5e89b449a51a532d3b2601" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>static String jenes.utils.PrettyPrinter.valuesToString</definition>
+        <argsstring>(double...values)</argsstring>
+        <name>valuesToString</name>
+        <param>
+          <type>double...</type>
+          <declname>values</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/utils/PrettyPrinter.java" line="47" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/utils/PrettyPrinter.java" bodystart="47" bodyend="49"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1utils_1_1_pretty_printer_1af380a69bc4dac9e7dee1a178f26b4b12" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>static String jenes.utils.PrettyPrinter.valuesToString</definition>
+        <argsstring>(int digits, int precision, double...values)</argsstring>
+        <name>valuesToString</name>
+        <param>
+          <type>int</type>
+          <declname>digits</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>precision</declname>
+        </param>
+        <param>
+          <type>double...</type>
+          <declname>values</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/utils/PrettyPrinter.java" line="51" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/utils/PrettyPrinter.java" bodystart="51" bodyend="53"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1utils_1_1_pretty_printer_1a89c8fe653fb9bd04437bc2dcde97718e" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>static String jenes.utils.PrettyPrinter.valuesToString</definition>
+        <argsstring>(String af, double...values)</argsstring>
+        <name>valuesToString</name>
+        <param>
+          <type>String</type>
+          <declname>af</declname>
+        </param>
+        <param>
+          <type>double...</type>
+          <declname>values</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/utils/PrettyPrinter.java" line="55" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/utils/PrettyPrinter.java" bodystart="55" bodyend="68"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/utils/PrettyPrinter.java" line="24" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/utils/PrettyPrinter.java" bodystart="24" bodyend="73"/>
+    <listofallmembers>
+      <member refid="classjenes_1_1utils_1_1_pretty_printer_1af1b7970ec18b6a847d1857cd9c804ff3" prot="public" virt="non-virtual"><scope>jenes::utils::PrettyPrinter</scope><name>arrayToString</name></member>
+      <member refid="classjenes_1_1utils_1_1_pretty_printer_1a4aea4a04a4f1c86a0b69c66b6831705d" prot="public" virt="non-virtual"><scope>jenes::utils::PrettyPrinter</scope><name>arrayToString</name></member>
+      <member refid="classjenes_1_1utils_1_1_pretty_printer_1a2bf0b08b7aeaa282a3169be54103e0a0" prot="public" virt="non-virtual"><scope>jenes::utils::PrettyPrinter</scope><name>arrayToString</name></member>
+      <member refid="classjenes_1_1utils_1_1_pretty_printer_1a15b2c468ec5e89b449a51a532d3b2601" prot="public" virt="non-virtual"><scope>jenes::utils::PrettyPrinter</scope><name>valuesToString</name></member>
+      <member refid="classjenes_1_1utils_1_1_pretty_printer_1af380a69bc4dac9e7dee1a178f26b4b12" prot="public" virt="non-virtual"><scope>jenes::utils::PrettyPrinter</scope><name>valuesToString</name></member>
+      <member refid="classjenes_1_1utils_1_1_pretty_printer_1a89c8fe653fb9bd04437bc2dcde97718e" prot="public" virt="non-virtual"><scope>jenes::utils::PrettyPrinter</scope><name>valuesToString</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

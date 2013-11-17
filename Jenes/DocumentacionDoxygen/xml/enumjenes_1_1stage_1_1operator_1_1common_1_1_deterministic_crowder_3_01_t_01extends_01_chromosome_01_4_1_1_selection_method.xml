@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="enumjenes_1_1stage_1_1operator_1_1common_1_1_deterministic_crowder_3_01_t_01extends_01_chromosome_01_4_1_1_selection_method" kind="enum" prot="public">
+    <compoundname>jenes::stage::operator::common::DeterministicCrowder&lt; T extends Chromosome &gt;::SelectionMethod</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="enumjenes_1_1stage_1_1operator_1_1common_1_1_deterministic_crowder_3_01_t_01extends_01_chromosome_01_4_1_1_selection_method_1a2a8afcf1f261f5f986a4f4400da3bc84" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>jenes.stage.operator.common.DeterministicCrowder&lt; T extends Chromosome &gt;.SelectionMethod.NONE</definition>
+        <argsstring></argsstring>
+        <name>NONE</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/operator/common/DeterministicCrowder.java" line="40" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/operator/common/DeterministicCrowder.java" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="enumjenes_1_1stage_1_1operator_1_1common_1_1_deterministic_crowder_3_01_t_01extends_01_chromosome_01_4_1_1_selection_method_1a09bdb68bda636b8eccf1f064dee57961" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>jenes.stage.operator.common.DeterministicCrowder&lt; T extends Chromosome &gt;.SelectionMethod.ROULETTE</definition>
+        <argsstring></argsstring>
+        <name>ROULETTE</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/operator/common/DeterministicCrowder.java" line="40" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/operator/common/DeterministicCrowder.java" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="enumjenes_1_1stage_1_1operator_1_1common_1_1_deterministic_crowder_3_01_t_01extends_01_chromosome_01_4_1_1_selection_method_1acf3d13065b946fb2e0e86d3cf8ca49fd" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>jenes.stage.operator.common.DeterministicCrowder&lt; T extends Chromosome &gt;.SelectionMethod.TOURNAMENT</definition>
+        <argsstring></argsstring>
+        <name>TOURNAMENT</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/operator/common/DeterministicCrowder.java" line="41" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/operator/common/DeterministicCrowder.java" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Provides the available selection methods </para>    </detaileddescription>
+    <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/operator/common/DeterministicCrowder.java" line="39" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/operator/common/DeterministicCrowder.java" bodystart="39" bodyend="41"/>
+    <listofallmembers>
+      <member refid="enumjenes_1_1stage_1_1operator_1_1common_1_1_deterministic_crowder_3_01_t_01extends_01_chromosome_01_4_1_1_selection_method_1a2a8afcf1f261f5f986a4f4400da3bc84" prot="public" virt="non-virtual"><scope>jenes::stage::operator::common::DeterministicCrowder&lt; T extends Chromosome &gt;::SelectionMethod</scope><name>NONE</name></member>
+      <member refid="enumjenes_1_1stage_1_1operator_1_1common_1_1_deterministic_crowder_3_01_t_01extends_01_chromosome_01_4_1_1_selection_method_1a09bdb68bda636b8eccf1f064dee57961" prot="public" virt="non-virtual"><scope>jenes::stage::operator::common::DeterministicCrowder&lt; T extends Chromosome &gt;::SelectionMethod</scope><name>ROULETTE</name></member>
+      <member refid="enumjenes_1_1stage_1_1operator_1_1common_1_1_deterministic_crowder_3_01_t_01extends_01_chromosome_01_4_1_1_selection_method_1acf3d13065b946fb2e0e86d3cf8ca49fd" prot="public" virt="non-virtual"><scope>jenes::stage::operator::common::DeterministicCrowder&lt; T extends Chromosome &gt;::SelectionMethod</scope><name>TOURNAMENT</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

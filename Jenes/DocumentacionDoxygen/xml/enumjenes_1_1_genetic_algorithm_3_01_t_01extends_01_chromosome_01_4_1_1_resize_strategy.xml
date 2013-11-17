@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="enumjenes_1_1_genetic_algorithm_3_01_t_01extends_01_chromosome_01_4_1_1_resize_strategy" kind="enum" prot="public">
+    <compoundname>jenes::GeneticAlgorithm&lt; T extends Chromosome &gt;::ResizeStrategy</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="enumjenes_1_1_genetic_algorithm_3_01_t_01extends_01_chromosome_01_4_1_1_resize_strategy_1a2efbc067403542b53491c6ca5d3200fe" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>jenes.GeneticAlgorithm&lt; T extends Chromosome &gt;.ResizeStrategy.NONE</definition>
+        <argsstring></argsstring>
+        <name>NONE</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>No resize is perfomed. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/GeneticAlgorithm.java" line="253" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/GeneticAlgorithm.java" bodystart="253" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="enumjenes_1_1_genetic_algorithm_3_01_t_01extends_01_chromosome_01_4_1_1_resize_strategy_1ab5fbe0d69a54b0b5286d2231726934e5" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>jenes.GeneticAlgorithm&lt; T extends Chromosome &gt;.ResizeStrategy.AUTO</definition>
+        <argsstring></argsstring>
+        <name>AUTO</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>If there is a need to expand, additional individuals are added, else they are removed. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/GeneticAlgorithm.java" line="255" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/GeneticAlgorithm.java" bodystart="255" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="enumjenes_1_1_genetic_algorithm_3_01_t_01extends_01_chromosome_01_4_1_1_resize_strategy_1a69a9defbff3c22d92a210f7a72646869" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>jenes.GeneticAlgorithm&lt; T extends Chromosome &gt;.ResizeStrategy.EMPTY</definition>
+        <argsstring></argsstring>
+        <name>EMPTY</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Population is made empty, and then individuals are added as needed. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/GeneticAlgorithm.java" line="258" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/GeneticAlgorithm.java" bodystart="257" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>The resize stategy enumeration. It is used in <ref refid="" kindref="compound">jenes.stage.Sequence</ref></para>    </detaileddescription>
+    <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/GeneticAlgorithm.java" line="250" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/GeneticAlgorithm.java" bodystart="250" bodyend="258"/>
+    <listofallmembers>
+      <member refid="enumjenes_1_1_genetic_algorithm_3_01_t_01extends_01_chromosome_01_4_1_1_resize_strategy_1ab5fbe0d69a54b0b5286d2231726934e5" prot="public" virt="non-virtual"><scope>jenes::GeneticAlgorithm&lt; T extends Chromosome &gt;::ResizeStrategy</scope><name>AUTO</name></member>
+      <member refid="enumjenes_1_1_genetic_algorithm_3_01_t_01extends_01_chromosome_01_4_1_1_resize_strategy_1a69a9defbff3c22d92a210f7a72646869" prot="public" virt="non-virtual"><scope>jenes::GeneticAlgorithm&lt; T extends Chromosome &gt;::ResizeStrategy</scope><name>EMPTY</name></member>
+      <member refid="enumjenes_1_1_genetic_algorithm_3_01_t_01extends_01_chromosome_01_4_1_1_resize_strategy_1a2efbc067403542b53491c6ca5d3200fe" prot="public" virt="non-virtual"><scope>jenes::GeneticAlgorithm&lt; T extends Chromosome &gt;::ResizeStrategy</scope><name>NONE</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

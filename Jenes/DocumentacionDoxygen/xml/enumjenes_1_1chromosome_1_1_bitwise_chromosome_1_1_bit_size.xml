@@ -1,0 +1,145 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="enumjenes_1_1chromosome_1_1_bitwise_chromosome_1_1_bit_size" kind="enum" prot="public">
+    <compoundname>jenes::chromosome::BitwiseChromosome::BitSize</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="enumjenes_1_1chromosome_1_1_bitwise_chromosome_1_1_bit_size_1a1c1800310dcf0a10eb4ec5262f67c4a9" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>jenes.chromosome.BitwiseChromosome.BitSize.BIT1</definition>
+        <argsstring></argsstring>
+        <name>BIT1</name>
+        <initializer>=(1, 0x1)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Standard 1 bit strucure </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/chromosome/BitwiseChromosome.java" line="67" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/chromosome/BitwiseChromosome.java" bodystart="67" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="enumjenes_1_1chromosome_1_1_bitwise_chromosome_1_1_bit_size_1a3d70a1d66121607b50d32fbf01dd3333" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>jenes.chromosome.BitwiseChromosome.BitSize.BIT8</definition>
+        <argsstring></argsstring>
+        <name>BIT8</name>
+        <initializer>=(8, 0xFF)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Standard 8 bits strucure </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/chromosome/BitwiseChromosome.java" line="71" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/chromosome/BitwiseChromosome.java" bodystart="71" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="enumjenes_1_1chromosome_1_1_bitwise_chromosome_1_1_bit_size_1a0b700c4a19af2e751fcaa42f44624e92" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>jenes.chromosome.BitwiseChromosome.BitSize.BIT16</definition>
+        <argsstring></argsstring>
+        <name>BIT16</name>
+        <initializer>=(16, 0xFFFF)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Standard 16 bits strucure </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/chromosome/BitwiseChromosome.java" line="75" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/chromosome/BitwiseChromosome.java" bodystart="75" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="enumjenes_1_1chromosome_1_1_bitwise_chromosome_1_1_bit_size_1a00d4f4e8c35a3d6e7e51a78be3206505" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>jenes.chromosome.BitwiseChromosome.BitSize.BIT32</definition>
+        <argsstring></argsstring>
+        <name>BIT32</name>
+        <initializer>=(32, 0xFFFFFFFF)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Standard 32 bits strucure </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/chromosome/BitwiseChromosome.java" line="79" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/chromosome/BitwiseChromosome.java" bodystart="79" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="enumjenes_1_1chromosome_1_1_bitwise_chromosome_1_1_bit_size_1a83754d4cd40d6f7cad7e7732f2494926" prot="public" static="no" mutable="no">
+        <type>final int</type>
+        <definition>final int jenes.chromosome.BitwiseChromosome.BitSize.BITS</definition>
+        <argsstring></argsstring>
+        <name>BITS</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The number of bits </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/chromosome/BitwiseChromosome.java" line="83" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/chromosome/BitwiseChromosome.java" bodystart="83" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="enumjenes_1_1chromosome_1_1_bitwise_chromosome_1_1_bit_size_1a9566045bf22bb46793d909d09f69664b" prot="public" static="no" mutable="no">
+        <type>final int</type>
+        <definition>final int jenes.chromosome.BitwiseChromosome.BitSize.MASK</definition>
+        <argsstring></argsstring>
+        <name>MASK</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The bit mask for retrieving and setting </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/chromosome/BitwiseChromosome.java" line="87" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/chromosome/BitwiseChromosome.java" bodystart="87" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="enumjenes_1_1chromosome_1_1_bitwise_chromosome_1_1_bit_size_1a2558272ed7bab3872598b55f7200106b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>jenes.chromosome.BitwiseChromosome.BitSize.BitSize</definition>
+        <argsstring>(int bits, int mask)</argsstring>
+        <name>BitSize</name>
+        <param>
+          <type>int</type>
+          <declname>bits</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>mask</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs a new <ref refid="enumjenes_1_1chromosome_1_1_bitwise_chromosome_1_1_bit_size" kindref="compound">BitSize</ref> with the specified number length and bit mask.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>bits</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the number bit length of the coding </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>mask</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the mask of the coding </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/chromosome/BitwiseChromosome.java" line="95" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/chromosome/BitwiseChromosome.java" bodystart="95" bodyend="98"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Definition of the number bit length and mask to use in the coding operations.</para><para><simplesect kind="author"><para>Luigi Troiano </para><simplesectsep/><para>Pierpaolo Lombardi </para><simplesectsep/><para>Giuseppe Pascale </para><simplesectsep/><para>Thierry Bodhuin</para></simplesect>
+<simplesect kind="version"><para>1.2</para></simplesect>
+<simplesect kind="since"><para>1.0 </para></simplesect>
+</para>    </detaileddescription>
+    <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/chromosome/BitwiseChromosome.java" line="62" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/chromosome/BitwiseChromosome.java" bodystart="62" bodyend="99"/>
+    <listofallmembers>
+      <member refid="enumjenes_1_1chromosome_1_1_bitwise_chromosome_1_1_bit_size_1a1c1800310dcf0a10eb4ec5262f67c4a9" prot="public" virt="non-virtual"><scope>jenes::chromosome::BitwiseChromosome::BitSize</scope><name>BIT1</name></member>
+      <member refid="enumjenes_1_1chromosome_1_1_bitwise_chromosome_1_1_bit_size_1a0b700c4a19af2e751fcaa42f44624e92" prot="public" virt="non-virtual"><scope>jenes::chromosome::BitwiseChromosome::BitSize</scope><name>BIT16</name></member>
+      <member refid="enumjenes_1_1chromosome_1_1_bitwise_chromosome_1_1_bit_size_1a00d4f4e8c35a3d6e7e51a78be3206505" prot="public" virt="non-virtual"><scope>jenes::chromosome::BitwiseChromosome::BitSize</scope><name>BIT32</name></member>
+      <member refid="enumjenes_1_1chromosome_1_1_bitwise_chromosome_1_1_bit_size_1a3d70a1d66121607b50d32fbf01dd3333" prot="public" virt="non-virtual"><scope>jenes::chromosome::BitwiseChromosome::BitSize</scope><name>BIT8</name></member>
+      <member refid="enumjenes_1_1chromosome_1_1_bitwise_chromosome_1_1_bit_size_1a83754d4cd40d6f7cad7e7732f2494926" prot="public" virt="non-virtual"><scope>jenes::chromosome::BitwiseChromosome::BitSize</scope><name>BITS</name></member>
+      <member refid="enumjenes_1_1chromosome_1_1_bitwise_chromosome_1_1_bit_size_1a2558272ed7bab3872598b55f7200106b" prot="public" virt="non-virtual"><scope>jenes::chromosome::BitwiseChromosome::BitSize</scope><name>BitSize</name></member>
+      <member refid="enumjenes_1_1chromosome_1_1_bitwise_chromosome_1_1_bit_size_1a9566045bf22bb46793d909d09f69664b" prot="public" virt="non-virtual"><scope>jenes::chromosome::BitwiseChromosome::BitSize</scope><name>MASK</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

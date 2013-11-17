@@ -1,0 +1,88 @@
+\hypertarget{classjenes_1_1tutorials_1_1problem3_1_1_t_s_p_scramble_mutator}{\section{jenes.\-tutorials.\-problem3.\-T\-S\-P\-Scramble\-Mutator Class Reference}
+\label{classjenes_1_1tutorials_1_1problem3_1_1_t_s_p_scramble_mutator}\index{jenes.\-tutorials.\-problem3.\-T\-S\-P\-Scramble\-Mutator@{jenes.\-tutorials.\-problem3.\-T\-S\-P\-Scramble\-Mutator}}
+}
+Inheritance diagram for jenes.\-tutorials.\-problem3.\-T\-S\-P\-Scramble\-Mutator\-:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{classjenes_1_1tutorials_1_1problem3_1_1_t_s_p_scramble_mutator}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classjenes_1_1tutorials_1_1problem3_1_1_t_s_p_scramble_mutator_a405cbd7c659b7f1053399d0fa9a5b942}{T\-S\-P\-Scramble\-Mutator} (double p\-Mut)
+\item 
+void \hyperlink{classjenes_1_1tutorials_1_1problem3_1_1_t_s_p_scramble_mutator_a42d01f9f0cd8138659b8e76fdc41cd1e}{randomize} (\hyperlink{classjenes_1_1chromosome_1_1_integer_chromosome}{Integer\-Chromosome} chrom, int min, int max)
+\end{DoxyCompactItemize}
+\subsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{classjenes_1_1tutorials_1_1problem3_1_1_t_s_p_scramble_mutator_ab355f07bb36d37f05a81eac0cc110b42}{mutate} (Individual$<$ \hyperlink{classjenes_1_1chromosome_1_1_integer_chromosome}{Integer\-Chromosome} $>$ t)
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Tutorial showing how to implement problem specific operators. The problem faced in this example is the well known Tavel Salesman Problem (T\-S\-P)
+
+This class implements a specific mutations aimed at preserving permutations.
+
+Algorithm description\-: Two random indexes, i1 and i2, are choosed; the order of the elements within the range \mbox{[}i1,i2\mbox{]} changes randomly. For example\-: 
+\begin{DoxyPre}
+      i1=0; i2=3
+      position:    0 1 2 3 4 5
+  start\_chrom: 5 2 1 4 6 3
+      end\_chrom:   2 5 4 1 6 3
+\end{DoxyPre}
+
+
+\begin{DoxyVersion}{Version}
+2.\-0 
+\end{DoxyVersion}
+\begin{DoxySince}{Since}
+1.\-0 
+\end{DoxySince}
+
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{classjenes_1_1tutorials_1_1problem3_1_1_t_s_p_scramble_mutator_a405cbd7c659b7f1053399d0fa9a5b942}{\index{jenes\-::tutorials\-::problem3\-::\-T\-S\-P\-Scramble\-Mutator@{jenes\-::tutorials\-::problem3\-::\-T\-S\-P\-Scramble\-Mutator}!T\-S\-P\-Scramble\-Mutator@{T\-S\-P\-Scramble\-Mutator}}
+\index{T\-S\-P\-Scramble\-Mutator@{T\-S\-P\-Scramble\-Mutator}!jenes::tutorials::problem3::TSPScrambleMutator@{jenes\-::tutorials\-::problem3\-::\-T\-S\-P\-Scramble\-Mutator}}
+\subsubsection[{T\-S\-P\-Scramble\-Mutator}]{\setlength{\rightskip}{0pt plus 5cm}jenes.\-tutorials.\-problem3.\-T\-S\-P\-Scramble\-Mutator.\-T\-S\-P\-Scramble\-Mutator (
+\begin{DoxyParamCaption}
+\item[{double}]{p\-Mut}
+\end{DoxyParamCaption}
+)}}\label{classjenes_1_1tutorials_1_1problem3_1_1_t_s_p_scramble_mutator_a405cbd7c659b7f1053399d0fa9a5b942}
+
+
+\subsection{Member Function Documentation}
+\hypertarget{classjenes_1_1tutorials_1_1problem3_1_1_t_s_p_scramble_mutator_ab355f07bb36d37f05a81eac0cc110b42}{\index{jenes\-::tutorials\-::problem3\-::\-T\-S\-P\-Scramble\-Mutator@{jenes\-::tutorials\-::problem3\-::\-T\-S\-P\-Scramble\-Mutator}!mutate@{mutate}}
+\index{mutate@{mutate}!jenes::tutorials::problem3::TSPScrambleMutator@{jenes\-::tutorials\-::problem3\-::\-T\-S\-P\-Scramble\-Mutator}}
+\subsubsection[{mutate}]{\setlength{\rightskip}{0pt plus 5cm}void jenes.\-tutorials.\-problem3.\-T\-S\-P\-Scramble\-Mutator.\-mutate (
+\begin{DoxyParamCaption}
+\item[{Individual$<$ {\bf Integer\-Chromosome} $>$}]{t}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [protected]}}}\label{classjenes_1_1tutorials_1_1problem3_1_1_t_s_p_scramble_mutator_ab355f07bb36d37f05a81eac0cc110b42}
+\hypertarget{classjenes_1_1tutorials_1_1problem3_1_1_t_s_p_scramble_mutator_a42d01f9f0cd8138659b8e76fdc41cd1e}{\index{jenes\-::tutorials\-::problem3\-::\-T\-S\-P\-Scramble\-Mutator@{jenes\-::tutorials\-::problem3\-::\-T\-S\-P\-Scramble\-Mutator}!randomize@{randomize}}
+\index{randomize@{randomize}!jenes::tutorials::problem3::TSPScrambleMutator@{jenes\-::tutorials\-::problem3\-::\-T\-S\-P\-Scramble\-Mutator}}
+\subsubsection[{randomize}]{\setlength{\rightskip}{0pt plus 5cm}void jenes.\-tutorials.\-problem3.\-T\-S\-P\-Scramble\-Mutator.\-randomize (
+\begin{DoxyParamCaption}
+\item[{{\bf Integer\-Chromosome}}]{chrom, }
+\item[{int}]{min, }
+\item[{int}]{max}
+\end{DoxyParamCaption}
+)}}\label{classjenes_1_1tutorials_1_1problem3_1_1_t_s_p_scramble_mutator_a42d01f9f0cd8138659b8e76fdc41cd1e}
+Randomizes the elements chromosome within the range \mbox{[}min,max\mbox{]} 
+
+
+\begin{DoxyParams}{Parameters}
+{\em chrom} & the individual to mutate \\
+\hline
+{\em min} & the lower bound \\
+\hline
+{\em max} & the upper bound \\
+\hline
+\end{DoxyParams}
+
+
+The documentation for this class was generated from the following file\-:\begin{DoxyCompactItemize}
+\item 
+src/jenes/tutorials/problem3/\hyperlink{problem3_2_t_s_p_scramble_mutator_8java}{T\-S\-P\-Scramble\-Mutator.\-java}\end{DoxyCompactItemize}

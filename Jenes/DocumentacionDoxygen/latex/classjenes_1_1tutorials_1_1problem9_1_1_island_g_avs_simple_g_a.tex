@@ -1,0 +1,98 @@
+\hypertarget{classjenes_1_1tutorials_1_1problem9_1_1_island_g_avs_simple_g_a}{\section{jenes.\-tutorials.\-problem9.\-Island\-G\-Avs\-Simple\-G\-A Class Reference}
+\label{classjenes_1_1tutorials_1_1problem9_1_1_island_g_avs_simple_g_a}\index{jenes.\-tutorials.\-problem9.\-Island\-G\-Avs\-Simple\-G\-A@{jenes.\-tutorials.\-problem9.\-Island\-G\-Avs\-Simple\-G\-A}}
+}
+\subsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static void \hyperlink{classjenes_1_1tutorials_1_1problem9_1_1_island_g_avs_simple_g_a_a20124a96736560ad40f38c5cf057c8df}{main} (String...\-a)  throws I\-O\-Exception 
+\end{DoxyCompactItemize}
+\subsection*{Static Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static Group$<$ \hyperlink{classjenes_1_1chromosome_1_1_double_chromosome}{Double\-Chromosome} $>$ \hyperlink{classjenes_1_1tutorials_1_1problem9_1_1_island_g_avs_simple_g_a_a593d4a6805e5a71e1eb3b30f24e3088c}{execute\-Island\-G\-A} (Fitness$<$ \hyperlink{classjenes_1_1chromosome_1_1_double_chromosome}{Double\-Chromosome} $>$ fit, Population$<$ \hyperlink{classjenes_1_1chromosome_1_1_double_chromosome}{Double\-Chromosome} $>$ pop)
+\item 
+static Group$<$ \hyperlink{classjenes_1_1chromosome_1_1_double_chromosome}{Double\-Chromosome} $>$ \hyperlink{classjenes_1_1tutorials_1_1problem9_1_1_island_g_avs_simple_g_a_a8fbbd68f88740cfef8e3578409c7b28c}{execute\-Simpla\-G\-A} (Fitness$<$ \hyperlink{classjenes_1_1chromosome_1_1_double_chromosome}{Double\-Chromosome} $>$ fit, Population$<$ \hyperlink{classjenes_1_1chromosome_1_1_double_chromosome}{Double\-Chromosome} $>$ pop)
+\item 
+static void \hyperlink{classjenes_1_1tutorials_1_1problem9_1_1_island_g_avs_simple_g_a_a97bc52a775806a663525a22d51009976}{print\-Results} (Group$<$ \hyperlink{classjenes_1_1chromosome_1_1_double_chromosome}{Double\-Chromosome} $>$ res\-Island, Group$<$ \hyperlink{classjenes_1_1chromosome_1_1_double_chromosome}{Double\-Chromosome} $>$ res\-Simple)
+\end{DoxyCompactItemize}
+\subsection*{Static Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+static int \hyperlink{classjenes_1_1tutorials_1_1problem9_1_1_island_g_avs_simple_g_a_a7651a1c3812cced2ff7198299906f7d7}{P\-O\-P\-U\-L\-A\-T\-I\-O\-N\-\_\-\-S\-I\-Z\-E} = 250
+\item 
+static int \hyperlink{classjenes_1_1tutorials_1_1problem9_1_1_island_g_avs_simple_g_a_aadc2a6b04b46a9a5d957c3f22762f4d6}{C\-H\-R\-O\-M\-O\-S\-O\-M\-E\-\_\-\-L\-E\-N\-G\-T\-H} = 2
+\item 
+static int \hyperlink{classjenes_1_1tutorials_1_1problem9_1_1_island_g_avs_simple_g_a_ab3b13df96c99c89698c2c74340ae2c6d}{G\-E\-N\-E\-R\-A\-T\-I\-O\-N\-\_\-\-L\-I\-M\-I\-T} = 100
+\item 
+static final String \hyperlink{classjenes_1_1tutorials_1_1problem9_1_1_island_g_avs_simple_g_a_ab5429444736404c0a031ab65e28b8639}{F\-O\-L\-D\-E\-R} = \char`\"{}files.\-Tutorial9\char`\"{} + File.\-separator\-Char
+\item 
+static \hyperlink{classjenes_1_1utils_1_1_x_l_s_logger}{X\-L\-S\-Logger} \hyperlink{classjenes_1_1tutorials_1_1problem9_1_1_island_g_avs_simple_g_a_a47c83870d72507ba12efda584f0b1212}{xlslogger}
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Tutorial implementing a Island genetic algorithm and a Simple genetic algorithm The problem consists in maximizing a function.
+
+\begin{DoxyVersion}{Version}
+2.\-0 
+\end{DoxyVersion}
+\begin{DoxySince}{Since}
+1.\-0 
+\end{DoxySince}
+
+
+\subsection{Member Function Documentation}
+\hypertarget{classjenes_1_1tutorials_1_1problem9_1_1_island_g_avs_simple_g_a_a593d4a6805e5a71e1eb3b30f24e3088c}{\index{jenes\-::tutorials\-::problem9\-::\-Island\-G\-Avs\-Simple\-G\-A@{jenes\-::tutorials\-::problem9\-::\-Island\-G\-Avs\-Simple\-G\-A}!execute\-Island\-G\-A@{execute\-Island\-G\-A}}
+\index{execute\-Island\-G\-A@{execute\-Island\-G\-A}!jenes::tutorials::problem9::IslandGAvsSimpleGA@{jenes\-::tutorials\-::problem9\-::\-Island\-G\-Avs\-Simple\-G\-A}}
+\subsubsection[{execute\-Island\-G\-A}]{\setlength{\rightskip}{0pt plus 5cm}static Group$<${\bf Double\-Chromosome}$>$ jenes.\-tutorials.\-problem9.\-Island\-G\-Avs\-Simple\-G\-A.\-execute\-Island\-G\-A (
+\begin{DoxyParamCaption}
+\item[{Fitness$<$ {\bf Double\-Chromosome} $>$}]{fit, }
+\item[{Population$<$ {\bf Double\-Chromosome} $>$}]{pop}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}}\label{classjenes_1_1tutorials_1_1problem9_1_1_island_g_avs_simple_g_a_a593d4a6805e5a71e1eb3b30f24e3088c}
+\hypertarget{classjenes_1_1tutorials_1_1problem9_1_1_island_g_avs_simple_g_a_a8fbbd68f88740cfef8e3578409c7b28c}{\index{jenes\-::tutorials\-::problem9\-::\-Island\-G\-Avs\-Simple\-G\-A@{jenes\-::tutorials\-::problem9\-::\-Island\-G\-Avs\-Simple\-G\-A}!execute\-Simpla\-G\-A@{execute\-Simpla\-G\-A}}
+\index{execute\-Simpla\-G\-A@{execute\-Simpla\-G\-A}!jenes::tutorials::problem9::IslandGAvsSimpleGA@{jenes\-::tutorials\-::problem9\-::\-Island\-G\-Avs\-Simple\-G\-A}}
+\subsubsection[{execute\-Simpla\-G\-A}]{\setlength{\rightskip}{0pt plus 5cm}static Group$<${\bf Double\-Chromosome}$>$ jenes.\-tutorials.\-problem9.\-Island\-G\-Avs\-Simple\-G\-A.\-execute\-Simpla\-G\-A (
+\begin{DoxyParamCaption}
+\item[{Fitness$<$ {\bf Double\-Chromosome} $>$}]{fit, }
+\item[{Population$<$ {\bf Double\-Chromosome} $>$}]{pop}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}}\label{classjenes_1_1tutorials_1_1problem9_1_1_island_g_avs_simple_g_a_a8fbbd68f88740cfef8e3578409c7b28c}
+\hypertarget{classjenes_1_1tutorials_1_1problem9_1_1_island_g_avs_simple_g_a_a20124a96736560ad40f38c5cf057c8df}{\index{jenes\-::tutorials\-::problem9\-::\-Island\-G\-Avs\-Simple\-G\-A@{jenes\-::tutorials\-::problem9\-::\-Island\-G\-Avs\-Simple\-G\-A}!main@{main}}
+\index{main@{main}!jenes::tutorials::problem9::IslandGAvsSimpleGA@{jenes\-::tutorials\-::problem9\-::\-Island\-G\-Avs\-Simple\-G\-A}}
+\subsubsection[{main}]{\setlength{\rightskip}{0pt plus 5cm}static void jenes.\-tutorials.\-problem9.\-Island\-G\-Avs\-Simple\-G\-A.\-main (
+\begin{DoxyParamCaption}
+\item[{String...}]{a}
+\end{DoxyParamCaption}
+) throws I\-O\-Exception\hspace{0.3cm}{\ttfamily [static]}}}\label{classjenes_1_1tutorials_1_1problem9_1_1_island_g_avs_simple_g_a_a20124a96736560ad40f38c5cf057c8df}
+\hypertarget{classjenes_1_1tutorials_1_1problem9_1_1_island_g_avs_simple_g_a_a97bc52a775806a663525a22d51009976}{\index{jenes\-::tutorials\-::problem9\-::\-Island\-G\-Avs\-Simple\-G\-A@{jenes\-::tutorials\-::problem9\-::\-Island\-G\-Avs\-Simple\-G\-A}!print\-Results@{print\-Results}}
+\index{print\-Results@{print\-Results}!jenes::tutorials::problem9::IslandGAvsSimpleGA@{jenes\-::tutorials\-::problem9\-::\-Island\-G\-Avs\-Simple\-G\-A}}
+\subsubsection[{print\-Results}]{\setlength{\rightskip}{0pt plus 5cm}static void jenes.\-tutorials.\-problem9.\-Island\-G\-Avs\-Simple\-G\-A.\-print\-Results (
+\begin{DoxyParamCaption}
+\item[{Group$<$ {\bf Double\-Chromosome} $>$}]{res\-Island, }
+\item[{Group$<$ {\bf Double\-Chromosome} $>$}]{res\-Simple}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}}\label{classjenes_1_1tutorials_1_1problem9_1_1_island_g_avs_simple_g_a_a97bc52a775806a663525a22d51009976}
+
+
+\subsection{Member Data Documentation}
+\hypertarget{classjenes_1_1tutorials_1_1problem9_1_1_island_g_avs_simple_g_a_aadc2a6b04b46a9a5d957c3f22762f4d6}{\index{jenes\-::tutorials\-::problem9\-::\-Island\-G\-Avs\-Simple\-G\-A@{jenes\-::tutorials\-::problem9\-::\-Island\-G\-Avs\-Simple\-G\-A}!C\-H\-R\-O\-M\-O\-S\-O\-M\-E\-\_\-\-L\-E\-N\-G\-T\-H@{C\-H\-R\-O\-M\-O\-S\-O\-M\-E\-\_\-\-L\-E\-N\-G\-T\-H}}
+\index{C\-H\-R\-O\-M\-O\-S\-O\-M\-E\-\_\-\-L\-E\-N\-G\-T\-H@{C\-H\-R\-O\-M\-O\-S\-O\-M\-E\-\_\-\-L\-E\-N\-G\-T\-H}!jenes::tutorials::problem9::IslandGAvsSimpleGA@{jenes\-::tutorials\-::problem9\-::\-Island\-G\-Avs\-Simple\-G\-A}}
+\subsubsection[{C\-H\-R\-O\-M\-O\-S\-O\-M\-E\-\_\-\-L\-E\-N\-G\-T\-H}]{\setlength{\rightskip}{0pt plus 5cm}int jenes.\-tutorials.\-problem9.\-Island\-G\-Avs\-Simple\-G\-A.\-C\-H\-R\-O\-M\-O\-S\-O\-M\-E\-\_\-\-L\-E\-N\-G\-T\-H = 2\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}}\label{classjenes_1_1tutorials_1_1problem9_1_1_island_g_avs_simple_g_a_aadc2a6b04b46a9a5d957c3f22762f4d6}
+\hypertarget{classjenes_1_1tutorials_1_1problem9_1_1_island_g_avs_simple_g_a_ab5429444736404c0a031ab65e28b8639}{\index{jenes\-::tutorials\-::problem9\-::\-Island\-G\-Avs\-Simple\-G\-A@{jenes\-::tutorials\-::problem9\-::\-Island\-G\-Avs\-Simple\-G\-A}!F\-O\-L\-D\-E\-R@{F\-O\-L\-D\-E\-R}}
+\index{F\-O\-L\-D\-E\-R@{F\-O\-L\-D\-E\-R}!jenes::tutorials::problem9::IslandGAvsSimpleGA@{jenes\-::tutorials\-::problem9\-::\-Island\-G\-Avs\-Simple\-G\-A}}
+\subsubsection[{F\-O\-L\-D\-E\-R}]{\setlength{\rightskip}{0pt plus 5cm}final String jenes.\-tutorials.\-problem9.\-Island\-G\-Avs\-Simple\-G\-A.\-F\-O\-L\-D\-E\-R = \char`\"{}files.\-Tutorial9\char`\"{} + File.\-separator\-Char\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}}\label{classjenes_1_1tutorials_1_1problem9_1_1_island_g_avs_simple_g_a_ab5429444736404c0a031ab65e28b8639}
+\hypertarget{classjenes_1_1tutorials_1_1problem9_1_1_island_g_avs_simple_g_a_ab3b13df96c99c89698c2c74340ae2c6d}{\index{jenes\-::tutorials\-::problem9\-::\-Island\-G\-Avs\-Simple\-G\-A@{jenes\-::tutorials\-::problem9\-::\-Island\-G\-Avs\-Simple\-G\-A}!G\-E\-N\-E\-R\-A\-T\-I\-O\-N\-\_\-\-L\-I\-M\-I\-T@{G\-E\-N\-E\-R\-A\-T\-I\-O\-N\-\_\-\-L\-I\-M\-I\-T}}
+\index{G\-E\-N\-E\-R\-A\-T\-I\-O\-N\-\_\-\-L\-I\-M\-I\-T@{G\-E\-N\-E\-R\-A\-T\-I\-O\-N\-\_\-\-L\-I\-M\-I\-T}!jenes::tutorials::problem9::IslandGAvsSimpleGA@{jenes\-::tutorials\-::problem9\-::\-Island\-G\-Avs\-Simple\-G\-A}}
+\subsubsection[{G\-E\-N\-E\-R\-A\-T\-I\-O\-N\-\_\-\-L\-I\-M\-I\-T}]{\setlength{\rightskip}{0pt plus 5cm}int jenes.\-tutorials.\-problem9.\-Island\-G\-Avs\-Simple\-G\-A.\-G\-E\-N\-E\-R\-A\-T\-I\-O\-N\-\_\-\-L\-I\-M\-I\-T = 100\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}}\label{classjenes_1_1tutorials_1_1problem9_1_1_island_g_avs_simple_g_a_ab3b13df96c99c89698c2c74340ae2c6d}
+\hypertarget{classjenes_1_1tutorials_1_1problem9_1_1_island_g_avs_simple_g_a_a7651a1c3812cced2ff7198299906f7d7}{\index{jenes\-::tutorials\-::problem9\-::\-Island\-G\-Avs\-Simple\-G\-A@{jenes\-::tutorials\-::problem9\-::\-Island\-G\-Avs\-Simple\-G\-A}!P\-O\-P\-U\-L\-A\-T\-I\-O\-N\-\_\-\-S\-I\-Z\-E@{P\-O\-P\-U\-L\-A\-T\-I\-O\-N\-\_\-\-S\-I\-Z\-E}}
+\index{P\-O\-P\-U\-L\-A\-T\-I\-O\-N\-\_\-\-S\-I\-Z\-E@{P\-O\-P\-U\-L\-A\-T\-I\-O\-N\-\_\-\-S\-I\-Z\-E}!jenes::tutorials::problem9::IslandGAvsSimpleGA@{jenes\-::tutorials\-::problem9\-::\-Island\-G\-Avs\-Simple\-G\-A}}
+\subsubsection[{P\-O\-P\-U\-L\-A\-T\-I\-O\-N\-\_\-\-S\-I\-Z\-E}]{\setlength{\rightskip}{0pt plus 5cm}int jenes.\-tutorials.\-problem9.\-Island\-G\-Avs\-Simple\-G\-A.\-P\-O\-P\-U\-L\-A\-T\-I\-O\-N\-\_\-\-S\-I\-Z\-E = 250\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}}\label{classjenes_1_1tutorials_1_1problem9_1_1_island_g_avs_simple_g_a_a7651a1c3812cced2ff7198299906f7d7}
+\hypertarget{classjenes_1_1tutorials_1_1problem9_1_1_island_g_avs_simple_g_a_a47c83870d72507ba12efda584f0b1212}{\index{jenes\-::tutorials\-::problem9\-::\-Island\-G\-Avs\-Simple\-G\-A@{jenes\-::tutorials\-::problem9\-::\-Island\-G\-Avs\-Simple\-G\-A}!xlslogger@{xlslogger}}
+\index{xlslogger@{xlslogger}!jenes::tutorials::problem9::IslandGAvsSimpleGA@{jenes\-::tutorials\-::problem9\-::\-Island\-G\-Avs\-Simple\-G\-A}}
+\subsubsection[{xlslogger}]{\setlength{\rightskip}{0pt plus 5cm}{\bf X\-L\-S\-Logger} jenes.\-tutorials.\-problem9.\-Island\-G\-Avs\-Simple\-G\-A.\-xlslogger\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}}\label{classjenes_1_1tutorials_1_1problem9_1_1_island_g_avs_simple_g_a_a47c83870d72507ba12efda584f0b1212}
+
+
+The documentation for this class was generated from the following file\-:\begin{DoxyCompactItemize}
+\item 
+src/jenes/tutorials/problem9/\hyperlink{_island_g_avs_simple_g_a_8java}{Island\-G\-Avs\-Simple\-G\-A.\-java}\end{DoxyCompactItemize}

@@ -1,0 +1,137 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="classjenes_1_1algorithms_1_1_n_s_g_a2_3_01_t_01extends_01_chromosome_01_4_1_1_dominance_crowder_a9a2fee645e4624e57f18141d651cc84" kind="class" prot="private">
+    <compoundname>jenes::algorithms::NSGA2&lt; T extends Chromosome &gt;::DominanceCrowder&lt; C extends Chromosome &gt;</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">jenes::stage::operator::Crowder&lt; C &gt;</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classjenes_1_1algorithms_1_1_n_s_g_a2_3_01_t_01extends_01_chromosome_01_4_1_1_dominance_crowder_a9a2fee645e4624e57f18141d651cc84_1ad7314a1145b464c06c62b2f9b123fdda" prot="private" static="no" mutable="no">
+        <type>List&lt; Individual&lt; C &gt; &gt;</type>
+        <definition>List&lt;Individual&lt;C&gt; &gt; jenes.algorithms.NSGA2&lt; T extends Chromosome &gt;.DominanceCrowder&lt; C extends Chromosome &gt;.jlist</definition>
+        <argsstring></argsstring>
+        <name>jlist</name>
+        <initializer>= new ArrayList&lt;Individual&lt;C&gt;&gt;()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/algorithms/NSGA2.java" line="107" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/algorithms/NSGA2.java" bodystart="107" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="package-func">
+      <memberdef kind="function" id="classjenes_1_1algorithms_1_1_n_s_g_a2_3_01_t_01extends_01_chromosome_01_4_1_1_dominance_crowder_a9a2fee645e4624e57f18141d651cc84_1a7fc4f6bf2a8ae12813c199b01368fd32" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>jenes.algorithms.NSGA2&lt; T extends Chromosome &gt;.DominanceCrowder&lt; C extends Chromosome &gt;.[instance initializer]</definition>
+        <argsstring></argsstring>
+        <name>[instance initializer]</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/algorithms/NSGA2.java" line="107" column="1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classjenes_1_1algorithms_1_1_n_s_g_a2_3_01_t_01extends_01_chromosome_01_4_1_1_dominance_crowder_a9a2fee645e4624e57f18141d651cc84_1ae7cc8910724464b953eaa6e9b732ac6e" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void jenes.algorithms.NSGA2&lt; T extends Chromosome &gt;.DominanceCrowder&lt; C extends Chromosome &gt;.preselect</definition>
+        <argsstring>(Population&lt; C &gt; in, Population&lt; C &gt; out)</argsstring>
+        <name>preselect</name>
+        <param>
+          <type>Population&lt; C &gt;</type>
+          <declname>in</declname>
+        </param>
+        <param>
+          <type>Population&lt; C &gt;</type>
+          <declname>out</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/algorithms/NSGA2.java" line="114" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/algorithms/NSGA2.java" bodystart="114" bodyend="116"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1algorithms_1_1_n_s_g_a2_3_01_t_01extends_01_chromosome_01_4_1_1_dominance_crowder_a9a2fee645e4624e57f18141d651cc84_1a8e2309976ef03472ad6c0eb7879097ce" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void jenes.algorithms.NSGA2&lt; T extends Chromosome &gt;.DominanceCrowder&lt; C extends Chromosome &gt;.replace</definition>
+        <argsstring>(Population&lt; C &gt; initial, Population&lt; C &gt; preselected, Population&lt; C &gt; evolved, Population&lt; C &gt; out)</argsstring>
+        <name>replace</name>
+        <param>
+          <type>Population&lt; C &gt;</type>
+          <declname>initial</declname>
+        </param>
+        <param>
+          <type>Population&lt; C &gt;</type>
+          <declname>preselected</declname>
+        </param>
+        <param>
+          <type>Population&lt; C &gt;</type>
+          <declname>evolved</declname>
+        </param>
+        <param>
+          <type>Population&lt; C &gt;</type>
+          <declname>out</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/algorithms/NSGA2.java" line="119" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/algorithms/NSGA2.java" bodystart="119" bodyend="139"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Dominance crowder used by NSGA2 <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>&lt;C&gt;</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="126">
+        <label>jenes.algorithms.NSGA2&lt; T extends Chromosome &gt;.DominanceCrowder&lt; C extends Chromosome &gt;</label>
+        <link refid="classjenes_1_1algorithms_1_1_n_s_g_a2_3_01_t_01extends_01_chromosome_01_4_1_1_dominance_crowder_a9a2fee645e4624e57f18141d651cc84"/>
+        <childnode refid="127" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="127">
+        <label>jenes::stage::operator::Crowder&lt; C &gt;</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="128">
+        <label>jenes.algorithms.NSGA2&lt; T extends Chromosome &gt;.DominanceCrowder&lt; C extends Chromosome &gt;</label>
+        <link refid="classjenes_1_1algorithms_1_1_n_s_g_a2_3_01_t_01extends_01_chromosome_01_4_1_1_dominance_crowder_a9a2fee645e4624e57f18141d651cc84"/>
+        <childnode refid="129" relation="public-inheritance">
+        </childnode>
+        <childnode refid="130" relation="usage">
+          <edgelabel>jlist</edgelabel>
+        </childnode>
+      </node>
+      <node id="130">
+        <label>List&lt; Individual&lt; C &gt; &gt;</label>
+      </node>
+      <node id="129">
+        <label>jenes::stage::operator::Crowder&lt; C &gt;</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/algorithms/NSGA2.java" line="105" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/algorithms/NSGA2.java" bodystart="105" bodyend="141"/>
+    <listofallmembers>
+      <member refid="classjenes_1_1algorithms_1_1_n_s_g_a2_3_01_t_01extends_01_chromosome_01_4_1_1_dominance_crowder_a9a2fee645e4624e57f18141d651cc84_1a7fc4f6bf2a8ae12813c199b01368fd32" prot="package" virt="non-virtual"><scope>jenes::algorithms::NSGA2&lt; T extends Chromosome &gt;::DominanceCrowder&lt; C extends Chromosome &gt;</scope><name>[instance initializer]</name></member>
+      <member refid="classjenes_1_1algorithms_1_1_n_s_g_a2_3_01_t_01extends_01_chromosome_01_4_1_1_dominance_crowder_a9a2fee645e4624e57f18141d651cc84_1ad7314a1145b464c06c62b2f9b123fdda" prot="private" virt="non-virtual"><scope>jenes::algorithms::NSGA2&lt; T extends Chromosome &gt;::DominanceCrowder&lt; C extends Chromosome &gt;</scope><name>jlist</name></member>
+      <member refid="classjenes_1_1algorithms_1_1_n_s_g_a2_3_01_t_01extends_01_chromosome_01_4_1_1_dominance_crowder_a9a2fee645e4624e57f18141d651cc84_1ae7cc8910724464b953eaa6e9b732ac6e" prot="protected" virt="non-virtual"><scope>jenes::algorithms::NSGA2&lt; T extends Chromosome &gt;::DominanceCrowder&lt; C extends Chromosome &gt;</scope><name>preselect</name></member>
+      <member refid="classjenes_1_1algorithms_1_1_n_s_g_a2_3_01_t_01extends_01_chromosome_01_4_1_1_dominance_crowder_a9a2fee645e4624e57f18141d651cc84_1a8e2309976ef03472ad6c0eb7879097ce" prot="protected" virt="non-virtual"><scope>jenes::algorithms::NSGA2&lt; T extends Chromosome &gt;::DominanceCrowder&lt; C extends Chromosome &gt;</scope><name>replace</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

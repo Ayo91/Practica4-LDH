@@ -1,0 +1,111 @@
+\hypertarget{classjenes_1_1performance_1_1_t_s_p_crossover}{\section{jenes.\-performance.\-T\-S\-P\-Crossover Class Reference}
+\label{classjenes_1_1performance_1_1_t_s_p_crossover}\index{jenes.\-performance.\-T\-S\-P\-Crossover@{jenes.\-performance.\-T\-S\-P\-Crossover}}
+}
+Inheritance diagram for jenes.\-performance.\-T\-S\-P\-Crossover\-:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{classjenes_1_1performance_1_1_t_s_p_crossover}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classjenes_1_1performance_1_1_t_s_p_crossover_a176bd2a0297786392cb4a8f5865cf97a}{T\-S\-P\-Crossover} (double probability)
+\item 
+int \hyperlink{classjenes_1_1performance_1_1_t_s_p_crossover_a08d867a3840e1c4ce0d9e57f5f21c839}{spread} ()
+\end{DoxyCompactItemize}
+\subsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static void \hyperlink{classjenes_1_1performance_1_1_t_s_p_crossover_a13d3ceed0ac0f7ec8a8d428e511d5669}{main} (String\mbox{[}$\,$\mbox{]} args)
+\end{DoxyCompactItemize}
+\subsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{classjenes_1_1performance_1_1_t_s_p_crossover_a8af2cecbf7cc09cd0836148d83f76fcf}{cross} (Individual$<$ \hyperlink{classjenes_1_1chromosome_1_1_integer_chromosome}{Integer\-Chromosome} $>$\mbox{[}$\,$\mbox{]} offsprings)
+\end{DoxyCompactItemize}
+\subsection*{Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{classjenes_1_1performance_1_1_t_s_p_crossover_ae4f7dfa634aa2928d3b33a2886bf430c}{fill} (\hyperlink{classjenes_1_1chromosome_1_1_integer_chromosome}{Integer\-Chromosome} child, int\mbox{[}$\,$\mbox{]} lengths, int\mbox{[}$\,$\mbox{]}\mbox{[}$\,$\mbox{]} list)
+\item 
+int \hyperlink{classjenes_1_1performance_1_1_t_s_p_crossover_a91dbce4cfbfa6d13bd7e9664f29c91c9}{get\-Smaller\-Length} (int\mbox{[}$\,$\mbox{]} lengths, int\mbox{[}$\,$\mbox{]} values)
+\item 
+void \hyperlink{classjenes_1_1performance_1_1_t_s_p_crossover_a5c58ea57bb0a7f44fa3ac59db56eb545}{remove\-From\-List} (int\mbox{[}$\,$\mbox{]}\mbox{[}$\,$\mbox{]} list, int value, int\mbox{[}$\,$\mbox{]} lengths)
+\item 
+int\mbox{[}$\,$\mbox{]}\mbox{[}$\,$\mbox{]} \hyperlink{classjenes_1_1performance_1_1_t_s_p_crossover_aa992af55aa67529088fe0547e5f4b012}{build\-Neighbors\-List} (\hyperlink{classjenes_1_1chromosome_1_1_integer_chromosome}{Integer\-Chromosome} p1, \hyperlink{classjenes_1_1chromosome_1_1_integer_chromosome}{Integer\-Chromosome} p2, int\mbox{[}$\,$\mbox{]} lengths)
+\end{DoxyCompactItemize}
+
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{classjenes_1_1performance_1_1_t_s_p_crossover_a176bd2a0297786392cb4a8f5865cf97a}{\index{jenes\-::performance\-::\-T\-S\-P\-Crossover@{jenes\-::performance\-::\-T\-S\-P\-Crossover}!T\-S\-P\-Crossover@{T\-S\-P\-Crossover}}
+\index{T\-S\-P\-Crossover@{T\-S\-P\-Crossover}!jenes::performance::TSPCrossover@{jenes\-::performance\-::\-T\-S\-P\-Crossover}}
+\subsubsection[{T\-S\-P\-Crossover}]{\setlength{\rightskip}{0pt plus 5cm}jenes.\-performance.\-T\-S\-P\-Crossover.\-T\-S\-P\-Crossover (
+\begin{DoxyParamCaption}
+\item[{double}]{probability}
+\end{DoxyParamCaption}
+)}}\label{classjenes_1_1performance_1_1_t_s_p_crossover_a176bd2a0297786392cb4a8f5865cf97a}
+
+
+\subsection{Member Function Documentation}
+\hypertarget{classjenes_1_1performance_1_1_t_s_p_crossover_aa992af55aa67529088fe0547e5f4b012}{\index{jenes\-::performance\-::\-T\-S\-P\-Crossover@{jenes\-::performance\-::\-T\-S\-P\-Crossover}!build\-Neighbors\-List@{build\-Neighbors\-List}}
+\index{build\-Neighbors\-List@{build\-Neighbors\-List}!jenes::performance::TSPCrossover@{jenes\-::performance\-::\-T\-S\-P\-Crossover}}
+\subsubsection[{build\-Neighbors\-List}]{\setlength{\rightskip}{0pt plus 5cm}int \mbox{[}$\,$\mbox{]}\mbox{[}$\,$\mbox{]} jenes.\-performance.\-T\-S\-P\-Crossover.\-build\-Neighbors\-List (
+\begin{DoxyParamCaption}
+\item[{{\bf Integer\-Chromosome}}]{p1, }
+\item[{{\bf Integer\-Chromosome}}]{p2, }
+\item[{int\mbox{[}$\,$\mbox{]}}]{lengths}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [private]}}}\label{classjenes_1_1performance_1_1_t_s_p_crossover_aa992af55aa67529088fe0547e5f4b012}
+costruisce la matrice dei vicini; e' una matrice num\-Citta x 4 \hypertarget{classjenes_1_1performance_1_1_t_s_p_crossover_a8af2cecbf7cc09cd0836148d83f76fcf}{\index{jenes\-::performance\-::\-T\-S\-P\-Crossover@{jenes\-::performance\-::\-T\-S\-P\-Crossover}!cross@{cross}}
+\index{cross@{cross}!jenes::performance::TSPCrossover@{jenes\-::performance\-::\-T\-S\-P\-Crossover}}
+\subsubsection[{cross}]{\setlength{\rightskip}{0pt plus 5cm}void jenes.\-performance.\-T\-S\-P\-Crossover.\-cross (
+\begin{DoxyParamCaption}
+\item[{Individual$<$ {\bf Integer\-Chromosome} $>$\mbox{[}$\,$\mbox{]}}]{offsprings}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [protected]}}}\label{classjenes_1_1performance_1_1_t_s_p_crossover_a8af2cecbf7cc09cd0836148d83f76fcf}
+\hypertarget{classjenes_1_1performance_1_1_t_s_p_crossover_ae4f7dfa634aa2928d3b33a2886bf430c}{\index{jenes\-::performance\-::\-T\-S\-P\-Crossover@{jenes\-::performance\-::\-T\-S\-P\-Crossover}!fill@{fill}}
+\index{fill@{fill}!jenes::performance::TSPCrossover@{jenes\-::performance\-::\-T\-S\-P\-Crossover}}
+\subsubsection[{fill}]{\setlength{\rightskip}{0pt plus 5cm}void jenes.\-performance.\-T\-S\-P\-Crossover.\-fill (
+\begin{DoxyParamCaption}
+\item[{{\bf Integer\-Chromosome}}]{child, }
+\item[{int\mbox{[}$\,$\mbox{]}}]{lengths, }
+\item[{int}]{list\mbox{[}$\,$\mbox{]}\mbox{[}$\,$\mbox{]}}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [private]}}}\label{classjenes_1_1performance_1_1_t_s_p_crossover_ae4f7dfa634aa2928d3b33a2886bf430c}
+\hypertarget{classjenes_1_1performance_1_1_t_s_p_crossover_a91dbce4cfbfa6d13bd7e9664f29c91c9}{\index{jenes\-::performance\-::\-T\-S\-P\-Crossover@{jenes\-::performance\-::\-T\-S\-P\-Crossover}!get\-Smaller\-Length@{get\-Smaller\-Length}}
+\index{get\-Smaller\-Length@{get\-Smaller\-Length}!jenes::performance::TSPCrossover@{jenes\-::performance\-::\-T\-S\-P\-Crossover}}
+\subsubsection[{get\-Smaller\-Length}]{\setlength{\rightskip}{0pt plus 5cm}int jenes.\-performance.\-T\-S\-P\-Crossover.\-get\-Smaller\-Length (
+\begin{DoxyParamCaption}
+\item[{int\mbox{[}$\,$\mbox{]}}]{lengths, }
+\item[{int\mbox{[}$\,$\mbox{]}}]{values}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [private]}}}\label{classjenes_1_1performance_1_1_t_s_p_crossover_a91dbce4cfbfa6d13bd7e9664f29c91c9}
+prende l'elemento in values con la lunghezza minore \hypertarget{classjenes_1_1performance_1_1_t_s_p_crossover_a13d3ceed0ac0f7ec8a8d428e511d5669}{\index{jenes\-::performance\-::\-T\-S\-P\-Crossover@{jenes\-::performance\-::\-T\-S\-P\-Crossover}!main@{main}}
+\index{main@{main}!jenes::performance::TSPCrossover@{jenes\-::performance\-::\-T\-S\-P\-Crossover}}
+\subsubsection[{main}]{\setlength{\rightskip}{0pt plus 5cm}static void jenes.\-performance.\-T\-S\-P\-Crossover.\-main (
+\begin{DoxyParamCaption}
+\item[{String\mbox{[}$\,$\mbox{]}}]{args}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}}\label{classjenes_1_1performance_1_1_t_s_p_crossover_a13d3ceed0ac0f7ec8a8d428e511d5669}
+\hypertarget{classjenes_1_1performance_1_1_t_s_p_crossover_a5c58ea57bb0a7f44fa3ac59db56eb545}{\index{jenes\-::performance\-::\-T\-S\-P\-Crossover@{jenes\-::performance\-::\-T\-S\-P\-Crossover}!remove\-From\-List@{remove\-From\-List}}
+\index{remove\-From\-List@{remove\-From\-List}!jenes::performance::TSPCrossover@{jenes\-::performance\-::\-T\-S\-P\-Crossover}}
+\subsubsection[{remove\-From\-List}]{\setlength{\rightskip}{0pt plus 5cm}void jenes.\-performance.\-T\-S\-P\-Crossover.\-remove\-From\-List (
+\begin{DoxyParamCaption}
+\item[{int}]{list\mbox{[}$\,$\mbox{]}\mbox{[}$\,$\mbox{]}, }
+\item[{int}]{value, }
+\item[{int\mbox{[}$\,$\mbox{]}}]{lengths}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [private]}}}\label{classjenes_1_1performance_1_1_t_s_p_crossover_a5c58ea57bb0a7f44fa3ac59db56eb545}
+elimina value dalla lista list; le lunghezze sn aggiornate \hypertarget{classjenes_1_1performance_1_1_t_s_p_crossover_a08d867a3840e1c4ce0d9e57f5f21c839}{\index{jenes\-::performance\-::\-T\-S\-P\-Crossover@{jenes\-::performance\-::\-T\-S\-P\-Crossover}!spread@{spread}}
+\index{spread@{spread}!jenes::performance::TSPCrossover@{jenes\-::performance\-::\-T\-S\-P\-Crossover}}
+\subsubsection[{spread}]{\setlength{\rightskip}{0pt plus 5cm}int jenes.\-performance.\-T\-S\-P\-Crossover.\-spread (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classjenes_1_1performance_1_1_t_s_p_crossover_a08d867a3840e1c4ce0d9e57f5f21c839}
+
+
+The documentation for this class was generated from the following file\-:\begin{DoxyCompactItemize}
+\item 
+src/jenes/performance/\hyperlink{_t_s_p_crossover_8java}{T\-S\-P\-Crossover.\-java}\end{DoxyCompactItemize}

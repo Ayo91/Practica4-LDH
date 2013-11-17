@@ -1,0 +1,567 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="classjenes_1_1algorithms_1_1_steady_state_g_a_3_01_t_01extends_01_chromosome_01_4" kind="class" prot="public">
+    <compoundname>jenes::algorithms::SteadyStateGA&lt; T extends Chromosome &gt;</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">jenes::GeneticAlgorithm&lt; T &gt;</basecompoundref>
+    <innerclass refid="enumjenes_1_1algorithms_1_1_steady_state_g_a_3_01_t_01extends_01_chromosome_01_4_1_1_selection_method" prot="public">jenes::algorithms::SteadyStateGA&lt; T extends Chromosome &gt;::SelectionMethod</innerclass>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classjenes_1_1algorithms_1_1_steady_state_g_a_3_01_t_01extends_01_chromosome_01_4_1a6b63d4f31855f6b9f73d8e35cb76eaee" prot="public" static="yes" mutable="no">
+        <type>final SelectionMethod</type>
+        <definition>final SelectionMethod jenes.algorithms.SteadyStateGA&lt; T extends Chromosome &gt;.DEFAULT_SELECTION_METHOD</definition>
+        <argsstring></argsstring>
+        <name>DEFAULT_SELECTION_METHOD</name>
+        <initializer>= <ref refid="enumjenes_1_1algorithms_1_1_steady_state_g_a_3_01_t_01extends_01_chromosome_01_4_1_1_selection_method_1a1cd629bf261d758c615ea8435fd4788f" kindref="member">SelectionMethod.TOURNAMENT</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/algorithms/SteadyStateGA.java" line="44" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/algorithms/SteadyStateGA.java" bodystart="44" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classjenes_1_1algorithms_1_1_steady_state_g_a_3_01_t_01extends_01_chromosome_01_4_1ad510a7e4a856de7b2c9d021b2f66a5ac" prot="public" static="yes" mutable="no">
+        <type>final int</type>
+        <definition>final int jenes.algorithms.SteadyStateGA&lt; T extends Chromosome &gt;.DEFAULT_GENERATION_LIMIT</definition>
+        <argsstring></argsstring>
+        <name>DEFAULT_GENERATION_LIMIT</name>
+        <initializer>= 5000</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The default generation limit </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/algorithms/SteadyStateGA.java" line="46" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/algorithms/SteadyStateGA.java" bodystart="46" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classjenes_1_1algorithms_1_1_steady_state_g_a_3_01_t_01extends_01_chromosome_01_4_1a0bd9f9195ccd7bb9f0a93bf467ee81d5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>jenes.algorithms.SteadyStateGA&lt; T extends Chromosome &gt;.SteadyStateGA</definition>
+        <argsstring>(final Fitness fitness)</argsstring>
+        <name>SteadyStateGA</name>
+        <param>
+          <type>final Fitness</type>
+          <declname>fitness</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Builds a new SteadyStateGA with <computeroutput>null</computeroutput> population, default generation limit, default replacement rate, defaul selection rate, default selection method.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>fitness</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the fitness to use </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/algorithms/SteadyStateGA.java" line="54" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/algorithms/SteadyStateGA.java" bodystart="54" bodyend="61"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1algorithms_1_1_steady_state_g_a_3_01_t_01extends_01_chromosome_01_4_1a1fab107de8499953af703b619d2fc741" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>jenes.algorithms.SteadyStateGA&lt; T extends Chromosome &gt;.SteadyStateGA</definition>
+        <argsstring>(final Fitness fitness, final Population&lt; T &gt; pop)</argsstring>
+        <name>SteadyStateGA</name>
+        <param>
+          <type>final Fitness</type>
+          <declname>fitness</declname>
+        </param>
+        <param>
+          <type>final Population&lt; T &gt;</type>
+          <declname>pop</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Builds a new SteadyStateGA with default generation limit, default replacement rate, defaul selection rate, default selection method.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>fitness</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the fitness to use </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>pop</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the initial population </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/algorithms/SteadyStateGA.java" line="70" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/algorithms/SteadyStateGA.java" bodystart="70" bodyend="77"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1algorithms_1_1_steady_state_g_a_3_01_t_01extends_01_chromosome_01_4_1a6dba077ffc454a1863b7d15cecac32b4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>jenes.algorithms.SteadyStateGA&lt; T extends Chromosome &gt;.SteadyStateGA</definition>
+        <argsstring>(final Fitness fitness, final Population&lt; T &gt; pop, final int genlimit)</argsstring>
+        <name>SteadyStateGA</name>
+        <param>
+          <type>final Fitness</type>
+          <declname>fitness</declname>
+        </param>
+        <param>
+          <type>final Population&lt; T &gt;</type>
+          <declname>pop</declname>
+        </param>
+        <param>
+          <type>final int</type>
+          <declname>genlimit</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Builds a new SteadyStateGA with default replacement rate, defaul selection rate, default selection method.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>fitness</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- the fitness to use </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>pop</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- the initial population </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>genlimit</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- generation limit </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/algorithms/SteadyStateGA.java" line="87" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/algorithms/SteadyStateGA.java" bodystart="87" bodyend="94"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1algorithms_1_1_steady_state_g_a_3_01_t_01extends_01_chromosome_01_4_1a5964a47d26b5831b9e821285e3e4cb8d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>jenes.algorithms.SteadyStateGA&lt; T extends Chromosome &gt;.SteadyStateGA</definition>
+        <argsstring>(final Fitness fitness, final Population&lt; T &gt; pop, final int genlimit, final SelectionMethod selmethod, final AbstractStage&lt; T &gt;...stages)</argsstring>
+        <name>SteadyStateGA</name>
+        <param>
+          <type>final Fitness</type>
+          <declname>fitness</declname>
+        </param>
+        <param>
+          <type>final Population&lt; T &gt;</type>
+          <declname>pop</declname>
+        </param>
+        <param>
+          <type>final int</type>
+          <declname>genlimit</declname>
+        </param>
+        <param>
+          <type>final SelectionMethod</type>
+          <declname>selmethod</declname>
+        </param>
+        <param>
+          <type>final AbstractStage&lt; T &gt;...</type>
+          <declname>stages</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Builds a new SteadyStateGA with default replacement rate, defaul selection rate</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>fitness</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- the fitness to use </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>pop</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- the initial population </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>genlimit</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- generation limit </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>selmethod</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- selection method </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>stages</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- stages of algorithm </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/algorithms/SteadyStateGA.java" line="106" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/algorithms/SteadyStateGA.java" bodystart="106" bodyend="114"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1algorithms_1_1_steady_state_g_a_3_01_t_01extends_01_chromosome_01_4_1a7f95aed43d04c3290cc5fd98a569b6e0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>jenes.algorithms.SteadyStateGA&lt; T extends Chromosome &gt;.SteadyStateGA</definition>
+        <argsstring>(final Fitness fitness, final Population&lt; T &gt; pop, final int genlimit, final int rr, final int sr, final SelectionMethod selmethod, final AbstractStage&lt; T &gt;...stages)</argsstring>
+        <name>SteadyStateGA</name>
+        <param>
+          <type>final Fitness</type>
+          <declname>fitness</declname>
+        </param>
+        <param>
+          <type>final Population&lt; T &gt;</type>
+          <declname>pop</declname>
+        </param>
+        <param>
+          <type>final int</type>
+          <declname>genlimit</declname>
+        </param>
+        <param>
+          <type>final int</type>
+          <declname>rr</declname>
+        </param>
+        <param>
+          <type>final int</type>
+          <declname>sr</declname>
+        </param>
+        <param>
+          <type>final SelectionMethod</type>
+          <declname>selmethod</declname>
+        </param>
+        <param>
+          <type>final AbstractStage&lt; T &gt;...</type>
+          <declname>stages</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Builds a new SteadyStateGA</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>fitness</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- the fitness to use </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>pop</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- the initial population </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>genlimit</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- generation limit </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>rr</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- replace rate </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>sr</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- selection method </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>selmethod</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- selection method </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>stages</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- stages of algorithm </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/algorithms/SteadyStateGA.java" line="127" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/algorithms/SteadyStateGA.java" bodystart="127" bodyend="142"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1algorithms_1_1_steady_state_g_a_3_01_t_01extends_01_chromosome_01_4_1a8dbf144ebf5f83e8d67e1e74c0e8c630" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>jenes.algorithms.SteadyStateGA&lt; T extends Chromosome &gt;.SteadyStateGA</definition>
+        <argsstring>(final Fitness fitness, final Population&lt; T &gt; pop, final int genlimit, final Selector&lt; T &gt; selector, final AbstractStage&lt; T &gt;...stages)</argsstring>
+        <name>SteadyStateGA</name>
+        <param>
+          <type>final Fitness</type>
+          <declname>fitness</declname>
+        </param>
+        <param>
+          <type>final Population&lt; T &gt;</type>
+          <declname>pop</declname>
+        </param>
+        <param>
+          <type>final int</type>
+          <declname>genlimit</declname>
+        </param>
+        <param>
+          <type>final Selector&lt; T &gt;</type>
+          <declname>selector</declname>
+        </param>
+        <param>
+          <type>final AbstractStage&lt; T &gt;...</type>
+          <declname>stages</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Builds a new SteadyStateGA</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>fitness</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- the fitness to use </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>pop</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- the initial population </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>genlimit</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- generation limit </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>selector</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- selector </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>stages</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- stages of algorithm </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/algorithms/SteadyStateGA.java" line="153" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/algorithms/SteadyStateGA.java" bodystart="153" bodyend="155"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1algorithms_1_1_steady_state_g_a_3_01_t_01extends_01_chromosome_01_4_1a24e8cfdd1131b63cb1c3d086a6a09cf4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>jenes.algorithms.SteadyStateGA&lt; T extends Chromosome &gt;.SteadyStateGA</definition>
+        <argsstring>(final Fitness fitness, final Population&lt; T &gt; pop, final int genlimit, final int rr, final int sr, final Selector&lt; T &gt; selector, final AbstractStage&lt; T &gt;...stages)</argsstring>
+        <name>SteadyStateGA</name>
+        <param>
+          <type>final Fitness</type>
+          <declname>fitness</declname>
+        </param>
+        <param>
+          <type>final Population&lt; T &gt;</type>
+          <declname>pop</declname>
+        </param>
+        <param>
+          <type>final int</type>
+          <declname>genlimit</declname>
+        </param>
+        <param>
+          <type>final int</type>
+          <declname>rr</declname>
+        </param>
+        <param>
+          <type>final int</type>
+          <declname>sr</declname>
+        </param>
+        <param>
+          <type>final Selector&lt; T &gt;</type>
+          <declname>selector</declname>
+        </param>
+        <param>
+          <type>final AbstractStage&lt; T &gt;...</type>
+          <declname>stages</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Builds a new SteadyStateGA</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>fitness</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- the fitness to use </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>pop</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- the initial population </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>genlimit</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- generation limit </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>rr</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- replace rate </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>sr</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- selection method </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>selector</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- selector </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>stages</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- stages of algorithm </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/algorithms/SteadyStateGA.java" line="168" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/algorithms/SteadyStateGA.java" bodystart="168" bodyend="170"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1algorithms_1_1_steady_state_g_a_3_01_t_01extends_01_chromosome_01_4_1a8e1b8939ca23670640b050dae1e239cc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>jenes.algorithms.SteadyStateGA&lt; T extends Chromosome &gt;.SteadyStateGA</definition>
+        <argsstring>(final Fitness fitness, final Population&lt; T &gt; pop, final int genlimit, final SteadyState&lt; T &gt; ss)</argsstring>
+        <name>SteadyStateGA</name>
+        <param>
+          <type>final Fitness</type>
+          <declname>fitness</declname>
+        </param>
+        <param>
+          <type>final Population&lt; T &gt;</type>
+          <declname>pop</declname>
+        </param>
+        <param>
+          <type>final int</type>
+          <declname>genlimit</declname>
+        </param>
+        <param>
+          <type>final SteadyState&lt; T &gt;</type>
+          <declname>ss</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Builds a new SteadyStateGA</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>fitness</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- the fitness to use </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>pop</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- the initial population </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>genlimit</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- generation limit </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>ss</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- a SteadyState stage </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/algorithms/SteadyStateGA.java" line="180" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/algorithms/SteadyStateGA.java" bodystart="180" bodyend="184"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Steady-state genetic algorithm</para><para><simplesect kind="version"><para>2.0 </para></simplesect>
+<simplesect kind="since"><para>2.0 </para></simplesect>
+</para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="682">
+        <label>jenes.algorithms.SteadyStateGA&lt; T extends Chromosome &gt;</label>
+        <link refid="classjenes_1_1algorithms_1_1_steady_state_g_a_3_01_t_01extends_01_chromosome_01_4"/>
+        <childnode refid="683" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="683">
+        <label>jenes::GeneticAlgorithm&lt; T &gt;</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="684">
+        <label>jenes.algorithms.SteadyStateGA&lt; T extends Chromosome &gt;</label>
+        <link refid="classjenes_1_1algorithms_1_1_steady_state_g_a_3_01_t_01extends_01_chromosome_01_4"/>
+        <childnode refid="685" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="685">
+        <label>jenes::GeneticAlgorithm&lt; T &gt;</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/algorithms/SteadyStateGA.java" line="37" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/algorithms/SteadyStateGA.java" bodystart="37" bodyend="185"/>
+    <listofallmembers>
+      <member refid="classjenes_1_1algorithms_1_1_steady_state_g_a_3_01_t_01extends_01_chromosome_01_4_1ad510a7e4a856de7b2c9d021b2f66a5ac" prot="public" virt="non-virtual"><scope>jenes::algorithms::SteadyStateGA&lt; T extends Chromosome &gt;</scope><name>DEFAULT_GENERATION_LIMIT</name></member>
+      <member refid="classjenes_1_1algorithms_1_1_steady_state_g_a_3_01_t_01extends_01_chromosome_01_4_1a6b63d4f31855f6b9f73d8e35cb76eaee" prot="public" virt="non-virtual"><scope>jenes::algorithms::SteadyStateGA&lt; T extends Chromosome &gt;</scope><name>DEFAULT_SELECTION_METHOD</name></member>
+      <member refid="classjenes_1_1algorithms_1_1_steady_state_g_a_3_01_t_01extends_01_chromosome_01_4_1a0bd9f9195ccd7bb9f0a93bf467ee81d5" prot="public" virt="non-virtual"><scope>jenes::algorithms::SteadyStateGA&lt; T extends Chromosome &gt;</scope><name>SteadyStateGA</name></member>
+      <member refid="classjenes_1_1algorithms_1_1_steady_state_g_a_3_01_t_01extends_01_chromosome_01_4_1a1fab107de8499953af703b619d2fc741" prot="public" virt="non-virtual"><scope>jenes::algorithms::SteadyStateGA&lt; T extends Chromosome &gt;</scope><name>SteadyStateGA</name></member>
+      <member refid="classjenes_1_1algorithms_1_1_steady_state_g_a_3_01_t_01extends_01_chromosome_01_4_1a6dba077ffc454a1863b7d15cecac32b4" prot="public" virt="non-virtual"><scope>jenes::algorithms::SteadyStateGA&lt; T extends Chromosome &gt;</scope><name>SteadyStateGA</name></member>
+      <member refid="classjenes_1_1algorithms_1_1_steady_state_g_a_3_01_t_01extends_01_chromosome_01_4_1a5964a47d26b5831b9e821285e3e4cb8d" prot="public" virt="non-virtual"><scope>jenes::algorithms::SteadyStateGA&lt; T extends Chromosome &gt;</scope><name>SteadyStateGA</name></member>
+      <member refid="classjenes_1_1algorithms_1_1_steady_state_g_a_3_01_t_01extends_01_chromosome_01_4_1a7f95aed43d04c3290cc5fd98a569b6e0" prot="public" virt="non-virtual"><scope>jenes::algorithms::SteadyStateGA&lt; T extends Chromosome &gt;</scope><name>SteadyStateGA</name></member>
+      <member refid="classjenes_1_1algorithms_1_1_steady_state_g_a_3_01_t_01extends_01_chromosome_01_4_1a8dbf144ebf5f83e8d67e1e74c0e8c630" prot="public" virt="non-virtual"><scope>jenes::algorithms::SteadyStateGA&lt; T extends Chromosome &gt;</scope><name>SteadyStateGA</name></member>
+      <member refid="classjenes_1_1algorithms_1_1_steady_state_g_a_3_01_t_01extends_01_chromosome_01_4_1a24e8cfdd1131b63cb1c3d086a6a09cf4" prot="public" virt="non-virtual"><scope>jenes::algorithms::SteadyStateGA&lt; T extends Chromosome &gt;</scope><name>SteadyStateGA</name></member>
+      <member refid="classjenes_1_1algorithms_1_1_steady_state_g_a_3_01_t_01extends_01_chromosome_01_4_1a8e1b8939ca23670640b050dae1e239cc" prot="public" virt="non-virtual"><scope>jenes::algorithms::SteadyStateGA&lt; T extends Chromosome &gt;</scope><name>SteadyStateGA</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

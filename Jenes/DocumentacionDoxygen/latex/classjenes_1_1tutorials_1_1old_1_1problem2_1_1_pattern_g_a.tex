@@ -1,0 +1,101 @@
+\hypertarget{classjenes_1_1tutorials_1_1old_1_1problem2_1_1_pattern_g_a}{\section{jenes.\-tutorials.\-old.\-problem2.\-Pattern\-G\-A Class Reference}
+\label{classjenes_1_1tutorials_1_1old_1_1problem2_1_1_pattern_g_a}\index{jenes.\-tutorials.\-old.\-problem2.\-Pattern\-G\-A@{jenes.\-tutorials.\-old.\-problem2.\-Pattern\-G\-A}}
+}
+Inheritance diagram for jenes.\-tutorials.\-old.\-problem2.\-Pattern\-G\-A\-:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{classjenes_1_1tutorials_1_1old_1_1problem2_1_1_pattern_g_a}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classjenes_1_1tutorials_1_1old_1_1problem2_1_1_pattern_g_a_a6c739b7abe3809978e5a2e8a41788eae}{Pattern\-G\-A} (Population$<$ \hyperlink{classjenes_1_1chromosome_1_1_integer_chromosome}{Integer\-Chromosome} $>$ pop, int num\-Gen)
+\item 
+void \hyperlink{classjenes_1_1tutorials_1_1old_1_1problem2_1_1_pattern_g_a_acad7ad7941fbcf7fc8d555d0218886e1}{set\-Target} (int\mbox{[}$\,$\mbox{]} \hyperlink{classjenes_1_1tutorials_1_1old_1_1problem2_1_1_pattern_g_a_a56ecbd12f7e7af3887699cc99be1fd24}{target})
+\item 
+void \hyperlink{classjenes_1_1tutorials_1_1old_1_1problem2_1_1_pattern_g_a_a7d2561b481b6d1f87e6a5c8f602510b0}{set\-Precision} (int \hyperlink{classjenes_1_1tutorials_1_1old_1_1problem2_1_1_pattern_g_a_a66b0ced66757ac14afd2648465ba253f}{precision})
+\item 
+void \hyperlink{classjenes_1_1tutorials_1_1old_1_1problem2_1_1_pattern_g_a_a90edfd135e58f9a43e3722d9e1df6f95}{evaluate\-Individual} (Individual$<$ \hyperlink{classjenes_1_1chromosome_1_1_integer_chromosome}{Integer\-Chromosome} $>$ individual)
+\end{DoxyCompactItemize}
+\subsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+boolean \hyperlink{classjenes_1_1tutorials_1_1old_1_1problem2_1_1_pattern_g_a_a4c05b8a32518e4fe78f66e2576014bd9}{end} ()
+\end{DoxyCompactItemize}
+\subsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+int\mbox{[}$\,$\mbox{]} \hyperlink{classjenes_1_1tutorials_1_1old_1_1problem2_1_1_pattern_g_a_a56ecbd12f7e7af3887699cc99be1fd24}{target}
+\item 
+int \hyperlink{classjenes_1_1tutorials_1_1old_1_1problem2_1_1_pattern_g_a_a66b0ced66757ac14afd2648465ba253f}{precision}
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Tutorial showing how to extend {\ttfamily Genetic\-Algorithm} and how to use the flexible and configurable breeding structure in Jenes. The problem consists in searching a pattern of integers with a given precision. Solutions flow through two different crossovers in parallel. Some are processed by a single point crossover, the other by a double point crossover. After solutions are mutated.
+
+This class implements the algorithm by extending {\ttfamily Genetic\-Algorithm}.
+
+\begin{DoxyVersion}{Version}
+1.\-0
+\end{DoxyVersion}
+\begin{DoxySince}{Since}
+1.\-0 
+\end{DoxySince}
+
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{classjenes_1_1tutorials_1_1old_1_1problem2_1_1_pattern_g_a_a6c739b7abe3809978e5a2e8a41788eae}{\index{jenes\-::tutorials\-::old\-::problem2\-::\-Pattern\-G\-A@{jenes\-::tutorials\-::old\-::problem2\-::\-Pattern\-G\-A}!Pattern\-G\-A@{Pattern\-G\-A}}
+\index{Pattern\-G\-A@{Pattern\-G\-A}!jenes::tutorials::old::problem2::PatternGA@{jenes\-::tutorials\-::old\-::problem2\-::\-Pattern\-G\-A}}
+\subsubsection[{Pattern\-G\-A}]{\setlength{\rightskip}{0pt plus 5cm}jenes.\-tutorials.\-old.\-problem2.\-Pattern\-G\-A.\-Pattern\-G\-A (
+\begin{DoxyParamCaption}
+\item[{Population$<$ {\bf Integer\-Chromosome} $>$}]{pop, }
+\item[{int}]{num\-Gen}
+\end{DoxyParamCaption}
+)}}\label{classjenes_1_1tutorials_1_1old_1_1problem2_1_1_pattern_g_a_a6c739b7abe3809978e5a2e8a41788eae}
+
+
+\subsection{Member Function Documentation}
+\hypertarget{classjenes_1_1tutorials_1_1old_1_1problem2_1_1_pattern_g_a_a4c05b8a32518e4fe78f66e2576014bd9}{\index{jenes\-::tutorials\-::old\-::problem2\-::\-Pattern\-G\-A@{jenes\-::tutorials\-::old\-::problem2\-::\-Pattern\-G\-A}!end@{end}}
+\index{end@{end}!jenes::tutorials::old::problem2::PatternGA@{jenes\-::tutorials\-::old\-::problem2\-::\-Pattern\-G\-A}}
+\subsubsection[{end}]{\setlength{\rightskip}{0pt plus 5cm}boolean jenes.\-tutorials.\-old.\-problem2.\-Pattern\-G\-A.\-end (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [protected]}}}\label{classjenes_1_1tutorials_1_1old_1_1problem2_1_1_pattern_g_a_a4c05b8a32518e4fe78f66e2576014bd9}
+\hypertarget{classjenes_1_1tutorials_1_1old_1_1problem2_1_1_pattern_g_a_a90edfd135e58f9a43e3722d9e1df6f95}{\index{jenes\-::tutorials\-::old\-::problem2\-::\-Pattern\-G\-A@{jenes\-::tutorials\-::old\-::problem2\-::\-Pattern\-G\-A}!evaluate\-Individual@{evaluate\-Individual}}
+\index{evaluate\-Individual@{evaluate\-Individual}!jenes::tutorials::old::problem2::PatternGA@{jenes\-::tutorials\-::old\-::problem2\-::\-Pattern\-G\-A}}
+\subsubsection[{evaluate\-Individual}]{\setlength{\rightskip}{0pt plus 5cm}void jenes.\-tutorials.\-old.\-problem2.\-Pattern\-G\-A.\-evaluate\-Individual (
+\begin{DoxyParamCaption}
+\item[{Individual$<$ {\bf Integer\-Chromosome} $>$}]{individual}
+\end{DoxyParamCaption}
+)}}\label{classjenes_1_1tutorials_1_1old_1_1problem2_1_1_pattern_g_a_a90edfd135e58f9a43e3722d9e1df6f95}
+\hypertarget{classjenes_1_1tutorials_1_1old_1_1problem2_1_1_pattern_g_a_a7d2561b481b6d1f87e6a5c8f602510b0}{\index{jenes\-::tutorials\-::old\-::problem2\-::\-Pattern\-G\-A@{jenes\-::tutorials\-::old\-::problem2\-::\-Pattern\-G\-A}!set\-Precision@{set\-Precision}}
+\index{set\-Precision@{set\-Precision}!jenes::tutorials::old::problem2::PatternGA@{jenes\-::tutorials\-::old\-::problem2\-::\-Pattern\-G\-A}}
+\subsubsection[{set\-Precision}]{\setlength{\rightskip}{0pt plus 5cm}void jenes.\-tutorials.\-old.\-problem2.\-Pattern\-G\-A.\-set\-Precision (
+\begin{DoxyParamCaption}
+\item[{int}]{precision}
+\end{DoxyParamCaption}
+)}}\label{classjenes_1_1tutorials_1_1old_1_1problem2_1_1_pattern_g_a_a7d2561b481b6d1f87e6a5c8f602510b0}
+\hypertarget{classjenes_1_1tutorials_1_1old_1_1problem2_1_1_pattern_g_a_acad7ad7941fbcf7fc8d555d0218886e1}{\index{jenes\-::tutorials\-::old\-::problem2\-::\-Pattern\-G\-A@{jenes\-::tutorials\-::old\-::problem2\-::\-Pattern\-G\-A}!set\-Target@{set\-Target}}
+\index{set\-Target@{set\-Target}!jenes::tutorials::old::problem2::PatternGA@{jenes\-::tutorials\-::old\-::problem2\-::\-Pattern\-G\-A}}
+\subsubsection[{set\-Target}]{\setlength{\rightskip}{0pt plus 5cm}void jenes.\-tutorials.\-old.\-problem2.\-Pattern\-G\-A.\-set\-Target (
+\begin{DoxyParamCaption}
+\item[{int\mbox{[}$\,$\mbox{]}}]{target}
+\end{DoxyParamCaption}
+)}}\label{classjenes_1_1tutorials_1_1old_1_1problem2_1_1_pattern_g_a_acad7ad7941fbcf7fc8d555d0218886e1}
+
+
+\subsection{Member Data Documentation}
+\hypertarget{classjenes_1_1tutorials_1_1old_1_1problem2_1_1_pattern_g_a_a66b0ced66757ac14afd2648465ba253f}{\index{jenes\-::tutorials\-::old\-::problem2\-::\-Pattern\-G\-A@{jenes\-::tutorials\-::old\-::problem2\-::\-Pattern\-G\-A}!precision@{precision}}
+\index{precision@{precision}!jenes::tutorials::old::problem2::PatternGA@{jenes\-::tutorials\-::old\-::problem2\-::\-Pattern\-G\-A}}
+\subsubsection[{precision}]{\setlength{\rightskip}{0pt plus 5cm}int jenes.\-tutorials.\-old.\-problem2.\-Pattern\-G\-A.\-precision\hspace{0.3cm}{\ttfamily [private]}}}\label{classjenes_1_1tutorials_1_1old_1_1problem2_1_1_pattern_g_a_a66b0ced66757ac14afd2648465ba253f}
+\hypertarget{classjenes_1_1tutorials_1_1old_1_1problem2_1_1_pattern_g_a_a56ecbd12f7e7af3887699cc99be1fd24}{\index{jenes\-::tutorials\-::old\-::problem2\-::\-Pattern\-G\-A@{jenes\-::tutorials\-::old\-::problem2\-::\-Pattern\-G\-A}!target@{target}}
+\index{target@{target}!jenes::tutorials::old::problem2::PatternGA@{jenes\-::tutorials\-::old\-::problem2\-::\-Pattern\-G\-A}}
+\subsubsection[{target}]{\setlength{\rightskip}{0pt plus 5cm}int \mbox{[}$\,$\mbox{]} jenes.\-tutorials.\-old.\-problem2.\-Pattern\-G\-A.\-target\hspace{0.3cm}{\ttfamily [private]}}}\label{classjenes_1_1tutorials_1_1old_1_1problem2_1_1_pattern_g_a_a56ecbd12f7e7af3887699cc99be1fd24}
+
+
+The documentation for this class was generated from the following file\-:\begin{DoxyCompactItemize}
+\item 
+src/jenes/tutorials/old/problem2/\hyperlink{old_2problem2_2_pattern_g_a_8java}{Pattern\-G\-A.\-java}\end{DoxyCompactItemize}

@@ -1,0 +1,684 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="classjenes_1_1stage_1_1operator_1_1common_1_1_de_jong_crowder_3_01_t_01extends_01_chromosome_01_4" kind="class" prot="public">
+    <compoundname>jenes::stage::operator::common::DeJongCrowder&lt; T extends Chromosome &gt;</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">jenes::stage::operator::Crowder&lt; T &gt;</basecompoundref>
+    <innerclass refid="enumjenes_1_1stage_1_1operator_1_1common_1_1_de_jong_crowder_3_01_t_01extends_01_chromosome_01_4_1_1_crossover_method" prot="public">jenes::stage::operator::common::DeJongCrowder&lt; T extends Chromosome &gt;::CrossoverMethod</innerclass>
+    <innerclass refid="enumjenes_1_1stage_1_1operator_1_1common_1_1_de_jong_crowder_3_01_t_01extends_01_chromosome_01_4_1_1_mutation_method" prot="public">jenes::stage::operator::common::DeJongCrowder&lt; T extends Chromosome &gt;::MutationMethod</innerclass>
+    <innerclass refid="enumjenes_1_1stage_1_1operator_1_1common_1_1_de_jong_crowder_3_01_t_01extends_01_chromosome_01_4_1_1_selection_method" prot="public">jenes::stage::operator::common::DeJongCrowder&lt; T extends Chromosome &gt;::SelectionMethod</innerclass>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classjenes_1_1stage_1_1operator_1_1common_1_1_de_jong_crowder_3_01_t_01extends_01_chromosome_01_4_1a21277e6e0728d4e83cc353337bc5f66d" prot="public" static="yes" mutable="no">
+        <type>final SelectionMethod</type>
+        <definition>final SelectionMethod jenes.stage.operator.common.DeJongCrowder&lt; T extends Chromosome &gt;.DEFAULT_SELECTION_METHOD</definition>
+        <argsstring></argsstring>
+        <name>DEFAULT_SELECTION_METHOD</name>
+        <initializer>= <ref refid="enumjenes_1_1stage_1_1operator_1_1common_1_1_de_jong_crowder_3_01_t_01extends_01_chromosome_01_4_1_1_selection_method_1a46ad310865d9047eec57ee2efc92edf2" kindref="member">SelectionMethod.TOURNAMENT</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The default selection method </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/operator/common/DeJongCrowder.java" line="58" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/operator/common/DeJongCrowder.java" bodystart="58" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classjenes_1_1stage_1_1operator_1_1common_1_1_de_jong_crowder_3_01_t_01extends_01_chromosome_01_4_1a2798047916292a1449952a7274f9f26d" prot="public" static="yes" mutable="no">
+        <type>final CrossoverMethod</type>
+        <definition>final CrossoverMethod jenes.stage.operator.common.DeJongCrowder&lt; T extends Chromosome &gt;.DEFAULT_CROSSOVER_METHOD</definition>
+        <argsstring></argsstring>
+        <name>DEFAULT_CROSSOVER_METHOD</name>
+        <initializer>= <ref refid="enumjenes_1_1stage_1_1operator_1_1common_1_1_de_jong_crowder_3_01_t_01extends_01_chromosome_01_4_1_1_crossover_method_1ad183df18f5f62b93addbb68e53ed52d1" kindref="member">CrossoverMethod.SINGLEPOINT</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The default crossover method </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/operator/common/DeJongCrowder.java" line="60" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/operator/common/DeJongCrowder.java" bodystart="60" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classjenes_1_1stage_1_1operator_1_1common_1_1_de_jong_crowder_3_01_t_01extends_01_chromosome_01_4_1a522c94dff2a39743f6dfddec03a2ce47" prot="public" static="yes" mutable="no">
+        <type>final double</type>
+        <definition>final double jenes.stage.operator.common.DeJongCrowder&lt; T extends Chromosome &gt;.DEFAULT_CROSSOVER_PROBABILITY</definition>
+        <argsstring></argsstring>
+        <name>DEFAULT_CROSSOVER_PROBABILITY</name>
+        <initializer>= 0.8</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The default crossover probability </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/operator/common/DeJongCrowder.java" line="62" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/operator/common/DeJongCrowder.java" bodystart="62" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classjenes_1_1stage_1_1operator_1_1common_1_1_de_jong_crowder_3_01_t_01extends_01_chromosome_01_4_1a19680564524e8d194044526740001c84" prot="public" static="yes" mutable="no">
+        <type>final double</type>
+        <definition>final double jenes.stage.operator.common.DeJongCrowder&lt; T extends Chromosome &gt;.DEFAULT_MUTATION_PROBABILITY</definition>
+        <argsstring></argsstring>
+        <name>DEFAULT_MUTATION_PROBABILITY</name>
+        <initializer>= 0.02</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The default mutation probability </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/operator/common/DeJongCrowder.java" line="64" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/operator/common/DeJongCrowder.java" bodystart="64" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classjenes_1_1stage_1_1operator_1_1common_1_1_de_jong_crowder_3_01_t_01extends_01_chromosome_01_4_1a7e7afe01b26af0cdd28d392ab7866576" prot="public" static="yes" mutable="no">
+        <type>final int</type>
+        <definition>final int jenes.stage.operator.common.DeJongCrowder&lt; T extends Chromosome &gt;.DEFAULT_CROWDING_FACTOR</definition>
+        <argsstring></argsstring>
+        <name>DEFAULT_CROWDING_FACTOR</name>
+        <initializer>= 2</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The default crowding selectionRate </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/operator/common/DeJongCrowder.java" line="66" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/operator/common/DeJongCrowder.java" bodystart="66" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="classjenes_1_1stage_1_1operator_1_1common_1_1_de_jong_crowder_3_01_t_01extends_01_chromosome_01_4_1a6486b0225d345afd81b86dd04772d5ba" prot="protected" static="no" mutable="no">
+        <type>Selector&lt; T &gt;</type>
+        <definition>Selector&lt;T&gt; jenes.stage.operator.common.DeJongCrowder&lt; T extends Chromosome &gt;.selector</definition>
+        <argsstring></argsstring>
+        <name>selector</name>
+        <initializer>= null</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The selctor used </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/operator/common/DeJongCrowder.java" line="69" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/operator/common/DeJongCrowder.java" bodystart="69" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classjenes_1_1stage_1_1operator_1_1common_1_1_de_jong_crowder_3_01_t_01extends_01_chromosome_01_4_1ad876594787797e723425c09d74d0a05d" prot="protected" static="no" mutable="no">
+        <type>int</type>
+        <definition>int jenes.stage.operator.common.DeJongCrowder&lt; T extends Chromosome &gt;.crowdingFactor</definition>
+        <argsstring></argsstring>
+        <name>crowdingFactor</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The crowding factor </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/operator/common/DeJongCrowder.java" line="72" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/operator/common/DeJongCrowder.java" bodystart="72" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classjenes_1_1stage_1_1operator_1_1common_1_1_de_jong_crowder_3_01_t_01extends_01_chromosome_01_4_1a3a856be20539434c822eecf5fc099657" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>jenes.stage.operator.common.DeJongCrowder&lt; T extends Chromosome &gt;.DeJongCrowder</definition>
+        <argsstring>(final int sr, final int cf)</argsstring>
+        <name>DeJongCrowder</name>
+        <param>
+          <type>final int</type>
+          <declname>sr</declname>
+        </param>
+        <param>
+          <type>final int</type>
+          <declname>cf</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Creates DeJongCrowder</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>sr</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>selection rate </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>cf</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>crowding rate </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/operator/common/DeJongCrowder.java" line="80" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/operator/common/DeJongCrowder.java" bodystart="80" bodyend="87"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1stage_1_1operator_1_1common_1_1_de_jong_crowder_3_01_t_01extends_01_chromosome_01_4_1a552f2f1d77a10c3ae9fb8c94924fb798" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>jenes.stage.operator.common.DeJongCrowder&lt; T extends Chromosome &gt;.DeJongCrowder</definition>
+        <argsstring>(final int sr, final int cf, final SelectionMethod selmethod)</argsstring>
+        <name>DeJongCrowder</name>
+        <param>
+          <type>final int</type>
+          <declname>sr</declname>
+        </param>
+        <param>
+          <type>final int</type>
+          <declname>cf</declname>
+        </param>
+        <param>
+          <type>final SelectionMethod</type>
+          <declname>selmethod</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Creates DeJongCrowder</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>sr</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>selection rate </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>cf</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>crowding rate </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>selmethod</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>selection method </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/operator/common/DeJongCrowder.java" line="96" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/operator/common/DeJongCrowder.java" bodystart="96" bodyend="103"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1stage_1_1operator_1_1common_1_1_de_jong_crowder_3_01_t_01extends_01_chromosome_01_4_1a50f143494ddff28214ac72497b0de52a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>jenes.stage.operator.common.DeJongCrowder&lt; T extends Chromosome &gt;.DeJongCrowder</definition>
+        <argsstring>(final int sr, final int cf, final SelectionMethod selmethod, final CrossoverMethod crossmethod)</argsstring>
+        <name>DeJongCrowder</name>
+        <param>
+          <type>final int</type>
+          <declname>sr</declname>
+        </param>
+        <param>
+          <type>final int</type>
+          <declname>cf</declname>
+        </param>
+        <param>
+          <type>final SelectionMethod</type>
+          <declname>selmethod</declname>
+        </param>
+        <param>
+          <type>final CrossoverMethod</type>
+          <declname>crossmethod</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Creates DeJongCrowder</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>sr</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>selection rate </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>cf</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>crowding rate </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>selmethod</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>selection method </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>crossmethod</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>crossover method </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>crossover</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>crossover probability </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/operator/common/DeJongCrowder.java" line="114" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/operator/common/DeJongCrowder.java" bodystart="114" bodyend="121"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1stage_1_1operator_1_1common_1_1_de_jong_crowder_3_01_t_01extends_01_chromosome_01_4_1a31f097247f16221e2074ddc05d198349" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>jenes.stage.operator.common.DeJongCrowder&lt; T extends Chromosome &gt;.DeJongCrowder</definition>
+        <argsstring>(final int sr, final int cf, final SelectionMethod selmethod, final CrossoverMethod crossmethod, final double crossover, final double mutation)</argsstring>
+        <name>DeJongCrowder</name>
+        <param>
+          <type>final int</type>
+          <declname>sr</declname>
+        </param>
+        <param>
+          <type>final int</type>
+          <declname>cf</declname>
+        </param>
+        <param>
+          <type>final SelectionMethod</type>
+          <declname>selmethod</declname>
+        </param>
+        <param>
+          <type>final CrossoverMethod</type>
+          <declname>crossmethod</declname>
+        </param>
+        <param>
+          <type>final double</type>
+          <declname>crossover</declname>
+        </param>
+        <param>
+          <type>final double</type>
+          <declname>mutation</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Creates DeJongCrowder</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>sr</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>selection rate </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>cf</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>crowding rate </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>selmethod</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>selection method </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>crossmethod</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>crossover method </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>crossover</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>crossover probability </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>mutation</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>mutation probability </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/operator/common/DeJongCrowder.java" line="133" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/operator/common/DeJongCrowder.java" bodystart="133" bodyend="154"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1stage_1_1operator_1_1common_1_1_de_jong_crowder_3_01_t_01extends_01_chromosome_01_4_1a97d47f09a66cf05e1cfb7630410de686" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>jenes.stage.operator.common.DeJongCrowder&lt; T extends Chromosome &gt;.DeJongCrowder</definition>
+        <argsstring>(final int sr, final int cf, final Selector&lt; T &gt; selector, final AbstractStage&lt; T &gt;...stages)</argsstring>
+        <name>DeJongCrowder</name>
+        <param>
+          <type>final int</type>
+          <declname>sr</declname>
+        </param>
+        <param>
+          <type>final int</type>
+          <declname>cf</declname>
+        </param>
+        <param>
+          <type>final Selector&lt; T &gt;</type>
+          <declname>selector</declname>
+        </param>
+        <param>
+          <type>final AbstractStage&lt; T &gt;...</type>
+          <declname>stages</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Creates DeJongCrowder</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>sr</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>selection rate </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>cf</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>crowding rate </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>selector</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>selector </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>stages</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the body stages </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/operator/common/DeJongCrowder.java" line="164" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/operator/common/DeJongCrowder.java" bodystart="164" bodyend="176"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1stage_1_1operator_1_1common_1_1_de_jong_crowder_3_01_t_01extends_01_chromosome_01_4_1af34ed99b72eedd09864a9c447179b04e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>final int</type>
+        <definition>final int jenes.stage.operator.common.DeJongCrowder&lt; T extends Chromosome &gt;.getCrowdingFactor</definition>
+        <argsstring>()</argsstring>
+        <name>getCrowdingFactor</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns the crowding factor</para><para><simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/operator/common/DeJongCrowder.java" line="183" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/operator/common/DeJongCrowder.java" bodystart="183" bodyend="185"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1stage_1_1operator_1_1common_1_1_de_jong_crowder_3_01_t_01extends_01_chromosome_01_4_1a3420256f796449f9f486e6dc85c52f0d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void jenes.stage.operator.common.DeJongCrowder&lt; T extends Chromosome &gt;.setCrowdingFactor</definition>
+        <argsstring>(int cf)</argsstring>
+        <name>setCrowdingFactor</name>
+        <param>
+          <type>int</type>
+          <declname>cf</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Sets the crouding factor</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>cf</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>crowding factor </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/operator/common/DeJongCrowder.java" line="192" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/operator/common/DeJongCrowder.java" bodystart="192" bodyend="194"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1stage_1_1operator_1_1common_1_1_de_jong_crowder_3_01_t_01extends_01_chromosome_01_4_1aeae8a98bdc6da2261e6071ca62c5a066" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>final int</type>
+        <definition>final int jenes.stage.operator.common.DeJongCrowder&lt; T extends Chromosome &gt;.getSelectionRate</definition>
+        <argsstring>()</argsstring>
+        <name>getSelectionRate</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns the selection rate</para><para><simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/operator/common/DeJongCrowder.java" line="201" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/operator/common/DeJongCrowder.java" bodystart="201" bodyend="203"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1stage_1_1operator_1_1common_1_1_de_jong_crowder_3_01_t_01extends_01_chromosome_01_4_1a4d1a71c514bb8ffaeba9a13434dc3635" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void jenes.stage.operator.common.DeJongCrowder&lt; T extends Chromosome &gt;.setSelectionRate</definition>
+        <argsstring>(int sr)</argsstring>
+        <name>setSelectionRate</name>
+        <param>
+          <type>int</type>
+          <declname>sr</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Sets the selection rate <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>sr</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/operator/common/DeJongCrowder.java" line="209" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/operator/common/DeJongCrowder.java" bodystart="209" bodyend="211"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1stage_1_1operator_1_1common_1_1_de_jong_crowder_3_01_t_01extends_01_chromosome_01_4_1ac407367e2e9ecad45bab4253ca920a1a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>final Selector&lt; T &gt;</type>
+        <definition>final Selector&lt;T&gt; jenes.stage.operator.common.DeJongCrowder&lt; T extends Chromosome &gt;.getSelector</definition>
+        <argsstring>()</argsstring>
+        <name>getSelector</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns the selector <simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/operator/common/DeJongCrowder.java" line="217" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/operator/common/DeJongCrowder.java" bodystart="217" bodyend="219"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1stage_1_1operator_1_1common_1_1_de_jong_crowder_3_01_t_01extends_01_chromosome_01_4_1a880fdcaa7ccc39a3f5512b4bd58e74ad" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void jenes.stage.operator.common.DeJongCrowder&lt; T extends Chromosome &gt;.setSelector</definition>
+        <argsstring>(Selector&lt; T &gt; selector)</argsstring>
+        <name>setSelector</name>
+        <param>
+          <type>Selector&lt; T &gt;</type>
+          <declname>selector</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Sets the selector <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>selector</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/operator/common/DeJongCrowder.java" line="225" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/operator/common/DeJongCrowder.java" bodystart="225" bodyend="227"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1stage_1_1operator_1_1common_1_1_de_jong_crowder_3_01_t_01extends_01_chromosome_01_4_1a75bf0d077c6bff093600f1f4c333d3d1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void jenes.stage.operator.common.DeJongCrowder&lt; T extends Chromosome &gt;.setBiggerIsBetter</definition>
+        <argsstring>(boolean flag, boolean recursively)</argsstring>
+        <name>setBiggerIsBetter</name>
+        <param>
+          <type>boolean</type>
+          <declname>flag</declname>
+        </param>
+        <param>
+          <type>boolean</type>
+          <declname>recursively</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/operator/common/DeJongCrowder.java" line="279" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/operator/common/DeJongCrowder.java" bodystart="279" bodyend="282"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1stage_1_1operator_1_1common_1_1_de_jong_crowder_3_01_t_01extends_01_chromosome_01_4_1a856473a5ced464b1923545059c9f2e67" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void jenes.stage.operator.common.DeJongCrowder&lt; T extends Chromosome &gt;.setFitness</definition>
+        <argsstring>(Fitness fit, boolean recursively)</argsstring>
+        <name>setFitness</name>
+        <param>
+          <type>Fitness</type>
+          <declname>fit</declname>
+        </param>
+        <param>
+          <type>boolean</type>
+          <declname>recursively</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>XXX <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>fit</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>recursively</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/operator/common/DeJongCrowder.java" line="290" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/operator/common/DeJongCrowder.java" bodystart="290" bodyend="293"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classjenes_1_1stage_1_1operator_1_1common_1_1_de_jong_crowder_3_01_t_01extends_01_chromosome_01_4_1a98f463e26bf3fd0fd703320007302594" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void jenes.stage.operator.common.DeJongCrowder&lt; T extends Chromosome &gt;.preselect</definition>
+        <argsstring>(Population&lt; T &gt; in, Population&lt; T &gt; out)</argsstring>
+        <name>preselect</name>
+        <param>
+          <type>Population&lt; T &gt;</type>
+          <declname>in</declname>
+        </param>
+        <param>
+          <type>Population&lt; T &gt;</type>
+          <declname>out</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/operator/common/DeJongCrowder.java" line="230" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/operator/common/DeJongCrowder.java" bodystart="230" bodyend="232"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1stage_1_1operator_1_1common_1_1_de_jong_crowder_3_01_t_01extends_01_chromosome_01_4_1a7d659276ad2103199080458c85acf59e" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void jenes.stage.operator.common.DeJongCrowder&lt; T extends Chromosome &gt;.replace</definition>
+        <argsstring>(Population&lt; T &gt; initial, Population&lt; T &gt; preselected, Population&lt; T &gt; evolved, Population&lt; T &gt; out)</argsstring>
+        <name>replace</name>
+        <param>
+          <type>Population&lt; T &gt;</type>
+          <declname>initial</declname>
+        </param>
+        <param>
+          <type>Population&lt; T &gt;</type>
+          <declname>preselected</declname>
+        </param>
+        <param>
+          <type>Population&lt; T &gt;</type>
+          <declname>evolved</declname>
+        </param>
+        <param>
+          <type>Population&lt; T &gt;</type>
+          <declname>out</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/operator/common/DeJongCrowder.java" line="235" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/operator/common/DeJongCrowder.java" bodystart="235" bodyend="275"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>This class implements De Jong crowding.</para><para><simplesect kind="version"><para>2.0 </para></simplesect>
+<simplesect kind="since"><para>2.0 </para></simplesect>
+</para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="106">
+        <label>jenes.stage.operator.common.DeJongCrowder&lt; T extends Chromosome &gt;</label>
+        <link refid="classjenes_1_1stage_1_1operator_1_1common_1_1_de_jong_crowder_3_01_t_01extends_01_chromosome_01_4"/>
+        <childnode refid="107" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="107">
+        <label>jenes::stage::operator::Crowder&lt; T &gt;</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="110">
+        <label>Selector&lt; T &gt;</label>
+      </node>
+      <node id="108">
+        <label>jenes.stage.operator.common.DeJongCrowder&lt; T extends Chromosome &gt;</label>
+        <link refid="classjenes_1_1stage_1_1operator_1_1common_1_1_de_jong_crowder_3_01_t_01extends_01_chromosome_01_4"/>
+        <childnode refid="109" relation="public-inheritance">
+        </childnode>
+        <childnode refid="110" relation="usage">
+          <edgelabel>selector</edgelabel>
+        </childnode>
+      </node>
+      <node id="109">
+        <label>jenes::stage::operator::Crowder&lt; T &gt;</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/operator/common/DeJongCrowder.java" line="37" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/operator/common/DeJongCrowder.java" bodystart="37" bodyend="294"/>
+    <listofallmembers>
+      <member refid="classjenes_1_1stage_1_1operator_1_1common_1_1_de_jong_crowder_3_01_t_01extends_01_chromosome_01_4_1ad876594787797e723425c09d74d0a05d" prot="protected" virt="non-virtual"><scope>jenes::stage::operator::common::DeJongCrowder&lt; T extends Chromosome &gt;</scope><name>crowdingFactor</name></member>
+      <member refid="classjenes_1_1stage_1_1operator_1_1common_1_1_de_jong_crowder_3_01_t_01extends_01_chromosome_01_4_1a2798047916292a1449952a7274f9f26d" prot="public" virt="non-virtual"><scope>jenes::stage::operator::common::DeJongCrowder&lt; T extends Chromosome &gt;</scope><name>DEFAULT_CROSSOVER_METHOD</name></member>
+      <member refid="classjenes_1_1stage_1_1operator_1_1common_1_1_de_jong_crowder_3_01_t_01extends_01_chromosome_01_4_1a522c94dff2a39743f6dfddec03a2ce47" prot="public" virt="non-virtual"><scope>jenes::stage::operator::common::DeJongCrowder&lt; T extends Chromosome &gt;</scope><name>DEFAULT_CROSSOVER_PROBABILITY</name></member>
+      <member refid="classjenes_1_1stage_1_1operator_1_1common_1_1_de_jong_crowder_3_01_t_01extends_01_chromosome_01_4_1a7e7afe01b26af0cdd28d392ab7866576" prot="public" virt="non-virtual"><scope>jenes::stage::operator::common::DeJongCrowder&lt; T extends Chromosome &gt;</scope><name>DEFAULT_CROWDING_FACTOR</name></member>
+      <member refid="classjenes_1_1stage_1_1operator_1_1common_1_1_de_jong_crowder_3_01_t_01extends_01_chromosome_01_4_1a19680564524e8d194044526740001c84" prot="public" virt="non-virtual"><scope>jenes::stage::operator::common::DeJongCrowder&lt; T extends Chromosome &gt;</scope><name>DEFAULT_MUTATION_PROBABILITY</name></member>
+      <member refid="classjenes_1_1stage_1_1operator_1_1common_1_1_de_jong_crowder_3_01_t_01extends_01_chromosome_01_4_1a21277e6e0728d4e83cc353337bc5f66d" prot="public" virt="non-virtual"><scope>jenes::stage::operator::common::DeJongCrowder&lt; T extends Chromosome &gt;</scope><name>DEFAULT_SELECTION_METHOD</name></member>
+      <member refid="classjenes_1_1stage_1_1operator_1_1common_1_1_de_jong_crowder_3_01_t_01extends_01_chromosome_01_4_1a3a856be20539434c822eecf5fc099657" prot="public" virt="non-virtual"><scope>jenes::stage::operator::common::DeJongCrowder&lt; T extends Chromosome &gt;</scope><name>DeJongCrowder</name></member>
+      <member refid="classjenes_1_1stage_1_1operator_1_1common_1_1_de_jong_crowder_3_01_t_01extends_01_chromosome_01_4_1a552f2f1d77a10c3ae9fb8c94924fb798" prot="public" virt="non-virtual"><scope>jenes::stage::operator::common::DeJongCrowder&lt; T extends Chromosome &gt;</scope><name>DeJongCrowder</name></member>
+      <member refid="classjenes_1_1stage_1_1operator_1_1common_1_1_de_jong_crowder_3_01_t_01extends_01_chromosome_01_4_1a50f143494ddff28214ac72497b0de52a" prot="public" virt="non-virtual"><scope>jenes::stage::operator::common::DeJongCrowder&lt; T extends Chromosome &gt;</scope><name>DeJongCrowder</name></member>
+      <member refid="classjenes_1_1stage_1_1operator_1_1common_1_1_de_jong_crowder_3_01_t_01extends_01_chromosome_01_4_1a31f097247f16221e2074ddc05d198349" prot="public" virt="non-virtual"><scope>jenes::stage::operator::common::DeJongCrowder&lt; T extends Chromosome &gt;</scope><name>DeJongCrowder</name></member>
+      <member refid="classjenes_1_1stage_1_1operator_1_1common_1_1_de_jong_crowder_3_01_t_01extends_01_chromosome_01_4_1a97d47f09a66cf05e1cfb7630410de686" prot="public" virt="non-virtual"><scope>jenes::stage::operator::common::DeJongCrowder&lt; T extends Chromosome &gt;</scope><name>DeJongCrowder</name></member>
+      <member refid="classjenes_1_1stage_1_1operator_1_1common_1_1_de_jong_crowder_3_01_t_01extends_01_chromosome_01_4_1af34ed99b72eedd09864a9c447179b04e" prot="public" virt="non-virtual"><scope>jenes::stage::operator::common::DeJongCrowder&lt; T extends Chromosome &gt;</scope><name>getCrowdingFactor</name></member>
+      <member refid="classjenes_1_1stage_1_1operator_1_1common_1_1_de_jong_crowder_3_01_t_01extends_01_chromosome_01_4_1aeae8a98bdc6da2261e6071ca62c5a066" prot="public" virt="non-virtual"><scope>jenes::stage::operator::common::DeJongCrowder&lt; T extends Chromosome &gt;</scope><name>getSelectionRate</name></member>
+      <member refid="classjenes_1_1stage_1_1operator_1_1common_1_1_de_jong_crowder_3_01_t_01extends_01_chromosome_01_4_1ac407367e2e9ecad45bab4253ca920a1a" prot="public" virt="non-virtual"><scope>jenes::stage::operator::common::DeJongCrowder&lt; T extends Chromosome &gt;</scope><name>getSelector</name></member>
+      <member refid="classjenes_1_1stage_1_1operator_1_1common_1_1_de_jong_crowder_3_01_t_01extends_01_chromosome_01_4_1a98f463e26bf3fd0fd703320007302594" prot="protected" virt="non-virtual"><scope>jenes::stage::operator::common::DeJongCrowder&lt; T extends Chromosome &gt;</scope><name>preselect</name></member>
+      <member refid="classjenes_1_1stage_1_1operator_1_1common_1_1_de_jong_crowder_3_01_t_01extends_01_chromosome_01_4_1a7d659276ad2103199080458c85acf59e" prot="protected" virt="non-virtual"><scope>jenes::stage::operator::common::DeJongCrowder&lt; T extends Chromosome &gt;</scope><name>replace</name></member>
+      <member refid="classjenes_1_1stage_1_1operator_1_1common_1_1_de_jong_crowder_3_01_t_01extends_01_chromosome_01_4_1a6486b0225d345afd81b86dd04772d5ba" prot="protected" virt="non-virtual"><scope>jenes::stage::operator::common::DeJongCrowder&lt; T extends Chromosome &gt;</scope><name>selector</name></member>
+      <member refid="classjenes_1_1stage_1_1operator_1_1common_1_1_de_jong_crowder_3_01_t_01extends_01_chromosome_01_4_1a75bf0d077c6bff093600f1f4c333d3d1" prot="public" virt="non-virtual"><scope>jenes::stage::operator::common::DeJongCrowder&lt; T extends Chromosome &gt;</scope><name>setBiggerIsBetter</name></member>
+      <member refid="classjenes_1_1stage_1_1operator_1_1common_1_1_de_jong_crowder_3_01_t_01extends_01_chromosome_01_4_1a3420256f796449f9f486e6dc85c52f0d" prot="public" virt="non-virtual"><scope>jenes::stage::operator::common::DeJongCrowder&lt; T extends Chromosome &gt;</scope><name>setCrowdingFactor</name></member>
+      <member refid="classjenes_1_1stage_1_1operator_1_1common_1_1_de_jong_crowder_3_01_t_01extends_01_chromosome_01_4_1a856473a5ced464b1923545059c9f2e67" prot="public" virt="non-virtual"><scope>jenes::stage::operator::common::DeJongCrowder&lt; T extends Chromosome &gt;</scope><name>setFitness</name></member>
+      <member refid="classjenes_1_1stage_1_1operator_1_1common_1_1_de_jong_crowder_3_01_t_01extends_01_chromosome_01_4_1a4d1a71c514bb8ffaeba9a13434dc3635" prot="public" virt="non-virtual"><scope>jenes::stage::operator::common::DeJongCrowder&lt; T extends Chromosome &gt;</scope><name>setSelectionRate</name></member>
+      <member refid="classjenes_1_1stage_1_1operator_1_1common_1_1_de_jong_crowder_3_01_t_01extends_01_chromosome_01_4_1a880fdcaa7ccc39a3f5512b4bd58e74ad" prot="public" virt="non-virtual"><scope>jenes::stage::operator::common::DeJongCrowder&lt; T extends Chromosome &gt;</scope><name>setSelector</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

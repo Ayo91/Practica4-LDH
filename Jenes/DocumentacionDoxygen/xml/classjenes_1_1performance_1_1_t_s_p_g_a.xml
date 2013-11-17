@@ -1,0 +1,119 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="classjenes_1_1performance_1_1_t_s_p_g_a" kind="class" prot="public">
+    <compoundname>jenes::performance::TSPGA</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">jenes::GeneticAlgorithm&lt; IntegerChromosome &gt;</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classjenes_1_1performance_1_1_t_s_p_g_a_1a1e71f42efaa8c11e3028a4181e209b57" prot="private" static="no" mutable="no">
+        <type>double[][]</type>
+        <definition>double [][] jenes.performance.TSPGA.matrix</definition>
+        <argsstring></argsstring>
+        <name>matrix</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/performance/TSPGA.java" line="29" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/performance/TSPGA.java" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classjenes_1_1performance_1_1_t_s_p_g_a_1a698ea31a106a7f42ffc65997bbee05fe" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>jenes.performance.TSPGA.TSPGA</definition>
+        <argsstring>(double[][] matrix, Population&lt; IntegerChromosome &gt; pop, int genlimit)</argsstring>
+        <name>TSPGA</name>
+        <param>
+          <type>double</type>
+          <declname>matrix</declname>
+          <array>[][]</array>
+        </param>
+        <param>
+          <type>Population&lt; <ref refid="classjenes_1_1chromosome_1_1_integer_chromosome" kindref="compound">IntegerChromosome</ref> &gt;</type>
+          <declname>pop</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>genlimit</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/performance/TSPGA.java" line="31" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/performance/TSPGA.java" bodystart="31" bodyend="34"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1performance_1_1_t_s_p_g_a_1a78282f6c98a63d8f438364a79d8239ab" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void jenes.performance.TSPGA.evaluateIndividual</definition>
+        <argsstring>(Individual&lt; IntegerChromosome &gt; individual)</argsstring>
+        <name>evaluateIndividual</name>
+        <param>
+          <type>Individual&lt; <ref refid="classjenes_1_1chromosome_1_1_integer_chromosome" kindref="compound">IntegerChromosome</ref> &gt;</type>
+          <declname>individual</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/performance/TSPGA.java" line="37" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/performance/TSPGA.java" bodystart="37" bodyend="49"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classjenes_1_1performance_1_1_t_s_p_g_a_1a469f2cfa3bf84b07af85546e610fd624" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void jenes.performance.TSPGA.randomizeIndividual</definition>
+        <argsstring>(Individual&lt; IntegerChromosome &gt; individual)</argsstring>
+        <name>randomizeIndividual</name>
+        <param>
+          <type>Individual&lt; <ref refid="classjenes_1_1chromosome_1_1_integer_chromosome" kindref="compound">IntegerChromosome</ref> &gt;</type>
+          <declname>individual</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/performance/TSPGA.java" line="52" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/performance/TSPGA.java" bodystart="52" bodyend="60"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="739">
+        <label>jenes::GeneticAlgorithm&lt; IntegerChromosome &gt;</label>
+      </node>
+      <node id="738">
+        <label>jenes.performance.TSPGA</label>
+        <link refid="classjenes_1_1performance_1_1_t_s_p_g_a"/>
+        <childnode refid="739" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="741">
+        <label>jenes::GeneticAlgorithm&lt; IntegerChromosome &gt;</label>
+      </node>
+      <node id="740">
+        <label>jenes.performance.TSPGA</label>
+        <link refid="classjenes_1_1performance_1_1_t_s_p_g_a"/>
+        <childnode refid="741" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/performance/TSPGA.java" line="27" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/performance/TSPGA.java" bodystart="27" bodyend="61"/>
+    <listofallmembers>
+      <member refid="classjenes_1_1performance_1_1_t_s_p_g_a_1a78282f6c98a63d8f438364a79d8239ab" prot="public" virt="non-virtual"><scope>jenes::performance::TSPGA</scope><name>evaluateIndividual</name></member>
+      <member refid="classjenes_1_1performance_1_1_t_s_p_g_a_1a1e71f42efaa8c11e3028a4181e209b57" prot="private" virt="non-virtual"><scope>jenes::performance::TSPGA</scope><name>matrix</name></member>
+      <member refid="classjenes_1_1performance_1_1_t_s_p_g_a_1a469f2cfa3bf84b07af85546e610fd624" prot="protected" virt="non-virtual"><scope>jenes::performance::TSPGA</scope><name>randomizeIndividual</name></member>
+      <member refid="classjenes_1_1performance_1_1_t_s_p_g_a_1a698ea31a106a7f42ffc65997bbee05fe" prot="public" virt="non-virtual"><scope>jenes::performance::TSPGA</scope><name>TSPGA</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

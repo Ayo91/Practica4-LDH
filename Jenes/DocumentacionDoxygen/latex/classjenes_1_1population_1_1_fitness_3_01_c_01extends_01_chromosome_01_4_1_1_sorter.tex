@@ -1,0 +1,190 @@
+\hypertarget{classjenes_1_1population_1_1_fitness_3_01_c_01extends_01_chromosome_01_4_1_1_sorter}{\section{jenes.\-population.\-Fitness$<$ C extends Chromosome $>$.Sorter Class Reference}
+\label{classjenes_1_1population_1_1_fitness_3_01_c_01extends_01_chromosome_01_4_1_1_sorter}\index{jenes.\-population.\-Fitness$<$ C extends Chromosome $>$.\-Sorter@{jenes.\-population.\-Fitness$<$ C extends Chromosome $>$.\-Sorter}}
+}
+\subsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+class \hyperlink{classjenes_1_1population_1_1_fitness_3_01_c_01extends_01_chromosome_01_4_1_1_sorter_1_1_crowding_ref}{Crowding\-Ref}
+\item 
+class \hyperlink{classjenes_1_1population_1_1_fitness_3_01_c_01extends_01_chromosome_01_4_1_1_sorter_1_1_dominance_comparator}{Dominance\-Comparator}
+\end{DoxyCompactItemize}
+\subsection*{Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+List$<$ Individual $>$ \hyperlink{classjenes_1_1population_1_1_fitness_3_01_c_01extends_01_chromosome_01_4_1_1_sorter_ab4d160b9f25c9bd4b69352da4d790fca}{sort} (Population$<$?$>$ pop, boolean\mbox{[}$\,$\mbox{]} bis)
+\item 
+void \hyperlink{classjenes_1_1population_1_1_fitness_3_01_c_01extends_01_chromosome_01_4_1_1_sorter_a1290180a1519d3d4dc91da403f360a22}{set\-Individuals\-Rank} (List$<$ Individual $>$ \hyperlink{classjenes_1_1population_1_1_fitness_3_01_c_01extends_01_chromosome_01_4_1_1_sorter_a4dd2dfbe2ebcf33bed654b95507fb239}{list}, final boolean\mbox{[}$\,$\mbox{]} bis)
+\item 
+void \hyperlink{classjenes_1_1population_1_1_fitness_3_01_c_01extends_01_chromosome_01_4_1_1_sorter_a3332a86889a4923c4dc3223867727abe}{reset} (List$<$ Individual $>$ pop)
+\item 
+void \hyperlink{classjenes_1_1population_1_1_fitness_3_01_c_01extends_01_chromosome_01_4_1_1_sorter_a813d438dc95c070a1c1da6feaa8d31d4}{sort\-By\-Dominance} (boolean\mbox{[}$\,$\mbox{]} bis)
+\item 
+int \hyperlink{classjenes_1_1population_1_1_fitness_3_01_c_01extends_01_chromosome_01_4_1_1_sorter_a73a1300f8544782f918b09408dccee6f}{assign\-Ranks} (boolean\mbox{[}$\,$\mbox{]} bis)
+\item 
+void \hyperlink{classjenes_1_1population_1_1_fitness_3_01_c_01extends_01_chromosome_01_4_1_1_sorter_aeca45d3eafa9ea57e97ba47017e0aae9}{sort\-By\-Distance} (int from, int to, int m)
+\item 
+void \hyperlink{classjenes_1_1population_1_1_fitness_3_01_c_01extends_01_chromosome_01_4_1_1_sorter_ab1b7b7c31d60f51b791cf0ff0289fc4b}{update\-Distance} (int h, int from, int to)
+\end{DoxyCompactItemize}
+\subsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+Sorting\-Mode \hyperlink{classjenes_1_1population_1_1_fitness_3_01_c_01extends_01_chromosome_01_4_1_1_sorter_a9cd326d1839d016f37b61bdd5b65bdf9}{mode} = \hyperlink{enumjenes_1_1population_1_1_fitness_3_01_c_01extends_01_chromosome_01_4_1_1_sorting_mode_a5f50d22a127c87d3cfd8a47d4d131b83}{Sorting\-Mode.\-D\-O\-M\-I\-N\-A\-N\-C\-E}
+\item 
+Crowding\-Ref\mbox{[}$\,$\mbox{]} \hyperlink{classjenes_1_1population_1_1_fitness_3_01_c_01extends_01_chromosome_01_4_1_1_sorter_afea619512a6254692e6dfb5fb07e7454}{refs} = null
+\item 
+int \hyperlink{classjenes_1_1population_1_1_fitness_3_01_c_01extends_01_chromosome_01_4_1_1_sorter_a2e9dd639fc61868ac73a722a1e1d376b}{segments} \mbox{[}$\,$\mbox{]} = null
+\item 
+int \hyperlink{classjenes_1_1population_1_1_fitness_3_01_c_01extends_01_chromosome_01_4_1_1_sorter_a88514d81f3a4fbccfb5146402265362f}{ordering} \mbox{[}$\,$\mbox{]} = null
+\item 
+List$<$ Individual $>$ \hyperlink{classjenes_1_1population_1_1_fitness_3_01_c_01extends_01_chromosome_01_4_1_1_sorter_a4dd2dfbe2ebcf33bed654b95507fb239}{list} = new Array\-List$<$Individual$>$()
+\item 
+List$<$ Individual $>$ \hyperlink{classjenes_1_1population_1_1_fitness_3_01_c_01extends_01_chromosome_01_4_1_1_sorter_a3d040824f7aac6034db6ce86156565a2}{list\-For\-Rank} = new Array\-List$<$Individual$>$()
+\item 
+Dominance\-Comparator \hyperlink{classjenes_1_1population_1_1_fitness_3_01_c_01extends_01_chromosome_01_4_1_1_sorter_aa1888c6a470ee6e795d9488322e60143}{domcomp} = new Dominance\-Comparator()
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Class delegate to individual sorting 
+
+\subsection{Member Function Documentation}
+\hypertarget{classjenes_1_1population_1_1_fitness_3_01_c_01extends_01_chromosome_01_4_1_1_sorter_a73a1300f8544782f918b09408dccee6f}{\index{jenes\-::population\-::\-Fitness$<$ C extends Chromosome $>$\-::\-Sorter@{jenes\-::population\-::\-Fitness$<$ C extends Chromosome $>$\-::\-Sorter}!assign\-Ranks@{assign\-Ranks}}
+\index{assign\-Ranks@{assign\-Ranks}!jenes::population::Fitness< C extends Chromosome >::Sorter@{jenes\-::population\-::\-Fitness$<$ C extends Chromosome $>$\-::\-Sorter}}
+\subsubsection[{assign\-Ranks}]{\setlength{\rightskip}{0pt plus 5cm}int jenes.\-population.\-Fitness$<$ C extends Chromosome $>$.Sorter.\-assign\-Ranks (
+\begin{DoxyParamCaption}
+\item[{boolean\mbox{[}$\,$\mbox{]}}]{bis}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [private]}}}\label{classjenes_1_1population_1_1_fitness_3_01_c_01extends_01_chromosome_01_4_1_1_sorter_a73a1300f8544782f918b09408dccee6f}
+Assigns ranks (fronts) to refs
+
+\begin{DoxyReturn}{Returns}
+the number of fronts. 
+\end{DoxyReturn}
+\hypertarget{classjenes_1_1population_1_1_fitness_3_01_c_01extends_01_chromosome_01_4_1_1_sorter_a3332a86889a4923c4dc3223867727abe}{\index{jenes\-::population\-::\-Fitness$<$ C extends Chromosome $>$\-::\-Sorter@{jenes\-::population\-::\-Fitness$<$ C extends Chromosome $>$\-::\-Sorter}!reset@{reset}}
+\index{reset@{reset}!jenes::population::Fitness< C extends Chromosome >::Sorter@{jenes\-::population\-::\-Fitness$<$ C extends Chromosome $>$\-::\-Sorter}}
+\subsubsection[{reset}]{\setlength{\rightskip}{0pt plus 5cm}void jenes.\-population.\-Fitness$<$ C extends Chromosome $>$.Sorter.\-reset (
+\begin{DoxyParamCaption}
+\item[{List$<$ Individual $>$}]{pop}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [private]}}}\label{classjenes_1_1population_1_1_fitness_3_01_c_01extends_01_chromosome_01_4_1_1_sorter_a3332a86889a4923c4dc3223867727abe}
+Resets data structures 
+\begin{DoxyParams}{Parameters}
+{\em pop} & \\
+\hline
+\end{DoxyParams}
+\hypertarget{classjenes_1_1population_1_1_fitness_3_01_c_01extends_01_chromosome_01_4_1_1_sorter_a1290180a1519d3d4dc91da403f360a22}{\index{jenes\-::population\-::\-Fitness$<$ C extends Chromosome $>$\-::\-Sorter@{jenes\-::population\-::\-Fitness$<$ C extends Chromosome $>$\-::\-Sorter}!set\-Individuals\-Rank@{set\-Individuals\-Rank}}
+\index{set\-Individuals\-Rank@{set\-Individuals\-Rank}!jenes::population::Fitness< C extends Chromosome >::Sorter@{jenes\-::population\-::\-Fitness$<$ C extends Chromosome $>$\-::\-Sorter}}
+\subsubsection[{set\-Individuals\-Rank}]{\setlength{\rightskip}{0pt plus 5cm}void jenes.\-population.\-Fitness$<$ C extends Chromosome $>$.Sorter.\-set\-Individuals\-Rank (
+\begin{DoxyParamCaption}
+\item[{List$<$ Individual $>$}]{list, }
+\item[{final boolean\mbox{[}$\,$\mbox{]}}]{bis}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [private]}}}\label{classjenes_1_1population_1_1_fitness_3_01_c_01extends_01_chromosome_01_4_1_1_sorter_a1290180a1519d3d4dc91da403f360a22}
+Calculates the rank for each individual 
+\begin{DoxyParams}{Parameters}
+{\em list} & list of individuals \\
+\hline
+{\em bis} & objective flag array \\
+\hline
+\end{DoxyParams}
+\hypertarget{classjenes_1_1population_1_1_fitness_3_01_c_01extends_01_chromosome_01_4_1_1_sorter_ab4d160b9f25c9bd4b69352da4d790fca}{\index{jenes\-::population\-::\-Fitness$<$ C extends Chromosome $>$\-::\-Sorter@{jenes\-::population\-::\-Fitness$<$ C extends Chromosome $>$\-::\-Sorter}!sort@{sort}}
+\index{sort@{sort}!jenes::population::Fitness< C extends Chromosome >::Sorter@{jenes\-::population\-::\-Fitness$<$ C extends Chromosome $>$\-::\-Sorter}}
+\subsubsection[{sort}]{\setlength{\rightskip}{0pt plus 5cm}List$<$Individual$>$ jenes.\-population.\-Fitness$<$ C extends Chromosome $>$.Sorter.\-sort (
+\begin{DoxyParamCaption}
+\item[{Population$<$?$>$}]{pop, }
+\item[{boolean\mbox{[}$\,$\mbox{]}}]{bis}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [private]}}}\label{classjenes_1_1population_1_1_fitness_3_01_c_01extends_01_chromosome_01_4_1_1_sorter_ab4d160b9f25c9bd4b69352da4d790fca}
+Sorts the given population, according to the given flag array.
+
+
+\begin{DoxyParams}{Parameters}
+{\em pop} & population to sort \\
+\hline
+{\em bis} & objective flag array \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+sorted list of individuals 
+\end{DoxyReturn}
+\hypertarget{classjenes_1_1population_1_1_fitness_3_01_c_01extends_01_chromosome_01_4_1_1_sorter_aeca45d3eafa9ea57e97ba47017e0aae9}{\index{jenes\-::population\-::\-Fitness$<$ C extends Chromosome $>$\-::\-Sorter@{jenes\-::population\-::\-Fitness$<$ C extends Chromosome $>$\-::\-Sorter}!sort\-By\-Distance@{sort\-By\-Distance}}
+\index{sort\-By\-Distance@{sort\-By\-Distance}!jenes::population::Fitness< C extends Chromosome >::Sorter@{jenes\-::population\-::\-Fitness$<$ C extends Chromosome $>$\-::\-Sorter}}
+\subsubsection[{sort\-By\-Distance}]{\setlength{\rightskip}{0pt plus 5cm}void jenes.\-population.\-Fitness$<$ C extends Chromosome $>$.Sorter.\-sort\-By\-Distance (
+\begin{DoxyParamCaption}
+\item[{int}]{from, }
+\item[{int}]{to, }
+\item[{int}]{m}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [private]}}}\label{classjenes_1_1population_1_1_fitness_3_01_c_01extends_01_chromosome_01_4_1_1_sorter_aeca45d3eafa9ea57e97ba47017e0aae9}
+Sorts refs belonging to the same front (between from and to) by crowding distance
+
+
+\begin{DoxyParams}{Parameters}
+{\em from} & lower index \\
+\hline
+{\em to} & upper index \\
+\hline
+\end{DoxyParams}
+\hypertarget{classjenes_1_1population_1_1_fitness_3_01_c_01extends_01_chromosome_01_4_1_1_sorter_a813d438dc95c070a1c1da6feaa8d31d4}{\index{jenes\-::population\-::\-Fitness$<$ C extends Chromosome $>$\-::\-Sorter@{jenes\-::population\-::\-Fitness$<$ C extends Chromosome $>$\-::\-Sorter}!sort\-By\-Dominance@{sort\-By\-Dominance}}
+\index{sort\-By\-Dominance@{sort\-By\-Dominance}!jenes::population::Fitness< C extends Chromosome >::Sorter@{jenes\-::population\-::\-Fitness$<$ C extends Chromosome $>$\-::\-Sorter}}
+\subsubsection[{sort\-By\-Dominance}]{\setlength{\rightskip}{0pt plus 5cm}void jenes.\-population.\-Fitness$<$ C extends Chromosome $>$.Sorter.\-sort\-By\-Dominance (
+\begin{DoxyParamCaption}
+\item[{boolean\mbox{[}$\,$\mbox{]}}]{bis}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [private]}}}\label{classjenes_1_1population_1_1_fitness_3_01_c_01extends_01_chromosome_01_4_1_1_sorter_a813d438dc95c070a1c1da6feaa8d31d4}
+Sorts refs by dominance according to the given flag array.
+
+
+\begin{DoxyParams}{Parameters}
+{\em bis} & objective flag array \\
+\hline
+\end{DoxyParams}
+\hypertarget{classjenes_1_1population_1_1_fitness_3_01_c_01extends_01_chromosome_01_4_1_1_sorter_ab1b7b7c31d60f51b791cf0ff0289fc4b}{\index{jenes\-::population\-::\-Fitness$<$ C extends Chromosome $>$\-::\-Sorter@{jenes\-::population\-::\-Fitness$<$ C extends Chromosome $>$\-::\-Sorter}!update\-Distance@{update\-Distance}}
+\index{update\-Distance@{update\-Distance}!jenes::population::Fitness< C extends Chromosome >::Sorter@{jenes\-::population\-::\-Fitness$<$ C extends Chromosome $>$\-::\-Sorter}}
+\subsubsection[{update\-Distance}]{\setlength{\rightskip}{0pt plus 5cm}void jenes.\-population.\-Fitness$<$ C extends Chromosome $>$.Sorter.\-update\-Distance (
+\begin{DoxyParamCaption}
+\item[{int}]{h, }
+\item[{int}]{from, }
+\item[{int}]{to}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [private]}}}\label{classjenes_1_1population_1_1_fitness_3_01_c_01extends_01_chromosome_01_4_1_1_sorter_ab1b7b7c31d60f51b791cf0ff0289fc4b}
+Crowding distance is updated with respect to a given objective
+
+
+\begin{DoxyParams}{Parameters}
+{\em h} & objective \\
+\hline
+{\em from} & lower index \\
+\hline
+{\em to} & upper index \\
+\hline
+\end{DoxyParams}
+
+
+\subsection{Member Data Documentation}
+\hypertarget{classjenes_1_1population_1_1_fitness_3_01_c_01extends_01_chromosome_01_4_1_1_sorter_aa1888c6a470ee6e795d9488322e60143}{\index{jenes\-::population\-::\-Fitness$<$ C extends Chromosome $>$\-::\-Sorter@{jenes\-::population\-::\-Fitness$<$ C extends Chromosome $>$\-::\-Sorter}!domcomp@{domcomp}}
+\index{domcomp@{domcomp}!jenes::population::Fitness< C extends Chromosome >::Sorter@{jenes\-::population\-::\-Fitness$<$ C extends Chromosome $>$\-::\-Sorter}}
+\subsubsection[{domcomp}]{\setlength{\rightskip}{0pt plus 5cm}Dominance\-Comparator jenes.\-population.\-Fitness$<$ C extends Chromosome $>$.Sorter.\-domcomp = new Dominance\-Comparator()\hspace{0.3cm}{\ttfamily [private]}}}\label{classjenes_1_1population_1_1_fitness_3_01_c_01extends_01_chromosome_01_4_1_1_sorter_aa1888c6a470ee6e795d9488322e60143}
+\hypertarget{classjenes_1_1population_1_1_fitness_3_01_c_01extends_01_chromosome_01_4_1_1_sorter_a4dd2dfbe2ebcf33bed654b95507fb239}{\index{jenes\-::population\-::\-Fitness$<$ C extends Chromosome $>$\-::\-Sorter@{jenes\-::population\-::\-Fitness$<$ C extends Chromosome $>$\-::\-Sorter}!list@{list}}
+\index{list@{list}!jenes::population::Fitness< C extends Chromosome >::Sorter@{jenes\-::population\-::\-Fitness$<$ C extends Chromosome $>$\-::\-Sorter}}
+\subsubsection[{list}]{\setlength{\rightskip}{0pt plus 5cm}List$<$Individual$>$ jenes.\-population.\-Fitness$<$ C extends Chromosome $>$.Sorter.\-list = new Array\-List$<$Individual$>$()\hspace{0.3cm}{\ttfamily [private]}}}\label{classjenes_1_1population_1_1_fitness_3_01_c_01extends_01_chromosome_01_4_1_1_sorter_a4dd2dfbe2ebcf33bed654b95507fb239}
+\hypertarget{classjenes_1_1population_1_1_fitness_3_01_c_01extends_01_chromosome_01_4_1_1_sorter_a3d040824f7aac6034db6ce86156565a2}{\index{jenes\-::population\-::\-Fitness$<$ C extends Chromosome $>$\-::\-Sorter@{jenes\-::population\-::\-Fitness$<$ C extends Chromosome $>$\-::\-Sorter}!list\-For\-Rank@{list\-For\-Rank}}
+\index{list\-For\-Rank@{list\-For\-Rank}!jenes::population::Fitness< C extends Chromosome >::Sorter@{jenes\-::population\-::\-Fitness$<$ C extends Chromosome $>$\-::\-Sorter}}
+\subsubsection[{list\-For\-Rank}]{\setlength{\rightskip}{0pt plus 5cm}List$<$Individual$>$ jenes.\-population.\-Fitness$<$ C extends Chromosome $>$.Sorter.\-list\-For\-Rank = new Array\-List$<$Individual$>$()\hspace{0.3cm}{\ttfamily [private]}}}\label{classjenes_1_1population_1_1_fitness_3_01_c_01extends_01_chromosome_01_4_1_1_sorter_a3d040824f7aac6034db6ce86156565a2}
+\hypertarget{classjenes_1_1population_1_1_fitness_3_01_c_01extends_01_chromosome_01_4_1_1_sorter_a9cd326d1839d016f37b61bdd5b65bdf9}{\index{jenes\-::population\-::\-Fitness$<$ C extends Chromosome $>$\-::\-Sorter@{jenes\-::population\-::\-Fitness$<$ C extends Chromosome $>$\-::\-Sorter}!mode@{mode}}
+\index{mode@{mode}!jenes::population::Fitness< C extends Chromosome >::Sorter@{jenes\-::population\-::\-Fitness$<$ C extends Chromosome $>$\-::\-Sorter}}
+\subsubsection[{mode}]{\setlength{\rightskip}{0pt plus 5cm}Sorting\-Mode jenes.\-population.\-Fitness$<$ C extends Chromosome $>$.Sorter.\-mode = {\bf Sorting\-Mode.\-D\-O\-M\-I\-N\-A\-N\-C\-E}\hspace{0.3cm}{\ttfamily [private]}}}\label{classjenes_1_1population_1_1_fitness_3_01_c_01extends_01_chromosome_01_4_1_1_sorter_a9cd326d1839d016f37b61bdd5b65bdf9}
+\hypertarget{classjenes_1_1population_1_1_fitness_3_01_c_01extends_01_chromosome_01_4_1_1_sorter_a88514d81f3a4fbccfb5146402265362f}{\index{jenes\-::population\-::\-Fitness$<$ C extends Chromosome $>$\-::\-Sorter@{jenes\-::population\-::\-Fitness$<$ C extends Chromosome $>$\-::\-Sorter}!ordering@{ordering}}
+\index{ordering@{ordering}!jenes::population::Fitness< C extends Chromosome >::Sorter@{jenes\-::population\-::\-Fitness$<$ C extends Chromosome $>$\-::\-Sorter}}
+\subsubsection[{ordering}]{\setlength{\rightskip}{0pt plus 5cm}int jenes.\-population.\-Fitness$<$ C extends Chromosome $>$.Sorter.\-ordering\mbox{[}$\,$\mbox{]} = null\hspace{0.3cm}{\ttfamily [private]}}}\label{classjenes_1_1population_1_1_fitness_3_01_c_01extends_01_chromosome_01_4_1_1_sorter_a88514d81f3a4fbccfb5146402265362f}
+\hypertarget{classjenes_1_1population_1_1_fitness_3_01_c_01extends_01_chromosome_01_4_1_1_sorter_afea619512a6254692e6dfb5fb07e7454}{\index{jenes\-::population\-::\-Fitness$<$ C extends Chromosome $>$\-::\-Sorter@{jenes\-::population\-::\-Fitness$<$ C extends Chromosome $>$\-::\-Sorter}!refs@{refs}}
+\index{refs@{refs}!jenes::population::Fitness< C extends Chromosome >::Sorter@{jenes\-::population\-::\-Fitness$<$ C extends Chromosome $>$\-::\-Sorter}}
+\subsubsection[{refs}]{\setlength{\rightskip}{0pt plus 5cm}Crowding\-Ref \mbox{[}$\,$\mbox{]} jenes.\-population.\-Fitness$<$ C extends Chromosome $>$.Sorter.\-refs = null\hspace{0.3cm}{\ttfamily [private]}}}\label{classjenes_1_1population_1_1_fitness_3_01_c_01extends_01_chromosome_01_4_1_1_sorter_afea619512a6254692e6dfb5fb07e7454}
+\hypertarget{classjenes_1_1population_1_1_fitness_3_01_c_01extends_01_chromosome_01_4_1_1_sorter_a2e9dd639fc61868ac73a722a1e1d376b}{\index{jenes\-::population\-::\-Fitness$<$ C extends Chromosome $>$\-::\-Sorter@{jenes\-::population\-::\-Fitness$<$ C extends Chromosome $>$\-::\-Sorter}!segments@{segments}}
+\index{segments@{segments}!jenes::population::Fitness< C extends Chromosome >::Sorter@{jenes\-::population\-::\-Fitness$<$ C extends Chromosome $>$\-::\-Sorter}}
+\subsubsection[{segments}]{\setlength{\rightskip}{0pt plus 5cm}int jenes.\-population.\-Fitness$<$ C extends Chromosome $>$.Sorter.\-segments\mbox{[}$\,$\mbox{]} = null\hspace{0.3cm}{\ttfamily [private]}}}\label{classjenes_1_1population_1_1_fitness_3_01_c_01extends_01_chromosome_01_4_1_1_sorter_a2e9dd639fc61868ac73a722a1e1d376b}
+
+
+The documentation for this class was generated from the following file\-:\begin{DoxyCompactItemize}
+\item 
+src/jenes/population/\hyperlink{_fitness_8java}{Fitness.\-java}\end{DoxyCompactItemize}

@@ -1,0 +1,160 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="classjenes_1_1stage_1_1_break_point_3_01_t_01extends_01_chromosome_01_4" kind="class" prot="public">
+    <compoundname>jenes::stage::BreakPoint&lt; T extends Chromosome &gt;</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">jenes::stage::AbstractStage&lt; T &gt;</basecompoundref>
+    <innerclass refid="classjenes_1_1stage_1_1_break_point_3_01_t_01extends_01_chromosome_01_4_1_1_listener" prot="public">jenes::stage::BreakPoint&lt; T extends Chromosome &gt;::Listener</innerclass>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classjenes_1_1stage_1_1_break_point_3_01_t_01extends_01_chromosome_01_4_1a63fa2b0e419a40565240722068e83a68" prot="private" static="no" mutable="no">
+        <type>List&lt; Listener &gt;</type>
+        <definition>List&lt;Listener&gt; jenes.stage.BreakPoint&lt; T extends Chromosome &gt;.listeners</definition>
+        <argsstring></argsstring>
+        <name>listeners</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>the list of the break point listeners </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/BreakPoint.java" line="68" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/BreakPoint.java" bodystart="68" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classjenes_1_1stage_1_1_break_point_3_01_t_01extends_01_chromosome_01_4_1a242b4e33e148a17a0f2d19e1963aa990" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>jenes.stage.BreakPoint&lt; T extends Chromosome &gt;.BreakPoint</definition>
+        <argsstring>()</argsstring>
+        <name>BreakPoint</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs a new BreakPoint stage </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/BreakPoint.java" line="73" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/BreakPoint.java" bodystart="73" bodyend="75"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1stage_1_1_break_point_3_01_t_01extends_01_chromosome_01_4_1aac70bbcb2e82710fe969bf1545c3a9f4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void jenes.stage.BreakPoint&lt; T extends Chromosome &gt;.add</definition>
+        <argsstring>(Listener listener)</argsstring>
+        <name>add</name>
+        <param>
+          <type>Listener</type>
+          <declname>listener</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Adds the specified listener at this break point stage</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>listener</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the listener to notify when the break point process time occurs. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/BreakPoint.java" line="82" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/BreakPoint.java" bodystart="82" bodyend="84"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1stage_1_1_break_point_3_01_t_01extends_01_chromosome_01_4_1a367d07e34b42c06b692ec35d0a8f8a40" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void jenes.stage.BreakPoint&lt; T extends Chromosome &gt;.remove</definition>
+        <argsstring>(Listener listener)</argsstring>
+        <name>remove</name>
+        <param>
+          <type>Listener</type>
+          <declname>listener</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Removes the specified listener between the ones</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>listener</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the listener to remove </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/BreakPoint.java" line="91" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/BreakPoint.java" bodystart="91" bodyend="93"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1stage_1_1_break_point_3_01_t_01extends_01_chromosome_01_4_1a2fa0c075727e667e633bb9d3eb2b9e71" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void jenes.stage.BreakPoint&lt; T extends Chromosome &gt;.process</definition>
+        <argsstring>(Population&lt; T &gt; in, Population&lt; T &gt; out)</argsstring>
+        <name>process</name>
+        <param>
+          <type>Population&lt; T &gt;</type>
+          <declname>in</declname>
+        </param>
+        <param>
+          <type>Population&lt; T &gt;</type>
+          <declname>out</declname>
+        </param>
+        <exceptions> throws <ref refid="classjenes_1_1stage_1_1_stage_exception" kindref="compound">StageException</ref> </exceptions>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/BreakPoint.java" line="95" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/BreakPoint.java" bodystart="95" bodyend="100"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Stage representing a break point. It notifies its listeners when its <ref refid="" kindref="compound">process(Population, Population)</ref> method is invocated. The population isn&apos;t alterated so the output population is equals to the input one.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>&lt;T&gt;</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The class chromosomes flowing across the stage.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="version"><para>1.2 </para></simplesect>
+<simplesect kind="since"><para>1.0 </para></simplesect>
+</para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="51">
+        <label>jenes::stage::AbstractStage&lt; T &gt;</label>
+      </node>
+      <node id="50">
+        <label>jenes.stage.BreakPoint&lt; T extends Chromosome &gt;</label>
+        <link refid="classjenes_1_1stage_1_1_break_point_3_01_t_01extends_01_chromosome_01_4"/>
+        <childnode refid="51" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="53">
+        <label>jenes::stage::AbstractStage&lt; T &gt;</label>
+      </node>
+      <node id="54">
+        <label>List&lt; Listener &gt;</label>
+      </node>
+      <node id="52">
+        <label>jenes.stage.BreakPoint&lt; T extends Chromosome &gt;</label>
+        <link refid="classjenes_1_1stage_1_1_break_point_3_01_t_01extends_01_chromosome_01_4"/>
+        <childnode refid="53" relation="public-inheritance">
+        </childnode>
+        <childnode refid="54" relation="usage">
+          <edgelabel>listeners</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/BreakPoint.java" line="38" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/BreakPoint.java" bodystart="38" bodyend="101"/>
+    <listofallmembers>
+      <member refid="classjenes_1_1stage_1_1_break_point_3_01_t_01extends_01_chromosome_01_4_1aac70bbcb2e82710fe969bf1545c3a9f4" prot="public" virt="non-virtual"><scope>jenes::stage::BreakPoint&lt; T extends Chromosome &gt;</scope><name>add</name></member>
+      <member refid="classjenes_1_1stage_1_1_break_point_3_01_t_01extends_01_chromosome_01_4_1a242b4e33e148a17a0f2d19e1963aa990" prot="public" virt="non-virtual"><scope>jenes::stage::BreakPoint&lt; T extends Chromosome &gt;</scope><name>BreakPoint</name></member>
+      <member refid="classjenes_1_1stage_1_1_break_point_3_01_t_01extends_01_chromosome_01_4_1a63fa2b0e419a40565240722068e83a68" prot="private" virt="non-virtual"><scope>jenes::stage::BreakPoint&lt; T extends Chromosome &gt;</scope><name>listeners</name></member>
+      <member refid="classjenes_1_1stage_1_1_break_point_3_01_t_01extends_01_chromosome_01_4_1a2fa0c075727e667e633bb9d3eb2b9e71" prot="public" virt="non-virtual"><scope>jenes::stage::BreakPoint&lt; T extends Chromosome &gt;</scope><name>process</name></member>
+      <member refid="classjenes_1_1stage_1_1_break_point_3_01_t_01extends_01_chromosome_01_4_1a367d07e34b42c06b692ec35d0a8f8a40" prot="public" virt="non-virtual"><scope>jenes::stage::BreakPoint&lt; T extends Chromosome &gt;</scope><name>remove</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

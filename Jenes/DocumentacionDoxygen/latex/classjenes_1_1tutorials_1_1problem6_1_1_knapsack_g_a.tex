@@ -1,0 +1,120 @@
+\hypertarget{classjenes_1_1tutorials_1_1problem6_1_1_knapsack_g_a}{\section{jenes.\-tutorials.\-problem6.\-Knapsack\-G\-A Class Reference}
+\label{classjenes_1_1tutorials_1_1problem6_1_1_knapsack_g_a}\index{jenes.\-tutorials.\-problem6.\-Knapsack\-G\-A@{jenes.\-tutorials.\-problem6.\-Knapsack\-G\-A}}
+}
+Inheritance diagram for jenes.\-tutorials.\-problem6.\-Knapsack\-G\-A\-:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{classjenes_1_1tutorials_1_1problem6_1_1_knapsack_g_a}
+\end{center}
+\end{figure}
+\subsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+class \hyperlink{classjenes_1_1tutorials_1_1problem6_1_1_knapsack_g_a_1_1_knapsack_fitness}{Knapsack\-Fitness}
+\end{DoxyCompactItemize}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classjenes_1_1tutorials_1_1problem6_1_1_knapsack_g_a_aa9c826f237b43aa1cd061664c2f81f42}{Knapsack\-G\-A} (int popsize, int generations, double\mbox{[}$\,$\mbox{]} \hyperlink{classjenes_1_1tutorials_1_1problem6_1_1_knapsack_g_a_ae651e8e0a6b9bdd61515da9f2689f3f5}{utilities}, double\mbox{[}$\,$\mbox{]} \hyperlink{classjenes_1_1tutorials_1_1problem6_1_1_knapsack_g_a_afe0b0b55dd92cf81368115a9385aae05}{weights})
+\item 
+double \hyperlink{classjenes_1_1tutorials_1_1problem6_1_1_knapsack_g_a_aa8e92fd2de8e1168d812074c0ebd19d1}{get\-Capacity} ()
+\item 
+void \hyperlink{classjenes_1_1tutorials_1_1problem6_1_1_knapsack_g_a_a6fd3b4ce9620189f4ef916a3616d7868}{set\-Capacity} (double \hyperlink{classjenes_1_1tutorials_1_1problem6_1_1_knapsack_g_a_ab169e26ab1954615b1469cfada76bd52}{capacity})
+\item 
+double \hyperlink{classjenes_1_1tutorials_1_1problem6_1_1_knapsack_g_a_a77be24cd9e25a9306562826f56113641}{get\-Utility\-Of} (Individual$<$ \hyperlink{classjenes_1_1chromosome_1_1_boolean_chromosome}{Boolean\-Chromosome} $>$ individual)
+\item 
+double \hyperlink{classjenes_1_1tutorials_1_1problem6_1_1_knapsack_g_a_ab3cf2a428b860020788cfbe381ed195f}{get\-Weight\-Of} (Individual$<$ \hyperlink{classjenes_1_1chromosome_1_1_boolean_chromosome}{Boolean\-Chromosome} $>$ individual)
+\end{DoxyCompactItemize}
+\subsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+double \hyperlink{classjenes_1_1tutorials_1_1problem6_1_1_knapsack_g_a_ab169e26ab1954615b1469cfada76bd52}{capacity}
+\item 
+double\mbox{[}$\,$\mbox{]} \hyperlink{classjenes_1_1tutorials_1_1problem6_1_1_knapsack_g_a_afe0b0b55dd92cf81368115a9385aae05}{weights}
+\item 
+double\mbox{[}$\,$\mbox{]} \hyperlink{classjenes_1_1tutorials_1_1problem6_1_1_knapsack_g_a_ae651e8e0a6b9bdd61515da9f2689f3f5}{utilities}
+\item 
+\hyperlink{classjenes_1_1tutorials_1_1problem6_1_1_knapsack_g_a_1_1_knapsack_fitness}{Knapsack\-Fitness} \hyperlink{classjenes_1_1tutorials_1_1problem6_1_1_knapsack_g_a_a09a22aca6ce24e19e04329f4e05be4fb}{maximize} = new \hyperlink{classjenes_1_1tutorials_1_1problem6_1_1_knapsack_g_a_1_1_knapsack_fitness}{Knapsack\-Fitness}(true)
+\item 
+\hyperlink{classjenes_1_1tutorials_1_1problem6_1_1_knapsack_g_a_1_1_knapsack_fitness}{Knapsack\-Fitness} \hyperlink{classjenes_1_1tutorials_1_1problem6_1_1_knapsack_g_a_a9c92187484cd48309f61e2bdf37ab0be}{minimize} = new \hyperlink{classjenes_1_1tutorials_1_1problem6_1_1_knapsack_g_a_1_1_knapsack_fitness}{Knapsack\-Fitness}(false)
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Tutorial showing how to minimization and maximization sub-\/prolems can cohesists in the breeding structure of Jenes.
+
+This class implements a genetic algorithm for solving the Knapsack problem.
+
+\begin{DoxyVersion}{Version}
+2.\-0 
+\end{DoxyVersion}
+\begin{DoxySince}{Since}
+1.\-0 
+\end{DoxySince}
+
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{classjenes_1_1tutorials_1_1problem6_1_1_knapsack_g_a_aa9c826f237b43aa1cd061664c2f81f42}{\index{jenes\-::tutorials\-::problem6\-::\-Knapsack\-G\-A@{jenes\-::tutorials\-::problem6\-::\-Knapsack\-G\-A}!Knapsack\-G\-A@{Knapsack\-G\-A}}
+\index{Knapsack\-G\-A@{Knapsack\-G\-A}!jenes::tutorials::problem6::KnapsackGA@{jenes\-::tutorials\-::problem6\-::\-Knapsack\-G\-A}}
+\subsubsection[{Knapsack\-G\-A}]{\setlength{\rightskip}{0pt plus 5cm}jenes.\-tutorials.\-problem6.\-Knapsack\-G\-A.\-Knapsack\-G\-A (
+\begin{DoxyParamCaption}
+\item[{int}]{popsize, }
+\item[{int}]{generations, }
+\item[{double\mbox{[}$\,$\mbox{]}}]{utilities, }
+\item[{double\mbox{[}$\,$\mbox{]}}]{weights}
+\end{DoxyParamCaption}
+)}}\label{classjenes_1_1tutorials_1_1problem6_1_1_knapsack_g_a_aa9c826f237b43aa1cd061664c2f81f42}
+
+
+\subsection{Member Function Documentation}
+\hypertarget{classjenes_1_1tutorials_1_1problem6_1_1_knapsack_g_a_aa8e92fd2de8e1168d812074c0ebd19d1}{\index{jenes\-::tutorials\-::problem6\-::\-Knapsack\-G\-A@{jenes\-::tutorials\-::problem6\-::\-Knapsack\-G\-A}!get\-Capacity@{get\-Capacity}}
+\index{get\-Capacity@{get\-Capacity}!jenes::tutorials::problem6::KnapsackGA@{jenes\-::tutorials\-::problem6\-::\-Knapsack\-G\-A}}
+\subsubsection[{get\-Capacity}]{\setlength{\rightskip}{0pt plus 5cm}double jenes.\-tutorials.\-problem6.\-Knapsack\-G\-A.\-get\-Capacity (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classjenes_1_1tutorials_1_1problem6_1_1_knapsack_g_a_aa8e92fd2de8e1168d812074c0ebd19d1}
+\hypertarget{classjenes_1_1tutorials_1_1problem6_1_1_knapsack_g_a_a77be24cd9e25a9306562826f56113641}{\index{jenes\-::tutorials\-::problem6\-::\-Knapsack\-G\-A@{jenes\-::tutorials\-::problem6\-::\-Knapsack\-G\-A}!get\-Utility\-Of@{get\-Utility\-Of}}
+\index{get\-Utility\-Of@{get\-Utility\-Of}!jenes::tutorials::problem6::KnapsackGA@{jenes\-::tutorials\-::problem6\-::\-Knapsack\-G\-A}}
+\subsubsection[{get\-Utility\-Of}]{\setlength{\rightskip}{0pt plus 5cm}double jenes.\-tutorials.\-problem6.\-Knapsack\-G\-A.\-get\-Utility\-Of (
+\begin{DoxyParamCaption}
+\item[{Individual$<$ {\bf Boolean\-Chromosome} $>$}]{individual}
+\end{DoxyParamCaption}
+)}}\label{classjenes_1_1tutorials_1_1problem6_1_1_knapsack_g_a_a77be24cd9e25a9306562826f56113641}
+\hypertarget{classjenes_1_1tutorials_1_1problem6_1_1_knapsack_g_a_ab3cf2a428b860020788cfbe381ed195f}{\index{jenes\-::tutorials\-::problem6\-::\-Knapsack\-G\-A@{jenes\-::tutorials\-::problem6\-::\-Knapsack\-G\-A}!get\-Weight\-Of@{get\-Weight\-Of}}
+\index{get\-Weight\-Of@{get\-Weight\-Of}!jenes::tutorials::problem6::KnapsackGA@{jenes\-::tutorials\-::problem6\-::\-Knapsack\-G\-A}}
+\subsubsection[{get\-Weight\-Of}]{\setlength{\rightskip}{0pt plus 5cm}double jenes.\-tutorials.\-problem6.\-Knapsack\-G\-A.\-get\-Weight\-Of (
+\begin{DoxyParamCaption}
+\item[{Individual$<$ {\bf Boolean\-Chromosome} $>$}]{individual}
+\end{DoxyParamCaption}
+)}}\label{classjenes_1_1tutorials_1_1problem6_1_1_knapsack_g_a_ab3cf2a428b860020788cfbe381ed195f}
+\hypertarget{classjenes_1_1tutorials_1_1problem6_1_1_knapsack_g_a_a6fd3b4ce9620189f4ef916a3616d7868}{\index{jenes\-::tutorials\-::problem6\-::\-Knapsack\-G\-A@{jenes\-::tutorials\-::problem6\-::\-Knapsack\-G\-A}!set\-Capacity@{set\-Capacity}}
+\index{set\-Capacity@{set\-Capacity}!jenes::tutorials::problem6::KnapsackGA@{jenes\-::tutorials\-::problem6\-::\-Knapsack\-G\-A}}
+\subsubsection[{set\-Capacity}]{\setlength{\rightskip}{0pt plus 5cm}void jenes.\-tutorials.\-problem6.\-Knapsack\-G\-A.\-set\-Capacity (
+\begin{DoxyParamCaption}
+\item[{double}]{capacity}
+\end{DoxyParamCaption}
+)}}\label{classjenes_1_1tutorials_1_1problem6_1_1_knapsack_g_a_a6fd3b4ce9620189f4ef916a3616d7868}
+
+
+\subsection{Member Data Documentation}
+\hypertarget{classjenes_1_1tutorials_1_1problem6_1_1_knapsack_g_a_ab169e26ab1954615b1469cfada76bd52}{\index{jenes\-::tutorials\-::problem6\-::\-Knapsack\-G\-A@{jenes\-::tutorials\-::problem6\-::\-Knapsack\-G\-A}!capacity@{capacity}}
+\index{capacity@{capacity}!jenes::tutorials::problem6::KnapsackGA@{jenes\-::tutorials\-::problem6\-::\-Knapsack\-G\-A}}
+\subsubsection[{capacity}]{\setlength{\rightskip}{0pt plus 5cm}double jenes.\-tutorials.\-problem6.\-Knapsack\-G\-A.\-capacity\hspace{0.3cm}{\ttfamily [private]}}}\label{classjenes_1_1tutorials_1_1problem6_1_1_knapsack_g_a_ab169e26ab1954615b1469cfada76bd52}
+\hypertarget{classjenes_1_1tutorials_1_1problem6_1_1_knapsack_g_a_a09a22aca6ce24e19e04329f4e05be4fb}{\index{jenes\-::tutorials\-::problem6\-::\-Knapsack\-G\-A@{jenes\-::tutorials\-::problem6\-::\-Knapsack\-G\-A}!maximize@{maximize}}
+\index{maximize@{maximize}!jenes::tutorials::problem6::KnapsackGA@{jenes\-::tutorials\-::problem6\-::\-Knapsack\-G\-A}}
+\subsubsection[{maximize}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Knapsack\-Fitness} jenes.\-tutorials.\-problem6.\-Knapsack\-G\-A.\-maximize = new {\bf Knapsack\-Fitness}(true)\hspace{0.3cm}{\ttfamily [private]}}}\label{classjenes_1_1tutorials_1_1problem6_1_1_knapsack_g_a_a09a22aca6ce24e19e04329f4e05be4fb}
+\hypertarget{classjenes_1_1tutorials_1_1problem6_1_1_knapsack_g_a_a9c92187484cd48309f61e2bdf37ab0be}{\index{jenes\-::tutorials\-::problem6\-::\-Knapsack\-G\-A@{jenes\-::tutorials\-::problem6\-::\-Knapsack\-G\-A}!minimize@{minimize}}
+\index{minimize@{minimize}!jenes::tutorials::problem6::KnapsackGA@{jenes\-::tutorials\-::problem6\-::\-Knapsack\-G\-A}}
+\subsubsection[{minimize}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Knapsack\-Fitness} jenes.\-tutorials.\-problem6.\-Knapsack\-G\-A.\-minimize = new {\bf Knapsack\-Fitness}(false)\hspace{0.3cm}{\ttfamily [private]}}}\label{classjenes_1_1tutorials_1_1problem6_1_1_knapsack_g_a_a9c92187484cd48309f61e2bdf37ab0be}
+\hypertarget{classjenes_1_1tutorials_1_1problem6_1_1_knapsack_g_a_ae651e8e0a6b9bdd61515da9f2689f3f5}{\index{jenes\-::tutorials\-::problem6\-::\-Knapsack\-G\-A@{jenes\-::tutorials\-::problem6\-::\-Knapsack\-G\-A}!utilities@{utilities}}
+\index{utilities@{utilities}!jenes::tutorials::problem6::KnapsackGA@{jenes\-::tutorials\-::problem6\-::\-Knapsack\-G\-A}}
+\subsubsection[{utilities}]{\setlength{\rightskip}{0pt plus 5cm}double \mbox{[}$\,$\mbox{]} jenes.\-tutorials.\-problem6.\-Knapsack\-G\-A.\-utilities\hspace{0.3cm}{\ttfamily [private]}}}\label{classjenes_1_1tutorials_1_1problem6_1_1_knapsack_g_a_ae651e8e0a6b9bdd61515da9f2689f3f5}
+\hypertarget{classjenes_1_1tutorials_1_1problem6_1_1_knapsack_g_a_afe0b0b55dd92cf81368115a9385aae05}{\index{jenes\-::tutorials\-::problem6\-::\-Knapsack\-G\-A@{jenes\-::tutorials\-::problem6\-::\-Knapsack\-G\-A}!weights@{weights}}
+\index{weights@{weights}!jenes::tutorials::problem6::KnapsackGA@{jenes\-::tutorials\-::problem6\-::\-Knapsack\-G\-A}}
+\subsubsection[{weights}]{\setlength{\rightskip}{0pt plus 5cm}double \mbox{[}$\,$\mbox{]} jenes.\-tutorials.\-problem6.\-Knapsack\-G\-A.\-weights\hspace{0.3cm}{\ttfamily [private]}}}\label{classjenes_1_1tutorials_1_1problem6_1_1_knapsack_g_a_afe0b0b55dd92cf81368115a9385aae05}
+
+
+The documentation for this class was generated from the following file\-:\begin{DoxyCompactItemize}
+\item 
+src/jenes/tutorials/problem6/\hyperlink{problem6_2_knapsack_g_a_8java}{Knapsack\-G\-A.\-java}\end{DoxyCompactItemize}

@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="dir_14585f7d560dac4f03c5fc03037d58fd" kind="dir">
+    <compoundname>src/jenes/tutorials/problem5</compoundname>
+    <innerfile refid="problem5_2_color_8java">Color.java</innerfile>
+    <innerfile refid="problem5_2_double_allele_set_8java">DoubleAlleleSet.java</innerfile>
+    <innerfile refid="problem5_2_integer_allele_set_8java">IntegerAlleleSet.java</innerfile>
+    <innerfile refid="problem5_2_o_c_problem_8java">OCProblem.java</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/problem5/"/>
+  </compounddef>
+</doxygen>

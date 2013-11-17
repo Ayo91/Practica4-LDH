@@ -1,0 +1,229 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="classjenes_1_1stage_1_1operator_1_1common_1_1_intermediate_crossover_3_01_t_01extends_01_double_chromosome_01_4" kind="class" prot="public">
+    <compoundname>jenes::stage::operator::common::IntermediateCrossover&lt; T extends DoubleChromosome &gt;</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">jenes::stage::operator::Crossover&lt; T &gt;</basecompoundref>
+      <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="classjenes_1_1stage_1_1operator_1_1common_1_1_intermediate_crossover_3_01_t_01extends_01_double_chromosome_01_4_1a00aeef350858cb4ee81f06f7cf7a4c06" prot="protected" static="no" mutable="no">
+        <type>double</type>
+        <definition>double jenes.stage.operator.common.IntermediateCrossover&lt; T extends DoubleChromosome &gt;.ratio</definition>
+        <argsstring></argsstring>
+        <name>ratio</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Combination ratio </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/operator/common/IntermediateCrossover.java" line="33" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/operator/common/IntermediateCrossover.java" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classjenes_1_1stage_1_1operator_1_1common_1_1_intermediate_crossover_3_01_t_01extends_01_double_chromosome_01_4_1a79954756cd6cd0ffc58cd4dfbee77ca3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>jenes.stage.operator.common.IntermediateCrossover&lt; T extends DoubleChromosome &gt;.IntermediateCrossover</definition>
+        <argsstring>(double p)</argsstring>
+        <name>IntermediateCrossover</name>
+        <param>
+          <type>double</type>
+          <declname>p</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Creates IntermediateCrossover</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>p</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>crossover probability </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/operator/common/IntermediateCrossover.java" line="40" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/operator/common/IntermediateCrossover.java" bodystart="40" bodyend="43"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1stage_1_1operator_1_1common_1_1_intermediate_crossover_3_01_t_01extends_01_double_chromosome_01_4_1a1e108f61a2e8e654e65162ef8833441f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>jenes.stage.operator.common.IntermediateCrossover&lt; T extends DoubleChromosome &gt;.IntermediateCrossover</definition>
+        <argsstring>(double p, double r)</argsstring>
+        <name>IntermediateCrossover</name>
+        <param>
+          <type>double</type>
+          <declname>p</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>r</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Creates IntermediateCrossover</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>p</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>crossover probability </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>r</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>ratio </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/operator/common/IntermediateCrossover.java" line="51" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/operator/common/IntermediateCrossover.java" bodystart="51" bodyend="54"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1stage_1_1operator_1_1common_1_1_intermediate_crossover_3_01_t_01extends_01_double_chromosome_01_4_1a5b3f99723d401833db13476b27072985" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>final double</type>
+        <definition>final double jenes.stage.operator.common.IntermediateCrossover&lt; T extends DoubleChromosome &gt;.getRatio</definition>
+        <argsstring>()</argsstring>
+        <name>getRatio</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns ratio <simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/operator/common/IntermediateCrossover.java" line="60" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/operator/common/IntermediateCrossover.java" bodystart="60" bodyend="62"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1stage_1_1operator_1_1common_1_1_intermediate_crossover_3_01_t_01extends_01_double_chromosome_01_4_1a1ed8c3472bcf1d00bebcb5f5e4f4988a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void jenes.stage.operator.common.IntermediateCrossover&lt; T extends DoubleChromosome &gt;.setRatio</definition>
+        <argsstring>(double r)</argsstring>
+        <name>setRatio</name>
+        <param>
+          <type>double</type>
+          <declname>r</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Sets the ratio <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>r</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>a value between 0 and 1; if r = NaN, the ratio is set randomly at each iteration </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/operator/common/IntermediateCrossover.java" line="68" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/operator/common/IntermediateCrossover.java" bodystart="68" bodyend="80"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1stage_1_1operator_1_1common_1_1_intermediate_crossover_3_01_t_01extends_01_double_chromosome_01_4_1aaed91a2488a595ef3033be9b87f7a6d1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>final boolean</type>
+        <definition>final boolean jenes.stage.operator.common.IntermediateCrossover&lt; T extends DoubleChromosome &gt;.isRandom</definition>
+        <argsstring>()</argsstring>
+        <name>isRandom</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Says if the ratio is random <simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/operator/common/IntermediateCrossover.java" line="86" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/operator/common/IntermediateCrossover.java" bodystart="86" bodyend="88"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1stage_1_1operator_1_1common_1_1_intermediate_crossover_3_01_t_01extends_01_double_chromosome_01_4_1a7e3eb40cb2a7db9c3a80c98547cce253" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>final void</type>
+        <definition>final void jenes.stage.operator.common.IntermediateCrossover&lt; T extends DoubleChromosome &gt;.setRandom</definition>
+        <argsstring>()</argsstring>
+        <name>setRandom</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Sets the ratio random </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/operator/common/IntermediateCrossover.java" line="93" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/operator/common/IntermediateCrossover.java" bodystart="93" bodyend="95"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1stage_1_1operator_1_1common_1_1_intermediate_crossover_3_01_t_01extends_01_double_chromosome_01_4_1a4007c5dca65a48c2ea6dfbcc2372a0b2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int jenes.stage.operator.common.IntermediateCrossover&lt; T extends DoubleChromosome &gt;.spread</definition>
+        <argsstring>()</argsstring>
+        <name>spread</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/operator/common/IntermediateCrossover.java" line="98" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/operator/common/IntermediateCrossover.java" bodystart="98" bodyend="100"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classjenes_1_1stage_1_1operator_1_1common_1_1_intermediate_crossover_3_01_t_01extends_01_double_chromosome_01_4_1a712aa913c166a008a0833358270cd483" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void jenes.stage.operator.common.IntermediateCrossover&lt; T extends DoubleChromosome &gt;.cross</definition>
+        <argsstring>(Individual&lt; T &gt;[] offsprings)</argsstring>
+        <name>cross</name>
+        <param>
+          <type>Individual&lt; T &gt;[]</type>
+          <declname>offsprings</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/operator/common/IntermediateCrossover.java" line="103" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/operator/common/IntermediateCrossover.java" bodystart="103" bodyend="111"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>IntermediateCrossover performs a convex combination of DoubleChromosome by a coefficient <computeroutput>code</computeroutput>.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>&lt;T&gt;</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>extends <ref refid="" kindref="compound">DoubleChromosome</ref> </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="279">
+        <label>jenes.stage.operator.common.IntermediateCrossover&lt; T extends DoubleChromosome &gt;</label>
+        <link refid="classjenes_1_1stage_1_1operator_1_1common_1_1_intermediate_crossover_3_01_t_01extends_01_double_chromosome_01_4"/>
+        <childnode refid="280" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="280">
+        <label>jenes::stage::operator::Crossover&lt; T &gt;</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="281">
+        <label>jenes.stage.operator.common.IntermediateCrossover&lt; T extends DoubleChromosome &gt;</label>
+        <link refid="classjenes_1_1stage_1_1operator_1_1common_1_1_intermediate_crossover_3_01_t_01extends_01_double_chromosome_01_4"/>
+        <childnode refid="282" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="282">
+        <label>jenes::stage::operator::Crossover&lt; T &gt;</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/operator/common/IntermediateCrossover.java" line="30" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/operator/common/IntermediateCrossover.java" bodystart="30" bodyend="112"/>
+    <listofallmembers>
+      <member refid="classjenes_1_1stage_1_1operator_1_1common_1_1_intermediate_crossover_3_01_t_01extends_01_double_chromosome_01_4_1a712aa913c166a008a0833358270cd483" prot="protected" virt="non-virtual"><scope>jenes::stage::operator::common::IntermediateCrossover&lt; T extends DoubleChromosome &gt;</scope><name>cross</name></member>
+      <member refid="classjenes_1_1stage_1_1operator_1_1common_1_1_intermediate_crossover_3_01_t_01extends_01_double_chromosome_01_4_1a5b3f99723d401833db13476b27072985" prot="public" virt="non-virtual"><scope>jenes::stage::operator::common::IntermediateCrossover&lt; T extends DoubleChromosome &gt;</scope><name>getRatio</name></member>
+      <member refid="classjenes_1_1stage_1_1operator_1_1common_1_1_intermediate_crossover_3_01_t_01extends_01_double_chromosome_01_4_1a79954756cd6cd0ffc58cd4dfbee77ca3" prot="public" virt="non-virtual"><scope>jenes::stage::operator::common::IntermediateCrossover&lt; T extends DoubleChromosome &gt;</scope><name>IntermediateCrossover</name></member>
+      <member refid="classjenes_1_1stage_1_1operator_1_1common_1_1_intermediate_crossover_3_01_t_01extends_01_double_chromosome_01_4_1a1e108f61a2e8e654e65162ef8833441f" prot="public" virt="non-virtual"><scope>jenes::stage::operator::common::IntermediateCrossover&lt; T extends DoubleChromosome &gt;</scope><name>IntermediateCrossover</name></member>
+      <member refid="classjenes_1_1stage_1_1operator_1_1common_1_1_intermediate_crossover_3_01_t_01extends_01_double_chromosome_01_4_1aaed91a2488a595ef3033be9b87f7a6d1" prot="public" virt="non-virtual"><scope>jenes::stage::operator::common::IntermediateCrossover&lt; T extends DoubleChromosome &gt;</scope><name>isRandom</name></member>
+      <member refid="classjenes_1_1stage_1_1operator_1_1common_1_1_intermediate_crossover_3_01_t_01extends_01_double_chromosome_01_4_1a00aeef350858cb4ee81f06f7cf7a4c06" prot="protected" virt="non-virtual"><scope>jenes::stage::operator::common::IntermediateCrossover&lt; T extends DoubleChromosome &gt;</scope><name>ratio</name></member>
+      <member refid="classjenes_1_1stage_1_1operator_1_1common_1_1_intermediate_crossover_3_01_t_01extends_01_double_chromosome_01_4_1a7e3eb40cb2a7db9c3a80c98547cce253" prot="public" virt="non-virtual"><scope>jenes::stage::operator::common::IntermediateCrossover&lt; T extends DoubleChromosome &gt;</scope><name>setRandom</name></member>
+      <member refid="classjenes_1_1stage_1_1operator_1_1common_1_1_intermediate_crossover_3_01_t_01extends_01_double_chromosome_01_4_1a1ed8c3472bcf1d00bebcb5f5e4f4988a" prot="public" virt="non-virtual"><scope>jenes::stage::operator::common::IntermediateCrossover&lt; T extends DoubleChromosome &gt;</scope><name>setRatio</name></member>
+      <member refid="classjenes_1_1stage_1_1operator_1_1common_1_1_intermediate_crossover_3_01_t_01extends_01_double_chromosome_01_4_1a4007c5dca65a48c2ea6dfbcc2372a0b2" prot="public" virt="non-virtual"><scope>jenes::stage::operator::common::IntermediateCrossover&lt; T extends DoubleChromosome &gt;</scope><name>spread</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

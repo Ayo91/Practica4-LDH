@@ -1,0 +1,224 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="classjenes_1_1algorithms_1_1_crowding_g_a_3_01_t_01extends_01_chromosome_01_4" kind="class" prot="public">
+    <compoundname>jenes::algorithms::CrowdingGA&lt; T extends Chromosome &gt;</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">jenes::GeneticAlgorithm&lt; T &gt;</basecompoundref>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classjenes_1_1algorithms_1_1_crowding_g_a_3_01_t_01extends_01_chromosome_01_4_1afb96c2e73129293b45044998e3614c06" prot="public" static="yes" mutable="no">
+        <type>final int</type>
+        <definition>final int jenes.algorithms.CrowdingGA&lt; T extends Chromosome &gt;.DEFAULT_GENERATION_LIMIT</definition>
+        <argsstring></argsstring>
+        <name>DEFAULT_GENERATION_LIMIT</name>
+        <initializer>= 100</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The default generation limit </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/algorithms/CrowdingGA.java" line="39" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/algorithms/CrowdingGA.java" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="classjenes_1_1algorithms_1_1_crowding_g_a_3_01_t_01extends_01_chromosome_01_4_1aa747112afbb20cb4faec643ccc73e396" prot="protected" static="no" mutable="no">
+        <type>Crowder</type>
+        <definition>Crowder jenes.algorithms.CrowdingGA&lt; T extends Chromosome &gt;.crowder</definition>
+        <argsstring></argsstring>
+        <name>crowder</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/algorithms/CrowdingGA.java" line="40" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/algorithms/CrowdingGA.java" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classjenes_1_1algorithms_1_1_crowding_g_a_3_01_t_01extends_01_chromosome_01_4_1a5f9de70a8e431de7e0f9bbb6bb42ec1e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>jenes.algorithms.CrowdingGA&lt; T extends Chromosome &gt;.CrowdingGA</definition>
+        <argsstring>(final Fitness fitness, final Crowder crowder)</argsstring>
+        <name>CrowdingGA</name>
+        <param>
+          <type>final Fitness</type>
+          <declname>fitness</declname>
+        </param>
+        <param>
+          <type>final Crowder</type>
+          <declname>crowder</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Default constructor <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>fitness</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the Fitness considered for this algorithm </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>crowder</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the crowder to use </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/algorithms/CrowdingGA.java" line="47" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/algorithms/CrowdingGA.java" bodystart="47" bodyend="49"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1algorithms_1_1_crowding_g_a_3_01_t_01extends_01_chromosome_01_4_1ad3e5e26f962e7839e076b61efcd5704f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>jenes.algorithms.CrowdingGA&lt; T extends Chromosome &gt;.CrowdingGA</definition>
+        <argsstring>(final Fitness fitness, final Crowder crowder, final Population&lt; T &gt; population, final int generations)</argsstring>
+        <name>CrowdingGA</name>
+        <param>
+          <type>final Fitness</type>
+          <declname>fitness</declname>
+        </param>
+        <param>
+          <type>final Crowder</type>
+          <declname>crowder</declname>
+        </param>
+        <param>
+          <type>final Population&lt; T &gt;</type>
+          <declname>population</declname>
+        </param>
+        <param>
+          <type>final int</type>
+          <declname>generations</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Create a new CrowdingGA by setting the initial population and the generation limit <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>fitness</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the Fitness considered for this algorithm </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>crowder</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the crowder to use </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>population</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the initial population to consider </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>generations</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>number of generations to evolve </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/algorithms/CrowdingGA.java" line="58" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/algorithms/CrowdingGA.java" bodystart="58" bodyend="63"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1algorithms_1_1_crowding_g_a_3_01_t_01extends_01_chromosome_01_4_1ad241412becfe0073cbeb06418a1e49f3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void jenes.algorithms.CrowdingGA&lt; T extends Chromosome &gt;.addStage</definition>
+        <argsstring>(AbstractStage&lt; T &gt; stage)</argsstring>
+        <name>addStage</name>
+        <param>
+          <type>AbstractStage&lt; T &gt;</type>
+          <declname>stage</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>A stage is added to the crowder evolution pipeline <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>stage</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/algorithms/CrowdingGA.java" line="71" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/algorithms/CrowdingGA.java" bodystart="71" bodyend="73"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1algorithms_1_1_crowding_g_a_3_01_t_01extends_01_chromosome_01_4_1a6cc270cedf906a0743cb743b30c2ba02" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Crowder</type>
+        <definition>Crowder jenes.algorithms.CrowdingGA&lt; T extends Chromosome &gt;.getCrowder</definition>
+        <argsstring>()</argsstring>
+        <name>getCrowder</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Access the current crowder setted for this algorithm <simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/algorithms/CrowdingGA.java" line="79" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/algorithms/CrowdingGA.java" bodystart="79" bodyend="81"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>A genetic algorithm based on crowding</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>&lt;T&gt;</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>extends Chromosome</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="version"><para>2.0 </para></simplesect>
+<simplesect kind="since"><para>2.0 </para></simplesect>
+</para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="88">
+        <label>jenes.algorithms.CrowdingGA&lt; T extends Chromosome &gt;</label>
+        <link refid="classjenes_1_1algorithms_1_1_crowding_g_a_3_01_t_01extends_01_chromosome_01_4"/>
+        <childnode refid="89" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="89">
+        <label>jenes::GeneticAlgorithm&lt; T &gt;</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="90">
+        <label>jenes.algorithms.CrowdingGA&lt; T extends Chromosome &gt;</label>
+        <link refid="classjenes_1_1algorithms_1_1_crowding_g_a_3_01_t_01extends_01_chromosome_01_4"/>
+        <childnode refid="91" relation="public-inheritance">
+        </childnode>
+        <childnode refid="92" relation="usage">
+          <edgelabel>crowder</edgelabel>
+        </childnode>
+      </node>
+      <node id="92">
+        <label>Crowder</label>
+      </node>
+      <node id="91">
+        <label>jenes::GeneticAlgorithm&lt; T &gt;</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/algorithms/CrowdingGA.java" line="36" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/algorithms/CrowdingGA.java" bodystart="36" bodyend="82"/>
+    <listofallmembers>
+      <member refid="classjenes_1_1algorithms_1_1_crowding_g_a_3_01_t_01extends_01_chromosome_01_4_1ad241412becfe0073cbeb06418a1e49f3" prot="public" virt="non-virtual"><scope>jenes::algorithms::CrowdingGA&lt; T extends Chromosome &gt;</scope><name>addStage</name></member>
+      <member refid="classjenes_1_1algorithms_1_1_crowding_g_a_3_01_t_01extends_01_chromosome_01_4_1aa747112afbb20cb4faec643ccc73e396" prot="protected" virt="non-virtual"><scope>jenes::algorithms::CrowdingGA&lt; T extends Chromosome &gt;</scope><name>crowder</name></member>
+      <member refid="classjenes_1_1algorithms_1_1_crowding_g_a_3_01_t_01extends_01_chromosome_01_4_1a5f9de70a8e431de7e0f9bbb6bb42ec1e" prot="public" virt="non-virtual"><scope>jenes::algorithms::CrowdingGA&lt; T extends Chromosome &gt;</scope><name>CrowdingGA</name></member>
+      <member refid="classjenes_1_1algorithms_1_1_crowding_g_a_3_01_t_01extends_01_chromosome_01_4_1ad3e5e26f962e7839e076b61efcd5704f" prot="public" virt="non-virtual"><scope>jenes::algorithms::CrowdingGA&lt; T extends Chromosome &gt;</scope><name>CrowdingGA</name></member>
+      <member refid="classjenes_1_1algorithms_1_1_crowding_g_a_3_01_t_01extends_01_chromosome_01_4_1afb96c2e73129293b45044998e3614c06" prot="public" virt="non-virtual"><scope>jenes::algorithms::CrowdingGA&lt; T extends Chromosome &gt;</scope><name>DEFAULT_GENERATION_LIMIT</name></member>
+      <member refid="classjenes_1_1algorithms_1_1_crowding_g_a_3_01_t_01extends_01_chromosome_01_4_1a6cc270cedf906a0743cb743b30c2ba02" prot="public" virt="non-virtual"><scope>jenes::algorithms::CrowdingGA&lt; T extends Chromosome &gt;</scope><name>getCrowder</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

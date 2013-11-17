@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="interfacejenes_1_1population_1_1_population_3_01_t_01extends_01_chromosome_01_4_1_1_filter" kind="interface" prot="public">
+    <compoundname>jenes::population::Population&lt; T extends Chromosome &gt;::Filter</compoundname>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="interfacejenes_1_1population_1_1_population_3_01_t_01extends_01_chromosome_01_4_1_1_filter_1a61452bd10a9ec7c4356597b919918835" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>boolean</type>
+        <definition>boolean jenes.population.Population&lt; T extends Chromosome &gt;.Filter.pass</definition>
+        <argsstring>(Individual&lt;?&gt; individual)</argsstring>
+        <name>pass</name>
+        <param>
+          <type>Individual&lt;?&gt;</type>
+          <declname>individual</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Check if an <ref refid="" kindref="compound">Individual</ref> meets a specific criterion.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>individual</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para><computeroutput>true</computeroutput> if individual meets a specific criterion. <computeroutput> false </computeroutput> otherwise. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/population/Population.java" line="1662" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>The interface provides a method to create filters on individuals </para>    </detaileddescription>
+    <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/population/Population.java" line="1654" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/population/Population.java" bodystart="1654" bodyend="1663"/>
+    <listofallmembers>
+      <member refid="interfacejenes_1_1population_1_1_population_3_01_t_01extends_01_chromosome_01_4_1_1_filter_1a61452bd10a9ec7c4356597b919918835" prot="public" virt="non-virtual"><scope>jenes::population::Population&lt; T extends Chromosome &gt;::Filter</scope><name>pass</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

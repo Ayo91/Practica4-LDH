@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="dir_32a8b69dfe9787a61e7d7ea6ce080360" kind="dir">
+    <compoundname>src/jenes/tutorials/problem12</compoundname>
+    <innerfile refid="problem12_2_multi_objective_problem_8java">MultiObjectiveProblem.java</innerfile>
+    <innerfile refid="_n_s_g_a2_boolean_problem_8java">NSGA2BooleanProblem.java</innerfile>
+    <innerfile refid="_schaffer_8java">Schaffer.java</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/problem12/"/>
+  </compounddef>
+</doxygen>

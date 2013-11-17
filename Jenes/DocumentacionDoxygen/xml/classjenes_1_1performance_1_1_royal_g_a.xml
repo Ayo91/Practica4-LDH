@@ -1,0 +1,264 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="classjenes_1_1performance_1_1_royal_g_a" kind="class" prot="public">
+    <compoundname>jenes::performance::RoyalGA</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">jenes::GeneticAlgorithm&lt; BitwiseChromosome &gt;</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classjenes_1_1performance_1_1_royal_g_a_1a3629231ca7912752ec359a34cb7b7c96" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int jenes.performance.RoyalGA.NBLOCKS</definition>
+        <argsstring></argsstring>
+        <name>NBLOCKS</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Number of blocks </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/performance/RoyalGA.java" line="32" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/performance/RoyalGA.java" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classjenes_1_1performance_1_1_royal_g_a_1af34925b69833f3992b493edcf88332d0" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int jenes.performance.RoyalGA.BLOCKSIZE</definition>
+        <argsstring></argsstring>
+        <name>BLOCKSIZE</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Block size, i.e, length of target schemata. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/performance/RoyalGA.java" line="36" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/performance/RoyalGA.java" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classjenes_1_1performance_1_1_royal_g_a_1ac85d8ac758a78377f8307498a81667de" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int jenes.performance.RoyalGA.BLOCK_DELTA</definition>
+        <argsstring></argsstring>
+        <name>BLOCK_DELTA</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offset between the start of two blocks. </para><para>Equals (BLOCK_SIZE + GAPSIZE) </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/performance/RoyalGA.java" line="42" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/performance/RoyalGA.java" bodystart="42" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classjenes_1_1performance_1_1_royal_g_a_1a96a4ea92258f5359c683117bca66789b" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int jenes.performance.RoyalGA.BLOCK_THRESHOLD</definition>
+        <argsstring></argsstring>
+        <name>BLOCK_THRESHOLD</name>
+        <initializer>= 4</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Holland&apos;s m*, up to this many bits in low level block gets reward </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/performance/RoyalGA.java" line="46" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/performance/RoyalGA.java" bodystart="46" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classjenes_1_1performance_1_1_royal_g_a_1a82df988f7c1f75c23da6f68f84e43e6f" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double jenes.performance.RoyalGA.FIRST_BONUS</definition>
+        <argsstring></argsstring>
+        <name>FIRST_BONUS</name>
+        <initializer>= 1.0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Holland&apos;s U* reward parameter (first block earns this) </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/performance/RoyalGA.java" line="50" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/performance/RoyalGA.java" bodystart="50" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classjenes_1_1performance_1_1_royal_g_a_1a7408c7557c862b63264661fa7cf3e2a9" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double jenes.performance.RoyalGA.FOLLOWING_BONUS</definition>
+        <argsstring></argsstring>
+        <name>FOLLOWING_BONUS</name>
+        <initializer>= 0.3</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Holland&apos;s u increment for lowest level match </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/performance/RoyalGA.java" line="54" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/performance/RoyalGA.java" bodystart="54" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classjenes_1_1performance_1_1_royal_g_a_1aef4b54dc14d35e6f66a15a1451f54b82" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double jenes.performance.RoyalGA.PART_CALCULATION_STEP</definition>
+        <argsstring></argsstring>
+        <name>PART_CALCULATION_STEP</name>
+        <initializer>= 0.02</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Holland&apos;s v reward/penalty per bit </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/performance/RoyalGA.java" line="58" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/performance/RoyalGA.java" bodystart="58" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classjenes_1_1performance_1_1_royal_g_a_1a0e885c05d1d76c251fe4fa94de96d188" prot="private" static="no" mutable="no">
+        <type>int[]</type>
+        <definition>int [] jenes.performance.RoyalGA.block_array</definition>
+        <argsstring></argsstring>
+        <name>block_array</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/performance/RoyalGA.java" line="59" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/performance/RoyalGA.java" bodystart="59" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classjenes_1_1performance_1_1_royal_g_a_1a6e77c8bfb3b7851b2e78dc907038d557" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>jenes.performance.RoyalGA.RoyalGA</definition>
+        <argsstring>(Population&lt; BitwiseChromosome &gt; pop, int gen, int sectionSize, int blockSize, int numBlocks)</argsstring>
+        <name>RoyalGA</name>
+        <param>
+          <type>Population&lt; <ref refid="classjenes_1_1chromosome_1_1_bitwise_chromosome" kindref="compound">BitwiseChromosome</ref> &gt;</type>
+          <declname>pop</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>gen</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>sectionSize</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>blockSize</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>numBlocks</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>pop</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>gen</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>sectionSize</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the length of each section </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>blockSize</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the length of each block (each of them is contained by a section) </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>numBlocks</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the number of blocks </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/performance/RoyalGA.java" line="69" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/performance/RoyalGA.java" bodystart="69" bodyend="77"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1performance_1_1_royal_g_a_1ad135a4f53db8dcf6972681a8a1ab6f43" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void jenes.performance.RoyalGA.evaluateIndividual</definition>
+        <argsstring>(Individual&lt; BitwiseChromosome &gt; individual)</argsstring>
+        <name>evaluateIndividual</name>
+        <param>
+          <type>Individual&lt; <ref refid="classjenes_1_1chromosome_1_1_bitwise_chromosome" kindref="compound">BitwiseChromosome</ref> &gt;</type>
+          <declname>individual</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+<para>part calculation and first level bonus block</para><para>higher level bonus blocks </para>        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/performance/RoyalGA.java" line="80" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/performance/RoyalGA.java" bodystart="80" bodyend="155"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classjenes_1_1performance_1_1_royal_g_a_1a594d9cdab2d9779ea59a67bf67c47e7d" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void jenes.performance.RoyalGA.main</definition>
+        <argsstring>(String[] args)</argsstring>
+        <name>main</name>
+        <param>
+          <type>String[]</type>
+          <declname>args</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/performance/RoyalGA.java" line="157" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/performance/RoyalGA.java" bodystart="157" bodyend="173"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="553">
+        <label>jenes::GeneticAlgorithm&lt; BitwiseChromosome &gt;</label>
+      </node>
+      <node id="552">
+        <label>jenes.performance.RoyalGA</label>
+        <link refid="classjenes_1_1performance_1_1_royal_g_a"/>
+        <childnode refid="553" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="555">
+        <label>jenes::GeneticAlgorithm&lt; BitwiseChromosome &gt;</label>
+      </node>
+      <node id="554">
+        <label>jenes.performance.RoyalGA</label>
+        <link refid="classjenes_1_1performance_1_1_royal_g_a"/>
+        <childnode refid="555" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/performance/RoyalGA.java" line="27" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/performance/RoyalGA.java" bodystart="27" bodyend="174"/>
+    <listofallmembers>
+      <member refid="classjenes_1_1performance_1_1_royal_g_a_1a0e885c05d1d76c251fe4fa94de96d188" prot="private" virt="non-virtual"><scope>jenes::performance::RoyalGA</scope><name>block_array</name></member>
+      <member refid="classjenes_1_1performance_1_1_royal_g_a_1ac85d8ac758a78377f8307498a81667de" prot="private" virt="non-virtual"><scope>jenes::performance::RoyalGA</scope><name>BLOCK_DELTA</name></member>
+      <member refid="classjenes_1_1performance_1_1_royal_g_a_1a96a4ea92258f5359c683117bca66789b" prot="private" virt="non-virtual"><scope>jenes::performance::RoyalGA</scope><name>BLOCK_THRESHOLD</name></member>
+      <member refid="classjenes_1_1performance_1_1_royal_g_a_1af34925b69833f3992b493edcf88332d0" prot="private" virt="non-virtual"><scope>jenes::performance::RoyalGA</scope><name>BLOCKSIZE</name></member>
+      <member refid="classjenes_1_1performance_1_1_royal_g_a_1ad135a4f53db8dcf6972681a8a1ab6f43" prot="public" virt="non-virtual"><scope>jenes::performance::RoyalGA</scope><name>evaluateIndividual</name></member>
+      <member refid="classjenes_1_1performance_1_1_royal_g_a_1a82df988f7c1f75c23da6f68f84e43e6f" prot="private" virt="non-virtual"><scope>jenes::performance::RoyalGA</scope><name>FIRST_BONUS</name></member>
+      <member refid="classjenes_1_1performance_1_1_royal_g_a_1a7408c7557c862b63264661fa7cf3e2a9" prot="private" virt="non-virtual"><scope>jenes::performance::RoyalGA</scope><name>FOLLOWING_BONUS</name></member>
+      <member refid="classjenes_1_1performance_1_1_royal_g_a_1a594d9cdab2d9779ea59a67bf67c47e7d" prot="public" virt="non-virtual"><scope>jenes::performance::RoyalGA</scope><name>main</name></member>
+      <member refid="classjenes_1_1performance_1_1_royal_g_a_1a3629231ca7912752ec359a34cb7b7c96" prot="private" virt="non-virtual"><scope>jenes::performance::RoyalGA</scope><name>NBLOCKS</name></member>
+      <member refid="classjenes_1_1performance_1_1_royal_g_a_1aef4b54dc14d35e6f66a15a1451f54b82" prot="private" virt="non-virtual"><scope>jenes::performance::RoyalGA</scope><name>PART_CALCULATION_STEP</name></member>
+      <member refid="classjenes_1_1performance_1_1_royal_g_a_1a6e77c8bfb3b7851b2e78dc907038d557" prot="public" virt="non-virtual"><scope>jenes::performance::RoyalGA</scope><name>RoyalGA</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

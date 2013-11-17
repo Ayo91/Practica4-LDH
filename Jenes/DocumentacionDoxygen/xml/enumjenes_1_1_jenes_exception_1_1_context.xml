@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="enumjenes_1_1_jenes_exception_1_1_context" kind="enum" prot="public">
+    <compoundname>jenes::JenesException::Context</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="enumjenes_1_1_jenes_exception_1_1_context_1ae925bab13906bd4450260c30cc7b4cab" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>jenes.JenesException.Context.ALGORITHM</definition>
+        <argsstring></argsstring>
+        <name>ALGORITHM</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/JenesException.java" line="27" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/JenesException.java" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="enumjenes_1_1_jenes_exception_1_1_context_1ae0335a1dcf69b5493fac24c4c2c25cd1" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>jenes.JenesException.Context.STATISTICS</definition>
+        <argsstring></argsstring>
+        <name>STATISTICS</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/JenesException.java" line="28" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/JenesException.java" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="enumjenes_1_1_jenes_exception_1_1_context_1a023d03d781868c33bd25415d7c5602d0" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>jenes.JenesException.Context.IO</definition>
+        <argsstring></argsstring>
+        <name>IO</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/JenesException.java" line="30" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/JenesException.java" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/JenesException.java" line="26" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/JenesException.java" bodystart="26" bodyend="30"/>
+    <listofallmembers>
+      <member refid="enumjenes_1_1_jenes_exception_1_1_context_1ae925bab13906bd4450260c30cc7b4cab" prot="public" virt="non-virtual"><scope>jenes::JenesException::Context</scope><name>ALGORITHM</name></member>
+      <member refid="enumjenes_1_1_jenes_exception_1_1_context_1a023d03d781868c33bd25415d7c5602d0" prot="public" virt="non-virtual"><scope>jenes::JenesException::Context</scope><name>IO</name></member>
+      <member refid="enumjenes_1_1_jenes_exception_1_1_context_1ae0335a1dcf69b5493fac24c4c2c25cd1" prot="public" virt="non-virtual"><scope>jenes::JenesException::Context</scope><name>STATISTICS</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

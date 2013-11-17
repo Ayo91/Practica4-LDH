@@ -1,0 +1,131 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="classjenes_1_1tutorials_1_1problem3_1_1_t_s_p_scramble_mutator" kind="class" prot="public">
+    <compoundname>jenes::tutorials::problem3::TSPScrambleMutator</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">jenes::stage::operator::Mutator&lt; IntegerChromosome &gt;</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classjenes_1_1tutorials_1_1problem3_1_1_t_s_p_scramble_mutator_1a405cbd7c659b7f1053399d0fa9a5b942" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>jenes.tutorials.problem3.TSPScrambleMutator.TSPScrambleMutator</definition>
+        <argsstring>(double pMut)</argsstring>
+        <name>TSPScrambleMutator</name>
+        <param>
+          <type>double</type>
+          <declname>pMut</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/problem3/TSPScrambleMutator.java" line="47" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/problem3/TSPScrambleMutator.java" bodystart="47" bodyend="49"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1tutorials_1_1problem3_1_1_t_s_p_scramble_mutator_1a42d01f9f0cd8138659b8e76fdc41cd1e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void jenes.tutorials.problem3.TSPScrambleMutator.randomize</definition>
+        <argsstring>(IntegerChromosome chrom, int min, int max)</argsstring>
+        <name>randomize</name>
+        <param>
+          <type><ref refid="classjenes_1_1chromosome_1_1_integer_chromosome" kindref="compound">IntegerChromosome</ref></type>
+          <declname>chrom</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>min</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>max</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Randomizes the elements chromosome within the range [min,max] </para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>chrom</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the individual to mutate </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>min</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the lower bound </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>max</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the upper bound </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/problem3/TSPScrambleMutator.java" line="79" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/problem3/TSPScrambleMutator.java" bodystart="79" bodyend="99"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classjenes_1_1tutorials_1_1problem3_1_1_t_s_p_scramble_mutator_1ab355f07bb36d37f05a81eac0cc110b42" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void jenes.tutorials.problem3.TSPScrambleMutator.mutate</definition>
+        <argsstring>(Individual&lt; IntegerChromosome &gt; t)</argsstring>
+        <name>mutate</name>
+        <param>
+          <type>Individual&lt; <ref refid="classjenes_1_1chromosome_1_1_integer_chromosome" kindref="compound">IntegerChromosome</ref> &gt;</type>
+          <declname>t</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/problem3/TSPScrambleMutator.java" line="52" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/problem3/TSPScrambleMutator.java" bodystart="52" bodyend="70"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Tutorial showing how to implement problem specific operators. The problem faced in this example is the well known Tavel Salesman Problem (TSP)</para><para>This class implements a specific mutations aimed at preserving permutations.</para><para>Algorithm description: Two random indexes, i1 and i2, are choosed; the order of the elements within the range [i1,i2] changes randomly. For example: <preformatted>
+      i1=0; i2=3
+      position:    0 1 2 3 4 5
+  start_chrom: 5 2 1 4 6 3
+      end_chrom:   2 5 4 1 6 3
+</preformatted></para><para><simplesect kind="version"><para>2.0 </para></simplesect>
+<simplesect kind="since"><para>1.0 </para></simplesect>
+</para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="747">
+        <label>jenes::stage::operator::Mutator&lt; IntegerChromosome &gt;</label>
+      </node>
+      <node id="746">
+        <label>jenes.tutorials.problem3.TSPScrambleMutator</label>
+        <link refid="classjenes_1_1tutorials_1_1problem3_1_1_t_s_p_scramble_mutator"/>
+        <childnode refid="747" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="749">
+        <label>jenes::stage::operator::Mutator&lt; IntegerChromosome &gt;</label>
+      </node>
+      <node id="748">
+        <label>jenes.tutorials.problem3.TSPScrambleMutator</label>
+        <link refid="classjenes_1_1tutorials_1_1problem3_1_1_t_s_p_scramble_mutator"/>
+        <childnode refid="749" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/problem3/TSPScrambleMutator.java" line="45" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/problem3/TSPScrambleMutator.java" bodystart="45" bodyend="100"/>
+    <listofallmembers>
+      <member refid="classjenes_1_1tutorials_1_1problem3_1_1_t_s_p_scramble_mutator_1ab355f07bb36d37f05a81eac0cc110b42" prot="protected" virt="non-virtual"><scope>jenes::tutorials::problem3::TSPScrambleMutator</scope><name>mutate</name></member>
+      <member refid="classjenes_1_1tutorials_1_1problem3_1_1_t_s_p_scramble_mutator_1a42d01f9f0cd8138659b8e76fdc41cd1e" prot="public" virt="non-virtual"><scope>jenes::tutorials::problem3::TSPScrambleMutator</scope><name>randomize</name></member>
+      <member refid="classjenes_1_1tutorials_1_1problem3_1_1_t_s_p_scramble_mutator_1a405cbd7c659b7f1053399d0fa9a5b942" prot="public" virt="non-virtual"><scope>jenes::tutorials::problem3::TSPScrambleMutator</scope><name>TSPScrambleMutator</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

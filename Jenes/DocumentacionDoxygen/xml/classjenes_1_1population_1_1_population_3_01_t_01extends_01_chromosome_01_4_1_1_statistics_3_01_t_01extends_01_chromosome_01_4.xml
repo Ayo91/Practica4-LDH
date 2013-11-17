@@ -1,0 +1,718 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="classjenes_1_1population_1_1_population_3_01_t_01extends_01_chromosome_01_4_1_1_statistics_3_01_t_01extends_01_chromosome_01_4" kind="class" prot="public">
+    <compoundname>jenes::population::Population&lt; T extends Chromosome &gt;::Statistics&lt; T extends Chromosome &gt;</compoundname>
+    <basecompoundref refid="classjenes_1_1statistics_1_1_statistics_logger_1_1_loggable_statistics" prot="public" virt="non-virtual">jenes.statistics.StatisticsLogger.LoggableStatistics</basecompoundref>
+    <innerclass refid="classjenes_1_1population_1_1_population_3_01_t_01extends_01_chromosome_01_4_1_1_statistics_3_01_f7597188e8ce49bb3794d06ba6cb2ae1" prot="public">jenes::population::Population&lt; T extends Chromosome &gt;::Statistics&lt; T extends Chromosome &gt;::Group&lt; T extends Chromosome &gt;</innerclass>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classjenes_1_1population_1_1_population_3_01_t_01extends_01_chromosome_01_4_1_1_statistics_3_01_t_01extends_01_chromosome_01_4_1a2c8fe74177647241614902b4f14983ef" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double jenes.population.Population&lt; T extends Chromosome &gt;.Statistics&lt; T extends Chromosome &gt;.legalScoreAvg</definition>
+        <argsstring></argsstring>
+        <name>legalScoreAvg</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/population/Population.java" line="928" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/population/Population.java" bodystart="928" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classjenes_1_1population_1_1_population_3_01_t_01extends_01_chromosome_01_4_1_1_statistics_3_01_t_01extends_01_chromosome_01_4_1a01e5c1ca6867b39b92e38596ae96d5ab" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double jenes.population.Population&lt; T extends Chromosome &gt;.Statistics&lt; T extends Chromosome &gt;.legalScoreDev</definition>
+        <argsstring></argsstring>
+        <name>legalScoreDev</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/population/Population.java" line="929" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/population/Population.java" bodystart="929" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classjenes_1_1population_1_1_population_3_01_t_01extends_01_chromosome_01_4_1_1_statistics_3_01_t_01extends_01_chromosome_01_4_1ab7ee074032c5bd8ef0de33626a0e8422" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double jenes.population.Population&lt; T extends Chromosome &gt;.Statistics&lt; T extends Chromosome &gt;.illegalScoreAvg</definition>
+        <argsstring></argsstring>
+        <name>illegalScoreAvg</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/population/Population.java" line="930" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/population/Population.java" bodystart="930" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classjenes_1_1population_1_1_population_3_01_t_01extends_01_chromosome_01_4_1_1_statistics_3_01_t_01extends_01_chromosome_01_4_1aacb172483a05975b59577bff1579a09f" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double jenes.population.Population&lt; T extends Chromosome &gt;.Statistics&lt; T extends Chromosome &gt;.illegalScoreDev</definition>
+        <argsstring></argsstring>
+        <name>illegalScoreDev</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/population/Population.java" line="931" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/population/Population.java" bodystart="931" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classjenes_1_1population_1_1_population_3_01_t_01extends_01_chromosome_01_4_1_1_statistics_3_01_t_01extends_01_chromosome_01_4_1a3b4c70d764fe1254e0a3c1b18cc0d51f" prot="private" static="no" mutable="no">
+        <type>Individual&lt; T &gt;</type>
+        <definition>Individual&lt;T&gt; jenes.population.Population&lt; T extends Chromosome &gt;.Statistics&lt; T extends Chromosome &gt;.legalHighestIndividual</definition>
+        <argsstring></argsstring>
+        <name>legalHighestIndividual</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/population/Population.java" line="933" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/population/Population.java" bodystart="933" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classjenes_1_1population_1_1_population_3_01_t_01extends_01_chromosome_01_4_1_1_statistics_3_01_t_01extends_01_chromosome_01_4_1a2e763fc5c66d4d8a7ccff8ee3aaf9121" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double jenes.population.Population&lt; T extends Chromosome &gt;.Statistics&lt; T extends Chromosome &gt;.legalHighestScore</definition>
+        <argsstring></argsstring>
+        <name>legalHighestScore</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/population/Population.java" line="934" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/population/Population.java" bodystart="934" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classjenes_1_1population_1_1_population_3_01_t_01extends_01_chromosome_01_4_1_1_statistics_3_01_t_01extends_01_chromosome_01_4_1a7f5c5e844a535b2127e100e0e8b3f236" prot="private" static="no" mutable="no">
+        <type>Individual&lt; T &gt;</type>
+        <definition>Individual&lt;T&gt; jenes.population.Population&lt; T extends Chromosome &gt;.Statistics&lt; T extends Chromosome &gt;.legalLowestIndividual</definition>
+        <argsstring></argsstring>
+        <name>legalLowestIndividual</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/population/Population.java" line="935" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/population/Population.java" bodystart="935" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classjenes_1_1population_1_1_population_3_01_t_01extends_01_chromosome_01_4_1_1_statistics_3_01_t_01extends_01_chromosome_01_4_1a6607d74eda7372be3e67c96d748f338b" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double jenes.population.Population&lt; T extends Chromosome &gt;.Statistics&lt; T extends Chromosome &gt;.legalLowestScore</definition>
+        <argsstring></argsstring>
+        <name>legalLowestScore</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/population/Population.java" line="936" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/population/Population.java" bodystart="936" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classjenes_1_1population_1_1_population_3_01_t_01extends_01_chromosome_01_4_1_1_statistics_3_01_t_01extends_01_chromosome_01_4_1a25b1ab476daca67168246f9abe5d2eec" prot="private" static="no" mutable="no">
+        <type>Individual&lt; T &gt;</type>
+        <definition>Individual&lt;T&gt; jenes.population.Population&lt; T extends Chromosome &gt;.Statistics&lt; T extends Chromosome &gt;.illegalHighestIndividual</definition>
+        <argsstring></argsstring>
+        <name>illegalHighestIndividual</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/population/Population.java" line="938" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/population/Population.java" bodystart="938" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classjenes_1_1population_1_1_population_3_01_t_01extends_01_chromosome_01_4_1_1_statistics_3_01_t_01extends_01_chromosome_01_4_1aa94ed2e46f841a5cc5bab463c7c35ee8" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double jenes.population.Population&lt; T extends Chromosome &gt;.Statistics&lt; T extends Chromosome &gt;.illegalHighestScore</definition>
+        <argsstring></argsstring>
+        <name>illegalHighestScore</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/population/Population.java" line="939" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/population/Population.java" bodystart="939" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classjenes_1_1population_1_1_population_3_01_t_01extends_01_chromosome_01_4_1_1_statistics_3_01_t_01extends_01_chromosome_01_4_1a96d063d61f3279a870c44c81c25327ba" prot="private" static="no" mutable="no">
+        <type>Individual&lt; T &gt;</type>
+        <definition>Individual&lt;T&gt; jenes.population.Population&lt; T extends Chromosome &gt;.Statistics&lt; T extends Chromosome &gt;.illegalLowestIndividual</definition>
+        <argsstring></argsstring>
+        <name>illegalLowestIndividual</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/population/Population.java" line="940" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/population/Population.java" bodystart="940" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classjenes_1_1population_1_1_population_3_01_t_01extends_01_chromosome_01_4_1_1_statistics_3_01_t_01extends_01_chromosome_01_4_1aa4f1eb3b36a1a153e8d73c17b01264e7" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double jenes.population.Population&lt; T extends Chromosome &gt;.Statistics&lt; T extends Chromosome &gt;.illegalLowestScore</definition>
+        <argsstring></argsstring>
+        <name>illegalLowestScore</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/population/Population.java" line="941" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/population/Population.java" bodystart="941" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classjenes_1_1population_1_1_population_3_01_t_01extends_01_chromosome_01_4_1_1_statistics_3_01_t_01extends_01_chromosome_01_4_1ab45a947186e072ff044e6f3e9fc08368" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int jenes.population.Population&lt; T extends Chromosome &gt;.Statistics&lt; T extends Chromosome &gt;.numOfIndividuals</definition>
+        <argsstring></argsstring>
+        <name>numOfIndividuals</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/population/Population.java" line="942" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/population/Population.java" bodystart="942" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classjenes_1_1population_1_1_population_3_01_t_01extends_01_chromosome_01_4_1_1_statistics_3_01_t_01extends_01_chromosome_01_4_1a238a663cf8c96804ff26d5224a1a7955" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int jenes.population.Population&lt; T extends Chromosome &gt;.Statistics&lt; T extends Chromosome &gt;.numOfLegalIndividuals</definition>
+        <argsstring></argsstring>
+        <name>numOfLegalIndividuals</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/population/Population.java" line="943" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/population/Population.java" bodystart="943" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classjenes_1_1population_1_1_population_3_01_t_01extends_01_chromosome_01_4_1_1_statistics_3_01_t_01extends_01_chromosome_01_4_1a6b84c0f4b59c408bd18f55228f2aa75e" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int jenes.population.Population&lt; T extends Chromosome &gt;.Statistics&lt; T extends Chromosome &gt;.numOfIllegalIndividuals</definition>
+        <argsstring></argsstring>
+        <name>numOfIllegalIndividuals</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/population/Population.java" line="944" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/population/Population.java" bodystart="944" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classjenes_1_1population_1_1_population_3_01_t_01extends_01_chromosome_01_4_1_1_statistics_3_01_t_01extends_01_chromosome_01_4_1a2f565ff37ed70803d34dcc61227eafee" prot="private" static="no" mutable="no">
+        <type>Map&lt; Filter, Group&lt; T &gt; &gt;</type>
+        <definition>Map&lt;Filter, Group&lt;T&gt; &gt; jenes.population.Population&lt; T extends Chromosome &gt;.Statistics&lt; T extends Chromosome &gt;.groups</definition>
+        <argsstring></argsstring>
+        <name>groups</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/population/Population.java" line="945" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/population/Population.java" bodystart="945" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classjenes_1_1population_1_1_population_3_01_t_01extends_01_chromosome_01_4_1_1_statistics_3_01_t_01extends_01_chromosome_01_4_1a3033ce7fb2ca7d54edfc5d44f958e5c9" prot="private" static="no" mutable="no">
+        <type>boolean[]</type>
+        <definition>boolean [] jenes.population.Population&lt; T extends Chromosome &gt;.Statistics&lt; T extends Chromosome &gt;.biggerIsBetter</definition>
+        <argsstring></argsstring>
+        <name>biggerIsBetter</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/population/Population.java" line="946" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/population/Population.java" bodystart="946" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classjenes_1_1population_1_1_population_3_01_t_01extends_01_chromosome_01_4_1_1_statistics_3_01_t_01extends_01_chromosome_01_4_1a3a0f1175b7fc029317c3d3f8337fcb84" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>jenes.population.Population&lt; T extends Chromosome &gt;.Statistics&lt; T extends Chromosome &gt;.Statistics</definition>
+        <argsstring>(boolean[] bis)</argsstring>
+        <name>Statistics</name>
+        <param>
+          <type>boolean[]</type>
+          <declname>bis</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs a new Population.Statitics</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>bis</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>array of flags. Each flag indicates if maximize or minimize the score for an objective in a specific position. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/population/Population.java" line="955" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/population/Population.java" bodystart="955" bodyend="958"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classjenes_1_1population_1_1_population_3_01_t_01extends_01_chromosome_01_4_1_1_statistics_3_01_t_01extends_01_chromosome_01_4_1abedb789a305da82d4c7a126cf261144e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>final void</type>
+        <definition>final void jenes.population.Population&lt; T extends Chromosome &gt;.Statistics&lt; T extends Chromosome &gt;.update</definition>
+        <argsstring>(final Population&lt; T &gt; population)</argsstring>
+        <name>update</name>
+        <param>
+          <type>final <ref refid="classjenes_1_1population_1_1_population_3_01_t_01extends_01_chromosome_01_4_1a0f7b4a9eda8a4dadbc70f8585def56bd" kindref="member">Population</ref>&lt; T &gt;</type>
+          <declname>population</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Updates all its information about population <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>population</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/population/Population.java" line="964" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/population/Population.java" bodystart="964" bodyend="1021"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1population_1_1_population_3_01_t_01extends_01_chromosome_01_4_1_1_statistics_3_01_t_01extends_01_chromosome_01_4_1ab0d77b3f303f2ca62f590364dd0d5823" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>boolean[]</type>
+        <definition>boolean [] jenes.population.Population&lt; T extends Chromosome &gt;.Statistics&lt; T extends Chromosome &gt;.getBiggerIsBetter</definition>
+        <argsstring>()</argsstring>
+        <name>getBiggerIsBetter</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns a array that contains a flag for each objective. Each flag indicates if maximize or minimize the score for an objective in a specific position</para><para><simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/population/Population.java" line="1052" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/population/Population.java" bodystart="1052" bodyend="1054"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1population_1_1_population_3_01_t_01extends_01_chromosome_01_4_1_1_statistics_3_01_t_01extends_01_chromosome_01_4_1a9df6ef33f2aebab13496fb6ac4da00c0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int jenes.population.Population&lt; T extends Chromosome &gt;.Statistics&lt; T extends Chromosome &gt;.getNumOfObjectives</definition>
+        <argsstring>()</argsstring>
+        <name>getNumOfObjectives</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns the number of objective.</para><para><simplesect kind="return"><para>the number of objective. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/population/Population.java" line="1061" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/population/Population.java" bodystart="1061" bodyend="1063"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1population_1_1_population_3_01_t_01extends_01_chromosome_01_4_1_1_statistics_3_01_t_01extends_01_chromosome_01_4_1a54d341d21467800ce5cd2adcf57d88ae" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Group&lt; T &gt;</type>
+        <definition>Group&lt;T&gt; jenes.population.Population&lt; T extends Chromosome &gt;.Statistics&lt; T extends Chromosome &gt;.addGroup</definition>
+        <argsstring>(Filter filter, boolean collectable)</argsstring>
+        <name>addGroup</name>
+        <param>
+          <type>Filter</type>
+          <declname>filter</declname>
+        </param>
+        <param>
+          <type>boolean</type>
+          <declname>collectable</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Add a new <ref refid="" kindref="compound">Group</ref> of individuals definition to the population accessible in statistics</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>filter</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the filter to apply in generating a Group of solutions </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>collectable</parametername>
+</parameternamelist>
+<parameterdescription>
+<para><computeroutput>true</computeroutput> if the group have to preserve the individuals that generate statistics; <computeroutput>false</computeroutput> if only numerical statistics are required; in this case, the <ref refid="" kindref="compound">Group#iterator()</ref> will return <computeroutput>null</computeroutput> individuals and <ref refid="" kindref="compound">will return ever <computeroutput>1</computeroutput>.  the  Group</ref> generated applying the filter given as argument </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/population/Population.java" line="1078" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/population/Population.java" bodystart="1078" bodyend="1085"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1population_1_1_population_3_01_t_01extends_01_chromosome_01_4_1_1_statistics_3_01_t_01extends_01_chromosome_01_4_1a53c79dcd727e0928302b8bd7c5a84351" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Group&lt; T &gt;</type>
+        <definition>Group&lt;T&gt; jenes.population.Population&lt; T extends Chromosome &gt;.Statistics&lt; T extends Chromosome &gt;.getGroup</definition>
+        <argsstring>(Filter filter)</argsstring>
+        <name>getGroup</name>
+        <param>
+          <type>Filter</type>
+          <declname>filter</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns a <ref refid="" kindref="compound">Group</ref> for a specific <ref refid="interfacejenes_1_1population_1_1_population_3_01_t_01extends_01_chromosome_01_4_1_1_filter" kindref="compound">Filter</ref> given as argument</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>filter</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>to select a specific group</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>a group </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/population/Population.java" line="1094" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/population/Population.java" bodystart="1094" bodyend="1096"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1population_1_1_population_3_01_t_01extends_01_chromosome_01_4_1_1_statistics_3_01_t_01extends_01_chromosome_01_4_1a339616b1e3990e690f70013d89eb99f6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Collection&lt; Group&lt; T &gt; &gt;</type>
+        <definition>Collection&lt;Group&lt;T&gt; &gt; jenes.population.Population&lt; T extends Chromosome &gt;.Statistics&lt; T extends Chromosome &gt;.getAllGroups</definition>
+        <argsstring>()</argsstring>
+        <name>getAllGroups</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns a collection of all <ref refid="" kindref="compound">Group</ref></para><para><simplesect kind="return"><para>all groups </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/population/Population.java" line="1103" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/population/Population.java" bodystart="1103" bodyend="1105"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1population_1_1_population_3_01_t_01extends_01_chromosome_01_4_1_1_statistics_3_01_t_01extends_01_chromosome_01_4_1a491f56a06175de4ef0fe47d6d081643e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>final double</type>
+        <definition>final double jenes.population.Population&lt; T extends Chromosome &gt;.Statistics&lt; T extends Chromosome &gt;.getLegalScoreAvg</definition>
+        <argsstring>()</argsstring>
+        <name>getLegalScoreAvg</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns the average score of the legal individual of this population </para><para><simplesect kind="return"><para>the average score of the legal individual of this population </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/population/Population.java" line="1114" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/population/Population.java" bodystart="1114" bodyend="1116"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1population_1_1_population_3_01_t_01extends_01_chromosome_01_4_1_1_statistics_3_01_t_01extends_01_chromosome_01_4_1a290e9cbf8463eb2ac0437ff1488789a7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>final double</type>
+        <definition>final double jenes.population.Population&lt; T extends Chromosome &gt;.Statistics&lt; T extends Chromosome &gt;.getLegalScoreDev</definition>
+        <argsstring>()</argsstring>
+        <name>getLegalScoreDev</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns the deviation score of the legal individual of this population </para><para><simplesect kind="return"><para>the deviation score of the legal individual of this population </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/population/Population.java" line="1125" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/population/Population.java" bodystart="1125" bodyend="1127"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1population_1_1_population_3_01_t_01extends_01_chromosome_01_4_1_1_statistics_3_01_t_01extends_01_chromosome_01_4_1a7e81422bcbba41e5da9038bdb4b3a36c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>final double</type>
+        <definition>final double jenes.population.Population&lt; T extends Chromosome &gt;.Statistics&lt; T extends Chromosome &gt;.getLegalHighestScore</definition>
+        <argsstring>()</argsstring>
+        <name>getLegalHighestScore</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns the highest legal score of this population </para><para><simplesect kind="return"><para>the highest legal score of this population </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/population/Population.java" line="1136" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/population/Population.java" bodystart="1136" bodyend="1138"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1population_1_1_population_3_01_t_01extends_01_chromosome_01_4_1_1_statistics_3_01_t_01extends_01_chromosome_01_4_1a6de4040b68260f6e3a3f9f4f12b6aa4e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>final Individual&lt; T &gt;</type>
+        <definition>final Individual&lt;T&gt; jenes.population.Population&lt; T extends Chromosome &gt;.Statistics&lt; T extends Chromosome &gt;.getLegalHighestIndividual</definition>
+        <argsstring>()</argsstring>
+        <name>getLegalHighestIndividual</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns the highest legal score individual of this population </para><para><simplesect kind="return"><para>the highest legal score individual of this population </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/population/Population.java" line="1147" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/population/Population.java" bodystart="1147" bodyend="1149"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1population_1_1_population_3_01_t_01extends_01_chromosome_01_4_1_1_statistics_3_01_t_01extends_01_chromosome_01_4_1a386ce127f363c768941c0471ce458839" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>final double</type>
+        <definition>final double jenes.population.Population&lt; T extends Chromosome &gt;.Statistics&lt; T extends Chromosome &gt;.getLegalLowestScore</definition>
+        <argsstring>()</argsstring>
+        <name>getLegalLowestScore</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns the lowest legal score of this population </para><para><simplesect kind="return"><para>the lowest legal score of this population </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/population/Population.java" line="1158" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/population/Population.java" bodystart="1158" bodyend="1160"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1population_1_1_population_3_01_t_01extends_01_chromosome_01_4_1_1_statistics_3_01_t_01extends_01_chromosome_01_4_1adfa6a08fec494e105861c663a52fba2a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>final Individual&lt; T &gt;</type>
+        <definition>final Individual&lt;T&gt; jenes.population.Population&lt; T extends Chromosome &gt;.Statistics&lt; T extends Chromosome &gt;.getLegalLowestIndividual</definition>
+        <argsstring>()</argsstring>
+        <name>getLegalLowestIndividual</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns the lowest legal score individual of this population </para><para><simplesect kind="return"><para>the lowest legal score individual of this population </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/population/Population.java" line="1168" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/population/Population.java" bodystart="1168" bodyend="1170"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1population_1_1_population_3_01_t_01extends_01_chromosome_01_4_1_1_statistics_3_01_t_01extends_01_chromosome_01_4_1a8cbfbeca7aabfab831b5069a5053515d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>final double</type>
+        <definition>final double jenes.population.Population&lt; T extends Chromosome &gt;.Statistics&lt; T extends Chromosome &gt;.getIllegalScoreAvg</definition>
+        <argsstring>()</argsstring>
+        <name>getIllegalScoreAvg</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns the average score of the illegal individual of this population </para><para><simplesect kind="return"><para>the average score of the illegal individual of this population </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/population/Population.java" line="1179" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/population/Population.java" bodystart="1179" bodyend="1181"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1population_1_1_population_3_01_t_01extends_01_chromosome_01_4_1_1_statistics_3_01_t_01extends_01_chromosome_01_4_1a70ba0f8425e8aa07dd5259fd8f6f5bf8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>final double</type>
+        <definition>final double jenes.population.Population&lt; T extends Chromosome &gt;.Statistics&lt; T extends Chromosome &gt;.getIllegalScoreDev</definition>
+        <argsstring>()</argsstring>
+        <name>getIllegalScoreDev</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns the deviation score of the illegal individual of this population </para><para><simplesect kind="return"><para>the deviation score of the illegal individual of this population </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/population/Population.java" line="1190" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/population/Population.java" bodystart="1190" bodyend="1192"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1population_1_1_population_3_01_t_01extends_01_chromosome_01_4_1_1_statistics_3_01_t_01extends_01_chromosome_01_4_1a8f3115719100fe5e275106327cf2e914" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>final double</type>
+        <definition>final double jenes.population.Population&lt; T extends Chromosome &gt;.Statistics&lt; T extends Chromosome &gt;.getIllegalHighestScore</definition>
+        <argsstring>()</argsstring>
+        <name>getIllegalHighestScore</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns the highest illegal score of this population </para><para><simplesect kind="return"><para>the highest illegal score of this population </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/population/Population.java" line="1201" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/population/Population.java" bodystart="1201" bodyend="1203"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1population_1_1_population_3_01_t_01extends_01_chromosome_01_4_1_1_statistics_3_01_t_01extends_01_chromosome_01_4_1acbec1e84f530fbed6809a0397ddd52b1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>final Individual&lt; T &gt;</type>
+        <definition>final Individual&lt;T&gt; jenes.population.Population&lt; T extends Chromosome &gt;.Statistics&lt; T extends Chromosome &gt;.getIllegalHighestIndividual</definition>
+        <argsstring>()</argsstring>
+        <name>getIllegalHighestIndividual</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns the highest illegal score individual of this population </para><para><simplesect kind="return"><para>the highest illegal score individual of this population </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/population/Population.java" line="1211" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/population/Population.java" bodystart="1211" bodyend="1213"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1population_1_1_population_3_01_t_01extends_01_chromosome_01_4_1_1_statistics_3_01_t_01extends_01_chromosome_01_4_1a2b20143da03992b0106996d3dd714d11" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>final double</type>
+        <definition>final double jenes.population.Population&lt; T extends Chromosome &gt;.Statistics&lt; T extends Chromosome &gt;.getIllegalLowestScore</definition>
+        <argsstring>()</argsstring>
+        <name>getIllegalLowestScore</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns the lowest illegal score of this population </para><para><simplesect kind="return"><para>the lowest illegal score of this population </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/population/Population.java" line="1222" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/population/Population.java" bodystart="1222" bodyend="1224"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1population_1_1_population_3_01_t_01extends_01_chromosome_01_4_1_1_statistics_3_01_t_01extends_01_chromosome_01_4_1ac5c93aff0ffe383eab2eaf844e3c7b27" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>final Individual&lt; T &gt;</type>
+        <definition>final Individual&lt;T&gt; jenes.population.Population&lt; T extends Chromosome &gt;.Statistics&lt; T extends Chromosome &gt;.getIllegalLowestIndividual</definition>
+        <argsstring>()</argsstring>
+        <name>getIllegalLowestIndividual</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns the lowest illegal score individual of this population </para><para><simplesect kind="return"><para>the lowest illegal score individual of this population </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/population/Population.java" line="1232" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/population/Population.java" bodystart="1232" bodyend="1234"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1population_1_1_population_3_01_t_01extends_01_chromosome_01_4_1_1_statistics_3_01_t_01extends_01_chromosome_01_4_1af61cd70ff072f3b71e0272588b53c948" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>final int</type>
+        <definition>final int jenes.population.Population&lt; T extends Chromosome &gt;.Statistics&lt; T extends Chromosome &gt;.getNumOfIndividuals</definition>
+        <argsstring>()</argsstring>
+        <name>getNumOfIndividuals</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Provides the number of individuals in the population</para><para><simplesect kind="return"><para>the number of individuals </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/population/Population.java" line="1243" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/population/Population.java" bodystart="1243" bodyend="1245"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1population_1_1_population_3_01_t_01extends_01_chromosome_01_4_1_1_statistics_3_01_t_01extends_01_chromosome_01_4_1acebf64e644b3f25e5da2c69cdc47feb4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>final int</type>
+        <definition>final int jenes.population.Population&lt; T extends Chromosome &gt;.Statistics&lt; T extends Chromosome &gt;.getNumOfLegalIndividuals</definition>
+        <argsstring>()</argsstring>
+        <name>getNumOfLegalIndividuals</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns the number of legal individuals in the population</para><para><simplesect kind="return"><para>the numer of legal individuals </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/population/Population.java" line="1254" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/population/Population.java" bodystart="1254" bodyend="1256"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1population_1_1_population_3_01_t_01extends_01_chromosome_01_4_1_1_statistics_3_01_t_01extends_01_chromosome_01_4_1af54a246a3a65b87b1cfac334ef9e75e5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>final int</type>
+        <definition>final int jenes.population.Population&lt; T extends Chromosome &gt;.Statistics&lt; T extends Chromosome &gt;.getNumOfIllegalIndividuals</definition>
+        <argsstring>()</argsstring>
+        <name>getNumOfIllegalIndividuals</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Provides the number of illegal individuals in the population</para><para><simplesect kind="return"><para>the number of illegal individuals </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/population/Population.java" line="1265" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/population/Population.java" bodystart="1265" bodyend="1267"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classjenes_1_1population_1_1_population_3_01_t_01extends_01_chromosome_01_4_1_1_statistics_3_01_t_01extends_01_chromosome_01_4_1a87c00eac76e3dc0740ddcc6b4b1e15ba" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>double[]</type>
+        <definition>double [] jenes.population.Population&lt; T extends Chromosome &gt;.Statistics&lt; T extends Chromosome &gt;.calculateStdDev</definition>
+        <argsstring>(Group&lt; T &gt; group)</argsstring>
+        <name>calculateStdDev</name>
+        <param>
+          <type>Group&lt; T &gt;</type>
+          <declname>group</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/population/Population.java" line="1023" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/population/Population.java" bodystart="1023" bodyend="1044"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>The <computeroutput>Population.Statistics</computeroutput> class is only responsible for storing statistics about a population. As each population can contains legal and illegal individials, it holds the individuals with the higher and lower fitness (a deep-cloning is maked to store these individuals so they don&apos;t change if the source population does), the average and deviation values both regard legal individuals and illegal ones. Esamples of use are showed below. </para><para><blockquote><para><preformatted>
+Population.Statistics stat = a_population.getStatistics();
+</preformatted></para></blockquote></para><para>returns a new statistics object setted according to the specified population state. </para><para><blockquote><para><preformatted>
+Population.Statistics stat = new Population.Statistics();
+a_population.updateStatistics(stat);
+</preformatted></para></blockquote></para><para>modifies the existing statistics according to the specified population state. </para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="666">
+        <label>jenes.statistics.StatisticsLogger.LoggableStatistics</label>
+        <link refid="classjenes_1_1statistics_1_1_statistics_logger_1_1_loggable_statistics"/>
+      </node>
+      <node id="665">
+        <label>jenes.population.Population&lt; T extends Chromosome &gt;.Statistics&lt; T extends Chromosome &gt;</label>
+        <link refid="classjenes_1_1population_1_1_population_3_01_t_01extends_01_chromosome_01_4_1_1_statistics_3_01_t_01extends_01_chromosome_01_4"/>
+        <childnode refid="666" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="668">
+        <label>jenes.statistics.StatisticsLogger.LoggableStatistics</label>
+        <link refid="classjenes_1_1statistics_1_1_statistics_logger_1_1_loggable_statistics"/>
+        <childnode refid="669" relation="usage">
+          <edgelabel>statmethods</edgelabel>
+        </childnode>
+      </node>
+      <node id="670">
+        <label>Map&lt; Filter, Group&lt; T &gt; &gt;</label>
+      </node>
+      <node id="671">
+        <label>Individual&lt; T &gt;</label>
+      </node>
+      <node id="669">
+        <label>Map&lt; String, Method &gt;</label>
+      </node>
+      <node id="667">
+        <label>jenes.population.Population&lt; T extends Chromosome &gt;.Statistics&lt; T extends Chromosome &gt;</label>
+        <link refid="classjenes_1_1population_1_1_population_3_01_t_01extends_01_chromosome_01_4_1_1_statistics_3_01_t_01extends_01_chromosome_01_4"/>
+        <childnode refid="668" relation="public-inheritance">
+        </childnode>
+        <childnode refid="670" relation="usage">
+          <edgelabel>groups</edgelabel>
+        </childnode>
+        <childnode refid="671" relation="usage">
+          <edgelabel>illegalHighestIndividual</edgelabel>
+          <edgelabel>legalLowestIndividual</edgelabel>
+          <edgelabel>illegalLowestIndividual</edgelabel>
+          <edgelabel>legalHighestIndividual</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/population/Population.java" line="925" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/population/Population.java" bodystart="925" bodyend="1541"/>
+    <listofallmembers>
+      <member refid="classjenes_1_1population_1_1_population_3_01_t_01extends_01_chromosome_01_4_1_1_statistics_3_01_t_01extends_01_chromosome_01_4_1a54d341d21467800ce5cd2adcf57d88ae" prot="public" virt="non-virtual"><scope>jenes::population::Population&lt; T extends Chromosome &gt;::Statistics&lt; T extends Chromosome &gt;</scope><name>addGroup</name></member>
+      <member refid="classjenes_1_1population_1_1_population_3_01_t_01extends_01_chromosome_01_4_1_1_statistics_3_01_t_01extends_01_chromosome_01_4_1a3033ce7fb2ca7d54edfc5d44f958e5c9" prot="private" virt="non-virtual"><scope>jenes::population::Population&lt; T extends Chromosome &gt;::Statistics&lt; T extends Chromosome &gt;</scope><name>biggerIsBetter</name></member>
+      <member refid="classjenes_1_1population_1_1_population_3_01_t_01extends_01_chromosome_01_4_1_1_statistics_3_01_t_01extends_01_chromosome_01_4_1a87c00eac76e3dc0740ddcc6b4b1e15ba" prot="private" virt="non-virtual"><scope>jenes::population::Population&lt; T extends Chromosome &gt;::Statistics&lt; T extends Chromosome &gt;</scope><name>calculateStdDev</name></member>
+      <member refid="classjenes_1_1population_1_1_population_3_01_t_01extends_01_chromosome_01_4_1_1_statistics_3_01_t_01extends_01_chromosome_01_4_1a339616b1e3990e690f70013d89eb99f6" prot="public" virt="non-virtual"><scope>jenes::population::Population&lt; T extends Chromosome &gt;::Statistics&lt; T extends Chromosome &gt;</scope><name>getAllGroups</name></member>
+      <member refid="classjenes_1_1population_1_1_population_3_01_t_01extends_01_chromosome_01_4_1_1_statistics_3_01_t_01extends_01_chromosome_01_4_1ab0d77b3f303f2ca62f590364dd0d5823" prot="public" virt="non-virtual"><scope>jenes::population::Population&lt; T extends Chromosome &gt;::Statistics&lt; T extends Chromosome &gt;</scope><name>getBiggerIsBetter</name></member>
+      <member refid="classjenes_1_1statistics_1_1_statistics_logger_1_1_loggable_statistics_1af29fe4dc17044a8879b62b4d05482d51" prot="public" virt="non-virtual"><scope>jenes::population::Population&lt; T extends Chromosome &gt;::Statistics&lt; T extends Chromosome &gt;</scope><name>getFigures</name></member>
+      <member refid="classjenes_1_1population_1_1_population_3_01_t_01extends_01_chromosome_01_4_1_1_statistics_3_01_t_01extends_01_chromosome_01_4_1a53c79dcd727e0928302b8bd7c5a84351" prot="public" virt="non-virtual"><scope>jenes::population::Population&lt; T extends Chromosome &gt;::Statistics&lt; T extends Chromosome &gt;</scope><name>getGroup</name></member>
+      <member refid="classjenes_1_1population_1_1_population_3_01_t_01extends_01_chromosome_01_4_1_1_statistics_3_01_t_01extends_01_chromosome_01_4_1acbec1e84f530fbed6809a0397ddd52b1" prot="public" virt="non-virtual"><scope>jenes::population::Population&lt; T extends Chromosome &gt;::Statistics&lt; T extends Chromosome &gt;</scope><name>getIllegalHighestIndividual</name></member>
+      <member refid="classjenes_1_1population_1_1_population_3_01_t_01extends_01_chromosome_01_4_1_1_statistics_3_01_t_01extends_01_chromosome_01_4_1a8f3115719100fe5e275106327cf2e914" prot="public" virt="non-virtual"><scope>jenes::population::Population&lt; T extends Chromosome &gt;::Statistics&lt; T extends Chromosome &gt;</scope><name>getIllegalHighestScore</name></member>
+      <member refid="classjenes_1_1population_1_1_population_3_01_t_01extends_01_chromosome_01_4_1_1_statistics_3_01_t_01extends_01_chromosome_01_4_1ac5c93aff0ffe383eab2eaf844e3c7b27" prot="public" virt="non-virtual"><scope>jenes::population::Population&lt; T extends Chromosome &gt;::Statistics&lt; T extends Chromosome &gt;</scope><name>getIllegalLowestIndividual</name></member>
+      <member refid="classjenes_1_1population_1_1_population_3_01_t_01extends_01_chromosome_01_4_1_1_statistics_3_01_t_01extends_01_chromosome_01_4_1a2b20143da03992b0106996d3dd714d11" prot="public" virt="non-virtual"><scope>jenes::population::Population&lt; T extends Chromosome &gt;::Statistics&lt; T extends Chromosome &gt;</scope><name>getIllegalLowestScore</name></member>
+      <member refid="classjenes_1_1population_1_1_population_3_01_t_01extends_01_chromosome_01_4_1_1_statistics_3_01_t_01extends_01_chromosome_01_4_1a8cbfbeca7aabfab831b5069a5053515d" prot="public" virt="non-virtual"><scope>jenes::population::Population&lt; T extends Chromosome &gt;::Statistics&lt; T extends Chromosome &gt;</scope><name>getIllegalScoreAvg</name></member>
+      <member refid="classjenes_1_1population_1_1_population_3_01_t_01extends_01_chromosome_01_4_1_1_statistics_3_01_t_01extends_01_chromosome_01_4_1a70ba0f8425e8aa07dd5259fd8f6f5bf8" prot="public" virt="non-virtual"><scope>jenes::population::Population&lt; T extends Chromosome &gt;::Statistics&lt; T extends Chromosome &gt;</scope><name>getIllegalScoreDev</name></member>
+      <member refid="classjenes_1_1population_1_1_population_3_01_t_01extends_01_chromosome_01_4_1_1_statistics_3_01_t_01extends_01_chromosome_01_4_1a6de4040b68260f6e3a3f9f4f12b6aa4e" prot="public" virt="non-virtual"><scope>jenes::population::Population&lt; T extends Chromosome &gt;::Statistics&lt; T extends Chromosome &gt;</scope><name>getLegalHighestIndividual</name></member>
+      <member refid="classjenes_1_1population_1_1_population_3_01_t_01extends_01_chromosome_01_4_1_1_statistics_3_01_t_01extends_01_chromosome_01_4_1a7e81422bcbba41e5da9038bdb4b3a36c" prot="public" virt="non-virtual"><scope>jenes::population::Population&lt; T extends Chromosome &gt;::Statistics&lt; T extends Chromosome &gt;</scope><name>getLegalHighestScore</name></member>
+      <member refid="classjenes_1_1population_1_1_population_3_01_t_01extends_01_chromosome_01_4_1_1_statistics_3_01_t_01extends_01_chromosome_01_4_1adfa6a08fec494e105861c663a52fba2a" prot="public" virt="non-virtual"><scope>jenes::population::Population&lt; T extends Chromosome &gt;::Statistics&lt; T extends Chromosome &gt;</scope><name>getLegalLowestIndividual</name></member>
+      <member refid="classjenes_1_1population_1_1_population_3_01_t_01extends_01_chromosome_01_4_1_1_statistics_3_01_t_01extends_01_chromosome_01_4_1a386ce127f363c768941c0471ce458839" prot="public" virt="non-virtual"><scope>jenes::population::Population&lt; T extends Chromosome &gt;::Statistics&lt; T extends Chromosome &gt;</scope><name>getLegalLowestScore</name></member>
+      <member refid="classjenes_1_1population_1_1_population_3_01_t_01extends_01_chromosome_01_4_1_1_statistics_3_01_t_01extends_01_chromosome_01_4_1a491f56a06175de4ef0fe47d6d081643e" prot="public" virt="non-virtual"><scope>jenes::population::Population&lt; T extends Chromosome &gt;::Statistics&lt; T extends Chromosome &gt;</scope><name>getLegalScoreAvg</name></member>
+      <member refid="classjenes_1_1population_1_1_population_3_01_t_01extends_01_chromosome_01_4_1_1_statistics_3_01_t_01extends_01_chromosome_01_4_1a290e9cbf8463eb2ac0437ff1488789a7" prot="public" virt="non-virtual"><scope>jenes::population::Population&lt; T extends Chromosome &gt;::Statistics&lt; T extends Chromosome &gt;</scope><name>getLegalScoreDev</name></member>
+      <member refid="classjenes_1_1population_1_1_population_3_01_t_01extends_01_chromosome_01_4_1_1_statistics_3_01_t_01extends_01_chromosome_01_4_1af54a246a3a65b87b1cfac334ef9e75e5" prot="public" virt="non-virtual"><scope>jenes::population::Population&lt; T extends Chromosome &gt;::Statistics&lt; T extends Chromosome &gt;</scope><name>getNumOfIllegalIndividuals</name></member>
+      <member refid="classjenes_1_1population_1_1_population_3_01_t_01extends_01_chromosome_01_4_1_1_statistics_3_01_t_01extends_01_chromosome_01_4_1af61cd70ff072f3b71e0272588b53c948" prot="public" virt="non-virtual"><scope>jenes::population::Population&lt; T extends Chromosome &gt;::Statistics&lt; T extends Chromosome &gt;</scope><name>getNumOfIndividuals</name></member>
+      <member refid="classjenes_1_1population_1_1_population_3_01_t_01extends_01_chromosome_01_4_1_1_statistics_3_01_t_01extends_01_chromosome_01_4_1acebf64e644b3f25e5da2c69cdc47feb4" prot="public" virt="non-virtual"><scope>jenes::population::Population&lt; T extends Chromosome &gt;::Statistics&lt; T extends Chromosome &gt;</scope><name>getNumOfLegalIndividuals</name></member>
+      <member refid="classjenes_1_1population_1_1_population_3_01_t_01extends_01_chromosome_01_4_1_1_statistics_3_01_t_01extends_01_chromosome_01_4_1a9df6ef33f2aebab13496fb6ac4da00c0" prot="public" virt="non-virtual"><scope>jenes::population::Population&lt; T extends Chromosome &gt;::Statistics&lt; T extends Chromosome &gt;</scope><name>getNumOfObjectives</name></member>
+      <member refid="classjenes_1_1statistics_1_1_statistics_logger_1_1_loggable_statistics_1acb7ffceff2aa39fbd545f17df39dd877" prot="public" virt="non-virtual"><scope>jenes::population::Population&lt; T extends Chromosome &gt;::Statistics&lt; T extends Chromosome &gt;</scope><name>getValue</name></member>
+      <member refid="classjenes_1_1population_1_1_population_3_01_t_01extends_01_chromosome_01_4_1_1_statistics_3_01_t_01extends_01_chromosome_01_4_1a2f565ff37ed70803d34dcc61227eafee" prot="private" virt="non-virtual"><scope>jenes::population::Population&lt; T extends Chromosome &gt;::Statistics&lt; T extends Chromosome &gt;</scope><name>groups</name></member>
+      <member refid="classjenes_1_1population_1_1_population_3_01_t_01extends_01_chromosome_01_4_1_1_statistics_3_01_t_01extends_01_chromosome_01_4_1a25b1ab476daca67168246f9abe5d2eec" prot="private" virt="non-virtual"><scope>jenes::population::Population&lt; T extends Chromosome &gt;::Statistics&lt; T extends Chromosome &gt;</scope><name>illegalHighestIndividual</name></member>
+      <member refid="classjenes_1_1population_1_1_population_3_01_t_01extends_01_chromosome_01_4_1_1_statistics_3_01_t_01extends_01_chromosome_01_4_1aa94ed2e46f841a5cc5bab463c7c35ee8" prot="private" virt="non-virtual"><scope>jenes::population::Population&lt; T extends Chromosome &gt;::Statistics&lt; T extends Chromosome &gt;</scope><name>illegalHighestScore</name></member>
+      <member refid="classjenes_1_1population_1_1_population_3_01_t_01extends_01_chromosome_01_4_1_1_statistics_3_01_t_01extends_01_chromosome_01_4_1a96d063d61f3279a870c44c81c25327ba" prot="private" virt="non-virtual"><scope>jenes::population::Population&lt; T extends Chromosome &gt;::Statistics&lt; T extends Chromosome &gt;</scope><name>illegalLowestIndividual</name></member>
+      <member refid="classjenes_1_1population_1_1_population_3_01_t_01extends_01_chromosome_01_4_1_1_statistics_3_01_t_01extends_01_chromosome_01_4_1aa4f1eb3b36a1a153e8d73c17b01264e7" prot="private" virt="non-virtual"><scope>jenes::population::Population&lt; T extends Chromosome &gt;::Statistics&lt; T extends Chromosome &gt;</scope><name>illegalLowestScore</name></member>
+      <member refid="classjenes_1_1population_1_1_population_3_01_t_01extends_01_chromosome_01_4_1_1_statistics_3_01_t_01extends_01_chromosome_01_4_1ab7ee074032c5bd8ef0de33626a0e8422" prot="private" virt="non-virtual"><scope>jenes::population::Population&lt; T extends Chromosome &gt;::Statistics&lt; T extends Chromosome &gt;</scope><name>illegalScoreAvg</name></member>
+      <member refid="classjenes_1_1population_1_1_population_3_01_t_01extends_01_chromosome_01_4_1_1_statistics_3_01_t_01extends_01_chromosome_01_4_1aacb172483a05975b59577bff1579a09f" prot="private" virt="non-virtual"><scope>jenes::population::Population&lt; T extends Chromosome &gt;::Statistics&lt; T extends Chromosome &gt;</scope><name>illegalScoreDev</name></member>
+      <member refid="classjenes_1_1population_1_1_population_3_01_t_01extends_01_chromosome_01_4_1_1_statistics_3_01_t_01extends_01_chromosome_01_4_1a3b4c70d764fe1254e0a3c1b18cc0d51f" prot="private" virt="non-virtual"><scope>jenes::population::Population&lt; T extends Chromosome &gt;::Statistics&lt; T extends Chromosome &gt;</scope><name>legalHighestIndividual</name></member>
+      <member refid="classjenes_1_1population_1_1_population_3_01_t_01extends_01_chromosome_01_4_1_1_statistics_3_01_t_01extends_01_chromosome_01_4_1a2e763fc5c66d4d8a7ccff8ee3aaf9121" prot="private" virt="non-virtual"><scope>jenes::population::Population&lt; T extends Chromosome &gt;::Statistics&lt; T extends Chromosome &gt;</scope><name>legalHighestScore</name></member>
+      <member refid="classjenes_1_1population_1_1_population_3_01_t_01extends_01_chromosome_01_4_1_1_statistics_3_01_t_01extends_01_chromosome_01_4_1a7f5c5e844a535b2127e100e0e8b3f236" prot="private" virt="non-virtual"><scope>jenes::population::Population&lt; T extends Chromosome &gt;::Statistics&lt; T extends Chromosome &gt;</scope><name>legalLowestIndividual</name></member>
+      <member refid="classjenes_1_1population_1_1_population_3_01_t_01extends_01_chromosome_01_4_1_1_statistics_3_01_t_01extends_01_chromosome_01_4_1a6607d74eda7372be3e67c96d748f338b" prot="private" virt="non-virtual"><scope>jenes::population::Population&lt; T extends Chromosome &gt;::Statistics&lt; T extends Chromosome &gt;</scope><name>legalLowestScore</name></member>
+      <member refid="classjenes_1_1population_1_1_population_3_01_t_01extends_01_chromosome_01_4_1_1_statistics_3_01_t_01extends_01_chromosome_01_4_1a2c8fe74177647241614902b4f14983ef" prot="private" virt="non-virtual"><scope>jenes::population::Population&lt; T extends Chromosome &gt;::Statistics&lt; T extends Chromosome &gt;</scope><name>legalScoreAvg</name></member>
+      <member refid="classjenes_1_1population_1_1_population_3_01_t_01extends_01_chromosome_01_4_1_1_statistics_3_01_t_01extends_01_chromosome_01_4_1a01e5c1ca6867b39b92e38596ae96d5ab" prot="private" virt="non-virtual"><scope>jenes::population::Population&lt; T extends Chromosome &gt;::Statistics&lt; T extends Chromosome &gt;</scope><name>legalScoreDev</name></member>
+      <member refid="classjenes_1_1statistics_1_1_statistics_logger_1_1_loggable_statistics_1ae5a06be4a046efa2cafa4d6e9943c5a9" prot="protected" virt="non-virtual"><scope>jenes::population::Population&lt; T extends Chromosome &gt;::Statistics&lt; T extends Chromosome &gt;</scope><name>LoggableStatistics</name></member>
+      <member refid="classjenes_1_1population_1_1_population_3_01_t_01extends_01_chromosome_01_4_1_1_statistics_3_01_t_01extends_01_chromosome_01_4_1a6b84c0f4b59c408bd18f55228f2aa75e" prot="private" virt="non-virtual"><scope>jenes::population::Population&lt; T extends Chromosome &gt;::Statistics&lt; T extends Chromosome &gt;</scope><name>numOfIllegalIndividuals</name></member>
+      <member refid="classjenes_1_1population_1_1_population_3_01_t_01extends_01_chromosome_01_4_1_1_statistics_3_01_t_01extends_01_chromosome_01_4_1ab45a947186e072ff044e6f3e9fc08368" prot="private" virt="non-virtual"><scope>jenes::population::Population&lt; T extends Chromosome &gt;::Statistics&lt; T extends Chromosome &gt;</scope><name>numOfIndividuals</name></member>
+      <member refid="classjenes_1_1population_1_1_population_3_01_t_01extends_01_chromosome_01_4_1_1_statistics_3_01_t_01extends_01_chromosome_01_4_1a238a663cf8c96804ff26d5224a1a7955" prot="private" virt="non-virtual"><scope>jenes::population::Population&lt; T extends Chromosome &gt;::Statistics&lt; T extends Chromosome &gt;</scope><name>numOfLegalIndividuals</name></member>
+      <member refid="classjenes_1_1population_1_1_population_3_01_t_01extends_01_chromosome_01_4_1_1_statistics_3_01_t_01extends_01_chromosome_01_4_1a3a0f1175b7fc029317c3d3f8337fcb84" prot="protected" virt="non-virtual"><scope>jenes::population::Population&lt; T extends Chromosome &gt;::Statistics&lt; T extends Chromosome &gt;</scope><name>Statistics</name></member>
+      <member refid="classjenes_1_1population_1_1_population_3_01_t_01extends_01_chromosome_01_4_1_1_statistics_3_01_t_01extends_01_chromosome_01_4_1abedb789a305da82d4c7a126cf261144e" prot="public" virt="non-virtual"><scope>jenes::population::Population&lt; T extends Chromosome &gt;::Statistics&lt; T extends Chromosome &gt;</scope><name>update</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

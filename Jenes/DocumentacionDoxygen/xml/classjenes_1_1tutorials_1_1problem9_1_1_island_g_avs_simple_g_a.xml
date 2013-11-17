@@ -1,0 +1,241 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="classjenes_1_1tutorials_1_1problem9_1_1_island_g_avs_simple_g_a" kind="class" prot="public">
+    <compoundname>jenes::tutorials::problem9::IslandGAvsSimpleGA</compoundname>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="classjenes_1_1tutorials_1_1problem9_1_1_island_g_avs_simple_g_a_1a7651a1c3812cced2ff7198299906f7d7" prot="private" static="yes" mutable="no">
+        <type>int</type>
+        <definition>int jenes.tutorials.problem9.IslandGAvsSimpleGA.POPULATION_SIZE</definition>
+        <argsstring></argsstring>
+        <name>POPULATION_SIZE</name>
+        <initializer>= 250</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/problem9/IslandGAvsSimpleGA.java" line="43" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/problem9/IslandGAvsSimpleGA.java" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classjenes_1_1tutorials_1_1problem9_1_1_island_g_avs_simple_g_a_1aadc2a6b04b46a9a5d957c3f22762f4d6" prot="private" static="yes" mutable="no">
+        <type>int</type>
+        <definition>int jenes.tutorials.problem9.IslandGAvsSimpleGA.CHROMOSOME_LENGTH</definition>
+        <argsstring></argsstring>
+        <name>CHROMOSOME_LENGTH</name>
+        <initializer>= 2</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/problem9/IslandGAvsSimpleGA.java" line="44" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/problem9/IslandGAvsSimpleGA.java" bodystart="44" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classjenes_1_1tutorials_1_1problem9_1_1_island_g_avs_simple_g_a_1ab3b13df96c99c89698c2c74340ae2c6d" prot="private" static="yes" mutable="no">
+        <type>int</type>
+        <definition>int jenes.tutorials.problem9.IslandGAvsSimpleGA.GENERATION_LIMIT</definition>
+        <argsstring></argsstring>
+        <name>GENERATION_LIMIT</name>
+        <initializer>= 100</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/problem9/IslandGAvsSimpleGA.java" line="45" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/problem9/IslandGAvsSimpleGA.java" bodystart="45" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classjenes_1_1tutorials_1_1problem9_1_1_island_g_avs_simple_g_a_1ab5429444736404c0a031ab65e28b8639" prot="private" static="yes" mutable="no">
+        <type>final String</type>
+        <definition>final String jenes.tutorials.problem9.IslandGAvsSimpleGA.FOLDER</definition>
+        <argsstring></argsstring>
+        <name>FOLDER</name>
+        <initializer>= &quot;files.Tutorial9&quot; + File.separatorChar</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/problem9/IslandGAvsSimpleGA.java" line="46" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/problem9/IslandGAvsSimpleGA.java" bodystart="46" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classjenes_1_1tutorials_1_1problem9_1_1_island_g_avs_simple_g_a_1a47c83870d72507ba12efda584f0b1212" prot="private" static="yes" mutable="no">
+        <type><ref refid="classjenes_1_1utils_1_1_x_l_s_logger" kindref="compound">XLSLogger</ref></type>
+        <definition>XLSLogger jenes.tutorials.problem9.IslandGAvsSimpleGA.xlslogger</definition>
+        <argsstring></argsstring>
+        <name>xlslogger</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/problem9/IslandGAvsSimpleGA.java" line="47" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/problem9/IslandGAvsSimpleGA.java" bodystart="47" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classjenes_1_1tutorials_1_1problem9_1_1_island_g_avs_simple_g_a_1a20124a96736560ad40f38c5cf057c8df" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void jenes.tutorials.problem9.IslandGAvsSimpleGA.main</definition>
+        <argsstring>(String...a)</argsstring>
+        <name>main</name>
+        <param>
+          <type>String...</type>
+          <declname>a</declname>
+        </param>
+        <exceptions> throws IOException </exceptions>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/problem9/IslandGAvsSimpleGA.java" line="49" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/problem9/IslandGAvsSimpleGA.java" bodystart="49" bodyend="60"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="classjenes_1_1tutorials_1_1problem9_1_1_island_g_avs_simple_g_a_1a593d4a6805e5a71e1eb3b30f24e3088c" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Group&lt; <ref refid="classjenes_1_1chromosome_1_1_double_chromosome" kindref="compound">DoubleChromosome</ref> &gt;</type>
+        <definition>static Group&lt;DoubleChromosome&gt; jenes.tutorials.problem9.IslandGAvsSimpleGA.executeIslandGA</definition>
+        <argsstring>(Fitness&lt; DoubleChromosome &gt; fit, Population&lt; DoubleChromosome &gt; pop)</argsstring>
+        <name>executeIslandGA</name>
+        <param>
+          <type>Fitness&lt; <ref refid="classjenes_1_1chromosome_1_1_double_chromosome" kindref="compound">DoubleChromosome</ref> &gt;</type>
+          <declname>fit</declname>
+        </param>
+        <param>
+          <type>Population&lt; <ref refid="classjenes_1_1chromosome_1_1_double_chromosome" kindref="compound">DoubleChromosome</ref> &gt;</type>
+          <declname>pop</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/problem9/IslandGAvsSimpleGA.java" line="62" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/problem9/IslandGAvsSimpleGA.java" bodystart="62" bodyend="75"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1tutorials_1_1problem9_1_1_island_g_avs_simple_g_a_1a8fbbd68f88740cfef8e3578409c7b28c" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Group&lt; <ref refid="classjenes_1_1chromosome_1_1_double_chromosome" kindref="compound">DoubleChromosome</ref> &gt;</type>
+        <definition>static Group&lt;DoubleChromosome&gt; jenes.tutorials.problem9.IslandGAvsSimpleGA.executeSimplaGA</definition>
+        <argsstring>(Fitness&lt; DoubleChromosome &gt; fit, Population&lt; DoubleChromosome &gt; pop)</argsstring>
+        <name>executeSimplaGA</name>
+        <param>
+          <type>Fitness&lt; <ref refid="classjenes_1_1chromosome_1_1_double_chromosome" kindref="compound">DoubleChromosome</ref> &gt;</type>
+          <declname>fit</declname>
+        </param>
+        <param>
+          <type>Population&lt; <ref refid="classjenes_1_1chromosome_1_1_double_chromosome" kindref="compound">DoubleChromosome</ref> &gt;</type>
+          <declname>pop</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/problem9/IslandGAvsSimpleGA.java" line="77" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/problem9/IslandGAvsSimpleGA.java" bodystart="77" bodyend="86"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1tutorials_1_1problem9_1_1_island_g_avs_simple_g_a_1a97bc52a775806a663525a22d51009976" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void jenes.tutorials.problem9.IslandGAvsSimpleGA.printResults</definition>
+        <argsstring>(Group&lt; DoubleChromosome &gt; resIsland, Group&lt; DoubleChromosome &gt; resSimple)</argsstring>
+        <name>printResults</name>
+        <param>
+          <type>Group&lt; <ref refid="classjenes_1_1chromosome_1_1_double_chromosome" kindref="compound">DoubleChromosome</ref> &gt;</type>
+          <declname>resIsland</declname>
+        </param>
+        <param>
+          <type>Group&lt; <ref refid="classjenes_1_1chromosome_1_1_double_chromosome" kindref="compound">DoubleChromosome</ref> &gt;</type>
+          <declname>resSimple</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/problem9/IslandGAvsSimpleGA.java" line="88" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/problem9/IslandGAvsSimpleGA.java" bodystart="88" bodyend="102"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Tutorial implementing a Island genetic algorithm and a Simple genetic algorithm The problem consists in maximizing a function.</para><para><simplesect kind="version"><para>2.0 </para></simplesect>
+<simplesect kind="since"><para>1.0 </para></simplesect>
+</para>    </detaileddescription>
+    <collaborationgraph>
+      <node id="298">
+        <label>Map&lt; WritableSheet, Map&lt; String, Integer &gt; &gt;</label>
+      </node>
+      <node id="297">
+        <label>Map&lt; String, WritableSheet &gt;</label>
+      </node>
+      <node id="294">
+        <label>List&lt; String &gt;</label>
+      </node>
+      <node id="293">
+        <label>jenes.utils.AbstractLogger</label>
+        <link refid="classjenes_1_1utils_1_1_abstract_logger"/>
+        <childnode refid="294" relation="usage">
+          <edgelabel>schema</edgelabel>
+        </childnode>
+        <childnode refid="295" relation="usage">
+          <edgelabel>record</edgelabel>
+        </childnode>
+      </node>
+      <node id="291">
+        <label>jenes.tutorials.problem9.IslandGAvsSimpleGA</label>
+        <link refid="classjenes_1_1tutorials_1_1problem9_1_1_island_g_avs_simple_g_a"/>
+        <childnode refid="292" relation="usage">
+          <edgelabel>xlslogger</edgelabel>
+        </childnode>
+      </node>
+      <node id="300">
+        <label>Map&lt; String, Boolean &gt;</label>
+      </node>
+      <node id="292">
+        <label>jenes.utils.XLSLogger</label>
+        <link refid="classjenes_1_1utils_1_1_x_l_s_logger"/>
+        <childnode refid="293" relation="public-inheritance">
+        </childnode>
+        <childnode refid="296" relation="usage">
+          <edgelabel>newCols</edgelabel>
+        </childnode>
+        <childnode refid="297" relation="usage">
+          <edgelabel>sheets</edgelabel>
+        </childnode>
+        <childnode refid="298" relation="usage">
+          <edgelabel>colsOfSheet</edgelabel>
+        </childnode>
+        <childnode refid="299" relation="usage">
+          <edgelabel>workbook</edgelabel>
+        </childnode>
+        <childnode refid="300" relation="usage">
+          <edgelabel>alterableSchema</edgelabel>
+        </childnode>
+      </node>
+      <node id="295">
+        <label>Map&lt; String, Object &gt;</label>
+      </node>
+      <node id="299">
+        <label>WritableWorkbook</label>
+      </node>
+      <node id="296">
+        <label>List&lt; WritableCell &gt;</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/problem9/IslandGAvsSimpleGA.java" line="41" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/problem9/IslandGAvsSimpleGA.java" bodystart="41" bodyend="103"/>
+    <listofallmembers>
+      <member refid="classjenes_1_1tutorials_1_1problem9_1_1_island_g_avs_simple_g_a_1aadc2a6b04b46a9a5d957c3f22762f4d6" prot="private" virt="non-virtual"><scope>jenes::tutorials::problem9::IslandGAvsSimpleGA</scope><name>CHROMOSOME_LENGTH</name></member>
+      <member refid="classjenes_1_1tutorials_1_1problem9_1_1_island_g_avs_simple_g_a_1a593d4a6805e5a71e1eb3b30f24e3088c" prot="private" virt="non-virtual"><scope>jenes::tutorials::problem9::IslandGAvsSimpleGA</scope><name>executeIslandGA</name></member>
+      <member refid="classjenes_1_1tutorials_1_1problem9_1_1_island_g_avs_simple_g_a_1a8fbbd68f88740cfef8e3578409c7b28c" prot="private" virt="non-virtual"><scope>jenes::tutorials::problem9::IslandGAvsSimpleGA</scope><name>executeSimplaGA</name></member>
+      <member refid="classjenes_1_1tutorials_1_1problem9_1_1_island_g_avs_simple_g_a_1ab5429444736404c0a031ab65e28b8639" prot="private" virt="non-virtual"><scope>jenes::tutorials::problem9::IslandGAvsSimpleGA</scope><name>FOLDER</name></member>
+      <member refid="classjenes_1_1tutorials_1_1problem9_1_1_island_g_avs_simple_g_a_1ab3b13df96c99c89698c2c74340ae2c6d" prot="private" virt="non-virtual"><scope>jenes::tutorials::problem9::IslandGAvsSimpleGA</scope><name>GENERATION_LIMIT</name></member>
+      <member refid="classjenes_1_1tutorials_1_1problem9_1_1_island_g_avs_simple_g_a_1a20124a96736560ad40f38c5cf057c8df" prot="public" virt="non-virtual"><scope>jenes::tutorials::problem9::IslandGAvsSimpleGA</scope><name>main</name></member>
+      <member refid="classjenes_1_1tutorials_1_1problem9_1_1_island_g_avs_simple_g_a_1a7651a1c3812cced2ff7198299906f7d7" prot="private" virt="non-virtual"><scope>jenes::tutorials::problem9::IslandGAvsSimpleGA</scope><name>POPULATION_SIZE</name></member>
+      <member refid="classjenes_1_1tutorials_1_1problem9_1_1_island_g_avs_simple_g_a_1a97bc52a775806a663525a22d51009976" prot="private" virt="non-virtual"><scope>jenes::tutorials::problem9::IslandGAvsSimpleGA</scope><name>printResults</name></member>
+      <member refid="classjenes_1_1tutorials_1_1problem9_1_1_island_g_avs_simple_g_a_1a47c83870d72507ba12efda584f0b1212" prot="private" virt="non-virtual"><scope>jenes::tutorials::problem9::IslandGAvsSimpleGA</scope><name>xlslogger</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

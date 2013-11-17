@@ -1,0 +1,231 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="classjenes_1_1tutorials_1_1old_1_1problem3_1_1_travel_salesman_problem" kind="class" prot="public">
+    <compoundname>jenes::tutorials::old::problem3::TravelSalesmanProblem</compoundname>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classjenes_1_1tutorials_1_1old_1_1problem3_1_1_travel_salesman_problem_1a388d4fcbb82c911c4646c5de782f4d59" prot="public" static="yes" mutable="no">
+        <type>final int</type>
+        <definition>final int jenes.tutorials.old.problem3.TravelSalesmanProblem.POPULATION_SIZE</definition>
+        <argsstring></argsstring>
+        <name>POPULATION_SIZE</name>
+        <initializer>= 1000</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/old/problem3/TravelSalesmanProblem.java" line="44" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/old/problem3/TravelSalesmanProblem.java" bodystart="44" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classjenes_1_1tutorials_1_1old_1_1problem3_1_1_travel_salesman_problem_1a5f210d5ce4eb968b6c8e62b2c5d1a93a" prot="public" static="yes" mutable="no">
+        <type>final int</type>
+        <definition>final int jenes.tutorials.old.problem3.TravelSalesmanProblem.MAX_DISTANCE</definition>
+        <argsstring></argsstring>
+        <name>MAX_DISTANCE</name>
+        <initializer>= 10</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/old/problem3/TravelSalesmanProblem.java" line="46" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/old/problem3/TravelSalesmanProblem.java" bodystart="46" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="classjenes_1_1tutorials_1_1old_1_1problem3_1_1_travel_salesman_problem_1a2ed71be7b99667312c0945e5375b6a42" prot="private" static="yes" mutable="no">
+        <type>int</type>
+        <definition>int jenes.tutorials.old.problem3.TravelSalesmanProblem.GENERATION_LIMIT</definition>
+        <argsstring></argsstring>
+        <name>GENERATION_LIMIT</name>
+        <initializer>= 2000</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/old/problem3/TravelSalesmanProblem.java" line="45" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/old/problem3/TravelSalesmanProblem.java" bodystart="45" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classjenes_1_1tutorials_1_1old_1_1problem3_1_1_travel_salesman_problem_1a5733f9e85db22c0787784b7a2a943175" prot="private" static="no" mutable="no">
+        <type><ref refid="classjenes_1_1tutorials_1_1old_1_1problem3_1_1_t_s_p_g_a" kindref="compound">TSPGA</ref></type>
+        <definition>TSPGA jenes.tutorials.old.problem3.TravelSalesmanProblem.algorithm</definition>
+        <argsstring></argsstring>
+        <name>algorithm</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/old/problem3/TravelSalesmanProblem.java" line="48" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/old/problem3/TravelSalesmanProblem.java" bodystart="48" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classjenes_1_1tutorials_1_1old_1_1problem3_1_1_travel_salesman_problem_1a244d5923b96b3392663fc531fd792348" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int jenes.tutorials.old.problem3.TravelSalesmanProblem.cities</definition>
+        <argsstring></argsstring>
+        <name>cities</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/old/problem3/TravelSalesmanProblem.java" line="49" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/old/problem3/TravelSalesmanProblem.java" bodystart="49" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classjenes_1_1tutorials_1_1old_1_1problem3_1_1_travel_salesman_problem_1a165e6f4b71c61f5a07ba3b6e0aae1855" prot="private" static="no" mutable="no">
+        <type>double[][]</type>
+        <definition>double [][] jenes.tutorials.old.problem3.TravelSalesmanProblem.map</definition>
+        <argsstring></argsstring>
+        <name>map</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/old/problem3/TravelSalesmanProblem.java" line="50" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/old/problem3/TravelSalesmanProblem.java" bodystart="50" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classjenes_1_1tutorials_1_1old_1_1problem3_1_1_travel_salesman_problem_1a4688916bf8ef318b6fae58a75c0e3184" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void jenes.tutorials.old.problem3.TravelSalesmanProblem.main</definition>
+        <argsstring>(String[] args)</argsstring>
+        <name>main</name>
+        <param>
+          <type>String[]</type>
+          <declname>args</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/old/problem3/TravelSalesmanProblem.java" line="52" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/old/problem3/TravelSalesmanProblem.java" bodystart="52" bodyend="80"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1tutorials_1_1old_1_1problem3_1_1_travel_salesman_problem_1a7fbfddf2063f030d8b44585843eab8c6" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>double[][]</type>
+        <definition>static double [][] jenes.tutorials.old.problem3.TravelSalesmanProblem.simpleMap</definition>
+        <argsstring>(int cities)</argsstring>
+        <name>simpleMap</name>
+        <param>
+          <type>int</type>
+          <declname>cities</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/old/problem3/TravelSalesmanProblem.java" line="158" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/old/problem3/TravelSalesmanProblem.java" bodystart="158" bodyend="173"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1tutorials_1_1old_1_1problem3_1_1_travel_salesman_problem_1a19e333c608bc56c65b32c5fc98dc760a" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>double[][]</type>
+        <definition>static double [][] jenes.tutorials.old.problem3.TravelSalesmanProblem.randomMap</definition>
+        <argsstring>(int cities)</argsstring>
+        <name>randomMap</name>
+        <param>
+          <type>int</type>
+          <declname>cities</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/old/problem3/TravelSalesmanProblem.java" line="175" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/old/problem3/TravelSalesmanProblem.java" bodystart="175" bodyend="183"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classjenes_1_1tutorials_1_1old_1_1problem3_1_1_travel_salesman_problem_1ae81620be1ad206e8226f0c0dc913ab44" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>jenes.tutorials.old.problem3.TravelSalesmanProblem.TravelSalesmanProblem</definition>
+        <argsstring>(double[][] matrix)</argsstring>
+        <name>TravelSalesmanProblem</name>
+        <param>
+          <type>double</type>
+          <declname>matrix</declname>
+          <array>[][]</array>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/old/problem3/TravelSalesmanProblem.java" line="82" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/old/problem3/TravelSalesmanProblem.java" bodystart="82" bodyend="107"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1tutorials_1_1old_1_1problem3_1_1_travel_salesman_problem_1ac5e087aada09768a49ab10f7178e938f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void jenes.tutorials.old.problem3.TravelSalesmanProblem.solve</definition>
+        <argsstring>()</argsstring>
+        <name>solve</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/old/problem3/TravelSalesmanProblem.java" line="109" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/old/problem3/TravelSalesmanProblem.java" bodystart="109" bodyend="120"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1tutorials_1_1old_1_1problem3_1_1_travel_salesman_problem_1a94afc262b0ac0e840be70087dd6e11f3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void jenes.tutorials.old.problem3.TravelSalesmanProblem.solvePC</definition>
+        <argsstring>()</argsstring>
+        <name>solvePC</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/old/problem3/TravelSalesmanProblem.java" line="122" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/old/problem3/TravelSalesmanProblem.java" bodystart="122" bodyend="156"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Tutorial showing how to implement problem specific operators. The problem faced in this example is the well known Tavel Salesman Problem (TSP)</para><para>This class specifies the problem.</para><para><simplesect kind="version"><para>1.0 </para></simplesect>
+<simplesect kind="since"><para>1.0 </para></simplesect>
+</para>    </detaileddescription>
+    <collaborationgraph>
+      <node id="695">
+        <label>jenes.tutorials.old.problem3.TravelSalesmanProblem</label>
+        <link refid="classjenes_1_1tutorials_1_1old_1_1problem3_1_1_travel_salesman_problem"/>
+        <childnode refid="696" relation="usage">
+          <edgelabel>algorithm</edgelabel>
+        </childnode>
+      </node>
+      <node id="696">
+        <label>jenes.tutorials.old.problem3.TSPGA</label>
+        <link refid="classjenes_1_1tutorials_1_1old_1_1problem3_1_1_t_s_p_g_a"/>
+        <childnode refid="697" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="697">
+        <label>jenes::GeneticAlgorithm&lt; IntegerChromosome &gt;</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/old/problem3/TravelSalesmanProblem.java" line="42" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/old/problem3/TravelSalesmanProblem.java" bodystart="42" bodyend="185"/>
+    <listofallmembers>
+      <member refid="classjenes_1_1tutorials_1_1old_1_1problem3_1_1_travel_salesman_problem_1a5733f9e85db22c0787784b7a2a943175" prot="private" virt="non-virtual"><scope>jenes::tutorials::old::problem3::TravelSalesmanProblem</scope><name>algorithm</name></member>
+      <member refid="classjenes_1_1tutorials_1_1old_1_1problem3_1_1_travel_salesman_problem_1a244d5923b96b3392663fc531fd792348" prot="private" virt="non-virtual"><scope>jenes::tutorials::old::problem3::TravelSalesmanProblem</scope><name>cities</name></member>
+      <member refid="classjenes_1_1tutorials_1_1old_1_1problem3_1_1_travel_salesman_problem_1a2ed71be7b99667312c0945e5375b6a42" prot="private" virt="non-virtual"><scope>jenes::tutorials::old::problem3::TravelSalesmanProblem</scope><name>GENERATION_LIMIT</name></member>
+      <member refid="classjenes_1_1tutorials_1_1old_1_1problem3_1_1_travel_salesman_problem_1a4688916bf8ef318b6fae58a75c0e3184" prot="public" virt="non-virtual"><scope>jenes::tutorials::old::problem3::TravelSalesmanProblem</scope><name>main</name></member>
+      <member refid="classjenes_1_1tutorials_1_1old_1_1problem3_1_1_travel_salesman_problem_1a165e6f4b71c61f5a07ba3b6e0aae1855" prot="private" virt="non-virtual"><scope>jenes::tutorials::old::problem3::TravelSalesmanProblem</scope><name>map</name></member>
+      <member refid="classjenes_1_1tutorials_1_1old_1_1problem3_1_1_travel_salesman_problem_1a5f210d5ce4eb968b6c8e62b2c5d1a93a" prot="public" virt="non-virtual"><scope>jenes::tutorials::old::problem3::TravelSalesmanProblem</scope><name>MAX_DISTANCE</name></member>
+      <member refid="classjenes_1_1tutorials_1_1old_1_1problem3_1_1_travel_salesman_problem_1a388d4fcbb82c911c4646c5de782f4d59" prot="public" virt="non-virtual"><scope>jenes::tutorials::old::problem3::TravelSalesmanProblem</scope><name>POPULATION_SIZE</name></member>
+      <member refid="classjenes_1_1tutorials_1_1old_1_1problem3_1_1_travel_salesman_problem_1a19e333c608bc56c65b32c5fc98dc760a" prot="public" virt="non-virtual"><scope>jenes::tutorials::old::problem3::TravelSalesmanProblem</scope><name>randomMap</name></member>
+      <member refid="classjenes_1_1tutorials_1_1old_1_1problem3_1_1_travel_salesman_problem_1a7fbfddf2063f030d8b44585843eab8c6" prot="public" virt="non-virtual"><scope>jenes::tutorials::old::problem3::TravelSalesmanProblem</scope><name>simpleMap</name></member>
+      <member refid="classjenes_1_1tutorials_1_1old_1_1problem3_1_1_travel_salesman_problem_1ac5e087aada09768a49ab10f7178e938f" prot="public" virt="non-virtual"><scope>jenes::tutorials::old::problem3::TravelSalesmanProblem</scope><name>solve</name></member>
+      <member refid="classjenes_1_1tutorials_1_1old_1_1problem3_1_1_travel_salesman_problem_1a94afc262b0ac0e840be70087dd6e11f3" prot="public" virt="non-virtual"><scope>jenes::tutorials::old::problem3::TravelSalesmanProblem</scope><name>solvePC</name></member>
+      <member refid="classjenes_1_1tutorials_1_1old_1_1problem3_1_1_travel_salesman_problem_1ae81620be1ad206e8226f0c0dc913ab44" prot="public" virt="non-virtual"><scope>jenes::tutorials::old::problem3::TravelSalesmanProblem</scope><name>TravelSalesmanProblem</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

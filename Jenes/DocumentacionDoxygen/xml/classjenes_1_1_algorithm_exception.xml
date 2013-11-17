@@ -1,0 +1,146 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="classjenes_1_1_algorithm_exception" kind="class" prot="public">
+    <compoundname>jenes::AlgorithmException</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">RuntimeException</basecompoundref>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="classjenes_1_1_algorithm_exception_1abe743e6e185fba1c5072155434af5ab3" prot="private" static="yes" mutable="no">
+        <type>final long</type>
+        <definition>final long jenes.AlgorithmException.serialVersionUID</definition>
+        <argsstring></argsstring>
+        <name>serialVersionUID</name>
+        <initializer>= 7816138221965202687L</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/AlgorithmException.java" line="30" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/AlgorithmException.java" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classjenes_1_1_algorithm_exception_1aa53d271c0db7099eb6fc52c288e05eb0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>jenes.AlgorithmException.AlgorithmException</definition>
+        <argsstring>(String msg, Throwable cause)</argsstring>
+        <name>AlgorithmException</name>
+        <param>
+          <type>String</type>
+          <declname>msg</declname>
+        </param>
+        <param>
+          <type>Throwable</type>
+          <declname>cause</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Creates an <computeroutput><ref refid="classjenes_1_1_algorithm_exception" kindref="compound">AlgorithmException</ref></computeroutput> providing an error message and an exception cause.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>msg</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the error message </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>cause</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the error cause </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/AlgorithmException.java" line="38" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/AlgorithmException.java" bodystart="38" bodyend="40"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1_algorithm_exception_1a295c243603f7b36f9ab5b0e1ec22aa60" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>jenes.AlgorithmException.AlgorithmException</definition>
+        <argsstring>(String msg)</argsstring>
+        <name>AlgorithmException</name>
+        <param>
+          <type>String</type>
+          <declname>msg</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Creates an <computeroutput><ref refid="classjenes_1_1_algorithm_exception" kindref="compound">AlgorithmException</ref></computeroutput> providing only an error message</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>msg</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the error message </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/AlgorithmException.java" line="47" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/AlgorithmException.java" bodystart="47" bodyend="49"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1_algorithm_exception_1ad6906756121d65db53ece1c1d9d8d0db" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>jenes.AlgorithmException.AlgorithmException</definition>
+        <argsstring>(Throwable cause)</argsstring>
+        <name>AlgorithmException</name>
+        <param>
+          <type>Throwable</type>
+          <declname>cause</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Creates an <computeroutput><ref refid="classjenes_1_1_algorithm_exception" kindref="compound">AlgorithmException</ref></computeroutput> providing an exception cause, and no additional message.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>cause</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the error cause </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/AlgorithmException.java" line="56" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/AlgorithmException.java" bodystart="56" bodyend="58"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>An <computeroutput><ref refid="classjenes_1_1_algorithm_exception" kindref="compound">AlgorithmException</ref></computeroutput> is a runtime exception thrown during the algorithm execution.</para><para><simplesect kind="version"><para>1.2 </para></simplesect>
+<simplesect kind="since"><para>1.0 </para></simplesect>
+</para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="12">
+        <label>jenes.AlgorithmException</label>
+        <link refid="classjenes_1_1_algorithm_exception"/>
+        <childnode refid="13" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="13">
+        <label>RuntimeException</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="14">
+        <label>jenes.AlgorithmException</label>
+        <link refid="classjenes_1_1_algorithm_exception"/>
+        <childnode refid="15" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="15">
+        <label>RuntimeException</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/AlgorithmException.java" line="28" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/AlgorithmException.java" bodystart="28" bodyend="59"/>
+    <listofallmembers>
+      <member refid="classjenes_1_1_algorithm_exception_1aa53d271c0db7099eb6fc52c288e05eb0" prot="public" virt="non-virtual"><scope>jenes::AlgorithmException</scope><name>AlgorithmException</name></member>
+      <member refid="classjenes_1_1_algorithm_exception_1a295c243603f7b36f9ab5b0e1ec22aa60" prot="public" virt="non-virtual"><scope>jenes::AlgorithmException</scope><name>AlgorithmException</name></member>
+      <member refid="classjenes_1_1_algorithm_exception_1ad6906756121d65db53ece1c1d9d8d0db" prot="public" virt="non-virtual"><scope>jenes::AlgorithmException</scope><name>AlgorithmException</name></member>
+      <member refid="classjenes_1_1_algorithm_exception_1abe743e6e185fba1c5072155434af5ab3" prot="private" virt="non-virtual"><scope>jenes::AlgorithmException</scope><name>serialVersionUID</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

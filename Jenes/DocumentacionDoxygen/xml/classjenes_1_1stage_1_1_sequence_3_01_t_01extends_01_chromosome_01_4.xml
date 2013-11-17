@@ -1,0 +1,330 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="classjenes_1_1stage_1_1_sequence_3_01_t_01extends_01_chromosome_01_4" kind="class" prot="public">
+    <compoundname>jenes::stage::Sequence&lt; T extends Chromosome &gt;</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">jenes::stage::AbstractStage&lt; T &gt;</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classjenes_1_1stage_1_1_sequence_3_01_t_01extends_01_chromosome_01_4_1a7bf8fc1d26c7aadb73974beccf970343" prot="private" static="no" mutable="no">
+        <type>List&lt; AbstractStage&lt; T &gt; &gt;</type>
+        <definition>List&lt;AbstractStage&lt;T&gt; &gt; jenes.stage.Sequence&lt; T extends Chromosome &gt;.stages</definition>
+        <argsstring></argsstring>
+        <name>stages</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/Sequence.java" line="43" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/Sequence.java" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classjenes_1_1stage_1_1_sequence_3_01_t_01extends_01_chromosome_01_4_1a8d41af628fe9c1e2fdf4be3c9938a172" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Population&lt; T &gt;</type>
+        <definition>Population&lt;T&gt; jenes.stage.Sequence&lt; T extends Chromosome &gt;.Sequence</definition>
+        <argsstring>()</argsstring>
+        <name>Sequence</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs a new sequence stage. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/Sequence.java" line="50" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/Sequence.java" bodystart="50" bodyend="52"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1stage_1_1_sequence_3_01_t_01extends_01_chromosome_01_4_1a7d0e59aeed366cb6f71f754f61bfceb3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void jenes.stage.Sequence&lt; T extends Chromosome &gt;.appendStage</definition>
+        <argsstring>(AbstractStage&lt; T &gt; stage)</argsstring>
+        <name>appendStage</name>
+        <param>
+          <type>AbstractStage&lt; T &gt;</type>
+          <declname>stage</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Adds the specified stage at the end of this sequence </para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>stage</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the stage to add </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/Sequence.java" line="59" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/Sequence.java" bodystart="59" bodyend="69"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1stage_1_1_sequence_3_01_t_01extends_01_chromosome_01_4_1a922e6363fc19620738e95ddfc649ea6e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void jenes.stage.Sequence&lt; T extends Chromosome &gt;.insertStageAt</definition>
+        <argsstring>(AbstractStage&lt; T &gt; stage, int pos)</argsstring>
+        <name>insertStageAt</name>
+        <param>
+          <type>AbstractStage&lt; T &gt;</type>
+          <declname>stage</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>pos</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Adds the specified stage to the specified position </para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>stage</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the stage to add </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>pos</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the position where to insert the new stage </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/Sequence.java" line="77" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/Sequence.java" bodystart="77" bodyend="86"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1stage_1_1_sequence_3_01_t_01extends_01_chromosome_01_4_1ab020311ac8fad8d6d884df9634c211b8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void jenes.stage.Sequence&lt; T extends Chromosome &gt;.removeAll</definition>
+        <argsstring>()</argsstring>
+        <name>removeAll</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Removes all the stages from this sequence </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/Sequence.java" line="92" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/Sequence.java" bodystart="92" bodyend="94"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1stage_1_1_sequence_3_01_t_01extends_01_chromosome_01_4_1af16f419e9be758779fa14cf53f31bfe1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int jenes.stage.Sequence&lt; T extends Chromosome &gt;.getSize</definition>
+        <argsstring>()</argsstring>
+        <name>getSize</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns the number of stages <simplesect kind="return"><para>the number of stages </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/Sequence.java" line="100" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/Sequence.java" bodystart="100" bodyend="102"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1stage_1_1_sequence_3_01_t_01extends_01_chromosome_01_4_1aa9e1d97737fed4c5141cda315c216b32" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>AbstractStage&lt; T &gt;</type>
+        <definition>AbstractStage&lt;T&gt; jenes.stage.Sequence&lt; T extends Chromosome &gt;.getStageAt</definition>
+        <argsstring>(int pos)</argsstring>
+        <name>getStageAt</name>
+        <param>
+          <type>int</type>
+          <declname>pos</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns the stage at the specified position</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>pos</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>index of the stage to return </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The stage at the specified position </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/Sequence.java" line="110" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/Sequence.java" bodystart="110" bodyend="112"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1stage_1_1_sequence_3_01_t_01extends_01_chromosome_01_4_1a1336b162d37aaa9b402c49480d12f8ef" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>AbstractStage&lt; T &gt;</type>
+        <definition>AbstractStage&lt;T&gt; jenes.stage.Sequence&lt; T extends Chromosome &gt;.removeAt</definition>
+        <argsstring>(int pos)</argsstring>
+        <name>removeAt</name>
+        <param>
+          <type>int</type>
+          <declname>pos</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Removes the stage at the specified position </para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>pos</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the position of the stage to remove </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>the AbstractStage instance that has been removed </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/Sequence.java" line="120" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/Sequence.java" bodystart="120" bodyend="122"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1stage_1_1_sequence_3_01_t_01extends_01_chromosome_01_4_1a98d9ad6e0fdc1547971fe7fce029e25f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void jenes.stage.Sequence&lt; T extends Chromosome &gt;.init</definition>
+        <argsstring>(GeneticAlgorithm&lt; T &gt; ga)</argsstring>
+        <name>init</name>
+        <param>
+          <type>GeneticAlgorithm&lt; T &gt;</type>
+          <declname>ga</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Initializes all of its internal stages </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/Sequence.java" line="128" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/Sequence.java" bodystart="128" bodyend="138"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1stage_1_1_sequence_3_01_t_01extends_01_chromosome_01_4_1a4faf3479fa76eef530633ce8339971e5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void jenes.stage.Sequence&lt; T extends Chromosome &gt;.dispose</definition>
+        <argsstring>()</argsstring>
+        <name>dispose</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Disposes all of its internal stages </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/Sequence.java" line="144" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/Sequence.java" bodystart="144" bodyend="148"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1stage_1_1_sequence_3_01_t_01extends_01_chromosome_01_4_1adc0e7397edd44839ef221122db3696e8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>final void</type>
+        <definition>final void jenes.stage.Sequence&lt; T extends Chromosome &gt;.process</definition>
+        <argsstring>(Population&lt; T &gt; in, Population&lt; T &gt; out)</argsstring>
+        <name>process</name>
+        <param>
+          <type>Population&lt; T &gt;</type>
+          <declname>in</declname>
+        </param>
+        <param>
+          <type>Population&lt; T &gt;</type>
+          <declname>out</declname>
+        </param>
+        <exceptions> throws <ref refid="classjenes_1_1stage_1_1_stage_exception" kindref="compound">StageException</ref> </exceptions>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Invokes the process method on all of its internal stages </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/Sequence.java" line="153" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/Sequence.java" bodystart="153" bodyend="190"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1stage_1_1_sequence_3_01_t_01extends_01_chromosome_01_4_1a759a03c3336352cc390b2024afcc2ab1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void jenes.stage.Sequence&lt; T extends Chromosome &gt;.setBiggerIsBetter</definition>
+        <argsstring>(boolean flag, boolean recursively)</argsstring>
+        <name>setBiggerIsBetter</name>
+        <param>
+          <type>boolean</type>
+          <declname>flag</declname>
+        </param>
+        <param>
+          <type>boolean</type>
+          <declname>recursively</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/Sequence.java" line="194" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/Sequence.java" bodystart="194" bodyend="201"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1stage_1_1_sequence_3_01_t_01extends_01_chromosome_01_4_1a1ec43e74c2534861caf2475405869853" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void jenes.stage.Sequence&lt; T extends Chromosome &gt;.setFitness</definition>
+        <argsstring>(Fitness fit, boolean recursively)</argsstring>
+        <name>setFitness</name>
+        <param>
+          <type>Fitness</type>
+          <declname>fit</declname>
+        </param>
+        <param>
+          <type>boolean</type>
+          <declname>recursively</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/Sequence.java" line="204" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/Sequence.java" bodystart="204" bodyend="211"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>A sequence is like a &quot;pipe&quot; of other stages.<linebreak/>
+ Stages are executed sequentially in the order they are added to the sequence. Each stage receives an input population (produced as output by the previous stage) and produces an output population.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>&lt;T&gt;</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The class chromosomes flowing across the stage.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="version"><para>2.0 </para></simplesect>
+<simplesect kind="since"><para>1.0 </para></simplesect>
+</para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="594">
+        <label>jenes::stage::AbstractStage&lt; T &gt;</label>
+      </node>
+      <node id="593">
+        <label>jenes.stage.Sequence&lt; T extends Chromosome &gt;</label>
+        <link refid="classjenes_1_1stage_1_1_sequence_3_01_t_01extends_01_chromosome_01_4"/>
+        <childnode refid="594" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="596">
+        <label>jenes::stage::AbstractStage&lt; T &gt;</label>
+      </node>
+      <node id="597">
+        <label>List&lt; AbstractStage&lt; T &gt; &gt;</label>
+      </node>
+      <node id="595">
+        <label>jenes.stage.Sequence&lt; T extends Chromosome &gt;</label>
+        <link refid="classjenes_1_1stage_1_1_sequence_3_01_t_01extends_01_chromosome_01_4"/>
+        <childnode refid="596" relation="public-inheritance">
+        </childnode>
+        <childnode refid="597" relation="usage">
+          <edgelabel>stages</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/Sequence.java" line="41" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/Sequence.java" bodystart="41" bodyend="212"/>
+    <listofallmembers>
+      <member refid="classjenes_1_1stage_1_1_sequence_3_01_t_01extends_01_chromosome_01_4_1a7d0e59aeed366cb6f71f754f61bfceb3" prot="public" virt="non-virtual"><scope>jenes::stage::Sequence&lt; T extends Chromosome &gt;</scope><name>appendStage</name></member>
+      <member refid="classjenes_1_1stage_1_1_sequence_3_01_t_01extends_01_chromosome_01_4_1a4faf3479fa76eef530633ce8339971e5" prot="public" virt="non-virtual"><scope>jenes::stage::Sequence&lt; T extends Chromosome &gt;</scope><name>dispose</name></member>
+      <member refid="classjenes_1_1stage_1_1_sequence_3_01_t_01extends_01_chromosome_01_4_1af16f419e9be758779fa14cf53f31bfe1" prot="public" virt="non-virtual"><scope>jenes::stage::Sequence&lt; T extends Chromosome &gt;</scope><name>getSize</name></member>
+      <member refid="classjenes_1_1stage_1_1_sequence_3_01_t_01extends_01_chromosome_01_4_1aa9e1d97737fed4c5141cda315c216b32" prot="public" virt="non-virtual"><scope>jenes::stage::Sequence&lt; T extends Chromosome &gt;</scope><name>getStageAt</name></member>
+      <member refid="classjenes_1_1stage_1_1_sequence_3_01_t_01extends_01_chromosome_01_4_1a98d9ad6e0fdc1547971fe7fce029e25f" prot="public" virt="non-virtual"><scope>jenes::stage::Sequence&lt; T extends Chromosome &gt;</scope><name>init</name></member>
+      <member refid="classjenes_1_1stage_1_1_sequence_3_01_t_01extends_01_chromosome_01_4_1a922e6363fc19620738e95ddfc649ea6e" prot="public" virt="non-virtual"><scope>jenes::stage::Sequence&lt; T extends Chromosome &gt;</scope><name>insertStageAt</name></member>
+      <member refid="classjenes_1_1stage_1_1_sequence_3_01_t_01extends_01_chromosome_01_4_1adc0e7397edd44839ef221122db3696e8" prot="public" virt="non-virtual"><scope>jenes::stage::Sequence&lt; T extends Chromosome &gt;</scope><name>process</name></member>
+      <member refid="classjenes_1_1stage_1_1_sequence_3_01_t_01extends_01_chromosome_01_4_1ab020311ac8fad8d6d884df9634c211b8" prot="public" virt="non-virtual"><scope>jenes::stage::Sequence&lt; T extends Chromosome &gt;</scope><name>removeAll</name></member>
+      <member refid="classjenes_1_1stage_1_1_sequence_3_01_t_01extends_01_chromosome_01_4_1a1336b162d37aaa9b402c49480d12f8ef" prot="public" virt="non-virtual"><scope>jenes::stage::Sequence&lt; T extends Chromosome &gt;</scope><name>removeAt</name></member>
+      <member refid="classjenes_1_1stage_1_1_sequence_3_01_t_01extends_01_chromosome_01_4_1a8d41af628fe9c1e2fdf4be3c9938a172" prot="public" virt="non-virtual"><scope>jenes::stage::Sequence&lt; T extends Chromosome &gt;</scope><name>Sequence</name></member>
+      <member refid="classjenes_1_1stage_1_1_sequence_3_01_t_01extends_01_chromosome_01_4_1a759a03c3336352cc390b2024afcc2ab1" prot="public" virt="non-virtual"><scope>jenes::stage::Sequence&lt; T extends Chromosome &gt;</scope><name>setBiggerIsBetter</name></member>
+      <member refid="classjenes_1_1stage_1_1_sequence_3_01_t_01extends_01_chromosome_01_4_1a1ec43e74c2534861caf2475405869853" prot="public" virt="non-virtual"><scope>jenes::stage::Sequence&lt; T extends Chromosome &gt;</scope><name>setFitness</name></member>
+      <member refid="classjenes_1_1stage_1_1_sequence_3_01_t_01extends_01_chromosome_01_4_1a7bf8fc1d26c7aadb73974beccf970343" prot="private" virt="non-virtual"><scope>jenes::stage::Sequence&lt; T extends Chromosome &gt;</scope><name>stages</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

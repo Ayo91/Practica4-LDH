@@ -1,0 +1,549 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="classjenes_1_1_genetic_algorithm_3_01_t_01extends_01_chromosome_01_4_1_1_statistics" kind="class" prot="public">
+    <compoundname>jenes::GeneticAlgorithm&lt; T extends Chromosome &gt;::Statistics</compoundname>
+    <basecompoundref refid="classjenes_1_1statistics_1_1_statistics_logger_1_1_loggable_statistics" prot="public" virt="non-virtual">jenes.statistics.StatisticsLogger.LoggableStatistics</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classjenes_1_1_genetic_algorithm_3_01_t_01extends_01_chromosome_01_4_1_1_statistics_1a5e396337bd13664a04c662cb0fef34ce" prot="private" static="no" mutable="no">
+        <type>long</type>
+        <definition>long jenes.GeneticAlgorithm&lt; T extends Chromosome &gt;.Statistics.startTime</definition>
+        <argsstring></argsstring>
+        <name>startTime</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/GeneticAlgorithm.java" line="1220" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/GeneticAlgorithm.java" bodystart="1220" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classjenes_1_1_genetic_algorithm_3_01_t_01extends_01_chromosome_01_4_1_1_statistics_1a4ed505b94554647904de63208519b603" prot="private" static="no" mutable="no">
+        <type>long</type>
+        <definition>long jenes.GeneticAlgorithm&lt; T extends Chromosome &gt;.Statistics.stopTime</definition>
+        <argsstring></argsstring>
+        <name>stopTime</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/GeneticAlgorithm.java" line="1221" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/GeneticAlgorithm.java" bodystart="1221" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classjenes_1_1_genetic_algorithm_3_01_t_01extends_01_chromosome_01_4_1_1_statistics_1a1ed2491558f68da1f6565fd2b722d8da" prot="private" static="no" mutable="no">
+        <type>long</type>
+        <definition>long jenes.GeneticAlgorithm&lt; T extends Chromosome &gt;.Statistics.initTime</definition>
+        <argsstring></argsstring>
+        <name>initTime</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/GeneticAlgorithm.java" line="1222" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/GeneticAlgorithm.java" bodystart="1222" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classjenes_1_1_genetic_algorithm_3_01_t_01extends_01_chromosome_01_4_1_1_statistics_1ab1c762bcc0467579ae17db0410d236f5" prot="private" static="no" mutable="no">
+        <type>long</type>
+        <definition>long jenes.GeneticAlgorithm&lt; T extends Chromosome &gt;.Statistics.executionTime</definition>
+        <argsstring></argsstring>
+        <name>executionTime</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/GeneticAlgorithm.java" line="1223" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/GeneticAlgorithm.java" bodystart="1223" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classjenes_1_1_genetic_algorithm_3_01_t_01extends_01_chromosome_01_4_1_1_statistics_1a8e421fd4a9a04431b89b1f630b0ba709" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int jenes.GeneticAlgorithm&lt; T extends Chromosome &gt;.Statistics.generations</definition>
+        <argsstring></argsstring>
+        <name>generations</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/GeneticAlgorithm.java" line="1224" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/GeneticAlgorithm.java" bodystart="1224" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classjenes_1_1_genetic_algorithm_3_01_t_01extends_01_chromosome_01_4_1_1_statistics_1a6e78ef036596b8056591b8165f20fa76" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int jenes.GeneticAlgorithm&lt; T extends Chromosome &gt;.Statistics.generationLimit</definition>
+        <argsstring></argsstring>
+        <name>generationLimit</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/GeneticAlgorithm.java" line="1225" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/GeneticAlgorithm.java" bodystart="1225" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classjenes_1_1_genetic_algorithm_3_01_t_01extends_01_chromosome_01_4_1_1_statistics_1a56d660f60cc0f940fb51160a81346145" prot="private" static="no" mutable="no">
+        <type>long[]</type>
+        <definition>long [] jenes.GeneticAlgorithm&lt; T extends Chromosome &gt;.Statistics.generationEndTimes</definition>
+        <argsstring></argsstring>
+        <name>generationEndTimes</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/GeneticAlgorithm.java" line="1226" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/GeneticAlgorithm.java" bodystart="1226" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classjenes_1_1_genetic_algorithm_3_01_t_01extends_01_chromosome_01_4_1_1_statistics_1af1dbf514ac1f8e6e2e881b3596a09a47" prot="private" static="no" mutable="no">
+        <type>boolean</type>
+        <definition>boolean jenes.GeneticAlgorithm&lt; T extends Chromosome &gt;.Statistics.exceptionTerminated</definition>
+        <argsstring></argsstring>
+        <name>exceptionTerminated</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/GeneticAlgorithm.java" line="1227" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/GeneticAlgorithm.java" bodystart="1227" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classjenes_1_1_genetic_algorithm_3_01_t_01extends_01_chromosome_01_4_1_1_statistics_1aedc7d1863ee3209b34c76c7cb98ec929" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int jenes.GeneticAlgorithm&lt; T extends Chromosome &gt;.Statistics.fitnessEvaluationNumbers</definition>
+        <argsstring></argsstring>
+        <name>fitnessEvaluationNumbers</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/GeneticAlgorithm.java" line="1228" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/GeneticAlgorithm.java" bodystart="1228" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classjenes_1_1_genetic_algorithm_3_01_t_01extends_01_chromosome_01_4_1_1_statistics_1a96b020ce128683d416b46e86e456a356" prot="private" static="no" mutable="no">
+        <type>long[]</type>
+        <definition>long [] jenes.GeneticAlgorithm&lt; T extends Chromosome &gt;.Statistics.fitnessEvalStageBegin</definition>
+        <argsstring></argsstring>
+        <name>fitnessEvalStageBegin</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/GeneticAlgorithm.java" line="1229" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/GeneticAlgorithm.java" bodystart="1229" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classjenes_1_1_genetic_algorithm_3_01_t_01extends_01_chromosome_01_4_1_1_statistics_1abefb1b0cb434c2e597388e016aa08496" prot="private" static="no" mutable="no">
+        <type>long[]</type>
+        <definition>long [] jenes.GeneticAlgorithm&lt; T extends Chromosome &gt;.Statistics.fitnessEvalStageEnd</definition>
+        <argsstring></argsstring>
+        <name>fitnessEvalStageEnd</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/GeneticAlgorithm.java" line="1230" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/GeneticAlgorithm.java" bodystart="1230" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classjenes_1_1_genetic_algorithm_3_01_t_01extends_01_chromosome_01_4_1_1_statistics_1ac3d2df83ba0389f8d22e7d75c02ed03a" prot="private" static="no" mutable="no">
+        <type>long</type>
+        <definition>long jenes.GeneticAlgorithm&lt; T extends Chromosome &gt;.Statistics.timeSpentInFitnessEval</definition>
+        <argsstring></argsstring>
+        <name>timeSpentInFitnessEval</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/GeneticAlgorithm.java" line="1231" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/GeneticAlgorithm.java" bodystart="1231" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classjenes_1_1_genetic_algorithm_3_01_t_01extends_01_chromosome_01_4_1_1_statistics_1a6b697590338347b9e87839179ae83508" prot="private" static="no" mutable="no">
+        <type>long</type>
+        <definition>long jenes.GeneticAlgorithm&lt; T extends Chromosome &gt;.Statistics.randomSeed</definition>
+        <argsstring></argsstring>
+        <name>randomSeed</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/GeneticAlgorithm.java" line="1232" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/GeneticAlgorithm.java" bodystart="1232" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classjenes_1_1_genetic_algorithm_3_01_t_01extends_01_chromosome_01_4_1_1_statistics_1a82248dcf0c3ea20268f9b6faa5394d8e" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>jenes.GeneticAlgorithm&lt; T extends Chromosome &gt;.Statistics.Statistics</definition>
+        <argsstring>(final int generationLimit)</argsstring>
+        <name>Statistics</name>
+        <param>
+          <type>final int</type>
+          <declname>generationLimit</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs a new GeneticAlgorithm.Statistics. </para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>generationLimit</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the max number of generations </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/GeneticAlgorithm.java" line="1241" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/GeneticAlgorithm.java" bodystart="1241" bodyend="1247"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1_genetic_algorithm_3_01_t_01extends_01_chromosome_01_4_1_1_statistics_1aa25edfbf2f05c383295ea475db003667" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void jenes.GeneticAlgorithm&lt; T extends Chromosome &gt;.Statistics.copyTo</definition>
+        <argsstring>(final Statistics stats)</argsstring>
+        <name>copyTo</name>
+        <param>
+          <type>final <ref refid="classjenes_1_1_genetic_algorithm_3_01_t_01extends_01_chromosome_01_4_1_1_statistics_1a82248dcf0c3ea20268f9b6faa5394d8e" kindref="member">Statistics</ref></type>
+          <declname>stats</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Copies the statistics data to the target object. </para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>stats</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the statistics object to be filled </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/GeneticAlgorithm.java" line="1416" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/GeneticAlgorithm.java" bodystart="1416" bodyend="1430"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classjenes_1_1_genetic_algorithm_3_01_t_01extends_01_chromosome_01_4_1_1_statistics_1a9868aa17a05187be467906036cf52149" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>final long</type>
+        <definition>final long jenes.GeneticAlgorithm&lt; T extends Chromosome &gt;.Statistics.getStartTime</definition>
+        <argsstring>()</argsstring>
+        <name>getStartTime</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns the algorithm starting time. </para><para><simplesect kind="return"><para>the starting time expressed in milliseconds </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/GeneticAlgorithm.java" line="1255" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/GeneticAlgorithm.java" bodystart="1255" bodyend="1257"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1_genetic_algorithm_3_01_t_01extends_01_chromosome_01_4_1_1_statistics_1a71995922cff64ead804adec8f192df01" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>final long</type>
+        <definition>final long jenes.GeneticAlgorithm&lt; T extends Chromosome &gt;.Statistics.getStopTime</definition>
+        <argsstring>()</argsstring>
+        <name>getStopTime</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns the algorithm stoppping time. </para><para><simplesect kind="return"><para>the stopping time expressed in milliseconds </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/GeneticAlgorithm.java" line="1265" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/GeneticAlgorithm.java" bodystart="1265" bodyend="1267"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1_genetic_algorithm_3_01_t_01extends_01_chromosome_01_4_1_1_statistics_1aa2032a65f77defd0ef1cf7dad4223d39" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>final long</type>
+        <definition>final long jenes.GeneticAlgorithm&lt; T extends Chromosome &gt;.Statistics.getInitTime</definition>
+        <argsstring>()</argsstring>
+        <name>getInitTime</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns the algorithm init time. </para><para><simplesect kind="return"><para>the init time expressed in milliseconds </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/GeneticAlgorithm.java" line="1275" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/GeneticAlgorithm.java" bodystart="1275" bodyend="1277"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1_genetic_algorithm_3_01_t_01extends_01_chromosome_01_4_1_1_statistics_1a51a2a1a719226a70c4e8966c92024b5d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>final long</type>
+        <definition>final long jenes.GeneticAlgorithm&lt; T extends Chromosome &gt;.Statistics.getExecutionTime</definition>
+        <argsstring>()</argsstring>
+        <name>getExecutionTime</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns the algorithm execution time. </para><para><simplesect kind="return"><para>the algorithm execution time expressed in milliseconds </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/GeneticAlgorithm.java" line="1285" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/GeneticAlgorithm.java" bodystart="1285" bodyend="1287"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1_genetic_algorithm_3_01_t_01extends_01_chromosome_01_4_1_1_statistics_1a42c08b0214f6fb73743a282c92ae7988" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>final int</type>
+        <definition>final int jenes.GeneticAlgorithm&lt; T extends Chromosome &gt;.Statistics.getGenerations</definition>
+        <argsstring>()</argsstring>
+        <name>getGenerations</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns the last generation counter. </para><para><simplesect kind="return"><para>the generation counter </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/GeneticAlgorithm.java" line="1295" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/GeneticAlgorithm.java" bodystart="1295" bodyend="1297"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1_genetic_algorithm_3_01_t_01extends_01_chromosome_01_4_1_1_statistics_1a8602c59eb51fb35db57b28ce5c03ad16" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>final int</type>
+        <definition>final int jenes.GeneticAlgorithm&lt; T extends Chromosome &gt;.Statistics.getGenerationLimit</definition>
+        <argsstring>()</argsstring>
+        <name>getGenerationLimit</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns the algorithm generation limit. </para><para><simplesect kind="return"><para>the generations limit </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/GeneticAlgorithm.java" line="1305" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/GeneticAlgorithm.java" bodystart="1305" bodyend="1307"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1_genetic_algorithm_3_01_t_01extends_01_chromosome_01_4_1_1_statistics_1a258851d6957532a6ed355e25d98e6bcd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>final long</type>
+        <definition>final long jenes.GeneticAlgorithm&lt; T extends Chromosome &gt;.Statistics.getGenerationEndTime</definition>
+        <argsstring>(final int gen)</argsstring>
+        <name>getGenerationEndTime</name>
+        <param>
+          <type>final int</type>
+          <declname>gen</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns the generation end time of the specified generation. </para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>gen</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the generation with end time is desidered </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>the end time of the generation gen </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/GeneticAlgorithm.java" line="1317" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/GeneticAlgorithm.java" bodystart="1317" bodyend="1319"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1_genetic_algorithm_3_01_t_01extends_01_chromosome_01_4_1_1_statistics_1a12b18f1b160a57bf2d32cbad3e38a39a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>final boolean</type>
+        <definition>final boolean jenes.GeneticAlgorithm&lt; T extends Chromosome &gt;.Statistics.isExceptionTerminated</definition>
+        <argsstring>()</argsstring>
+        <name>isExceptionTerminated</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Says if an exception terminated the evolution. </para><para><simplesect kind="return"><para>true if an exception terminated the evolution, false otherwise </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/GeneticAlgorithm.java" line="1328" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/GeneticAlgorithm.java" bodystart="1328" bodyend="1330"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1_genetic_algorithm_3_01_t_01extends_01_chromosome_01_4_1_1_statistics_1abe0f3443673377de2254946c476fae1b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int jenes.GeneticAlgorithm&lt; T extends Chromosome &gt;.Statistics.getFitnessEvaluationNumbers</definition>
+        <argsstring>()</argsstring>
+        <name>getFitnessEvaluationNumbers</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns the fitness evaluation number. </para><para><simplesect kind="return"><para>the fitness evaluation number </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/GeneticAlgorithm.java" line="1338" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/GeneticAlgorithm.java" bodystart="1338" bodyend="1340"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1_genetic_algorithm_3_01_t_01extends_01_chromosome_01_4_1_1_statistics_1a133f3fec812000aba8b0dd3e883c979d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>long</type>
+        <definition>long jenes.GeneticAlgorithm&lt; T extends Chromosome &gt;.Statistics.getFitnessEvalStageBegin</definition>
+        <argsstring>()</argsstring>
+        <name>getFitnessEvalStageBegin</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns the timestamp of the last fitness evaluation stage begin. </para><para><simplesect kind="return"><para>the starting time expressed in milliseconds </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/GeneticAlgorithm.java" line="1348" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/GeneticAlgorithm.java" bodystart="1348" bodyend="1351"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1_genetic_algorithm_3_01_t_01extends_01_chromosome_01_4_1_1_statistics_1ac8935a30323022b98639c291dda1f47b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>long</type>
+        <definition>long jenes.GeneticAlgorithm&lt; T extends Chromosome &gt;.Statistics.getFitnessEvalStageBegin</definition>
+        <argsstring>(int gen)</argsstring>
+        <name>getFitnessEvalStageBegin</name>
+        <param>
+          <type>int</type>
+          <declname>gen</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns the timestamp (in millisecond) in wich the fitness evaluation has begin for the given generation. </para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>the</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>generation to query for starting from <computeroutput>1</computeroutput></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>the starting time timestamp expressed in milliseconds </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/GeneticAlgorithm.java" line="1362" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/GeneticAlgorithm.java" bodystart="1362" bodyend="1364"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1_genetic_algorithm_3_01_t_01extends_01_chromosome_01_4_1_1_statistics_1ad6d6ce1f0dbf1c8ac76b3a0f10fbb568" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>long</type>
+        <definition>long jenes.GeneticAlgorithm&lt; T extends Chromosome &gt;.Statistics.getFitnessEvalStageEnd</definition>
+        <argsstring>()</argsstring>
+        <name>getFitnessEvalStageEnd</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns the timestamp of the last fitness evaluation stage end. </para><para><simplesect kind="return"><para>the end time timestamp expressed in milliseconds </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/GeneticAlgorithm.java" line="1372" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/GeneticAlgorithm.java" bodystart="1372" bodyend="1375"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1_genetic_algorithm_3_01_t_01extends_01_chromosome_01_4_1_1_statistics_1a2c965bb1edac7e0c1d36806e236a5913" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>long</type>
+        <definition>long jenes.GeneticAlgorithm&lt; T extends Chromosome &gt;.Statistics.getFitnessEvalStageEnd</definition>
+        <argsstring>(int gen)</argsstring>
+        <name>getFitnessEvalStageEnd</name>
+        <param>
+          <type>int</type>
+          <declname>gen</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns the timestamp at wich the fitness evaluation stage has ended for the given generation. </para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>the</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>generation to query for starting from <computeroutput>1</computeroutput></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>the stopping time expressed in milliseconds </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/GeneticAlgorithm.java" line="1385" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/GeneticAlgorithm.java" bodystart="1385" bodyend="1387"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1_genetic_algorithm_3_01_t_01extends_01_chromosome_01_4_1_1_statistics_1afe3c71ced030b33863e7f071a4020dd6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>long</type>
+        <definition>long jenes.GeneticAlgorithm&lt; T extends Chromosome &gt;.Statistics.getTimeSpentForFitnessEval</definition>
+        <argsstring>()</argsstring>
+        <name>getTimeSpentForFitnessEval</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns the current time spent in fitness evaluation. </para><para><simplesect kind="return"><para>the execution time expressed in milliseconds </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/GeneticAlgorithm.java" line="1395" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/GeneticAlgorithm.java" bodystart="1395" bodyend="1397"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1_genetic_algorithm_3_01_t_01extends_01_chromosome_01_4_1_1_statistics_1a90b0186755df2626b6cd1a1dd9fbaa91" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>long</type>
+        <definition>long jenes.GeneticAlgorithm&lt; T extends Chromosome &gt;.Statistics.getRandomSeed</definition>
+        <argsstring>()</argsstring>
+        <name>getRandomSeed</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns the random seed used during the execution of the algorithm instance <simplesect kind="return"><para></para></simplesect>
+<simplesect kind="see"><para><ref refid="classjenes_1_1utils_1_1_random_1a55f9b0a836c137e520658f55ad806859" kindref="member">Random::getSeed()</ref> </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/GeneticAlgorithm.java" line="1405" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/GeneticAlgorithm.java" bodystart="1405" bodyend="1407"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>This class provides some basic statistics regarding the algorithm execution. </para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="645">
+        <label>jenes.statistics.StatisticsLogger.LoggableStatistics</label>
+        <link refid="classjenes_1_1statistics_1_1_statistics_logger_1_1_loggable_statistics"/>
+      </node>
+      <node id="644">
+        <label>jenes.GeneticAlgorithm&lt; T extends Chromosome &gt;.Statistics</label>
+        <link refid="classjenes_1_1_genetic_algorithm_3_01_t_01extends_01_chromosome_01_4_1_1_statistics"/>
+        <childnode refid="645" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="647">
+        <label>jenes.statistics.StatisticsLogger.LoggableStatistics</label>
+        <link refid="classjenes_1_1statistics_1_1_statistics_logger_1_1_loggable_statistics"/>
+        <childnode refid="648" relation="usage">
+          <edgelabel>statmethods</edgelabel>
+        </childnode>
+      </node>
+      <node id="648">
+        <label>Map&lt; String, Method &gt;</label>
+      </node>
+      <node id="646">
+        <label>jenes.GeneticAlgorithm&lt; T extends Chromosome &gt;.Statistics</label>
+        <link refid="classjenes_1_1_genetic_algorithm_3_01_t_01extends_01_chromosome_01_4_1_1_statistics"/>
+        <childnode refid="647" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/GeneticAlgorithm.java" line="1218" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/GeneticAlgorithm.java" bodystart="1218" bodyend="1431"/>
+    <listofallmembers>
+      <member refid="classjenes_1_1_genetic_algorithm_3_01_t_01extends_01_chromosome_01_4_1_1_statistics_1aa25edfbf2f05c383295ea475db003667" prot="private" virt="non-virtual"><scope>jenes::GeneticAlgorithm&lt; T extends Chromosome &gt;::Statistics</scope><name>copyTo</name></member>
+      <member refid="classjenes_1_1_genetic_algorithm_3_01_t_01extends_01_chromosome_01_4_1_1_statistics_1af1dbf514ac1f8e6e2e881b3596a09a47" prot="private" virt="non-virtual"><scope>jenes::GeneticAlgorithm&lt; T extends Chromosome &gt;::Statistics</scope><name>exceptionTerminated</name></member>
+      <member refid="classjenes_1_1_genetic_algorithm_3_01_t_01extends_01_chromosome_01_4_1_1_statistics_1ab1c762bcc0467579ae17db0410d236f5" prot="private" virt="non-virtual"><scope>jenes::GeneticAlgorithm&lt; T extends Chromosome &gt;::Statistics</scope><name>executionTime</name></member>
+      <member refid="classjenes_1_1_genetic_algorithm_3_01_t_01extends_01_chromosome_01_4_1_1_statistics_1a96b020ce128683d416b46e86e456a356" prot="private" virt="non-virtual"><scope>jenes::GeneticAlgorithm&lt; T extends Chromosome &gt;::Statistics</scope><name>fitnessEvalStageBegin</name></member>
+      <member refid="classjenes_1_1_genetic_algorithm_3_01_t_01extends_01_chromosome_01_4_1_1_statistics_1abefb1b0cb434c2e597388e016aa08496" prot="private" virt="non-virtual"><scope>jenes::GeneticAlgorithm&lt; T extends Chromosome &gt;::Statistics</scope><name>fitnessEvalStageEnd</name></member>
+      <member refid="classjenes_1_1_genetic_algorithm_3_01_t_01extends_01_chromosome_01_4_1_1_statistics_1aedc7d1863ee3209b34c76c7cb98ec929" prot="private" virt="non-virtual"><scope>jenes::GeneticAlgorithm&lt; T extends Chromosome &gt;::Statistics</scope><name>fitnessEvaluationNumbers</name></member>
+      <member refid="classjenes_1_1_genetic_algorithm_3_01_t_01extends_01_chromosome_01_4_1_1_statistics_1a56d660f60cc0f940fb51160a81346145" prot="private" virt="non-virtual"><scope>jenes::GeneticAlgorithm&lt; T extends Chromosome &gt;::Statistics</scope><name>generationEndTimes</name></member>
+      <member refid="classjenes_1_1_genetic_algorithm_3_01_t_01extends_01_chromosome_01_4_1_1_statistics_1a6e78ef036596b8056591b8165f20fa76" prot="private" virt="non-virtual"><scope>jenes::GeneticAlgorithm&lt; T extends Chromosome &gt;::Statistics</scope><name>generationLimit</name></member>
+      <member refid="classjenes_1_1_genetic_algorithm_3_01_t_01extends_01_chromosome_01_4_1_1_statistics_1a8e421fd4a9a04431b89b1f630b0ba709" prot="private" virt="non-virtual"><scope>jenes::GeneticAlgorithm&lt; T extends Chromosome &gt;::Statistics</scope><name>generations</name></member>
+      <member refid="classjenes_1_1_genetic_algorithm_3_01_t_01extends_01_chromosome_01_4_1_1_statistics_1a51a2a1a719226a70c4e8966c92024b5d" prot="public" virt="non-virtual"><scope>jenes::GeneticAlgorithm&lt; T extends Chromosome &gt;::Statistics</scope><name>getExecutionTime</name></member>
+      <member refid="classjenes_1_1statistics_1_1_statistics_logger_1_1_loggable_statistics_1af29fe4dc17044a8879b62b4d05482d51" prot="public" virt="non-virtual"><scope>jenes::GeneticAlgorithm&lt; T extends Chromosome &gt;::Statistics</scope><name>getFigures</name></member>
+      <member refid="classjenes_1_1_genetic_algorithm_3_01_t_01extends_01_chromosome_01_4_1_1_statistics_1a133f3fec812000aba8b0dd3e883c979d" prot="public" virt="non-virtual"><scope>jenes::GeneticAlgorithm&lt; T extends Chromosome &gt;::Statistics</scope><name>getFitnessEvalStageBegin</name></member>
+      <member refid="classjenes_1_1_genetic_algorithm_3_01_t_01extends_01_chromosome_01_4_1_1_statistics_1ac8935a30323022b98639c291dda1f47b" prot="public" virt="non-virtual"><scope>jenes::GeneticAlgorithm&lt; T extends Chromosome &gt;::Statistics</scope><name>getFitnessEvalStageBegin</name></member>
+      <member refid="classjenes_1_1_genetic_algorithm_3_01_t_01extends_01_chromosome_01_4_1_1_statistics_1ad6d6ce1f0dbf1c8ac76b3a0f10fbb568" prot="public" virt="non-virtual"><scope>jenes::GeneticAlgorithm&lt; T extends Chromosome &gt;::Statistics</scope><name>getFitnessEvalStageEnd</name></member>
+      <member refid="classjenes_1_1_genetic_algorithm_3_01_t_01extends_01_chromosome_01_4_1_1_statistics_1a2c965bb1edac7e0c1d36806e236a5913" prot="public" virt="non-virtual"><scope>jenes::GeneticAlgorithm&lt; T extends Chromosome &gt;::Statistics</scope><name>getFitnessEvalStageEnd</name></member>
+      <member refid="classjenes_1_1_genetic_algorithm_3_01_t_01extends_01_chromosome_01_4_1_1_statistics_1abe0f3443673377de2254946c476fae1b" prot="public" virt="non-virtual"><scope>jenes::GeneticAlgorithm&lt; T extends Chromosome &gt;::Statistics</scope><name>getFitnessEvaluationNumbers</name></member>
+      <member refid="classjenes_1_1_genetic_algorithm_3_01_t_01extends_01_chromosome_01_4_1_1_statistics_1a258851d6957532a6ed355e25d98e6bcd" prot="public" virt="non-virtual"><scope>jenes::GeneticAlgorithm&lt; T extends Chromosome &gt;::Statistics</scope><name>getGenerationEndTime</name></member>
+      <member refid="classjenes_1_1_genetic_algorithm_3_01_t_01extends_01_chromosome_01_4_1_1_statistics_1a8602c59eb51fb35db57b28ce5c03ad16" prot="public" virt="non-virtual"><scope>jenes::GeneticAlgorithm&lt; T extends Chromosome &gt;::Statistics</scope><name>getGenerationLimit</name></member>
+      <member refid="classjenes_1_1_genetic_algorithm_3_01_t_01extends_01_chromosome_01_4_1_1_statistics_1a42c08b0214f6fb73743a282c92ae7988" prot="public" virt="non-virtual"><scope>jenes::GeneticAlgorithm&lt; T extends Chromosome &gt;::Statistics</scope><name>getGenerations</name></member>
+      <member refid="classjenes_1_1_genetic_algorithm_3_01_t_01extends_01_chromosome_01_4_1_1_statistics_1aa2032a65f77defd0ef1cf7dad4223d39" prot="public" virt="non-virtual"><scope>jenes::GeneticAlgorithm&lt; T extends Chromosome &gt;::Statistics</scope><name>getInitTime</name></member>
+      <member refid="classjenes_1_1_genetic_algorithm_3_01_t_01extends_01_chromosome_01_4_1_1_statistics_1a90b0186755df2626b6cd1a1dd9fbaa91" prot="public" virt="non-virtual"><scope>jenes::GeneticAlgorithm&lt; T extends Chromosome &gt;::Statistics</scope><name>getRandomSeed</name></member>
+      <member refid="classjenes_1_1_genetic_algorithm_3_01_t_01extends_01_chromosome_01_4_1_1_statistics_1a9868aa17a05187be467906036cf52149" prot="public" virt="non-virtual"><scope>jenes::GeneticAlgorithm&lt; T extends Chromosome &gt;::Statistics</scope><name>getStartTime</name></member>
+      <member refid="classjenes_1_1_genetic_algorithm_3_01_t_01extends_01_chromosome_01_4_1_1_statistics_1a71995922cff64ead804adec8f192df01" prot="public" virt="non-virtual"><scope>jenes::GeneticAlgorithm&lt; T extends Chromosome &gt;::Statistics</scope><name>getStopTime</name></member>
+      <member refid="classjenes_1_1_genetic_algorithm_3_01_t_01extends_01_chromosome_01_4_1_1_statistics_1afe3c71ced030b33863e7f071a4020dd6" prot="public" virt="non-virtual"><scope>jenes::GeneticAlgorithm&lt; T extends Chromosome &gt;::Statistics</scope><name>getTimeSpentForFitnessEval</name></member>
+      <member refid="classjenes_1_1statistics_1_1_statistics_logger_1_1_loggable_statistics_1acb7ffceff2aa39fbd545f17df39dd877" prot="public" virt="non-virtual"><scope>jenes::GeneticAlgorithm&lt; T extends Chromosome &gt;::Statistics</scope><name>getValue</name></member>
+      <member refid="classjenes_1_1_genetic_algorithm_3_01_t_01extends_01_chromosome_01_4_1_1_statistics_1a1ed2491558f68da1f6565fd2b722d8da" prot="private" virt="non-virtual"><scope>jenes::GeneticAlgorithm&lt; T extends Chromosome &gt;::Statistics</scope><name>initTime</name></member>
+      <member refid="classjenes_1_1_genetic_algorithm_3_01_t_01extends_01_chromosome_01_4_1_1_statistics_1a12b18f1b160a57bf2d32cbad3e38a39a" prot="public" virt="non-virtual"><scope>jenes::GeneticAlgorithm&lt; T extends Chromosome &gt;::Statistics</scope><name>isExceptionTerminated</name></member>
+      <member refid="classjenes_1_1statistics_1_1_statistics_logger_1_1_loggable_statistics_1ae5a06be4a046efa2cafa4d6e9943c5a9" prot="protected" virt="non-virtual"><scope>jenes::GeneticAlgorithm&lt; T extends Chromosome &gt;::Statistics</scope><name>LoggableStatistics</name></member>
+      <member refid="classjenes_1_1_genetic_algorithm_3_01_t_01extends_01_chromosome_01_4_1_1_statistics_1a6b697590338347b9e87839179ae83508" prot="private" virt="non-virtual"><scope>jenes::GeneticAlgorithm&lt; T extends Chromosome &gt;::Statistics</scope><name>randomSeed</name></member>
+      <member refid="classjenes_1_1_genetic_algorithm_3_01_t_01extends_01_chromosome_01_4_1_1_statistics_1a5e396337bd13664a04c662cb0fef34ce" prot="private" virt="non-virtual"><scope>jenes::GeneticAlgorithm&lt; T extends Chromosome &gt;::Statistics</scope><name>startTime</name></member>
+      <member refid="classjenes_1_1_genetic_algorithm_3_01_t_01extends_01_chromosome_01_4_1_1_statistics_1a82248dcf0c3ea20268f9b6faa5394d8e" prot="private" virt="non-virtual"><scope>jenes::GeneticAlgorithm&lt; T extends Chromosome &gt;::Statistics</scope><name>Statistics</name></member>
+      <member refid="classjenes_1_1_genetic_algorithm_3_01_t_01extends_01_chromosome_01_4_1_1_statistics_1a4ed505b94554647904de63208519b603" prot="private" virt="non-virtual"><scope>jenes::GeneticAlgorithm&lt; T extends Chromosome &gt;::Statistics</scope><name>stopTime</name></member>
+      <member refid="classjenes_1_1_genetic_algorithm_3_01_t_01extends_01_chromosome_01_4_1_1_statistics_1ac3d2df83ba0389f8d22e7d75c02ed03a" prot="private" virt="non-virtual"><scope>jenes::GeneticAlgorithm&lt; T extends Chromosome &gt;::Statistics</scope><name>timeSpentInFitnessEval</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

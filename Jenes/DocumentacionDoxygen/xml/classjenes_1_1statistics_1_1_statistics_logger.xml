@@ -1,0 +1,435 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="classjenes_1_1statistics_1_1_statistics_logger" kind="class" prot="public">
+    <compoundname>jenes::statistics::StatisticsLogger</compoundname>
+    <innerclass refid="interfacejenes_1_1statistics_1_1_statistics_logger_1_1_loggable" prot="public">jenes::statistics::StatisticsLogger::Loggable</innerclass>
+    <innerclass refid="classjenes_1_1statistics_1_1_statistics_logger_1_1_loggable_statistics" prot="public">jenes::statistics::StatisticsLogger::LoggableStatistics</innerclass>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classjenes_1_1statistics_1_1_statistics_logger_1a8b3fff50891ab6715773b1e71dbfe30d" prot="private" static="no" mutable="no">
+        <type><ref refid="classjenes_1_1utils_1_1_abstract_logger" kindref="compound">AbstractLogger</ref></type>
+        <definition>AbstractLogger jenes.statistics.StatisticsLogger.logger</definition>
+        <argsstring></argsstring>
+        <name>logger</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The logger used for saving the statistics </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/statistics/StatisticsLogger.java" line="66" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/statistics/StatisticsLogger.java" bodystart="66" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classjenes_1_1statistics_1_1_statistics_logger_1a294b6a4c271f4cbc935792d99bd284b3" prot="private" static="no" mutable="no">
+        <type>String[]</type>
+        <definition>String [] jenes.statistics.StatisticsLogger.figures</definition>
+        <argsstring></argsstring>
+        <name>figures</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The figures we are interested to save. If null, means all figures </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/statistics/StatisticsLogger.java" line="68" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/statistics/StatisticsLogger.java" bodystart="68" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classjenes_1_1statistics_1_1_statistics_logger_1ad4bf879bdfb673a6f82f3536fd5557b8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>jenes.statistics.StatisticsLogger.StatisticsLogger</definition>
+        <argsstring>(AbstractLogger logger, String...figures)</argsstring>
+        <name>StatisticsLogger</name>
+        <param>
+          <type><ref refid="classjenes_1_1utils_1_1_abstract_logger" kindref="compound">AbstractLogger</ref></type>
+          <declname>logger</declname>
+        </param>
+        <param>
+          <type>String...</type>
+          <declname>figures</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Creastes a <ref refid="classjenes_1_1statistics_1_1_statistics_logger" kindref="compound">StatisticsLogger</ref>. If figures is empty, no filter is applied and all statistics are able to be saved.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>logger</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- the logger used to save the statistics </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>figures</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- the figures that we are interested to save </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/statistics/StatisticsLogger.java" line="77" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/statistics/StatisticsLogger.java" bodystart="77" bodyend="80"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1statistics_1_1_statistics_logger_1a8f7fc89cbbd6c6aad447057cd3eb6dbe" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void jenes.statistics.StatisticsLogger.record</definition>
+        <argsstring>(LoggableStatistics statistics)</argsstring>
+        <name>record</name>
+        <param>
+          <type><ref refid="classjenes_1_1statistics_1_1_statistics_logger_1_1_loggable_statistics" kindref="compound">LoggableStatistics</ref></type>
+          <declname>statistics</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Store a new statistic record in the logger.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>statistics</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- the statistics being logged. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/statistics/StatisticsLogger.java" line="87" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/statistics/StatisticsLogger.java" bodystart="87" bodyend="89"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1statistics_1_1_statistics_logger_1a31acd1617a14ed32519fc5487b30fd25" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void jenes.statistics.StatisticsLogger.record</definition>
+        <argsstring>(String prefix, LoggableStatistics statistics)</argsstring>
+        <name>record</name>
+        <param>
+          <type>String</type>
+          <declname>prefix</declname>
+        </param>
+        <param>
+          <type><ref refid="classjenes_1_1statistics_1_1_statistics_logger_1_1_loggable_statistics" kindref="compound">LoggableStatistics</ref></type>
+          <declname>statistics</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Store a new statistic record in the logger.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>prefix</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- the prefix of statistics name </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>statistics</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- the statistics being logged. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/statistics/StatisticsLogger.java" line="97" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/statistics/StatisticsLogger.java" bodystart="97" bodyend="99"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1statistics_1_1_statistics_logger_1a1e68400e5e02df74005d654dd52a9b34" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void jenes.statistics.StatisticsLogger.record</definition>
+        <argsstring>(String prefix, LoggableStatistics statistics, boolean log)</argsstring>
+        <name>record</name>
+        <param>
+          <type>String</type>
+          <declname>prefix</declname>
+        </param>
+        <param>
+          <type><ref refid="classjenes_1_1statistics_1_1_statistics_logger_1_1_loggable_statistics" kindref="compound">LoggableStatistics</ref></type>
+          <declname>statistics</declname>
+        </param>
+        <param>
+          <type>boolean</type>
+          <declname>log</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Store a new statistic record in the logger.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>prefix</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- the prefix of statistics name </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>statistics</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- the statistics being logged. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>log</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- if <computeroutput>true&lt;/ code&gt; logs a current record by storing it and making the record empty. </computeroutput></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/statistics/StatisticsLogger.java" line="108" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/statistics/StatisticsLogger.java" bodystart="108" bodyend="124"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1statistics_1_1_statistics_logger_1ac9ee13346b299296f315ad6cf247fdcf" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void jenes.statistics.StatisticsLogger.add</definition>
+        <argsstring>(String prefix, String key, Object value)</argsstring>
+        <name>add</name>
+        <param>
+          <type>String</type>
+          <declname>prefix</declname>
+        </param>
+        <param>
+          <type>String</type>
+          <declname>key</declname>
+        </param>
+        <param>
+          <type>Object</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Add a value into the current record.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>prefix</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- the prefix of statistics name </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>key</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- the statistics name </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>value</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- the statistics value </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/statistics/StatisticsLogger.java" line="134" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/statistics/StatisticsLogger.java" bodystart="134" bodyend="136"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1statistics_1_1_statistics_logger_1abd8fdfad668108933aa315c415050d63" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classjenes_1_1utils_1_1_abstract_logger" kindref="compound">AbstractLogger</ref></type>
+        <definition>AbstractLogger jenes.statistics.StatisticsLogger.getLogger</definition>
+        <argsstring>()</argsstring>
+        <name>getLogger</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns the logger used for storing the statistics.</para><para><simplesect kind="return"><para>the logger </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/statistics/StatisticsLogger.java" line="198" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/statistics/StatisticsLogger.java" bodystart="198" bodyend="200"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1statistics_1_1_statistics_logger_1a35539d6c4f5664617185d68c6efdf66a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void jenes.statistics.StatisticsLogger.log</definition>
+        <argsstring>()</argsstring>
+        <name>log</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Logs a current record by storing it and making the record empty </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/statistics/StatisticsLogger.java" line="205" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/statistics/StatisticsLogger.java" bodystart="205" bodyend="207"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1statistics_1_1_statistics_logger_1a80cde2facc21c7398050e89131a7321e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void jenes.statistics.StatisticsLogger.save</definition>
+        <argsstring>()</argsstring>
+        <name>save</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Saves the undelying logger. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/statistics/StatisticsLogger.java" line="212" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/statistics/StatisticsLogger.java" bodystart="212" bodyend="214"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1statistics_1_1_statistics_logger_1aae3d375349f86fcd9a7ce450bae3d046" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void jenes.statistics.StatisticsLogger.close</definition>
+        <argsstring>()</argsstring>
+        <name>close</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Closes the undelying logger. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/statistics/StatisticsLogger.java" line="219" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/statistics/StatisticsLogger.java" bodystart="219" bodyend="221"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classjenes_1_1statistics_1_1_statistics_logger_1a2644fe91ad8cbd906f080d29c357990e" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String[]</type>
+        <definition>String [] jenes.statistics.StatisticsLogger.getFiguresFromSchema</definition>
+        <argsstring>(String prefix, String[] schema)</argsstring>
+        <name>getFiguresFromSchema</name>
+        <param>
+          <type>String</type>
+          <declname>prefix</declname>
+        </param>
+        <param>
+          <type>String[]</type>
+          <declname>schema</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/statistics/StatisticsLogger.java" line="138" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/statistics/StatisticsLogger.java" bodystart="138" bodyend="154"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1statistics_1_1_statistics_logger_1aecd5866bd413f3f9260603c885de1985" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void jenes.statistics.StatisticsLogger.store</definition>
+        <argsstring>(String prefix, LoggableStatistics statistics, String f, String[] schema)</argsstring>
+        <name>store</name>
+        <param>
+          <type>String</type>
+          <declname>prefix</declname>
+        </param>
+        <param>
+          <type><ref refid="classjenes_1_1statistics_1_1_statistics_logger_1_1_loggable_statistics" kindref="compound">LoggableStatistics</ref></type>
+          <declname>statistics</declname>
+        </param>
+        <param>
+          <type>String</type>
+          <declname>f</declname>
+        </param>
+        <param>
+          <type>String[]</type>
+          <declname>schema</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/statistics/StatisticsLogger.java" line="156" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/statistics/StatisticsLogger.java" bodystart="156" bodyend="179"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1statistics_1_1_statistics_logger_1ab6f709ff2b69c85882208d04beea40f7" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void jenes.statistics.StatisticsLogger.add</definition>
+        <argsstring>(Object value, String key, String[] schema)</argsstring>
+        <name>add</name>
+        <param>
+          <type>Object</type>
+          <declname>value</declname>
+        </param>
+        <param>
+          <type>String</type>
+          <declname>key</declname>
+        </param>
+        <param>
+          <type>String[]</type>
+          <declname>schema</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/statistics/StatisticsLogger.java" line="181" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/statistics/StatisticsLogger.java" bodystart="181" bodyend="191"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classjenes_1_1statistics_1_1_statistics_logger_1ac1b95fdfa1e20c87b66d6f36b78d9ed1" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void jenes.statistics.StatisticsLogger.finalize</definition>
+        <argsstring>()</argsstring>
+        <name>finalize</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/statistics/StatisticsLogger.java" line="309" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/statistics/StatisticsLogger.java" bodystart="309" bodyend="311"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>This class provides an utility wrapper for logging the statistics.</para><para>In order to log statistics, the class has to extend <computeroutput><ref refid="classjenes_1_1statistics_1_1_statistics_logger_1_1_loggable_statistics" kindref="compound">LoggableStatistics</ref><computeroutput> in order to automatically retrieve figures. Figures are provided by methods returning <computeroutput>double</computeroutput> value figures and annotated as <computeroutput><computeroutput>.</computeroutput></computeroutput></computeroutput></computeroutput></para><para><computeroutput><computeroutput><computeroutput><computeroutput>For example: <blockquote><para><preformatted>
+class MyStatistics extends <ref refid="classjenes_1_1statistics_1_1_statistics_logger_1_1_loggable_statistics" kindref="compound">LoggableStatistics</ref> {
+   ...
+   &amp;#064;<ref refid="interfacejenes_1_1statistics_1_1_statistics_logger_1_1_loggable" kindref="compound">Loggable</ref>(&quot;SomeFigure&quot;)
+   double getSomeValue() { ... }
+   ...
+   &amp;#064;<ref refid="interfacejenes_1_1statistics_1_1_statistics_logger_1_1_loggable" kindref="compound">Loggable</ref>(&quot;SomeCount&quot;)
+   double getSomeCount() { ... }
+   ...
+}
+
+</preformatted></para></blockquote>Statistics are passed to the logger as specified at instantiation time.</computeroutput></computeroutput></computeroutput></computeroutput></para><para><computeroutput><computeroutput><computeroutput><computeroutput><simplesect kind="version"><para>2.0 </para></simplesect>
+<simplesect kind="since"><para>1.3</para></simplesect>
+<simplesect kind="see"><para><ref refid="classjenes_1_1statistics_1_1_statistics_logger_1_1_loggable_statistics" kindref="compound">StatisticsLogger.LoggableStatistics</ref> </para></simplesect>
+</computeroutput></computeroutput></computeroutput></computeroutput></para>    </detaileddescription>
+    <collaborationgraph>
+      <node id="675">
+        <label>List&lt; String &gt;</label>
+      </node>
+      <node id="674">
+        <label>jenes.utils.AbstractLogger</label>
+        <link refid="classjenes_1_1utils_1_1_abstract_logger"/>
+        <childnode refid="675" relation="usage">
+          <edgelabel>schema</edgelabel>
+        </childnode>
+        <childnode refid="676" relation="usage">
+          <edgelabel>record</edgelabel>
+        </childnode>
+      </node>
+      <node id="673">
+        <label>jenes.statistics.StatisticsLogger</label>
+        <link refid="classjenes_1_1statistics_1_1_statistics_logger"/>
+        <childnode refid="674" relation="usage">
+          <edgelabel>logger</edgelabel>
+        </childnode>
+      </node>
+      <node id="676">
+        <label>Map&lt; String, Object &gt;</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/statistics/StatisticsLogger.java" line="63" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/statistics/StatisticsLogger.java" bodystart="63" bodyend="312"/>
+    <listofallmembers>
+      <member refid="classjenes_1_1statistics_1_1_statistics_logger_1ac9ee13346b299296f315ad6cf247fdcf" prot="public" virt="non-virtual"><scope>jenes::statistics::StatisticsLogger</scope><name>add</name></member>
+      <member refid="classjenes_1_1statistics_1_1_statistics_logger_1ab6f709ff2b69c85882208d04beea40f7" prot="private" virt="non-virtual"><scope>jenes::statistics::StatisticsLogger</scope><name>add</name></member>
+      <member refid="classjenes_1_1statistics_1_1_statistics_logger_1aae3d375349f86fcd9a7ce450bae3d046" prot="public" virt="non-virtual"><scope>jenes::statistics::StatisticsLogger</scope><name>close</name></member>
+      <member refid="classjenes_1_1statistics_1_1_statistics_logger_1a294b6a4c271f4cbc935792d99bd284b3" prot="private" virt="non-virtual"><scope>jenes::statistics::StatisticsLogger</scope><name>figures</name></member>
+      <member refid="classjenes_1_1statistics_1_1_statistics_logger_1ac1b95fdfa1e20c87b66d6f36b78d9ed1" prot="protected" virt="non-virtual"><scope>jenes::statistics::StatisticsLogger</scope><name>finalize</name></member>
+      <member refid="classjenes_1_1statistics_1_1_statistics_logger_1a2644fe91ad8cbd906f080d29c357990e" prot="private" virt="non-virtual"><scope>jenes::statistics::StatisticsLogger</scope><name>getFiguresFromSchema</name></member>
+      <member refid="classjenes_1_1statistics_1_1_statistics_logger_1abd8fdfad668108933aa315c415050d63" prot="public" virt="non-virtual"><scope>jenes::statistics::StatisticsLogger</scope><name>getLogger</name></member>
+      <member refid="classjenes_1_1statistics_1_1_statistics_logger_1a35539d6c4f5664617185d68c6efdf66a" prot="public" virt="non-virtual"><scope>jenes::statistics::StatisticsLogger</scope><name>log</name></member>
+      <member refid="classjenes_1_1statistics_1_1_statistics_logger_1a8b3fff50891ab6715773b1e71dbfe30d" prot="private" virt="non-virtual"><scope>jenes::statistics::StatisticsLogger</scope><name>logger</name></member>
+      <member refid="classjenes_1_1statistics_1_1_statistics_logger_1a8f7fc89cbbd6c6aad447057cd3eb6dbe" prot="public" virt="non-virtual"><scope>jenes::statistics::StatisticsLogger</scope><name>record</name></member>
+      <member refid="classjenes_1_1statistics_1_1_statistics_logger_1a31acd1617a14ed32519fc5487b30fd25" prot="public" virt="non-virtual"><scope>jenes::statistics::StatisticsLogger</scope><name>record</name></member>
+      <member refid="classjenes_1_1statistics_1_1_statistics_logger_1a1e68400e5e02df74005d654dd52a9b34" prot="public" virt="non-virtual"><scope>jenes::statistics::StatisticsLogger</scope><name>record</name></member>
+      <member refid="classjenes_1_1statistics_1_1_statistics_logger_1a80cde2facc21c7398050e89131a7321e" prot="public" virt="non-virtual"><scope>jenes::statistics::StatisticsLogger</scope><name>save</name></member>
+      <member refid="classjenes_1_1statistics_1_1_statistics_logger_1ad4bf879bdfb673a6f82f3536fd5557b8" prot="public" virt="non-virtual"><scope>jenes::statistics::StatisticsLogger</scope><name>StatisticsLogger</name></member>
+      <member refid="classjenes_1_1statistics_1_1_statistics_logger_1aecd5866bd413f3f9260603c885de1985" prot="private" virt="non-virtual"><scope>jenes::statistics::StatisticsLogger</scope><name>store</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

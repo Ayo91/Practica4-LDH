@@ -1,0 +1,586 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="classjenes_1_1chromosome_1_1_boolean_chromosome" kind="class" prot="public">
+    <compoundname>jenes::chromosome::BooleanChromosome</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">jenes::chromosome::Chromosome&lt; BooleanChromosome &gt;</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classjenes_1_1chromosome_1_1_boolean_chromosome_1a87f2b8bb4dea33263178bc16a1dceeae" prot="private" static="no" mutable="no">
+        <type>boolean[]</type>
+        <definition>boolean [] jenes.chromosome.BooleanChromosome.genes</definition>
+        <argsstring></argsstring>
+        <name>genes</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/chromosome/BooleanChromosome.java" line="34" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/chromosome/BooleanChromosome.java" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classjenes_1_1chromosome_1_1_boolean_chromosome_1aa91a13c17d9a481a3ec56cc4ac9a1fd0" prot="private" static="no" mutable="no">
+        <type>boolean</type>
+        <definition>boolean jenes.chromosome.BooleanChromosome.defaultValue</definition>
+        <argsstring></argsstring>
+        <name>defaultValue</name>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/chromosome/BooleanChromosome.java" line="35" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/chromosome/BooleanChromosome.java" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classjenes_1_1chromosome_1_1_boolean_chromosome_1add8b8de56dc676084576bcc657125414" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>jenes.chromosome.BooleanChromosome.BooleanChromosome</definition>
+        <argsstring>(final BooleanChromosome chromosome)</argsstring>
+        <name>BooleanChromosome</name>
+        <param>
+          <type>final <ref refid="classjenes_1_1chromosome_1_1_boolean_chromosome" kindref="compound">BooleanChromosome</ref></type>
+          <declname>chromosome</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Creates a new <ref refid="classjenes_1_1chromosome_1_1_boolean_chromosome" kindref="compound">BooleanChromosome</ref> with the specified chromosome </para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>chromosome</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the parameters source chromosome </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/chromosome/BooleanChromosome.java" line="42" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/chromosome/BooleanChromosome.java" bodystart="42" bodyend="46"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1chromosome_1_1_boolean_chromosome_1aea950688e012d2bfe97f4f24a3fc1db6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>jenes.chromosome.BooleanChromosome.BooleanChromosome</definition>
+        <argsstring>(final int size)</argsstring>
+        <name>BooleanChromosome</name>
+        <param>
+          <type>final int</type>
+          <declname>size</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Creates a new <ref refid="classjenes_1_1chromosome_1_1_boolean_chromosome" kindref="compound">BooleanChromosome</ref> with the specified chromosome length </para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>size</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the chromosome length </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/chromosome/BooleanChromosome.java" line="53" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/chromosome/BooleanChromosome.java" bodystart="53" bodyend="55"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1chromosome_1_1_boolean_chromosome_1adf2084640bd92e4d36ffea9142e39f8e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>final void</type>
+        <definition>final void jenes.chromosome.BooleanChromosome.setDefaultValueAt</definition>
+        <argsstring>(final int pos)</argsstring>
+        <name>setDefaultValueAt</name>
+        <param>
+          <type>final int</type>
+          <declname>pos</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/chromosome/BooleanChromosome.java" line="57" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/chromosome/BooleanChromosome.java" bodystart="57" bodyend="59"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1chromosome_1_1_boolean_chromosome_1a0f0ea11e413734e15dc659a3d0831801" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>final <ref refid="classjenes_1_1chromosome_1_1_boolean_chromosome" kindref="compound">BooleanChromosome</ref></type>
+        <definition>final BooleanChromosome jenes.chromosome.BooleanChromosome.clone</definition>
+        <argsstring>()</argsstring>
+        <name>clone</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/chromosome/BooleanChromosome.java" line="62" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/chromosome/BooleanChromosome.java" bodystart="62" bodyend="64"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1chromosome_1_1_boolean_chromosome_1ab02039091f6803486d54b4f124a39b63" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>final void</type>
+        <definition>final void jenes.chromosome.BooleanChromosome.randomize</definition>
+        <argsstring>()</argsstring>
+        <name>randomize</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/chromosome/BooleanChromosome.java" line="66" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/chromosome/BooleanChromosome.java" bodystart="66" bodyend="70"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1chromosome_1_1_boolean_chromosome_1af0249c8a5452c3a13960543ab23d4aae" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>final void</type>
+        <definition>final void jenes.chromosome.BooleanChromosome.randomize</definition>
+        <argsstring>(final int pos)</argsstring>
+        <name>randomize</name>
+        <param>
+          <type>final int</type>
+          <declname>pos</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/chromosome/BooleanChromosome.java" line="72" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/chromosome/BooleanChromosome.java" bodystart="72" bodyend="74"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1chromosome_1_1_boolean_chromosome_1a6359dc1f495e4f7967c6a84f3206de40" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>final void</type>
+        <definition>final void jenes.chromosome.BooleanChromosome.swap</definition>
+        <argsstring>(final int pos1, final int pos2)</argsstring>
+        <name>swap</name>
+        <param>
+          <type>final int</type>
+          <declname>pos1</declname>
+        </param>
+        <param>
+          <type>final int</type>
+          <declname>pos2</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/chromosome/BooleanChromosome.java" line="76" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/chromosome/BooleanChromosome.java" bodystart="76" bodyend="80"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1chromosome_1_1_boolean_chromosome_1a96c0fb9c3f1668cbc9ca175a183f69d4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>final void</type>
+        <definition>final void jenes.chromosome.BooleanChromosome.leftShift</definition>
+        <argsstring>(final int from, int to)</argsstring>
+        <name>leftShift</name>
+        <param>
+          <type>final int</type>
+          <declname>from</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>to</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/chromosome/BooleanChromosome.java" line="82" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/chromosome/BooleanChromosome.java" bodystart="82" bodyend="97"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1chromosome_1_1_boolean_chromosome_1a866689aeafc1b4a5e83c14a1605bc7ce" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>final void</type>
+        <definition>final void jenes.chromosome.BooleanChromosome.rightShift</definition>
+        <argsstring>(final int from, int to)</argsstring>
+        <name>rightShift</name>
+        <param>
+          <type>final int</type>
+          <declname>from</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>to</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/chromosome/BooleanChromosome.java" line="99" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/chromosome/BooleanChromosome.java" bodystart="99" bodyend="114"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1chromosome_1_1_boolean_chromosome_1a4665770a8e625c26f3704b41fecb10f8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>final int</type>
+        <definition>final int jenes.chromosome.BooleanChromosome.length</definition>
+        <argsstring>()</argsstring>
+        <name>length</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/chromosome/BooleanChromosome.java" line="116" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/chromosome/BooleanChromosome.java" bodystart="116" bodyend="118"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1chromosome_1_1_boolean_chromosome_1a16d9851ba21583010d003378a7d59d19" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>final void</type>
+        <definition>final void jenes.chromosome.BooleanChromosome.setAs</definition>
+        <argsstring>(final BooleanChromosome chromosome)</argsstring>
+        <name>setAs</name>
+        <param>
+          <type>final <ref refid="classjenes_1_1chromosome_1_1_boolean_chromosome" kindref="compound">BooleanChromosome</ref></type>
+          <declname>chromosome</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/chromosome/BooleanChromosome.java" line="120" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/chromosome/BooleanChromosome.java" bodystart="120" bodyend="129"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1chromosome_1_1_boolean_chromosome_1aa1c3c421b6e8e6db44fb7cce7443e669" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>final void</type>
+        <definition>final void jenes.chromosome.BooleanChromosome.cross</definition>
+        <argsstring>(final BooleanChromosome chromosome, final int from)</argsstring>
+        <name>cross</name>
+        <param>
+          <type>final <ref refid="classjenes_1_1chromosome_1_1_boolean_chromosome" kindref="compound">BooleanChromosome</ref></type>
+          <declname>chromosome</declname>
+        </param>
+        <param>
+          <type>final int</type>
+          <declname>from</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/chromosome/BooleanChromosome.java" line="131" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/chromosome/BooleanChromosome.java" bodystart="131" bodyend="151"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1chromosome_1_1_boolean_chromosome_1af31ce0ed4f82fccd837cfde93bc4ee61" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>final void</type>
+        <definition>final void jenes.chromosome.BooleanChromosome.cross</definition>
+        <argsstring>(final BooleanChromosome chromosome, final int from, final int to)</argsstring>
+        <name>cross</name>
+        <param>
+          <type>final <ref refid="classjenes_1_1chromosome_1_1_boolean_chromosome" kindref="compound">BooleanChromosome</ref></type>
+          <declname>chromosome</declname>
+        </param>
+        <param>
+          <type>final int</type>
+          <declname>from</declname>
+        </param>
+        <param>
+          <type>final int</type>
+          <declname>to</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/chromosome/BooleanChromosome.java" line="153" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/chromosome/BooleanChromosome.java" bodystart="153" bodyend="172"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1chromosome_1_1_boolean_chromosome_1a6edb214f001732cfd6af9bbac3a23515" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>final boolean</type>
+        <definition>final boolean jenes.chromosome.BooleanChromosome.getValue</definition>
+        <argsstring>(final int pos)</argsstring>
+        <name>getValue</name>
+        <param>
+          <type>final int</type>
+          <declname>pos</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns the boolean value at the specified position </para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>pos</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>a gene position </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>the boolean value at the specified position </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/chromosome/BooleanChromosome.java" line="180" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/chromosome/BooleanChromosome.java" bodystart="180" bodyend="186"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1chromosome_1_1_boolean_chromosome_1a27db9ee77a97d896d0cdafc726681272" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>final boolean[]</type>
+        <definition>final boolean [] jenes.chromosome.BooleanChromosome.getValues</definition>
+        <argsstring>()</argsstring>
+        <name>getValues</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns the boolean values </para><para><simplesect kind="return"><para>values </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/chromosome/BooleanChromosome.java" line="193" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/chromosome/BooleanChromosome.java" bodystart="193" bodyend="197"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1chromosome_1_1_boolean_chromosome_1a9bd35e276f2739f19fa7a695c85f415c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>final void</type>
+        <definition>final void jenes.chromosome.BooleanChromosome.setValueAt</definition>
+        <argsstring>(boolean value, int position)</argsstring>
+        <name>setValueAt</name>
+        <param>
+          <type>boolean</type>
+          <declname>value</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>position</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Sets a new boolean value at the specified position </para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>value</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the value to be set </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>position</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the position to modify </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/chromosome/BooleanChromosome.java" line="205" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/chromosome/BooleanChromosome.java" bodystart="205" bodyend="207"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1chromosome_1_1_boolean_chromosome_1aafccb6ebf217d02c0502e185b1972f82" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>final boolean[]</type>
+        <definition>final boolean [] jenes.chromosome.BooleanChromosome.getValues</definition>
+        <argsstring>(final boolean values[])</argsstring>
+        <name>getValues</name>
+        <param>
+          <type>final boolean</type>
+          <declname>values</declname>
+          <array>[]</array>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Provides the gene values by the array passed as parameter and returning it on return. If the argument values is null, the array is first created. </para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>values</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the array to fill </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>the array of values </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/chromosome/BooleanChromosome.java" line="216" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/chromosome/BooleanChromosome.java" bodystart="216" bodyend="224"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1chromosome_1_1_boolean_chromosome_1a3730cbcd4d048349f134593db820566d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>final void</type>
+        <definition>final void jenes.chromosome.BooleanChromosome.setDefaultValue</definition>
+        <argsstring>(final boolean defaultValue)</argsstring>
+        <name>setDefaultValue</name>
+        <param>
+          <type>final boolean</type>
+          <declname>defaultValue</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Sets the default value of this chromosome </para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>defaultValue</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the new default value to be used </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/chromosome/BooleanChromosome.java" line="231" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/chromosome/BooleanChromosome.java" bodystart="231" bodyend="233"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1chromosome_1_1_boolean_chromosome_1a9b75f626b2b5fbc90215a53ac91d24a7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>final boolean</type>
+        <definition>final boolean jenes.chromosome.BooleanChromosome.getDefaultValue</definition>
+        <argsstring>()</argsstring>
+        <name>getDefaultValue</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns the default value of this chromosome </para><para><simplesect kind="return"><para>the boolean default value of this chromosome </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/chromosome/BooleanChromosome.java" line="240" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/chromosome/BooleanChromosome.java" bodystart="240" bodyend="242"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1chromosome_1_1_boolean_chromosome_1ab37e05ed7a30e43b740f0c2d9c548e88" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>final void</type>
+        <definition>final void jenes.chromosome.BooleanChromosome.setValue</definition>
+        <argsstring>(final int pos, final boolean value)</argsstring>
+        <name>setValue</name>
+        <param>
+          <type>final int</type>
+          <declname>pos</declname>
+        </param>
+        <param>
+          <type>final boolean</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Sets the specified value at the specified position </para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>pos</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the position to be modify </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>value</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the value to be set </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/chromosome/BooleanChromosome.java" line="250" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/chromosome/BooleanChromosome.java" bodystart="250" bodyend="256"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1chromosome_1_1_boolean_chromosome_1a17ecce8325cc2ba6b1703551768c245f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>final String</type>
+        <definition>final String jenes.chromosome.BooleanChromosome.toString</definition>
+        <argsstring>()</argsstring>
+        <name>toString</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/chromosome/BooleanChromosome.java" line="259" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/chromosome/BooleanChromosome.java" bodystart="259" bodyend="271"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1chromosome_1_1_boolean_chromosome_1a82b50fe50a7e8821ee3ae5cc96bca013" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>final boolean</type>
+        <definition>final boolean jenes.chromosome.BooleanChromosome.equals</definition>
+        <argsstring>(final BooleanChromosome chromosome)</argsstring>
+        <name>equals</name>
+        <param>
+          <type>final <ref refid="classjenes_1_1chromosome_1_1_boolean_chromosome" kindref="compound">BooleanChromosome</ref></type>
+          <declname>chromosome</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/chromosome/BooleanChromosome.java" line="274" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/chromosome/BooleanChromosome.java" bodystart="274" bodyend="284"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1chromosome_1_1_boolean_chromosome_1a0d602ca5a958ee2712963602d2f1eee9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void jenes.chromosome.BooleanChromosome.difference</definition>
+        <argsstring>(BooleanChromosome chromosome, double[] diff)</argsstring>
+        <name>difference</name>
+        <param>
+          <type><ref refid="classjenes_1_1chromosome_1_1_boolean_chromosome" kindref="compound">BooleanChromosome</ref></type>
+          <declname>chromosome</declname>
+        </param>
+        <param>
+          <type>double[]</type>
+          <declname>diff</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/chromosome/BooleanChromosome.java" line="287" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/chromosome/BooleanChromosome.java" bodystart="287" bodyend="301"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1chromosome_1_1_boolean_chromosome_1a3ff06b819a640b0e89935d99cc69d3ac" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Object[]</type>
+        <definition>Object [] jenes.chromosome.BooleanChromosome.toArray</definition>
+        <argsstring>()</argsstring>
+        <name>toArray</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/chromosome/BooleanChromosome.java" line="304" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/chromosome/BooleanChromosome.java" bodystart="304" bodyend="310"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>A <ref refid="classjenes_1_1chromosome_1_1_boolean_chromosome" kindref="compound">BooleanChromosome</ref> is made of an array of booleans. Each gene can assume the value true or false. A faster and less memory demanding alternative to <ref refid="classjenes_1_1chromosome_1_1_boolean_chromosome" kindref="compound">BooleanChromosome</ref> is provided by <ref refid="classjenes_1_1chromosome_1_1_bitwise_chromosome" kindref="compound">BitwiseChromosome</ref> with <ref refid="classjenes_1_1chromosome_1_1codings_1_1_boolean_coding" kindref="compound">jenes.chromosome.codings.BooleanCoding</ref>.</para><para><simplesect kind="version"><para>2.0 </para></simplesect>
+<simplesect kind="since"><para>1.0 </para></simplesect>
+</para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="35">
+        <label>jenes::chromosome::Chromosome&lt; BooleanChromosome &gt;</label>
+      </node>
+      <node id="34">
+        <label>jenes.chromosome.BooleanChromosome</label>
+        <link refid="classjenes_1_1chromosome_1_1_boolean_chromosome"/>
+        <childnode refid="35" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="37">
+        <label>jenes::chromosome::Chromosome&lt; BooleanChromosome &gt;</label>
+      </node>
+      <node id="36">
+        <label>jenes.chromosome.BooleanChromosome</label>
+        <link refid="classjenes_1_1chromosome_1_1_boolean_chromosome"/>
+        <childnode refid="37" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/chromosome/BooleanChromosome.java" line="32" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/chromosome/BooleanChromosome.java" bodystart="32" bodyend="311"/>
+    <listofallmembers>
+      <member refid="classjenes_1_1chromosome_1_1_boolean_chromosome_1add8b8de56dc676084576bcc657125414" prot="public" virt="non-virtual"><scope>jenes::chromosome::BooleanChromosome</scope><name>BooleanChromosome</name></member>
+      <member refid="classjenes_1_1chromosome_1_1_boolean_chromosome_1aea950688e012d2bfe97f4f24a3fc1db6" prot="public" virt="non-virtual"><scope>jenes::chromosome::BooleanChromosome</scope><name>BooleanChromosome</name></member>
+      <member refid="classjenes_1_1chromosome_1_1_boolean_chromosome_1a0f0ea11e413734e15dc659a3d0831801" prot="public" virt="non-virtual"><scope>jenes::chromosome::BooleanChromosome</scope><name>clone</name></member>
+      <member refid="classjenes_1_1chromosome_1_1_boolean_chromosome_1aa1c3c421b6e8e6db44fb7cce7443e669" prot="public" virt="non-virtual"><scope>jenes::chromosome::BooleanChromosome</scope><name>cross</name></member>
+      <member refid="classjenes_1_1chromosome_1_1_boolean_chromosome_1af31ce0ed4f82fccd837cfde93bc4ee61" prot="public" virt="non-virtual"><scope>jenes::chromosome::BooleanChromosome</scope><name>cross</name></member>
+      <member refid="classjenes_1_1chromosome_1_1_boolean_chromosome_1aa91a13c17d9a481a3ec56cc4ac9a1fd0" prot="private" virt="non-virtual"><scope>jenes::chromosome::BooleanChromosome</scope><name>defaultValue</name></member>
+      <member refid="classjenes_1_1chromosome_1_1_boolean_chromosome_1a0d602ca5a958ee2712963602d2f1eee9" prot="public" virt="non-virtual"><scope>jenes::chromosome::BooleanChromosome</scope><name>difference</name></member>
+      <member refid="classjenes_1_1chromosome_1_1_boolean_chromosome_1a82b50fe50a7e8821ee3ae5cc96bca013" prot="public" virt="non-virtual"><scope>jenes::chromosome::BooleanChromosome</scope><name>equals</name></member>
+      <member refid="classjenes_1_1chromosome_1_1_boolean_chromosome_1a87f2b8bb4dea33263178bc16a1dceeae" prot="private" virt="non-virtual"><scope>jenes::chromosome::BooleanChromosome</scope><name>genes</name></member>
+      <member refid="classjenes_1_1chromosome_1_1_boolean_chromosome_1a9b75f626b2b5fbc90215a53ac91d24a7" prot="public" virt="non-virtual"><scope>jenes::chromosome::BooleanChromosome</scope><name>getDefaultValue</name></member>
+      <member refid="classjenes_1_1chromosome_1_1_boolean_chromosome_1a6edb214f001732cfd6af9bbac3a23515" prot="public" virt="non-virtual"><scope>jenes::chromosome::BooleanChromosome</scope><name>getValue</name></member>
+      <member refid="classjenes_1_1chromosome_1_1_boolean_chromosome_1a27db9ee77a97d896d0cdafc726681272" prot="public" virt="non-virtual"><scope>jenes::chromosome::BooleanChromosome</scope><name>getValues</name></member>
+      <member refid="classjenes_1_1chromosome_1_1_boolean_chromosome_1aafccb6ebf217d02c0502e185b1972f82" prot="public" virt="non-virtual"><scope>jenes::chromosome::BooleanChromosome</scope><name>getValues</name></member>
+      <member refid="classjenes_1_1chromosome_1_1_boolean_chromosome_1a96c0fb9c3f1668cbc9ca175a183f69d4" prot="public" virt="non-virtual"><scope>jenes::chromosome::BooleanChromosome</scope><name>leftShift</name></member>
+      <member refid="classjenes_1_1chromosome_1_1_boolean_chromosome_1a4665770a8e625c26f3704b41fecb10f8" prot="public" virt="non-virtual"><scope>jenes::chromosome::BooleanChromosome</scope><name>length</name></member>
+      <member refid="classjenes_1_1chromosome_1_1_boolean_chromosome_1ab02039091f6803486d54b4f124a39b63" prot="public" virt="non-virtual"><scope>jenes::chromosome::BooleanChromosome</scope><name>randomize</name></member>
+      <member refid="classjenes_1_1chromosome_1_1_boolean_chromosome_1af0249c8a5452c3a13960543ab23d4aae" prot="public" virt="non-virtual"><scope>jenes::chromosome::BooleanChromosome</scope><name>randomize</name></member>
+      <member refid="classjenes_1_1chromosome_1_1_boolean_chromosome_1a866689aeafc1b4a5e83c14a1605bc7ce" prot="public" virt="non-virtual"><scope>jenes::chromosome::BooleanChromosome</scope><name>rightShift</name></member>
+      <member refid="classjenes_1_1chromosome_1_1_boolean_chromosome_1a16d9851ba21583010d003378a7d59d19" prot="public" virt="non-virtual"><scope>jenes::chromosome::BooleanChromosome</scope><name>setAs</name></member>
+      <member refid="classjenes_1_1chromosome_1_1_boolean_chromosome_1a3730cbcd4d048349f134593db820566d" prot="public" virt="non-virtual"><scope>jenes::chromosome::BooleanChromosome</scope><name>setDefaultValue</name></member>
+      <member refid="classjenes_1_1chromosome_1_1_boolean_chromosome_1adf2084640bd92e4d36ffea9142e39f8e" prot="public" virt="non-virtual"><scope>jenes::chromosome::BooleanChromosome</scope><name>setDefaultValueAt</name></member>
+      <member refid="classjenes_1_1chromosome_1_1_boolean_chromosome_1ab37e05ed7a30e43b740f0c2d9c548e88" prot="public" virt="non-virtual"><scope>jenes::chromosome::BooleanChromosome</scope><name>setValue</name></member>
+      <member refid="classjenes_1_1chromosome_1_1_boolean_chromosome_1a9bd35e276f2739f19fa7a695c85f415c" prot="public" virt="non-virtual"><scope>jenes::chromosome::BooleanChromosome</scope><name>setValueAt</name></member>
+      <member refid="classjenes_1_1chromosome_1_1_boolean_chromosome_1a6359dc1f495e4f7967c6a84f3206de40" prot="public" virt="non-virtual"><scope>jenes::chromosome::BooleanChromosome</scope><name>swap</name></member>
+      <member refid="classjenes_1_1chromosome_1_1_boolean_chromosome_1a3ff06b819a640b0e89935d99cc69d3ac" prot="public" virt="non-virtual"><scope>jenes::chromosome::BooleanChromosome</scope><name>toArray</name></member>
+      <member refid="classjenes_1_1chromosome_1_1_boolean_chromosome_1a17ecce8325cc2ba6b1703551768c245f" prot="public" virt="non-virtual"><scope>jenes::chromosome::BooleanChromosome</scope><name>toString</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

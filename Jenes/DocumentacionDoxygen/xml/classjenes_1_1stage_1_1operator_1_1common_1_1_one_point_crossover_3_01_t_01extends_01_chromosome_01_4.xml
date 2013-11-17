@@ -1,0 +1,110 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="classjenes_1_1stage_1_1operator_1_1common_1_1_one_point_crossover_3_01_t_01extends_01_chromosome_01_4" kind="class" prot="public">
+    <compoundname>jenes::stage::operator::common::OnePointCrossover&lt; T extends Chromosome &gt;</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">jenes::stage::operator::Crossover&lt; T &gt;</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classjenes_1_1stage_1_1operator_1_1common_1_1_one_point_crossover_3_01_t_01extends_01_chromosome_01_4_1a441a51f325e76aa282250ecf2c464635" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>jenes.stage.operator.common.OnePointCrossover&lt; T extends Chromosome &gt;.OnePointCrossover</definition>
+        <argsstring>(double probability)</argsstring>
+        <name>OnePointCrossover</name>
+        <param>
+          <type>double</type>
+          <declname>probability</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs a new one-point crossover with the specified probability</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>probability</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the crossover probability </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/operator/common/OnePointCrossover.java" line="45" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/operator/common/OnePointCrossover.java" bodystart="45" bodyend="47"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1stage_1_1operator_1_1common_1_1_one_point_crossover_3_01_t_01extends_01_chromosome_01_4_1a7f29facf7cb0e3baec284ec72730c8c0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int jenes.stage.operator.common.OnePointCrossover&lt; T extends Chromosome &gt;.spread</definition>
+        <argsstring>()</argsstring>
+        <name>spread</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/operator/common/OnePointCrossover.java" line="50" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/operator/common/OnePointCrossover.java" bodystart="50" bodyend="52"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classjenes_1_1stage_1_1operator_1_1common_1_1_one_point_crossover_3_01_t_01extends_01_chromosome_01_4_1ad8963f25110079a5444d2a0a61d3d1a5" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void jenes.stage.operator.common.OnePointCrossover&lt; T extends Chromosome &gt;.cross</definition>
+        <argsstring>(Individual&lt; T &gt; offsprings[])</argsstring>
+        <name>cross</name>
+        <param>
+          <type>Individual&lt; T &gt;</type>
+          <declname>offsprings</declname>
+          <array>[]</array>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/operator/common/OnePointCrossover.java" line="54" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/operator/common/OnePointCrossover.java" bodystart="54" bodyend="66"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>A one-point crossover operator. It performes the simplest crossover algorithm according to a specified probability. It represents a 2-parents and 2-children crossover. A cross-point is randomly chosen and the genes are crossed.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>&lt;T&gt;</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The class of chromosomes to work with.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="version"><para>2.0 </para></simplesect>
+<simplesect kind="since"><para>1.0</para></simplesect>
+<simplesect kind="see"><para>Individual </para><simplesectsep/><para>Chromosome </para></simplesect>
+</para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="451">
+        <label>jenes.stage.operator.common.OnePointCrossover&lt; T extends Chromosome &gt;</label>
+        <link refid="classjenes_1_1stage_1_1operator_1_1common_1_1_one_point_crossover_3_01_t_01extends_01_chromosome_01_4"/>
+        <childnode refid="452" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="452">
+        <label>jenes::stage::operator::Crossover&lt; T &gt;</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="453">
+        <label>jenes.stage.operator.common.OnePointCrossover&lt; T extends Chromosome &gt;</label>
+        <link refid="classjenes_1_1stage_1_1operator_1_1common_1_1_one_point_crossover_3_01_t_01extends_01_chromosome_01_4"/>
+        <childnode refid="454" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="454">
+        <label>jenes::stage::operator::Crossover&lt; T &gt;</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/operator/common/OnePointCrossover.java" line="38" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/operator/common/OnePointCrossover.java" bodystart="38" bodyend="68"/>
+    <listofallmembers>
+      <member refid="classjenes_1_1stage_1_1operator_1_1common_1_1_one_point_crossover_3_01_t_01extends_01_chromosome_01_4_1ad8963f25110079a5444d2a0a61d3d1a5" prot="protected" virt="non-virtual"><scope>jenes::stage::operator::common::OnePointCrossover&lt; T extends Chromosome &gt;</scope><name>cross</name></member>
+      <member refid="classjenes_1_1stage_1_1operator_1_1common_1_1_one_point_crossover_3_01_t_01extends_01_chromosome_01_4_1a441a51f325e76aa282250ecf2c464635" prot="public" virt="non-virtual"><scope>jenes::stage::operator::common::OnePointCrossover&lt; T extends Chromosome &gt;</scope><name>OnePointCrossover</name></member>
+      <member refid="classjenes_1_1stage_1_1operator_1_1common_1_1_one_point_crossover_3_01_t_01extends_01_chromosome_01_4_1a7f29facf7cb0e3baec284ec72730c8c0" prot="public" virt="non-virtual"><scope>jenes::stage::operator::common::OnePointCrossover&lt; T extends Chromosome &gt;</scope><name>spread</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

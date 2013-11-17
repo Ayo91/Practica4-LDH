@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="dir_14231580ddc579a901806ffa329deb7d" kind="dir">
+    <compoundname>src/jenes/tutorials/old/problem3</compoundname>
+    <innerfile refid="tutorials_2old_2problem3_2_travel_salesman_problem_8java">TravelSalesmanProblem.java</innerfile>
+    <innerfile refid="old_2problem3_2_t_s_p_city_centered_crossover_8java">TSPCityCenteredCrossover.java</innerfile>
+    <innerfile refid="tutorials_2old_2problem3_2_t_s_p_g_a_8java">TSPGA.java</innerfile>
+    <innerfile refid="old_2problem3_2_t_s_p_scramble_mutator_8java">TSPScrambleMutator.java</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/old/problem3/"/>
+  </compounddef>
+</doxygen>

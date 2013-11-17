@@ -1,0 +1,426 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="classjenes_1_1stage_1_1operator_1_1_crowder_3_01_t_01extends_01_chromosome_01_4" kind="class" prot="public" abstract="yes">
+    <compoundname>jenes::stage::operator::Crowder&lt; T extends Chromosome &gt;</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Operator&lt; T &gt;</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classjenes_1_1stage_1_1operator_1_1_crowder_3_01_t_01extends_01_chromosome_01_4_1a59e2223bf2006485e7c617201f0bba3e" prot="private" static="no" mutable="no">
+        <type>Population&lt; T &gt;</type>
+        <definition>Population&lt;T&gt; jenes.stage.operator.Crowder&lt; T extends Chromosome &gt;.int_in</definition>
+        <argsstring></argsstring>
+        <name>int_in</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Internal input population </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/operator/Crowder.java" line="38" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/operator/Crowder.java" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classjenes_1_1stage_1_1operator_1_1_crowder_3_01_t_01extends_01_chromosome_01_4_1ab31ce2f75fb5516e18c73a56d31c2c57" prot="private" static="no" mutable="no">
+        <type>Population&lt; T &gt;</type>
+        <definition>Population&lt;T&gt; jenes.stage.operator.Crowder&lt; T extends Chromosome &gt;.int_out</definition>
+        <argsstring></argsstring>
+        <name>int_out</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Internal output population </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/operator/Crowder.java" line="40" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/operator/Crowder.java" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="classjenes_1_1stage_1_1operator_1_1_crowder_3_01_t_01extends_01_chromosome_01_4_1a81522e76967039395a3567c866fa59ed" prot="protected" static="no" mutable="no">
+        <type>Sequence&lt; T &gt;</type>
+        <definition>Sequence&lt;T&gt; jenes.stage.operator.Crowder&lt; T extends Chromosome &gt;.body</definition>
+        <argsstring></argsstring>
+        <name>body</name>
+        <initializer>= new Sequence&lt;T&gt;()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Body </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/operator/Crowder.java" line="43" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/operator/Crowder.java" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classjenes_1_1stage_1_1operator_1_1_crowder_3_01_t_01extends_01_chromosome_01_4_1a5337bdf3f7d5ad8d6e09daaa3bb0636b" prot="protected" static="no" mutable="no">
+        <type>boolean</type>
+        <definition>boolean jenes.stage.operator.Crowder&lt; T extends Chromosome &gt;.elitist</definition>
+        <argsstring></argsstring>
+        <name>elitist</name>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Elitism </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/operator/Crowder.java" line="45" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/operator/Crowder.java" bodystart="45" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classjenes_1_1stage_1_1operator_1_1_crowder_3_01_t_01extends_01_chromosome_01_4_1a6e23e3544b98e1a415c53fcedd541df5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>jenes.stage.operator.Crowder&lt; T extends Chromosome &gt;.Crowder</definition>
+        <argsstring>()</argsstring>
+        <name>Crowder</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Creates a new crowder </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/operator/Crowder.java" line="50" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/operator/Crowder.java" bodystart="50" bodyend="52"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1stage_1_1operator_1_1_crowder_3_01_t_01extends_01_chromosome_01_4_1ab9bb2a8d6bf09a51158ef49917095913" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>final boolean</type>
+        <definition>final boolean jenes.stage.operator.Crowder&lt; T extends Chromosome &gt;.isElitist</definition>
+        <argsstring>()</argsstring>
+        <name>isElitist</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Says if the crowder is elitist or not.</para><para><simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/operator/Crowder.java" line="59" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/operator/Crowder.java" bodystart="59" bodyend="61"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1stage_1_1operator_1_1_crowder_3_01_t_01extends_01_chromosome_01_4_1ad995907f114cdd40eb03d53f05734b8c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void jenes.stage.operator.Crowder&lt; T extends Chromosome &gt;.setElitist</definition>
+        <argsstring>(boolean flag)</argsstring>
+        <name>setElitist</name>
+        <param>
+          <type>boolean</type>
+          <declname>flag</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Sets the crowder elistism. If true, offspings replace parents only if they are better.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>flag</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/operator/Crowder.java" line="68" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/operator/Crowder.java" bodystart="68" bodyend="70"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1stage_1_1operator_1_1_crowder_3_01_t_01extends_01_chromosome_01_4_1a345ecb8e82d64130d171fb785f2702e6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void jenes.stage.operator.Crowder&lt; T extends Chromosome &gt;.init</definition>
+        <argsstring>(GeneticAlgorithm&lt; T &gt; ga)</argsstring>
+        <name>init</name>
+        <param>
+          <type>GeneticAlgorithm&lt; T &gt;</type>
+          <declname>ga</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/operator/Crowder.java" line="73" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/operator/Crowder.java" bodystart="73" bodyend="84"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1stage_1_1operator_1_1_crowder_3_01_t_01extends_01_chromosome_01_4_1a21f0859b05e06d7ee4b979d5a2d559d7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void jenes.stage.operator.Crowder&lt; T extends Chromosome &gt;.process</definition>
+        <argsstring>(Population&lt; T &gt; in, Population&lt; T &gt; out)</argsstring>
+        <name>process</name>
+        <param>
+          <type>Population&lt; T &gt;</type>
+          <declname>in</declname>
+        </param>
+        <param>
+          <type>Population&lt; T &gt;</type>
+          <declname>out</declname>
+        </param>
+        <exceptions> throws <ref refid="classjenes_1_1stage_1_1_stage_exception" kindref="compound">StageException</ref> </exceptions>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Performs crowding processing, according the the following scheme: <orderedlist>
+<listitem>
+<para>pre = preselect(in) </para></listitem>
+<listitem>
+<para>evo = body.process(pre) </para></listitem>
+<listitem>
+<para>out = replace(evo) </para></listitem>
+</orderedlist>
+<parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>in</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>out</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<parameterlist kind="exception"><parameteritem>
+<parameternamelist>
+<parametername><ref refid="classjenes_1_1stage_1_1_stage_exception" kindref="compound">StageException</ref></parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/operator/Crowder.java" line="99" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/operator/Crowder.java" bodystart="99" bodyend="112"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1stage_1_1operator_1_1_crowder_3_01_t_01extends_01_chromosome_01_4_1a99b3aaad504589efa9c408fc1b4e2fa1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>double</type>
+        <definition>double jenes.stage.operator.Crowder&lt; T extends Chromosome &gt;.similarity</definition>
+        <argsstring>(double[] diff)</argsstring>
+        <name>similarity</name>
+        <param>
+          <type>double[]</type>
+          <declname>diff</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Computes a degree of similarity given the genetic difference vector between two chromosomes. By default, similarity is computed as reprocical of eucledian distance between genes. Other definitions are possible by overriding this method in subclasses.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>diff</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- the difference vector </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>similarity degree </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/operator/Crowder.java" line="140" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/operator/Crowder.java" bodystart="140" bodyend="147"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1stage_1_1operator_1_1_crowder_3_01_t_01extends_01_chromosome_01_4_1a65ef754570b25a6f14fbd78e6c08c4f9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void jenes.stage.operator.Crowder&lt; T extends Chromosome &gt;.setBiggerIsBetter</definition>
+        <argsstring>(boolean flag, boolean recursively)</argsstring>
+        <name>setBiggerIsBetter</name>
+        <param>
+          <type>boolean</type>
+          <declname>flag</declname>
+        </param>
+        <param>
+          <type>boolean</type>
+          <declname>recursively</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/operator/Crowder.java" line="151" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/operator/Crowder.java" bodystart="151" bodyend="156"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1stage_1_1operator_1_1_crowder_3_01_t_01extends_01_chromosome_01_4_1ac6c89c383d27754be63fabc951e11dc8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void jenes.stage.operator.Crowder&lt; T extends Chromosome &gt;.setFitness</definition>
+        <argsstring>(Fitness fit, boolean recursively)</argsstring>
+        <name>setFitness</name>
+        <param>
+          <type>Fitness</type>
+          <declname>fit</declname>
+        </param>
+        <param>
+          <type>boolean</type>
+          <declname>recursively</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/operator/Crowder.java" line="159" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/operator/Crowder.java" bodystart="159" bodyend="164"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1stage_1_1operator_1_1_crowder_3_01_t_01extends_01_chromosome_01_4_1a4b24910de47aff7c5a709846af74b199" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Sequence&lt; T &gt;</type>
+        <definition>Sequence&lt;T&gt; jenes.stage.operator.Crowder&lt; T extends Chromosome &gt;.getBody</definition>
+        <argsstring>()</argsstring>
+        <name>getBody</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Return the crowder body</para><para><simplesect kind="return"><para>the body </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/operator/Crowder.java" line="172" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/operator/Crowder.java" bodystart="172" bodyend="174"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classjenes_1_1stage_1_1operator_1_1_crowder_3_01_t_01extends_01_chromosome_01_4_1ae72da3620314eba33b17297eb6a52aa0" prot="protected" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>abstract void</type>
+        <definition>abstract void jenes.stage.operator.Crowder&lt; T extends Chromosome &gt;.preselect</definition>
+        <argsstring>(Population&lt; T &gt; in, Population&lt; T &gt; out)</argsstring>
+        <name>preselect</name>
+        <param>
+          <type>Population&lt; T &gt;</type>
+          <declname>in</declname>
+        </param>
+        <param>
+          <type>Population&lt; T &gt;</type>
+          <declname>out</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Preselection of individuals before processing.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>in</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>input population </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>out</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>output population </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/operator/Crowder.java" line="120" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1stage_1_1operator_1_1_crowder_3_01_t_01extends_01_chromosome_01_4_1a2eec13cd60faaeefc6bb00302831740f" prot="protected" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>abstract void</type>
+        <definition>abstract void jenes.stage.operator.Crowder&lt; T extends Chromosome &gt;.replace</definition>
+        <argsstring>(Population&lt; T &gt; initial, Population&lt; T &gt; preselected, Population&lt; T &gt; evolved, Population&lt; T &gt; out)</argsstring>
+        <name>replace</name>
+        <param>
+          <type>Population&lt; T &gt;</type>
+          <declname>initial</declname>
+        </param>
+        <param>
+          <type>Population&lt; T &gt;</type>
+          <declname>preselected</declname>
+        </param>
+        <param>
+          <type>Population&lt; T &gt;</type>
+          <declname>evolved</declname>
+        </param>
+        <param>
+          <type>Population&lt; T &gt;</type>
+          <declname>out</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Implements the replacement policy.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>initial</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- the initial population </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>preselected</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- the population resulting from preselection </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>evolved</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- the part of population that has evolved </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>out</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- the output population </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/operator/Crowder.java" line="130" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>This class provides abstraction to crowders. A crowder perform preselection before its body processes the population, and controls the replacement after.</para><para><simplesect kind="version"><para>2.0 </para></simplesect>
+<simplesect kind="since"><para>2.0 </para></simplesect>
+</para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="82">
+        <label>jenes.stage.operator.Crowder&lt; T extends Chromosome &gt;</label>
+        <link refid="classjenes_1_1stage_1_1operator_1_1_crowder_3_01_t_01extends_01_chromosome_01_4"/>
+        <childnode refid="83" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="83">
+        <label>Operator&lt; T &gt;</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="86">
+        <label>Sequence&lt; T &gt;</label>
+      </node>
+      <node id="84">
+        <label>jenes.stage.operator.Crowder&lt; T extends Chromosome &gt;</label>
+        <link refid="classjenes_1_1stage_1_1operator_1_1_crowder_3_01_t_01extends_01_chromosome_01_4"/>
+        <childnode refid="85" relation="public-inheritance">
+        </childnode>
+        <childnode refid="86" relation="usage">
+          <edgelabel>body</edgelabel>
+        </childnode>
+        <childnode refid="87" relation="usage">
+          <edgelabel>int_in</edgelabel>
+          <edgelabel>int_out</edgelabel>
+        </childnode>
+      </node>
+      <node id="85">
+        <label>Operator&lt; T &gt;</label>
+      </node>
+      <node id="87">
+        <label>Population&lt; T &gt;</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/operator/Crowder.java" line="35" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/operator/Crowder.java" bodystart="35" bodyend="177"/>
+    <listofallmembers>
+      <member refid="classjenes_1_1stage_1_1operator_1_1_crowder_3_01_t_01extends_01_chromosome_01_4_1a81522e76967039395a3567c866fa59ed" prot="protected" virt="non-virtual"><scope>jenes::stage::operator::Crowder&lt; T extends Chromosome &gt;</scope><name>body</name></member>
+      <member refid="classjenes_1_1stage_1_1operator_1_1_crowder_3_01_t_01extends_01_chromosome_01_4_1a6e23e3544b98e1a415c53fcedd541df5" prot="public" virt="non-virtual"><scope>jenes::stage::operator::Crowder&lt; T extends Chromosome &gt;</scope><name>Crowder</name></member>
+      <member refid="classjenes_1_1stage_1_1operator_1_1_crowder_3_01_t_01extends_01_chromosome_01_4_1a5337bdf3f7d5ad8d6e09daaa3bb0636b" prot="protected" virt="non-virtual"><scope>jenes::stage::operator::Crowder&lt; T extends Chromosome &gt;</scope><name>elitist</name></member>
+      <member refid="classjenes_1_1stage_1_1operator_1_1_crowder_3_01_t_01extends_01_chromosome_01_4_1a4b24910de47aff7c5a709846af74b199" prot="public" virt="non-virtual"><scope>jenes::stage::operator::Crowder&lt; T extends Chromosome &gt;</scope><name>getBody</name></member>
+      <member refid="classjenes_1_1stage_1_1operator_1_1_crowder_3_01_t_01extends_01_chromosome_01_4_1a345ecb8e82d64130d171fb785f2702e6" prot="public" virt="non-virtual"><scope>jenes::stage::operator::Crowder&lt; T extends Chromosome &gt;</scope><name>init</name></member>
+      <member refid="classjenes_1_1stage_1_1operator_1_1_crowder_3_01_t_01extends_01_chromosome_01_4_1a59e2223bf2006485e7c617201f0bba3e" prot="private" virt="non-virtual"><scope>jenes::stage::operator::Crowder&lt; T extends Chromosome &gt;</scope><name>int_in</name></member>
+      <member refid="classjenes_1_1stage_1_1operator_1_1_crowder_3_01_t_01extends_01_chromosome_01_4_1ab31ce2f75fb5516e18c73a56d31c2c57" prot="private" virt="non-virtual"><scope>jenes::stage::operator::Crowder&lt; T extends Chromosome &gt;</scope><name>int_out</name></member>
+      <member refid="classjenes_1_1stage_1_1operator_1_1_crowder_3_01_t_01extends_01_chromosome_01_4_1ab9bb2a8d6bf09a51158ef49917095913" prot="public" virt="non-virtual"><scope>jenes::stage::operator::Crowder&lt; T extends Chromosome &gt;</scope><name>isElitist</name></member>
+      <member refid="classjenes_1_1stage_1_1operator_1_1_crowder_3_01_t_01extends_01_chromosome_01_4_1ae72da3620314eba33b17297eb6a52aa0" prot="protected" virt="pure-virtual"><scope>jenes::stage::operator::Crowder&lt; T extends Chromosome &gt;</scope><name>preselect</name></member>
+      <member refid="classjenes_1_1stage_1_1operator_1_1_crowder_3_01_t_01extends_01_chromosome_01_4_1a21f0859b05e06d7ee4b979d5a2d559d7" prot="public" virt="non-virtual"><scope>jenes::stage::operator::Crowder&lt; T extends Chromosome &gt;</scope><name>process</name></member>
+      <member refid="classjenes_1_1stage_1_1operator_1_1_crowder_3_01_t_01extends_01_chromosome_01_4_1a2eec13cd60faaeefc6bb00302831740f" prot="protected" virt="pure-virtual"><scope>jenes::stage::operator::Crowder&lt; T extends Chromosome &gt;</scope><name>replace</name></member>
+      <member refid="classjenes_1_1stage_1_1operator_1_1_crowder_3_01_t_01extends_01_chromosome_01_4_1a65ef754570b25a6f14fbd78e6c08c4f9" prot="public" virt="non-virtual"><scope>jenes::stage::operator::Crowder&lt; T extends Chromosome &gt;</scope><name>setBiggerIsBetter</name></member>
+      <member refid="classjenes_1_1stage_1_1operator_1_1_crowder_3_01_t_01extends_01_chromosome_01_4_1ad995907f114cdd40eb03d53f05734b8c" prot="public" virt="non-virtual"><scope>jenes::stage::operator::Crowder&lt; T extends Chromosome &gt;</scope><name>setElitist</name></member>
+      <member refid="classjenes_1_1stage_1_1operator_1_1_crowder_3_01_t_01extends_01_chromosome_01_4_1ac6c89c383d27754be63fabc951e11dc8" prot="public" virt="non-virtual"><scope>jenes::stage::operator::Crowder&lt; T extends Chromosome &gt;</scope><name>setFitness</name></member>
+      <member refid="classjenes_1_1stage_1_1operator_1_1_crowder_3_01_t_01extends_01_chromosome_01_4_1a99b3aaad504589efa9c408fc1b4e2fa1" prot="public" virt="non-virtual"><scope>jenes::stage::operator::Crowder&lt; T extends Chromosome &gt;</scope><name>similarity</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

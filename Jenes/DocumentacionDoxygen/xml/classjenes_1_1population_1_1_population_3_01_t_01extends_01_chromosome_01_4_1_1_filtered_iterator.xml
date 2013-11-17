@@ -1,0 +1,137 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="classjenes_1_1population_1_1_population_3_01_t_01extends_01_chromosome_01_4_1_1_filtered_iterator" kind="class" prot="private">
+    <compoundname>jenes::population::Population&lt; T extends Chromosome &gt;::FilteredIterator</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Iterator</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classjenes_1_1population_1_1_population_3_01_t_01extends_01_chromosome_01_4_1_1_filtered_iterator_1a3b9be4de9652c3b701a05793d11b418f" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int jenes.population.Population&lt; T extends Chromosome &gt;.FilteredIterator.idx</definition>
+        <argsstring></argsstring>
+        <name>idx</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/population/Population.java" line="1611" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/population/Population.java" bodystart="1611" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classjenes_1_1population_1_1_population_3_01_t_01extends_01_chromosome_01_4_1_1_filtered_iterator_1a620ba1ca9591ae9b3268066c4c3eadc7" prot="private" static="no" mutable="no">
+        <type>Filter</type>
+        <definition>Filter jenes.population.Population&lt; T extends Chromosome &gt;.FilteredIterator.filter</definition>
+        <argsstring></argsstring>
+        <name>filter</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/population/Population.java" line="1612" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/population/Population.java" bodystart="1612" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classjenes_1_1population_1_1_population_3_01_t_01extends_01_chromosome_01_4_1_1_filtered_iterator_1a915b63ed1288f4d18cc0dd85f5494b40" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>jenes.population.Population&lt; T extends Chromosome &gt;.FilteredIterator.FilteredIterator</definition>
+        <argsstring>(Filter filter)</argsstring>
+        <name>FilteredIterator</name>
+        <param>
+          <type>Filter</type>
+          <declname>filter</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/population/Population.java" line="1614" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/population/Population.java" bodystart="1614" bodyend="1616"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classjenes_1_1population_1_1_population_3_01_t_01extends_01_chromosome_01_4_1_1_filtered_iterator_1a1ea69c48981548165c44bd9ad6f4e0ed" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>boolean</type>
+        <definition>boolean jenes.population.Population&lt; T extends Chromosome &gt;.FilteredIterator.hasNext</definition>
+        <argsstring>()</argsstring>
+        <name>hasNext</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/population/Population.java" line="1619" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/population/Population.java" bodystart="1619" bodyend="1628"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1population_1_1_population_3_01_t_01extends_01_chromosome_01_4_1_1_filtered_iterator_1a71c24a5023497cd0cd5da31555b38bcf" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Individual&lt; T &gt;</type>
+        <definition>Individual&lt;T&gt; jenes.population.Population&lt; T extends Chromosome &gt;.FilteredIterator.next</definition>
+        <argsstring>()</argsstring>
+        <name>next</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/population/Population.java" line="1631" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/population/Population.java" bodystart="1631" bodyend="1641"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1population_1_1_population_3_01_t_01extends_01_chromosome_01_4_1_1_filtered_iterator_1ae8881c2033101c07380874500b11975a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void jenes.population.Population&lt; T extends Chromosome &gt;.FilteredIterator.remove</definition>
+        <argsstring>()</argsstring>
+        <name>remove</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/population/Population.java" line="1644" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/population/Population.java" bodystart="1644" bodyend="1648"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Class that manages access to the filters </para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="173">
+        <label>jenes.population.Population&lt; T extends Chromosome &gt;.FilteredIterator</label>
+        <link refid="classjenes_1_1population_1_1_population_3_01_t_01extends_01_chromosome_01_4_1_1_filtered_iterator"/>
+        <childnode refid="174" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="174">
+        <label>Iterator</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="177">
+        <label>Filter</label>
+      </node>
+      <node id="175">
+        <label>jenes.population.Population&lt; T extends Chromosome &gt;.FilteredIterator</label>
+        <link refid="classjenes_1_1population_1_1_population_3_01_t_01extends_01_chromosome_01_4_1_1_filtered_iterator"/>
+        <childnode refid="176" relation="public-inheritance">
+        </childnode>
+        <childnode refid="177" relation="usage">
+          <edgelabel>filter</edgelabel>
+        </childnode>
+      </node>
+      <node id="176">
+        <label>Iterator</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/population/Population.java" line="1609" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/population/Population.java" bodystart="1609" bodyend="1649"/>
+    <listofallmembers>
+      <member refid="classjenes_1_1population_1_1_population_3_01_t_01extends_01_chromosome_01_4_1_1_filtered_iterator_1a620ba1ca9591ae9b3268066c4c3eadc7" prot="private" virt="non-virtual"><scope>jenes::population::Population&lt; T extends Chromosome &gt;::FilteredIterator</scope><name>filter</name></member>
+      <member refid="classjenes_1_1population_1_1_population_3_01_t_01extends_01_chromosome_01_4_1_1_filtered_iterator_1a915b63ed1288f4d18cc0dd85f5494b40" prot="private" virt="non-virtual"><scope>jenes::population::Population&lt; T extends Chromosome &gt;::FilteredIterator</scope><name>FilteredIterator</name></member>
+      <member refid="classjenes_1_1population_1_1_population_3_01_t_01extends_01_chromosome_01_4_1_1_filtered_iterator_1a1ea69c48981548165c44bd9ad6f4e0ed" prot="public" virt="non-virtual"><scope>jenes::population::Population&lt; T extends Chromosome &gt;::FilteredIterator</scope><name>hasNext</name></member>
+      <member refid="classjenes_1_1population_1_1_population_3_01_t_01extends_01_chromosome_01_4_1_1_filtered_iterator_1a3b9be4de9652c3b701a05793d11b418f" prot="private" virt="non-virtual"><scope>jenes::population::Population&lt; T extends Chromosome &gt;::FilteredIterator</scope><name>idx</name></member>
+      <member refid="classjenes_1_1population_1_1_population_3_01_t_01extends_01_chromosome_01_4_1_1_filtered_iterator_1a71c24a5023497cd0cd5da31555b38bcf" prot="public" virt="non-virtual"><scope>jenes::population::Population&lt; T extends Chromosome &gt;::FilteredIterator</scope><name>next</name></member>
+      <member refid="classjenes_1_1population_1_1_population_3_01_t_01extends_01_chromosome_01_4_1_1_filtered_iterator_1ae8881c2033101c07380874500b11975a" prot="public" virt="non-virtual"><scope>jenes::population::Population&lt; T extends Chromosome &gt;::FilteredIterator</scope><name>remove</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

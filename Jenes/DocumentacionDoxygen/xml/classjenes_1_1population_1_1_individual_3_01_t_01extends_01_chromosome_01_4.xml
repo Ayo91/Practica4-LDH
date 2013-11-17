@@ -1,0 +1,1046 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="classjenes_1_1population_1_1_individual_3_01_t_01extends_01_chromosome_01_4" kind="class" prot="public">
+    <compoundname>jenes::population::Individual&lt; T extends Chromosome &gt;</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Cloneable</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">Serializable</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">Comparable&lt; Individual&lt; T &gt; &gt;</basecompoundref>
+    <innerclass refid="classjenes_1_1population_1_1_individual_3_01_t_01extends_01_chromosome_01_4_1_1_statistics_3_01_t_01extends_01_chromosome_01_4" prot="public">jenes::population::Individual&lt; T extends Chromosome &gt;::Statistics&lt; T extends Chromosome &gt;</innerclass>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="classjenes_1_1population_1_1_individual_3_01_t_01extends_01_chromosome_01_4_1a4479bb5b4c3aa508f88f06585fa78be1" prot="private" static="yes" mutable="no">
+        <type>final long</type>
+        <definition>final long jenes.population.Individual&lt; T extends Chromosome &gt;.serialVersionUID</definition>
+        <argsstring></argsstring>
+        <name>serialVersionUID</name>
+        <initializer>= -7644577572400307010L</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/population/Individual.java" line="60" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/population/Individual.java" bodystart="60" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classjenes_1_1population_1_1_individual_3_01_t_01extends_01_chromosome_01_4_1a76c4bb153b0ed0eb30b9cf1faa376c20" prot="private" static="yes" mutable="no">
+        <type>boolean</type>
+        <definition>boolean jenes.population.Individual&lt; T extends Chromosome &gt;.sameChromosomeSameFitness</definition>
+        <argsstring></argsstring>
+        <name>sameChromosomeSameFitness</name>
+        <initializer>= true</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>flag saying if equal chromosomes have the same fitness </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/population/Individual.java" line="64" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/population/Individual.java" bodystart="64" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classjenes_1_1population_1_1_individual_3_01_t_01extends_01_chromosome_01_4_1a6f913202241aa5f7255e482179175f62" prot="public" static="yes" mutable="no">
+        <type>final int</type>
+        <definition>final int jenes.population.Individual&lt; T extends Chromosome &gt;.UNRANKED</definition>
+        <argsstring></argsstring>
+        <name>UNRANKED</name>
+        <initializer>= -1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>the default individual&apos;s rank </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/population/Individual.java" line="62" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/population/Individual.java" bodystart="62" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classjenes_1_1population_1_1_individual_3_01_t_01extends_01_chromosome_01_4_1ab83da09312b8d5c807d6e6d04692e1a4" prot="private" static="no" mutable="no">
+        <type>T</type>
+        <definition>T jenes.population.Individual&lt; T extends Chromosome &gt;.chromosome</definition>
+        <argsstring></argsstring>
+        <name>chromosome</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>the individual&apos;s chromosome </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/population/Individual.java" line="66" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/population/Individual.java" bodystart="66" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classjenes_1_1population_1_1_individual_3_01_t_01extends_01_chromosome_01_4_1a1abd72838faa3246dbf498f66ed7963a" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double jenes.population.Individual&lt; T extends Chromosome &gt;.score[]</definition>
+        <argsstring>[]</argsstring>
+        <name>score</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>the individual&apos;s score </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/population/Individual.java" line="68" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/population/Individual.java" bodystart="68" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classjenes_1_1population_1_1_individual_3_01_t_01extends_01_chromosome_01_4_1a10205aa0bc5a6fd766df166027396a78" prot="private" static="no" mutable="no">
+        <type>boolean</type>
+        <definition>boolean jenes.population.Individual&lt; T extends Chromosome &gt;.evaluated</definition>
+        <argsstring></argsstring>
+        <name>evaluated</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>it says if the individual is evaluated or not </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/population/Individual.java" line="70" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/population/Individual.java" bodystart="70" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classjenes_1_1population_1_1_individual_3_01_t_01extends_01_chromosome_01_4_1a0775108a26a06ac9d9fe4aea63bd5709" prot="private" static="no" mutable="no">
+        <type>boolean</type>
+        <definition>boolean jenes.population.Individual&lt; T extends Chromosome &gt;.legal</definition>
+        <argsstring></argsstring>
+        <name>legal</name>
+        <initializer>= true</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>it says if the individual is legal or not </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/population/Individual.java" line="72" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/population/Individual.java" bodystart="72" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classjenes_1_1population_1_1_individual_3_01_t_01extends_01_chromosome_01_4_1a6a4149139b12672baab0d9d65cdeffb2" prot="private" static="no" mutable="no">
+        <type>Population&lt; T &gt;</type>
+        <definition>Population&lt;T&gt; jenes.population.Individual&lt; T extends Chromosome &gt;.population</definition>
+        <argsstring></argsstring>
+        <name>population</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>the population it belongs to </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/population/Individual.java" line="74" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/population/Individual.java" bodystart="74" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classjenes_1_1population_1_1_individual_3_01_t_01extends_01_chromosome_01_4_1a8f5c7ae0c537b3f59be861f78d0bdf1b" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int jenes.population.Individual&lt; T extends Chromosome &gt;.speciem</definition>
+        <argsstring></argsstring>
+        <name>speciem</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>the subpopulation the individual belongs to </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/population/Individual.java" line="76" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/population/Individual.java" bodystart="76" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classjenes_1_1population_1_1_individual_3_01_t_01extends_01_chromosome_01_4_1a393116ea0dc6238686c67292f5f8a9ca" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int jenes.population.Individual&lt; T extends Chromosome &gt;.rank</definition>
+        <argsstring></argsstring>
+        <name>rank</name>
+        <initializer>= <ref refid="classjenes_1_1population_1_1_individual_3_01_t_01extends_01_chromosome_01_4_1a6f913202241aa5f7255e482179175f62" kindref="member">UNRANKED</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>the individual&apos;s rank </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/population/Individual.java" line="78" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/population/Individual.java" bodystart="78" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classjenes_1_1population_1_1_individual_3_01_t_01extends_01_chromosome_01_4_1ada4319553581f0d52b9623a0f434daad" prot="private" static="no" mutable="no">
+        <type>Statistics&lt; T &gt;</type>
+        <definition>Statistics&lt;T&gt; jenes.population.Individual&lt; T extends Chromosome &gt;.statistics</definition>
+        <argsstring></argsstring>
+        <name>statistics</name>
+        <initializer>= null</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>the statistics of individual </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/population/Individual.java" line="80" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/population/Individual.java" bodystart="80" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classjenes_1_1population_1_1_individual_3_01_t_01extends_01_chromosome_01_4_1aaef7161bf62cee0ac95f079394fdac9f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>jenes.population.Individual&lt; T extends Chromosome &gt;.Individual</definition>
+        <argsstring>()</argsstring>
+        <name>Individual</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Creates an <computeroutput>Individual</computeroutput> with no genome. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/population/Individual.java" line="85" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/population/Individual.java" bodystart="85" bodyend="87"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1population_1_1_individual_3_01_t_01extends_01_chromosome_01_4_1ab976f777177706bca918974cc60728c9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>jenes.population.Individual&lt; T extends Chromosome &gt;.Individual</definition>
+        <argsstring>(final int n, final T chromosome)</argsstring>
+        <name>Individual</name>
+        <param>
+          <type>final int</type>
+          <declname>n</declname>
+        </param>
+        <param>
+          <type>final T</type>
+          <declname>chromosome</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Creates an <computeroutput>Individual</computeroutput> with a specific chromosome and a number of scores. <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>n</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>number of scores </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>chromosome</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>individual&apos;s chromosome </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/population/Individual.java" line="94" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/population/Individual.java" bodystart="94" bodyend="97"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1population_1_1_individual_3_01_t_01extends_01_chromosome_01_4_1a0ee89d719da75153410f8757ebafdb0d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>jenes.population.Individual&lt; T extends Chromosome &gt;.Individual</definition>
+        <argsstring>(final T chromosome, final double...score)</argsstring>
+        <name>Individual</name>
+        <param>
+          <type>final T</type>
+          <declname>chromosome</declname>
+        </param>
+        <param>
+          <type>final double...</type>
+          <declname>score</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Creates an <computeroutput>Individual</computeroutput> with the specified genome and a given score array(fitness value).</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>chromosome</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>individual&apos;s genome </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>score</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>individual&apos;s score array </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/population/Individual.java" line="105" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/population/Individual.java" bodystart="105" bodyend="108"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1population_1_1_individual_3_01_t_01extends_01_chromosome_01_4_1a39ca92146563b3b00576736296b523a5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>jenes.population.Individual&lt; T extends Chromosome &gt;.Individual</definition>
+        <argsstring>(final Individual&lt; T &gt; ind)</argsstring>
+        <name>Individual</name>
+        <param>
+          <type>final Individual&lt; T &gt;</type>
+          <declname>ind</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs a new <computeroutput>Individual</computeroutput> as a copy of another <computeroutput>Individual</computeroutput>. </para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>ind</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the source <computeroutput>Individual</computeroutput>. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/population/Individual.java" line="116" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/population/Individual.java" bodystart="116" bodyend="126"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1population_1_1_individual_3_01_t_01extends_01_chromosome_01_4_1a15020083468eb11265c621aca7de0bf2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>final Population&lt; T &gt;</type>
+        <definition>final Population&lt;T&gt; jenes.population.Individual&lt; T extends Chromosome &gt;.getPopulation</definition>
+        <argsstring>()</argsstring>
+        <name>getPopulation</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Return the <ref refid="" kindref="compound">Population</ref> that contains this <computeroutput>Individual</computeroutput> </para><para><simplesect kind="return"><para>individual&apos;s population </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/population/Individual.java" line="133" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/population/Individual.java" bodystart="133" bodyend="135"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1population_1_1_individual_3_01_t_01extends_01_chromosome_01_4_1aeed25204463ec1e7eebe36674a24ada7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>final T</type>
+        <definition>final T jenes.population.Individual&lt; T extends Chromosome &gt;.getChromosome</definition>
+        <argsstring>()</argsstring>
+        <name>getChromosome</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns the <computeroutput>Individual</computeroutput>&apos;s genome </para><para><simplesect kind="return"><para>the individual&apos;s genome </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/population/Individual.java" line="151" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/population/Individual.java" bodystart="151" bodyend="153"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1population_1_1_individual_3_01_t_01extends_01_chromosome_01_4_1a14c0669f286f8097bb8fdf13dc5fcf50" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>final void</type>
+        <definition>final void jenes.population.Individual&lt; T extends Chromosome &gt;.setChromosome</definition>
+        <argsstring>(final T chromosome)</argsstring>
+        <name>setChromosome</name>
+        <param>
+          <type>final T</type>
+          <declname>chromosome</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Sets the <computeroutput>Individual</computeroutput>&apos;s genome </para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>chromosome</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the <computeroutput>Individual</computeroutput>&apos;s genome </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/population/Individual.java" line="160" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/population/Individual.java" bodystart="160" bodyend="163"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1population_1_1_individual_3_01_t_01extends_01_chromosome_01_4_1a1c109dce60908107cc2dcfaf630b95f5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>final int</type>
+        <definition>final int jenes.population.Individual&lt; T extends Chromosome &gt;.getNumOfObjectives</definition>
+        <argsstring>()</argsstring>
+        <name>getNumOfObjectives</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns the number of objectivies for which this <computeroutput>Individual</computeroutput> is evaluated </para><para><simplesect kind="return"><para>the score array&apos;s lengh </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/population/Individual.java" line="170" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/population/Individual.java" bodystart="170" bodyend="172"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1population_1_1_individual_3_01_t_01extends_01_chromosome_01_4_1aa95dc3489632913f59c9c9e5d30d89c0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>final double</type>
+        <definition>final double jenes.population.Individual&lt; T extends Chromosome &gt;.getScore</definition>
+        <argsstring>()</argsstring>
+        <name>getScore</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns the <computeroutput>Individual</computeroutput>&apos;s fitness value This score is meaningful only if <computeroutput><ref refid="classjenes_1_1population_1_1_individual_3_01_t_01extends_01_chromosome_01_4_1a90f222f30e37b23c0c3aceffd4571cfa" kindref="member">isEvaluated()</ref></computeroutput> returns true. Otherwise the score is equal to <computeroutput>Double.NaN</computeroutput>. </para><para><simplesect kind="return"><para>the <computeroutput>Individual</computeroutput>&apos;s fitness value </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/population/Individual.java" line="181" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/population/Individual.java" bodystart="181" bodyend="183"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1population_1_1_individual_3_01_t_01extends_01_chromosome_01_4_1ad2cc30ec43ca42539e72c4619953fd3b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>final double</type>
+        <definition>final double jenes.population.Individual&lt; T extends Chromosome &gt;.getScore</definition>
+        <argsstring>(int i)</argsstring>
+        <name>getScore</name>
+        <param>
+          <type>int</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Return the score at a specific position</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>i</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>index of array&apos;s score </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>score </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/population/Individual.java" line="191" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/population/Individual.java" bodystart="191" bodyend="193"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1population_1_1_individual_3_01_t_01extends_01_chromosome_01_4_1ad3b9122edf5b711c5f6d860e0f7c36b2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>final double[]</type>
+        <definition>final double [] jenes.population.Individual&lt; T extends Chromosome &gt;.getAllScores</definition>
+        <argsstring>()</argsstring>
+        <name>getAllScores</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns all scores</para><para><simplesect kind="return"><para>the array of scores </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/population/Individual.java" line="200" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/population/Individual.java" bodystart="200" bodyend="202"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1population_1_1_individual_3_01_t_01extends_01_chromosome_01_4_1ad2b80a4fa7401737fef5d9fbebf7588e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>final void</type>
+        <definition>final void jenes.population.Individual&lt; T extends Chromosome &gt;.resetScores</definition>
+        <argsstring>(int m)</argsstring>
+        <name>resetScores</name>
+        <param>
+          <type>int</type>
+          <declname>m</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Reset the array of scores by setting each value to <computeroutput>Double.NaN</computeroutput>. If the value given as argument is different from the actual length of scores&apos; array, a new array is created.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>m</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>lenght of scores&apos; array </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/population/Individual.java" line="211" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/population/Individual.java" bodystart="211" bodyend="221"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1population_1_1_individual_3_01_t_01extends_01_chromosome_01_4_1a6f459ca1de55083c73390b4474271539" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>final void</type>
+        <definition>final void jenes.population.Individual&lt; T extends Chromosome &gt;.setScore</definition>
+        <argsstring>(final double...score)</argsstring>
+        <name>setScore</name>
+        <param>
+          <type>final double...</type>
+          <declname>score</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Sets the <computeroutput>Individual</computeroutput>&apos;s fitness value.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>score</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the <computeroutput>Individual</computeroutput>&apos;s fitness value </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/population/Individual.java" line="228" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/population/Individual.java" bodystart="228" bodyend="246"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1population_1_1_individual_3_01_t_01extends_01_chromosome_01_4_1a0388610de8d27632d932de85904d18e4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>final void</type>
+        <definition>final void jenes.population.Individual&lt; T extends Chromosome &gt;.setScore</definition>
+        <argsstring>(final double score, final int i)</argsstring>
+        <name>setScore</name>
+        <param>
+          <type>final double</type>
+          <declname>score</declname>
+        </param>
+        <param>
+          <type>final int</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Set the score at specific position and check if this <computeroutput>Individual</computeroutput> is evaluated</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>score</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>value of score </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>i</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>array&apos;s index </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/population/Individual.java" line="254" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/population/Individual.java" bodystart="254" bodyend="257"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1population_1_1_individual_3_01_t_01extends_01_chromosome_01_4_1aede2854b691153950593a92a69cad856" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>final void</type>
+        <definition>final void jenes.population.Individual&lt; T extends Chromosome &gt;.setNotEvaluated</definition>
+        <argsstring>()</argsstring>
+        <name>setNotEvaluated</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Sets this individual as not evaluated. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/population/Individual.java" line="278" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/population/Individual.java" bodystart="278" bodyend="283"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1population_1_1_individual_3_01_t_01extends_01_chromosome_01_4_1a42c65137e521bc9cd81448f7c27dccd2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int jenes.population.Individual&lt; T extends Chromosome &gt;.getRank</definition>
+        <argsstring>()</argsstring>
+        <name>getRank</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns the individual&apos;s rank</para><para><simplesect kind="return"><para>the individual&apos;s rank </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/population/Individual.java" line="290" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/population/Individual.java" bodystart="290" bodyend="295"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1population_1_1_individual_3_01_t_01extends_01_chromosome_01_4_1aed3f28eb6e9ea75f5dd58dc981180559" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int jenes.population.Individual&lt; T extends Chromosome &gt;.getSpeciem</definition>
+        <argsstring>()</argsstring>
+        <name>getSpeciem</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns the subpopulation the individual belongs to</para><para><simplesect kind="return"><para>the subpopulation id </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/population/Individual.java" line="311" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/population/Individual.java" bodystart="311" bodyend="313"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1population_1_1_individual_3_01_t_01extends_01_chromosome_01_4_1a52068a99fee4d8b7e5bc51c4d2c068cd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void jenes.population.Individual&lt; T extends Chromosome &gt;.setSpeciem</definition>
+        <argsstring>(int speciem)</argsstring>
+        <name>setSpeciem</name>
+        <param>
+          <type>int</type>
+          <declname>speciem</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Sets the subpopulation the individual belongs to</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>speciem</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- the subpopulation id </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/population/Individual.java" line="320" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/population/Individual.java" bodystart="320" bodyend="322"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1population_1_1_individual_3_01_t_01extends_01_chromosome_01_4_1acc11569b9577fe227751297e26d719df" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>final <ref refid="classjenes_1_1population_1_1_individual_3_01_t_01extends_01_chromosome_01_4_1aaef7161bf62cee0ac95f079394fdac9f" kindref="member">Individual</ref>&lt; T &gt;</type>
+        <definition>final Individual&lt;T&gt; jenes.population.Individual&lt; T extends Chromosome &gt;.clone</definition>
+        <argsstring>()</argsstring>
+        <name>clone</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns a cloned instance of this class </para><para><simplesect kind="return"><para>a clone of this Individual </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/population/Individual.java" line="330" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/population/Individual.java" bodystart="330" bodyend="332"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1population_1_1_individual_3_01_t_01extends_01_chromosome_01_4_1aa15396a9c24a33b93ad1b7a332b92cfb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>final void</type>
+        <definition>final void jenes.population.Individual&lt; T extends Chromosome &gt;.randomize</definition>
+        <argsstring>()</argsstring>
+        <name>randomize</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Randomizes the genome (chromosome) of this <computeroutput>Individual</computeroutput> </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/population/Individual.java" line="337" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/population/Individual.java" bodystart="337" bodyend="340"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1population_1_1_individual_3_01_t_01extends_01_chromosome_01_4_1abf8f090558f25a8479a1187d4f53e8d7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>final void</type>
+        <definition>final void jenes.population.Individual&lt; T extends Chromosome &gt;.setAs</definition>
+        <argsstring>(final Individual&lt; T &gt; individual)</argsstring>
+        <name>setAs</name>
+        <param>
+          <type>final <ref refid="classjenes_1_1population_1_1_individual_3_01_t_01extends_01_chromosome_01_4_1aaef7161bf62cee0ac95f079394fdac9f" kindref="member">Individual</ref>&lt; T &gt;</type>
+          <declname>individual</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Sets this <computeroutput>Individual</computeroutput> as the specified one. </para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>individual</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the model individual </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/population/Individual.java" line="347" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/population/Individual.java" bodystart="347" bodyend="349"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1population_1_1_individual_3_01_t_01extends_01_chromosome_01_4_1a5d41ad20ea167e591b4df69883e3ab84" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>final void</type>
+        <definition>final void jenes.population.Individual&lt; T extends Chromosome &gt;.setAs</definition>
+        <argsstring>(final Individual&lt; T &gt; individual, final boolean full)</argsstring>
+        <name>setAs</name>
+        <param>
+          <type>final <ref refid="classjenes_1_1population_1_1_individual_3_01_t_01extends_01_chromosome_01_4_1aaef7161bf62cee0ac95f079394fdac9f" kindref="member">Individual</ref>&lt; T &gt;</type>
+          <declname>individual</declname>
+        </param>
+        <param>
+          <type>final boolean</type>
+          <declname>full</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Sets this <computeroutput>Individual</computeroutput>&apos;s genome equal to the specified <computeroutput>Individual</computeroutput>&apos;s one</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>individual</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the instance to copy as </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/population/Individual.java" line="358" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/population/Individual.java" bodystart="358" bodyend="381"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1population_1_1_individual_3_01_t_01extends_01_chromosome_01_4_1a90f222f30e37b23c0c3aceffd4571cfa" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>final boolean</type>
+        <definition>final boolean jenes.population.Individual&lt; T extends Chromosome &gt;.isEvaluated</definition>
+        <argsstring>()</argsstring>
+        <name>isEvaluated</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Tests if the <computeroutput>Individual</computeroutput> is evaluated</para><para><simplesect kind="return"><para><computeroutput>true</computeroutput> if the <computeroutput>Individual</computeroutput> is evaluated; <computeroutput>false</computeroutput> otherwise </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/population/Individual.java" line="388" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/population/Individual.java" bodystart="388" bodyend="390"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1population_1_1_individual_3_01_t_01extends_01_chromosome_01_4_1aeea71cba0872f34f4097e882b5debf64" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>final String</type>
+        <definition>final String jenes.population.Individual&lt; T extends Chromosome &gt;.toCompleteString</definition>
+        <argsstring>()</argsstring>
+        <name>toCompleteString</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns a full textual representation of this Individual</para><para><simplesect kind="return"><para>representation </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/population/Individual.java" line="397" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/population/Individual.java" bodystart="397" bodyend="403"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1population_1_1_individual_3_01_t_01extends_01_chromosome_01_4_1a705d4c4407ca6e33ae5b500fb192ced0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>final String</type>
+        <definition>final String jenes.population.Individual&lt; T extends Chromosome &gt;.toString</definition>
+        <argsstring>()</argsstring>
+        <name>toString</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/population/Individual.java" line="406" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/population/Individual.java" bodystart="406" bodyend="409"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1population_1_1_individual_3_01_t_01extends_01_chromosome_01_4_1adcfca83cfc369ef8a3fcabe9bda4de1f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>final boolean</type>
+        <definition>final boolean jenes.population.Individual&lt; T extends Chromosome &gt;.isLegal</definition>
+        <argsstring>()</argsstring>
+        <name>isLegal</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Tests if this Individual is a legal individual i.e is a feasible solution.</para><para><simplesect kind="return"><para><computeroutput>true</computeroutput> if this individual is a legal solution; <computeroutput>flase</computeroutput> otherwise. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/population/Individual.java" line="417" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/population/Individual.java" bodystart="417" bodyend="419"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1population_1_1_individual_3_01_t_01extends_01_chromosome_01_4_1aabb4dbbc582544a12932ec7c42a2ec78" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>final void</type>
+        <definition>final void jenes.population.Individual&lt; T extends Chromosome &gt;.setLegal</definition>
+        <argsstring>(final boolean legal)</argsstring>
+        <name>setLegal</name>
+        <param>
+          <type>final boolean</type>
+          <declname>legal</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Sets the legal state of this individual</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>legal</parametername>
+</parameternamelist>
+<parameterdescription>
+<para><computeroutput>true</computeroutput> if legal; <computeroutput>false</computeroutput> otherwise. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/population/Individual.java" line="426" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/population/Individual.java" bodystart="426" bodyend="428"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1population_1_1_individual_3_01_t_01extends_01_chromosome_01_4_1a4cc0f0feb3da7cc54bb44e881006d39a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>final int</type>
+        <definition>final int jenes.population.Individual&lt; T extends Chromosome &gt;.compareTo</definition>
+        <argsstring>(final Individual&lt; T &gt; ind)</argsstring>
+        <name>compareTo</name>
+        <param>
+          <type>final <ref refid="classjenes_1_1population_1_1_individual_3_01_t_01extends_01_chromosome_01_4_1aaef7161bf62cee0ac95f079394fdac9f" kindref="member">Individual</ref>&lt; T &gt;</type>
+          <declname>ind</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Compares this individual with the specified individual. Returns a negative, zero or positive value as the individual is lesser than, equal to, or greater than the specified individual. The comparison is based on the chromosome score.</para><para>Note: this class has a natural ordering that is inconsistent with equals. <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>ind</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the individual to be compared. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/population/Individual.java" line="439" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/population/Individual.java" bodystart="439" bodyend="449"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1population_1_1_individual_3_01_t_01extends_01_chromosome_01_4_1acffe4b1590048fb780b637716fad6db6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>final boolean</type>
+        <definition>final boolean jenes.population.Individual&lt; T extends Chromosome &gt;.equals</definition>
+        <argsstring>(final Individual&lt; T &gt; ind)</argsstring>
+        <name>equals</name>
+        <param>
+          <type>final <ref refid="classjenes_1_1population_1_1_individual_3_01_t_01extends_01_chromosome_01_4_1aaef7161bf62cee0ac95f079394fdac9f" kindref="member">Individual</ref>&lt; T &gt;</type>
+          <declname>ind</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Indicates whether the other individual is &quot;equal to&quot; this one. i.e if they have the same fitness and the same chromosome</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>ind</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the reference individual with which to compare. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para><computeroutput>true</computeroutput> if the individual has the same chromosome and score as the other; <computeroutput>false</computeroutput> otherwise. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/population/Individual.java" line="460" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/population/Individual.java" bodystart="460" bodyend="482"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1population_1_1_individual_3_01_t_01extends_01_chromosome_01_4_1a78847299c79de4cde6aec341a406e80c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>final int</type>
+        <definition>final int jenes.population.Individual&lt; T extends Chromosome &gt;.getChromosomeLength</definition>
+        <argsstring>()</argsstring>
+        <name>getChromosomeLength</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns the chromosome&apos;s length</para><para><simplesect kind="return"><para>the chromosome&apos;s length </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/population/Individual.java" line="504" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/population/Individual.java" bodystart="504" bodyend="506"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1population_1_1_individual_3_01_t_01extends_01_chromosome_01_4_1acdf2d55195f6068913e5487b0542952a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Statistics&lt; T &gt;</type>
+        <definition>Statistics&lt;T&gt; jenes.population.Individual&lt; T extends Chromosome &gt;.getStatistics</definition>
+        <argsstring>()</argsstring>
+        <name>getStatistics</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns the <ref refid="" kindref="compound">Statistics</ref> of this <computeroutput> Individual </computeroutput></para><para><simplesect kind="return"><para>the <ref refid="" kindref="compound">Statistics</ref> object </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/population/Individual.java" line="533" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/population/Individual.java" bodystart="533" bodyend="538"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="package-func">
+      <memberdef kind="function" id="classjenes_1_1population_1_1_individual_3_01_t_01extends_01_chromosome_01_4_1a967657064e885c80d9f57a3f28d60b69" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>final void</type>
+        <definition>final void jenes.population.Individual&lt; T extends Chromosome &gt;.setPopulation</definition>
+        <argsstring>(Population&lt; T &gt; pop)</argsstring>
+        <name>setPopulation</name>
+        <param>
+          <type>Population&lt; T &gt;</type>
+          <declname>pop</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Sets the <computeroutput>Individual</computeroutput>&apos;s population </para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>pop</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>individual&apos;s population </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/population/Individual.java" line="142" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/population/Individual.java" bodystart="142" bodyend="144"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1population_1_1_individual_3_01_t_01extends_01_chromosome_01_4_1ae33953f7b2e57b60de4cd99f8b41ea29" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void jenes.population.Individual&lt; T extends Chromosome &gt;.setRank</definition>
+        <argsstring>(int rank)</argsstring>
+        <name>setRank</name>
+        <param>
+          <type>int</type>
+          <declname>rank</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Set the individual&apos;s rank</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>individual&apos;s</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>rank </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/population/Individual.java" line="302" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/population/Individual.java" bodystart="302" bodyend="304"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classjenes_1_1population_1_1_individual_3_01_t_01extends_01_chromosome_01_4_1acfba33ed514b9d558e8f99b72479039a" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>boolean</type>
+        <definition>boolean jenes.population.Individual&lt; T extends Chromosome &gt;.checkEvaluated</definition>
+        <argsstring>()</argsstring>
+        <name>checkEvaluated</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Says if this <computeroutput>Individual</computeroutput> is evaluated. </para><para><simplesect kind="return"><para><computeroutput> false </computeroutput> if array&apos;s score contains at least a <computeroutput>Double.NaN</computeroutput> value. <computeroutput> true </computeroutput> otherwise </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/population/Individual.java" line="266" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/population/Individual.java" bodystart="266" bodyend="273"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1population_1_1_individual_3_01_t_01extends_01_chromosome_01_4_1a9ef06ba449749c02b5da67194e09a696" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>boolean</type>
+        <definition>boolean jenes.population.Individual&lt; T extends Chromosome &gt;.isScoreEqual</definition>
+        <argsstring>(double[] s)</argsstring>
+        <name>isScoreEqual</name>
+        <param>
+          <type>double[]</type>
+          <declname>s</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Says if the score&apos; array of this <computeroutput> Individual </computeroutput> has the same lenght of the array given as argument</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>s</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>array to compare </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para><computeroutput> true </computeroutput> if the arrays have the same lenght. Otherwise throws <ref refid="" kindref="compound">IllegalStateException</ref> </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/population/Individual.java" line="490" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/population/Individual.java" bodystart="490" bodyend="497"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classjenes_1_1population_1_1_individual_3_01_t_01extends_01_chromosome_01_4_1adc6718949b2a065a657f0ac5e7aef664" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>final boolean</type>
+        <definition>static final boolean jenes.population.Individual&lt; T extends Chromosome &gt;.isSameChromosomeSameFitness</definition>
+        <argsstring>()</argsstring>
+        <name>isSameChromosomeSameFitness</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns true if individual with the same chromosome must have also the same fitness (if evaluated), false otherwise</para><para><simplesect kind="return"><para>the sameChromosomeSameFitness field value </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/population/Individual.java" line="514" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/population/Individual.java" bodystart="514" bodyend="516"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1population_1_1_individual_3_01_t_01extends_01_chromosome_01_4_1a1552d231f0bf2ebdba499e4575d2fa95" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>final void</type>
+        <definition>static final void jenes.population.Individual&lt; T extends Chromosome &gt;.setSameChromosomeSameFitness</definition>
+        <argsstring>(final boolean sameChromosomeSameFitness)</argsstring>
+        <name>setSameChromosomeSameFitness</name>
+        <param>
+          <type>final boolean</type>
+          <declname>sameChromosomeSameFitness</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Set to true if individual with the same chromosome must have also the same fitness (if evaluated), false otherwise</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>sameChromosomeSameFitness</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the sameChromosomeSameFitness value </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/population/Individual.java" line="524" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/population/Individual.java" bodystart="524" bodyend="526"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Individual represents a solution processed by a genetic algorithm. It is made of a <ref refid="" kindref="compound">Chromosome</ref> representing its genoma, and a score representing its fitness. To be valid, the score must be non-negative. </para><para>A key point is how to compare individuals. There two ways in comparing individuals: by fitness and chromosome. The <ref refid="" kindref="compound">compareTo(Individual)</ref> method tests if scores are equal or which one is bigger regardless at their genoma. The <ref refid="" kindref="compound">equals(Individual)</ref> methods compares the chromosome. In order to gain efficiency in comparing individuals, the <ref refid="" kindref="compound">Individual#isSameChromosomeSameFitness()</ref> property is used to shortcut the procedure. If this property is true, <computeroutput>equals</computeroutput> returns true according to the score, thus avoiding to perform an expensive chromosome comparison. Indeed, by setting the <computeroutput>sameChromosomeSameFitness</computeroutput> property to true, we assume that is not possible to have two different chromosome with the same score. Appliability fo this property depends on the problem and search landscape characteristics. Obviously, we assume that individuals with the same chromosome must show the fitness value. </para><para>In complex search spaces, not every solution is feasible. The solution feasability is controlled by the <computeroutput>legal</computeroutput> property.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>&lt;T&gt;</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The type of chromosome.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="version"><para>2.0 </para></simplesect>
+<simplesect kind="since"><para>1.0</para></simplesect>
+<simplesect kind="see"><para>jenes.population.Population </para><simplesectsep/><para>jenes.chromosome.Chromosome </para></simplesect>
+</para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="255">
+        <label>Serializable</label>
+      </node>
+      <node id="256">
+        <label>Comparable&lt;Individual&lt;T&gt; &gt;</label>
+      </node>
+      <node id="254">
+        <label>Cloneable</label>
+      </node>
+      <node id="253">
+        <label>jenes.population.Individual&lt; T extends Chromosome &gt;</label>
+        <link refid="classjenes_1_1population_1_1_individual_3_01_t_01extends_01_chromosome_01_4"/>
+        <childnode refid="254" relation="public-inheritance">
+        </childnode>
+        <childnode refid="255" relation="public-inheritance">
+        </childnode>
+        <childnode refid="256" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="259">
+        <label>Serializable</label>
+      </node>
+      <node id="262">
+        <label>Population&lt; T &gt;</label>
+      </node>
+      <node id="261">
+        <label>Statistics&lt; T &gt;</label>
+      </node>
+      <node id="260">
+        <label>Comparable&lt;Individual&lt;T&gt; &gt;</label>
+      </node>
+      <node id="258">
+        <label>Cloneable</label>
+      </node>
+      <node id="257">
+        <label>jenes.population.Individual&lt; T extends Chromosome &gt;</label>
+        <link refid="classjenes_1_1population_1_1_individual_3_01_t_01extends_01_chromosome_01_4"/>
+        <childnode refid="258" relation="public-inheritance">
+        </childnode>
+        <childnode refid="259" relation="public-inheritance">
+        </childnode>
+        <childnode refid="260" relation="public-inheritance">
+        </childnode>
+        <childnode refid="261" relation="usage">
+          <edgelabel>statistics</edgelabel>
+        </childnode>
+        <childnode refid="262" relation="usage">
+          <edgelabel>population</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/population/Individual.java" line="58" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/population/Individual.java" bodystart="58" bodyend="619"/>
+    <listofallmembers>
+      <member refid="classjenes_1_1population_1_1_individual_3_01_t_01extends_01_chromosome_01_4_1acfba33ed514b9d558e8f99b72479039a" prot="private" virt="non-virtual"><scope>jenes::population::Individual&lt; T extends Chromosome &gt;</scope><name>checkEvaluated</name></member>
+      <member refid="classjenes_1_1population_1_1_individual_3_01_t_01extends_01_chromosome_01_4_1ab83da09312b8d5c807d6e6d04692e1a4" prot="private" virt="non-virtual"><scope>jenes::population::Individual&lt; T extends Chromosome &gt;</scope><name>chromosome</name></member>
+      <member refid="classjenes_1_1population_1_1_individual_3_01_t_01extends_01_chromosome_01_4_1acc11569b9577fe227751297e26d719df" prot="public" virt="non-virtual"><scope>jenes::population::Individual&lt; T extends Chromosome &gt;</scope><name>clone</name></member>
+      <member refid="classjenes_1_1population_1_1_individual_3_01_t_01extends_01_chromosome_01_4_1a4cc0f0feb3da7cc54bb44e881006d39a" prot="public" virt="non-virtual"><scope>jenes::population::Individual&lt; T extends Chromosome &gt;</scope><name>compareTo</name></member>
+      <member refid="classjenes_1_1population_1_1_individual_3_01_t_01extends_01_chromosome_01_4_1acffe4b1590048fb780b637716fad6db6" prot="public" virt="non-virtual"><scope>jenes::population::Individual&lt; T extends Chromosome &gt;</scope><name>equals</name></member>
+      <member refid="classjenes_1_1population_1_1_individual_3_01_t_01extends_01_chromosome_01_4_1a10205aa0bc5a6fd766df166027396a78" prot="private" virt="non-virtual"><scope>jenes::population::Individual&lt; T extends Chromosome &gt;</scope><name>evaluated</name></member>
+      <member refid="classjenes_1_1population_1_1_individual_3_01_t_01extends_01_chromosome_01_4_1ad3b9122edf5b711c5f6d860e0f7c36b2" prot="public" virt="non-virtual"><scope>jenes::population::Individual&lt; T extends Chromosome &gt;</scope><name>getAllScores</name></member>
+      <member refid="classjenes_1_1population_1_1_individual_3_01_t_01extends_01_chromosome_01_4_1aeed25204463ec1e7eebe36674a24ada7" prot="public" virt="non-virtual"><scope>jenes::population::Individual&lt; T extends Chromosome &gt;</scope><name>getChromosome</name></member>
+      <member refid="classjenes_1_1population_1_1_individual_3_01_t_01extends_01_chromosome_01_4_1a78847299c79de4cde6aec341a406e80c" prot="public" virt="non-virtual"><scope>jenes::population::Individual&lt; T extends Chromosome &gt;</scope><name>getChromosomeLength</name></member>
+      <member refid="classjenes_1_1population_1_1_individual_3_01_t_01extends_01_chromosome_01_4_1a1c109dce60908107cc2dcfaf630b95f5" prot="public" virt="non-virtual"><scope>jenes::population::Individual&lt; T extends Chromosome &gt;</scope><name>getNumOfObjectives</name></member>
+      <member refid="classjenes_1_1population_1_1_individual_3_01_t_01extends_01_chromosome_01_4_1a15020083468eb11265c621aca7de0bf2" prot="public" virt="non-virtual"><scope>jenes::population::Individual&lt; T extends Chromosome &gt;</scope><name>getPopulation</name></member>
+      <member refid="classjenes_1_1population_1_1_individual_3_01_t_01extends_01_chromosome_01_4_1a42c65137e521bc9cd81448f7c27dccd2" prot="public" virt="non-virtual"><scope>jenes::population::Individual&lt; T extends Chromosome &gt;</scope><name>getRank</name></member>
+      <member refid="classjenes_1_1population_1_1_individual_3_01_t_01extends_01_chromosome_01_4_1aa95dc3489632913f59c9c9e5d30d89c0" prot="public" virt="non-virtual"><scope>jenes::population::Individual&lt; T extends Chromosome &gt;</scope><name>getScore</name></member>
+      <member refid="classjenes_1_1population_1_1_individual_3_01_t_01extends_01_chromosome_01_4_1ad2cc30ec43ca42539e72c4619953fd3b" prot="public" virt="non-virtual"><scope>jenes::population::Individual&lt; T extends Chromosome &gt;</scope><name>getScore</name></member>
+      <member refid="classjenes_1_1population_1_1_individual_3_01_t_01extends_01_chromosome_01_4_1aed3f28eb6e9ea75f5dd58dc981180559" prot="public" virt="non-virtual"><scope>jenes::population::Individual&lt; T extends Chromosome &gt;</scope><name>getSpeciem</name></member>
+      <member refid="classjenes_1_1population_1_1_individual_3_01_t_01extends_01_chromosome_01_4_1acdf2d55195f6068913e5487b0542952a" prot="public" virt="non-virtual"><scope>jenes::population::Individual&lt; T extends Chromosome &gt;</scope><name>getStatistics</name></member>
+      <member refid="classjenes_1_1population_1_1_individual_3_01_t_01extends_01_chromosome_01_4_1aaef7161bf62cee0ac95f079394fdac9f" prot="public" virt="non-virtual"><scope>jenes::population::Individual&lt; T extends Chromosome &gt;</scope><name>Individual</name></member>
+      <member refid="classjenes_1_1population_1_1_individual_3_01_t_01extends_01_chromosome_01_4_1ab976f777177706bca918974cc60728c9" prot="public" virt="non-virtual"><scope>jenes::population::Individual&lt; T extends Chromosome &gt;</scope><name>Individual</name></member>
+      <member refid="classjenes_1_1population_1_1_individual_3_01_t_01extends_01_chromosome_01_4_1a0ee89d719da75153410f8757ebafdb0d" prot="public" virt="non-virtual"><scope>jenes::population::Individual&lt; T extends Chromosome &gt;</scope><name>Individual</name></member>
+      <member refid="classjenes_1_1population_1_1_individual_3_01_t_01extends_01_chromosome_01_4_1a39ca92146563b3b00576736296b523a5" prot="public" virt="non-virtual"><scope>jenes::population::Individual&lt; T extends Chromosome &gt;</scope><name>Individual</name></member>
+      <member refid="classjenes_1_1population_1_1_individual_3_01_t_01extends_01_chromosome_01_4_1a90f222f30e37b23c0c3aceffd4571cfa" prot="public" virt="non-virtual"><scope>jenes::population::Individual&lt; T extends Chromosome &gt;</scope><name>isEvaluated</name></member>
+      <member refid="classjenes_1_1population_1_1_individual_3_01_t_01extends_01_chromosome_01_4_1adcfca83cfc369ef8a3fcabe9bda4de1f" prot="public" virt="non-virtual"><scope>jenes::population::Individual&lt; T extends Chromosome &gt;</scope><name>isLegal</name></member>
+      <member refid="classjenes_1_1population_1_1_individual_3_01_t_01extends_01_chromosome_01_4_1adc6718949b2a065a657f0ac5e7aef664" prot="public" virt="non-virtual"><scope>jenes::population::Individual&lt; T extends Chromosome &gt;</scope><name>isSameChromosomeSameFitness</name></member>
+      <member refid="classjenes_1_1population_1_1_individual_3_01_t_01extends_01_chromosome_01_4_1a9ef06ba449749c02b5da67194e09a696" prot="private" virt="non-virtual"><scope>jenes::population::Individual&lt; T extends Chromosome &gt;</scope><name>isScoreEqual</name></member>
+      <member refid="classjenes_1_1population_1_1_individual_3_01_t_01extends_01_chromosome_01_4_1a0775108a26a06ac9d9fe4aea63bd5709" prot="private" virt="non-virtual"><scope>jenes::population::Individual&lt; T extends Chromosome &gt;</scope><name>legal</name></member>
+      <member refid="classjenes_1_1population_1_1_individual_3_01_t_01extends_01_chromosome_01_4_1a6a4149139b12672baab0d9d65cdeffb2" prot="private" virt="non-virtual"><scope>jenes::population::Individual&lt; T extends Chromosome &gt;</scope><name>population</name></member>
+      <member refid="classjenes_1_1population_1_1_individual_3_01_t_01extends_01_chromosome_01_4_1aa15396a9c24a33b93ad1b7a332b92cfb" prot="public" virt="non-virtual"><scope>jenes::population::Individual&lt; T extends Chromosome &gt;</scope><name>randomize</name></member>
+      <member refid="classjenes_1_1population_1_1_individual_3_01_t_01extends_01_chromosome_01_4_1a393116ea0dc6238686c67292f5f8a9ca" prot="private" virt="non-virtual"><scope>jenes::population::Individual&lt; T extends Chromosome &gt;</scope><name>rank</name></member>
+      <member refid="classjenes_1_1population_1_1_individual_3_01_t_01extends_01_chromosome_01_4_1ad2b80a4fa7401737fef5d9fbebf7588e" prot="public" virt="non-virtual"><scope>jenes::population::Individual&lt; T extends Chromosome &gt;</scope><name>resetScores</name></member>
+      <member refid="classjenes_1_1population_1_1_individual_3_01_t_01extends_01_chromosome_01_4_1a76c4bb153b0ed0eb30b9cf1faa376c20" prot="private" virt="non-virtual"><scope>jenes::population::Individual&lt; T extends Chromosome &gt;</scope><name>sameChromosomeSameFitness</name></member>
+      <member refid="classjenes_1_1population_1_1_individual_3_01_t_01extends_01_chromosome_01_4_1a1abd72838faa3246dbf498f66ed7963a" prot="private" virt="non-virtual"><scope>jenes::population::Individual&lt; T extends Chromosome &gt;</scope><name>score</name></member>
+      <member refid="classjenes_1_1population_1_1_individual_3_01_t_01extends_01_chromosome_01_4_1a4479bb5b4c3aa508f88f06585fa78be1" prot="private" virt="non-virtual"><scope>jenes::population::Individual&lt; T extends Chromosome &gt;</scope><name>serialVersionUID</name></member>
+      <member refid="classjenes_1_1population_1_1_individual_3_01_t_01extends_01_chromosome_01_4_1abf8f090558f25a8479a1187d4f53e8d7" prot="public" virt="non-virtual"><scope>jenes::population::Individual&lt; T extends Chromosome &gt;</scope><name>setAs</name></member>
+      <member refid="classjenes_1_1population_1_1_individual_3_01_t_01extends_01_chromosome_01_4_1a5d41ad20ea167e591b4df69883e3ab84" prot="public" virt="non-virtual"><scope>jenes::population::Individual&lt; T extends Chromosome &gt;</scope><name>setAs</name></member>
+      <member refid="classjenes_1_1population_1_1_individual_3_01_t_01extends_01_chromosome_01_4_1a14c0669f286f8097bb8fdf13dc5fcf50" prot="public" virt="non-virtual"><scope>jenes::population::Individual&lt; T extends Chromosome &gt;</scope><name>setChromosome</name></member>
+      <member refid="classjenes_1_1population_1_1_individual_3_01_t_01extends_01_chromosome_01_4_1aabb4dbbc582544a12932ec7c42a2ec78" prot="public" virt="non-virtual"><scope>jenes::population::Individual&lt; T extends Chromosome &gt;</scope><name>setLegal</name></member>
+      <member refid="classjenes_1_1population_1_1_individual_3_01_t_01extends_01_chromosome_01_4_1aede2854b691153950593a92a69cad856" prot="public" virt="non-virtual"><scope>jenes::population::Individual&lt; T extends Chromosome &gt;</scope><name>setNotEvaluated</name></member>
+      <member refid="classjenes_1_1population_1_1_individual_3_01_t_01extends_01_chromosome_01_4_1a967657064e885c80d9f57a3f28d60b69" prot="package" virt="non-virtual"><scope>jenes::population::Individual&lt; T extends Chromosome &gt;</scope><name>setPopulation</name></member>
+      <member refid="classjenes_1_1population_1_1_individual_3_01_t_01extends_01_chromosome_01_4_1ae33953f7b2e57b60de4cd99f8b41ea29" prot="package" virt="non-virtual"><scope>jenes::population::Individual&lt; T extends Chromosome &gt;</scope><name>setRank</name></member>
+      <member refid="classjenes_1_1population_1_1_individual_3_01_t_01extends_01_chromosome_01_4_1a1552d231f0bf2ebdba499e4575d2fa95" prot="public" virt="non-virtual"><scope>jenes::population::Individual&lt; T extends Chromosome &gt;</scope><name>setSameChromosomeSameFitness</name></member>
+      <member refid="classjenes_1_1population_1_1_individual_3_01_t_01extends_01_chromosome_01_4_1a6f459ca1de55083c73390b4474271539" prot="public" virt="non-virtual"><scope>jenes::population::Individual&lt; T extends Chromosome &gt;</scope><name>setScore</name></member>
+      <member refid="classjenes_1_1population_1_1_individual_3_01_t_01extends_01_chromosome_01_4_1a0388610de8d27632d932de85904d18e4" prot="public" virt="non-virtual"><scope>jenes::population::Individual&lt; T extends Chromosome &gt;</scope><name>setScore</name></member>
+      <member refid="classjenes_1_1population_1_1_individual_3_01_t_01extends_01_chromosome_01_4_1a52068a99fee4d8b7e5bc51c4d2c068cd" prot="public" virt="non-virtual"><scope>jenes::population::Individual&lt; T extends Chromosome &gt;</scope><name>setSpeciem</name></member>
+      <member refid="classjenes_1_1population_1_1_individual_3_01_t_01extends_01_chromosome_01_4_1a8f5c7ae0c537b3f59be861f78d0bdf1b" prot="private" virt="non-virtual"><scope>jenes::population::Individual&lt; T extends Chromosome &gt;</scope><name>speciem</name></member>
+      <member refid="classjenes_1_1population_1_1_individual_3_01_t_01extends_01_chromosome_01_4_1ada4319553581f0d52b9623a0f434daad" prot="private" virt="non-virtual"><scope>jenes::population::Individual&lt; T extends Chromosome &gt;</scope><name>statistics</name></member>
+      <member refid="classjenes_1_1population_1_1_individual_3_01_t_01extends_01_chromosome_01_4_1aeea71cba0872f34f4097e882b5debf64" prot="public" virt="non-virtual"><scope>jenes::population::Individual&lt; T extends Chromosome &gt;</scope><name>toCompleteString</name></member>
+      <member refid="classjenes_1_1population_1_1_individual_3_01_t_01extends_01_chromosome_01_4_1a705d4c4407ca6e33ae5b500fb192ced0" prot="public" virt="non-virtual"><scope>jenes::population::Individual&lt; T extends Chromosome &gt;</scope><name>toString</name></member>
+      <member refid="classjenes_1_1population_1_1_individual_3_01_t_01extends_01_chromosome_01_4_1a6f913202241aa5f7255e482179175f62" prot="public" virt="non-virtual"><scope>jenes::population::Individual&lt; T extends Chromosome &gt;</scope><name>UNRANKED</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

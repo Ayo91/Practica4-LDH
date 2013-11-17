@@ -1,0 +1,110 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="classjenes_1_1tutorials_1_1problem2_1_1_simple_dispenser_3_01_t_01extends_01_chromosome_01_4" kind="class" prot="public">
+    <compoundname>jenes::tutorials::problem2::SimpleDispenser&lt; T extends Chromosome &gt;</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">jenes::stage::ExclusiveDispenser&lt; T &gt;</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classjenes_1_1tutorials_1_1problem2_1_1_simple_dispenser_3_01_t_01extends_01_chromosome_01_4_1a89ff326530f8e9ef6486c23766897406" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int jenes.tutorials.problem2.SimpleDispenser&lt; T extends Chromosome &gt;.count</definition>
+        <argsstring></argsstring>
+        <name>count</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/problem2/SimpleDispenser.java" line="42" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/problem2/SimpleDispenser.java" bodystart="42" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classjenes_1_1tutorials_1_1problem2_1_1_simple_dispenser_3_01_t_01extends_01_chromosome_01_4_1a0c8ee6561c4336810cacc9fb7dad7993" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>jenes.tutorials.problem2.SimpleDispenser&lt; T extends Chromosome &gt;.SimpleDispenser</definition>
+        <argsstring>(int span)</argsstring>
+        <name>SimpleDispenser</name>
+        <param>
+          <type>int</type>
+          <declname>span</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/problem2/SimpleDispenser.java" line="44" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/problem2/SimpleDispenser.java" bodystart="44" bodyend="46"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1tutorials_1_1problem2_1_1_simple_dispenser_3_01_t_01extends_01_chromosome_01_4_1adeddb967a293817fab3f83bd9a04736d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void jenes.tutorials.problem2.SimpleDispenser&lt; T extends Chromosome &gt;.preDistribute</definition>
+        <argsstring>(Population&lt; T &gt; population)</argsstring>
+        <name>preDistribute</name>
+        <param>
+          <type>Population&lt; T &gt;</type>
+          <declname>population</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/problem2/SimpleDispenser.java" line="49" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/problem2/SimpleDispenser.java" bodystart="49" bodyend="51"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1tutorials_1_1problem2_1_1_simple_dispenser_3_01_t_01extends_01_chromosome_01_4_1a36cc589e5e73dd601e4bbf62835329ca" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int jenes.tutorials.problem2.SimpleDispenser&lt; T extends Chromosome &gt;.distribute</definition>
+        <argsstring>(Individual&lt; T &gt; ind)</argsstring>
+        <name>distribute</name>
+        <param>
+          <type>Individual&lt; T &gt;</type>
+          <declname>ind</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/problem2/SimpleDispenser.java" line="54" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/problem2/SimpleDispenser.java" bodystart="54" bodyend="56"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Tutorial showing how to extend <computeroutput>GeneticAlgorithm</computeroutput> and how to use the flexible and configurable breeding structure in Jenes. The problem consists in searching a pattern of integers with a given precision. Solutions flow through two different crossovers in parallel. Some are processed by a single point crossover, the other by a double point crossover. After solutions are mutated.</para><para>This class implements the strategy for dispensing solutions in the two branches. Odd solutions goes to the first, even to the second.</para><para><simplesect kind="version"><para>2.0 </para></simplesect>
+<simplesect kind="since"><para>1.0 </para></simplesect>
+</para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="607">
+        <label>jenes.tutorials.problem2.SimpleDispenser&lt; T extends Chromosome &gt;</label>
+        <link refid="classjenes_1_1tutorials_1_1problem2_1_1_simple_dispenser_3_01_t_01extends_01_chromosome_01_4"/>
+        <childnode refid="608" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="608">
+        <label>jenes::stage::ExclusiveDispenser&lt; T &gt;</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="609">
+        <label>jenes.tutorials.problem2.SimpleDispenser&lt; T extends Chromosome &gt;</label>
+        <link refid="classjenes_1_1tutorials_1_1problem2_1_1_simple_dispenser_3_01_t_01extends_01_chromosome_01_4"/>
+        <childnode refid="610" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="610">
+        <label>jenes::stage::ExclusiveDispenser&lt; T &gt;</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/problem2/SimpleDispenser.java" line="40" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/problem2/SimpleDispenser.java" bodystart="40" bodyend="58"/>
+    <listofallmembers>
+      <member refid="classjenes_1_1tutorials_1_1problem2_1_1_simple_dispenser_3_01_t_01extends_01_chromosome_01_4_1a89ff326530f8e9ef6486c23766897406" prot="private" virt="non-virtual"><scope>jenes::tutorials::problem2::SimpleDispenser&lt; T extends Chromosome &gt;</scope><name>count</name></member>
+      <member refid="classjenes_1_1tutorials_1_1problem2_1_1_simple_dispenser_3_01_t_01extends_01_chromosome_01_4_1a36cc589e5e73dd601e4bbf62835329ca" prot="public" virt="non-virtual"><scope>jenes::tutorials::problem2::SimpleDispenser&lt; T extends Chromosome &gt;</scope><name>distribute</name></member>
+      <member refid="classjenes_1_1tutorials_1_1problem2_1_1_simple_dispenser_3_01_t_01extends_01_chromosome_01_4_1adeddb967a293817fab3f83bd9a04736d" prot="public" virt="non-virtual"><scope>jenes::tutorials::problem2::SimpleDispenser&lt; T extends Chromosome &gt;</scope><name>preDistribute</name></member>
+      <member refid="classjenes_1_1tutorials_1_1problem2_1_1_simple_dispenser_3_01_t_01extends_01_chromosome_01_4_1a0c8ee6561c4336810cacc9fb7dad7993" prot="public" virt="non-virtual"><scope>jenes::tutorials::problem2::SimpleDispenser&lt; T extends Chromosome &gt;</scope><name>SimpleDispenser</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

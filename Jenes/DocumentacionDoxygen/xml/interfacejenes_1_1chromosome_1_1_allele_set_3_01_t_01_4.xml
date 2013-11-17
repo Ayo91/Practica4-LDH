@@ -1,0 +1,137 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="interfacejenes_1_1chromosome_1_1_allele_set_3_01_t_01_4" kind="interface" prot="public" abstract="yes">
+    <compoundname>jenes::chromosome::AlleleSet&lt; T &gt;</compoundname>
+    <derivedcompoundref refid="classjenes_1_1chromosome_1_1_generic_allele_set_3_01_t_01_4" prot="public" virt="non-virtual">jenes.chromosome.GenericAlleleSet&lt; T &gt;</derivedcompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="interfacejenes_1_1chromosome_1_1_allele_set_3_01_t_01_4_1a10625403643dc57a5c655a92a49aa644" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>abstract T</type>
+        <definition>abstract T jenes.chromosome.AlleleSet&lt; T &gt;.getElementAt</definition>
+        <argsstring>(int pos)</argsstring>
+        <name>getElementAt</name>
+        <param>
+          <type>int</type>
+          <declname>pos</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Gets the allele value at the specified position </para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>pos</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the index of the desidered allele value </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>the allele value at the specified position </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/chromosome/AlleleSet.java" line="41" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="interfacejenes_1_1chromosome_1_1_allele_set_3_01_t_01_4_1ac09d409c55d941892df658d21b3d4bff" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>abstract T</type>
+        <definition>abstract T jenes.chromosome.AlleleSet&lt; T &gt;.getRandomValue</definition>
+        <argsstring>()</argsstring>
+        <name>getRandomValue</name>
+        <reimplementedby refid="classjenes_1_1chromosome_1_1_generic_allele_set_3_01_t_01_4_1a2f330d71d992e0d724bc31730b56229e">getRandomValue</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Gets a random allele value within this alphabet. The allele value returned has to be a copy of the value in the allele set. </para><para><simplesect kind="return"><para>the random value selected </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/chromosome/AlleleSet.java" line="49" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="interfacejenes_1_1chromosome_1_1_allele_set_3_01_t_01_4_1a3acbb10df92ebafc589d5d8546949f2f" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>abstract int</type>
+        <definition>abstract int jenes.chromosome.AlleleSet&lt; T &gt;.size</definition>
+        <argsstring>()</argsstring>
+        <name>size</name>
+        <reimplementedby refid="classjenes_1_1chromosome_1_1_generic_allele_set_3_01_t_01_4_1a568ca617716496507d41e348c5bc2845">size</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns the alphabet size </para><para><simplesect kind="return"><para>the alphabet size </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/chromosome/AlleleSet.java" line="56" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="interfacejenes_1_1chromosome_1_1_allele_set_3_01_t_01_4_1a74ab0cb120fcfdee8e878727d6c50815" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>abstract double</type>
+        <definition>abstract double jenes.chromosome.AlleleSet&lt; T &gt;.difference</definition>
+        <argsstring>(T a0, T a1)</argsstring>
+        <name>difference</name>
+        <reimplementedby refid="classjenes_1_1chromosome_1_1_generic_allele_set_3_01_t_01_4_1ace70b10ee535ccc3a7cbcd42739b8d5c">difference</reimplementedby>
+        <param>
+          <type>T</type>
+          <declname>a0</declname>
+        </param>
+        <param>
+          <type>T</type>
+          <declname>a1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Provides the genetic difference between two alleles.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>a0</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- first allele </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>a1</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- second allele </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>- the genetic difeerence </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/chromosome/AlleleSet.java" line="65" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>An AlleleSet represents an alphabet of object gene allele values. Each <ref refid="classjenes_1_1chromosome_1_1_object_chromosome_1_1_gene" kindref="compound">ObjectChromosome.Gene</ref> of an <ref refid="classjenes_1_1chromosome_1_1_object_chromosome" kindref="compound">ObjectChromosome</ref> has an allele set containing all the object values it can assume. A custom set of values can be determined by implementing this interface.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>&lt;T&gt;</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>class of elements held by AlleleSet</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="version"><para>2.0 </para></simplesect>
+<simplesect kind="since"><para>1.0</para></simplesect>
+<simplesect kind="see"><para><ref refid="classjenes_1_1chromosome_1_1_object_chromosome" kindref="compound">jenes.chromosome.ObjectChromosome</ref> </para></simplesect>
+</para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="22">
+        <label>jenes.chromosome.GenericAlleleSet&lt; T &gt;</label>
+        <link refid="classjenes_1_1chromosome_1_1_generic_allele_set_3_01_t_01_4"/>
+        <childnode refid="21" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="21">
+        <label>jenes.chromosome.AlleleSet&lt; T &gt;</label>
+        <link refid="interfacejenes_1_1chromosome_1_1_allele_set_3_01_t_01_4"/>
+      </node>
+    </inheritancegraph>
+    <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/chromosome/AlleleSet.java" line="33" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/chromosome/AlleleSet.java" bodystart="33" bodyend="67"/>
+    <listofallmembers>
+      <member refid="interfacejenes_1_1chromosome_1_1_allele_set_3_01_t_01_4_1a74ab0cb120fcfdee8e878727d6c50815" prot="public" virt="pure-virtual"><scope>jenes::chromosome::AlleleSet&lt; T &gt;</scope><name>difference</name></member>
+      <member refid="interfacejenes_1_1chromosome_1_1_allele_set_3_01_t_01_4_1a10625403643dc57a5c655a92a49aa644" prot="public" virt="pure-virtual"><scope>jenes::chromosome::AlleleSet&lt; T &gt;</scope><name>getElementAt</name></member>
+      <member refid="interfacejenes_1_1chromosome_1_1_allele_set_3_01_t_01_4_1ac09d409c55d941892df658d21b3d4bff" prot="public" virt="pure-virtual"><scope>jenes::chromosome::AlleleSet&lt; T &gt;</scope><name>getRandomValue</name></member>
+      <member refid="interfacejenes_1_1chromosome_1_1_allele_set_3_01_t_01_4_1a3acbb10df92ebafc589d5d8546949f2f" prot="public" virt="pure-virtual"><scope>jenes::chromosome::AlleleSet&lt; T &gt;</scope><name>size</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

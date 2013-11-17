@@ -1,0 +1,114 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="classjenes_1_1tutorials_1_1problem4_1_1_entropy_fitness" kind="class" prot="public">
+    <compoundname>jenes::tutorials::problem4::EntropyFitness</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">jenes::population::Fitness&lt; DoubleChromosome &gt;</basecompoundref>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classjenes_1_1tutorials_1_1problem4_1_1_entropy_fitness_1a015b775a1b2b1f1d5bc1eb82a560fe9a" prot="public" static="yes" mutable="no">
+        <type><ref refid="classjenes_1_1tutorials_1_1problem4_1_1_entropy_fitness" kindref="compound">EntropyFitness</ref></type>
+        <definition>EntropyFitness jenes.tutorials.problem4.EntropyFitness.MAX</definition>
+        <argsstring></argsstring>
+        <name>MAX</name>
+        <initializer>= new <ref refid="classjenes_1_1tutorials_1_1problem4_1_1_entropy_fitness" kindref="compound">EntropyFitness</ref>(true)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/problem4/EntropyFitness.java" line="34" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/problem4/EntropyFitness.java" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classjenes_1_1tutorials_1_1problem4_1_1_entropy_fitness_1ab9c1db9f5da22216604985e98b6fc7e4" prot="public" static="yes" mutable="no">
+        <type><ref refid="classjenes_1_1tutorials_1_1problem4_1_1_entropy_fitness" kindref="compound">EntropyFitness</ref></type>
+        <definition>EntropyFitness jenes.tutorials.problem4.EntropyFitness.MIN</definition>
+        <argsstring></argsstring>
+        <name>MIN</name>
+        <initializer>= new <ref refid="classjenes_1_1tutorials_1_1problem4_1_1_entropy_fitness" kindref="compound">EntropyFitness</ref>(false)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/problem4/EntropyFitness.java" line="35" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/problem4/EntropyFitness.java" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classjenes_1_1tutorials_1_1problem4_1_1_entropy_fitness_1add3e6f95667ae44fa657c1926bdbdf8b" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>jenes.tutorials.problem4.EntropyFitness.EntropyFitness</definition>
+        <argsstring>(boolean maximize)</argsstring>
+        <name>EntropyFitness</name>
+        <param>
+          <type>boolean</type>
+          <declname>maximize</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/problem4/EntropyFitness.java" line="37" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/problem4/EntropyFitness.java" bodystart="37" bodyend="39"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classjenes_1_1tutorials_1_1problem4_1_1_entropy_fitness_1a0e101073e060b84386ee2c10eb80a2f0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void jenes.tutorials.problem4.EntropyFitness.evaluate</definition>
+        <argsstring>(Individual&lt; DoubleChromosome &gt; individual)</argsstring>
+        <name>evaluate</name>
+        <param>
+          <type>Individual&lt; <ref refid="classjenes_1_1chromosome_1_1_double_chromosome" kindref="compound">DoubleChromosome</ref> &gt;</type>
+          <declname>individual</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/problem4/EntropyFitness.java" line="42" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/problem4/EntropyFitness.java" bodystart="42" bodyend="61"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Tutorial showing how to set-up a minimization problem. The problem is to find a vector whose entroy, after normalization, is minimal.</para><para><simplesect kind="version"><para>2.0 </para></simplesect>
+<simplesect kind="since"><para>1.0 </para></simplesect>
+</para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="146">
+        <label>jenes::population::Fitness&lt; DoubleChromosome &gt;</label>
+      </node>
+      <node id="145">
+        <label>jenes.tutorials.problem4.EntropyFitness</label>
+        <link refid="classjenes_1_1tutorials_1_1problem4_1_1_entropy_fitness"/>
+        <childnode refid="146" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="148">
+        <label>jenes::population::Fitness&lt; DoubleChromosome &gt;</label>
+      </node>
+      <node id="147">
+        <label>jenes.tutorials.problem4.EntropyFitness</label>
+        <link refid="classjenes_1_1tutorials_1_1problem4_1_1_entropy_fitness"/>
+        <childnode refid="148" relation="public-inheritance">
+        </childnode>
+        <childnode refid="147" relation="usage">
+          <edgelabel>MIN</edgelabel>
+          <edgelabel>MAX</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/problem4/EntropyFitness.java" line="32" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/problem4/EntropyFitness.java" bodystart="32" bodyend="62"/>
+    <listofallmembers>
+      <member refid="classjenes_1_1tutorials_1_1problem4_1_1_entropy_fitness_1add3e6f95667ae44fa657c1926bdbdf8b" prot="private" virt="non-virtual"><scope>jenes::tutorials::problem4::EntropyFitness</scope><name>EntropyFitness</name></member>
+      <member refid="classjenes_1_1tutorials_1_1problem4_1_1_entropy_fitness_1a0e101073e060b84386ee2c10eb80a2f0" prot="public" virt="non-virtual"><scope>jenes::tutorials::problem4::EntropyFitness</scope><name>evaluate</name></member>
+      <member refid="classjenes_1_1tutorials_1_1problem4_1_1_entropy_fitness_1a015b775a1b2b1f1d5bc1eb82a560fe9a" prot="public" virt="non-virtual"><scope>jenes::tutorials::problem4::EntropyFitness</scope><name>MAX</name></member>
+      <member refid="classjenes_1_1tutorials_1_1problem4_1_1_entropy_fitness_1ab9c1db9f5da22216604985e98b6fc7e4" prot="public" virt="non-virtual"><scope>jenes::tutorials::problem4::EntropyFitness</scope><name>MIN</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

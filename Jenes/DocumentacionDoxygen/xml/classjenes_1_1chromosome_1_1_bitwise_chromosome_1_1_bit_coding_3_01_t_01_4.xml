@@ -1,0 +1,137 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="classjenes_1_1chromosome_1_1_bitwise_chromosome_1_1_bit_coding_3_01_t_01_4" kind="class" prot="public" abstract="yes">
+    <compoundname>jenes::chromosome::BitwiseChromosome::BitCoding&lt; T &gt;</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classjenes_1_1chromosome_1_1_bitwise_chromosome_1_1_bit_coding_3_01_t_01_4_1a9e0438de596fe3dcc0f789a7bd975330" prot="public" static="no" mutable="no">
+        <type>final <ref refid="enumjenes_1_1chromosome_1_1_bitwise_chromosome_1_1_bit_size" kindref="compound">BitSize</ref></type>
+        <definition>final BitSize jenes.chromosome.BitwiseChromosome.BitCoding&lt; T &gt;.SIZE</definition>
+        <argsstring></argsstring>
+        <name>SIZE</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The bit structure characteristics. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/chromosome/BitwiseChromosome.java" line="124" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/chromosome/BitwiseChromosome.java" bodystart="124" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classjenes_1_1chromosome_1_1_bitwise_chromosome_1_1_bit_coding_3_01_t_01_4_1ad0c3fb3e52e28bd01b177f5321e789c6" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>jenes.chromosome.BitwiseChromosome.BitCoding&lt; T &gt;.BitCoding</definition>
+        <argsstring>(final BitSize size)</argsstring>
+        <name>BitCoding</name>
+        <param>
+          <type>final <ref refid="enumjenes_1_1chromosome_1_1_bitwise_chromosome_1_1_bit_size" kindref="compound">BitSize</ref></type>
+          <declname>size</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs a new BitCoding with the specified <ref refid="enumjenes_1_1chromosome_1_1_bitwise_chromosome_1_1_bit_size" kindref="compound">BitSize</ref></para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>size</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the bitSize object to use </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/chromosome/BitwiseChromosome.java" line="131" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/chromosome/BitwiseChromosome.java" bodystart="131" bodyend="133"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classjenes_1_1chromosome_1_1_bitwise_chromosome_1_1_bit_coding_3_01_t_01_4_1ac07b8fe9be73bd1f2111301eb5fee6cf" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>abstract T</type>
+        <definition>abstract T jenes.chromosome.BitwiseChromosome.BitCoding&lt; T &gt;.decode</definition>
+        <argsstring>(int bits)</argsstring>
+        <name>decode</name>
+        <param>
+          <type>int</type>
+          <declname>bits</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns the value of coded bits.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>bits</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>coding the object </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>the value </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/chromosome/BitwiseChromosome.java" line="141" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1chromosome_1_1_bitwise_chromosome_1_1_bit_coding_3_01_t_01_4_1a909b7413fc74a38626fffa9845ab89a0" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>abstract int</type>
+        <definition>abstract int jenes.chromosome.BitwiseChromosome.BitCoding&lt; T &gt;.encode</definition>
+        <argsstring>(T obj)</argsstring>
+        <name>encode</name>
+        <param>
+          <type>T</type>
+          <declname>obj</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns the bits coding the object</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>obj</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the object to be coded </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>the coding bits </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/chromosome/BitwiseChromosome.java" line="149" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Represents the coding used by a <ref refid="classjenes_1_1chromosome_1_1_bitwise_chromosome" kindref="compound">BitwiseChromosome</ref>. A BitCoding can be used by subclassing this class and providing implementation for <ref refid="" kindref="compound">BitCoding#encode(Object)</ref> and <ref refid="classjenes_1_1chromosome_1_1_bitwise_chromosome_1_1_bit_coding_3_01_t_01_4_1ac07b8fe9be73bd1f2111301eb5fee6cf" kindref="member">decode(int)</ref> methods. A <ref refid="enumjenes_1_1chromosome_1_1_bitwise_chromosome_1_1_bit_size" kindref="compound">BitSize</ref> object is useful to specify the number of bits to use foreach coded number.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>&lt;T&gt;</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The type entailed by enconding/deconding operations.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="author"><para>Luigi Troiano </para><simplesectsep/><para>Pierpaolo Lombardi </para><simplesectsep/><para>Giuseppe Pascale </para><simplesectsep/><para>Thierry Bodhuin</para></simplesect>
+<simplesect kind="version"><para>1.2</para></simplesect>
+<simplesect kind="since"><para>1.0 </para></simplesect>
+</para>    </detaileddescription>
+    <collaborationgraph>
+      <node id="25">
+        <label>jenes.chromosome.BitwiseChromosome.BitCoding&lt; T &gt;</label>
+        <link refid="classjenes_1_1chromosome_1_1_bitwise_chromosome_1_1_bit_coding_3_01_t_01_4"/>
+        <childnode refid="26" relation="usage">
+          <edgelabel>SIZE</edgelabel>
+        </childnode>
+      </node>
+      <node id="26">
+        <label>jenes.chromosome.BitwiseChromosome.BitSize</label>
+        <link refid="enumjenes_1_1chromosome_1_1_bitwise_chromosome_1_1_bit_size"/>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/chromosome/BitwiseChromosome.java" line="119" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/chromosome/BitwiseChromosome.java" bodystart="119" bodyend="150"/>
+    <listofallmembers>
+      <member refid="classjenes_1_1chromosome_1_1_bitwise_chromosome_1_1_bit_coding_3_01_t_01_4_1ad0c3fb3e52e28bd01b177f5321e789c6" prot="protected" virt="non-virtual"><scope>jenes::chromosome::BitwiseChromosome::BitCoding&lt; T &gt;</scope><name>BitCoding</name></member>
+      <member refid="classjenes_1_1chromosome_1_1_bitwise_chromosome_1_1_bit_coding_3_01_t_01_4_1ac07b8fe9be73bd1f2111301eb5fee6cf" prot="public" virt="pure-virtual"><scope>jenes::chromosome::BitwiseChromosome::BitCoding&lt; T &gt;</scope><name>decode</name></member>
+      <member refid="classjenes_1_1chromosome_1_1_bitwise_chromosome_1_1_bit_coding_3_01_t_01_4_1a909b7413fc74a38626fffa9845ab89a0" prot="public" virt="pure-virtual"><scope>jenes::chromosome::BitwiseChromosome::BitCoding&lt; T &gt;</scope><name>encode</name></member>
+      <member refid="classjenes_1_1chromosome_1_1_bitwise_chromosome_1_1_bit_coding_3_01_t_01_4_1a9e0438de596fe3dcc0f789a7bd975330" prot="public" virt="non-virtual"><scope>jenes::chromosome::BitwiseChromosome::BitCoding&lt; T &gt;</scope><name>SIZE</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,171 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="classjenes_1_1performance_1_1_j_e_n_e_s_test" kind="class" prot="public">
+    <compoundname>jenes::performance::JENESTest</compoundname>
+      <sectiondef kind="protected-static-attrib">
+      <memberdef kind="variable" id="classjenes_1_1performance_1_1_j_e_n_e_s_test_1abd366eca37794a675c7db2c210b71176" prot="protected" static="yes" mutable="no">
+        <type>int</type>
+        <definition>int jenes.performance.JENESTest.POPULATION_SIZE</definition>
+        <argsstring></argsstring>
+        <name>POPULATION_SIZE</name>
+        <initializer>= 100</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/performance/JENESTest.java" line="25" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/performance/JENESTest.java" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classjenes_1_1performance_1_1_j_e_n_e_s_test_1ab2a38cace613491b31f31dcf06b8bf5a" prot="protected" static="yes" mutable="no">
+        <type>int</type>
+        <definition>int jenes.performance.JENESTest.GENERATION_LIMIT</definition>
+        <argsstring></argsstring>
+        <name>GENERATION_LIMIT</name>
+        <initializer>= 20</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/performance/JENESTest.java" line="26" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/performance/JENESTest.java" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classjenes_1_1performance_1_1_j_e_n_e_s_test_1a5c84bd75d825c995f6bebb79b45df6c1" prot="protected" static="yes" mutable="no">
+        <type>String</type>
+        <definition>String jenes.performance.JENESTest.RUN</definition>
+        <argsstring></argsstring>
+        <name>RUN</name>
+        <initializer>= &quot;1&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/performance/JENESTest.java" line="27" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/performance/JENESTest.java" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classjenes_1_1performance_1_1_j_e_n_e_s_test_1a6b35bbf22096ec3923e78d2bc407c2f4" prot="protected" static="yes" mutable="no">
+        <type>String</type>
+        <definition>String jenes.performance.JENESTest.TYPE</definition>
+        <argsstring></argsstring>
+        <name>TYPE</name>
+        <initializer>= &quot;dj1&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/performance/JENESTest.java" line="28" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/performance/JENESTest.java" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="classjenes_1_1performance_1_1_j_e_n_e_s_test_1aef7c1cb15acb80019c9107271c7144cd" prot="private" static="yes" mutable="no">
+        <type>int[][]</type>
+        <definition>int [][] jenes.performance.JENESTest.positions</definition>
+        <argsstring></argsstring>
+        <name>positions</name>
+        <initializer>= {
+        {1, 1}, {1, 2}, {1, 3}, {1, 4}, {2, 1}, {2, 2}, {2, 3}, {2, 4}, {3, 1}, {3, 2}, {3, 3},
+        {3, 4}, {4, 1}, {4, 2}, {4, 3}, {4, 4}, {5, 1}, {5, 2}, {5, 3}, {5, 4}
+    }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/performance/JENESTest.java" line="135" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/performance/JENESTest.java" bodystart="135" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classjenes_1_1performance_1_1_j_e_n_e_s_test_1afc2ae43a51b06536b61ff8c256d1a4b5" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void jenes.performance.JENESTest.main</definition>
+        <argsstring>(String[] args)</argsstring>
+        <name>main</name>
+        <param>
+          <type>String[]</type>
+          <declname>args</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/performance/JENESTest.java" line="30" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/performance/JENESTest.java" bodystart="30" bodyend="96"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1performance_1_1_j_e_n_e_s_test_1a7a02a502f510836006a2110099982511" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>double[][]</type>
+        <definition>static double [][] jenes.performance.JENESTest.getMap</definition>
+        <argsstring>()</argsstring>
+        <name>getMap</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/performance/JENESTest.java" line="115" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/performance/JENESTest.java" bodystart="115" bodyend="123"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="classjenes_1_1performance_1_1_j_e_n_e_s_test_1a6ee8abdb1d94973d60fb0161083da9a4" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void jenes.performance.JENESTest.loadArgs</definition>
+        <argsstring>(String[] args)</argsstring>
+        <name>loadArgs</name>
+        <param>
+          <type>String[]</type>
+          <declname>args</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/performance/JENESTest.java" line="98" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/performance/JENESTest.java" bodystart="98" bodyend="113"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1performance_1_1_j_e_n_e_s_test_1a6dcd1bd9881f9b175cb527d14683d841" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>double</type>
+        <definition>static double jenes.performance.JENESTest.getDistance</definition>
+        <argsstring>(int i, int j)</argsstring>
+        <name>getDistance</name>
+        <param>
+          <type>int</type>
+          <declname>i</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>j</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/performance/JENESTest.java" line="125" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/performance/JENESTest.java" bodystart="125" bodyend="133"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/performance/JENESTest.java" line="23" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/performance/JENESTest.java" bodystart="23" bodyend="139"/>
+    <listofallmembers>
+      <member refid="classjenes_1_1performance_1_1_j_e_n_e_s_test_1ab2a38cace613491b31f31dcf06b8bf5a" prot="protected" virt="non-virtual"><scope>jenes::performance::JENESTest</scope><name>GENERATION_LIMIT</name></member>
+      <member refid="classjenes_1_1performance_1_1_j_e_n_e_s_test_1a6dcd1bd9881f9b175cb527d14683d841" prot="private" virt="non-virtual"><scope>jenes::performance::JENESTest</scope><name>getDistance</name></member>
+      <member refid="classjenes_1_1performance_1_1_j_e_n_e_s_test_1a7a02a502f510836006a2110099982511" prot="public" virt="non-virtual"><scope>jenes::performance::JENESTest</scope><name>getMap</name></member>
+      <member refid="classjenes_1_1performance_1_1_j_e_n_e_s_test_1a6ee8abdb1d94973d60fb0161083da9a4" prot="private" virt="non-virtual"><scope>jenes::performance::JENESTest</scope><name>loadArgs</name></member>
+      <member refid="classjenes_1_1performance_1_1_j_e_n_e_s_test_1afc2ae43a51b06536b61ff8c256d1a4b5" prot="public" virt="non-virtual"><scope>jenes::performance::JENESTest</scope><name>main</name></member>
+      <member refid="classjenes_1_1performance_1_1_j_e_n_e_s_test_1abd366eca37794a675c7db2c210b71176" prot="protected" virt="non-virtual"><scope>jenes::performance::JENESTest</scope><name>POPULATION_SIZE</name></member>
+      <member refid="classjenes_1_1performance_1_1_j_e_n_e_s_test_1aef7c1cb15acb80019c9107271c7144cd" prot="private" virt="non-virtual"><scope>jenes::performance::JENESTest</scope><name>positions</name></member>
+      <member refid="classjenes_1_1performance_1_1_j_e_n_e_s_test_1a5c84bd75d825c995f6bebb79b45df6c1" prot="protected" virt="non-virtual"><scope>jenes::performance::JENESTest</scope><name>RUN</name></member>
+      <member refid="classjenes_1_1performance_1_1_j_e_n_e_s_test_1a6b35bbf22096ec3923e78d2bc407c2f4" prot="protected" virt="non-virtual"><scope>jenes::performance::JENESTest</scope><name>TYPE</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

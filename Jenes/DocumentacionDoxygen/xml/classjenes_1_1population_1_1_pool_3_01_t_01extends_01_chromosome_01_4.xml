@@ -1,0 +1,450 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="classjenes_1_1population_1_1_pool_3_01_t_01extends_01_chromosome_01_4" kind="class" prot="public">
+    <compoundname>jenes::population::Pool&lt; T extends Chromosome &gt;</compoundname>
+    <innerclass refid="classjenes_1_1population_1_1_pool_3_01_t_01extends_01_chromosome_01_4_1_1_statistics" prot="public">jenes::population::Pool&lt; T extends Chromosome &gt;::Statistics</innerclass>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classjenes_1_1population_1_1_pool_3_01_t_01extends_01_chromosome_01_4_1a7495db191e994037e32f9869c83db6b3" prot="public" static="yes" mutable="no">
+        <type>final int</type>
+        <definition>final int jenes.population.Pool&lt; T extends Chromosome &gt;.DEFAULT_SIZE</definition>
+        <argsstring></argsstring>
+        <name>DEFAULT_SIZE</name>
+        <initializer>= 100</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The default population size </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/population/Pool.java" line="41" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/population/Pool.java" bodystart="41" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classjenes_1_1population_1_1_pool_3_01_t_01extends_01_chromosome_01_4_1ad2c4f47aa6c1d8e54b7c9e67a6a86177" prot="private" static="no" mutable="no">
+        <type>ArrayList&lt; Individual&lt; T &gt; &gt;</type>
+        <definition>ArrayList&lt;Individual&lt;T&gt; &gt; jenes.population.Pool&lt; T extends Chromosome &gt;.assigned</definition>
+        <argsstring></argsstring>
+        <name>assigned</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The vector containing individuals assigned to populations </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/population/Pool.java" line="43" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/population/Pool.java" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classjenes_1_1population_1_1_pool_3_01_t_01extends_01_chromosome_01_4_1a9a8de53b6e167a6ce8f13b3f73d2ffd2" prot="private" static="no" mutable="no">
+        <type>ArrayList&lt; Individual&lt; T &gt; &gt;</type>
+        <definition>ArrayList&lt;Individual&lt;T&gt; &gt; jenes.population.Pool&lt; T extends Chromosome &gt;.available</definition>
+        <argsstring></argsstring>
+        <name>available</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The vector containing individuals available to be assigned </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/population/Pool.java" line="45" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/population/Pool.java" bodystart="45" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classjenes_1_1population_1_1_pool_3_01_t_01extends_01_chromosome_01_4_1a98d9a689a6c349c42a70afcd55a71e35" prot="private" static="no" mutable="no">
+        <type>Statistics</type>
+        <definition>Statistics jenes.population.Pool&lt; T extends Chromosome &gt;.stats</definition>
+        <argsstring></argsstring>
+        <name>stats</name>
+        <initializer>= new Statistics(this)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The Pool statistics used by <ref refid="classjenes_1_1population_1_1_pool_3_01_t_01extends_01_chromosome_01_4_1ac9cfd19d4ef83db5f3b1e805458714c2" kindref="member">resize()</ref> </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/population/Pool.java" line="157" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/population/Pool.java" bodystart="157" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classjenes_1_1population_1_1_pool_3_01_t_01extends_01_chromosome_01_4_1a4bd84795aaada004e3abac72137269fa" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>jenes.population.Pool&lt; T extends Chromosome &gt;.Pool</definition>
+        <argsstring>()</argsstring>
+        <name>Pool</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs a new empty pool </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/population/Pool.java" line="51" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/population/Pool.java" bodystart="51" bodyend="54"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1population_1_1_pool_3_01_t_01extends_01_chromosome_01_4_1a1f1455e87c094df383563c96e88c4d1b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>jenes.population.Pool&lt; T extends Chromosome &gt;.Pool</definition>
+        <argsstring>(int n)</argsstring>
+        <name>Pool</name>
+        <param>
+          <type>int</type>
+          <declname>n</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs a new pool with a given number of (initially no genome) individuals </para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>n</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- the initial number of individuals </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/population/Pool.java" line="61" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/population/Pool.java" bodystart="61" bodyend="67"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1population_1_1_pool_3_01_t_01extends_01_chromosome_01_4_1a4326e7c61485eebd85e0ee33ade6ae4a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>jenes.population.Pool&lt; T extends Chromosome &gt;.Pool</definition>
+        <argsstring>(int n, Individual&lt; T &gt; sample)</argsstring>
+        <name>Pool</name>
+        <param>
+          <type>int</type>
+          <declname>n</declname>
+        </param>
+        <param>
+          <type>Individual&lt; T &gt;</type>
+          <declname>sample</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs a new pool with a given number of individuals, clones of sample. </para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>n</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- the initial number of individuals </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>sample</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- the prototype individual </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/population/Pool.java" line="75" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/population/Pool.java" bodystart="75" bodyend="82"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1population_1_1_pool_3_01_t_01extends_01_chromosome_01_4_1a56aa9e4c1a8fb6c95c88cbc09f677400" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>final Individual&lt; T &gt;</type>
+        <definition>final Individual&lt;T&gt; jenes.population.Pool&lt; T extends Chromosome &gt;.getIndividual</definition>
+        <argsstring>()</argsstring>
+        <name>getIndividual</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns an <ref refid="" kindref="compound">Individual</ref> from the set of available individuals. If individuals are not available, a new individual is created</para><para><simplesect kind="return"><para>an available individual </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/population/Pool.java" line="90" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/population/Pool.java" bodystart="90" bodyend="93"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1population_1_1_pool_3_01_t_01extends_01_chromosome_01_4_1aea055f4f71829a56c9d16780d010e861" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>final void</type>
+        <definition>final void jenes.population.Pool&lt; T extends Chromosome &gt;.assign</definition>
+        <argsstring>(Individual&lt; T &gt; ind)</argsstring>
+        <name>assign</name>
+        <param>
+          <type>Individual&lt; T &gt;</type>
+          <declname>ind</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Adds the individual given as argument to the list of assigned individuals. If individual population makes use of a different pool, the individual is discarded. </para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>ind</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>to be assigned </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/population/Pool.java" line="101" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/population/Pool.java" bodystart="101" bodyend="106"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1population_1_1_pool_3_01_t_01extends_01_chromosome_01_4_1a5fce371a24676e555aca961e61fb55ae" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>final void</type>
+        <definition>final void jenes.population.Pool&lt; T extends Chromosome &gt;.release</definition>
+        <argsstring>(Individual&lt; T &gt; ind)</argsstring>
+        <name>release</name>
+        <param>
+          <type>Individual&lt; T &gt;</type>
+          <declname>ind</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Removes the <ref refid="" kindref="compound">Individual</ref>, given as argument, from the list of assigned individuals and makes it available</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>ind</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- individual to be released </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/population/Pool.java" line="114" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/population/Pool.java" bodystart="114" bodyend="118"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1population_1_1_pool_3_01_t_01extends_01_chromosome_01_4_1a625297bb7b48e3b6ab11c081874580bf" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>final void</type>
+        <definition>final void jenes.population.Pool&lt; T extends Chromosome &gt;.setAvailability</definition>
+        <argsstring>(int size)</argsstring>
+        <name>setAvailability</name>
+        <param>
+          <type>int</type>
+          <declname>size</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Resizes the pool.</para><para>If the new size is larger, new individuals will be added cloning random individuals, thus requiring that at least one individual is held; on contrary individuals are randomly generated. </para><para>If the new size is smaller than the old size, individuals are randomly removed from the pool. </para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>size</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the pool new size </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/population/Pool.java" line="131" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/population/Pool.java" bodystart="131" bodyend="155"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1population_1_1_pool_3_01_t_01extends_01_chromosome_01_4_1ac9cfd19d4ef83db5f3b1e805458714c2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>final void</type>
+        <definition>final void jenes.population.Pool&lt; T extends Chromosome &gt;.resize</definition>
+        <argsstring>()</argsstring>
+        <name>resize</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Performs an automic pool resizing. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/population/Pool.java" line="162" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/population/Pool.java" bodystart="162" bodyend="168"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1population_1_1_pool_3_01_t_01extends_01_chromosome_01_4_1a05198e410de8e3d8d12f5598daf079bd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>final void</type>
+        <definition>final void jenes.population.Pool&lt; T extends Chromosome &gt;.clear</definition>
+        <argsstring>()</argsstring>
+        <name>clear</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Removes all the individuals from this population. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/population/Pool.java" line="173" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/population/Pool.java" bodystart="173" bodyend="175"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1population_1_1_pool_3_01_t_01extends_01_chromosome_01_4_1a71999d0d1f42f4448c7615cd43bea2f8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>final int</type>
+        <definition>final int jenes.population.Pool&lt; T extends Chromosome &gt;.size</definition>
+        <argsstring>()</argsstring>
+        <name>size</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns the pool size. </para><para><simplesect kind="return"><para>the number of individuals in the pool. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/population/Pool.java" line="182" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/population/Pool.java" bodystart="182" bodyend="184"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1population_1_1_pool_3_01_t_01extends_01_chromosome_01_4_1a8e4a835cda9803129b44c952459ed7da" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>final int</type>
+        <definition>final int jenes.population.Pool&lt; T extends Chromosome &gt;.availability</definition>
+        <argsstring>()</argsstring>
+        <name>availability</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns the number of available individuals</para><para><simplesect kind="return"><para>the number of available individuals </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/population/Pool.java" line="191" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/population/Pool.java" bodystart="191" bodyend="193"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1population_1_1_pool_3_01_t_01extends_01_chromosome_01_4_1afcaf4da5e38def2dfcc15f7fb26103a0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>final void</type>
+        <definition>final void jenes.population.Pool&lt; T extends Chromosome &gt;.remove</definition>
+        <argsstring>(Collection&lt; Individual&lt; T &gt;&gt; individuals)</argsstring>
+        <name>remove</name>
+        <param>
+          <type>Collection&lt; Individual&lt; T &gt;&gt;</type>
+          <declname>individuals</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Removes the collection of individuals given as argument from the list of available individuals and from the list of assigned individuals <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>individuals</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/population/Pool.java" line="200" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/population/Pool.java" bodystart="200" bodyend="203"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1population_1_1_pool_3_01_t_01extends_01_chromosome_01_4_1a3ca4f417430b89dc388c1b4bbf8af98e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>final void</type>
+        <definition>final void jenes.population.Pool&lt; T extends Chromosome &gt;.add</definition>
+        <argsstring>(Collection&lt; Individual&lt; T &gt;&gt; individuals)</argsstring>
+        <name>add</name>
+        <param>
+          <type>Collection&lt; Individual&lt; T &gt;&gt;</type>
+          <declname>individuals</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Adds a collection of individuals to the pool. If the individual belongs to a population with a different pool, the individual is discarded. </para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>individuals</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>to add </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/population/Pool.java" line="210" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/population/Pool.java" bodystart="210" bodyend="221"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1population_1_1_pool_3_01_t_01extends_01_chromosome_01_4_1a4dad9ede915eee82d23a76a95af866ed" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>final Statistics</type>
+        <definition>final Statistics jenes.population.Pool&lt; T extends Chromosome &gt;.getStatistics</definition>
+        <argsstring>()</argsstring>
+        <name>getStatistics</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns a new instance of pool (<ref refid="" kindref="compound">Statistics).</ref> <simplesect kind="return"><para>pool statistics </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/population/Pool.java" line="228" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/population/Pool.java" bodystart="228" bodyend="230"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1population_1_1_pool_3_01_t_01extends_01_chromosome_01_4_1a5e0915555c9dd5baa482bab3acc830fd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>final void</type>
+        <definition>final void jenes.population.Pool&lt; T extends Chromosome &gt;.updateStatistics</definition>
+        <argsstring>(Statistics stats)</argsstring>
+        <name>updateStatistics</name>
+        <param>
+          <type>Statistics</type>
+          <declname>stats</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Updates pool statistics </para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>stats</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the stastistics to update </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/population/Pool.java" line="237" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/population/Pool.java" bodystart="237" bodyend="241"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1population_1_1_pool_3_01_t_01extends_01_chromosome_01_4_1acedbe69e9804076bc546d97925a9d3bb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>final String</type>
+        <definition>final String jenes.population.Pool&lt; T extends Chromosome &gt;.toCompleteString</definition>
+        <argsstring>()</argsstring>
+        <name>toCompleteString</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns a string complete pool representation. </para><para><simplesect kind="return"><para>a new String complete string representing this pool. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/population/Pool.java" line="248" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/population/Pool.java" bodystart="248" bodyend="258"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1population_1_1_pool_3_01_t_01extends_01_chromosome_01_4_1af44d9f24db7bd43df43ceb1098146d0c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>final String</type>
+        <definition>final String jenes.population.Pool&lt; T extends Chromosome &gt;.toString</definition>
+        <argsstring>()</argsstring>
+        <name>toString</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns a string representation of this pool. </para><para><simplesect kind="return"><para>a new <computeroutput>String</computeroutput> object representing this pool. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/population/Pool.java" line="266" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/population/Pool.java" bodystart="266" bodyend="270"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>This class provides a pool of individuals to which Population can access to retrieve individuals.</para><para>The pool is highly efficient when the algorithm the overall number of individuals and the lenght of their chromosome do not change along the algorithm evolution.</para><para><simplesect kind="version"><para>2.0 </para></simplesect>
+<simplesect kind="since"><para>2.0 </para></simplesect>
+</para>    </detaileddescription>
+    <collaborationgraph>
+      <node id="510">
+        <label>ArrayList&lt; Individual&lt; T &gt; &gt;</label>
+      </node>
+      <node id="509">
+        <label>Statistics</label>
+      </node>
+      <node id="508">
+        <label>jenes.population.Pool&lt; T extends Chromosome &gt;</label>
+        <link refid="classjenes_1_1population_1_1_pool_3_01_t_01extends_01_chromosome_01_4"/>
+        <childnode refid="509" relation="usage">
+          <edgelabel>stats</edgelabel>
+        </childnode>
+        <childnode refid="510" relation="usage">
+          <edgelabel>available</edgelabel>
+          <edgelabel>assigned</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/population/Pool.java" line="38" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/population/Pool.java" bodystart="38" bodyend="547"/>
+    <listofallmembers>
+      <member refid="classjenes_1_1population_1_1_pool_3_01_t_01extends_01_chromosome_01_4_1a3ca4f417430b89dc388c1b4bbf8af98e" prot="public" virt="non-virtual"><scope>jenes::population::Pool&lt; T extends Chromosome &gt;</scope><name>add</name></member>
+      <member refid="classjenes_1_1population_1_1_pool_3_01_t_01extends_01_chromosome_01_4_1aea055f4f71829a56c9d16780d010e861" prot="public" virt="non-virtual"><scope>jenes::population::Pool&lt; T extends Chromosome &gt;</scope><name>assign</name></member>
+      <member refid="classjenes_1_1population_1_1_pool_3_01_t_01extends_01_chromosome_01_4_1ad2c4f47aa6c1d8e54b7c9e67a6a86177" prot="private" virt="non-virtual"><scope>jenes::population::Pool&lt; T extends Chromosome &gt;</scope><name>assigned</name></member>
+      <member refid="classjenes_1_1population_1_1_pool_3_01_t_01extends_01_chromosome_01_4_1a8e4a835cda9803129b44c952459ed7da" prot="public" virt="non-virtual"><scope>jenes::population::Pool&lt; T extends Chromosome &gt;</scope><name>availability</name></member>
+      <member refid="classjenes_1_1population_1_1_pool_3_01_t_01extends_01_chromosome_01_4_1a9a8de53b6e167a6ce8f13b3f73d2ffd2" prot="private" virt="non-virtual"><scope>jenes::population::Pool&lt; T extends Chromosome &gt;</scope><name>available</name></member>
+      <member refid="classjenes_1_1population_1_1_pool_3_01_t_01extends_01_chromosome_01_4_1a05198e410de8e3d8d12f5598daf079bd" prot="public" virt="non-virtual"><scope>jenes::population::Pool&lt; T extends Chromosome &gt;</scope><name>clear</name></member>
+      <member refid="classjenes_1_1population_1_1_pool_3_01_t_01extends_01_chromosome_01_4_1a7495db191e994037e32f9869c83db6b3" prot="public" virt="non-virtual"><scope>jenes::population::Pool&lt; T extends Chromosome &gt;</scope><name>DEFAULT_SIZE</name></member>
+      <member refid="classjenes_1_1population_1_1_pool_3_01_t_01extends_01_chromosome_01_4_1a56aa9e4c1a8fb6c95c88cbc09f677400" prot="public" virt="non-virtual"><scope>jenes::population::Pool&lt; T extends Chromosome &gt;</scope><name>getIndividual</name></member>
+      <member refid="classjenes_1_1population_1_1_pool_3_01_t_01extends_01_chromosome_01_4_1a4dad9ede915eee82d23a76a95af866ed" prot="public" virt="non-virtual"><scope>jenes::population::Pool&lt; T extends Chromosome &gt;</scope><name>getStatistics</name></member>
+      <member refid="classjenes_1_1population_1_1_pool_3_01_t_01extends_01_chromosome_01_4_1a4bd84795aaada004e3abac72137269fa" prot="public" virt="non-virtual"><scope>jenes::population::Pool&lt; T extends Chromosome &gt;</scope><name>Pool</name></member>
+      <member refid="classjenes_1_1population_1_1_pool_3_01_t_01extends_01_chromosome_01_4_1a1f1455e87c094df383563c96e88c4d1b" prot="public" virt="non-virtual"><scope>jenes::population::Pool&lt; T extends Chromosome &gt;</scope><name>Pool</name></member>
+      <member refid="classjenes_1_1population_1_1_pool_3_01_t_01extends_01_chromosome_01_4_1a4326e7c61485eebd85e0ee33ade6ae4a" prot="public" virt="non-virtual"><scope>jenes::population::Pool&lt; T extends Chromosome &gt;</scope><name>Pool</name></member>
+      <member refid="classjenes_1_1population_1_1_pool_3_01_t_01extends_01_chromosome_01_4_1a5fce371a24676e555aca961e61fb55ae" prot="public" virt="non-virtual"><scope>jenes::population::Pool&lt; T extends Chromosome &gt;</scope><name>release</name></member>
+      <member refid="classjenes_1_1population_1_1_pool_3_01_t_01extends_01_chromosome_01_4_1afcaf4da5e38def2dfcc15f7fb26103a0" prot="public" virt="non-virtual"><scope>jenes::population::Pool&lt; T extends Chromosome &gt;</scope><name>remove</name></member>
+      <member refid="classjenes_1_1population_1_1_pool_3_01_t_01extends_01_chromosome_01_4_1ac9cfd19d4ef83db5f3b1e805458714c2" prot="public" virt="non-virtual"><scope>jenes::population::Pool&lt; T extends Chromosome &gt;</scope><name>resize</name></member>
+      <member refid="classjenes_1_1population_1_1_pool_3_01_t_01extends_01_chromosome_01_4_1a625297bb7b48e3b6ab11c081874580bf" prot="public" virt="non-virtual"><scope>jenes::population::Pool&lt; T extends Chromosome &gt;</scope><name>setAvailability</name></member>
+      <member refid="classjenes_1_1population_1_1_pool_3_01_t_01extends_01_chromosome_01_4_1a71999d0d1f42f4448c7615cd43bea2f8" prot="public" virt="non-virtual"><scope>jenes::population::Pool&lt; T extends Chromosome &gt;</scope><name>size</name></member>
+      <member refid="classjenes_1_1population_1_1_pool_3_01_t_01extends_01_chromosome_01_4_1a98d9a689a6c349c42a70afcd55a71e35" prot="private" virt="non-virtual"><scope>jenes::population::Pool&lt; T extends Chromosome &gt;</scope><name>stats</name></member>
+      <member refid="classjenes_1_1population_1_1_pool_3_01_t_01extends_01_chromosome_01_4_1acedbe69e9804076bc546d97925a9d3bb" prot="public" virt="non-virtual"><scope>jenes::population::Pool&lt; T extends Chromosome &gt;</scope><name>toCompleteString</name></member>
+      <member refid="classjenes_1_1population_1_1_pool_3_01_t_01extends_01_chromosome_01_4_1af44d9f24db7bd43df43ceb1098146d0c" prot="public" virt="non-virtual"><scope>jenes::population::Pool&lt; T extends Chromosome &gt;</scope><name>toString</name></member>
+      <member refid="classjenes_1_1population_1_1_pool_3_01_t_01extends_01_chromosome_01_4_1a5e0915555c9dd5baa482bab3acc830fd" prot="public" virt="non-virtual"><scope>jenes::population::Pool&lt; T extends Chromosome &gt;</scope><name>updateStatistics</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

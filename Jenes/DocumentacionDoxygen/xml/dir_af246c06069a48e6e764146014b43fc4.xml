@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="dir_af246c06069a48e6e764146014b43fc4" kind="dir">
+    <compoundname>src/jenes/algorithms</compoundname>
+    <innerfile refid="_crowding_g_a_8java">CrowdingGA.java</innerfile>
+    <innerfile refid="_island_g_a_8java">IslandGA.java</innerfile>
+    <innerfile refid="_n_s_g_a2_8java">NSGA2.java</innerfile>
+    <innerfile refid="_simple_g_a_8java">SimpleGA.java</innerfile>
+    <innerfile refid="_steady_state_g_a_8java">SteadyStateGA.java</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/algorithms/"/>
+  </compounddef>
+</doxygen>

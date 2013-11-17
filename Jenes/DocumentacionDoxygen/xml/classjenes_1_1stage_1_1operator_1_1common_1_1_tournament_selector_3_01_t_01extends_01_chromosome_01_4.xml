@@ -1,0 +1,126 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="classjenes_1_1stage_1_1operator_1_1common_1_1_tournament_selector_3_01_t_01extends_01_chromosome_01_4" kind="class" prot="public">
+    <compoundname>jenes::stage::operator::common::TournamentSelector&lt; T extends Chromosome &gt;</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">jenes::stage::operator::Selector&lt; T &gt;</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classjenes_1_1stage_1_1operator_1_1common_1_1_tournament_selector_3_01_t_01extends_01_chromosome_01_4_1a4f608252ca95d848b77e3dd8c2a15f93" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int jenes.stage.operator.common.TournamentSelector&lt; T extends Chromosome &gt;.attempts</definition>
+        <argsstring></argsstring>
+        <name>attempts</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>the number of tournament attemps </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/operator/common/TournamentSelector.java" line="46" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/operator/common/TournamentSelector.java" bodystart="46" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classjenes_1_1stage_1_1operator_1_1common_1_1_tournament_selector_3_01_t_01extends_01_chromosome_01_4_1a69674739689660dc1926b06a43f2aa6d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>jenes.stage.operator.common.TournamentSelector&lt; T extends Chromosome &gt;.TournamentSelector</definition>
+        <argsstring>(int attempts)</argsstring>
+        <name>TournamentSelector</name>
+        <param>
+          <type>int</type>
+          <declname>attempts</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs a new tournament selection object </para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>attempts</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the number of tournament attempts </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/operator/common/TournamentSelector.java" line="53" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/operator/common/TournamentSelector.java" bodystart="53" bodyend="59"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1stage_1_1operator_1_1common_1_1_tournament_selector_3_01_t_01extends_01_chromosome_01_4_1a93a5d890bc7a8f383bda9791baf0460c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int jenes.stage.operator.common.TournamentSelector&lt; T extends Chromosome &gt;.getAttempts</definition>
+        <argsstring>()</argsstring>
+        <name>getAttempts</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns the number of attempts of this tournament selection </para><para><simplesect kind="return"><para>the number of attempts </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/operator/common/TournamentSelector.java" line="66" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/operator/common/TournamentSelector.java" bodystart="66" bodyend="68"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classjenes_1_1stage_1_1operator_1_1common_1_1_tournament_selector_3_01_t_01extends_01_chromosome_01_4_1af18e34c3ad12626eb5d8540e05e9877e" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Individual&lt; T &gt;</type>
+        <definition>Individual&lt;T&gt; jenes.stage.operator.common.TournamentSelector&lt; T extends Chromosome &gt;.select</definition>
+        <argsstring>(List&lt; Individual&lt; T &gt;&gt; list)</argsstring>
+        <name>select</name>
+        <param>
+          <type>List&lt; Individual&lt; T &gt;&gt;</type>
+          <declname>list</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/operator/common/TournamentSelector.java" line="71" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/operator/common/TournamentSelector.java" bodystart="71" bodyend="91"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>A classic tournament selection operator. A number of attempts is specified at the instantiation time; it represents the number of iterations the selection procedure is repeated. Individuals are randomly choosen and the one with the best fitness will be selected. </para><para>The <ref refid="" kindref="compound">preSelect(Population)</ref> method is useless, so there is an overriding implementation in this selection algorithm. </para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>&lt;T&gt;</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The class of chromosomes to work with.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="version"><para>2.0 </para></simplesect>
+<simplesect kind="since"><para>1.0</para></simplesect>
+<simplesect kind="see"><para>Individual </para><simplesectsep/><para>Population </para></simplesect>
+</para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="691">
+        <label>jenes::stage::operator::Selector&lt; T &gt;</label>
+      </node>
+      <node id="690">
+        <label>jenes.stage.operator.common.TournamentSelector&lt; T extends Chromosome &gt;</label>
+        <link refid="classjenes_1_1stage_1_1operator_1_1common_1_1_tournament_selector_3_01_t_01extends_01_chromosome_01_4"/>
+        <childnode refid="691" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="693">
+        <label>jenes::stage::operator::Selector&lt; T &gt;</label>
+      </node>
+      <node id="692">
+        <label>jenes.stage.operator.common.TournamentSelector&lt; T extends Chromosome &gt;</label>
+        <link refid="classjenes_1_1stage_1_1operator_1_1common_1_1_tournament_selector_3_01_t_01extends_01_chromosome_01_4"/>
+        <childnode refid="693" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/operator/common/TournamentSelector.java" line="43" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/operator/common/TournamentSelector.java" bodystart="43" bodyend="93"/>
+    <listofallmembers>
+      <member refid="classjenes_1_1stage_1_1operator_1_1common_1_1_tournament_selector_3_01_t_01extends_01_chromosome_01_4_1a4f608252ca95d848b77e3dd8c2a15f93" prot="private" virt="non-virtual"><scope>jenes::stage::operator::common::TournamentSelector&lt; T extends Chromosome &gt;</scope><name>attempts</name></member>
+      <member refid="classjenes_1_1stage_1_1operator_1_1common_1_1_tournament_selector_3_01_t_01extends_01_chromosome_01_4_1a93a5d890bc7a8f383bda9791baf0460c" prot="public" virt="non-virtual"><scope>jenes::stage::operator::common::TournamentSelector&lt; T extends Chromosome &gt;</scope><name>getAttempts</name></member>
+      <member refid="classjenes_1_1stage_1_1operator_1_1common_1_1_tournament_selector_3_01_t_01extends_01_chromosome_01_4_1af18e34c3ad12626eb5d8540e05e9877e" prot="protected" virt="non-virtual"><scope>jenes::stage::operator::common::TournamentSelector&lt; T extends Chromosome &gt;</scope><name>select</name></member>
+      <member refid="classjenes_1_1stage_1_1operator_1_1common_1_1_tournament_selector_3_01_t_01extends_01_chromosome_01_4_1a69674739689660dc1926b06a43f2aa6d" prot="public" virt="non-virtual"><scope>jenes::stage::operator::common::TournamentSelector&lt; T extends Chromosome &gt;</scope><name>TournamentSelector</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

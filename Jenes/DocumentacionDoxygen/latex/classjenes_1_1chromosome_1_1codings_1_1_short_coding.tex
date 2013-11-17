@@ -1,0 +1,126 @@
+\hypertarget{classjenes_1_1chromosome_1_1codings_1_1_short_coding}{\section{jenes.\-chromosome.\-codings.\-Short\-Coding Class Reference}
+\label{classjenes_1_1chromosome_1_1codings_1_1_short_coding}\index{jenes.\-chromosome.\-codings.\-Short\-Coding@{jenes.\-chromosome.\-codings.\-Short\-Coding}}
+}
+Inheritance diagram for jenes.\-chromosome.\-codings.\-Short\-Coding\-:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{classjenes_1_1chromosome_1_1codings_1_1_short_coding}
+\end{center}
+\end{figure}
+\subsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+enum \hyperlink{enumjenes_1_1chromosome_1_1codings_1_1_short_coding_1_1_mode}{Mode}
+\end{DoxyCompactItemize}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classjenes_1_1chromosome_1_1codings_1_1_short_coding_a0571cd23357dd77c1525ed09a5c28e61}{Short\-Coding} ()
+\item 
+\hyperlink{classjenes_1_1chromosome_1_1codings_1_1_short_coding_a6b6608f22e850e062f424033fae5e0bd}{Short\-Coding} (final \hyperlink{enumjenes_1_1chromosome_1_1codings_1_1_short_coding_1_1_mode}{Mode} \hyperlink{classjenes_1_1chromosome_1_1codings_1_1_short_coding_a39b438917e13117e9f68757a40f907c2}{mode})
+\item 
+final Integer \hyperlink{classjenes_1_1chromosome_1_1codings_1_1_short_coding_aa6c8649fe7e82bf923979d4afdfc9130}{decode} (final int bits)
+\item 
+final int \hyperlink{classjenes_1_1chromosome_1_1codings_1_1_short_coding_a140298d12b6d6a291b5849b9cc5b7400}{encode} (final Integer value)
+\end{DoxyCompactItemize}
+\subsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{enumjenes_1_1chromosome_1_1codings_1_1_short_coding_1_1_mode}{Mode} \hyperlink{classjenes_1_1chromosome_1_1codings_1_1_short_coding_a39b438917e13117e9f68757a40f907c2}{mode}
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Represents a short coding with 16 bits. There are two possible representations\-: the two complement ond and the module and sign one. The range representable with the former is \mbox{[}-\/32768,32767\mbox{]}; the one representable with the latter is \mbox{[}-\/32767,32767\mbox{]} (the difference is the latter provides two different codes to represent the 0).
+
+\begin{DoxyVersion}{Version}
+1.\-2 
+\end{DoxyVersion}
+\begin{DoxySince}{Since}
+1.\-0
+\end{DoxySince}
+\begin{DoxySeeAlso}{See Also}
+\hyperlink{classjenes_1_1chromosome_1_1codings_1_1_byte_coding}{Byte\-Coding} 
+
+\hyperlink{classjenes_1_1chromosome_1_1codings_1_1_int_coding}{Int\-Coding} 
+
+\hyperlink{classjenes_1_1chromosome_1_1codings_1_1_gray_coding}{Gray\-Coding} 
+
+\hyperlink{classjenes_1_1chromosome_1_1codings_1_1_word_coding}{Word\-Coding} 
+
+Bit\-Size 
+
+\hyperlink{classjenes_1_1chromosome_1_1codings_1_1_boolean_coding}{Boolean\-Coding} 
+\end{DoxySeeAlso}
+
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{classjenes_1_1chromosome_1_1codings_1_1_short_coding_a0571cd23357dd77c1525ed09a5c28e61}{\index{jenes\-::chromosome\-::codings\-::\-Short\-Coding@{jenes\-::chromosome\-::codings\-::\-Short\-Coding}!Short\-Coding@{Short\-Coding}}
+\index{Short\-Coding@{Short\-Coding}!jenes::chromosome::codings::ShortCoding@{jenes\-::chromosome\-::codings\-::\-Short\-Coding}}
+\subsubsection[{Short\-Coding}]{\setlength{\rightskip}{0pt plus 5cm}jenes.\-chromosome.\-codings.\-Short\-Coding.\-Short\-Coding (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classjenes_1_1chromosome_1_1codings_1_1_short_coding_a0571cd23357dd77c1525ed09a5c28e61}
+Default constructor. The default mode is two's complement. \hypertarget{classjenes_1_1chromosome_1_1codings_1_1_short_coding_a6b6608f22e850e062f424033fae5e0bd}{\index{jenes\-::chromosome\-::codings\-::\-Short\-Coding@{jenes\-::chromosome\-::codings\-::\-Short\-Coding}!Short\-Coding@{Short\-Coding}}
+\index{Short\-Coding@{Short\-Coding}!jenes::chromosome::codings::ShortCoding@{jenes\-::chromosome\-::codings\-::\-Short\-Coding}}
+\subsubsection[{Short\-Coding}]{\setlength{\rightskip}{0pt plus 5cm}jenes.\-chromosome.\-codings.\-Short\-Coding.\-Short\-Coding (
+\begin{DoxyParamCaption}
+\item[{final {\bf Mode}}]{mode}
+\end{DoxyParamCaption}
+)}}\label{classjenes_1_1chromosome_1_1codings_1_1_short_coding_a6b6608f22e850e062f424033fae5e0bd}
+Creates a \hyperlink{classjenes_1_1chromosome_1_1codings_1_1_short_coding}{Short\-Coding} with the specified mode, that is the number representation scheme.
+
+
+\begin{DoxyParams}{Parameters}
+{\em mode} & can be two's complement or module and sign. \\
+\hline
+\end{DoxyParams}
+
+
+\subsection{Member Function Documentation}
+\hypertarget{classjenes_1_1chromosome_1_1codings_1_1_short_coding_aa6c8649fe7e82bf923979d4afdfc9130}{\index{jenes\-::chromosome\-::codings\-::\-Short\-Coding@{jenes\-::chromosome\-::codings\-::\-Short\-Coding}!decode@{decode}}
+\index{decode@{decode}!jenes::chromosome::codings::ShortCoding@{jenes\-::chromosome\-::codings\-::\-Short\-Coding}}
+\subsubsection[{decode}]{\setlength{\rightskip}{0pt plus 5cm}final Integer jenes.\-chromosome.\-codings.\-Short\-Coding.\-decode (
+\begin{DoxyParamCaption}
+\item[{final int}]{bits}
+\end{DoxyParamCaption}
+)}}\label{classjenes_1_1chromosome_1_1codings_1_1_short_coding_aa6c8649fe7e82bf923979d4afdfc9130}
+Returns the value of coded bits
+
+
+\begin{DoxyParams}{Parameters}
+{\em bits} & coding the value \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+the value 
+\end{DoxyReturn}
+\hypertarget{classjenes_1_1chromosome_1_1codings_1_1_short_coding_a140298d12b6d6a291b5849b9cc5b7400}{\index{jenes\-::chromosome\-::codings\-::\-Short\-Coding@{jenes\-::chromosome\-::codings\-::\-Short\-Coding}!encode@{encode}}
+\index{encode@{encode}!jenes::chromosome::codings::ShortCoding@{jenes\-::chromosome\-::codings\-::\-Short\-Coding}}
+\subsubsection[{encode}]{\setlength{\rightskip}{0pt plus 5cm}final int jenes.\-chromosome.\-codings.\-Short\-Coding.\-encode (
+\begin{DoxyParamCaption}
+\item[{final Integer}]{value}
+\end{DoxyParamCaption}
+)}}\label{classjenes_1_1chromosome_1_1codings_1_1_short_coding_a140298d12b6d6a291b5849b9cc5b7400}
+Returns the bits coding the value
+
+
+\begin{DoxyParams}{Parameters}
+{\em value} & the value to be coded \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+the coding bits 
+\end{DoxyReturn}
+
+
+\subsection{Member Data Documentation}
+\hypertarget{classjenes_1_1chromosome_1_1codings_1_1_short_coding_a39b438917e13117e9f68757a40f907c2}{\index{jenes\-::chromosome\-::codings\-::\-Short\-Coding@{jenes\-::chromosome\-::codings\-::\-Short\-Coding}!mode@{mode}}
+\index{mode@{mode}!jenes::chromosome::codings::ShortCoding@{jenes\-::chromosome\-::codings\-::\-Short\-Coding}}
+\subsubsection[{mode}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Mode} jenes.\-chromosome.\-codings.\-Short\-Coding.\-mode\hspace{0.3cm}{\ttfamily [private]}}}\label{classjenes_1_1chromosome_1_1codings_1_1_short_coding_a39b438917e13117e9f68757a40f907c2}
+
+
+The documentation for this class was generated from the following file\-:\begin{DoxyCompactItemize}
+\item 
+src/jenes/chromosome/codings/\hyperlink{_short_coding_8java}{Short\-Coding.\-java}\end{DoxyCompactItemize}

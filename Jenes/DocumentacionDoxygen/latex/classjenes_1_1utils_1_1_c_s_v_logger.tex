@@ -1,0 +1,236 @@
+\hypertarget{classjenes_1_1utils_1_1_c_s_v_logger}{\section{jenes.\-utils.\-C\-S\-V\-Logger Class Reference}
+\label{classjenes_1_1utils_1_1_c_s_v_logger}\index{jenes.\-utils.\-C\-S\-V\-Logger@{jenes.\-utils.\-C\-S\-V\-Logger}}
+}
+Inheritance diagram for jenes.\-utils.\-C\-S\-V\-Logger\-:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{classjenes_1_1utils_1_1_c_s_v_logger}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classjenes_1_1utils_1_1_c_s_v_logger_a8cac9e217f74d86b4e26b025d8e1381c}{C\-S\-V\-Logger} (String\mbox{[}$\,$\mbox{]} \hyperlink{classjenes_1_1utils_1_1_abstract_logger_a3a2030876857a0512fae7e0ad400c570}{schema})  throws File\-Not\-Found\-Exception 
+\item 
+\hyperlink{classjenes_1_1utils_1_1_c_s_v_logger_a52ccc76492a8a16e018198bcfa702360}{C\-S\-V\-Logger} (String\mbox{[}$\,$\mbox{]} \hyperlink{classjenes_1_1utils_1_1_abstract_logger_a3a2030876857a0512fae7e0ad400c570}{schema}, String filename)  throws File\-Not\-Found\-Exception 
+\item 
+\hyperlink{classjenes_1_1utils_1_1_c_s_v_logger_ad6242d77cf75372bfbf55e9b0973bfb4}{C\-S\-V\-Logger} (String\mbox{[}$\,$\mbox{]} \hyperlink{classjenes_1_1utils_1_1_abstract_logger_a3a2030876857a0512fae7e0ad400c570}{schema}, String filename, String \hyperlink{classjenes_1_1utils_1_1_c_s_v_logger_ab776f8518f5adaad782861e258ca494a}{separator})  throws File\-Not\-Found\-Exception 
+\item 
+\hyperlink{classjenes_1_1utils_1_1_c_s_v_logger_ad39241223c9d49bfa34a21db4aa1f8b1}{C\-S\-V\-Logger} (String\mbox{[}$\,$\mbox{]} \hyperlink{classjenes_1_1utils_1_1_abstract_logger_a3a2030876857a0512fae7e0ad400c570}{schema}, String filename, String \hyperlink{classjenes_1_1utils_1_1_c_s_v_logger_ab776f8518f5adaad782861e258ca494a}{separator}, boolean \hyperlink{classjenes_1_1utils_1_1_c_s_v_logger_a37a4fd771c2013343778dd982244c2db}{header})  throws File\-Not\-Found\-Exception 
+\item 
+Print\-Writer \hyperlink{classjenes_1_1utils_1_1_c_s_v_logger_a00671f9154ae65398d676e6526fa08f2}{get\-Out} ()
+\end{DoxyCompactItemize}
+\subsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{classjenes_1_1utils_1_1_c_s_v_logger_a863bcfda3e93b023949a81e7f6d149e7}{store} ()
+\item 
+void \hyperlink{classjenes_1_1utils_1_1_c_s_v_logger_a09a4f4fc362db6d4090d75642521ee65}{do\-Save} ()
+\item 
+void \hyperlink{classjenes_1_1utils_1_1_c_s_v_logger_ac89f6fe5bd609fcc02ca7adf1407f279}{do\-Close} ()
+\end{DoxyCompactItemize}
+\subsection*{Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{classjenes_1_1utils_1_1_c_s_v_logger_afa1083ea9d3cb8141eeb8b4edccd358e}{write\-Header} ()
+\end{DoxyCompactItemize}
+\subsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+boolean \hyperlink{classjenes_1_1utils_1_1_c_s_v_logger_a37a4fd771c2013343778dd982244c2db}{header} = true
+\item 
+String\-Writer \hyperlink{classjenes_1_1utils_1_1_c_s_v_logger_a7b4d74ee20080fcfb995fbf9eb747c1f}{buffer}
+\item 
+Print\-Writer \hyperlink{classjenes_1_1utils_1_1_c_s_v_logger_ad13ae42760c41f1899e66981e0cc0274}{out}
+\item 
+String \hyperlink{classjenes_1_1utils_1_1_c_s_v_logger_ab776f8518f5adaad782861e258ca494a}{separator}
+\item 
+boolean \hyperlink{classjenes_1_1utils_1_1_c_s_v_logger_a7ddf63656836e437a692c15feb38ef8f}{started} = false
+\end{DoxyCompactItemize}
+\subsection*{Additional Inherited Members}
+
+
+\subsection{Detailed Description}
+This class defines a Statistics\-Logger based on C\-S\-V (comma separated values) file. The logger has a schema, made of the fields the user means to record. If the schema is not specified, the logger use the set of keys making a record as schema. The default separator is tab, but a different separator can be specified at instantiation time. The default logfile is named log.\-csv and placed into the working directory. The logger can record or not the first line with the header made of the field names.
+
+\begin{DoxyVersion}{Version}
+1.\-3 
+\end{DoxyVersion}
+\begin{DoxySince}{Since}
+1.\-3 
+\end{DoxySince}
+
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{classjenes_1_1utils_1_1_c_s_v_logger_a8cac9e217f74d86b4e26b025d8e1381c}{\index{jenes\-::utils\-::\-C\-S\-V\-Logger@{jenes\-::utils\-::\-C\-S\-V\-Logger}!C\-S\-V\-Logger@{C\-S\-V\-Logger}}
+\index{C\-S\-V\-Logger@{C\-S\-V\-Logger}!jenes::utils::CSVLogger@{jenes\-::utils\-::\-C\-S\-V\-Logger}}
+\subsubsection[{C\-S\-V\-Logger}]{\setlength{\rightskip}{0pt plus 5cm}jenes.\-utils.\-C\-S\-V\-Logger.\-C\-S\-V\-Logger (
+\begin{DoxyParamCaption}
+\item[{String\mbox{[}$\,$\mbox{]}}]{schema}
+\end{DoxyParamCaption}
+) throws File\-Not\-Found\-Exception}}\label{classjenes_1_1utils_1_1_c_s_v_logger_a8cac9e217f74d86b4e26b025d8e1381c}
+Creates a logger with the specified schema, and log.\-csv as default filename, tab as default separator. The header is placed on the first line.
+
+
+\begin{DoxyParams}{Parameters}
+{\em schema} & -\/ the array making the schema of records \\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em java.\-io.\-File\-Not\-Found\-Exception} & \\
+\hline
+\end{DoxyExceptions}
+\hypertarget{classjenes_1_1utils_1_1_c_s_v_logger_a52ccc76492a8a16e018198bcfa702360}{\index{jenes\-::utils\-::\-C\-S\-V\-Logger@{jenes\-::utils\-::\-C\-S\-V\-Logger}!C\-S\-V\-Logger@{C\-S\-V\-Logger}}
+\index{C\-S\-V\-Logger@{C\-S\-V\-Logger}!jenes::utils::CSVLogger@{jenes\-::utils\-::\-C\-S\-V\-Logger}}
+\subsubsection[{C\-S\-V\-Logger}]{\setlength{\rightskip}{0pt plus 5cm}jenes.\-utils.\-C\-S\-V\-Logger.\-C\-S\-V\-Logger (
+\begin{DoxyParamCaption}
+\item[{String\mbox{[}$\,$\mbox{]}}]{schema, }
+\item[{String}]{filename}
+\end{DoxyParamCaption}
+) throws File\-Not\-Found\-Exception}}\label{classjenes_1_1utils_1_1_c_s_v_logger_a52ccc76492a8a16e018198bcfa702360}
+Creates a logger with the specified schema and filename, tab as default separator. The header is placed on the first line.
+
+
+\begin{DoxyParams}{Parameters}
+{\em schema} & -\/ the array making the schema of records \\
+\hline
+{\em filename} & -\/ the output filename \\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em java.\-io.\-File\-Not\-Found\-Exception} & \\
+\hline
+\end{DoxyExceptions}
+\hypertarget{classjenes_1_1utils_1_1_c_s_v_logger_ad6242d77cf75372bfbf55e9b0973bfb4}{\index{jenes\-::utils\-::\-C\-S\-V\-Logger@{jenes\-::utils\-::\-C\-S\-V\-Logger}!C\-S\-V\-Logger@{C\-S\-V\-Logger}}
+\index{C\-S\-V\-Logger@{C\-S\-V\-Logger}!jenes::utils::CSVLogger@{jenes\-::utils\-::\-C\-S\-V\-Logger}}
+\subsubsection[{C\-S\-V\-Logger}]{\setlength{\rightskip}{0pt plus 5cm}jenes.\-utils.\-C\-S\-V\-Logger.\-C\-S\-V\-Logger (
+\begin{DoxyParamCaption}
+\item[{String\mbox{[}$\,$\mbox{]}}]{schema, }
+\item[{String}]{filename, }
+\item[{String}]{separator}
+\end{DoxyParamCaption}
+) throws File\-Not\-Found\-Exception}}\label{classjenes_1_1utils_1_1_c_s_v_logger_ad6242d77cf75372bfbf55e9b0973bfb4}
+Creates a logger with the specified schema, filename and separator. The header is placed on the first line.
+
+
+\begin{DoxyParams}{Parameters}
+{\em schema} & -\/ the array making the schema of records \\
+\hline
+{\em filename} & -\/ the output filename \\
+\hline
+{\em separator} & -\/ the values separator \\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em java.\-io.\-File\-Not\-Found\-Exception} & \\
+\hline
+\end{DoxyExceptions}
+\hypertarget{classjenes_1_1utils_1_1_c_s_v_logger_ad39241223c9d49bfa34a21db4aa1f8b1}{\index{jenes\-::utils\-::\-C\-S\-V\-Logger@{jenes\-::utils\-::\-C\-S\-V\-Logger}!C\-S\-V\-Logger@{C\-S\-V\-Logger}}
+\index{C\-S\-V\-Logger@{C\-S\-V\-Logger}!jenes::utils::CSVLogger@{jenes\-::utils\-::\-C\-S\-V\-Logger}}
+\subsubsection[{C\-S\-V\-Logger}]{\setlength{\rightskip}{0pt plus 5cm}jenes.\-utils.\-C\-S\-V\-Logger.\-C\-S\-V\-Logger (
+\begin{DoxyParamCaption}
+\item[{String\mbox{[}$\,$\mbox{]}}]{schema, }
+\item[{String}]{filename, }
+\item[{String}]{separator, }
+\item[{boolean}]{header}
+\end{DoxyParamCaption}
+) throws File\-Not\-Found\-Exception}}\label{classjenes_1_1utils_1_1_c_s_v_logger_ad39241223c9d49bfa34a21db4aa1f8b1}
+Creates a logger with the specified schema, filename and separator. The header is placed on the first line if required.
+
+
+\begin{DoxyParams}{Parameters}
+{\em schema} & -\/ the array making the schema of records \\
+\hline
+{\em filename} & -\/ the output filename \\
+\hline
+{\em separator} & -\/ the values separator \\
+\hline
+{\em header} & -\/ the header is included if true, otherwise not. \\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em java.\-io.\-File\-Not\-Found\-Exception} & \\
+\hline
+\end{DoxyExceptions}
+
+
+\subsection{Member Function Documentation}
+\hypertarget{classjenes_1_1utils_1_1_c_s_v_logger_ac89f6fe5bd609fcc02ca7adf1407f279}{\index{jenes\-::utils\-::\-C\-S\-V\-Logger@{jenes\-::utils\-::\-C\-S\-V\-Logger}!do\-Close@{do\-Close}}
+\index{do\-Close@{do\-Close}!jenes::utils::CSVLogger@{jenes\-::utils\-::\-C\-S\-V\-Logger}}
+\subsubsection[{do\-Close}]{\setlength{\rightskip}{0pt plus 5cm}void jenes.\-utils.\-C\-S\-V\-Logger.\-do\-Close (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [protected]}, {\ttfamily [virtual]}}}\label{classjenes_1_1utils_1_1_c_s_v_logger_ac89f6fe5bd609fcc02ca7adf1407f279}
+Closes the logger. Any further log is not allowed. 
+
+Implements \hyperlink{classjenes_1_1utils_1_1_abstract_logger_a5253672b3f3f81287db2fc604ca921a9}{jenes.\-utils.\-Abstract\-Logger}.
+
+\hypertarget{classjenes_1_1utils_1_1_c_s_v_logger_a09a4f4fc362db6d4090d75642521ee65}{\index{jenes\-::utils\-::\-C\-S\-V\-Logger@{jenes\-::utils\-::\-C\-S\-V\-Logger}!do\-Save@{do\-Save}}
+\index{do\-Save@{do\-Save}!jenes::utils::CSVLogger@{jenes\-::utils\-::\-C\-S\-V\-Logger}}
+\subsubsection[{do\-Save}]{\setlength{\rightskip}{0pt plus 5cm}void jenes.\-utils.\-C\-S\-V\-Logger.\-do\-Save (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [protected]}, {\ttfamily [virtual]}}}\label{classjenes_1_1utils_1_1_c_s_v_logger_a09a4f4fc362db6d4090d75642521ee65}
+Saves cached records on media 
+
+Implements \hyperlink{classjenes_1_1utils_1_1_abstract_logger_a41fcd50b050c467fe1b413fc5b49c167}{jenes.\-utils.\-Abstract\-Logger}.
+
+\hypertarget{classjenes_1_1utils_1_1_c_s_v_logger_a00671f9154ae65398d676e6526fa08f2}{\index{jenes\-::utils\-::\-C\-S\-V\-Logger@{jenes\-::utils\-::\-C\-S\-V\-Logger}!get\-Out@{get\-Out}}
+\index{get\-Out@{get\-Out}!jenes::utils::CSVLogger@{jenes\-::utils\-::\-C\-S\-V\-Logger}}
+\subsubsection[{get\-Out}]{\setlength{\rightskip}{0pt plus 5cm}Print\-Writer jenes.\-utils.\-C\-S\-V\-Logger.\-get\-Out (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classjenes_1_1utils_1_1_c_s_v_logger_a00671f9154ae65398d676e6526fa08f2}
+Return the output stream used for logging.
+
+\begin{DoxyReturn}{Returns}
+the log writer 
+\end{DoxyReturn}
+\hypertarget{classjenes_1_1utils_1_1_c_s_v_logger_a863bcfda3e93b023949a81e7f6d149e7}{\index{jenes\-::utils\-::\-C\-S\-V\-Logger@{jenes\-::utils\-::\-C\-S\-V\-Logger}!store@{store}}
+\index{store@{store}!jenes::utils::CSVLogger@{jenes\-::utils\-::\-C\-S\-V\-Logger}}
+\subsubsection[{store}]{\setlength{\rightskip}{0pt plus 5cm}void jenes.\-utils.\-C\-S\-V\-Logger.\-store (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [protected]}, {\ttfamily [virtual]}}}\label{classjenes_1_1utils_1_1_c_s_v_logger_a863bcfda3e93b023949a81e7f6d149e7}
+Stores the current record. 
+
+Implements \hyperlink{classjenes_1_1utils_1_1_abstract_logger_a6acf83a83999e26ae4ed45cbf355111b}{jenes.\-utils.\-Abstract\-Logger}.
+
+\hypertarget{classjenes_1_1utils_1_1_c_s_v_logger_afa1083ea9d3cb8141eeb8b4edccd358e}{\index{jenes\-::utils\-::\-C\-S\-V\-Logger@{jenes\-::utils\-::\-C\-S\-V\-Logger}!write\-Header@{write\-Header}}
+\index{write\-Header@{write\-Header}!jenes::utils::CSVLogger@{jenes\-::utils\-::\-C\-S\-V\-Logger}}
+\subsubsection[{write\-Header}]{\setlength{\rightskip}{0pt plus 5cm}void jenes.\-utils.\-C\-S\-V\-Logger.\-write\-Header (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [private]}}}\label{classjenes_1_1utils_1_1_c_s_v_logger_afa1083ea9d3cb8141eeb8b4edccd358e}
+
+
+\subsection{Member Data Documentation}
+\hypertarget{classjenes_1_1utils_1_1_c_s_v_logger_a7b4d74ee20080fcfb995fbf9eb747c1f}{\index{jenes\-::utils\-::\-C\-S\-V\-Logger@{jenes\-::utils\-::\-C\-S\-V\-Logger}!buffer@{buffer}}
+\index{buffer@{buffer}!jenes::utils::CSVLogger@{jenes\-::utils\-::\-C\-S\-V\-Logger}}
+\subsubsection[{buffer}]{\setlength{\rightskip}{0pt plus 5cm}String\-Writer jenes.\-utils.\-C\-S\-V\-Logger.\-buffer\hspace{0.3cm}{\ttfamily [private]}}}\label{classjenes_1_1utils_1_1_c_s_v_logger_a7b4d74ee20080fcfb995fbf9eb747c1f}
+\hypertarget{classjenes_1_1utils_1_1_c_s_v_logger_a37a4fd771c2013343778dd982244c2db}{\index{jenes\-::utils\-::\-C\-S\-V\-Logger@{jenes\-::utils\-::\-C\-S\-V\-Logger}!header@{header}}
+\index{header@{header}!jenes::utils::CSVLogger@{jenes\-::utils\-::\-C\-S\-V\-Logger}}
+\subsubsection[{header}]{\setlength{\rightskip}{0pt plus 5cm}boolean jenes.\-utils.\-C\-S\-V\-Logger.\-header = true\hspace{0.3cm}{\ttfamily [private]}}}\label{classjenes_1_1utils_1_1_c_s_v_logger_a37a4fd771c2013343778dd982244c2db}
+\hypertarget{classjenes_1_1utils_1_1_c_s_v_logger_ad13ae42760c41f1899e66981e0cc0274}{\index{jenes\-::utils\-::\-C\-S\-V\-Logger@{jenes\-::utils\-::\-C\-S\-V\-Logger}!out@{out}}
+\index{out@{out}!jenes::utils::CSVLogger@{jenes\-::utils\-::\-C\-S\-V\-Logger}}
+\subsubsection[{out}]{\setlength{\rightskip}{0pt plus 5cm}Print\-Writer jenes.\-utils.\-C\-S\-V\-Logger.\-out\hspace{0.3cm}{\ttfamily [private]}}}\label{classjenes_1_1utils_1_1_c_s_v_logger_ad13ae42760c41f1899e66981e0cc0274}
+\hypertarget{classjenes_1_1utils_1_1_c_s_v_logger_ab776f8518f5adaad782861e258ca494a}{\index{jenes\-::utils\-::\-C\-S\-V\-Logger@{jenes\-::utils\-::\-C\-S\-V\-Logger}!separator@{separator}}
+\index{separator@{separator}!jenes::utils::CSVLogger@{jenes\-::utils\-::\-C\-S\-V\-Logger}}
+\subsubsection[{separator}]{\setlength{\rightskip}{0pt plus 5cm}String jenes.\-utils.\-C\-S\-V\-Logger.\-separator\hspace{0.3cm}{\ttfamily [private]}}}\label{classjenes_1_1utils_1_1_c_s_v_logger_ab776f8518f5adaad782861e258ca494a}
+\hypertarget{classjenes_1_1utils_1_1_c_s_v_logger_a7ddf63656836e437a692c15feb38ef8f}{\index{jenes\-::utils\-::\-C\-S\-V\-Logger@{jenes\-::utils\-::\-C\-S\-V\-Logger}!started@{started}}
+\index{started@{started}!jenes::utils::CSVLogger@{jenes\-::utils\-::\-C\-S\-V\-Logger}}
+\subsubsection[{started}]{\setlength{\rightskip}{0pt plus 5cm}boolean jenes.\-utils.\-C\-S\-V\-Logger.\-started = false\hspace{0.3cm}{\ttfamily [private]}}}\label{classjenes_1_1utils_1_1_c_s_v_logger_a7ddf63656836e437a692c15feb38ef8f}
+
+
+The documentation for this class was generated from the following file\-:\begin{DoxyCompactItemize}
+\item 
+src/jenes/utils/\hyperlink{_c_s_v_logger_8java}{C\-S\-V\-Logger.\-java}\end{DoxyCompactItemize}

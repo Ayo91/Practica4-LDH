@@ -1,0 +1,145 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="interfacejenes_1_1_algorithm_event_listener_3_01_t_01extends_01_chromosome_01_4" kind="interface" prot="public">
+    <compoundname>jenes::AlgorithmEventListener&lt; T extends Chromosome &gt;</compoundname>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="interfacejenes_1_1_algorithm_event_listener_3_01_t_01extends_01_chromosome_01_4_1af0d6e9961e685f4d44270a4feedeb70f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void jenes.AlgorithmEventListener&lt; T extends Chromosome &gt;.onAlgorithmStart</definition>
+        <argsstring>(GeneticAlgorithm&lt; T &gt; ga, long time)</argsstring>
+        <name>onAlgorithmStart</name>
+        <param>
+          <type>GeneticAlgorithm&lt; T &gt;</type>
+          <declname>ga</declname>
+        </param>
+        <param>
+          <type>long</type>
+          <declname>time</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Invoked when the genetic algorithm starts</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>ga</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the genetic algorithm that generated this event. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>time</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the event time expressed in milliseconds </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/AlgorithmEventListener.java" line="57" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="interfacejenes_1_1_algorithm_event_listener_3_01_t_01extends_01_chromosome_01_4_1ab494ea60f6000ebcd02a94c7eda70dcf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void jenes.AlgorithmEventListener&lt; T extends Chromosome &gt;.onAlgorithmStop</definition>
+        <argsstring>(GeneticAlgorithm&lt; T &gt; ga, long time)</argsstring>
+        <name>onAlgorithmStop</name>
+        <param>
+          <type>GeneticAlgorithm&lt; T &gt;</type>
+          <declname>ga</declname>
+        </param>
+        <param>
+          <type>long</type>
+          <declname>time</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Invoked when the genetic algorithm ends</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>ga</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the genetic algorithm that generated this event. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>time</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the event time expressed in milliseconds </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/AlgorithmEventListener.java" line="65" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="interfacejenes_1_1_algorithm_event_listener_3_01_t_01extends_01_chromosome_01_4_1af5f6bb7f487c9ecd01331427a370889e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void jenes.AlgorithmEventListener&lt; T extends Chromosome &gt;.onAlgorithmInit</definition>
+        <argsstring>(GeneticAlgorithm&lt; T &gt; ga, long time)</argsstring>
+        <name>onAlgorithmInit</name>
+        <param>
+          <type>GeneticAlgorithm&lt; T &gt;</type>
+          <declname>ga</declname>
+        </param>
+        <param>
+          <type>long</type>
+          <declname>time</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Invoked when the genetic algorithm is initialized</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>ga</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the genetic algorithm that generated this event. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>time</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the event time expressed in milliseconds </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/AlgorithmEventListener.java" line="73" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><computeroutput>AlgorithmEventListener</computeroutput> provides the interface for capturing events at algorithm level. This iterface should be implemented by all classes interested in being notified by algorithm events, that are: <itemizedlist>
+<listitem>
+<para>Start, when the algorithm evolution starts. The first step consists in initiliazing data structures, in particular populations. </para></listitem>
+<listitem>
+<para>Init, when the initilization task is accomplished. </para></listitem>
+<listitem>
+<para>Stop, when the evolution terminates. </para></listitem>
+</itemizedlist>
+</para><para>An <computeroutput>AlgorithmEventListener</computeroutput> is registered to the algorithm by the method <ref refid="" kindref="compound">GeneticAlgorithm#addAlgorithmEventListener(AlgorithmEventListener)</ref>. The listener is removed by invoking the method <ref refid="" kindref="compound">GeneticAlgorithm#removeAlgorithmEventListener(AlgorithmEventListener)</ref>. </para><para>An <computeroutput>AlgorithmEventListener<computeroutput> can be registered to multiple different algorithms, thus being notified by all of them. </computeroutput></computeroutput></para><para><computeroutput><computeroutput> Another way to get notified of algorithms events is to override methods <ref refid="" kindref="compound">GeneticAlgorithm#onStart(long)</ref>, <ref refid="" kindref="compound">GeneticAlgorithm#onInit(long)</ref> and <ref refid="" kindref="compound">GeneticAlgorithm#onStop(long)</ref> when subclassing the <computeroutput>GeneticAlgorithm</computeroutput> class. </computeroutput></computeroutput></para><para><computeroutput><computeroutput></computeroutput></computeroutput></para><para><computeroutput><computeroutput><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>&lt;T&gt;</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>extends Chromosome</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="version"><para>1.2 </para></simplesect>
+<simplesect kind="since"><para>1.0</para></simplesect>
+<simplesect kind="see"><para>GeneticAlgorithm </para></simplesect>
+</computeroutput></computeroutput></para>    </detaileddescription>
+    <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/AlgorithmEventListener.java" line="49" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/AlgorithmEventListener.java" bodystart="49" bodyend="75"/>
+    <listofallmembers>
+      <member refid="interfacejenes_1_1_algorithm_event_listener_3_01_t_01extends_01_chromosome_01_4_1af5f6bb7f487c9ecd01331427a370889e" prot="public" virt="non-virtual"><scope>jenes::AlgorithmEventListener&lt; T extends Chromosome &gt;</scope><name>onAlgorithmInit</name></member>
+      <member refid="interfacejenes_1_1_algorithm_event_listener_3_01_t_01extends_01_chromosome_01_4_1af0d6e9961e685f4d44270a4feedeb70f" prot="public" virt="non-virtual"><scope>jenes::AlgorithmEventListener&lt; T extends Chromosome &gt;</scope><name>onAlgorithmStart</name></member>
+      <member refid="interfacejenes_1_1_algorithm_event_listener_3_01_t_01extends_01_chromosome_01_4_1ab494ea60f6000ebcd02a94c7eda70dcf" prot="public" virt="non-virtual"><scope>jenes::AlgorithmEventListener&lt; T extends Chromosome &gt;</scope><name>onAlgorithmStop</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

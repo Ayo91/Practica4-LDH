@@ -1,0 +1,342 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="classjenes_1_1utils_1_1_abstract_logger" kind="class" prot="public" abstract="yes">
+    <compoundname>jenes::utils::AbstractLogger</compoundname>
+    <derivedcompoundref refid="classjenes_1_1utils_1_1_c_s_v_logger" prot="public" virt="non-virtual">jenes.utils.CSVLogger</derivedcompoundref>
+    <derivedcompoundref refid="classjenes_1_1utils_1_1_x_l_s_logger" prot="public" virt="non-virtual">jenes.utils.XLSLogger</derivedcompoundref>
+      <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="classjenes_1_1utils_1_1_abstract_logger_1a3a2030876857a0512fae7e0ad400c570" prot="protected" static="no" mutable="no">
+        <type>List&lt; String &gt;</type>
+        <definition>List&lt;String&gt; jenes.utils.AbstractLogger.schema</definition>
+        <argsstring></argsstring>
+        <name>schema</name>
+        <initializer>= null</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The statistics schema </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/utils/AbstractLogger.java" line="37" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/utils/AbstractLogger.java" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classjenes_1_1utils_1_1_abstract_logger_1ae85e356ad12255a9c5ec8f9f25659ef7" prot="protected" static="no" mutable="no">
+        <type>Map&lt; String, Object &gt;</type>
+        <definition>Map&lt;String, Object&gt; jenes.utils.AbstractLogger.record</definition>
+        <argsstring></argsstring>
+        <name>record</name>
+        <initializer>= new HashMap&lt;String, Object&gt;()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The table of value to store. It is the current record to fill. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/utils/AbstractLogger.java" line="40" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/utils/AbstractLogger.java" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classjenes_1_1utils_1_1_abstract_logger_1a68fe91d1c7bad9146db3bddd92bbcab3" prot="protected" static="no" mutable="no">
+        <type>boolean</type>
+        <definition>boolean jenes.utils.AbstractLogger.closed</definition>
+        <argsstring></argsstring>
+        <name>closed</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/utils/AbstractLogger.java" line="42" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/utils/AbstractLogger.java" bodystart="42" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classjenes_1_1utils_1_1_abstract_logger_1a357a64e024ede4da833b79455ba63644" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>jenes.utils.AbstractLogger.AbstractLogger</definition>
+        <argsstring>(String[] schema)</argsstring>
+        <name>AbstractLogger</name>
+        <param>
+          <type>String[]</type>
+          <declname>schema</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Creates a new logger providing a schema</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>schema</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- the logging schema </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/utils/AbstractLogger.java" line="49" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/utils/AbstractLogger.java" bodystart="49" bodyend="54"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1utils_1_1_abstract_logger_1a3f4dc79a211f8e01c621d42dec8d4de2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String[]</type>
+        <definition>String [] jenes.utils.AbstractLogger.getSchema</definition>
+        <argsstring>()</argsstring>
+        <name>getSchema</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns the logging schema</para><para><simplesect kind="return"><para>the array of fields </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/utils/AbstractLogger.java" line="60" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/utils/AbstractLogger.java" bodystart="60" bodyend="63"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1utils_1_1_abstract_logger_1ae939c8578c5342d8f11ff61388ddfd80" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Iterator&lt; String &gt;</type>
+        <definition>Iterator&lt;String&gt; jenes.utils.AbstractLogger.getFields</definition>
+        <argsstring>()</argsstring>
+        <name>getFields</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns the list of schema fields</para><para><simplesect kind="return"><para>the iterator of fields </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/utils/AbstractLogger.java" line="69" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/utils/AbstractLogger.java" bodystart="69" bodyend="71"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1utils_1_1_abstract_logger_1a0f00b8fa60e88b7c2834be7cdf1fc07e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>final void</type>
+        <definition>final void jenes.utils.AbstractLogger.put</definition>
+        <argsstring>(String key, Object value)</argsstring>
+        <name>put</name>
+        <param>
+          <type>String</type>
+          <declname>key</declname>
+        </param>
+        <param>
+          <type>Object</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Puts a value into the current record.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>key</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- the statistics name </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>value</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- the statistics value </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/utils/AbstractLogger.java" line="79" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/utils/AbstractLogger.java" bodystart="79" bodyend="87"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1utils_1_1_abstract_logger_1acceb0a183912b0ec7fc95554ab2e3001" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>final Object</type>
+        <definition>final Object jenes.utils.AbstractLogger.get</definition>
+        <argsstring>(String key)</argsstring>
+        <name>get</name>
+        <param>
+          <type>String</type>
+          <declname>key</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Retrieves a statistics from the current record.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>key</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- the statistics name </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>the statistics value </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/utils/AbstractLogger.java" line="95" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/utils/AbstractLogger.java" bodystart="95" bodyend="97"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1utils_1_1_abstract_logger_1af4f01e740a9332b8bb32817e01e7b030" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>boolean</type>
+        <definition>boolean jenes.utils.AbstractLogger.isRecordComplete</definition>
+        <argsstring>()</argsstring>
+        <name>isRecordComplete</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns true if the record is complete</para><para><simplesect kind="return"><para>true if the record is complete </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/utils/AbstractLogger.java" line="104" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/utils/AbstractLogger.java" bodystart="104" bodyend="110"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1utils_1_1_abstract_logger_1a26e56f4617fbd249359186c90ec265ba" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>final void</type>
+        <definition>final void jenes.utils.AbstractLogger.log</definition>
+        <argsstring>()</argsstring>
+        <name>log</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Logs a current record by storing it and making the record empty. This is the method to invoke to store the current recorrd. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/utils/AbstractLogger.java" line="116" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/utils/AbstractLogger.java" bodystart="116" bodyend="122"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1utils_1_1_abstract_logger_1a736fbff3759196a70dbf6618f10e8786" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void jenes.utils.AbstractLogger.save</definition>
+        <argsstring>()</argsstring>
+        <name>save</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Saves cached records on media. If the logger is closed this operation is not allowed. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/utils/AbstractLogger.java" line="127" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/utils/AbstractLogger.java" bodystart="127" bodyend="132"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1utils_1_1_abstract_logger_1a7d973cbb6b91f254a5430a8875898dbe" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void jenes.utils.AbstractLogger.close</definition>
+        <argsstring>()</argsstring>
+        <name>close</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Saves cached records on media and closes the logger. If the logger is closed this operation is not allowed. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/utils/AbstractLogger.java" line="137" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/utils/AbstractLogger.java" bodystart="137" bodyend="146"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classjenes_1_1utils_1_1_abstract_logger_1a6acf83a83999e26ae4ed45cbf355111b" prot="protected" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>abstract void</type>
+        <definition>abstract void jenes.utils.AbstractLogger.store</definition>
+        <argsstring>()</argsstring>
+        <name>store</name>
+        <reimplementedby refid="classjenes_1_1utils_1_1_c_s_v_logger_1a863bcfda3e93b023949a81e7f6d149e7">store</reimplementedby>
+        <reimplementedby refid="classjenes_1_1utils_1_1_x_l_s_logger_1ae6b3840ad6be8bdc558efaf6077d4ae4">store</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Stores the current record. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/utils/AbstractLogger.java" line="151" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1utils_1_1_abstract_logger_1a41fcd50b050c467fe1b413fc5b49c167" prot="protected" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>abstract void</type>
+        <definition>abstract void jenes.utils.AbstractLogger.doSave</definition>
+        <argsstring>()</argsstring>
+        <name>doSave</name>
+        <reimplementedby refid="classjenes_1_1utils_1_1_c_s_v_logger_1a09a4f4fc362db6d4090d75642521ee65">doSave</reimplementedby>
+        <reimplementedby refid="classjenes_1_1utils_1_1_x_l_s_logger_1a54c54393bf5a31442ebfc10517dfceea">doSave</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Saves cached records on media </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/utils/AbstractLogger.java" line="156" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1utils_1_1_abstract_logger_1a5253672b3f3f81287db2fc604ca921a9" prot="protected" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>abstract void</type>
+        <definition>abstract void jenes.utils.AbstractLogger.doClose</definition>
+        <argsstring>()</argsstring>
+        <name>doClose</name>
+        <reimplementedby refid="classjenes_1_1utils_1_1_c_s_v_logger_1ac89f6fe5bd609fcc02ca7adf1407f279">doClose</reimplementedby>
+        <reimplementedby refid="classjenes_1_1utils_1_1_x_l_s_logger_1acf58ddaa6873bcf626c9d24064a89b73">doClose</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Closes the logger. Any further log is not allowed. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/utils/AbstractLogger.java" line="161" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1utils_1_1_abstract_logger_1af2c45f653c6e5e79bc4e85dc3ecc4ab4" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void jenes.utils.AbstractLogger.finalize</definition>
+        <argsstring>()</argsstring>
+        <name>finalize</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/utils/AbstractLogger.java" line="164" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/utils/AbstractLogger.java" bodystart="164" bodyend="166"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>This class provides basic support and interface for logging on different media. A log is made of records. Each record is an associative table of properties.</para><para><simplesect kind="version"><para>2.0 </para></simplesect>
+<simplesect kind="since"><para>1.3 </para></simplesect>
+</para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>jenes.utils.CSVLogger</label>
+        <link refid="classjenes_1_1utils_1_1_c_s_v_logger"/>
+        <childnode refid="0" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="0">
+        <label>jenes.utils.AbstractLogger</label>
+        <link refid="classjenes_1_1utils_1_1_abstract_logger"/>
+      </node>
+      <node id="2">
+        <label>jenes.utils.XLSLogger</label>
+        <link refid="classjenes_1_1utils_1_1_x_l_s_logger"/>
+        <childnode refid="0" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="4">
+        <label>List&lt; String &gt;</label>
+      </node>
+      <node id="3">
+        <label>jenes.utils.AbstractLogger</label>
+        <link refid="classjenes_1_1utils_1_1_abstract_logger"/>
+        <childnode refid="4" relation="usage">
+          <edgelabel>schema</edgelabel>
+        </childnode>
+        <childnode refid="5" relation="usage">
+          <edgelabel>record</edgelabel>
+        </childnode>
+      </node>
+      <node id="5">
+        <label>Map&lt; String, Object &gt;</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/utils/AbstractLogger.java" line="34" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/utils/AbstractLogger.java" bodystart="34" bodyend="168"/>
+    <listofallmembers>
+      <member refid="classjenes_1_1utils_1_1_abstract_logger_1a357a64e024ede4da833b79455ba63644" prot="public" virt="non-virtual"><scope>jenes::utils::AbstractLogger</scope><name>AbstractLogger</name></member>
+      <member refid="classjenes_1_1utils_1_1_abstract_logger_1a7d973cbb6b91f254a5430a8875898dbe" prot="public" virt="non-virtual"><scope>jenes::utils::AbstractLogger</scope><name>close</name></member>
+      <member refid="classjenes_1_1utils_1_1_abstract_logger_1a68fe91d1c7bad9146db3bddd92bbcab3" prot="protected" virt="non-virtual"><scope>jenes::utils::AbstractLogger</scope><name>closed</name></member>
+      <member refid="classjenes_1_1utils_1_1_abstract_logger_1a5253672b3f3f81287db2fc604ca921a9" prot="protected" virt="pure-virtual"><scope>jenes::utils::AbstractLogger</scope><name>doClose</name></member>
+      <member refid="classjenes_1_1utils_1_1_abstract_logger_1a41fcd50b050c467fe1b413fc5b49c167" prot="protected" virt="pure-virtual"><scope>jenes::utils::AbstractLogger</scope><name>doSave</name></member>
+      <member refid="classjenes_1_1utils_1_1_abstract_logger_1af2c45f653c6e5e79bc4e85dc3ecc4ab4" prot="protected" virt="non-virtual"><scope>jenes::utils::AbstractLogger</scope><name>finalize</name></member>
+      <member refid="classjenes_1_1utils_1_1_abstract_logger_1acceb0a183912b0ec7fc95554ab2e3001" prot="public" virt="non-virtual"><scope>jenes::utils::AbstractLogger</scope><name>get</name></member>
+      <member refid="classjenes_1_1utils_1_1_abstract_logger_1ae939c8578c5342d8f11ff61388ddfd80" prot="public" virt="non-virtual"><scope>jenes::utils::AbstractLogger</scope><name>getFields</name></member>
+      <member refid="classjenes_1_1utils_1_1_abstract_logger_1a3f4dc79a211f8e01c621d42dec8d4de2" prot="public" virt="non-virtual"><scope>jenes::utils::AbstractLogger</scope><name>getSchema</name></member>
+      <member refid="classjenes_1_1utils_1_1_abstract_logger_1af4f01e740a9332b8bb32817e01e7b030" prot="public" virt="non-virtual"><scope>jenes::utils::AbstractLogger</scope><name>isRecordComplete</name></member>
+      <member refid="classjenes_1_1utils_1_1_abstract_logger_1a26e56f4617fbd249359186c90ec265ba" prot="public" virt="non-virtual"><scope>jenes::utils::AbstractLogger</scope><name>log</name></member>
+      <member refid="classjenes_1_1utils_1_1_abstract_logger_1a0f00b8fa60e88b7c2834be7cdf1fc07e" prot="public" virt="non-virtual"><scope>jenes::utils::AbstractLogger</scope><name>put</name></member>
+      <member refid="classjenes_1_1utils_1_1_abstract_logger_1ae85e356ad12255a9c5ec8f9f25659ef7" prot="protected" virt="non-virtual"><scope>jenes::utils::AbstractLogger</scope><name>record</name></member>
+      <member refid="classjenes_1_1utils_1_1_abstract_logger_1a736fbff3759196a70dbf6618f10e8786" prot="public" virt="non-virtual"><scope>jenes::utils::AbstractLogger</scope><name>save</name></member>
+      <member refid="classjenes_1_1utils_1_1_abstract_logger_1a3a2030876857a0512fae7e0ad400c570" prot="protected" virt="non-virtual"><scope>jenes::utils::AbstractLogger</scope><name>schema</name></member>
+      <member refid="classjenes_1_1utils_1_1_abstract_logger_1a6acf83a83999e26ae4ed45cbf355111b" prot="protected" virt="pure-virtual"><scope>jenes::utils::AbstractLogger</scope><name>store</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

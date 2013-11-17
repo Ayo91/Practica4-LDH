@@ -1,0 +1,412 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="classjenes_1_1population_1_1_fitness_3_01_c_01extends_01_chromosome_01_4_1_1_sorter" kind="class" prot="private">
+    <compoundname>jenes::population::Fitness&lt; C extends Chromosome &gt;::Sorter</compoundname>
+    <innerclass refid="classjenes_1_1population_1_1_fitness_3_01_c_01extends_01_chromosome_01_4_1_1_sorter_1_1_crowding_ref" prot="private">jenes::population::Fitness&lt; C extends Chromosome &gt;::Sorter::CrowdingRef</innerclass>
+    <innerclass refid="classjenes_1_1population_1_1_fitness_3_01_c_01extends_01_chromosome_01_4_1_1_sorter_1_1_dominance_comparator" prot="private">jenes::population::Fitness&lt; C extends Chromosome &gt;::Sorter::DominanceComparator</innerclass>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classjenes_1_1population_1_1_fitness_3_01_c_01extends_01_chromosome_01_4_1_1_sorter_1a9cd326d1839d016f37b61bdd5b65bdf9" prot="private" static="no" mutable="no">
+        <type>SortingMode</type>
+        <definition>SortingMode jenes.population.Fitness&lt; C extends Chromosome &gt;.Sorter.mode</definition>
+        <argsstring></argsstring>
+        <name>mode</name>
+        <initializer>= <ref refid="enumjenes_1_1population_1_1_fitness_3_01_c_01extends_01_chromosome_01_4_1_1_sorting_mode_1a5f50d22a127c87d3cfd8a47d4d131b83" kindref="member">SortingMode.DOMINANCE</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/population/Fitness.java" line="443" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/population/Fitness.java" bodystart="443" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classjenes_1_1population_1_1_fitness_3_01_c_01extends_01_chromosome_01_4_1_1_sorter_1afea619512a6254692e6dfb5fb07e7454" prot="private" static="no" mutable="no">
+        <type>CrowdingRef[]</type>
+        <definition>CrowdingRef [] jenes.population.Fitness&lt; C extends Chromosome &gt;.Sorter.refs</definition>
+        <argsstring></argsstring>
+        <name>refs</name>
+        <initializer>= null</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/population/Fitness.java" line="444" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/population/Fitness.java" bodystart="444" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classjenes_1_1population_1_1_fitness_3_01_c_01extends_01_chromosome_01_4_1_1_sorter_1a2e9dd639fc61868ac73a722a1e1d376b" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int jenes.population.Fitness&lt; C extends Chromosome &gt;.Sorter.segments[]</definition>
+        <argsstring>[]</argsstring>
+        <name>segments</name>
+        <initializer>= null</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/population/Fitness.java" line="445" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/population/Fitness.java" bodystart="445" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classjenes_1_1population_1_1_fitness_3_01_c_01extends_01_chromosome_01_4_1_1_sorter_1a88514d81f3a4fbccfb5146402265362f" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int jenes.population.Fitness&lt; C extends Chromosome &gt;.Sorter.ordering[]</definition>
+        <argsstring>[]</argsstring>
+        <name>ordering</name>
+        <initializer>= null</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/population/Fitness.java" line="446" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/population/Fitness.java" bodystart="446" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classjenes_1_1population_1_1_fitness_3_01_c_01extends_01_chromosome_01_4_1_1_sorter_1a4dd2dfbe2ebcf33bed654b95507fb239" prot="private" static="no" mutable="no">
+        <type>List&lt; Individual &gt;</type>
+        <definition>List&lt;Individual&gt; jenes.population.Fitness&lt; C extends Chromosome &gt;.Sorter.list</definition>
+        <argsstring></argsstring>
+        <name>list</name>
+        <initializer>= new ArrayList&lt;Individual&gt;()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/population/Fitness.java" line="447" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/population/Fitness.java" bodystart="447" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classjenes_1_1population_1_1_fitness_3_01_c_01extends_01_chromosome_01_4_1_1_sorter_1a3d040824f7aac6034db6ce86156565a2" prot="private" static="no" mutable="no">
+        <type>List&lt; Individual &gt;</type>
+        <definition>List&lt;Individual&gt; jenes.population.Fitness&lt; C extends Chromosome &gt;.Sorter.listForRank</definition>
+        <argsstring></argsstring>
+        <name>listForRank</name>
+        <initializer>= new ArrayList&lt;Individual&gt;()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/population/Fitness.java" line="448" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/population/Fitness.java" bodystart="448" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classjenes_1_1population_1_1_fitness_3_01_c_01extends_01_chromosome_01_4_1_1_sorter_1aa1888c6a470ee6e795d9488322e60143" prot="private" static="no" mutable="no">
+        <type>DominanceComparator</type>
+        <definition>DominanceComparator jenes.population.Fitness&lt; C extends Chromosome &gt;.Sorter.domcomp</definition>
+        <argsstring></argsstring>
+        <name>domcomp</name>
+        <initializer>= new DominanceComparator()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/population/Fitness.java" line="615" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/population/Fitness.java" bodystart="615" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classjenes_1_1population_1_1_fitness_3_01_c_01extends_01_chromosome_01_4_1_1_sorter_1ab4d160b9f25c9bd4b69352da4d790fca" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>List&lt; Individual &gt;</type>
+        <definition>List&lt;Individual&gt; jenes.population.Fitness&lt; C extends Chromosome &gt;.Sorter.sort</definition>
+        <argsstring>(Population&lt;?&gt; pop, boolean[] bis)</argsstring>
+        <name>sort</name>
+        <param>
+          <type>Population&lt;?&gt;</type>
+          <declname>pop</declname>
+        </param>
+        <param>
+          <type>boolean[]</type>
+          <declname>bis</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Sorts the given population, according to the given flag array.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>pop</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>population to sort </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>bis</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>objective flag array </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>sorted list of individuals </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/population/Fitness.java" line="457" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/population/Fitness.java" bodystart="457" bodyend="460"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1population_1_1_fitness_3_01_c_01extends_01_chromosome_01_4_1_1_sorter_1a1290180a1519d3d4dc91da403f360a22" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void jenes.population.Fitness&lt; C extends Chromosome &gt;.Sorter.setIndividualsRank</definition>
+        <argsstring>(List&lt; Individual &gt; list, final boolean[] bis)</argsstring>
+        <name>setIndividualsRank</name>
+        <param>
+          <type>List&lt; Individual &gt;</type>
+          <declname>list</declname>
+        </param>
+        <param>
+          <type>final boolean[]</type>
+          <declname>bis</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Calculates the rank for each individual <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>list</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>list of individuals </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>bis</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>objective flag array </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/population/Fitness.java" line="541" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/population/Fitness.java" bodystart="541" bodyend="569"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1population_1_1_fitness_3_01_c_01extends_01_chromosome_01_4_1_1_sorter_1a3332a86889a4923c4dc3223867727abe" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void jenes.population.Fitness&lt; C extends Chromosome &gt;.Sorter.reset</definition>
+        <argsstring>(List&lt; Individual &gt; pop)</argsstring>
+        <name>reset</name>
+        <param>
+          <type>List&lt; Individual &gt;</type>
+          <declname>pop</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Resets data structures <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>pop</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/population/Fitness.java" line="575" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/population/Fitness.java" bodystart="575" bodyend="602"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1population_1_1_fitness_3_01_c_01extends_01_chromosome_01_4_1_1_sorter_1a813d438dc95c070a1c1da6feaa8d31d4" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void jenes.population.Fitness&lt; C extends Chromosome &gt;.Sorter.sortByDominance</definition>
+        <argsstring>(boolean[] bis)</argsstring>
+        <name>sortByDominance</name>
+        <param>
+          <type>boolean[]</type>
+          <declname>bis</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Sorts refs by dominance according to the given flag array.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>bis</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>objective flag array </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/population/Fitness.java" line="622" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/population/Fitness.java" bodystart="622" bodyend="625"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1population_1_1_fitness_3_01_c_01extends_01_chromosome_01_4_1_1_sorter_1a73a1300f8544782f918b09408dccee6f" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int jenes.population.Fitness&lt; C extends Chromosome &gt;.Sorter.assignRanks</definition>
+        <argsstring>(boolean[] bis)</argsstring>
+        <name>assignRanks</name>
+        <param>
+          <type>boolean[]</type>
+          <declname>bis</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Assigns ranks (fronts) to refs</para><para><simplesect kind="return"><para>the number of fronts. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/population/Fitness.java" line="632" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/population/Fitness.java" bodystart="632" bodyend="655"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1population_1_1_fitness_3_01_c_01extends_01_chromosome_01_4_1_1_sorter_1aeca45d3eafa9ea57e97ba47017e0aae9" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void jenes.population.Fitness&lt; C extends Chromosome &gt;.Sorter.sortByDistance</definition>
+        <argsstring>(int from, int to, int m)</argsstring>
+        <name>sortByDistance</name>
+        <param>
+          <type>int</type>
+          <declname>from</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>to</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>m</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Sorts refs belonging to the same front (between from and to) by crowding distance</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>from</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>lower index </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>to</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>upper index </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/population/Fitness.java" line="663" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/population/Fitness.java" bodystart="663" bodyend="680"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1population_1_1_fitness_3_01_c_01extends_01_chromosome_01_4_1_1_sorter_1ab1b7b7c31d60f51b791cf0ff0289fc4b" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void jenes.population.Fitness&lt; C extends Chromosome &gt;.Sorter.updateDistance</definition>
+        <argsstring>(int h, int from, int to)</argsstring>
+        <name>updateDistance</name>
+        <param>
+          <type>int</type>
+          <declname>h</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>from</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>to</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Crowding distance is updated with respect to a given objective</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>h</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>objective </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>from</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>lower index </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>to</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>upper index </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/population/Fitness.java" line="689" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/population/Fitness.java" bodystart="689" bodyend="750"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="package-func">
+      <memberdef kind="function" id="classjenes_1_1population_1_1_fitness_3_01_c_01extends_01_chromosome_01_4_1_1_sorter_1ab00ddc8be2b55f13647e6acb6dca12b5" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>private&lt; K extends Chromosome &gt; List&lt; Individual &gt;</type>
+        <definition>private&lt;K extends Chromosome&gt; List&lt;Individual&gt; jenes.population.Fitness&lt; C extends Chromosome &gt;.Sorter.sort</definition>
+        <argsstring>(List&lt; Individual&lt; K &gt;&gt; in, final boolean[] bis)</argsstring>
+        <name>sort</name>
+        <param>
+          <type>List&lt; Individual&lt; K &gt;&gt;</type>
+          <declname>in</declname>
+        </param>
+        <param>
+          <type>final boolean[]</type>
+          <declname>bis</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Sorts the given list, according to the given flag array.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>in</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>list of individuals to sort </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>bis</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>objective flag array </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>list sorted list </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/population/Fitness.java" line="469" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/population/Fitness.java" bodystart="469" bodyend="534"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Class delegate to individual sorting </para>    </detaileddescription>
+    <collaborationgraph>
+      <node id="623">
+        <label>jenes.population.Fitness&lt; C extends Chromosome &gt;.Sorter</label>
+        <link refid="classjenes_1_1population_1_1_fitness_3_01_c_01extends_01_chromosome_01_4_1_1_sorter"/>
+        <childnode refid="624" relation="usage">
+          <edgelabel>listForRank</edgelabel>
+          <edgelabel>list</edgelabel>
+        </childnode>
+      </node>
+      <node id="624">
+        <label>List&lt; Individual &gt;</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/population/Fitness.java" line="428" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/population/Fitness.java" bodystart="428" bodyend="751"/>
+    <listofallmembers>
+      <member refid="classjenes_1_1population_1_1_fitness_3_01_c_01extends_01_chromosome_01_4_1_1_sorter_1a73a1300f8544782f918b09408dccee6f" prot="private" virt="non-virtual"><scope>jenes::population::Fitness&lt; C extends Chromosome &gt;::Sorter</scope><name>assignRanks</name></member>
+      <member refid="classjenes_1_1population_1_1_fitness_3_01_c_01extends_01_chromosome_01_4_1_1_sorter_1aa1888c6a470ee6e795d9488322e60143" prot="private" virt="non-virtual"><scope>jenes::population::Fitness&lt; C extends Chromosome &gt;::Sorter</scope><name>domcomp</name></member>
+      <member refid="classjenes_1_1population_1_1_fitness_3_01_c_01extends_01_chromosome_01_4_1_1_sorter_1a4dd2dfbe2ebcf33bed654b95507fb239" prot="private" virt="non-virtual"><scope>jenes::population::Fitness&lt; C extends Chromosome &gt;::Sorter</scope><name>list</name></member>
+      <member refid="classjenes_1_1population_1_1_fitness_3_01_c_01extends_01_chromosome_01_4_1_1_sorter_1a3d040824f7aac6034db6ce86156565a2" prot="private" virt="non-virtual"><scope>jenes::population::Fitness&lt; C extends Chromosome &gt;::Sorter</scope><name>listForRank</name></member>
+      <member refid="classjenes_1_1population_1_1_fitness_3_01_c_01extends_01_chromosome_01_4_1_1_sorter_1a9cd326d1839d016f37b61bdd5b65bdf9" prot="private" virt="non-virtual"><scope>jenes::population::Fitness&lt; C extends Chromosome &gt;::Sorter</scope><name>mode</name></member>
+      <member refid="classjenes_1_1population_1_1_fitness_3_01_c_01extends_01_chromosome_01_4_1_1_sorter_1a88514d81f3a4fbccfb5146402265362f" prot="private" virt="non-virtual"><scope>jenes::population::Fitness&lt; C extends Chromosome &gt;::Sorter</scope><name>ordering</name></member>
+      <member refid="classjenes_1_1population_1_1_fitness_3_01_c_01extends_01_chromosome_01_4_1_1_sorter_1afea619512a6254692e6dfb5fb07e7454" prot="private" virt="non-virtual"><scope>jenes::population::Fitness&lt; C extends Chromosome &gt;::Sorter</scope><name>refs</name></member>
+      <member refid="classjenes_1_1population_1_1_fitness_3_01_c_01extends_01_chromosome_01_4_1_1_sorter_1a3332a86889a4923c4dc3223867727abe" prot="private" virt="non-virtual"><scope>jenes::population::Fitness&lt; C extends Chromosome &gt;::Sorter</scope><name>reset</name></member>
+      <member refid="classjenes_1_1population_1_1_fitness_3_01_c_01extends_01_chromosome_01_4_1_1_sorter_1a2e9dd639fc61868ac73a722a1e1d376b" prot="private" virt="non-virtual"><scope>jenes::population::Fitness&lt; C extends Chromosome &gt;::Sorter</scope><name>segments</name></member>
+      <member refid="classjenes_1_1population_1_1_fitness_3_01_c_01extends_01_chromosome_01_4_1_1_sorter_1a1290180a1519d3d4dc91da403f360a22" prot="private" virt="non-virtual"><scope>jenes::population::Fitness&lt; C extends Chromosome &gt;::Sorter</scope><name>setIndividualsRank</name></member>
+      <member refid="classjenes_1_1population_1_1_fitness_3_01_c_01extends_01_chromosome_01_4_1_1_sorter_1ab4d160b9f25c9bd4b69352da4d790fca" prot="private" virt="non-virtual"><scope>jenes::population::Fitness&lt; C extends Chromosome &gt;::Sorter</scope><name>sort</name></member>
+      <member refid="classjenes_1_1population_1_1_fitness_3_01_c_01extends_01_chromosome_01_4_1_1_sorter_1ab00ddc8be2b55f13647e6acb6dca12b5" prot="package" virt="non-virtual"><scope>jenes::population::Fitness&lt; C extends Chromosome &gt;::Sorter</scope><name>sort</name></member>
+      <member refid="classjenes_1_1population_1_1_fitness_3_01_c_01extends_01_chromosome_01_4_1_1_sorter_1aeca45d3eafa9ea57e97ba47017e0aae9" prot="private" virt="non-virtual"><scope>jenes::population::Fitness&lt; C extends Chromosome &gt;::Sorter</scope><name>sortByDistance</name></member>
+      <member refid="classjenes_1_1population_1_1_fitness_3_01_c_01extends_01_chromosome_01_4_1_1_sorter_1a813d438dc95c070a1c1da6feaa8d31d4" prot="private" virt="non-virtual"><scope>jenes::population::Fitness&lt; C extends Chromosome &gt;::Sorter</scope><name>sortByDominance</name></member>
+      <member refid="classjenes_1_1population_1_1_fitness_3_01_c_01extends_01_chromosome_01_4_1_1_sorter_1ab1b7b7c31d60f51b791cf0ff0289fc4b" prot="private" virt="non-virtual"><scope>jenes::population::Fitness&lt; C extends Chromosome &gt;::Sorter</scope><name>updateDistance</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

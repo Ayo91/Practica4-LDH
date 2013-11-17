@@ -1,0 +1,74 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="classjenes_1_1tutorials_1_1problem12_1_1_n_s_g_a2_boolean_problem_1_1_boolean_problem" kind="class" prot="private">
+    <compoundname>jenes::tutorials::problem12::NSGA2BooleanProblem::BooleanProblem</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">jenes::population::Fitness&lt; BooleanChromosome &gt;</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classjenes_1_1tutorials_1_1problem12_1_1_n_s_g_a2_boolean_problem_1_1_boolean_problem_1a7c0d3388b0a7d40cc7cb5f8eb8c04bb7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>jenes.tutorials.problem12.NSGA2BooleanProblem.BooleanProblem.BooleanProblem</definition>
+        <argsstring>(boolean...bis)</argsstring>
+        <name>BooleanProblem</name>
+        <param>
+          <type>boolean...</type>
+          <declname>bis</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/problem12/NSGA2BooleanProblem.java" line="53" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/problem12/NSGA2BooleanProblem.java" bodystart="53" bodyend="55"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1tutorials_1_1problem12_1_1_n_s_g_a2_boolean_problem_1_1_boolean_problem_1a7b37d9eab2075fecb2048bea918856a2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void jenes.tutorials.problem12.NSGA2BooleanProblem.BooleanProblem.evaluate</definition>
+        <argsstring>(Individual&lt; BooleanChromosome &gt; individual)</argsstring>
+        <name>evaluate</name>
+        <param>
+          <type>Individual&lt; <ref refid="classjenes_1_1chromosome_1_1_boolean_chromosome" kindref="compound">BooleanChromosome</ref> &gt;</type>
+          <declname>individual</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/problem12/NSGA2BooleanProblem.java" line="58" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/problem12/NSGA2BooleanProblem.java" bodystart="58" bodyend="72"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="45">
+        <label>jenes::population::Fitness&lt; BooleanChromosome &gt;</label>
+      </node>
+      <node id="44">
+        <label>jenes.tutorials.problem12.NSGA2BooleanProblem.BooleanProblem</label>
+        <link refid="classjenes_1_1tutorials_1_1problem12_1_1_n_s_g_a2_boolean_problem_1_1_boolean_problem"/>
+        <childnode refid="45" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="47">
+        <label>jenes::population::Fitness&lt; BooleanChromosome &gt;</label>
+      </node>
+      <node id="46">
+        <label>jenes.tutorials.problem12.NSGA2BooleanProblem.BooleanProblem</label>
+        <link refid="classjenes_1_1tutorials_1_1problem12_1_1_n_s_g_a2_boolean_problem_1_1_boolean_problem"/>
+        <childnode refid="47" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/problem12/NSGA2BooleanProblem.java" line="51" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/problem12/NSGA2BooleanProblem.java" bodystart="51" bodyend="73"/>
+    <listofallmembers>
+      <member refid="classjenes_1_1tutorials_1_1problem12_1_1_n_s_g_a2_boolean_problem_1_1_boolean_problem_1a7c0d3388b0a7d40cc7cb5f8eb8c04bb7" prot="public" virt="non-virtual"><scope>jenes::tutorials::problem12::NSGA2BooleanProblem::BooleanProblem</scope><name>BooleanProblem</name></member>
+      <member refid="classjenes_1_1tutorials_1_1problem12_1_1_n_s_g_a2_boolean_problem_1_1_boolean_problem_1a7b37d9eab2075fecb2048bea918856a2" prot="public" virt="non-virtual"><scope>jenes::tutorials::problem12::NSGA2BooleanProblem::BooleanProblem</scope><name>evaluate</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,214 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="classjenes_1_1performance_1_1_t_s_p_crossover" kind="class" prot="public">
+    <compoundname>jenes::performance::TSPCrossover</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">jenes::stage::operator::Crossover&lt; IntegerChromosome &gt;</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classjenes_1_1performance_1_1_t_s_p_crossover_1a176bd2a0297786392cb4a8f5865cf97a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>jenes.performance.TSPCrossover.TSPCrossover</definition>
+        <argsstring>(double probability)</argsstring>
+        <name>TSPCrossover</name>
+        <param>
+          <type>double</type>
+          <declname>probability</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/performance/TSPCrossover.java" line="27" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/performance/TSPCrossover.java" bodystart="27" bodyend="29"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1performance_1_1_t_s_p_crossover_1a08d867a3840e1c4ce0d9e57f5f21c839" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int jenes.performance.TSPCrossover.spread</definition>
+        <argsstring>()</argsstring>
+        <name>spread</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/performance/TSPCrossover.java" line="32" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/performance/TSPCrossover.java" bodystart="32" bodyend="34"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classjenes_1_1performance_1_1_t_s_p_crossover_1a8af2cecbf7cc09cd0836148d83f76fcf" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void jenes.performance.TSPCrossover.cross</definition>
+        <argsstring>(Individual&lt; IntegerChromosome &gt;[] offsprings)</argsstring>
+        <name>cross</name>
+        <param>
+          <type>Individual&lt; <ref refid="classjenes_1_1chromosome_1_1_integer_chromosome" kindref="compound">IntegerChromosome</ref> &gt;[]</type>
+          <declname>offsprings</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/performance/TSPCrossover.java" line="37" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/performance/TSPCrossover.java" bodystart="37" bodyend="60"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classjenes_1_1performance_1_1_t_s_p_crossover_1ae4f7dfa634aa2928d3b33a2886bf430c" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void jenes.performance.TSPCrossover.fill</definition>
+        <argsstring>(IntegerChromosome child, int[] lengths, int[][] list)</argsstring>
+        <name>fill</name>
+        <param>
+          <type><ref refid="classjenes_1_1chromosome_1_1_integer_chromosome" kindref="compound">IntegerChromosome</ref></type>
+          <declname>child</declname>
+        </param>
+        <param>
+          <type>int[]</type>
+          <declname>lengths</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>list</declname>
+          <array>[][]</array>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/performance/TSPCrossover.java" line="62" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/performance/TSPCrossover.java" bodystart="62" bodyend="93"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1performance_1_1_t_s_p_crossover_1a91dbce4cfbfa6d13bd7e9664f29c91c9" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int jenes.performance.TSPCrossover.getSmallerLength</definition>
+        <argsstring>(int[] lengths, int[] values)</argsstring>
+        <name>getSmallerLength</name>
+        <param>
+          <type>int[]</type>
+          <declname>lengths</declname>
+        </param>
+        <param>
+          <type>int[]</type>
+          <declname>values</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>prende l&apos;elemento in values con la lunghezza minore </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/performance/TSPCrossover.java" line="96" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/performance/TSPCrossover.java" bodystart="96" bodyend="114"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1performance_1_1_t_s_p_crossover_1a5c58ea57bb0a7f44fa3ac59db56eb545" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void jenes.performance.TSPCrossover.removeFromList</definition>
+        <argsstring>(int[][] list, int value, int[] lengths)</argsstring>
+        <name>removeFromList</name>
+        <param>
+          <type>int</type>
+          <declname>list</declname>
+          <array>[][]</array>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>value</declname>
+        </param>
+        <param>
+          <type>int[]</type>
+          <declname>lengths</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>elimina value dalla lista list; le lunghezze sn aggiornate </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/performance/TSPCrossover.java" line="117" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/performance/TSPCrossover.java" bodystart="117" bodyend="128"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1performance_1_1_t_s_p_crossover_1aa992af55aa67529088fe0547e5f4b012" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int[][]</type>
+        <definition>int [][] jenes.performance.TSPCrossover.buildNeighborsList</definition>
+        <argsstring>(IntegerChromosome p1, IntegerChromosome p2, int[] lengths)</argsstring>
+        <name>buildNeighborsList</name>
+        <param>
+          <type><ref refid="classjenes_1_1chromosome_1_1_integer_chromosome" kindref="compound">IntegerChromosome</ref></type>
+          <declname>p1</declname>
+        </param>
+        <param>
+          <type><ref refid="classjenes_1_1chromosome_1_1_integer_chromosome" kindref="compound">IntegerChromosome</ref></type>
+          <declname>p2</declname>
+        </param>
+        <param>
+          <type>int[]</type>
+          <declname>lengths</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>costruisce la matrice dei vicini; e&apos; una matrice numCitta x 4 </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/performance/TSPCrossover.java" line="131" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/performance/TSPCrossover.java" bodystart="131" bodyend="169"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classjenes_1_1performance_1_1_t_s_p_crossover_1a13d3ceed0ac0f7ec8a8d428e511d5669" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void jenes.performance.TSPCrossover.main</definition>
+        <argsstring>(String[] args)</argsstring>
+        <name>main</name>
+        <param>
+          <type>String[]</type>
+          <declname>args</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/performance/TSPCrossover.java" line="172" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/performance/TSPCrossover.java" bodystart="172" bodyend="225"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="720">
+        <label>jenes.performance.TSPCrossover</label>
+        <link refid="classjenes_1_1performance_1_1_t_s_p_crossover"/>
+        <childnode refid="721" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="721">
+        <label>jenes::stage::operator::Crossover&lt; IntegerChromosome &gt;</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="722">
+        <label>jenes.performance.TSPCrossover</label>
+        <link refid="classjenes_1_1performance_1_1_t_s_p_crossover"/>
+        <childnode refid="723" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="723">
+        <label>jenes::stage::operator::Crossover&lt; IntegerChromosome &gt;</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/performance/TSPCrossover.java" line="25" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/performance/TSPCrossover.java" bodystart="25" bodyend="226"/>
+    <listofallmembers>
+      <member refid="classjenes_1_1performance_1_1_t_s_p_crossover_1aa992af55aa67529088fe0547e5f4b012" prot="private" virt="non-virtual"><scope>jenes::performance::TSPCrossover</scope><name>buildNeighborsList</name></member>
+      <member refid="classjenes_1_1performance_1_1_t_s_p_crossover_1a8af2cecbf7cc09cd0836148d83f76fcf" prot="protected" virt="non-virtual"><scope>jenes::performance::TSPCrossover</scope><name>cross</name></member>
+      <member refid="classjenes_1_1performance_1_1_t_s_p_crossover_1ae4f7dfa634aa2928d3b33a2886bf430c" prot="private" virt="non-virtual"><scope>jenes::performance::TSPCrossover</scope><name>fill</name></member>
+      <member refid="classjenes_1_1performance_1_1_t_s_p_crossover_1a91dbce4cfbfa6d13bd7e9664f29c91c9" prot="private" virt="non-virtual"><scope>jenes::performance::TSPCrossover</scope><name>getSmallerLength</name></member>
+      <member refid="classjenes_1_1performance_1_1_t_s_p_crossover_1a13d3ceed0ac0f7ec8a8d428e511d5669" prot="public" virt="non-virtual"><scope>jenes::performance::TSPCrossover</scope><name>main</name></member>
+      <member refid="classjenes_1_1performance_1_1_t_s_p_crossover_1a5c58ea57bb0a7f44fa3ac59db56eb545" prot="private" virt="non-virtual"><scope>jenes::performance::TSPCrossover</scope><name>removeFromList</name></member>
+      <member refid="classjenes_1_1performance_1_1_t_s_p_crossover_1a08d867a3840e1c4ce0d9e57f5f21c839" prot="public" virt="non-virtual"><scope>jenes::performance::TSPCrossover</scope><name>spread</name></member>
+      <member refid="classjenes_1_1performance_1_1_t_s_p_crossover_1a176bd2a0297786392cb4a8f5865cf97a" prot="public" virt="non-virtual"><scope>jenes::performance::TSPCrossover</scope><name>TSPCrossover</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

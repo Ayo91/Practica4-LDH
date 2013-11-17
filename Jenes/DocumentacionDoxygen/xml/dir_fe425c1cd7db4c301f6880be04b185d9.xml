@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="dir_fe425c1cd7db4c301f6880be04b185d9" kind="dir">
+    <compoundname>src/jenes/chromosome/codings</compoundname>
+    <innerfile refid="_boolean_coding_8java">BooleanCoding.java</innerfile>
+    <innerfile refid="_byte_coding_8java">ByteCoding.java</innerfile>
+    <innerfile refid="_gray_coding_8java">GrayCoding.java</innerfile>
+    <innerfile refid="_int_coding_8java">IntCoding.java</innerfile>
+    <innerfile refid="_short_coding_8java">ShortCoding.java</innerfile>
+    <innerfile refid="_word_coding_8java">WordCoding.java</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/chromosome/codings/"/>
+  </compounddef>
+</doxygen>

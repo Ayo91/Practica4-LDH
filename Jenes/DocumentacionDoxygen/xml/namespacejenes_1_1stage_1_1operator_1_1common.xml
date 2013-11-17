@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="namespacejenes_1_1stage_1_1operator_1_1common" kind="namespace">
+    <compoundname>jenes::stage::operator::common</compoundname>
+    <innerclass refid="classjenes_1_1stage_1_1operator_1_1common_1_1_de_jong_crowder_3_01_t_01extends_01_chromosome_01_4" prot="public">jenes::stage::operator::common::DeJongCrowder&lt; T extends Chromosome &gt;</innerclass>
+    <innerclass refid="classjenes_1_1stage_1_1operator_1_1common_1_1_deterministic_crowder_3_01_t_01extends_01_chromosome_01_4" prot="public">jenes::stage::operator::common::DeterministicCrowder&lt; T extends Chromosome &gt;</innerclass>
+    <innerclass refid="classjenes_1_1stage_1_1operator_1_1common_1_1_heuristic_crossover_3_01_t_01extends_01_double_chromosome_01_4" prot="public">jenes::stage::operator::common::HeuristicCrossover&lt; T extends DoubleChromosome &gt;</innerclass>
+    <innerclass refid="classjenes_1_1stage_1_1operator_1_1common_1_1_intermediate_crossover_3_01_t_01extends_01_double_chromosome_01_4" prot="public">jenes::stage::operator::common::IntermediateCrossover&lt; T extends DoubleChromosome &gt;</innerclass>
+    <innerclass refid="classjenes_1_1stage_1_1operator_1_1common_1_1_multi_niche_crowder_3_01_t_01extends_01_chromosome_01_4" prot="public">jenes::stage::operator::common::MultiNicheCrowder&lt; T extends Chromosome &gt;</innerclass>
+    <innerclass refid="classjenes_1_1stage_1_1operator_1_1common_1_1_one_point_crossover_3_01_t_01extends_01_chromosome_01_4" prot="public">jenes::stage::operator::common::OnePointCrossover&lt; T extends Chromosome &gt;</innerclass>
+    <innerclass refid="classjenes_1_1stage_1_1operator_1_1common_1_1_proportional_scaling_3_01_t_01extends_01_chromosome_01_4" prot="public">jenes::stage::operator::common::ProportionalScaling&lt; T extends Chromosome &gt;</innerclass>
+    <innerclass refid="classjenes_1_1stage_1_1operator_1_1common_1_1_rank_scaling_3_01_t_01extends_01_chromosome_01_4" prot="public">jenes::stage::operator::common::RankScaling&lt; T extends Chromosome &gt;</innerclass>
+    <innerclass refid="classjenes_1_1stage_1_1operator_1_1common_1_1_roulette_wheel_selector_3_01_t_01extends_01_chromosome_01_4" prot="public">jenes::stage::operator::common::RouletteWheelSelector&lt; T extends Chromosome &gt;</innerclass>
+    <innerclass refid="classjenes_1_1stage_1_1operator_1_1common_1_1_simple_mutator_3_01_t_01extends_01_chromosome_01_4" prot="public">jenes::stage::operator::common::SimpleMutator&lt; T extends Chromosome &gt;</innerclass>
+    <innerclass refid="classjenes_1_1stage_1_1operator_1_1common_1_1_steady_state_3_01_t_01extends_01_chromosome_01_4" prot="public">jenes::stage::operator::common::SteadyState&lt; T extends Chromosome &gt;</innerclass>
+    <innerclass refid="classjenes_1_1stage_1_1operator_1_1common_1_1_top_scaling_3_01_t_01extends_01_chromosome_01_4" prot="public">jenes::stage::operator::common::TopScaling&lt; T extends Chromosome &gt;</innerclass>
+    <innerclass refid="classjenes_1_1stage_1_1operator_1_1common_1_1_tournament_selector_3_01_t_01extends_01_chromosome_01_4" prot="public">jenes::stage::operator::common::TournamentSelector&lt; T extends Chromosome &gt;</innerclass>
+    <innerclass refid="classjenes_1_1stage_1_1operator_1_1common_1_1_two_points_crossover_3_01_t_01extends_01_chromosome_01_4" prot="public">jenes::stage::operator::common::TwoPointsCrossover&lt; T extends Chromosome &gt;</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/operator/common/DeJongCrowder.java" line="19" column="1"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,63 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="interfacejenes_1_1_generation_event_listener_3_01_t_01extends_01_chromosome_01_4" kind="interface" prot="public">
+    <compoundname>jenes::GenerationEventListener&lt; T extends Chromosome &gt;</compoundname>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="interfacejenes_1_1_generation_event_listener_3_01_t_01extends_01_chromosome_01_4_1aae224991bea21e4eca0f81ce0fb464e9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void jenes.GenerationEventListener&lt; T extends Chromosome &gt;.onGeneration</definition>
+        <argsstring>(GeneticAlgorithm&lt; T &gt; ga, long time)</argsstring>
+        <name>onGeneration</name>
+        <param>
+          <type>GeneticAlgorithm&lt; T &gt;</type>
+          <declname>ga</declname>
+        </param>
+        <param>
+          <type>long</type>
+          <declname>time</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Invoked when at the end of one generation step</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>ga</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the genetic algorithm generating the event </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>time</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the event time expressed in milliseconds </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/GenerationEventListener.java" line="51" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>A listener of the genetic algorithm generation event. Such a listener is notified after a generation step is executed. </para><para>A <computeroutput>GenerationEventListener</computeroutput> is registered to the algorithm by the method <ref refid="" kindref="compound">GeneticAlgorithm#addGenerationEventListener(GenerationEventListener)</ref>. The listener is removed by invoking the method <ref refid="" kindref="compound">GeneticAlgorithm#removeGenerationEventListener(GenerationEventListener)</ref>. </para><para>A <computeroutput>GenerationEventListener</computeroutput> can be registered to multiple different algorithms, thus being notified by all of them. </para><para>Another way to get notified of algorithms events is to override method <ref refid="" kindref="compound">GeneticAlgorithm#onGeneration(long)</ref> when subclassing the <computeroutput>GeneticAlgorithm</computeroutput> class. </para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>&lt;T&gt;</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>extends Chromosome</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="version"><para>1.2 </para></simplesect>
+<simplesect kind="since"><para>1.0</para></simplesect>
+<simplesect kind="see"><para>GeneticAlgorithm </para></simplesect>
+</para>    </detaileddescription>
+    <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/GenerationEventListener.java" line="43" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/GenerationEventListener.java" bodystart="43" bodyend="52"/>
+    <listofallmembers>
+      <member refid="interfacejenes_1_1_generation_event_listener_3_01_t_01extends_01_chromosome_01_4_1aae224991bea21e4eca0f81ce0fb464e9" prot="public" virt="non-virtual"><scope>jenes::GenerationEventListener&lt; T extends Chromosome &gt;</scope><name>onGeneration</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

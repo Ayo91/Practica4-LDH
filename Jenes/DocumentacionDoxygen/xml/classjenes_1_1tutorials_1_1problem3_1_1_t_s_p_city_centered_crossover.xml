@@ -1,0 +1,195 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="classjenes_1_1tutorials_1_1problem3_1_1_t_s_p_city_centered_crossover" kind="class" prot="public">
+    <compoundname>jenes::tutorials::problem3::TSPCityCenteredCrossover</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">jenes::stage::operator::Crossover&lt; IntegerChromosome &gt;</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classjenes_1_1tutorials_1_1problem3_1_1_t_s_p_city_centered_crossover_1ad809abb1613db54c32389b8f826d298d" prot="private" static="no" mutable="no">
+        <type><ref refid="classjenes_1_1chromosome_1_1_integer_chromosome" kindref="compound">IntegerChromosome</ref></type>
+        <definition>IntegerChromosome jenes.tutorials.problem3.TSPCityCenteredCrossover.chrom_parent1</definition>
+        <argsstring></argsstring>
+        <name>chrom_parent1</name>
+        <initializer>= null</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/problem3/TSPCityCenteredCrossover.java" line="69" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/problem3/TSPCityCenteredCrossover.java" bodystart="69" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classjenes_1_1tutorials_1_1problem3_1_1_t_s_p_city_centered_crossover_1a5a385a3e85a5cf8985d1f3dd7a28de7e" prot="private" static="no" mutable="no">
+        <type><ref refid="classjenes_1_1chromosome_1_1_integer_chromosome" kindref="compound">IntegerChromosome</ref></type>
+        <definition>IntegerChromosome jenes.tutorials.problem3.TSPCityCenteredCrossover.chrom_parent2</definition>
+        <argsstring></argsstring>
+        <name>chrom_parent2</name>
+        <initializer>= null</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/problem3/TSPCityCenteredCrossover.java" line="70" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/problem3/TSPCityCenteredCrossover.java" bodystart="70" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classjenes_1_1tutorials_1_1problem3_1_1_t_s_p_city_centered_crossover_1a1609c37822bff6e6af8cb82082d8cd9d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>jenes.tutorials.problem3.TSPCityCenteredCrossover.TSPCityCenteredCrossover</definition>
+        <argsstring>(double pCross)</argsstring>
+        <name>TSPCityCenteredCrossover</name>
+        <param>
+          <type>double</type>
+          <declname>pCross</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/problem3/TSPCityCenteredCrossover.java" line="57" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/problem3/TSPCityCenteredCrossover.java" bodystart="57" bodyend="59"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1tutorials_1_1problem3_1_1_t_s_p_city_centered_crossover_1a3a5e0f99396f1fb6dc89981969d58c13" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int jenes.tutorials.problem3.TSPCityCenteredCrossover.spread</definition>
+        <argsstring>()</argsstring>
+        <name>spread</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns the number of chromosomes (i.e. 2) this operator entails. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/problem3/TSPCityCenteredCrossover.java" line="65" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/problem3/TSPCityCenteredCrossover.java" bodystart="65" bodyend="67"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classjenes_1_1tutorials_1_1problem3_1_1_t_s_p_city_centered_crossover_1aeb7cb2d42aeeea2cb008f98d63b64805" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void jenes.tutorials.problem3.TSPCityCenteredCrossover.cross</definition>
+        <argsstring>(Individual&lt; IntegerChromosome &gt; offsprings[])</argsstring>
+        <name>cross</name>
+        <param>
+          <type>Individual&lt; <ref refid="classjenes_1_1chromosome_1_1_integer_chromosome" kindref="compound">IntegerChromosome</ref> &gt;</type>
+          <declname>offsprings</declname>
+          <array>[]</array>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>This method implements the crossover operation.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>offsprings</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the chromosomes to be crossed. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/problem3/TSPCityCenteredCrossover.java" line="76" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/problem3/TSPCityCenteredCrossover.java" bodystart="76" bodyend="120"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classjenes_1_1tutorials_1_1problem3_1_1_t_s_p_city_centered_crossover_1a070b7ad69afad2bc97a6d8f31822ab96" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int jenes.tutorials.problem3.TSPCityCenteredCrossover.findPositionOf</definition>
+        <argsstring>(int city, IntegerChromosome chrom)</argsstring>
+        <name>findPositionOf</name>
+        <param>
+          <type>int</type>
+          <declname>city</declname>
+        </param>
+        <param>
+          <type><ref refid="classjenes_1_1chromosome_1_1_integer_chromosome" kindref="compound">IntegerChromosome</ref></type>
+          <declname>chrom</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Finds the position of one specific city in the chromosome. </para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>city</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the city to find </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>chrom</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the chromosome to search </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>the city position </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/problem3/TSPCityCenteredCrossover.java" line="129" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/problem3/TSPCityCenteredCrossover.java" bodystart="129" bodyend="136"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Tutorial showing how to implement problem specific operators. The problem faced in this example is the well known Tavel Salesman Problem (TSP)</para><para>This class implements a specific crossover aimed at preserving permutations.</para><para>Algorithm description: <preformatted>
+      parent1  5 2 1 4 6 3     parent2   1 3 2 4 6 5
+      child1   _ _ _ _ _ _     child2    _ _ _ _ _ _
+</preformatted> Step 1: a city is choosed randomly. We copy all the cities until the selected one from each parent to each child (parent1 in child1 and parent2 in child2) <preformatted>
+      parent1  5 2 1 4 6 3     parent2   1 3 2 4 6 5
+      child1   5 2 _ _ _ _     child2    1 3 2 _ _ _
+ </preformatted> Step 2: we fill child1 getting missing elements from parent2; these ones will have the same parent2 order <preformatted>
+      parent1  5 2 1 4 6 3     parent2  1 3 2 4 6 5
+      child1   5 2 1 3 4 6     child2   1 3 2 5 4 6
+</preformatted></para><para>We repeat these steps for child2</para><para><simplesect kind="version"><para>2.0 </para></simplesect>
+<simplesect kind="since"><para>1.0 </para></simplesect>
+</para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="708">
+        <label>jenes.tutorials.problem3.TSPCityCenteredCrossover</label>
+        <link refid="classjenes_1_1tutorials_1_1problem3_1_1_t_s_p_city_centered_crossover"/>
+        <childnode refid="709" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="709">
+        <label>jenes::stage::operator::Crossover&lt; IntegerChromosome &gt;</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="710">
+        <label>jenes.tutorials.problem3.TSPCityCenteredCrossover</label>
+        <link refid="classjenes_1_1tutorials_1_1problem3_1_1_t_s_p_city_centered_crossover"/>
+        <childnode refid="711" relation="public-inheritance">
+        </childnode>
+        <childnode refid="712" relation="usage">
+          <edgelabel>chrom_parent1</edgelabel>
+          <edgelabel>chrom_parent2</edgelabel>
+        </childnode>
+      </node>
+      <node id="711">
+        <label>jenes::stage::operator::Crossover&lt; IntegerChromosome &gt;</label>
+      </node>
+      <node id="713">
+        <label>jenes::chromosome::Chromosome&lt; IntegerChromosome &gt;</label>
+      </node>
+      <node id="712">
+        <label>jenes.chromosome.IntegerChromosome</label>
+        <link refid="classjenes_1_1chromosome_1_1_integer_chromosome"/>
+        <childnode refid="713" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/problem3/TSPCityCenteredCrossover.java" line="55" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/problem3/TSPCityCenteredCrossover.java" bodystart="55" bodyend="138"/>
+    <listofallmembers>
+      <member refid="classjenes_1_1tutorials_1_1problem3_1_1_t_s_p_city_centered_crossover_1ad809abb1613db54c32389b8f826d298d" prot="private" virt="non-virtual"><scope>jenes::tutorials::problem3::TSPCityCenteredCrossover</scope><name>chrom_parent1</name></member>
+      <member refid="classjenes_1_1tutorials_1_1problem3_1_1_t_s_p_city_centered_crossover_1a5a385a3e85a5cf8985d1f3dd7a28de7e" prot="private" virt="non-virtual"><scope>jenes::tutorials::problem3::TSPCityCenteredCrossover</scope><name>chrom_parent2</name></member>
+      <member refid="classjenes_1_1tutorials_1_1problem3_1_1_t_s_p_city_centered_crossover_1aeb7cb2d42aeeea2cb008f98d63b64805" prot="protected" virt="non-virtual"><scope>jenes::tutorials::problem3::TSPCityCenteredCrossover</scope><name>cross</name></member>
+      <member refid="classjenes_1_1tutorials_1_1problem3_1_1_t_s_p_city_centered_crossover_1a070b7ad69afad2bc97a6d8f31822ab96" prot="private" virt="non-virtual"><scope>jenes::tutorials::problem3::TSPCityCenteredCrossover</scope><name>findPositionOf</name></member>
+      <member refid="classjenes_1_1tutorials_1_1problem3_1_1_t_s_p_city_centered_crossover_1a3a5e0f99396f1fb6dc89981969d58c13" prot="public" virt="non-virtual"><scope>jenes::tutorials::problem3::TSPCityCenteredCrossover</scope><name>spread</name></member>
+      <member refid="classjenes_1_1tutorials_1_1problem3_1_1_t_s_p_city_centered_crossover_1a1609c37822bff6e6af8cb82082d8cd9d" prot="public" virt="non-virtual"><scope>jenes::tutorials::problem3::TSPCityCenteredCrossover</scope><name>TSPCityCenteredCrossover</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

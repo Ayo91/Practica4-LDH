@@ -1,0 +1,108 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="classjenes_1_1tutorials_1_1problem2_1_1_pattern_g_a" kind="class" prot="public">
+    <compoundname>jenes::tutorials::problem2::PatternGA</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">jenes::GeneticAlgorithm&lt; IntegerChromosome &gt;</basecompoundref>
+    <innerclass refid="classjenes_1_1tutorials_1_1problem2_1_1_pattern_g_a_1_1_pattern_fitness" prot="public">jenes::tutorials::problem2::PatternGA::PatternFitness</innerclass>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classjenes_1_1tutorials_1_1problem2_1_1_pattern_g_a_1ac81bf41b0ae2a2b615e8f76c09a1036f" prot="private" static="no" mutable="no">
+        <type><ref refid="classjenes_1_1tutorials_1_1problem2_1_1_pattern_g_a_1_1_pattern_fitness" kindref="compound">PatternFitness</ref></type>
+        <definition>PatternFitness jenes.tutorials.problem2.PatternGA.fitness</definition>
+        <argsstring></argsstring>
+        <name>fitness</name>
+        <initializer>= new <ref refid="classjenes_1_1tutorials_1_1problem2_1_1_pattern_g_a_1_1_pattern_fitness" kindref="compound">PatternFitness</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/problem2/PatternGA.java" line="42" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/problem2/PatternGA.java" bodystart="42" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classjenes_1_1tutorials_1_1problem2_1_1_pattern_g_a_1a009d1901fabdcabacb443297eb2295ce" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>jenes.tutorials.problem2.PatternGA.PatternGA</definition>
+        <argsstring>(Population&lt; IntegerChromosome &gt; pop, int numGen)</argsstring>
+        <name>PatternGA</name>
+        <param>
+          <type>Population&lt; <ref refid="classjenes_1_1chromosome_1_1_integer_chromosome" kindref="compound">IntegerChromosome</ref> &gt;</type>
+          <declname>pop</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>numGen</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/problem2/PatternGA.java" line="44" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/problem2/PatternGA.java" bodystart="44" bodyend="47"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classjenes_1_1tutorials_1_1problem2_1_1_pattern_g_a_1a3785b5c77bc9bfab62fd3ef7c6ea8fb9" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>boolean</type>
+        <definition>boolean jenes.tutorials.problem2.PatternGA.end</definition>
+        <argsstring>()</argsstring>
+        <name>end</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/problem2/PatternGA.java" line="50" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/problem2/PatternGA.java" bodystart="50" bodyend="53"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Tutorial showing how to extend <computeroutput>GeneticAlgorithm</computeroutput> and how to use the flexible and configurable breeding structure in Jenes. The problem consists in searching a pattern of integers with a given precision. Solutions flow through two different crossovers in parallel. Some are processed by a single point crossover, the other by a double point crossover. After solutions are mutated.</para><para>This class implements the algorithm by extending <computeroutput>GeneticAlgorithm</computeroutput>.</para><para><simplesect kind="version"><para>2.0 </para></simplesect>
+<simplesect kind="since"><para>1.0 </para></simplesect>
+</para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="477">
+        <label>jenes::GeneticAlgorithm&lt; IntegerChromosome &gt;</label>
+      </node>
+      <node id="476">
+        <label>jenes.tutorials.problem2.PatternGA</label>
+        <link refid="classjenes_1_1tutorials_1_1problem2_1_1_pattern_g_a"/>
+        <childnode refid="477" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="479">
+        <label>jenes::GeneticAlgorithm&lt; IntegerChromosome &gt;</label>
+      </node>
+      <node id="478">
+        <label>jenes.tutorials.problem2.PatternGA</label>
+        <link refid="classjenes_1_1tutorials_1_1problem2_1_1_pattern_g_a"/>
+        <childnode refid="479" relation="public-inheritance">
+        </childnode>
+        <childnode refid="480" relation="usage">
+          <edgelabel>fitness</edgelabel>
+        </childnode>
+      </node>
+      <node id="480">
+        <label>jenes.tutorials.problem2.PatternGA.PatternFitness</label>
+        <link refid="classjenes_1_1tutorials_1_1problem2_1_1_pattern_g_a_1_1_pattern_fitness"/>
+        <childnode refid="481" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="481">
+        <label>jenes::population::Fitness&lt; IntegerChromosome &gt;</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/problem2/PatternGA.java" line="40" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/problem2/PatternGA.java" bodystart="40" bodyend="83"/>
+    <listofallmembers>
+      <member refid="classjenes_1_1tutorials_1_1problem2_1_1_pattern_g_a_1a3785b5c77bc9bfab62fd3ef7c6ea8fb9" prot="protected" virt="non-virtual"><scope>jenes::tutorials::problem2::PatternGA</scope><name>end</name></member>
+      <member refid="classjenes_1_1tutorials_1_1problem2_1_1_pattern_g_a_1ac81bf41b0ae2a2b615e8f76c09a1036f" prot="private" virt="non-virtual"><scope>jenes::tutorials::problem2::PatternGA</scope><name>fitness</name></member>
+      <member refid="classjenes_1_1tutorials_1_1problem2_1_1_pattern_g_a_1a009d1901fabdcabacb443297eb2295ce" prot="public" virt="non-virtual"><scope>jenes::tutorials::problem2::PatternGA</scope><name>PatternGA</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

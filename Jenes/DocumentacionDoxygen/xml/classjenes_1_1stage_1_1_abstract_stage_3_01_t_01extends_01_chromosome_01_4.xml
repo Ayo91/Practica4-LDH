@@ -1,0 +1,389 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="classjenes_1_1stage_1_1_abstract_stage_3_01_t_01extends_01_chromosome_01_4" kind="class" prot="public" abstract="yes">
+    <compoundname>jenes::stage::AbstractStage&lt; T extends Chromosome &gt;</compoundname>
+      <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="classjenes_1_1stage_1_1_abstract_stage_3_01_t_01extends_01_chromosome_01_4_1a751aba4f46b29d22592d48422ffa75f9" prot="protected" static="no" mutable="no">
+        <type>GeneticAlgorithm&lt; T &gt;</type>
+        <definition>GeneticAlgorithm&lt;T&gt; jenes.stage.AbstractStage&lt; T extends Chromosome &gt;.ga</definition>
+        <argsstring></argsstring>
+        <name>ga</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The genetic algorithm, this stage belongs to </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/AbstractStage.java" line="51" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/AbstractStage.java" bodystart="51" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classjenes_1_1stage_1_1_abstract_stage_3_01_t_01extends_01_chromosome_01_4_1a11da35af3fe950eef9882b03e13690d4" prot="protected" static="no" mutable="no">
+        <type>boolean</type>
+        <definition>boolean jenes.stage.AbstractStage&lt; T extends Chromosome &gt;.biggerIsBetter</definition>
+        <argsstring></argsstring>
+        <name>biggerIsBetter</name>
+        <initializer>= true</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>True if higher scores entail better individuals </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/AbstractStage.java" line="53" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/AbstractStage.java" bodystart="53" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classjenes_1_1stage_1_1_abstract_stage_3_01_t_01extends_01_chromosome_01_4_1a697ab8239c1ae2a99445cd7f5fbca45d" prot="protected" static="no" mutable="no">
+        <type>Fitness&lt; T &gt;</type>
+        <definition>Fitness&lt;T&gt; jenes.stage.AbstractStage&lt; T extends Chromosome &gt;.fitness</definition>
+        <argsstring></argsstring>
+        <name>fitness</name>
+        <initializer>= null</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The current Fitness </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/AbstractStage.java" line="55" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/AbstractStage.java" bodystart="55" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classjenes_1_1stage_1_1_abstract_stage_3_01_t_01extends_01_chromosome_01_4_1a049a743a79ce2e6d2a4243f85226a59e" prot="private" static="no" mutable="no">
+        <type>boolean</type>
+        <definition>boolean jenes.stage.AbstractStage&lt; T extends Chromosome &gt;.fitnessChanged</definition>
+        <argsstring></argsstring>
+        <name>fitnessChanged</name>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Flag indicating if fitness is changed recently </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/AbstractStage.java" line="57" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/AbstractStage.java" bodystart="57" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classjenes_1_1stage_1_1_abstract_stage_3_01_t_01extends_01_chromosome_01_4_1a1e8398b28d820dc0e7343b15ce19c703" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>abstract void</type>
+        <definition>abstract void jenes.stage.AbstractStage&lt; T extends Chromosome &gt;.process</definition>
+        <argsstring>(Population&lt; T &gt; in, Population&lt; T &gt; out)</argsstring>
+        <name>process</name>
+        <param>
+          <type>Population&lt; T &gt;</type>
+          <declname>in</declname>
+        </param>
+        <param>
+          <type>Population&lt; T &gt;</type>
+          <declname>out</declname>
+        </param>
+        <exceptions> throws <ref refid="classjenes_1_1stage_1_1_stage_exception" kindref="compound">StageException</ref></exceptions>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Processes the input population and tranforms it into the output population. Note:<itemizedlist>
+<listitem><para>Out population is made of recicled individuals. There is a need of new individuals to add only when there is a need to increase the population size. For pre-initalized individual just use setAs method. This is done for an efficient memory management.</para></listitem><listitem><para>A stage can modify the input population. So input passed to process method can be mutated when the process method ends. </para></listitem></itemizedlist>
+</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>in</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the input population </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>out</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the output population </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<parameterlist kind="exception"><parameteritem>
+<parameternamelist>
+<parametername><ref refid="classjenes_1_1stage_1_1_stage_exception" kindref="compound">StageException</ref></parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/AbstractStage.java" line="72" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1stage_1_1_abstract_stage_3_01_t_01extends_01_chromosome_01_4_1af16b278b3f7a6d9fd78e742621b956e5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void jenes.stage.AbstractStage&lt; T extends Chromosome &gt;.init</definition>
+        <argsstring>(GeneticAlgorithm&lt; T &gt; ga)</argsstring>
+        <name>init</name>
+        <param>
+          <type>GeneticAlgorithm&lt; T &gt;</type>
+          <declname>ga</declname>
+        </param>
+        <exceptions> throws <ref refid="classjenes_1_1stage_1_1_stage_exception" kindref="compound">StageException</ref> </exceptions>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Initializes this stage according to the genetic algorithm that uses it</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>ga</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the Genetic Algorithm in wchic this stage run </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<parameterlist kind="exception"><parameteritem>
+<parameternamelist>
+<parametername><ref refid="classjenes_1_1stage_1_1_stage_exception" kindref="compound">StageException</ref></parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/AbstractStage.java" line="81" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/AbstractStage.java" bodystart="81" bodyend="83"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1stage_1_1_abstract_stage_3_01_t_01extends_01_chromosome_01_4_1a68d4104c004b50abf7b12ffc94122ddc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void jenes.stage.AbstractStage&lt; T extends Chromosome &gt;.dispose</definition>
+        <argsstring>()</argsstring>
+        <name>dispose</name>
+        <exceptions> throws <ref refid="classjenes_1_1stage_1_1_stage_exception" kindref="compound">StageException</ref> </exceptions>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Disposes this stage</para><para><parameterlist kind="exception"><parameteritem>
+<parameternamelist>
+<parametername><ref refid="classjenes_1_1stage_1_1_stage_exception" kindref="compound">StageException</ref></parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/AbstractStage.java" line="90" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/AbstractStage.java" bodystart="90" bodyend="92"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1stage_1_1_abstract_stage_3_01_t_01extends_01_chromosome_01_4_1ac20363682ebc9214d9253ff157a06a2d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>boolean</type>
+        <definition>boolean jenes.stage.AbstractStage&lt; T extends Chromosome &gt;.isBiggerBetter</definition>
+        <argsstring>()</argsstring>
+        <name>isBiggerBetter</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><xrefsect id="deprecated_1_deprecated000002"><xreftitle>Deprecated</xreftitle><xrefdescription><para>deprecated due to the use of <ref refid="" kindref="compound">Fitness</ref>. In next releasese this method will be removed Says if the best individuals have the higher fitness or not.</para></xrefdescription></xrefsect></para><para><simplesect kind="return"><para><computeroutput>true</computeroutput> if the best individuals have the higher fitness&gt; <computeroutput>false</computeroutput> otherwise </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/AbstractStage.java" line="100" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/AbstractStage.java" bodystart="100" bodyend="102"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1stage_1_1_abstract_stage_3_01_t_01extends_01_chromosome_01_4_1adfddd6664c7f9f2eeba94d59de6fcebf" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void jenes.stage.AbstractStage&lt; T extends Chromosome &gt;.setBiggerIsBetter</definition>
+        <argsstring>(boolean flags)</argsstring>
+        <name>setBiggerIsBetter</name>
+        <param>
+          <type>boolean</type>
+          <declname>flags</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><xrefsect id="deprecated_1_deprecated000003"><xreftitle>Deprecated</xreftitle><xrefdescription><para>deprecated due to the use of <ref refid="" kindref="compound">Fitness</ref>. In next releasese this method will be removed Sets if the best individuals have the higher fitness or not. For maximization, this property is set to true; for minimization, this property is set to false. This setting is propagated down to every sub-stage the stage is made of.</para></xrefdescription></xrefsect></para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>flag</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>true, if the best individual has the higher fitness </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/AbstractStage.java" line="113" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/AbstractStage.java" bodystart="113" bodyend="115"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1stage_1_1_abstract_stage_3_01_t_01extends_01_chromosome_01_4_1a003250025de6f005e247a05b107e5e8f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void jenes.stage.AbstractStage&lt; T extends Chromosome &gt;.setBiggerIsBetter</definition>
+        <argsstring>(boolean flag, boolean recursively)</argsstring>
+        <name>setBiggerIsBetter</name>
+        <param>
+          <type>boolean</type>
+          <declname>flag</declname>
+        </param>
+        <param>
+          <type>boolean</type>
+          <declname>recursively</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><xrefsect id="deprecated_1_deprecated000004"><xreftitle>Deprecated</xreftitle><xrefdescription><para>deprecated due to the use of <ref refid="" kindref="compound">Fitness</ref>. In next releasese this method will be removed Sets if the best individuals have the higher fitness or not. This setting can be or not propagated down to sub-stages.</para></xrefdescription></xrefsect></para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>flag</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>true, if the best individual has the higher fitness </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>recursively</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>true, to propagate this setting down, otherwise false. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/AbstractStage.java" line="125" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/AbstractStage.java" bodystart="125" bodyend="128"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1stage_1_1_abstract_stage_3_01_t_01extends_01_chromosome_01_4_1a9de5f0a09b7791fe1e93123ada1c434a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>final Fitness&lt; T &gt;</type>
+        <definition>final Fitness&lt;T&gt; jenes.stage.AbstractStage&lt; T extends Chromosome &gt;.getFitness</definition>
+        <argsstring>()</argsstring>
+        <name>getFitness</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Get the <ref refid="" kindref="compound">Fitness</ref> currently setted for this stage <simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/AbstractStage.java" line="134" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/AbstractStage.java" bodystart="134" bodyend="136"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1stage_1_1_abstract_stage_3_01_t_01extends_01_chromosome_01_4_1ad60267d0a803c2991ac3ef02ababef2b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void jenes.stage.AbstractStage&lt; T extends Chromosome &gt;.setFitness</definition>
+        <argsstring>(Fitness&lt; T &gt; fit)</argsstring>
+        <name>setFitness</name>
+        <param>
+          <type>Fitness&lt; T &gt;</type>
+          <declname>fit</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Change the <ref refid="" kindref="compound">Fitness</ref> to this stage propagating the change recursively <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>fit</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/AbstractStage.java" line="142" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/AbstractStage.java" bodystart="142" bodyend="144"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1stage_1_1_abstract_stage_3_01_t_01extends_01_chromosome_01_4_1aff1c8307dc89c4fcf7f253b50a87464d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void jenes.stage.AbstractStage&lt; T extends Chromosome &gt;.setFitness</definition>
+        <argsstring>(Fitness&lt; T &gt; fit, boolean recursively)</argsstring>
+        <name>setFitness</name>
+        <param>
+          <type>Fitness&lt; T &gt;</type>
+          <declname>fit</declname>
+        </param>
+        <param>
+          <type>boolean</type>
+          <declname>recursively</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Change the <ref refid="" kindref="compound">Fitness</ref> to this stage propagating the change recursively according to the flag given as parameter <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>fit</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>recursively</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/AbstractStage.java" line="152" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/AbstractStage.java" bodystart="152" bodyend="155"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1stage_1_1_abstract_stage_3_01_t_01extends_01_chromosome_01_4_1a811a041cd505ad8400b3c8b2aa36f4a9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>boolean</type>
+        <definition>boolean jenes.stage.AbstractStage&lt; T extends Chromosome &gt;.isFitnessChanged</definition>
+        <argsstring>()</argsstring>
+        <name>isFitnessChanged</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Test if the fitness is recently changed <simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/AbstractStage.java" line="161" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/AbstractStage.java" bodystart="161" bodyend="163"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>A generic genetic algorithm stage.<linebreak/>
+ <linebreak/>
+ In Jenes the genetic algorithm body is a &quot;pipe&quot; of stages: each stage processes the input population and produces the output population.<linebreak/>
+ A genetic algoritm invokes the <ref refid="" kindref="compound">process(Population, Population)</ref> method of each stage. <linebreak/>
+ It is important to consider that the output population is pre-initialized with recicled individuals (for performance reasons), so <ref refid="" kindref="compound">process(Population, Population)</ref> generally doesn&apos;t allocate new Individuals but only changes the genome of that in the output population. The default output population size is equal to the input one, but the stage can (if needed) add or remove individuals from the output population. <linebreak/>
+<linebreak/>
+ Note: a stage can modify the input population. So input passed to process method can be mutated when the process method ends.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>&lt;T&gt;</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The class chromosomes flowing across the stage.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="version"><para>2.0 </para></simplesect>
+<simplesect kind="since"><para>1.0 </para></simplesect>
+</para>    </detaileddescription>
+    <collaborationgraph>
+      <node id="8">
+        <label>Fitness&lt; T &gt;</label>
+      </node>
+      <node id="7">
+        <label>jenes.stage.AbstractStage&lt; T extends Chromosome &gt;</label>
+        <link refid="classjenes_1_1stage_1_1_abstract_stage_3_01_t_01extends_01_chromosome_01_4"/>
+        <childnode refid="8" relation="usage">
+          <edgelabel>fitness</edgelabel>
+        </childnode>
+        <childnode refid="9" relation="usage">
+          <edgelabel>ga</edgelabel>
+        </childnode>
+      </node>
+      <node id="9">
+        <label>GeneticAlgorithm&lt; T &gt;</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/AbstractStage.java" line="48" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/AbstractStage.java" bodystart="48" bodyend="164"/>
+    <listofallmembers>
+      <member refid="classjenes_1_1stage_1_1_abstract_stage_3_01_t_01extends_01_chromosome_01_4_1a11da35af3fe950eef9882b03e13690d4" prot="protected" virt="non-virtual"><scope>jenes::stage::AbstractStage&lt; T extends Chromosome &gt;</scope><name>biggerIsBetter</name></member>
+      <member refid="classjenes_1_1stage_1_1_abstract_stage_3_01_t_01extends_01_chromosome_01_4_1a68d4104c004b50abf7b12ffc94122ddc" prot="public" virt="non-virtual"><scope>jenes::stage::AbstractStage&lt; T extends Chromosome &gt;</scope><name>dispose</name></member>
+      <member refid="classjenes_1_1stage_1_1_abstract_stage_3_01_t_01extends_01_chromosome_01_4_1a697ab8239c1ae2a99445cd7f5fbca45d" prot="protected" virt="non-virtual"><scope>jenes::stage::AbstractStage&lt; T extends Chromosome &gt;</scope><name>fitness</name></member>
+      <member refid="classjenes_1_1stage_1_1_abstract_stage_3_01_t_01extends_01_chromosome_01_4_1a049a743a79ce2e6d2a4243f85226a59e" prot="private" virt="non-virtual"><scope>jenes::stage::AbstractStage&lt; T extends Chromosome &gt;</scope><name>fitnessChanged</name></member>
+      <member refid="classjenes_1_1stage_1_1_abstract_stage_3_01_t_01extends_01_chromosome_01_4_1a751aba4f46b29d22592d48422ffa75f9" prot="protected" virt="non-virtual"><scope>jenes::stage::AbstractStage&lt; T extends Chromosome &gt;</scope><name>ga</name></member>
+      <member refid="classjenes_1_1stage_1_1_abstract_stage_3_01_t_01extends_01_chromosome_01_4_1a9de5f0a09b7791fe1e93123ada1c434a" prot="public" virt="non-virtual"><scope>jenes::stage::AbstractStage&lt; T extends Chromosome &gt;</scope><name>getFitness</name></member>
+      <member refid="classjenes_1_1stage_1_1_abstract_stage_3_01_t_01extends_01_chromosome_01_4_1af16b278b3f7a6d9fd78e742621b956e5" prot="public" virt="non-virtual"><scope>jenes::stage::AbstractStage&lt; T extends Chromosome &gt;</scope><name>init</name></member>
+      <member refid="classjenes_1_1stage_1_1_abstract_stage_3_01_t_01extends_01_chromosome_01_4_1ac20363682ebc9214d9253ff157a06a2d" prot="public" virt="non-virtual"><scope>jenes::stage::AbstractStage&lt; T extends Chromosome &gt;</scope><name>isBiggerBetter</name></member>
+      <member refid="classjenes_1_1stage_1_1_abstract_stage_3_01_t_01extends_01_chromosome_01_4_1a811a041cd505ad8400b3c8b2aa36f4a9" prot="public" virt="non-virtual"><scope>jenes::stage::AbstractStage&lt; T extends Chromosome &gt;</scope><name>isFitnessChanged</name></member>
+      <member refid="classjenes_1_1stage_1_1_abstract_stage_3_01_t_01extends_01_chromosome_01_4_1a1e8398b28d820dc0e7343b15ce19c703" prot="public" virt="pure-virtual"><scope>jenes::stage::AbstractStage&lt; T extends Chromosome &gt;</scope><name>process</name></member>
+      <member refid="classjenes_1_1stage_1_1_abstract_stage_3_01_t_01extends_01_chromosome_01_4_1adfddd6664c7f9f2eeba94d59de6fcebf" prot="public" virt="non-virtual"><scope>jenes::stage::AbstractStage&lt; T extends Chromosome &gt;</scope><name>setBiggerIsBetter</name></member>
+      <member refid="classjenes_1_1stage_1_1_abstract_stage_3_01_t_01extends_01_chromosome_01_4_1a003250025de6f005e247a05b107e5e8f" prot="public" virt="non-virtual"><scope>jenes::stage::AbstractStage&lt; T extends Chromosome &gt;</scope><name>setBiggerIsBetter</name></member>
+      <member refid="classjenes_1_1stage_1_1_abstract_stage_3_01_t_01extends_01_chromosome_01_4_1ad60267d0a803c2991ac3ef02ababef2b" prot="public" virt="non-virtual"><scope>jenes::stage::AbstractStage&lt; T extends Chromosome &gt;</scope><name>setFitness</name></member>
+      <member refid="classjenes_1_1stage_1_1_abstract_stage_3_01_t_01extends_01_chromosome_01_4_1aff1c8307dc89c4fcf7f253b50a87464d" prot="public" virt="non-virtual"><scope>jenes::stage::AbstractStage&lt; T extends Chromosome &gt;</scope><name>setFitness</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

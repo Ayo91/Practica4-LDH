@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="namespacejenes_1_1tutorials_1_1problem12" kind="namespace">
+    <compoundname>jenes::tutorials::problem12</compoundname>
+    <innerclass refid="classjenes_1_1tutorials_1_1problem12_1_1_multi_objective_problem" prot="public">jenes::tutorials::problem12::MultiObjectiveProblem</innerclass>
+    <innerclass refid="classjenes_1_1tutorials_1_1problem12_1_1_n_s_g_a2_boolean_problem" prot="public">jenes::tutorials::problem12::NSGA2BooleanProblem</innerclass>
+    <innerclass refid="classjenes_1_1tutorials_1_1problem12_1_1_schaffer" prot="public">jenes::tutorials::problem12::Schaffer</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/problem12/MultiObjectiveProblem.java" line="19" column="1"/>
+  </compounddef>
+</doxygen>

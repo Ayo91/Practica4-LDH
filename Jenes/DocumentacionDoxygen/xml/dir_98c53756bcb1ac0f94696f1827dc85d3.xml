@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="dir_98c53756bcb1ac0f94696f1827dc85d3" kind="dir">
+    <compoundname>src/jenes/tutorials</compoundname>
+    <innerdir refid="dir_ef30465ad283d2c9261a48472e49d20d">src/jenes/tutorials/old</innerdir>
+    <innerdir refid="dir_8a043efa3400f2d4e114175b3c807b28">src/jenes/tutorials/problem1</innerdir>
+    <innerdir refid="dir_10c736d04ea383d5b0fd9647d3fd1ed1">src/jenes/tutorials/problem10</innerdir>
+    <innerdir refid="dir_220c78d183509ddd21ca70a227db31d6">src/jenes/tutorials/problem11</innerdir>
+    <innerdir refid="dir_32a8b69dfe9787a61e7d7ea6ce080360">src/jenes/tutorials/problem12</innerdir>
+    <innerdir refid="dir_844461e24a52a39459cc880d922dad92">src/jenes/tutorials/problem2</innerdir>
+    <innerdir refid="dir_965b794ad4c6b7117f24e578ae6872b0">src/jenes/tutorials/problem3</innerdir>
+    <innerdir refid="dir_da357e75e6c8cb7e92d529c4259a7c1b">src/jenes/tutorials/problem4</innerdir>
+    <innerdir refid="dir_14585f7d560dac4f03c5fc03037d58fd">src/jenes/tutorials/problem5</innerdir>
+    <innerdir refid="dir_34d122f66247e9088650d5b0b1d7200a">src/jenes/tutorials/problem6</innerdir>
+    <innerdir refid="dir_3bcc8aa9eff91cfbac41e89e44ac1761">src/jenes/tutorials/problem7</innerdir>
+    <innerdir refid="dir_4eb68f43d19ee21d844fcef8247346db">src/jenes/tutorials/problem8</innerdir>
+    <innerdir refid="dir_c40e6450e6d5d136a63e67aebf74ec23">src/jenes/tutorials/problem9</innerdir>
+    <innerdir refid="dir_6f5d2c8e2364ebd1ddb9dd360f2459b2">src/jenes/tutorials/utils</innerdir>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/"/>
+  </compounddef>
+</doxygen>

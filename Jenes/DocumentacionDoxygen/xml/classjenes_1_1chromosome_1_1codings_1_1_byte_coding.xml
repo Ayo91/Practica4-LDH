@@ -1,0 +1,109 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="classjenes_1_1chromosome_1_1codings_1_1_byte_coding" kind="class" prot="public">
+    <compoundname>jenes::chromosome::codings::ByteCoding</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">jenes::chromosome::BitwiseChromosome::BitCoding&lt; Integer &gt;</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classjenes_1_1chromosome_1_1codings_1_1_byte_coding_1ae5e1d99eebeb9d81d5185808e319dc8a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>jenes.chromosome.codings.ByteCoding.ByteCoding</definition>
+        <argsstring>()</argsstring>
+        <name>ByteCoding</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Default constructor </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/chromosome/codings/ByteCoding.java" line="43" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/chromosome/codings/ByteCoding.java" bodystart="43" bodyend="45"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1chromosome_1_1codings_1_1_byte_coding_1a9cc6cb469c2fd907f50d9604fe6cb0fa" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>final Integer</type>
+        <definition>final Integer jenes.chromosome.codings.ByteCoding.decode</definition>
+        <argsstring>(final int bits)</argsstring>
+        <name>decode</name>
+        <param>
+          <type>final int</type>
+          <declname>bits</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns the value of coded bits</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>bits</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>coding the value </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>the value </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/chromosome/codings/ByteCoding.java" line="54" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/chromosome/codings/ByteCoding.java" bodystart="54" bodyend="56"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1chromosome_1_1codings_1_1_byte_coding_1a1b6e6c0f7996c3d497b257c7417cc28d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>final int</type>
+        <definition>final int jenes.chromosome.codings.ByteCoding.encode</definition>
+        <argsstring>(final Integer value)</argsstring>
+        <name>encode</name>
+        <param>
+          <type>final Integer</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns the bits coding the value</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>value</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the value to be coded </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>the coding bits </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/chromosome/codings/ByteCoding.java" line="65" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/chromosome/codings/ByteCoding.java" bodystart="65" bodyend="74"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Represents a byte coding with 8 bits unsigned representation. The range representable by this coding is [0,255].</para><para><simplesect kind="version"><para>1.2 </para></simplesect>
+<simplesect kind="since"><para>1.0</para></simplesect>
+<simplesect kind="see"><para><ref refid="classjenes_1_1chromosome_1_1codings_1_1_gray_coding" kindref="compound">GrayCoding</ref> </para><simplesectsep/><para><ref refid="classjenes_1_1chromosome_1_1codings_1_1_int_coding" kindref="compound">IntCoding</ref> </para><simplesectsep/><para><ref refid="classjenes_1_1chromosome_1_1codings_1_1_short_coding" kindref="compound">ShortCoding</ref> </para><simplesectsep/><para><ref refid="classjenes_1_1chromosome_1_1codings_1_1_word_coding" kindref="compound">WordCoding</ref> </para><simplesectsep/><para>BitSize </para><simplesectsep/><para><ref refid="classjenes_1_1chromosome_1_1codings_1_1_boolean_coding" kindref="compound">BooleanCoding</ref> </para></simplesect>
+</para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="56">
+        <label>jenes::chromosome::BitwiseChromosome::BitCoding&lt; Integer &gt;</label>
+      </node>
+      <node id="55">
+        <label>jenes.chromosome.codings.ByteCoding</label>
+        <link refid="classjenes_1_1chromosome_1_1codings_1_1_byte_coding"/>
+        <childnode refid="56" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="58">
+        <label>jenes::chromosome::BitwiseChromosome::BitCoding&lt; Integer &gt;</label>
+      </node>
+      <node id="57">
+        <label>jenes.chromosome.codings.ByteCoding</label>
+        <link refid="classjenes_1_1chromosome_1_1codings_1_1_byte_coding"/>
+        <childnode refid="58" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/chromosome/codings/ByteCoding.java" line="38" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/chromosome/codings/ByteCoding.java" bodystart="38" bodyend="75"/>
+    <listofallmembers>
+      <member refid="classjenes_1_1chromosome_1_1codings_1_1_byte_coding_1ae5e1d99eebeb9d81d5185808e319dc8a" prot="public" virt="non-virtual"><scope>jenes::chromosome::codings::ByteCoding</scope><name>ByteCoding</name></member>
+      <member refid="classjenes_1_1chromosome_1_1codings_1_1_byte_coding_1a9cc6cb469c2fd907f50d9604fe6cb0fa" prot="public" virt="non-virtual"><scope>jenes::chromosome::codings::ByteCoding</scope><name>decode</name></member>
+      <member refid="classjenes_1_1chromosome_1_1codings_1_1_byte_coding_1a1b6e6c0f7996c3d497b257c7417cc28d" prot="public" virt="non-virtual"><scope>jenes::chromosome::codings::ByteCoding</scope><name>encode</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

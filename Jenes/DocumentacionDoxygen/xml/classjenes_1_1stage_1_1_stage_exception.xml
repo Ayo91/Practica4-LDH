@@ -1,0 +1,147 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="classjenes_1_1stage_1_1_stage_exception" kind="class" prot="public">
+    <compoundname>jenes::stage::StageException</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">RuntimeException</basecompoundref>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="classjenes_1_1stage_1_1_stage_exception_1addd1ac5c7a5798d72c41403d9fd51aac" prot="private" static="yes" mutable="no">
+        <type>final long</type>
+        <definition>final long jenes.stage.StageException.serialVersionUID</definition>
+        <argsstring></argsstring>
+        <name>serialVersionUID</name>
+        <initializer>= -6449902532700947172L</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/StageException.java" line="32" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/StageException.java" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classjenes_1_1stage_1_1_stage_exception_1a4d0eb751151a2693b452176fd2fae090" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>jenes.stage.StageException.StageException</definition>
+        <argsstring>(String message, Throwable cause)</argsstring>
+        <name>StageException</name>
+        <param>
+          <type>String</type>
+          <declname>message</declname>
+        </param>
+        <param>
+          <type>Throwable</type>
+          <declname>cause</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs a new <ref refid="classjenes_1_1stage_1_1_stage_exception" kindref="compound">StageException</ref> with the specified message and the specified cause </para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>message</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the exception message </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>cause</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the exception cause </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/StageException.java" line="40" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/StageException.java" bodystart="40" bodyend="42"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1stage_1_1_stage_exception_1aff6f4c1b58696d6e0aae42eaa78c3506" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>jenes.stage.StageException.StageException</definition>
+        <argsstring>(String message)</argsstring>
+        <name>StageException</name>
+        <param>
+          <type>String</type>
+          <declname>message</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs a new <ref refid="classjenes_1_1stage_1_1_stage_exception" kindref="compound">StageException</ref> with the specified message </para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>message</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the exception message </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/StageException.java" line="49" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/StageException.java" bodystart="49" bodyend="51"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1stage_1_1_stage_exception_1ab95390b5a08e2fe49d3f354204390710" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>jenes.stage.StageException.StageException</definition>
+        <argsstring>(Throwable cause)</argsstring>
+        <name>StageException</name>
+        <param>
+          <type>Throwable</type>
+          <declname>cause</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs a new <ref refid="classjenes_1_1stage_1_1_stage_exception" kindref="compound">StageException</ref> with the specified cause </para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>cause</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the exception cause </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/StageException.java" line="58" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/StageException.java" bodystart="58" bodyend="60"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>An exception thrown during a stage processing. </para><para><simplesect kind="version"><para>1.2 </para></simplesect>
+<simplesect kind="since"><para>1.0</para></simplesect>
+<simplesect kind="see"><para>jenes.stage.AbstractStage </para></simplesect>
+</para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="627">
+        <label>jenes.stage.StageException</label>
+        <link refid="classjenes_1_1stage_1_1_stage_exception"/>
+        <childnode refid="628" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="628">
+        <label>RuntimeException</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="629">
+        <label>jenes.stage.StageException</label>
+        <link refid="classjenes_1_1stage_1_1_stage_exception"/>
+        <childnode refid="630" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="630">
+        <label>RuntimeException</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/StageException.java" line="30" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/StageException.java" bodystart="30" bodyend="61"/>
+    <listofallmembers>
+      <member refid="classjenes_1_1stage_1_1_stage_exception_1addd1ac5c7a5798d72c41403d9fd51aac" prot="private" virt="non-virtual"><scope>jenes::stage::StageException</scope><name>serialVersionUID</name></member>
+      <member refid="classjenes_1_1stage_1_1_stage_exception_1a4d0eb751151a2693b452176fd2fae090" prot="public" virt="non-virtual"><scope>jenes::stage::StageException</scope><name>StageException</name></member>
+      <member refid="classjenes_1_1stage_1_1_stage_exception_1aff6f4c1b58696d6e0aae42eaa78c3506" prot="public" virt="non-virtual"><scope>jenes::stage::StageException</scope><name>StageException</name></member>
+      <member refid="classjenes_1_1stage_1_1_stage_exception_1ab95390b5a08e2fe49d3f354204390710" prot="public" virt="non-virtual"><scope>jenes::stage::StageException</scope><name>StageException</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

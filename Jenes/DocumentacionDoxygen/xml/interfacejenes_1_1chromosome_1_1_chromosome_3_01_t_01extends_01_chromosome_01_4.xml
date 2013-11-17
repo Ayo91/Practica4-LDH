@@ -1,0 +1,446 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="interfacejenes_1_1chromosome_1_1_chromosome_3_01_t_01extends_01_chromosome_01_4" kind="interface" prot="public">
+    <compoundname>jenes::chromosome::Chromosome&lt; T extends Chromosome &gt;</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Cloneable</basecompoundref>
+    <innerclass refid="classjenes_1_1chromosome_1_1_chromosome_3_01_t_01extends_01_chromosome_01_4_1_1_util" prot="public">jenes::chromosome::Chromosome&lt; T extends Chromosome &gt;::Util</innerclass>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="interfacejenes_1_1chromosome_1_1_chromosome_3_01_t_01extends_01_chromosome_01_4_1ad3a9fc2dbf63e0fb2b486a08ace2a6e8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void jenes.chromosome.Chromosome&lt; T extends Chromosome &gt;.swap</definition>
+        <argsstring>(int pos1, int pos2)</argsstring>
+        <name>swap</name>
+        <param>
+          <type>int</type>
+          <declname>pos1</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>pos2</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Exchanges two genes at the specified positions </para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>pos1</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the position of first gene </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>pos2</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the position of second gene </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/chromosome/Chromosome.java" line="46" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="interfacejenes_1_1chromosome_1_1_chromosome_3_01_t_01extends_01_chromosome_01_4_1a1afc86af7df16d75b9fceaac91b57216" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void jenes.chromosome.Chromosome&lt; T extends Chromosome &gt;.randomize</definition>
+        <argsstring>(int pos)</argsstring>
+        <name>randomize</name>
+        <param>
+          <type>int</type>
+          <declname>pos</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Sets a random value in the specified position </para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>pos</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>a position where to set the random value </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/chromosome/Chromosome.java" line="53" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="interfacejenes_1_1chromosome_1_1_chromosome_3_01_t_01extends_01_chromosome_01_4_1ab04d66867a48c5ac9eafe26e0473d326" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void jenes.chromosome.Chromosome&lt; T extends Chromosome &gt;.leftShift</definition>
+        <argsstring>(int from, int to)</argsstring>
+        <name>leftShift</name>
+        <param>
+          <type>int</type>
+          <declname>from</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>to</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Makes a left-shift of the genes between two positions. The shift is circular, so the most left-side gene becomes the last gene on right. </para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>from</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the start position to be shifted </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>to</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the final position to be shifted </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/chromosome/Chromosome.java" line="62" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="interfacejenes_1_1chromosome_1_1_chromosome_3_01_t_01extends_01_chromosome_01_4_1a26ee95b79d8c4012acffd9d26ab1b620" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void jenes.chromosome.Chromosome&lt; T extends Chromosome &gt;.rightShift</definition>
+        <argsstring>(int from, int to)</argsstring>
+        <name>rightShift</name>
+        <param>
+          <type>int</type>
+          <declname>from</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>to</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Makes a right-shift of the genes between two positions. The shift is circular, so the most right-side gene becomes the first gene on left. </para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>from</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the start position to be shifted </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>to</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the final position to be shifted </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/chromosome/Chromosome.java" line="71" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="interfacejenes_1_1chromosome_1_1_chromosome_3_01_t_01extends_01_chromosome_01_4_1a7da893369a724b9bdde694ffd07e05ef" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void jenes.chromosome.Chromosome&lt; T extends Chromosome &gt;.setDefaultValueAt</definition>
+        <argsstring>(int pos)</argsstring>
+        <name>setDefaultValueAt</name>
+        <param>
+          <type>int</type>
+          <declname>pos</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Sets the default value at a given position </para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>pos</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the position where to set the default value </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/chromosome/Chromosome.java" line="78" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="interfacejenes_1_1chromosome_1_1_chromosome_3_01_t_01extends_01_chromosome_01_4_1a853c4aaab715bdcc4f89ed84dfbe1f00" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>T</type>
+        <definition>T jenes.chromosome.Chromosome&lt; T extends Chromosome &gt;.clone</definition>
+        <argsstring>()</argsstring>
+        <name>clone</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Performs a chromosome deep-cloning. </para><para><simplesect kind="return"><para>a chromosome clone. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/chromosome/Chromosome.java" line="85" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="interfacejenes_1_1chromosome_1_1_chromosome_3_01_t_01extends_01_chromosome_01_4_1a29f012dd3205c9bdb3fe3b749aa7c927" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int jenes.chromosome.Chromosome&lt; T extends Chromosome &gt;.length</definition>
+        <argsstring>()</argsstring>
+        <name>length</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns the number of genes contained in the chromosome. </para><para><simplesect kind="return"><para>the length of chromosome. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/chromosome/Chromosome.java" line="92" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="interfacejenes_1_1chromosome_1_1_chromosome_3_01_t_01extends_01_chromosome_01_4_1ab54ea692387c9a052c6e47191f02f600" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void jenes.chromosome.Chromosome&lt; T extends Chromosome &gt;.randomize</definition>
+        <argsstring>()</argsstring>
+        <name>randomize</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Fills the chromosome with random value. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/chromosome/Chromosome.java" line="97" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="interfacejenes_1_1chromosome_1_1_chromosome_3_01_t_01extends_01_chromosome_01_4_1a07cb1cba99dd05811c5f5530ffc0642e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void jenes.chromosome.Chromosome&lt; T extends Chromosome &gt;.setAs</definition>
+        <argsstring>(T chromosome)</argsstring>
+        <name>setAs</name>
+        <param>
+          <type>T</type>
+          <declname>chromosome</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Makes the chromosome a copy of another chromosome. </para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>chromosome</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the chromosome to be copied </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/chromosome/Chromosome.java" line="104" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="interfacejenes_1_1chromosome_1_1_chromosome_3_01_t_01extends_01_chromosome_01_4_1a3865a9034e0582dc11b6dc6cbd9b21da" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void jenes.chromosome.Chromosome&lt; T extends Chromosome &gt;.cross</definition>
+        <argsstring>(T chromosome, int from, int to)</argsstring>
+        <name>cross</name>
+        <param>
+          <type>T</type>
+          <declname>chromosome</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>from</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>to</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Exchanges the genes chromosome within the range [from,to] </para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>chromosome</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the chromosome to cross with </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>from</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the start position of the genes to exchange </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>to</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the final position of the genes to exchange </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/chromosome/Chromosome.java" line="113" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="interfacejenes_1_1chromosome_1_1_chromosome_3_01_t_01extends_01_chromosome_01_4_1a56f3d45ef9dced649f9050d736e6e753" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void jenes.chromosome.Chromosome&lt; T extends Chromosome &gt;.cross</definition>
+        <argsstring>(T chromosome, int from)</argsstring>
+        <name>cross</name>
+        <param>
+          <type>T</type>
+          <declname>chromosome</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>from</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Exchanges the genes chromosome starting from a given position </para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>chromosome</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the chromosome to cross with </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>from</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the start position of the genes to exchange </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/chromosome/Chromosome.java" line="121" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="interfacejenes_1_1chromosome_1_1_chromosome_3_01_t_01extends_01_chromosome_01_4_1afa9dc889ff75457240750c802a5024db" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>boolean</type>
+        <definition>boolean jenes.chromosome.Chromosome&lt; T extends Chromosome &gt;.equals</definition>
+        <argsstring>(T chromosome)</argsstring>
+        <name>equals</name>
+        <param>
+          <type>T</type>
+          <declname>chromosome</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Compares the chromosome with another.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>chromosome</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the cromosome to compare to. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>true if the two chromosome are equal, false otherwise. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/chromosome/Chromosome.java" line="129" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="interfacejenes_1_1chromosome_1_1_chromosome_3_01_t_01extends_01_chromosome_01_4_1a7f4ba26864bc54607635b608be6a1e1d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void jenes.chromosome.Chromosome&lt; T extends Chromosome &gt;.difference</definition>
+        <argsstring>(T chromosome, double[] diff)</argsstring>
+        <name>difference</name>
+        <param>
+          <type>T</type>
+          <declname>chromosome</declname>
+        </param>
+        <param>
+          <type>double[]</type>
+          <declname>diff</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Computes the genetic difference between two chromosomes. NOTICE: This should not be invoked directly. Please, use #getDifference instead.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>diff</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- the variable to be filled by the minus values </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>chromosome</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- the chromosome to quantify the minus from </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/chromosome/Chromosome.java" line="138" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="interfacejenes_1_1chromosome_1_1_chromosome_3_01_t_01extends_01_chromosome_01_4_1aaf3edb9b3b7265edf5e754ca2b41603e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Object[]</type>
+        <definition>Object [] jenes.chromosome.Chromosome&lt; T extends Chromosome &gt;.toArray</definition>
+        <argsstring>()</argsstring>
+        <name>toArray</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns an array containing all of the genes in chromosome.</para><para><simplesect kind="return"><para>an array containing all of the genes in chromosome. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/chromosome/Chromosome.java" line="145" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>The interface Chromosome is provided by all chromosomes, specifying genoma operations used by genetic operators during the algorithm evolution. Concretizations of the Chromosome class are required to actually implement an algorithm. There are some concrete chromosome types based on boolean, double, integer and object values. All of these are fixed length chromosomes, as the number of genes dosen&apos;t change during the algorithm iterations. </para><para>If necessary, a variable length chromosome can be implemented by subclassing this abstract class and specifying the abstract methods.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>&lt;T&gt;</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The type of Chromosomes accepted as input and returned by operations.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="version"><para>2.0 </para></simplesect>
+<simplesect kind="since"><para>1.0 </para></simplesect>
+</para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="60">
+        <label>Cloneable</label>
+      </node>
+      <node id="59">
+        <label>jenes.chromosome.Chromosome&lt; T extends Chromosome &gt;</label>
+        <link refid="interfacejenes_1_1chromosome_1_1_chromosome_3_01_t_01extends_01_chromosome_01_4"/>
+        <childnode refid="60" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="62">
+        <label>Cloneable</label>
+      </node>
+      <node id="61">
+        <label>jenes.chromosome.Chromosome&lt; T extends Chromosome &gt;</label>
+        <link refid="interfacejenes_1_1chromosome_1_1_chromosome_3_01_t_01extends_01_chromosome_01_4"/>
+        <childnode refid="62" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/chromosome/Chromosome.java" line="38" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/chromosome/Chromosome.java" bodystart="38" bodyend="188"/>
+    <listofallmembers>
+      <member refid="interfacejenes_1_1chromosome_1_1_chromosome_3_01_t_01extends_01_chromosome_01_4_1a853c4aaab715bdcc4f89ed84dfbe1f00" prot="public" virt="non-virtual"><scope>jenes::chromosome::Chromosome&lt; T extends Chromosome &gt;</scope><name>clone</name></member>
+      <member refid="interfacejenes_1_1chromosome_1_1_chromosome_3_01_t_01extends_01_chromosome_01_4_1a3865a9034e0582dc11b6dc6cbd9b21da" prot="public" virt="non-virtual"><scope>jenes::chromosome::Chromosome&lt; T extends Chromosome &gt;</scope><name>cross</name></member>
+      <member refid="interfacejenes_1_1chromosome_1_1_chromosome_3_01_t_01extends_01_chromosome_01_4_1a56f3d45ef9dced649f9050d736e6e753" prot="public" virt="non-virtual"><scope>jenes::chromosome::Chromosome&lt; T extends Chromosome &gt;</scope><name>cross</name></member>
+      <member refid="interfacejenes_1_1chromosome_1_1_chromosome_3_01_t_01extends_01_chromosome_01_4_1a7f4ba26864bc54607635b608be6a1e1d" prot="public" virt="non-virtual"><scope>jenes::chromosome::Chromosome&lt; T extends Chromosome &gt;</scope><name>difference</name></member>
+      <member refid="interfacejenes_1_1chromosome_1_1_chromosome_3_01_t_01extends_01_chromosome_01_4_1afa9dc889ff75457240750c802a5024db" prot="public" virt="non-virtual"><scope>jenes::chromosome::Chromosome&lt; T extends Chromosome &gt;</scope><name>equals</name></member>
+      <member refid="interfacejenes_1_1chromosome_1_1_chromosome_3_01_t_01extends_01_chromosome_01_4_1ab04d66867a48c5ac9eafe26e0473d326" prot="public" virt="non-virtual"><scope>jenes::chromosome::Chromosome&lt; T extends Chromosome &gt;</scope><name>leftShift</name></member>
+      <member refid="interfacejenes_1_1chromosome_1_1_chromosome_3_01_t_01extends_01_chromosome_01_4_1a29f012dd3205c9bdb3fe3b749aa7c927" prot="public" virt="non-virtual"><scope>jenes::chromosome::Chromosome&lt; T extends Chromosome &gt;</scope><name>length</name></member>
+      <member refid="interfacejenes_1_1chromosome_1_1_chromosome_3_01_t_01extends_01_chromosome_01_4_1a1afc86af7df16d75b9fceaac91b57216" prot="public" virt="non-virtual"><scope>jenes::chromosome::Chromosome&lt; T extends Chromosome &gt;</scope><name>randomize</name></member>
+      <member refid="interfacejenes_1_1chromosome_1_1_chromosome_3_01_t_01extends_01_chromosome_01_4_1ab54ea692387c9a052c6e47191f02f600" prot="public" virt="non-virtual"><scope>jenes::chromosome::Chromosome&lt; T extends Chromosome &gt;</scope><name>randomize</name></member>
+      <member refid="interfacejenes_1_1chromosome_1_1_chromosome_3_01_t_01extends_01_chromosome_01_4_1a26ee95b79d8c4012acffd9d26ab1b620" prot="public" virt="non-virtual"><scope>jenes::chromosome::Chromosome&lt; T extends Chromosome &gt;</scope><name>rightShift</name></member>
+      <member refid="interfacejenes_1_1chromosome_1_1_chromosome_3_01_t_01extends_01_chromosome_01_4_1a07cb1cba99dd05811c5f5530ffc0642e" prot="public" virt="non-virtual"><scope>jenes::chromosome::Chromosome&lt; T extends Chromosome &gt;</scope><name>setAs</name></member>
+      <member refid="interfacejenes_1_1chromosome_1_1_chromosome_3_01_t_01extends_01_chromosome_01_4_1a7da893369a724b9bdde694ffd07e05ef" prot="public" virt="non-virtual"><scope>jenes::chromosome::Chromosome&lt; T extends Chromosome &gt;</scope><name>setDefaultValueAt</name></member>
+      <member refid="interfacejenes_1_1chromosome_1_1_chromosome_3_01_t_01extends_01_chromosome_01_4_1ad3a9fc2dbf63e0fb2b486a08ace2a6e8" prot="public" virt="non-virtual"><scope>jenes::chromosome::Chromosome&lt; T extends Chromosome &gt;</scope><name>swap</name></member>
+      <member refid="interfacejenes_1_1chromosome_1_1_chromosome_3_01_t_01extends_01_chromosome_01_4_1aaf3edb9b3b7265edf5e754ca2b41603e" prot="public" virt="non-virtual"><scope>jenes::chromosome::Chromosome&lt; T extends Chromosome &gt;</scope><name>toArray</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

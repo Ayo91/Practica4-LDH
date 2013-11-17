@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="namespacejenes_1_1tutorials_1_1problem10" kind="namespace">
+    <compoundname>jenes::tutorials::problem10</compoundname>
+    <innerclass refid="classjenes_1_1tutorials_1_1problem10_1_1_crowding_g_a_example" prot="public">jenes::tutorials::problem10::CrowdingGAExample</innerclass>
+    <innerclass refid="classjenes_1_1tutorials_1_1problem10_1_1_fitness_function" prot="public">jenes::tutorials::problem10::FitnessFunction</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/problem10/CrowdingGAExample.java" line="19" column="1"/>
+  </compounddef>
+</doxygen>

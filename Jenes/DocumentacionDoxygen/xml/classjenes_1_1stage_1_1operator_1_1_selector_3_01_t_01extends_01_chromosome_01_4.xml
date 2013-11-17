@@ -1,0 +1,414 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="classjenes_1_1stage_1_1operator_1_1_selector_3_01_t_01extends_01_chromosome_01_4" kind="class" prot="public" abstract="yes">
+    <compoundname>jenes::stage::operator::Selector&lt; T extends Chromosome &gt;</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Operator&lt; T &gt;</basecompoundref>
+    <innerclass refid="classjenes_1_1stage_1_1operator_1_1_selector_3_01_t_01extends_01_chromosome_01_4_1_1_statistics" prot="public">jenes::stage::operator::Selector&lt; T extends Chromosome &gt;::Statistics</innerclass>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classjenes_1_1stage_1_1operator_1_1_selector_3_01_t_01extends_01_chromosome_01_4_1a81263464a18d2ee1ecddf41f2e97fd89" prot="public" static="yes" mutable="no">
+        <type>final double</type>
+        <definition>final double jenes.stage.operator.Selector&lt; T extends Chromosome &gt;.DEFAULT_MAX_ILLEGAL_RATE</definition>
+        <argsstring></argsstring>
+        <name>DEFAULT_MAX_ILLEGAL_RATE</name>
+        <initializer>= 0.3</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The default percentage of allowed illegal individuals </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/operator/Selector.java" line="62" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/operator/Selector.java" bodystart="62" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classjenes_1_1stage_1_1operator_1_1_selector_3_01_t_01extends_01_chromosome_01_4_1a7df661788b5a1e32113a97605142ae72" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double jenes.stage.operator.Selector&lt; T extends Chromosome &gt;.maxIllegalRate</definition>
+        <argsstring></argsstring>
+        <name>maxIllegalRate</name>
+        <initializer>= <ref refid="classjenes_1_1stage_1_1operator_1_1_selector_3_01_t_01extends_01_chromosome_01_4_1a81263464a18d2ee1ecddf41f2e97fd89" kindref="member">DEFAULT_MAX_ILLEGAL_RATE</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/operator/Selector.java" line="63" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/operator/Selector.java" bodystart="63" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classjenes_1_1stage_1_1operator_1_1_selector_3_01_t_01extends_01_chromosome_01_4_1a11b6117214c1a39e14d203743a791a72" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int jenes.stage.operator.Selector&lt; T extends Chromosome &gt;.selectionRate</definition>
+        <argsstring></argsstring>
+        <name>selectionRate</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The number of individuals to select </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/operator/Selector.java" line="65" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/operator/Selector.java" bodystart="65" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classjenes_1_1stage_1_1operator_1_1_selector_3_01_t_01extends_01_chromosome_01_4_1ac9005eb864a25ff7bf3f68ebbb9192d1" prot="private" static="no" mutable="no">
+        <type>Population&lt; T &gt;</type>
+        <definition>Population&lt;T&gt; jenes.stage.operator.Selector&lt; T extends Chromosome &gt;.population</definition>
+        <argsstring></argsstring>
+        <name>population</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The population to select </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/operator/Selector.java" line="67" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/operator/Selector.java" bodystart="67" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classjenes_1_1stage_1_1operator_1_1_selector_3_01_t_01extends_01_chromosome_01_4_1a97edf7b8ca9fba4022fcd344dd4b7ac8" prot="private" static="no" mutable="no">
+        <type>Population.Filter</type>
+        <definition>Population.Filter jenes.stage.operator.Selector&lt; T extends Chromosome &gt;.filter</definition>
+        <argsstring></argsstring>
+        <name>filter</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The filter to apply to population </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/operator/Selector.java" line="69" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/operator/Selector.java" bodystart="69" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classjenes_1_1stage_1_1operator_1_1_selector_3_01_t_01extends_01_chromosome_01_4_1a9e677d5dd833315cd0996221f8681e56" prot="private" static="no" mutable="no">
+        <type>List&lt; Individual&lt; T &gt; &gt;</type>
+        <definition>List&lt;Individual&lt;T&gt; &gt; jenes.stage.operator.Selector&lt; T extends Chromosome &gt;.matingPool</definition>
+        <argsstring></argsstring>
+        <name>matingPool</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The mating pool </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/operator/Selector.java" line="71" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/operator/Selector.java" bodystart="71" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classjenes_1_1stage_1_1operator_1_1_selector_3_01_t_01extends_01_chromosome_01_4_1a83052368d6df966944bc5178f1eebed0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>jenes.stage.operator.Selector&lt; T extends Chromosome &gt;.Selector</definition>
+        <argsstring>()</argsstring>
+        <name>Selector</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs a new Selector operator. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/operator/Selector.java" line="76" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/operator/Selector.java" bodystart="76" bodyend="78"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1stage_1_1operator_1_1_selector_3_01_t_01extends_01_chromosome_01_4_1a07f05455c1fabfb8ad3f6468a653aed8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>jenes.stage.operator.Selector&lt; T extends Chromosome &gt;.Selector</definition>
+        <argsstring>(int n)</argsstring>
+        <name>Selector</name>
+        <param>
+          <type>int</type>
+          <declname>n</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs a new Selector operator, specifying the number of individuals to select.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>n</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the number of individuals to select </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/operator/Selector.java" line="85" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/operator/Selector.java" bodystart="85" bodyend="89"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1stage_1_1operator_1_1_selector_3_01_t_01extends_01_chromosome_01_4_1a6e6f7842d22da347196a8cd772bea0e1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>final double</type>
+        <definition>final double jenes.stage.operator.Selector&lt; T extends Chromosome &gt;.getMaxIllegalRate</definition>
+        <argsstring>()</argsstring>
+        <name>getMaxIllegalRate</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns the max number of illegal individuals this selector operator can select.</para><para><simplesect kind="return"><para>the max illegal rate </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/operator/Selector.java" line="96" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/operator/Selector.java" bodystart="96" bodyend="98"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1stage_1_1operator_1_1_selector_3_01_t_01extends_01_chromosome_01_4_1a68ffd7e37d617f2f71628ce3659a8457" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void jenes.stage.operator.Selector&lt; T extends Chromosome &gt;.setMaxIllegalRate</definition>
+        <argsstring>(double rate)</argsstring>
+        <name>setMaxIllegalRate</name>
+        <param>
+          <type>double</type>
+          <declname>rate</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Sets the max number of illegal individuals this selector operator can select.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>rate</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the max illegal rate </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/operator/Selector.java" line="105" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/operator/Selector.java" bodystart="105" bodyend="113"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1stage_1_1operator_1_1_selector_3_01_t_01extends_01_chromosome_01_4_1a17809883b498ec5764c5aa38d04bda8b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>final int</type>
+        <definition>final int jenes.stage.operator.Selector&lt; T extends Chromosome &gt;.getSelectionRate</definition>
+        <argsstring>()</argsstring>
+        <name>getSelectionRate</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns the number of individuals selected by this operator.</para><para><simplesect kind="return"><para>the number of individuals selected. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/operator/Selector.java" line="120" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/operator/Selector.java" bodystart="120" bodyend="122"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1stage_1_1operator_1_1_selector_3_01_t_01extends_01_chromosome_01_4_1aa67094343d09f80b0ce35d0f20a517d5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void jenes.stage.operator.Selector&lt; T extends Chromosome &gt;.setSelectionRate</definition>
+        <argsstring>(int n)</argsstring>
+        <name>setSelectionRate</name>
+        <param>
+          <type>int</type>
+          <declname>n</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Sets the number of individuals being selected by this operator. If the given number is zero or negative, then it is set to -1, meaning that a number equal to to the input population will be selected.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>n</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the number of individuals being selected. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/operator/Selector.java" line="131" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/operator/Selector.java" bodystart="131" bodyend="133"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1stage_1_1operator_1_1_selector_3_01_t_01extends_01_chromosome_01_4_1a780969225a2e48774e71af8bd4e0063e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void jenes.stage.operator.Selector&lt; T extends Chromosome &gt;.init</definition>
+        <argsstring>(GeneticAlgorithm&lt; T &gt; ga)</argsstring>
+        <name>init</name>
+        <param>
+          <type>GeneticAlgorithm&lt; T &gt;</type>
+          <declname>ga</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/operator/Selector.java" line="136" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/operator/Selector.java" bodystart="136" bodyend="138"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1stage_1_1operator_1_1_selector_3_01_t_01extends_01_chromosome_01_4_1a11275bed8b009ece669a5c88c6e10b55" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>final void</type>
+        <definition>final void jenes.stage.operator.Selector&lt; T extends Chromosome &gt;.process</definition>
+        <argsstring>(Population&lt; T &gt; in, Population&lt; T &gt; out)</argsstring>
+        <name>process</name>
+        <param>
+          <type>Population&lt; T &gt;</type>
+          <declname>in</declname>
+        </param>
+        <param>
+          <type>Population&lt; T &gt;</type>
+          <declname>out</declname>
+        </param>
+        <exceptions> throws <ref refid="classjenes_1_1stage_1_1_stage_exception" kindref="compound">StageException</ref> </exceptions>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Sets the individuals in the output population like the selected ones </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/operator/Selector.java" line="145" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/operator/Selector.java" bodystart="145" bodyend="182"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1stage_1_1operator_1_1_selector_3_01_t_01extends_01_chromosome_01_4_1a9ef7b0bef2ffcb84eeb231ae37ab0239" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>final Individual&lt; T &gt;</type>
+        <definition>final Individual&lt;T&gt; jenes.stage.operator.Selector&lt; T extends Chromosome &gt;.select</definition>
+        <argsstring>(Population&lt; T &gt; pop)</argsstring>
+        <name>select</name>
+        <param>
+          <type>Population&lt; T &gt;</type>
+          <declname>pop</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Selects an individual in the population <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>pop</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/operator/Selector.java" line="214" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/operator/Selector.java" bodystart="214" bodyend="219"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classjenes_1_1stage_1_1operator_1_1_selector_3_01_t_01extends_01_chromosome_01_4_1a752bf2650cbb6760d2fbb68718d62328" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void jenes.stage.operator.Selector&lt; T extends Chromosome &gt;.preSelect</definition>
+        <argsstring>(Population&lt; T &gt; pop, Filter filter)</argsstring>
+        <name>preSelect</name>
+        <param>
+          <type>Population&lt; T &gt;</type>
+          <declname>pop</declname>
+        </param>
+        <param>
+          <type>Filter</type>
+          <declname>filter</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Sets up the selection state according a population&apos;s state. It is invoked at the beginning of selection for the specified (filtered) population.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>pop</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the population to process by the stage </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>filter</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/operator/Selector.java" line="191" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/operator/Selector.java" bodystart="191" bodyend="199"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1stage_1_1operator_1_1_selector_3_01_t_01extends_01_chromosome_01_4_1af6cf22a6d6e70ffd74ee1f042a16dcd9" prot="protected" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>abstract Individual&lt; T &gt;</type>
+        <definition>abstract Individual&lt;T&gt; jenes.stage.operator.Selector&lt; T extends Chromosome &gt;.select</definition>
+        <argsstring>(List&lt; Individual&lt; T &gt;&gt; pop)</argsstring>
+        <name>select</name>
+        <param>
+          <type>List&lt; Individual&lt; T &gt;&gt;</type>
+          <declname>pop</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Selects an individual in the filtered population </para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>pop</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>from which to choose an individual. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>the individual selected </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/operator/Selector.java" line="207" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>A class representing a generic selection operator. </para><para>The actual selector is implemented by subclassing this abstract class and providing the <ref refid="" kindref="compound">Selector#select(Population)</ref> and <ref refid="" kindref="compound">Selector#preSelect(Population)</ref> method implementations: the former is required to select individuals from the specified <ref refid="" kindref="compound">Population</ref>; the latter is required to set up the selector state when a new selection begins. </para><para>A <ref refid="" kindref="compound">Selector#maxIllegalRate</ref> is specified to obtain a population with a max number of illegal individuals selected. When this threshould is reached, the new illegal selected individuals are not added at the output population, and the selection process is repeated. </para><para>At the start selection time the output population has already the individuals; the individuals selected from the input population have not to be added at the output population: each output population individual is set as the one selected by the input population. </para><para>The output population size will be equal to the input population one; automatically new individuals are added or old ones are deleted to make the sizes equal. </para><para>A <ref refid="" kindref="compound">Selector.Statistics</ref> is associated to each selector operator.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>&lt;T&gt;</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The class of chromosomes to work with.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="version"><para>2.0 </para></simplesect>
+<simplesect kind="since"><para>1.0</para></simplesect>
+<simplesect kind="see"><para>Individual </para><simplesectsep/><para>Population </para></simplesect>
+</para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="586">
+        <label>jenes.stage.operator.Selector&lt; T extends Chromosome &gt;</label>
+        <link refid="classjenes_1_1stage_1_1operator_1_1_selector_3_01_t_01extends_01_chromosome_01_4"/>
+        <childnode refid="587" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="587">
+        <label>Operator&lt;T&gt;</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="591">
+        <label>Population&lt; T &gt;</label>
+      </node>
+      <node id="588">
+        <label>jenes.stage.operator.Selector&lt; T extends Chromosome &gt;</label>
+        <link refid="classjenes_1_1stage_1_1operator_1_1_selector_3_01_t_01extends_01_chromosome_01_4"/>
+        <childnode refid="589" relation="public-inheritance">
+        </childnode>
+        <childnode refid="590" relation="usage">
+          <edgelabel>filter</edgelabel>
+        </childnode>
+        <childnode refid="591" relation="usage">
+          <edgelabel>population</edgelabel>
+        </childnode>
+        <childnode refid="592" relation="usage">
+          <edgelabel>matingPool</edgelabel>
+        </childnode>
+      </node>
+      <node id="592">
+        <label>List&lt; Individual&lt; T &gt; &gt;</label>
+      </node>
+      <node id="589">
+        <label>Operator&lt;T&gt;</label>
+      </node>
+      <node id="590">
+        <label>Population</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/operator/Selector.java" line="59" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/operator/Selector.java" bodystart="59" bodyend="261"/>
+    <listofallmembers>
+      <member refid="classjenes_1_1stage_1_1operator_1_1_selector_3_01_t_01extends_01_chromosome_01_4_1a81263464a18d2ee1ecddf41f2e97fd89" prot="public" virt="non-virtual"><scope>jenes::stage::operator::Selector&lt; T extends Chromosome &gt;</scope><name>DEFAULT_MAX_ILLEGAL_RATE</name></member>
+      <member refid="classjenes_1_1stage_1_1operator_1_1_selector_3_01_t_01extends_01_chromosome_01_4_1a97edf7b8ca9fba4022fcd344dd4b7ac8" prot="private" virt="non-virtual"><scope>jenes::stage::operator::Selector&lt; T extends Chromosome &gt;</scope><name>filter</name></member>
+      <member refid="classjenes_1_1stage_1_1operator_1_1_selector_3_01_t_01extends_01_chromosome_01_4_1a6e6f7842d22da347196a8cd772bea0e1" prot="public" virt="non-virtual"><scope>jenes::stage::operator::Selector&lt; T extends Chromosome &gt;</scope><name>getMaxIllegalRate</name></member>
+      <member refid="classjenes_1_1stage_1_1operator_1_1_selector_3_01_t_01extends_01_chromosome_01_4_1a17809883b498ec5764c5aa38d04bda8b" prot="public" virt="non-virtual"><scope>jenes::stage::operator::Selector&lt; T extends Chromosome &gt;</scope><name>getSelectionRate</name></member>
+      <member refid="classjenes_1_1stage_1_1operator_1_1_selector_3_01_t_01extends_01_chromosome_01_4_1a780969225a2e48774e71af8bd4e0063e" prot="public" virt="non-virtual"><scope>jenes::stage::operator::Selector&lt; T extends Chromosome &gt;</scope><name>init</name></member>
+      <member refid="classjenes_1_1stage_1_1operator_1_1_selector_3_01_t_01extends_01_chromosome_01_4_1a9e677d5dd833315cd0996221f8681e56" prot="private" virt="non-virtual"><scope>jenes::stage::operator::Selector&lt; T extends Chromosome &gt;</scope><name>matingPool</name></member>
+      <member refid="classjenes_1_1stage_1_1operator_1_1_selector_3_01_t_01extends_01_chromosome_01_4_1a7df661788b5a1e32113a97605142ae72" prot="private" virt="non-virtual"><scope>jenes::stage::operator::Selector&lt; T extends Chromosome &gt;</scope><name>maxIllegalRate</name></member>
+      <member refid="classjenes_1_1stage_1_1operator_1_1_selector_3_01_t_01extends_01_chromosome_01_4_1ac9005eb864a25ff7bf3f68ebbb9192d1" prot="private" virt="non-virtual"><scope>jenes::stage::operator::Selector&lt; T extends Chromosome &gt;</scope><name>population</name></member>
+      <member refid="classjenes_1_1stage_1_1operator_1_1_selector_3_01_t_01extends_01_chromosome_01_4_1a752bf2650cbb6760d2fbb68718d62328" prot="protected" virt="non-virtual"><scope>jenes::stage::operator::Selector&lt; T extends Chromosome &gt;</scope><name>preSelect</name></member>
+      <member refid="classjenes_1_1stage_1_1operator_1_1_selector_3_01_t_01extends_01_chromosome_01_4_1a11275bed8b009ece669a5c88c6e10b55" prot="public" virt="non-virtual"><scope>jenes::stage::operator::Selector&lt; T extends Chromosome &gt;</scope><name>process</name></member>
+      <member refid="classjenes_1_1stage_1_1operator_1_1_selector_3_01_t_01extends_01_chromosome_01_4_1af6cf22a6d6e70ffd74ee1f042a16dcd9" prot="protected" virt="pure-virtual"><scope>jenes::stage::operator::Selector&lt; T extends Chromosome &gt;</scope><name>select</name></member>
+      <member refid="classjenes_1_1stage_1_1operator_1_1_selector_3_01_t_01extends_01_chromosome_01_4_1a9ef7b0bef2ffcb84eeb231ae37ab0239" prot="public" virt="non-virtual"><scope>jenes::stage::operator::Selector&lt; T extends Chromosome &gt;</scope><name>select</name></member>
+      <member refid="classjenes_1_1stage_1_1operator_1_1_selector_3_01_t_01extends_01_chromosome_01_4_1a11b6117214c1a39e14d203743a791a72" prot="private" virt="non-virtual"><scope>jenes::stage::operator::Selector&lt; T extends Chromosome &gt;</scope><name>selectionRate</name></member>
+      <member refid="classjenes_1_1stage_1_1operator_1_1_selector_3_01_t_01extends_01_chromosome_01_4_1a83052368d6df966944bc5178f1eebed0" prot="public" virt="non-virtual"><scope>jenes::stage::operator::Selector&lt; T extends Chromosome &gt;</scope><name>Selector</name></member>
+      <member refid="classjenes_1_1stage_1_1operator_1_1_selector_3_01_t_01extends_01_chromosome_01_4_1a07f05455c1fabfb8ad3f6468a653aed8" prot="public" virt="non-virtual"><scope>jenes::stage::operator::Selector&lt; T extends Chromosome &gt;</scope><name>Selector</name></member>
+      <member refid="classjenes_1_1stage_1_1operator_1_1_selector_3_01_t_01extends_01_chromosome_01_4_1a68ffd7e37d617f2f71628ce3659a8457" prot="public" virt="non-virtual"><scope>jenes::stage::operator::Selector&lt; T extends Chromosome &gt;</scope><name>setMaxIllegalRate</name></member>
+      <member refid="classjenes_1_1stage_1_1operator_1_1_selector_3_01_t_01extends_01_chromosome_01_4_1aa67094343d09f80b0ce35d0f20a517d5" prot="public" virt="non-virtual"><scope>jenes::stage::operator::Selector&lt; T extends Chromosome &gt;</scope><name>setSelectionRate</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

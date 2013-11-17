@@ -1,0 +1,164 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="classjenes_1_1stage_1_1operator_1_1_operator_3_01_t_01extends_01_chromosome_01_4" kind="class" prot="public">
+    <compoundname>jenes::stage::operator::Operator&lt; T extends Chromosome &gt;</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">jenes::stage::AbstractStage&lt; T &gt;</basecompoundref>
+    <innerclass refid="classjenes_1_1stage_1_1operator_1_1_operator_3_01_t_01extends_01_chromosome_01_4_1_1_statistics" prot="public">jenes::stage::operator::Operator&lt; T extends Chromosome &gt;::Statistics</innerclass>
+      <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="classjenes_1_1stage_1_1operator_1_1_operator_3_01_t_01extends_01_chromosome_01_4_1a45afa214a1e9109845c8f67165942675" prot="protected" static="no" mutable="no">
+        <type>Statistics</type>
+        <definition>Statistics jenes.stage.operator.Operator&lt; T extends Chromosome &gt;.statistics</definition>
+        <argsstring></argsstring>
+        <name>statistics</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>the operator statistics </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/operator/Operator.java" line="45" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/operator/Operator.java" bodystart="45" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classjenes_1_1stage_1_1operator_1_1_operator_3_01_t_01extends_01_chromosome_01_4_1af8cbd8837ce95101e238bdcc3dce5573" prot="protected" static="no" mutable="no">
+        <type><ref refid="classjenes_1_1utils_1_1_random" kindref="compound">Random</ref></type>
+        <definition>Random jenes.stage.operator.Operator&lt; T extends Chromosome &gt;.random</definition>
+        <argsstring></argsstring>
+        <name>random</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>the random used by the operator </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/operator/Operator.java" line="48" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/operator/Operator.java" bodystart="48" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classjenes_1_1stage_1_1operator_1_1_operator_3_01_t_01extends_01_chromosome_01_4_1a23b4b18468c2fa30bd89fa9e962f6eb8" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>jenes.stage.operator.Operator&lt; T extends Chromosome &gt;.Operator</definition>
+        <argsstring>()</argsstring>
+        <name>Operator</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs a new operator </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/operator/Operator.java" line="54" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/operator/Operator.java" bodystart="54" bodyend="56"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classjenes_1_1stage_1_1operator_1_1_operator_3_01_t_01extends_01_chromosome_01_4_1abf64e7c4d53509dd770fa09ca9cf377d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Statistics</type>
+        <definition>Statistics jenes.stage.operator.Operator&lt; T extends Chromosome &gt;.getStatistics</definition>
+        <argsstring>()</argsstring>
+        <name>getStatistics</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns the operator statistics</para><para><simplesect kind="return"><para>statistics </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/operator/Operator.java" line="63" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/operator/Operator.java" bodystart="63" bodyend="67"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1stage_1_1operator_1_1_operator_3_01_t_01extends_01_chromosome_01_4_1a11ffd92acef6de663583899707cbbab9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void jenes.stage.operator.Operator&lt; T extends Chromosome &gt;.updateStatistics</definition>
+        <argsstring>(Statistics stats)</argsstring>
+        <name>updateStatistics</name>
+        <param>
+          <type>Statistics</type>
+          <declname>stats</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Updates the specified statistics at the statistics operator state </para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>stats</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/operator/Operator.java" line="74" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/operator/Operator.java" bodystart="74" bodyend="78"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>A genetic operator used in the evolution process. It is made part of the genetic algorithm structure at the genetic algorithm set up. An operator represents the ultimate stage executing some trasformation on the input <ref refid="" kindref="compound">Population</ref> in order to obtain the output one. </para><para>To implement an operator it is necessary to subclass this abstract class.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>&lt;T&gt;</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The class of chromosomes to work with.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="version"><para>1.2 </para></simplesect>
+<simplesect kind="since"><para>1.0</para></simplesect>
+<simplesect kind="see"><para>Individual </para><simplesectsep/><para>Population </para></simplesect>
+</para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="456">
+        <label>jenes::stage::AbstractStage&lt; T &gt;</label>
+      </node>
+      <node id="455">
+        <label>jenes.stage.operator.Operator&lt; T extends Chromosome &gt;</label>
+        <link refid="classjenes_1_1stage_1_1operator_1_1_operator_3_01_t_01extends_01_chromosome_01_4"/>
+        <childnode refid="456" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="458">
+        <label>jenes::stage::AbstractStage&lt; T &gt;</label>
+      </node>
+      <node id="462">
+        <label>Serializable</label>
+      </node>
+      <node id="460">
+        <label>jenes.utils.Random</label>
+        <link refid="classjenes_1_1utils_1_1_random"/>
+        <childnode refid="461" relation="public-inheritance">
+        </childnode>
+        <childnode refid="460" relation="usage">
+          <edgelabel>mtfe</edgelabel>
+        </childnode>
+      </node>
+      <node id="461">
+        <label>jenes.utils.MersenneTwisterFast</label>
+        <link refid="classjenes_1_1utils_1_1_mersenne_twister_fast"/>
+        <childnode refid="462" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="457">
+        <label>jenes.stage.operator.Operator&lt; T extends Chromosome &gt;</label>
+        <link refid="classjenes_1_1stage_1_1operator_1_1_operator_3_01_t_01extends_01_chromosome_01_4"/>
+        <childnode refid="458" relation="public-inheritance">
+        </childnode>
+        <childnode refid="459" relation="usage">
+          <edgelabel>statistics</edgelabel>
+        </childnode>
+        <childnode refid="460" relation="usage">
+          <edgelabel>random</edgelabel>
+        </childnode>
+      </node>
+      <node id="459">
+        <label>Statistics</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/operator/Operator.java" line="42" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/operator/Operator.java" bodystart="42" bodyend="117"/>
+    <listofallmembers>
+      <member refid="classjenes_1_1stage_1_1operator_1_1_operator_3_01_t_01extends_01_chromosome_01_4_1abf64e7c4d53509dd770fa09ca9cf377d" prot="public" virt="non-virtual"><scope>jenes::stage::operator::Operator&lt; T extends Chromosome &gt;</scope><name>getStatistics</name></member>
+      <member refid="classjenes_1_1stage_1_1operator_1_1_operator_3_01_t_01extends_01_chromosome_01_4_1a23b4b18468c2fa30bd89fa9e962f6eb8" prot="protected" virt="non-virtual"><scope>jenes::stage::operator::Operator&lt; T extends Chromosome &gt;</scope><name>Operator</name></member>
+      <member refid="classjenes_1_1stage_1_1operator_1_1_operator_3_01_t_01extends_01_chromosome_01_4_1af8cbd8837ce95101e238bdcc3dce5573" prot="protected" virt="non-virtual"><scope>jenes::stage::operator::Operator&lt; T extends Chromosome &gt;</scope><name>random</name></member>
+      <member refid="classjenes_1_1stage_1_1operator_1_1_operator_3_01_t_01extends_01_chromosome_01_4_1a45afa214a1e9109845c8f67165942675" prot="protected" virt="non-virtual"><scope>jenes::stage::operator::Operator&lt; T extends Chromosome &gt;</scope><name>statistics</name></member>
+      <member refid="classjenes_1_1stage_1_1operator_1_1_operator_3_01_t_01extends_01_chromosome_01_4_1a11ffd92acef6de663583899707cbbab9" prot="public" virt="non-virtual"><scope>jenes::stage::operator::Operator&lt; T extends Chromosome &gt;</scope><name>updateStatistics</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

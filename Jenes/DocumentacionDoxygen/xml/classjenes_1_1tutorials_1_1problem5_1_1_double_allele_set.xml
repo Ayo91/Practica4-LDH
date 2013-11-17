@@ -1,0 +1,158 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="classjenes_1_1tutorials_1_1problem5_1_1_double_allele_set" kind="class" prot="public">
+    <compoundname>jenes::tutorials::problem5::DoubleAlleleSet</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">jenes::chromosome::GenericAlleleSet&lt; Double &gt;</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classjenes_1_1tutorials_1_1problem5_1_1_double_allele_set_1a3669132c61485f50aebe440a0602b2e5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>jenes.tutorials.problem5.DoubleAlleleSet.DoubleAlleleSet</definition>
+        <argsstring>(Set&lt; Double &gt; set)</argsstring>
+        <name>DoubleAlleleSet</name>
+        <param>
+          <type>Set&lt; Double &gt;</type>
+          <declname>set</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/problem5/DoubleAlleleSet.java" line="42" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/problem5/DoubleAlleleSet.java" bodystart="42" bodyend="44"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classjenes_1_1tutorials_1_1problem5_1_1_double_allele_set_1ac831f648cab055cd70e3f1b47225529e" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classjenes_1_1tutorials_1_1problem5_1_1_double_allele_set" kindref="compound">DoubleAlleleSet</ref></type>
+        <definition>static DoubleAlleleSet jenes.tutorials.problem5.DoubleAlleleSet.createRandom</definition>
+        <argsstring>(int size, double lowerBound, double upperBound)</argsstring>
+        <name>createRandom</name>
+        <param>
+          <type>int</type>
+          <declname>size</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>lowerBound</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>upperBound</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Builds a <ref refid="classjenes_1_1tutorials_1_1problem5_1_1_double_allele_set" kindref="compound">DoubleAlleleSet</ref> with random values within the range [lowerBound,upperBound] </para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>size</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the allala set cardinality </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>lowerBound</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the min value to choose </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>upperBound</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the max value to choose </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>a new <ref refid="classjenes_1_1tutorials_1_1problem5_1_1_double_allele_set" kindref="compound">DoubleAlleleSet</ref> </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/problem5/DoubleAlleleSet.java" line="54" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/problem5/DoubleAlleleSet.java" bodystart="54" bodyend="63"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1tutorials_1_1problem5_1_1_double_allele_set_1a75aa1cf3be84d1e3f5e50ecc0acc5b4b" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classjenes_1_1tutorials_1_1problem5_1_1_double_allele_set" kindref="compound">DoubleAlleleSet</ref></type>
+        <definition>static DoubleAlleleSet jenes.tutorials.problem5.DoubleAlleleSet.createUniform</definition>
+        <argsstring>(int size, int lowerBound, int upperBound)</argsstring>
+        <name>createUniform</name>
+        <param>
+          <type>int</type>
+          <declname>size</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>lowerBound</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>upperBound</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Builds a new <ref refid="classjenes_1_1tutorials_1_1problem5_1_1_double_allele_set" kindref="compound">DoubleAlleleSet</ref> with uniformly distributed values within the range [lowerBound,upperBound] </para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>size</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the allala set cardinality </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>lowerBound</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the min value to choose </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>upperBound</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the max value to choose </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>a new <ref refid="classjenes_1_1tutorials_1_1problem5_1_1_double_allele_set" kindref="compound">DoubleAlleleSet</ref> </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/problem5/DoubleAlleleSet.java" line="73" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/problem5/DoubleAlleleSet.java" bodystart="73" bodyend="82"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Tutorial illustrating the use of object-oriented chromosomes, whose allele set can be defined by the user for each gene.</para><para>In this example the chromosomes are combinations of colors. We aim at finding the vector of colors closest to a given sequence.</para><para>This class defines an allele set made of doubles.</para><para><simplesect kind="version"><para>2.0 </para></simplesect>
+<simplesect kind="since"><para>1.0 </para></simplesect>
+</para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="136">
+        <label>jenes::chromosome::GenericAlleleSet&lt; Double &gt;</label>
+      </node>
+      <node id="135">
+        <label>jenes.tutorials.problem5.DoubleAlleleSet</label>
+        <link refid="classjenes_1_1tutorials_1_1problem5_1_1_double_allele_set"/>
+        <childnode refid="136" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="138">
+        <label>jenes::chromosome::GenericAlleleSet&lt; Double &gt;</label>
+      </node>
+      <node id="137">
+        <label>jenes.tutorials.problem5.DoubleAlleleSet</label>
+        <link refid="classjenes_1_1tutorials_1_1problem5_1_1_double_allele_set"/>
+        <childnode refid="138" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/problem5/DoubleAlleleSet.java" line="40" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/problem5/DoubleAlleleSet.java" bodystart="40" bodyend="85"/>
+    <listofallmembers>
+      <member refid="classjenes_1_1tutorials_1_1problem5_1_1_double_allele_set_1ac831f648cab055cd70e3f1b47225529e" prot="public" virt="non-virtual"><scope>jenes::tutorials::problem5::DoubleAlleleSet</scope><name>createRandom</name></member>
+      <member refid="classjenes_1_1tutorials_1_1problem5_1_1_double_allele_set_1a75aa1cf3be84d1e3f5e50ecc0acc5b4b" prot="public" virt="non-virtual"><scope>jenes::tutorials::problem5::DoubleAlleleSet</scope><name>createUniform</name></member>
+      <member refid="classjenes_1_1tutorials_1_1problem5_1_1_double_allele_set_1a3669132c61485f50aebe440a0602b2e5" prot="public" virt="non-virtual"><scope>jenes::tutorials::problem5::DoubleAlleleSet</scope><name>DoubleAlleleSet</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

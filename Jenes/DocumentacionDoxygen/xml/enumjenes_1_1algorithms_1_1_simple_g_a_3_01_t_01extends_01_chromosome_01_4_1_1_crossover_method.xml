@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="enumjenes_1_1algorithms_1_1_simple_g_a_3_01_t_01extends_01_chromosome_01_4_1_1_crossover_method" kind="enum" prot="public">
+    <compoundname>jenes::algorithms::SimpleGA&lt; T extends Chromosome &gt;::CrossoverMethod</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="enumjenes_1_1algorithms_1_1_simple_g_a_3_01_t_01extends_01_chromosome_01_4_1_1_crossover_method_1a0dba044ab40298639e47034fda066ece" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>jenes.algorithms.SimpleGA&lt; T extends Chromosome &gt;.CrossoverMethod.SINGLEPOINT</definition>
+        <argsstring></argsstring>
+        <name>SINGLEPOINT</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/algorithms/SimpleGA.java" line="79" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/algorithms/SimpleGA.java" bodystart="79" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="enumjenes_1_1algorithms_1_1_simple_g_a_3_01_t_01extends_01_chromosome_01_4_1_1_crossover_method_1ad25c14da6b790cbaeac60e7b0a619144" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>jenes.algorithms.SimpleGA&lt; T extends Chromosome &gt;.CrossoverMethod.TWOPOINTS</definition>
+        <argsstring></argsstring>
+        <name>TWOPOINTS</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/algorithms/SimpleGA.java" line="80" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/algorithms/SimpleGA.java" bodystart="79" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Provides the available crossover methods </para>    </detaileddescription>
+    <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/algorithms/SimpleGA.java" line="77" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/algorithms/SimpleGA.java" bodystart="77" bodyend="80"/>
+    <listofallmembers>
+      <member refid="enumjenes_1_1algorithms_1_1_simple_g_a_3_01_t_01extends_01_chromosome_01_4_1_1_crossover_method_1a0dba044ab40298639e47034fda066ece" prot="public" virt="non-virtual"><scope>jenes::algorithms::SimpleGA&lt; T extends Chromosome &gt;::CrossoverMethod</scope><name>SINGLEPOINT</name></member>
+      <member refid="enumjenes_1_1algorithms_1_1_simple_g_a_3_01_t_01extends_01_chromosome_01_4_1_1_crossover_method_1ad25c14da6b790cbaeac60e7b0a619144" prot="public" virt="non-virtual"><scope>jenes::algorithms::SimpleGA&lt; T extends Chromosome &gt;::CrossoverMethod</scope><name>TWOPOINTS</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

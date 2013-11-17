@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="dir_a865121f1fb24a03e6ef1b6d5f819127" kind="dir">
+    <compoundname>src/jenes/chromosome</compoundname>
+    <innerdir refid="dir_fe425c1cd7db4c301f6880be04b185d9">src/jenes/chromosome/codings</innerdir>
+    <innerfile refid="_allele_set_8java">AlleleSet.java</innerfile>
+    <innerfile refid="_bitwise_chromosome_8java">BitwiseChromosome.java</innerfile>
+    <innerfile refid="_boolean_chromosome_8java">BooleanChromosome.java</innerfile>
+    <innerfile refid="_chromosome_8java">Chromosome.java</innerfile>
+    <innerfile refid="_double_chromosome_8java">DoubleChromosome.java</innerfile>
+    <innerfile refid="_generic_allele_set_8java">GenericAlleleSet.java</innerfile>
+    <innerfile refid="_integer_chromosome_8java">IntegerChromosome.java</innerfile>
+    <innerfile refid="_object_chromosome_8java">ObjectChromosome.java</innerfile>
+    <innerfile refid="_permutation_chromosome_8java">PermutationChromosome.java</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/chromosome/"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,162 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="classjenes_1_1tutorials_1_1old_1_1problem2_1_1_pattern_g_a" kind="class" prot="public">
+    <compoundname>jenes::tutorials::old::problem2::PatternGA</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">jenes::GeneticAlgorithm&lt; IntegerChromosome &gt;</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classjenes_1_1tutorials_1_1old_1_1problem2_1_1_pattern_g_a_1a56ecbd12f7e7af3887699cc99be1fd24" prot="private" static="no" mutable="no">
+        <type>int[]</type>
+        <definition>int [] jenes.tutorials.old.problem2.PatternGA.target</definition>
+        <argsstring></argsstring>
+        <name>target</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/old/problem2/PatternGA.java" line="42" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/old/problem2/PatternGA.java" bodystart="42" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classjenes_1_1tutorials_1_1old_1_1problem2_1_1_pattern_g_a_1a66b0ced66757ac14afd2648465ba253f" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int jenes.tutorials.old.problem2.PatternGA.precision</definition>
+        <argsstring></argsstring>
+        <name>precision</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/old/problem2/PatternGA.java" line="43" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/old/problem2/PatternGA.java" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classjenes_1_1tutorials_1_1old_1_1problem2_1_1_pattern_g_a_1a6c739b7abe3809978e5a2e8a41788eae" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>jenes.tutorials.old.problem2.PatternGA.PatternGA</definition>
+        <argsstring>(Population&lt; IntegerChromosome &gt; pop, int numGen)</argsstring>
+        <name>PatternGA</name>
+        <param>
+          <type>Population&lt; <ref refid="classjenes_1_1chromosome_1_1_integer_chromosome" kindref="compound">IntegerChromosome</ref> &gt;</type>
+          <declname>pop</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>numGen</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/old/problem2/PatternGA.java" line="45" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/old/problem2/PatternGA.java" bodystart="45" bodyend="48"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1tutorials_1_1old_1_1problem2_1_1_pattern_g_a_1acad7ad7941fbcf7fc8d555d0218886e1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void jenes.tutorials.old.problem2.PatternGA.setTarget</definition>
+        <argsstring>(int[] target)</argsstring>
+        <name>setTarget</name>
+        <param>
+          <type>int[]</type>
+          <declname>target</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/old/problem2/PatternGA.java" line="50" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/old/problem2/PatternGA.java" bodystart="50" bodyend="52"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1tutorials_1_1old_1_1problem2_1_1_pattern_g_a_1a7d2561b481b6d1f87e6a5c8f602510b0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void jenes.tutorials.old.problem2.PatternGA.setPrecision</definition>
+        <argsstring>(int precision)</argsstring>
+        <name>setPrecision</name>
+        <param>
+          <type>int</type>
+          <declname>precision</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/old/problem2/PatternGA.java" line="54" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/old/problem2/PatternGA.java" bodystart="54" bodyend="56"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1tutorials_1_1old_1_1problem2_1_1_pattern_g_a_1a90edfd135e58f9a43e3722d9e1df6f95" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void jenes.tutorials.old.problem2.PatternGA.evaluateIndividual</definition>
+        <argsstring>(Individual&lt; IntegerChromosome &gt; individual)</argsstring>
+        <name>evaluateIndividual</name>
+        <param>
+          <type>Individual&lt; <ref refid="classjenes_1_1chromosome_1_1_integer_chromosome" kindref="compound">IntegerChromosome</ref> &gt;</type>
+          <declname>individual</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/old/problem2/PatternGA.java" line="59" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/old/problem2/PatternGA.java" bodystart="59" bodyend="67"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classjenes_1_1tutorials_1_1old_1_1problem2_1_1_pattern_g_a_1a4c05b8a32518e4fe78f66e2576014bd9" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>boolean</type>
+        <definition>boolean jenes.tutorials.old.problem2.PatternGA.end</definition>
+        <argsstring>()</argsstring>
+        <name>end</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/old/problem2/PatternGA.java" line="70" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/old/problem2/PatternGA.java" bodystart="70" bodyend="73"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Tutorial showing how to extend <computeroutput>GeneticAlgorithm</computeroutput> and how to use the flexible and configurable breeding structure in Jenes. The problem consists in searching a pattern of integers with a given precision. Solutions flow through two different crossovers in parallel. Some are processed by a single point crossover, the other by a double point crossover. After solutions are mutated.</para><para>This class implements the algorithm by extending <computeroutput>GeneticAlgorithm</computeroutput>.</para><para><simplesect kind="version"><para>1.0</para></simplesect>
+<simplesect kind="since"><para>1.0 </para></simplesect>
+</para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="483">
+        <label>jenes::GeneticAlgorithm&lt; IntegerChromosome &gt;</label>
+      </node>
+      <node id="482">
+        <label>jenes.tutorials.old.problem2.PatternGA</label>
+        <link refid="classjenes_1_1tutorials_1_1old_1_1problem2_1_1_pattern_g_a"/>
+        <childnode refid="483" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="485">
+        <label>jenes::GeneticAlgorithm&lt; IntegerChromosome &gt;</label>
+      </node>
+      <node id="484">
+        <label>jenes.tutorials.old.problem2.PatternGA</label>
+        <link refid="classjenes_1_1tutorials_1_1old_1_1problem2_1_1_pattern_g_a"/>
+        <childnode refid="485" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/old/problem2/PatternGA.java" line="40" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/old/problem2/PatternGA.java" bodystart="40" bodyend="74"/>
+    <listofallmembers>
+      <member refid="classjenes_1_1tutorials_1_1old_1_1problem2_1_1_pattern_g_a_1a4c05b8a32518e4fe78f66e2576014bd9" prot="protected" virt="non-virtual"><scope>jenes::tutorials::old::problem2::PatternGA</scope><name>end</name></member>
+      <member refid="classjenes_1_1tutorials_1_1old_1_1problem2_1_1_pattern_g_a_1a90edfd135e58f9a43e3722d9e1df6f95" prot="public" virt="non-virtual"><scope>jenes::tutorials::old::problem2::PatternGA</scope><name>evaluateIndividual</name></member>
+      <member refid="classjenes_1_1tutorials_1_1old_1_1problem2_1_1_pattern_g_a_1a6c739b7abe3809978e5a2e8a41788eae" prot="public" virt="non-virtual"><scope>jenes::tutorials::old::problem2::PatternGA</scope><name>PatternGA</name></member>
+      <member refid="classjenes_1_1tutorials_1_1old_1_1problem2_1_1_pattern_g_a_1a66b0ced66757ac14afd2648465ba253f" prot="private" virt="non-virtual"><scope>jenes::tutorials::old::problem2::PatternGA</scope><name>precision</name></member>
+      <member refid="classjenes_1_1tutorials_1_1old_1_1problem2_1_1_pattern_g_a_1a7d2561b481b6d1f87e6a5c8f602510b0" prot="public" virt="non-virtual"><scope>jenes::tutorials::old::problem2::PatternGA</scope><name>setPrecision</name></member>
+      <member refid="classjenes_1_1tutorials_1_1old_1_1problem2_1_1_pattern_g_a_1acad7ad7941fbcf7fc8d555d0218886e1" prot="public" virt="non-virtual"><scope>jenes::tutorials::old::problem2::PatternGA</scope><name>setTarget</name></member>
+      <member refid="classjenes_1_1tutorials_1_1old_1_1problem2_1_1_pattern_g_a_1a56ecbd12f7e7af3887699cc99be1fd24" prot="private" virt="non-virtual"><scope>jenes::tutorials::old::problem2::PatternGA</scope><name>target</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

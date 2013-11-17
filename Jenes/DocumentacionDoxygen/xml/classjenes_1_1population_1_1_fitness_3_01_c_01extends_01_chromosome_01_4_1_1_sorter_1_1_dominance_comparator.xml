@@ -1,0 +1,76 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="classjenes_1_1population_1_1_fitness_3_01_c_01extends_01_chromosome_01_4_1_1_sorter_1_1_dominance_comparator" kind="class" prot="private">
+    <compoundname>jenes::population::Fitness&lt; C extends Chromosome &gt;::Sorter::DominanceComparator</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">java::util::Comparator&lt; CrowdingRef &gt;</basecompoundref>
+      <sectiondef kind="package-attrib">
+      <memberdef kind="variable" id="classjenes_1_1population_1_1_fitness_3_01_c_01extends_01_chromosome_01_4_1_1_sorter_1_1_dominance_comparator_1a6326d39229b19a2552a24ac48d081f6c" prot="package" static="no" mutable="no">
+        <type>boolean[]</type>
+        <definition>boolean [] jenes.population.Fitness&lt; C extends Chromosome &gt;.Sorter.DominanceComparator.biggerIsBetter</definition>
+        <argsstring></argsstring>
+        <name>biggerIsBetter</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/population/Fitness.java" line="609" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/population/Fitness.java" bodystart="609" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classjenes_1_1population_1_1_fitness_3_01_c_01extends_01_chromosome_01_4_1_1_sorter_1_1_dominance_comparator_1a208444cca048f82b54f7786df5dca788" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int jenes.population.Fitness&lt; C extends Chromosome &gt;.Sorter.DominanceComparator.compare</definition>
+        <argsstring>(CrowdingRef r1, CrowdingRef r2)</argsstring>
+        <name>compare</name>
+        <param>
+          <type>CrowdingRef</type>
+          <declname>r1</declname>
+        </param>
+        <param>
+          <type>CrowdingRef</type>
+          <declname>r2</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/population/Fitness.java" line="611" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/population/Fitness.java" bodystart="611" bodyend="613"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Comparator based on dominance, used to sort the refs. </para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="123">
+        <label>java::util::Comparator&lt; CrowdingRef &gt;</label>
+      </node>
+      <node id="122">
+        <label>jenes.population.Fitness&lt; C extends Chromosome &gt;.Sorter.DominanceComparator</label>
+        <link refid="classjenes_1_1population_1_1_fitness_3_01_c_01extends_01_chromosome_01_4_1_1_sorter_1_1_dominance_comparator"/>
+        <childnode refid="123" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="125">
+        <label>java::util::Comparator&lt; CrowdingRef &gt;</label>
+      </node>
+      <node id="124">
+        <label>jenes.population.Fitness&lt; C extends Chromosome &gt;.Sorter.DominanceComparator</label>
+        <link refid="classjenes_1_1population_1_1_fitness_3_01_c_01extends_01_chromosome_01_4_1_1_sorter_1_1_dominance_comparator"/>
+        <childnode refid="125" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/population/Fitness.java" line="607" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/population/Fitness.java" bodystart="607" bodyend="614"/>
+    <listofallmembers>
+      <member refid="classjenes_1_1population_1_1_fitness_3_01_c_01extends_01_chromosome_01_4_1_1_sorter_1_1_dominance_comparator_1a6326d39229b19a2552a24ac48d081f6c" prot="package" virt="non-virtual"><scope>jenes::population::Fitness&lt; C extends Chromosome &gt;::Sorter::DominanceComparator</scope><name>biggerIsBetter</name></member>
+      <member refid="classjenes_1_1population_1_1_fitness_3_01_c_01extends_01_chromosome_01_4_1_1_sorter_1_1_dominance_comparator_1a208444cca048f82b54f7786df5dca788" prot="public" virt="non-virtual"><scope>jenes::population::Fitness&lt; C extends Chromosome &gt;::Sorter::DominanceComparator</scope><name>compare</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

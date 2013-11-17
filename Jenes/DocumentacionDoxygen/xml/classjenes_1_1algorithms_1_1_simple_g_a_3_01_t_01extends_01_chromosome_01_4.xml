@@ -1,0 +1,1254 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="classjenes_1_1algorithms_1_1_simple_g_a_3_01_t_01extends_01_chromosome_01_4" kind="class" prot="public">
+    <compoundname>jenes::algorithms::SimpleGA&lt; T extends Chromosome &gt;</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">jenes::GeneticAlgorithm&lt; T &gt;</basecompoundref>
+    <innerclass refid="enumjenes_1_1algorithms_1_1_simple_g_a_3_01_t_01extends_01_chromosome_01_4_1_1_crossover_method" prot="public">jenes::algorithms::SimpleGA&lt; T extends Chromosome &gt;::CrossoverMethod</innerclass>
+    <innerclass refid="enumjenes_1_1algorithms_1_1_simple_g_a_3_01_t_01extends_01_chromosome_01_4_1_1_selection_method" prot="public">jenes::algorithms::SimpleGA&lt; T extends Chromosome &gt;::SelectionMethod</innerclass>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classjenes_1_1algorithms_1_1_simple_g_a_3_01_t_01extends_01_chromosome_01_4_1ac4060f400a4a9d81185713c244699d40" prot="public" static="yes" mutable="no">
+        <type>final int</type>
+        <definition>final int jenes.algorithms.SimpleGA&lt; T extends Chromosome &gt;.DEFAULT_GENERATION_LIMIT</definition>
+        <argsstring></argsstring>
+        <name>DEFAULT_GENERATION_LIMIT</name>
+        <initializer>= 100</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The default generation limit </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/algorithms/SimpleGA.java" line="83" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/algorithms/SimpleGA.java" bodystart="83" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classjenes_1_1algorithms_1_1_simple_g_a_3_01_t_01extends_01_chromosome_01_4_1a6bb4783aa44abaae39375ae762412fa3" prot="public" static="yes" mutable="no">
+        <type>final double</type>
+        <definition>final double jenes.algorithms.SimpleGA&lt; T extends Chromosome &gt;.DEFAULT_CROSSOVER_PROBABILITY</definition>
+        <argsstring></argsstring>
+        <name>DEFAULT_CROSSOVER_PROBABILITY</name>
+        <initializer>= 0.8</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The default crossover probability </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/algorithms/SimpleGA.java" line="86" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/algorithms/SimpleGA.java" bodystart="86" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classjenes_1_1algorithms_1_1_simple_g_a_3_01_t_01extends_01_chromosome_01_4_1a6b93f23c518016295e31b02aa7ef1f8c" prot="public" static="yes" mutable="no">
+        <type>final double</type>
+        <definition>final double jenes.algorithms.SimpleGA&lt; T extends Chromosome &gt;.DEFAULT_MUTATION_PROBABILITY</definition>
+        <argsstring></argsstring>
+        <name>DEFAULT_MUTATION_PROBABILITY</name>
+        <initializer>= 0.02</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The default mutation probability </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/algorithms/SimpleGA.java" line="89" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/algorithms/SimpleGA.java" bodystart="89" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classjenes_1_1algorithms_1_1_simple_g_a_3_01_t_01extends_01_chromosome_01_4_1a3b820957538efb558e8240e996d503cd" prot="public" static="yes" mutable="no">
+        <type>final int</type>
+        <definition>final int jenes.algorithms.SimpleGA&lt; T extends Chromosome &gt;.DEFAULT_ELITISM</definition>
+        <argsstring></argsstring>
+        <name>DEFAULT_ELITISM</name>
+        <initializer>= 1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The default elitism factor </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/algorithms/SimpleGA.java" line="92" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/algorithms/SimpleGA.java" bodystart="92" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classjenes_1_1algorithms_1_1_simple_g_a_3_01_t_01extends_01_chromosome_01_4_1a93d44174d00fdf0a8ebedfa3badcde66" prot="public" static="yes" mutable="no">
+        <type>final SelectionMethod</type>
+        <definition>final SelectionMethod jenes.algorithms.SimpleGA&lt; T extends Chromosome &gt;.DEFAULT_SELECTION_METHOD</definition>
+        <argsstring></argsstring>
+        <name>DEFAULT_SELECTION_METHOD</name>
+        <initializer>= <ref refid="enumjenes_1_1algorithms_1_1_simple_g_a_3_01_t_01extends_01_chromosome_01_4_1_1_selection_method_1aa82c1a99611b7bd81e72f0f8429606cd" kindref="member">SelectionMethod.TOURNAMENT</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The default selection method </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/algorithms/SimpleGA.java" line="95" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/algorithms/SimpleGA.java" bodystart="95" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classjenes_1_1algorithms_1_1_simple_g_a_3_01_t_01extends_01_chromosome_01_4_1a568bc71d97e1221ff4c7a4cc2b9a938d" prot="public" static="yes" mutable="no">
+        <type>final CrossoverMethod</type>
+        <definition>final CrossoverMethod jenes.algorithms.SimpleGA&lt; T extends Chromosome &gt;.DEFAULT_CROSSOVER_METHOD</definition>
+        <argsstring></argsstring>
+        <name>DEFAULT_CROSSOVER_METHOD</name>
+        <initializer>= <ref refid="enumjenes_1_1algorithms_1_1_simple_g_a_3_01_t_01extends_01_chromosome_01_4_1_1_crossover_method_1a0dba044ab40298639e47034fda066ece" kindref="member">CrossoverMethod.SINGLEPOINT</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The default crossover method </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/algorithms/SimpleGA.java" line="98" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/algorithms/SimpleGA.java" bodystart="98" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classjenes_1_1algorithms_1_1_simple_g_a_3_01_t_01extends_01_chromosome_01_4_1ab95f26a5f33145a73eed2832becb962f" prot="public" static="yes" mutable="no">
+        <type>final ElitismStrategy</type>
+        <definition>final ElitismStrategy jenes.algorithms.SimpleGA&lt; T extends Chromosome &gt;.DEFAULT_ELITISM_STRATEGY</definition>
+        <argsstring></argsstring>
+        <name>DEFAULT_ELITISM_STRATEGY</name>
+        <initializer>= ElitismStrategy.RANDOM</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The default elitism strategy </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/algorithms/SimpleGA.java" line="101" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/algorithms/SimpleGA.java" bodystart="101" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classjenes_1_1algorithms_1_1_simple_g_a_3_01_t_01extends_01_chromosome_01_4_1a2490679bf43c4342c2932181788af8f3" prot="private" static="no" mutable="no">
+        <type>Selector&lt; T &gt;</type>
+        <definition>Selector&lt;T&gt; jenes.algorithms.SimpleGA&lt; T extends Chromosome &gt;.selector</definition>
+        <argsstring></argsstring>
+        <name>selector</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/algorithms/SimpleGA.java" line="104" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/algorithms/SimpleGA.java" bodystart="104" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classjenes_1_1algorithms_1_1_simple_g_a_3_01_t_01extends_01_chromosome_01_4_1a65f341dfdb563e499feac64facee9a21" prot="private" static="no" mutable="no">
+        <type>Crossover&lt; T &gt;</type>
+        <definition>Crossover&lt;T&gt; jenes.algorithms.SimpleGA&lt; T extends Chromosome &gt;.crossover_op</definition>
+        <argsstring></argsstring>
+        <name>crossover_op</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/algorithms/SimpleGA.java" line="105" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/algorithms/SimpleGA.java" bodystart="105" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classjenes_1_1algorithms_1_1_simple_g_a_3_01_t_01extends_01_chromosome_01_4_1a24f14989c009c5422614686c8fc49248" prot="private" static="no" mutable="no">
+        <type>Mutator&lt; T &gt;</type>
+        <definition>Mutator&lt;T&gt; jenes.algorithms.SimpleGA&lt; T extends Chromosome &gt;.mutator</definition>
+        <argsstring></argsstring>
+        <name>mutator</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/algorithms/SimpleGA.java" line="106" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/algorithms/SimpleGA.java" bodystart="106" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classjenes_1_1algorithms_1_1_simple_g_a_3_01_t_01extends_01_chromosome_01_4_1a706a621e21564095963264fdfd2eba32" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>jenes.algorithms.SimpleGA&lt; T extends Chromosome &gt;.SimpleGA</definition>
+        <argsstring>()</argsstring>
+        <name>SimpleGA</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Builds a new SimpleGa with no initial population, the default generation limit, crossover and mutation probability, elitism, selection and crossover methods, and elitism strategy. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/algorithms/SimpleGA.java" line="113" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/algorithms/SimpleGA.java" bodystart="113" bodyend="123"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1algorithms_1_1_simple_g_a_3_01_t_01extends_01_chromosome_01_4_1a44ee069daad5aaed809b2d83303052e0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>jenes.algorithms.SimpleGA&lt; T extends Chromosome &gt;.SimpleGA</definition>
+        <argsstring>(final Fitness&lt; T &gt; fitness, final Population&lt; T &gt; population)</argsstring>
+        <name>SimpleGA</name>
+        <param>
+          <type>final Fitness&lt; T &gt;</type>
+          <declname>fitness</declname>
+        </param>
+        <param>
+          <type>final Population&lt; T &gt;</type>
+          <declname>population</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Builds a new SimpleGa with the default generation limit, crossover and mutation probability, elitism, selection and crossover methods, and elitism strategy.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>fitness</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the fitness to use </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>population</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the initial population </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/algorithms/SimpleGA.java" line="132" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/algorithms/SimpleGA.java" bodystart="132" bodyend="142"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1algorithms_1_1_simple_g_a_3_01_t_01extends_01_chromosome_01_4_1acbdaae378fd9263001e6393cb132bda4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>jenes.algorithms.SimpleGA&lt; T extends Chromosome &gt;.SimpleGA</definition>
+        <argsstring>(final Fitness&lt; T &gt; fitness, final Population&lt; T &gt; population, final int generations)</argsstring>
+        <name>SimpleGA</name>
+        <param>
+          <type>final Fitness&lt; T &gt;</type>
+          <declname>fitness</declname>
+        </param>
+        <param>
+          <type>final Population&lt; T &gt;</type>
+          <declname>population</declname>
+        </param>
+        <param>
+          <type>final int</type>
+          <declname>generations</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Builds a new SimpleGa with the default crossover and mutation probability, elitism, selection and crossover methods, and elitism strategy.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>fitness</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the fitness to use </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>population</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the initial population </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>generations</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the generation limit </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/algorithms/SimpleGA.java" line="152" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/algorithms/SimpleGA.java" bodystart="152" bodyend="162"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1algorithms_1_1_simple_g_a_3_01_t_01extends_01_chromosome_01_4_1a9382ccbfaed16b3dbf4feeb23afa71e8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>jenes.algorithms.SimpleGA&lt; T extends Chromosome &gt;.SimpleGA</definition>
+        <argsstring>(final Fitness&lt; T &gt; fitness, final Population&lt; T &gt; population, final int generations, final double crossover, final double mutation)</argsstring>
+        <name>SimpleGA</name>
+        <param>
+          <type>final Fitness&lt; T &gt;</type>
+          <declname>fitness</declname>
+        </param>
+        <param>
+          <type>final Population&lt; T &gt;</type>
+          <declname>population</declname>
+        </param>
+        <param>
+          <type>final int</type>
+          <declname>generations</declname>
+        </param>
+        <param>
+          <type>final double</type>
+          <declname>crossover</declname>
+        </param>
+        <param>
+          <type>final double</type>
+          <declname>mutation</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Builds a new SimpleGa with the default elitism, selection and crossover methods, and elitism strategy.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>fitness</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the fitness to use </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>population</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the initial population </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>generations</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the generation limit </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>crossover</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the crossover probability </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>mutation</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the mutation probability </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/algorithms/SimpleGA.java" line="174" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/algorithms/SimpleGA.java" bodystart="174" bodyend="184"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1algorithms_1_1_simple_g_a_3_01_t_01extends_01_chromosome_01_4_1ae4d2d54f7d376688e0ab0eabfa85a7e2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>jenes.algorithms.SimpleGA&lt; T extends Chromosome &gt;.SimpleGA</definition>
+        <argsstring>(final Fitness&lt; T &gt; fitness, final Population&lt; T &gt; population, final int generations, final double crossover, final double mutation, final int elitism)</argsstring>
+        <name>SimpleGA</name>
+        <param>
+          <type>final Fitness&lt; T &gt;</type>
+          <declname>fitness</declname>
+        </param>
+        <param>
+          <type>final Population&lt; T &gt;</type>
+          <declname>population</declname>
+        </param>
+        <param>
+          <type>final int</type>
+          <declname>generations</declname>
+        </param>
+        <param>
+          <type>final double</type>
+          <declname>crossover</declname>
+        </param>
+        <param>
+          <type>final double</type>
+          <declname>mutation</declname>
+        </param>
+        <param>
+          <type>final int</type>
+          <declname>elitism</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Builds a new SimpleGa with the default selection and crossover methods, and elitism strategy.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>fitness</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the fitness to use </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>population</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the initial population </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>generations</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the generation limit </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>crossover</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the crossover probability </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>mutation</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the mutation probability </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>elitism</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the elisitm factor </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/algorithms/SimpleGA.java" line="196" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/algorithms/SimpleGA.java" bodystart="196" bodyend="206"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1algorithms_1_1_simple_g_a_3_01_t_01extends_01_chromosome_01_4_1aeb160f73fc3a8937c7d8da9140f57e38" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>jenes.algorithms.SimpleGA&lt; T extends Chromosome &gt;.SimpleGA</definition>
+        <argsstring>(final Fitness&lt; T &gt; fitness, final Population&lt; T &gt; population, final int generations, final double crossover, final double mutation, final int elitism, final SelectionMethod selmethod, final CrossoverMethod crossmethod)</argsstring>
+        <name>SimpleGA</name>
+        <param>
+          <type>final Fitness&lt; T &gt;</type>
+          <declname>fitness</declname>
+        </param>
+        <param>
+          <type>final Population&lt; T &gt;</type>
+          <declname>population</declname>
+        </param>
+        <param>
+          <type>final int</type>
+          <declname>generations</declname>
+        </param>
+        <param>
+          <type>final double</type>
+          <declname>crossover</declname>
+        </param>
+        <param>
+          <type>final double</type>
+          <declname>mutation</declname>
+        </param>
+        <param>
+          <type>final int</type>
+          <declname>elitism</declname>
+        </param>
+        <param>
+          <type>final SelectionMethod</type>
+          <declname>selmethod</declname>
+        </param>
+        <param>
+          <type>final CrossoverMethod</type>
+          <declname>crossmethod</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Builds a new SimpleGa with the default elitism strategy.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>fitness</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the fitness to use </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>population</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the initial population </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>generations</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the generation limit </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>crossover</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the crossover probability </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>mutation</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the mutation probability </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>elitism</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the elisitm factor </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>selmethod</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the selector method to use </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>crossmethod</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the crossover method to use </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/algorithms/SimpleGA.java" line="220" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/algorithms/SimpleGA.java" bodystart="220" bodyend="230"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1algorithms_1_1_simple_g_a_3_01_t_01extends_01_chromosome_01_4_1ada2d647b3a202f4e6bb7d1b1c894791b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>jenes.algorithms.SimpleGA&lt; T extends Chromosome &gt;.SimpleGA</definition>
+        <argsstring>(final Fitness&lt; T &gt; fitness, final Population&lt; T &gt; population, final int generations, final double crossover, final double mutation, final int elitism, final SelectionMethod selmethod, final CrossoverMethod crossmethod, ElitismStrategy es)</argsstring>
+        <name>SimpleGA</name>
+        <param>
+          <type>final Fitness&lt; T &gt;</type>
+          <declname>fitness</declname>
+        </param>
+        <param>
+          <type>final Population&lt; T &gt;</type>
+          <declname>population</declname>
+        </param>
+        <param>
+          <type>final int</type>
+          <declname>generations</declname>
+        </param>
+        <param>
+          <type>final double</type>
+          <declname>crossover</declname>
+        </param>
+        <param>
+          <type>final double</type>
+          <declname>mutation</declname>
+        </param>
+        <param>
+          <type>final int</type>
+          <declname>elitism</declname>
+        </param>
+        <param>
+          <type>final SelectionMethod</type>
+          <declname>selmethod</declname>
+        </param>
+        <param>
+          <type>final CrossoverMethod</type>
+          <declname>crossmethod</declname>
+        </param>
+        <param>
+          <type>ElitismStrategy</type>
+          <declname>es</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Builds a new SimpleGa.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>fitness</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the fitness to use </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>population</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the initial population </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>generations</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the generation limit </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>crossover</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the crossover probability </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>mutation</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the mutation probability </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>elitism</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the elisitm factor </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>selmethod</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the selector method to use </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>crossmethod</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the crossover method to use </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>es</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the elitism strategy to use </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/algorithms/SimpleGA.java" line="245" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/algorithms/SimpleGA.java" bodystart="245" bodyend="260"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1algorithms_1_1_simple_g_a_3_01_t_01extends_01_chromosome_01_4_1a3f8162d093934286fd3963580f380d9a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>jenes.algorithms.SimpleGA&lt; T extends Chromosome &gt;.SimpleGA</definition>
+        <argsstring>(final Population&lt; T &gt; population)</argsstring>
+        <name>SimpleGA</name>
+        <param>
+          <type>final Population&lt; T &gt;</type>
+          <declname>population</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Builds a new SimpleGa with the default generation limit, crossover and mutation probability, elitism, selection and crossover methods, and elitism strategy. </para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>population</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the initial population </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/algorithms/SimpleGA.java" line="269" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/algorithms/SimpleGA.java" bodystart="269" bodyend="279"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1algorithms_1_1_simple_g_a_3_01_t_01extends_01_chromosome_01_4_1ac26dcb81ef937ded77152a908ac55699" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>jenes.algorithms.SimpleGA&lt; T extends Chromosome &gt;.SimpleGA</definition>
+        <argsstring>(final Population&lt; T &gt; population, final int generations)</argsstring>
+        <name>SimpleGA</name>
+        <param>
+          <type>final Population&lt; T &gt;</type>
+          <declname>population</declname>
+        </param>
+        <param>
+          <type>final int</type>
+          <declname>generations</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Builds a new SimpleGa with the default crossover and mutation probability, elitism, selection and crossover methods, and elitism strategy. </para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>population</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the initial population </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>generations</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the generation limit </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/algorithms/SimpleGA.java" line="288" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/algorithms/SimpleGA.java" bodystart="288" bodyend="298"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1algorithms_1_1_simple_g_a_3_01_t_01extends_01_chromosome_01_4_1ad6c74ec603e7fbc1610f41ad9ee63981" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>jenes.algorithms.SimpleGA&lt; T extends Chromosome &gt;.SimpleGA</definition>
+        <argsstring>(final Population&lt; T &gt; population, final int generations, final double crossover, final double mutation)</argsstring>
+        <name>SimpleGA</name>
+        <param>
+          <type>final Population&lt; T &gt;</type>
+          <declname>population</declname>
+        </param>
+        <param>
+          <type>final int</type>
+          <declname>generations</declname>
+        </param>
+        <param>
+          <type>final double</type>
+          <declname>crossover</declname>
+        </param>
+        <param>
+          <type>final double</type>
+          <declname>mutation</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Builds a new SimpleGa with the default elitism, selection and crossover methods, and elitism strategy. </para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>population</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the initial population </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>generations</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the generation limit </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>crossover</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the crossover probability </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>mutation</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the mutation probability </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/algorithms/SimpleGA.java" line="310" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/algorithms/SimpleGA.java" bodystart="310" bodyend="320"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1algorithms_1_1_simple_g_a_3_01_t_01extends_01_chromosome_01_4_1a659f0192b24b5d8af22f73f190b67867" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>jenes.algorithms.SimpleGA&lt; T extends Chromosome &gt;.SimpleGA</definition>
+        <argsstring>(final Population&lt; T &gt; population, final int generations, final double crossover, final double mutation, final int elitism)</argsstring>
+        <name>SimpleGA</name>
+        <param>
+          <type>final Population&lt; T &gt;</type>
+          <declname>population</declname>
+        </param>
+        <param>
+          <type>final int</type>
+          <declname>generations</declname>
+        </param>
+        <param>
+          <type>final double</type>
+          <declname>crossover</declname>
+        </param>
+        <param>
+          <type>final double</type>
+          <declname>mutation</declname>
+        </param>
+        <param>
+          <type>final int</type>
+          <declname>elitism</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Builds a new SimpleGa with the default selection and crossover methods, and elitism strategy. </para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>population</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the initial population </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>generations</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the generation limit </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>crossover</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the crossover probability </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>mutation</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the mutation probability </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>elitism</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the elisitm factor </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/algorithms/SimpleGA.java" line="332" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/algorithms/SimpleGA.java" bodystart="332" bodyend="342"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1algorithms_1_1_simple_g_a_3_01_t_01extends_01_chromosome_01_4_1ac23644006d7eb399fd4d26e77da8826d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>jenes.algorithms.SimpleGA&lt; T extends Chromosome &gt;.SimpleGA</definition>
+        <argsstring>(final Population&lt; T &gt; population, final int generations, final double crossover, final double mutation, final int elitism, final SelectionMethod selmethod, final CrossoverMethod crossmethod)</argsstring>
+        <name>SimpleGA</name>
+        <param>
+          <type>final Population&lt; T &gt;</type>
+          <declname>population</declname>
+        </param>
+        <param>
+          <type>final int</type>
+          <declname>generations</declname>
+        </param>
+        <param>
+          <type>final double</type>
+          <declname>crossover</declname>
+        </param>
+        <param>
+          <type>final double</type>
+          <declname>mutation</declname>
+        </param>
+        <param>
+          <type>final int</type>
+          <declname>elitism</declname>
+        </param>
+        <param>
+          <type>final SelectionMethod</type>
+          <declname>selmethod</declname>
+        </param>
+        <param>
+          <type>final CrossoverMethod</type>
+          <declname>crossmethod</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Builds a new SimpleGa with the default elitism strategy. </para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>population</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the initial population </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>generations</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the generation limit </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>crossover</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the crossover probability </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>mutation</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the mutation probability </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>elitism</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the elisitm factor </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>selmethod</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the selector method to use </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>crossmethod</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the crossover method to use </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/algorithms/SimpleGA.java" line="356" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/algorithms/SimpleGA.java" bodystart="356" bodyend="366"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1algorithms_1_1_simple_g_a_3_01_t_01extends_01_chromosome_01_4_1a068fcb44d18c3204fbb9b13daebd4f6d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>jenes.algorithms.SimpleGA&lt; T extends Chromosome &gt;.SimpleGA</definition>
+        <argsstring>(final Population&lt; T &gt; population, final int generations, final double crossover, final double mutation, final int elitism, final SelectionMethod selmethod, final CrossoverMethod crossmethod, ElitismStrategy es)</argsstring>
+        <name>SimpleGA</name>
+        <param>
+          <type>final Population&lt; T &gt;</type>
+          <declname>population</declname>
+        </param>
+        <param>
+          <type>final int</type>
+          <declname>generations</declname>
+        </param>
+        <param>
+          <type>final double</type>
+          <declname>crossover</declname>
+        </param>
+        <param>
+          <type>final double</type>
+          <declname>mutation</declname>
+        </param>
+        <param>
+          <type>final int</type>
+          <declname>elitism</declname>
+        </param>
+        <param>
+          <type>final SelectionMethod</type>
+          <declname>selmethod</declname>
+        </param>
+        <param>
+          <type>final CrossoverMethod</type>
+          <declname>crossmethod</declname>
+        </param>
+        <param>
+          <type>ElitismStrategy</type>
+          <declname>es</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Builds a new SimpleGa. </para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>population</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the initial population </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>generations</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the generation limit </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>crossover</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the crossover probability </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>mutation</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the mutation probability </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>elitism</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the elisitm factor </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>selmethod</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the selector method to use </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>crossmethod</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the crossover method to use </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>es</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the elitism strategy to use </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/algorithms/SimpleGA.java" line="381" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/algorithms/SimpleGA.java" bodystart="381" bodyend="396"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1algorithms_1_1_simple_g_a_3_01_t_01extends_01_chromosome_01_4_1ac1b67ab65d05c07bd67aa8b072c965d7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>final Selector&lt; T &gt;</type>
+        <definition>final Selector&lt;T&gt; jenes.algorithms.SimpleGA&lt; T extends Chromosome &gt;.getSelector</definition>
+        <argsstring>()</argsstring>
+        <name>getSelector</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns the selector used by this genetic algorithm</para><para><simplesect kind="return"><para>the selection operator </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/algorithms/SimpleGA.java" line="403" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/algorithms/SimpleGA.java" bodystart="403" bodyend="405"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1algorithms_1_1_simple_g_a_3_01_t_01extends_01_chromosome_01_4_1a6c450c770d9060faf01820a48491561a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>final double</type>
+        <definition>final double jenes.algorithms.SimpleGA&lt; T extends Chromosome &gt;.getMaxIllegalRate</definition>
+        <argsstring>()</argsstring>
+        <name>getMaxIllegalRate</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns the maximum rate of illegal individuals.</para><para><simplesect kind="return"><para>the maximum rate of illegal individuals </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/algorithms/SimpleGA.java" line="412" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/algorithms/SimpleGA.java" bodystart="412" bodyend="414"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1algorithms_1_1_simple_g_a_3_01_t_01extends_01_chromosome_01_4_1a4051bc6ee99fe2450c9dbad64c7ab594" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void jenes.algorithms.SimpleGA&lt; T extends Chromosome &gt;.setMaxIllegalRate</definition>
+        <argsstring>(final double rate)</argsstring>
+        <name>setMaxIllegalRate</name>
+        <param>
+          <type>final double</type>
+          <declname>rate</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Sets the max rate of illegal individuals. This prevents that population will be dominated by invalid individuals. This is the case of constrained problems where valid solutions are sparse within the search space.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>rate</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the new maximum rate of illegal individuals </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/algorithms/SimpleGA.java" line="424" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/algorithms/SimpleGA.java" bodystart="424" bodyend="426"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1algorithms_1_1_simple_g_a_3_01_t_01extends_01_chromosome_01_4_1a3411f8691495bdd8e3818f8ee6fcc181" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>final Crossover&lt; T &gt;</type>
+        <definition>final Crossover&lt;T&gt; jenes.algorithms.SimpleGA&lt; T extends Chromosome &gt;.getCrossover</definition>
+        <argsstring>()</argsstring>
+        <name>getCrossover</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns the crossover used by this genetic algorithm.</para><para><simplesect kind="return"><para>the crossover operator </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/algorithms/SimpleGA.java" line="433" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/algorithms/SimpleGA.java" bodystart="433" bodyend="435"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1algorithms_1_1_simple_g_a_3_01_t_01extends_01_chromosome_01_4_1a85ed250d10211b0faf798bef2663ec9f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>final double</type>
+        <definition>final double jenes.algorithms.SimpleGA&lt; T extends Chromosome &gt;.getCrossoverProbability</definition>
+        <argsstring>()</argsstring>
+        <name>getCrossoverProbability</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns the crossover probability.</para><para><simplesect kind="return"><para>the crossover probability </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/algorithms/SimpleGA.java" line="442" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/algorithms/SimpleGA.java" bodystart="442" bodyend="444"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1algorithms_1_1_simple_g_a_3_01_t_01extends_01_chromosome_01_4_1a639f43de8d71ae3e28077c4510eae64e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void jenes.algorithms.SimpleGA&lt; T extends Chromosome &gt;.setCrossoverProbability</definition>
+        <argsstring>(final double p)</argsstring>
+        <name>setCrossoverProbability</name>
+        <param>
+          <type>final double</type>
+          <declname>p</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Sets the crossover probability.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>p</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the new crossover probability </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/algorithms/SimpleGA.java" line="451" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/algorithms/SimpleGA.java" bodystart="451" bodyend="453"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1algorithms_1_1_simple_g_a_3_01_t_01extends_01_chromosome_01_4_1af1b77602d4f2440c2abde1f8a9d336e7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>final Mutator&lt; T &gt;</type>
+        <definition>final Mutator&lt;T&gt; jenes.algorithms.SimpleGA&lt; T extends Chromosome &gt;.getMutator</definition>
+        <argsstring>()</argsstring>
+        <name>getMutator</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns the mutator used by this genetic algorithm.</para><para><simplesect kind="return"><para>the mutation operator </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/algorithms/SimpleGA.java" line="460" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/algorithms/SimpleGA.java" bodystart="460" bodyend="462"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1algorithms_1_1_simple_g_a_3_01_t_01extends_01_chromosome_01_4_1a0f8be347c9405a5b82d7a10678fc9a3a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>final double</type>
+        <definition>final double jenes.algorithms.SimpleGA&lt; T extends Chromosome &gt;.getMutationProbability</definition>
+        <argsstring>()</argsstring>
+        <name>getMutationProbability</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns the mutation probability.</para><para><simplesect kind="return"><para>the mutation probability </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/algorithms/SimpleGA.java" line="469" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/algorithms/SimpleGA.java" bodystart="469" bodyend="471"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1algorithms_1_1_simple_g_a_3_01_t_01extends_01_chromosome_01_4_1a2ce1369d995dc328caa6b542e24e55f6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void jenes.algorithms.SimpleGA&lt; T extends Chromosome &gt;.setMutationProbability</definition>
+        <argsstring>(final double p)</argsstring>
+        <name>setMutationProbability</name>
+        <param>
+          <type>final double</type>
+          <declname>p</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Sets the mutation probability.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>p</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the new mutation probability </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/algorithms/SimpleGA.java" line="478" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/algorithms/SimpleGA.java" bodystart="478" bodyend="480"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>A facade providing a simple interface to GeneticAlgorithm. </para><para><computeroutput>SimpleGA</computeroutput> implements a three stages genetic algorithm made of <itemizedlist>
+<listitem>
+<para>Selector: <ref refid="" kindref="compound">TournamentSelector</ref> (default) or <ref refid="" kindref="compound">RouletteWheelSelector</ref> </para></listitem>
+<listitem>
+<para>Crossover: <ref refid="" kindref="compound">OnePointCrossover</ref> (default) or <ref refid="" kindref="compound">TwoPointsCrossover</ref> </para></listitem>
+<listitem>
+<para>Mutator: <ref refid="" kindref="compound">SimpleMutator</ref> </para></listitem>
+</itemizedlist>
+The class provides a set of constructors by which to instantiate a <computeroutput>SimpleGA</computeroutput> algorithm. </para><para>Constructors allows to decide which selection method (i.e. Tournament or Roulette Wheel) or crossover method (i.e. One Point or Two Points) to adopt. Also crossover and mutation probability can be specified at constraction time. </para><para><computeroutput>SimpleGA</computeroutput> is a <computeroutput>GeneticAlgorithm</computeroutput> subclass. Thus, it is possible to use all inheritated methods and properties. For example, </para><para><blockquote><para><preformatted>
+ sga.setElitism(10);
+ sga.setMutationRate(0.2);
+ sga.setBiggerIsBetter(false);
+ sga.evolve();
+</preformatted></para></blockquote></para><para>Among the available method, there are those able to alter the algorithm&apos;s body. Although this is possible, we discourage from using them as this would result in lesser comphrensible code. Instead we suggest to directly subclass <computeroutput>GeneticAlgorithm</computeroutput>. </para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>&lt;T&gt;</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>extends Chromosome</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="version"><para>2.0 </para></simplesect>
+<simplesect kind="since"><para>1.0 </para></simplesect>
+</para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="611">
+        <label>jenes.algorithms.SimpleGA&lt; T extends Chromosome &gt;</label>
+        <link refid="classjenes_1_1algorithms_1_1_simple_g_a_3_01_t_01extends_01_chromosome_01_4"/>
+        <childnode refid="612" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="612">
+        <label>jenes::GeneticAlgorithm&lt; T &gt;</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="617">
+        <label>Selector&lt; T &gt;</label>
+      </node>
+      <node id="615">
+        <label>Crossover&lt; T &gt;</label>
+      </node>
+      <node id="616">
+        <label>Mutator&lt; T &gt;</label>
+      </node>
+      <node id="613">
+        <label>jenes.algorithms.SimpleGA&lt; T extends Chromosome &gt;</label>
+        <link refid="classjenes_1_1algorithms_1_1_simple_g_a_3_01_t_01extends_01_chromosome_01_4"/>
+        <childnode refid="614" relation="public-inheritance">
+        </childnode>
+        <childnode refid="615" relation="usage">
+          <edgelabel>crossover_op</edgelabel>
+        </childnode>
+        <childnode refid="616" relation="usage">
+          <edgelabel>mutator</edgelabel>
+        </childnode>
+        <childnode refid="617" relation="usage">
+          <edgelabel>selector</edgelabel>
+        </childnode>
+      </node>
+      <node id="614">
+        <label>jenes::GeneticAlgorithm&lt; T &gt;</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/algorithms/SimpleGA.java" line="68" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/algorithms/SimpleGA.java" bodystart="68" bodyend="481"/>
+    <listofallmembers>
+      <member refid="classjenes_1_1algorithms_1_1_simple_g_a_3_01_t_01extends_01_chromosome_01_4_1a65f341dfdb563e499feac64facee9a21" prot="private" virt="non-virtual"><scope>jenes::algorithms::SimpleGA&lt; T extends Chromosome &gt;</scope><name>crossover_op</name></member>
+      <member refid="classjenes_1_1algorithms_1_1_simple_g_a_3_01_t_01extends_01_chromosome_01_4_1a568bc71d97e1221ff4c7a4cc2b9a938d" prot="public" virt="non-virtual"><scope>jenes::algorithms::SimpleGA&lt; T extends Chromosome &gt;</scope><name>DEFAULT_CROSSOVER_METHOD</name></member>
+      <member refid="classjenes_1_1algorithms_1_1_simple_g_a_3_01_t_01extends_01_chromosome_01_4_1a6bb4783aa44abaae39375ae762412fa3" prot="public" virt="non-virtual"><scope>jenes::algorithms::SimpleGA&lt; T extends Chromosome &gt;</scope><name>DEFAULT_CROSSOVER_PROBABILITY</name></member>
+      <member refid="classjenes_1_1algorithms_1_1_simple_g_a_3_01_t_01extends_01_chromosome_01_4_1a3b820957538efb558e8240e996d503cd" prot="public" virt="non-virtual"><scope>jenes::algorithms::SimpleGA&lt; T extends Chromosome &gt;</scope><name>DEFAULT_ELITISM</name></member>
+      <member refid="classjenes_1_1algorithms_1_1_simple_g_a_3_01_t_01extends_01_chromosome_01_4_1ab95f26a5f33145a73eed2832becb962f" prot="public" virt="non-virtual"><scope>jenes::algorithms::SimpleGA&lt; T extends Chromosome &gt;</scope><name>DEFAULT_ELITISM_STRATEGY</name></member>
+      <member refid="classjenes_1_1algorithms_1_1_simple_g_a_3_01_t_01extends_01_chromosome_01_4_1ac4060f400a4a9d81185713c244699d40" prot="public" virt="non-virtual"><scope>jenes::algorithms::SimpleGA&lt; T extends Chromosome &gt;</scope><name>DEFAULT_GENERATION_LIMIT</name></member>
+      <member refid="classjenes_1_1algorithms_1_1_simple_g_a_3_01_t_01extends_01_chromosome_01_4_1a6b93f23c518016295e31b02aa7ef1f8c" prot="public" virt="non-virtual"><scope>jenes::algorithms::SimpleGA&lt; T extends Chromosome &gt;</scope><name>DEFAULT_MUTATION_PROBABILITY</name></member>
+      <member refid="classjenes_1_1algorithms_1_1_simple_g_a_3_01_t_01extends_01_chromosome_01_4_1a93d44174d00fdf0a8ebedfa3badcde66" prot="public" virt="non-virtual"><scope>jenes::algorithms::SimpleGA&lt; T extends Chromosome &gt;</scope><name>DEFAULT_SELECTION_METHOD</name></member>
+      <member refid="classjenes_1_1algorithms_1_1_simple_g_a_3_01_t_01extends_01_chromosome_01_4_1a3411f8691495bdd8e3818f8ee6fcc181" prot="public" virt="non-virtual"><scope>jenes::algorithms::SimpleGA&lt; T extends Chromosome &gt;</scope><name>getCrossover</name></member>
+      <member refid="classjenes_1_1algorithms_1_1_simple_g_a_3_01_t_01extends_01_chromosome_01_4_1a85ed250d10211b0faf798bef2663ec9f" prot="public" virt="non-virtual"><scope>jenes::algorithms::SimpleGA&lt; T extends Chromosome &gt;</scope><name>getCrossoverProbability</name></member>
+      <member refid="classjenes_1_1algorithms_1_1_simple_g_a_3_01_t_01extends_01_chromosome_01_4_1a6c450c770d9060faf01820a48491561a" prot="public" virt="non-virtual"><scope>jenes::algorithms::SimpleGA&lt; T extends Chromosome &gt;</scope><name>getMaxIllegalRate</name></member>
+      <member refid="classjenes_1_1algorithms_1_1_simple_g_a_3_01_t_01extends_01_chromosome_01_4_1a0f8be347c9405a5b82d7a10678fc9a3a" prot="public" virt="non-virtual"><scope>jenes::algorithms::SimpleGA&lt; T extends Chromosome &gt;</scope><name>getMutationProbability</name></member>
+      <member refid="classjenes_1_1algorithms_1_1_simple_g_a_3_01_t_01extends_01_chromosome_01_4_1af1b77602d4f2440c2abde1f8a9d336e7" prot="public" virt="non-virtual"><scope>jenes::algorithms::SimpleGA&lt; T extends Chromosome &gt;</scope><name>getMutator</name></member>
+      <member refid="classjenes_1_1algorithms_1_1_simple_g_a_3_01_t_01extends_01_chromosome_01_4_1ac1b67ab65d05c07bd67aa8b072c965d7" prot="public" virt="non-virtual"><scope>jenes::algorithms::SimpleGA&lt; T extends Chromosome &gt;</scope><name>getSelector</name></member>
+      <member refid="classjenes_1_1algorithms_1_1_simple_g_a_3_01_t_01extends_01_chromosome_01_4_1a24f14989c009c5422614686c8fc49248" prot="private" virt="non-virtual"><scope>jenes::algorithms::SimpleGA&lt; T extends Chromosome &gt;</scope><name>mutator</name></member>
+      <member refid="classjenes_1_1algorithms_1_1_simple_g_a_3_01_t_01extends_01_chromosome_01_4_1a2490679bf43c4342c2932181788af8f3" prot="private" virt="non-virtual"><scope>jenes::algorithms::SimpleGA&lt; T extends Chromosome &gt;</scope><name>selector</name></member>
+      <member refid="classjenes_1_1algorithms_1_1_simple_g_a_3_01_t_01extends_01_chromosome_01_4_1a639f43de8d71ae3e28077c4510eae64e" prot="public" virt="non-virtual"><scope>jenes::algorithms::SimpleGA&lt; T extends Chromosome &gt;</scope><name>setCrossoverProbability</name></member>
+      <member refid="classjenes_1_1algorithms_1_1_simple_g_a_3_01_t_01extends_01_chromosome_01_4_1a4051bc6ee99fe2450c9dbad64c7ab594" prot="public" virt="non-virtual"><scope>jenes::algorithms::SimpleGA&lt; T extends Chromosome &gt;</scope><name>setMaxIllegalRate</name></member>
+      <member refid="classjenes_1_1algorithms_1_1_simple_g_a_3_01_t_01extends_01_chromosome_01_4_1a2ce1369d995dc328caa6b542e24e55f6" prot="public" virt="non-virtual"><scope>jenes::algorithms::SimpleGA&lt; T extends Chromosome &gt;</scope><name>setMutationProbability</name></member>
+      <member refid="classjenes_1_1algorithms_1_1_simple_g_a_3_01_t_01extends_01_chromosome_01_4_1a706a621e21564095963264fdfd2eba32" prot="public" virt="non-virtual"><scope>jenes::algorithms::SimpleGA&lt; T extends Chromosome &gt;</scope><name>SimpleGA</name></member>
+      <member refid="classjenes_1_1algorithms_1_1_simple_g_a_3_01_t_01extends_01_chromosome_01_4_1a44ee069daad5aaed809b2d83303052e0" prot="public" virt="non-virtual"><scope>jenes::algorithms::SimpleGA&lt; T extends Chromosome &gt;</scope><name>SimpleGA</name></member>
+      <member refid="classjenes_1_1algorithms_1_1_simple_g_a_3_01_t_01extends_01_chromosome_01_4_1acbdaae378fd9263001e6393cb132bda4" prot="public" virt="non-virtual"><scope>jenes::algorithms::SimpleGA&lt; T extends Chromosome &gt;</scope><name>SimpleGA</name></member>
+      <member refid="classjenes_1_1algorithms_1_1_simple_g_a_3_01_t_01extends_01_chromosome_01_4_1a9382ccbfaed16b3dbf4feeb23afa71e8" prot="public" virt="non-virtual"><scope>jenes::algorithms::SimpleGA&lt; T extends Chromosome &gt;</scope><name>SimpleGA</name></member>
+      <member refid="classjenes_1_1algorithms_1_1_simple_g_a_3_01_t_01extends_01_chromosome_01_4_1ae4d2d54f7d376688e0ab0eabfa85a7e2" prot="public" virt="non-virtual"><scope>jenes::algorithms::SimpleGA&lt; T extends Chromosome &gt;</scope><name>SimpleGA</name></member>
+      <member refid="classjenes_1_1algorithms_1_1_simple_g_a_3_01_t_01extends_01_chromosome_01_4_1aeb160f73fc3a8937c7d8da9140f57e38" prot="public" virt="non-virtual"><scope>jenes::algorithms::SimpleGA&lt; T extends Chromosome &gt;</scope><name>SimpleGA</name></member>
+      <member refid="classjenes_1_1algorithms_1_1_simple_g_a_3_01_t_01extends_01_chromosome_01_4_1ada2d647b3a202f4e6bb7d1b1c894791b" prot="public" virt="non-virtual"><scope>jenes::algorithms::SimpleGA&lt; T extends Chromosome &gt;</scope><name>SimpleGA</name></member>
+      <member refid="classjenes_1_1algorithms_1_1_simple_g_a_3_01_t_01extends_01_chromosome_01_4_1a3f8162d093934286fd3963580f380d9a" prot="public" virt="non-virtual"><scope>jenes::algorithms::SimpleGA&lt; T extends Chromosome &gt;</scope><name>SimpleGA</name></member>
+      <member refid="classjenes_1_1algorithms_1_1_simple_g_a_3_01_t_01extends_01_chromosome_01_4_1ac26dcb81ef937ded77152a908ac55699" prot="public" virt="non-virtual"><scope>jenes::algorithms::SimpleGA&lt; T extends Chromosome &gt;</scope><name>SimpleGA</name></member>
+      <member refid="classjenes_1_1algorithms_1_1_simple_g_a_3_01_t_01extends_01_chromosome_01_4_1ad6c74ec603e7fbc1610f41ad9ee63981" prot="public" virt="non-virtual"><scope>jenes::algorithms::SimpleGA&lt; T extends Chromosome &gt;</scope><name>SimpleGA</name></member>
+      <member refid="classjenes_1_1algorithms_1_1_simple_g_a_3_01_t_01extends_01_chromosome_01_4_1a659f0192b24b5d8af22f73f190b67867" prot="public" virt="non-virtual"><scope>jenes::algorithms::SimpleGA&lt; T extends Chromosome &gt;</scope><name>SimpleGA</name></member>
+      <member refid="classjenes_1_1algorithms_1_1_simple_g_a_3_01_t_01extends_01_chromosome_01_4_1ac23644006d7eb399fd4d26e77da8826d" prot="public" virt="non-virtual"><scope>jenes::algorithms::SimpleGA&lt; T extends Chromosome &gt;</scope><name>SimpleGA</name></member>
+      <member refid="classjenes_1_1algorithms_1_1_simple_g_a_3_01_t_01extends_01_chromosome_01_4_1a068fcb44d18c3204fbb9b13daebd4f6d" prot="public" virt="non-virtual"><scope>jenes::algorithms::SimpleGA&lt; T extends Chromosome &gt;</scope><name>SimpleGA</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

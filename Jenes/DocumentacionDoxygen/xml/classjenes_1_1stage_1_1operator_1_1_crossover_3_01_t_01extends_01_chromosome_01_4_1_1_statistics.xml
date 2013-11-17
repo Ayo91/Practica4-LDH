@@ -1,0 +1,94 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="classjenes_1_1stage_1_1operator_1_1_crossover_3_01_t_01extends_01_chromosome_01_4_1_1_statistics" kind="class" prot="public">
+    <compoundname>jenes::stage::operator::Crossover&lt; T extends Chromosome &gt;::Statistics</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">OperatorStatistics&lt; T &gt;</basecompoundref>
+      <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="classjenes_1_1stage_1_1operator_1_1_crossover_3_01_t_01extends_01_chromosome_01_4_1_1_statistics_1abf1983cc628b3283b942dc68cc871bbc" prot="protected" static="no" mutable="no">
+        <type>long</type>
+        <definition>long jenes.stage.operator.Crossover&lt; T extends Chromosome &gt;.Statistics.crossovers</definition>
+        <argsstring></argsstring>
+        <name>crossovers</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Number of crossovers performed. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/operator/Crossover.java" line="154" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/operator/Crossover.java" bodystart="154" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classjenes_1_1stage_1_1operator_1_1_crossover_3_01_t_01extends_01_chromosome_01_4_1_1_statistics_1a6181ee46b3e760f5d440e758d95db04b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>final long</type>
+        <definition>final long jenes.stage.operator.Crossover&lt; T extends Chromosome &gt;.Statistics.getCrossovers</definition>
+        <argsstring>()</argsstring>
+        <name>getCrossovers</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns the number of crossovers performed.</para><para><simplesect kind="return"><para>the number of crossovers performed. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/operator/Crossover.java" line="161" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/operator/Crossover.java" bodystart="161" bodyend="163"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classjenes_1_1stage_1_1operator_1_1_crossover_3_01_t_01extends_01_chromosome_01_4_1_1_statistics_1ae352590e85b1d1d821b0912a770f257a" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>final void</type>
+        <definition>final void jenes.stage.operator.Crossover&lt; T extends Chromosome &gt;.Statistics.fill</definition>
+        <argsstring>(final Operator&lt; T &gt;.Statistics stats)</argsstring>
+        <name>fill</name>
+        <param>
+          <type>final Operator&lt; T &gt;.Statistics</type>
+          <declname>stats</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/operator/Crossover.java" line="166" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/operator/Crossover.java" bodystart="166" bodyend="169"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>A statistics object holding the number of crossover performed and the time spent to execute them. The statistics is available by two methods: <ref refid="" kindref="compound">Crossover#getStatistics()</ref> to have a new statistics setted according to the crossover state or <ref refid="" kindref="compound">Crossover#updateStatistics(jenes.stage.operator.Operator.Statistics)</ref> to modify an existing statistics according to the crossover state. </para><para>Esamples of use are showed below. </para><para><blockquote><para><preformatted>
+Crossover.Statistics stat = a_crossover.getStatistics();
+</preformatted></para></blockquote></para><para>returns a new statistics object setted according to the specified crossover state. </para><para><blockquote><para><preformatted>
+Crossover.Statistics stat = new Crossover.Statistics();
+a_crossover.updateStatistics(stat);
+</preformatted></para></blockquote></para><para>modifies the existing statistics according to the specified crossover state. </para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="635">
+        <label>OperatorStatistics&lt; T &gt;</label>
+      </node>
+      <node id="634">
+        <label>jenes.stage.operator.Crossover&lt; T extends Chromosome &gt;.Statistics</label>
+        <link refid="classjenes_1_1stage_1_1operator_1_1_crossover_3_01_t_01extends_01_chromosome_01_4_1_1_statistics"/>
+        <childnode refid="635" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="637">
+        <label>OperatorStatistics&lt; T &gt;</label>
+      </node>
+      <node id="636">
+        <label>jenes.stage.operator.Crossover&lt; T extends Chromosome &gt;.Statistics</label>
+        <link refid="classjenes_1_1stage_1_1operator_1_1_crossover_3_01_t_01extends_01_chromosome_01_4_1_1_statistics"/>
+        <childnode refid="637" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/operator/Crossover.java" line="152" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/operator/Crossover.java" bodystart="152" bodyend="170"/>
+    <listofallmembers>
+      <member refid="classjenes_1_1stage_1_1operator_1_1_crossover_3_01_t_01extends_01_chromosome_01_4_1_1_statistics_1abf1983cc628b3283b942dc68cc871bbc" prot="protected" virt="non-virtual"><scope>jenes::stage::operator::Crossover&lt; T extends Chromosome &gt;::Statistics</scope><name>crossovers</name></member>
+      <member refid="classjenes_1_1stage_1_1operator_1_1_crossover_3_01_t_01extends_01_chromosome_01_4_1_1_statistics_1ae352590e85b1d1d821b0912a770f257a" prot="protected" virt="non-virtual"><scope>jenes::stage::operator::Crossover&lt; T extends Chromosome &gt;::Statistics</scope><name>fill</name></member>
+      <member refid="classjenes_1_1stage_1_1operator_1_1_crossover_3_01_t_01extends_01_chromosome_01_4_1_1_statistics_1a6181ee46b3e760f5d440e758d95db04b" prot="public" virt="non-virtual"><scope>jenes::stage::operator::Crossover&lt; T extends Chromosome &gt;::Statistics</scope><name>getCrossovers</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

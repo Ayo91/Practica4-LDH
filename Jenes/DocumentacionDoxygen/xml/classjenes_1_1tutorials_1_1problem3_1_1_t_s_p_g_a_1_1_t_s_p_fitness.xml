@@ -1,0 +1,70 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="classjenes_1_1tutorials_1_1problem3_1_1_t_s_p_g_a_1_1_t_s_p_fitness" kind="class" prot="public">
+    <compoundname>jenes::tutorials::problem3::TSPGA::TSPFitness</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">jenes::population::Fitness&lt; IntegerChromosome &gt;</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classjenes_1_1tutorials_1_1problem3_1_1_t_s_p_g_a_1_1_t_s_p_fitness_1a6ddf24c28d9f7acbe66805e67a7f0f04" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>jenes.tutorials.problem3.TSPGA.TSPFitness.TSPFitness</definition>
+        <argsstring>()</argsstring>
+        <name>TSPFitness</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/problem3/TSPGA.java" line="62" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/problem3/TSPGA.java" bodystart="62" bodyend="64"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1tutorials_1_1problem3_1_1_t_s_p_g_a_1_1_t_s_p_fitness_1a8f00a10809ec33af08b8cde4d77810a5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void jenes.tutorials.problem3.TSPGA.TSPFitness.evaluate</definition>
+        <argsstring>(Individual&lt; IntegerChromosome &gt; individual)</argsstring>
+        <name>evaluate</name>
+        <param>
+          <type>Individual&lt; <ref refid="classjenes_1_1chromosome_1_1_integer_chromosome" kindref="compound">IntegerChromosome</ref> &gt;</type>
+          <declname>individual</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/problem3/TSPGA.java" line="67" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/problem3/TSPGA.java" bodystart="67" bodyend="79"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="724">
+        <label>jenes.tutorials.problem3.TSPGA.TSPFitness</label>
+        <link refid="classjenes_1_1tutorials_1_1problem3_1_1_t_s_p_g_a_1_1_t_s_p_fitness"/>
+        <childnode refid="725" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="725">
+        <label>jenes::population::Fitness&lt; IntegerChromosome &gt;</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="726">
+        <label>jenes.tutorials.problem3.TSPGA.TSPFitness</label>
+        <link refid="classjenes_1_1tutorials_1_1problem3_1_1_t_s_p_g_a_1_1_t_s_p_fitness"/>
+        <childnode refid="727" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="727">
+        <label>jenes::population::Fitness&lt; IntegerChromosome &gt;</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/problem3/TSPGA.java" line="60" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/problem3/TSPGA.java" bodystart="60" bodyend="80"/>
+    <listofallmembers>
+      <member refid="classjenes_1_1tutorials_1_1problem3_1_1_t_s_p_g_a_1_1_t_s_p_fitness_1a8f00a10809ec33af08b8cde4d77810a5" prot="public" virt="non-virtual"><scope>jenes::tutorials::problem3::TSPGA::TSPFitness</scope><name>evaluate</name></member>
+      <member refid="classjenes_1_1tutorials_1_1problem3_1_1_t_s_p_g_a_1_1_t_s_p_fitness_1a6ddf24c28d9f7acbe66805e67a7f0f04" prot="public" virt="non-virtual"><scope>jenes::tutorials::problem3::TSPGA::TSPFitness</scope><name>TSPFitness</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

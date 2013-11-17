@@ -1,0 +1,85 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="classjenes_1_1performance_1_1_statistics" kind="class" prot="public">
+    <compoundname>jenes::performance::Statistics</compoundname>
+    <innerclass refid="classjenes_1_1performance_1_1_statistics_1_1_event" prot="public">jenes::performance::Statistics::Event</innerclass>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classjenes_1_1performance_1_1_statistics_1a5886aef68f0b7857c49c4c8732da8260" prot="private" static="no" mutable="no">
+        <type>ArrayList&lt; <ref refid="classjenes_1_1performance_1_1_statistics_1_1_event" kindref="compound">Event</ref> &gt;</type>
+        <definition>ArrayList&lt;Event&gt; jenes.performance.Statistics.events</definition>
+        <argsstring></argsstring>
+        <name>events</name>
+        <initializer>= new ArrayList&lt;<ref refid="classjenes_1_1performance_1_1_statistics_1_1_event" kindref="compound">Event</ref>&gt;()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/performance/Statistics.java" line="55" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/performance/Statistics.java" bodystart="55" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classjenes_1_1performance_1_1_statistics_1a99898ca71f17c19122bad26663e1fad5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void jenes.performance.Statistics.mark</definition>
+        <argsstring>(String label, int generation)</argsstring>
+        <name>mark</name>
+        <param>
+          <type>String</type>
+          <declname>label</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>generation</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/performance/Statistics.java" line="57" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/performance/Statistics.java" bodystart="57" bodyend="65"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1performance_1_1_statistics_1a3d1d4790dfe7b6e6d59fb5d1027daec7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void jenes.performance.Statistics.save</definition>
+        <argsstring>(String file)</argsstring>
+        <name>save</name>
+        <param>
+          <type>String</type>
+          <declname>file</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/performance/Statistics.java" line="67" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/performance/Statistics.java" bodystart="67" bodyend="79"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="632">
+        <label>jenes.performance.Statistics</label>
+        <link refid="classjenes_1_1performance_1_1_statistics"/>
+        <childnode refid="633" relation="usage">
+          <edgelabel>events</edgelabel>
+        </childnode>
+      </node>
+      <node id="633">
+        <label>ArrayList&lt; jenes.performance.Statistics.Event &gt;</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/performance/Statistics.java" line="26" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/performance/Statistics.java" bodystart="26" bodyend="80"/>
+    <listofallmembers>
+      <member refid="classjenes_1_1performance_1_1_statistics_1a5886aef68f0b7857c49c4c8732da8260" prot="private" virt="non-virtual"><scope>jenes::performance::Statistics</scope><name>events</name></member>
+      <member refid="classjenes_1_1performance_1_1_statistics_1a99898ca71f17c19122bad26663e1fad5" prot="public" virt="non-virtual"><scope>jenes::performance::Statistics</scope><name>mark</name></member>
+      <member refid="classjenes_1_1performance_1_1_statistics_1a3d1d4790dfe7b6e6d59fb5d1027daec7" prot="public" virt="non-virtual"><scope>jenes::performance::Statistics</scope><name>save</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

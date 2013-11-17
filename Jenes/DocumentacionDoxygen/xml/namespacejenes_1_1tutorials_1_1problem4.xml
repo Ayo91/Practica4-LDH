@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="namespacejenes_1_1tutorials_1_1problem4" kind="namespace">
+    <compoundname>jenes::tutorials::problem4</compoundname>
+    <innerclass refid="classjenes_1_1tutorials_1_1problem4_1_1_entropy_fitness" prot="public">jenes::tutorials::problem4::EntropyFitness</innerclass>
+    <innerclass refid="classjenes_1_1tutorials_1_1problem4_1_1_entropy_problem" prot="public">jenes::tutorials::problem4::EntropyProblem</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/problem4/EntropyFitness.java" line="19" column="1"/>
+  </compounddef>
+</doxygen>

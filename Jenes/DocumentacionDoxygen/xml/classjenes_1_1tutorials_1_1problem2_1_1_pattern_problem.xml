@@ -1,0 +1,241 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="classjenes_1_1tutorials_1_1problem2_1_1_pattern_problem" kind="class" prot="public">
+    <compoundname>jenes::tutorials::problem2::PatternProblem</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">jenes::GenerationEventListener&lt; IntegerChromosome &gt;</basecompoundref>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="classjenes_1_1tutorials_1_1problem2_1_1_pattern_problem_1a472c770e5238935d4495ede668dc019c" prot="private" static="yes" mutable="no">
+        <type>int</type>
+        <definition>int jenes.tutorials.problem2.PatternProblem.POPULATION_SIZE</definition>
+        <argsstring></argsstring>
+        <name>POPULATION_SIZE</name>
+        <initializer>= 100</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/problem2/PatternProblem.java" line="53" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/problem2/PatternProblem.java" bodystart="53" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classjenes_1_1tutorials_1_1problem2_1_1_pattern_problem_1ad6c4c924d84e800837c7d9dc14e54cb7" prot="private" static="yes" mutable="no">
+        <type>int</type>
+        <definition>int jenes.tutorials.problem2.PatternProblem.CHROMOSOME_LENGTH</definition>
+        <argsstring></argsstring>
+        <name>CHROMOSOME_LENGTH</name>
+        <initializer>= 10</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/problem2/PatternProblem.java" line="54" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/problem2/PatternProblem.java" bodystart="54" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classjenes_1_1tutorials_1_1problem2_1_1_pattern_problem_1aa47cea169d4f1fff3129d36e6b189443" prot="private" static="yes" mutable="no">
+        <type>int</type>
+        <definition>int jenes.tutorials.problem2.PatternProblem.GENERATION_LIMIT</definition>
+        <argsstring></argsstring>
+        <name>GENERATION_LIMIT</name>
+        <initializer>= 1000</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/problem2/PatternProblem.java" line="55" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/problem2/PatternProblem.java" bodystart="55" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classjenes_1_1tutorials_1_1problem2_1_1_pattern_problem_1afe5dfaf22b9bb517a24c95b3101b3e0d" prot="private" static="yes" mutable="no">
+        <type>int</type>
+        <definition>int jenes.tutorials.problem2.PatternProblem.MAX_INT</definition>
+        <argsstring></argsstring>
+        <name>MAX_INT</name>
+        <initializer>= 49</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/problem2/PatternProblem.java" line="56" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/problem2/PatternProblem.java" bodystart="56" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classjenes_1_1tutorials_1_1problem2_1_1_pattern_problem_1a038dad1059412959497267f6dc4ddf80" prot="private" static="no" mutable="no">
+        <type><ref refid="classjenes_1_1tutorials_1_1problem2_1_1_pattern_g_a" kindref="compound">PatternGA</ref></type>
+        <definition>PatternGA jenes.tutorials.problem2.PatternProblem.algorithm</definition>
+        <argsstring></argsstring>
+        <name>algorithm</name>
+        <initializer>= null</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/problem2/PatternProblem.java" line="58" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/problem2/PatternProblem.java" bodystart="58" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classjenes_1_1tutorials_1_1problem2_1_1_pattern_problem_1a9ee82a524430805d9d04cfbb07d81148" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>jenes.tutorials.problem2.PatternProblem.PatternProblem</definition>
+        <argsstring>()</argsstring>
+        <name>PatternProblem</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/problem2/PatternProblem.java" line="60" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/problem2/PatternProblem.java" bodystart="60" bodyend="85"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1tutorials_1_1problem2_1_1_pattern_problem_1ae9d7568d540e52512e2e6ce589c624bd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void jenes.tutorials.problem2.PatternProblem.run</definition>
+        <argsstring>(int[] target, int precision)</argsstring>
+        <name>run</name>
+        <param>
+          <type>int[]</type>
+          <declname>target</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>precision</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/problem2/PatternProblem.java" line="87" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/problem2/PatternProblem.java" bodystart="87" bodyend="109"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1tutorials_1_1problem2_1_1_pattern_problem_1a32a0d783caa7bc42a8bb8b96ce0e4fe2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void jenes.tutorials.problem2.PatternProblem.onGeneration</definition>
+        <argsstring>(GeneticAlgorithm ga, long time)</argsstring>
+        <name>onGeneration</name>
+        <param>
+          <type>GeneticAlgorithm</type>
+          <declname>ga</declname>
+        </param>
+        <param>
+          <type>long</type>
+          <declname>time</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/problem2/PatternProblem.java" line="112" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/problem2/PatternProblem.java" bodystart="112" bodyend="118"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="classjenes_1_1tutorials_1_1problem2_1_1_pattern_problem_1a25b4045900c218b6c106d0e108c5bce6" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void jenes.tutorials.problem2.PatternProblem.randomize</definition>
+        <argsstring>(int[] sample)</argsstring>
+        <name>randomize</name>
+        <param>
+          <type>int[]</type>
+          <declname>sample</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/problem2/PatternProblem.java" line="120" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/problem2/PatternProblem.java" bodystart="120" bodyend="123"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classjenes_1_1tutorials_1_1problem2_1_1_pattern_problem_1a194be818fd81bffd0167012016a7035c" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void jenes.tutorials.problem2.PatternProblem.main</definition>
+        <argsstring>(String[] args)</argsstring>
+        <name>main</name>
+        <param>
+          <type>String[]</type>
+          <declname>args</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/problem2/PatternProblem.java" line="125" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/problem2/PatternProblem.java" bodystart="125" bodyend="145"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Tutorial showing how to extend <computeroutput>GeneticAlgorithm</computeroutput> and how to use the flexible and configurable breeding structure in Jenes. The problem consists in searching a pattern of integers with a given precision. Solutions flow through two different crossovers in parallel. Some are processed by a single point crossover, the other by a double point crossover. After solutions are mutated.</para><para>This is the main class that specifies the problem.</para><para><simplesect kind="version"><para>2.0 </para></simplesect>
+<simplesect kind="since"><para>1.0 </para></simplesect>
+</para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="493">
+        <label>jenes::GenerationEventListener&lt; IntegerChromosome &gt;</label>
+      </node>
+      <node id="492">
+        <label>jenes.tutorials.problem2.PatternProblem</label>
+        <link refid="classjenes_1_1tutorials_1_1problem2_1_1_pattern_problem"/>
+        <childnode refid="493" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="497">
+        <label>jenes::GeneticAlgorithm&lt; IntegerChromosome &gt;</label>
+      </node>
+      <node id="496">
+        <label>jenes.tutorials.problem2.PatternGA</label>
+        <link refid="classjenes_1_1tutorials_1_1problem2_1_1_pattern_g_a"/>
+        <childnode refid="497" relation="public-inheritance">
+        </childnode>
+        <childnode refid="498" relation="usage">
+          <edgelabel>fitness</edgelabel>
+        </childnode>
+      </node>
+      <node id="498">
+        <label>jenes.tutorials.problem2.PatternGA.PatternFitness</label>
+        <link refid="classjenes_1_1tutorials_1_1problem2_1_1_pattern_g_a_1_1_pattern_fitness"/>
+        <childnode refid="499" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="495">
+        <label>jenes::GenerationEventListener&lt; IntegerChromosome &gt;</label>
+      </node>
+      <node id="494">
+        <label>jenes.tutorials.problem2.PatternProblem</label>
+        <link refid="classjenes_1_1tutorials_1_1problem2_1_1_pattern_problem"/>
+        <childnode refid="495" relation="public-inheritance">
+        </childnode>
+        <childnode refid="496" relation="usage">
+          <edgelabel>algorithm</edgelabel>
+        </childnode>
+      </node>
+      <node id="499">
+        <label>jenes::population::Fitness&lt; IntegerChromosome &gt;</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/problem2/PatternProblem.java" line="51" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/problem2/PatternProblem.java" bodystart="51" bodyend="147"/>
+    <listofallmembers>
+      <member refid="classjenes_1_1tutorials_1_1problem2_1_1_pattern_problem_1a038dad1059412959497267f6dc4ddf80" prot="private" virt="non-virtual"><scope>jenes::tutorials::problem2::PatternProblem</scope><name>algorithm</name></member>
+      <member refid="classjenes_1_1tutorials_1_1problem2_1_1_pattern_problem_1ad6c4c924d84e800837c7d9dc14e54cb7" prot="private" virt="non-virtual"><scope>jenes::tutorials::problem2::PatternProblem</scope><name>CHROMOSOME_LENGTH</name></member>
+      <member refid="classjenes_1_1tutorials_1_1problem2_1_1_pattern_problem_1aa47cea169d4f1fff3129d36e6b189443" prot="private" virt="non-virtual"><scope>jenes::tutorials::problem2::PatternProblem</scope><name>GENERATION_LIMIT</name></member>
+      <member refid="classjenes_1_1tutorials_1_1problem2_1_1_pattern_problem_1a194be818fd81bffd0167012016a7035c" prot="public" virt="non-virtual"><scope>jenes::tutorials::problem2::PatternProblem</scope><name>main</name></member>
+      <member refid="classjenes_1_1tutorials_1_1problem2_1_1_pattern_problem_1afe5dfaf22b9bb517a24c95b3101b3e0d" prot="private" virt="non-virtual"><scope>jenes::tutorials::problem2::PatternProblem</scope><name>MAX_INT</name></member>
+      <member refid="classjenes_1_1tutorials_1_1problem2_1_1_pattern_problem_1a32a0d783caa7bc42a8bb8b96ce0e4fe2" prot="public" virt="non-virtual"><scope>jenes::tutorials::problem2::PatternProblem</scope><name>onGeneration</name></member>
+      <member refid="classjenes_1_1tutorials_1_1problem2_1_1_pattern_problem_1a9ee82a524430805d9d04cfbb07d81148" prot="public" virt="non-virtual"><scope>jenes::tutorials::problem2::PatternProblem</scope><name>PatternProblem</name></member>
+      <member refid="classjenes_1_1tutorials_1_1problem2_1_1_pattern_problem_1a472c770e5238935d4495ede668dc019c" prot="private" virt="non-virtual"><scope>jenes::tutorials::problem2::PatternProblem</scope><name>POPULATION_SIZE</name></member>
+      <member refid="classjenes_1_1tutorials_1_1problem2_1_1_pattern_problem_1a25b4045900c218b6c106d0e108c5bce6" prot="private" virt="non-virtual"><scope>jenes::tutorials::problem2::PatternProblem</scope><name>randomize</name></member>
+      <member refid="classjenes_1_1tutorials_1_1problem2_1_1_pattern_problem_1ae9d7568d540e52512e2e6ce589c624bd" prot="public" virt="non-virtual"><scope>jenes::tutorials::problem2::PatternProblem</scope><name>run</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

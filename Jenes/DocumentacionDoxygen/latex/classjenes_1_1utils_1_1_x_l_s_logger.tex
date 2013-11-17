@@ -1,0 +1,439 @@
+\hypertarget{classjenes_1_1utils_1_1_x_l_s_logger}{\section{jenes.\-utils.\-X\-L\-S\-Logger Class Reference}
+\label{classjenes_1_1utils_1_1_x_l_s_logger}\index{jenes.\-utils.\-X\-L\-S\-Logger@{jenes.\-utils.\-X\-L\-S\-Logger}}
+}
+Inheritance diagram for jenes.\-utils.\-X\-L\-S\-Logger\-:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{classjenes_1_1utils_1_1_x_l_s_logger}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classjenes_1_1utils_1_1_x_l_s_logger_a1fa625f6c332aca9178b1c7a4eb963d8}{X\-L\-S\-Logger} (String\mbox{[}$\,$\mbox{]} \hyperlink{classjenes_1_1utils_1_1_abstract_logger_a3a2030876857a0512fae7e0ad400c570}{schema})  throws I\-O\-Exception 
+\item 
+\hyperlink{classjenes_1_1utils_1_1_x_l_s_logger_a256b5ddf3beaa1eedb2290b52bb1a845}{X\-L\-S\-Logger} (String\mbox{[}$\,$\mbox{]} \hyperlink{classjenes_1_1utils_1_1_abstract_logger_a3a2030876857a0512fae7e0ad400c570}{schema}, String \hyperlink{classjenes_1_1utils_1_1_x_l_s_logger_a326448294f3d41ccfa5b80f496c7580e}{filename})  throws I\-O\-Exception 
+\item 
+\hyperlink{classjenes_1_1utils_1_1_x_l_s_logger_ac43b3385840e86a2ad4acd5040e8326b}{X\-L\-S\-Logger} (String\mbox{[}$\,$\mbox{]} \hyperlink{classjenes_1_1utils_1_1_abstract_logger_a3a2030876857a0512fae7e0ad400c570}{schema}, String \hyperlink{classjenes_1_1utils_1_1_x_l_s_logger_a326448294f3d41ccfa5b80f496c7580e}{filename}, int from)  throws I\-O\-Exception 
+\item 
+\hyperlink{classjenes_1_1utils_1_1_x_l_s_logger_a2e438a48213dd4e1773c380d7f9d7e4b}{X\-L\-S\-Logger} (String\mbox{[}$\,$\mbox{]} \hyperlink{classjenes_1_1utils_1_1_abstract_logger_a3a2030876857a0512fae7e0ad400c570}{schema}, String \hyperlink{classjenes_1_1utils_1_1_x_l_s_logger_a326448294f3d41ccfa5b80f496c7580e}{filename}, String template)  throws I\-O\-Exception 
+\item 
+int \hyperlink{classjenes_1_1utils_1_1_x_l_s_logger_a60e8ee28d3d3305e085726026e09cfdc}{get\-Line} ()
+\item 
+void \hyperlink{classjenes_1_1utils_1_1_x_l_s_logger_a2f9ce5372263fadce99a863149f3cb55}{set\-Line} (int \hyperlink{classjenes_1_1utils_1_1_x_l_s_logger_a2a9f48e370b1db8e0b978181bb7c5fec}{line})
+\item 
+Writable\-Workbook \hyperlink{classjenes_1_1utils_1_1_x_l_s_logger_ab84e4c5e6518902f710cd3c3cc337f3d}{get\-Workbook} ()
+\end{DoxyCompactItemize}
+\subsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{classjenes_1_1utils_1_1_x_l_s_logger_ae6b3840ad6be8bdc558efaf6077d4ae4}{store} ()
+\item 
+void \hyperlink{classjenes_1_1utils_1_1_x_l_s_logger_a54c54393bf5a31442ebfc10517dfceea}{do\-Save} ()
+\item 
+void \hyperlink{classjenes_1_1utils_1_1_x_l_s_logger_acf58ddaa6873bcf626c9d24064a89b73}{do\-Close} ()
+\end{DoxyCompactItemize}
+\subsection*{Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{classjenes_1_1utils_1_1_x_l_s_logger_a9e141f15afe414a355c0ed0761e3fa33}{map} (String\mbox{[}$\,$\mbox{]} \hyperlink{classjenes_1_1utils_1_1_abstract_logger_a3a2030876857a0512fae7e0ad400c570}{schema})
+\item 
+void \hyperlink{classjenes_1_1utils_1_1_x_l_s_logger_aec0462235a0576302663ffe5ebebe302}{create} (String\mbox{[}$\,$\mbox{]} \hyperlink{classjenes_1_1utils_1_1_abstract_logger_a3a2030876857a0512fae7e0ad400c570}{schema})
+\item 
+Writable\-Cell \hyperlink{classjenes_1_1utils_1_1_x_l_s_logger_acc87ec46a39bd28e8fe95aa6866718c7}{fill\-Cell} (Object value, String key, int current\-Line, int c, Writable\-Sheet sh, boolean value\-As\-Array)  throws Write\-Exception 
+\item 
+void \hyperlink{classjenes_1_1utils_1_1_x_l_s_logger_ada2b2a6d9fdbd1daa9d719761dcd58fa}{alter\-Schema} (Writable\-Sheet sh, int start\-Index, int length)
+\item 
+void \hyperlink{classjenes_1_1utils_1_1_x_l_s_logger_a5e79e26762d4c866d71ef2f6e9a3a5f3}{put\-In\-Columns} (Writable\-Sheet sh, String key, int col)
+\item 
+Writable\-Sheet \hyperlink{classjenes_1_1utils_1_1_x_l_s_logger_a0de0d0ceef137f794cf86573b856b2dd}{edit\-Other\-Sheet} (String key, int columns, Writable\-Cell...\-cells)  throws Write\-Exception 
+\item 
+void \hyperlink{classjenes_1_1utils_1_1_x_l_s_logger_afda0752f2053af091fcfdc511fd674a7}{remove\-Column\-From\-First\-Sheet} (String key, Writable\-Sheet sh)
+\item 
+Object\mbox{[}$\,$\mbox{]} \hyperlink{classjenes_1_1utils_1_1_x_l_s_logger_a01f33738abad99c69762482bb43108cf}{cast\-Array} (Object value)
+\end{DoxyCompactItemize}
+\subsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+String \hyperlink{classjenes_1_1utils_1_1_x_l_s_logger_a326448294f3d41ccfa5b80f496c7580e}{filename}
+\item 
+Writable\-Workbook \hyperlink{classjenes_1_1utils_1_1_x_l_s_logger_ad776c22f388365c6f1a8c21e786f9928}{workbook}
+\item 
+int \hyperlink{classjenes_1_1utils_1_1_x_l_s_logger_a2a9f48e370b1db8e0b978181bb7c5fec}{line}
+\item 
+Map$<$ String, Writable\-Sheet $>$ \hyperlink{classjenes_1_1utils_1_1_x_l_s_logger_a06bcfe322f856670f3706369261bc7c7}{sheets} = new Hash\-Map$<$String, Writable\-Sheet$>$()
+\item 
+Map$<$ Writable\-Sheet, Map\\*
+$<$ String, Integer $>$ $>$ \hyperlink{classjenes_1_1utils_1_1_x_l_s_logger_a44fcfb206d65e2af727d24a8d4a0af31}{cols\-Of\-Sheet} = new Hash\-Map$<$Writable\-Sheet, Map$<$String, Integer$>$$>$()
+\item 
+List$<$ Writable\-Cell $>$ \hyperlink{classjenes_1_1utils_1_1_x_l_s_logger_a01b5b1ada6288ddd0f1753ccd5cc6df6}{new\-Cols} = new Array\-List$<$Writable\-Cell$>$()
+\item 
+Map$<$ String, Boolean $>$ \hyperlink{classjenes_1_1utils_1_1_x_l_s_logger_a9951ca6377e81a1c8a3c4b72d6a205f3}{alterable\-Schema} = new Hash\-Map$<$String, Boolean$>$()
+\end{DoxyCompactItemize}
+\subsection*{Static Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+static String \hyperlink{classjenes_1_1utils_1_1_x_l_s_logger_a4fecf837647f44b8572a68f4cdedb458}{S\-C\-O\-R\-E\-S\-\_\-\-L\-A\-B\-E\-L} = \char`\"{}Scores\char`\"{}
+\item 
+static String \hyperlink{classjenes_1_1utils_1_1_x_l_s_logger_a7308e8bb6eda1c5bf2aef93c2607ce60}{C\-H\-R\-O\-M\-O\-S\-O\-M\-E\-\_\-\-L\-A\-B\-E\-L} = \char`\"{}Chromosome\char`\"{}
+\end{DoxyCompactItemize}
+\subsection*{Additional Inherited Members}
+
+
+\subsection{Detailed Description}
+This class implements a logger based on Excel's X\-L\-S files.
+
+Data are stored in the first column having the data label as header. It does not matter in which sheet. Recording can start from any row. From which row to start recording can be decided at istantiation or execution time.
+
+The class can work with an empty file or with a template provided at instantiation time. Using a template is a helpful with macros and plots, in order to make ready-\/to-\/use reports.
+
+Requires the libray J\-Excel\-Api.
+
+\begin{DoxyVersion}{Version}
+2.\-0 
+\end{DoxyVersion}
+\begin{DoxySince}{Since}
+1.\-3 
+\end{DoxySince}
+
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{classjenes_1_1utils_1_1_x_l_s_logger_a1fa625f6c332aca9178b1c7a4eb963d8}{\index{jenes\-::utils\-::\-X\-L\-S\-Logger@{jenes\-::utils\-::\-X\-L\-S\-Logger}!X\-L\-S\-Logger@{X\-L\-S\-Logger}}
+\index{X\-L\-S\-Logger@{X\-L\-S\-Logger}!jenes::utils::XLSLogger@{jenes\-::utils\-::\-X\-L\-S\-Logger}}
+\subsubsection[{X\-L\-S\-Logger}]{\setlength{\rightskip}{0pt plus 5cm}jenes.\-utils.\-X\-L\-S\-Logger.\-X\-L\-S\-Logger (
+\begin{DoxyParamCaption}
+\item[{String\mbox{[}$\,$\mbox{]}}]{schema}
+\end{DoxyParamCaption}
+) throws I\-O\-Exception}}\label{classjenes_1_1utils_1_1_x_l_s_logger_a1fa625f6c332aca9178b1c7a4eb963d8}
+Istantiates a new logger with a given schema. Data are saved by defualt in the workbook jenes.\-log.\-xls. Recording starts from row 1.
+
+
+\begin{DoxyParams}{Parameters}
+{\em schema} & -\/ the field labels \\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em I\-O\-Exception} & \\
+\hline
+\end{DoxyExceptions}
+\hypertarget{classjenes_1_1utils_1_1_x_l_s_logger_a256b5ddf3beaa1eedb2290b52bb1a845}{\index{jenes\-::utils\-::\-X\-L\-S\-Logger@{jenes\-::utils\-::\-X\-L\-S\-Logger}!X\-L\-S\-Logger@{X\-L\-S\-Logger}}
+\index{X\-L\-S\-Logger@{X\-L\-S\-Logger}!jenes::utils::XLSLogger@{jenes\-::utils\-::\-X\-L\-S\-Logger}}
+\subsubsection[{X\-L\-S\-Logger}]{\setlength{\rightskip}{0pt plus 5cm}jenes.\-utils.\-X\-L\-S\-Logger.\-X\-L\-S\-Logger (
+\begin{DoxyParamCaption}
+\item[{String\mbox{[}$\,$\mbox{]}}]{schema, }
+\item[{String}]{filename}
+\end{DoxyParamCaption}
+) throws I\-O\-Exception}}\label{classjenes_1_1utils_1_1_x_l_s_logger_a256b5ddf3beaa1eedb2290b52bb1a845}
+Istantiates a new logger with a given schema. Recording starts from row 1.
+
+
+\begin{DoxyParams}{Parameters}
+{\em schema} & -\/ the field labels \\
+\hline
+{\em filename} & -\/ the workbook filename \\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em I\-O\-Exception} & \\
+\hline
+\end{DoxyExceptions}
+\hypertarget{classjenes_1_1utils_1_1_x_l_s_logger_ac43b3385840e86a2ad4acd5040e8326b}{\index{jenes\-::utils\-::\-X\-L\-S\-Logger@{jenes\-::utils\-::\-X\-L\-S\-Logger}!X\-L\-S\-Logger@{X\-L\-S\-Logger}}
+\index{X\-L\-S\-Logger@{X\-L\-S\-Logger}!jenes::utils::XLSLogger@{jenes\-::utils\-::\-X\-L\-S\-Logger}}
+\subsubsection[{X\-L\-S\-Logger}]{\setlength{\rightskip}{0pt plus 5cm}jenes.\-utils.\-X\-L\-S\-Logger.\-X\-L\-S\-Logger (
+\begin{DoxyParamCaption}
+\item[{String\mbox{[}$\,$\mbox{]}}]{schema, }
+\item[{String}]{filename, }
+\item[{int}]{from}
+\end{DoxyParamCaption}
+) throws I\-O\-Exception}}\label{classjenes_1_1utils_1_1_x_l_s_logger_ac43b3385840e86a2ad4acd5040e8326b}
+Istantiates a new logger with a given schema.
+
+
+\begin{DoxyParams}{Parameters}
+{\em schema} & -\/ the field labels \\
+\hline
+{\em filename} & -\/ the workbook filename \\
+\hline
+{\em from} & -\/ the recording initial row \\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em I\-O\-Exception} & \\
+\hline
+\end{DoxyExceptions}
+\hypertarget{classjenes_1_1utils_1_1_x_l_s_logger_a2e438a48213dd4e1773c380d7f9d7e4b}{\index{jenes\-::utils\-::\-X\-L\-S\-Logger@{jenes\-::utils\-::\-X\-L\-S\-Logger}!X\-L\-S\-Logger@{X\-L\-S\-Logger}}
+\index{X\-L\-S\-Logger@{X\-L\-S\-Logger}!jenes::utils::XLSLogger@{jenes\-::utils\-::\-X\-L\-S\-Logger}}
+\subsubsection[{X\-L\-S\-Logger}]{\setlength{\rightskip}{0pt plus 5cm}jenes.\-utils.\-X\-L\-S\-Logger.\-X\-L\-S\-Logger (
+\begin{DoxyParamCaption}
+\item[{String\mbox{[}$\,$\mbox{]}}]{schema, }
+\item[{String}]{filename, }
+\item[{String}]{template}
+\end{DoxyParamCaption}
+) throws I\-O\-Exception}}\label{classjenes_1_1utils_1_1_x_l_s_logger_a2e438a48213dd4e1773c380d7f9d7e4b}
+Istantiates a new logger with a given schema. Recording starts from row 1.
+
+
+\begin{DoxyParams}{Parameters}
+{\em schema} & -\/ the field labels \\
+\hline
+{\em filename} & -\/ the workbook name \\
+\hline
+{\em template} & -\/ the workbook template \\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em I\-O\-Exception} & \\
+\hline
+\end{DoxyExceptions}
+
+
+\subsection{Member Function Documentation}
+\hypertarget{classjenes_1_1utils_1_1_x_l_s_logger_ada2b2a6d9fdbd1daa9d719761dcd58fa}{\index{jenes\-::utils\-::\-X\-L\-S\-Logger@{jenes\-::utils\-::\-X\-L\-S\-Logger}!alter\-Schema@{alter\-Schema}}
+\index{alter\-Schema@{alter\-Schema}!jenes::utils::XLSLogger@{jenes\-::utils\-::\-X\-L\-S\-Logger}}
+\subsubsection[{alter\-Schema}]{\setlength{\rightskip}{0pt plus 5cm}void jenes.\-utils.\-X\-L\-S\-Logger.\-alter\-Schema (
+\begin{DoxyParamCaption}
+\item[{Writable\-Sheet}]{sh, }
+\item[{int}]{start\-Index, }
+\item[{int}]{length}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [private]}}}\label{classjenes_1_1utils_1_1_x_l_s_logger_ada2b2a6d9fdbd1daa9d719761dcd58fa}
+Alter schema 
+\begin{DoxyParams}{Parameters}
+{\em sh} & the sheet to change \\
+\hline
+{\em start\-Index} & index where to start in adding columns \\
+\hline
+{\em length} & \\
+\hline
+\end{DoxyParams}
+\hypertarget{classjenes_1_1utils_1_1_x_l_s_logger_a01f33738abad99c69762482bb43108cf}{\index{jenes\-::utils\-::\-X\-L\-S\-Logger@{jenes\-::utils\-::\-X\-L\-S\-Logger}!cast\-Array@{cast\-Array}}
+\index{cast\-Array@{cast\-Array}!jenes::utils::XLSLogger@{jenes\-::utils\-::\-X\-L\-S\-Logger}}
+\subsubsection[{cast\-Array}]{\setlength{\rightskip}{0pt plus 5cm}Object \mbox{[}$\,$\mbox{]} jenes.\-utils.\-X\-L\-S\-Logger.\-cast\-Array (
+\begin{DoxyParamCaption}
+\item[{Object}]{value}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [private]}}}\label{classjenes_1_1utils_1_1_x_l_s_logger_a01f33738abad99c69762482bb43108cf}
+
+\begin{DoxyParams}{Parameters}
+{\em value} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+\hypertarget{classjenes_1_1utils_1_1_x_l_s_logger_aec0462235a0576302663ffe5ebebe302}{\index{jenes\-::utils\-::\-X\-L\-S\-Logger@{jenes\-::utils\-::\-X\-L\-S\-Logger}!create@{create}}
+\index{create@{create}!jenes::utils::XLSLogger@{jenes\-::utils\-::\-X\-L\-S\-Logger}}
+\subsubsection[{create}]{\setlength{\rightskip}{0pt plus 5cm}void jenes.\-utils.\-X\-L\-S\-Logger.\-create (
+\begin{DoxyParamCaption}
+\item[{String\mbox{[}$\,$\mbox{]}}]{schema}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [private]}}}\label{classjenes_1_1utils_1_1_x_l_s_logger_aec0462235a0576302663ffe5ebebe302}
+\hypertarget{classjenes_1_1utils_1_1_x_l_s_logger_acf58ddaa6873bcf626c9d24064a89b73}{\index{jenes\-::utils\-::\-X\-L\-S\-Logger@{jenes\-::utils\-::\-X\-L\-S\-Logger}!do\-Close@{do\-Close}}
+\index{do\-Close@{do\-Close}!jenes::utils::XLSLogger@{jenes\-::utils\-::\-X\-L\-S\-Logger}}
+\subsubsection[{do\-Close}]{\setlength{\rightskip}{0pt plus 5cm}void jenes.\-utils.\-X\-L\-S\-Logger.\-do\-Close (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [protected]}, {\ttfamily [virtual]}}}\label{classjenes_1_1utils_1_1_x_l_s_logger_acf58ddaa6873bcf626c9d24064a89b73}
+Closes the logger. Any further log is not allowed. 
+
+Implements \hyperlink{classjenes_1_1utils_1_1_abstract_logger_a5253672b3f3f81287db2fc604ca921a9}{jenes.\-utils.\-Abstract\-Logger}.
+
+\hypertarget{classjenes_1_1utils_1_1_x_l_s_logger_a54c54393bf5a31442ebfc10517dfceea}{\index{jenes\-::utils\-::\-X\-L\-S\-Logger@{jenes\-::utils\-::\-X\-L\-S\-Logger}!do\-Save@{do\-Save}}
+\index{do\-Save@{do\-Save}!jenes::utils::XLSLogger@{jenes\-::utils\-::\-X\-L\-S\-Logger}}
+\subsubsection[{do\-Save}]{\setlength{\rightskip}{0pt plus 5cm}void jenes.\-utils.\-X\-L\-S\-Logger.\-do\-Save (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [protected]}, {\ttfamily [virtual]}}}\label{classjenes_1_1utils_1_1_x_l_s_logger_a54c54393bf5a31442ebfc10517dfceea}
+Saves cached records on media 
+
+Implements \hyperlink{classjenes_1_1utils_1_1_abstract_logger_a41fcd50b050c467fe1b413fc5b49c167}{jenes.\-utils.\-Abstract\-Logger}.
+
+\hypertarget{classjenes_1_1utils_1_1_x_l_s_logger_a0de0d0ceef137f794cf86573b856b2dd}{\index{jenes\-::utils\-::\-X\-L\-S\-Logger@{jenes\-::utils\-::\-X\-L\-S\-Logger}!edit\-Other\-Sheet@{edit\-Other\-Sheet}}
+\index{edit\-Other\-Sheet@{edit\-Other\-Sheet}!jenes::utils::XLSLogger@{jenes\-::utils\-::\-X\-L\-S\-Logger}}
+\subsubsection[{edit\-Other\-Sheet}]{\setlength{\rightskip}{0pt plus 5cm}Writable\-Sheet jenes.\-utils.\-X\-L\-S\-Logger.\-edit\-Other\-Sheet (
+\begin{DoxyParamCaption}
+\item[{String}]{key, }
+\item[{int}]{columns, }
+\item[{Writable\-Cell...}]{cells}
+\end{DoxyParamCaption}
+) throws Write\-Exception\hspace{0.3cm}{\ttfamily [private]}}}\label{classjenes_1_1utils_1_1_x_l_s_logger_a0de0d0ceef137f794cf86573b856b2dd}
+Create a new sheet to log a group 
+\begin{DoxyParams}{Parameters}
+{\em key} & \\
+\hline
+{\em columns} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em Write\-Exception} & \\
+\hline
+\end{DoxyExceptions}
+\hypertarget{classjenes_1_1utils_1_1_x_l_s_logger_acc87ec46a39bd28e8fe95aa6866718c7}{\index{jenes\-::utils\-::\-X\-L\-S\-Logger@{jenes\-::utils\-::\-X\-L\-S\-Logger}!fill\-Cell@{fill\-Cell}}
+\index{fill\-Cell@{fill\-Cell}!jenes::utils::XLSLogger@{jenes\-::utils\-::\-X\-L\-S\-Logger}}
+\subsubsection[{fill\-Cell}]{\setlength{\rightskip}{0pt plus 5cm}Writable\-Cell jenes.\-utils.\-X\-L\-S\-Logger.\-fill\-Cell (
+\begin{DoxyParamCaption}
+\item[{Object}]{value, }
+\item[{String}]{key, }
+\item[{int}]{current\-Line, }
+\item[{int}]{c, }
+\item[{Writable\-Sheet}]{sh, }
+\item[{boolean}]{value\-As\-Array}
+\end{DoxyParamCaption}
+) throws Write\-Exception\hspace{0.3cm}{\ttfamily [private]}}}\label{classjenes_1_1utils_1_1_x_l_s_logger_acc87ec46a39bd28e8fe95aa6866718c7}
+Valorize a cell in the sheet 
+\begin{DoxyParams}{Parameters}
+{\em value} & \\
+\hline
+{\em key} & column name \\
+\hline
+{\em current\-Line} & \\
+\hline
+{\em c} & \\
+\hline
+{\em sh} & \\
+\hline
+{\em value\-As\-Array} & in the case we are storing a multi-\/level array \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em Write\-Exception} & \\
+\hline
+\end{DoxyExceptions}
+\hypertarget{classjenes_1_1utils_1_1_x_l_s_logger_a60e8ee28d3d3305e085726026e09cfdc}{\index{jenes\-::utils\-::\-X\-L\-S\-Logger@{jenes\-::utils\-::\-X\-L\-S\-Logger}!get\-Line@{get\-Line}}
+\index{get\-Line@{get\-Line}!jenes::utils::XLSLogger@{jenes\-::utils\-::\-X\-L\-S\-Logger}}
+\subsubsection[{get\-Line}]{\setlength{\rightskip}{0pt plus 5cm}int jenes.\-utils.\-X\-L\-S\-Logger.\-get\-Line (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classjenes_1_1utils_1_1_x_l_s_logger_a60e8ee28d3d3305e085726026e09cfdc}
+Provides the current recording row
+
+\begin{DoxyReturn}{Returns}
+-\/ recording row 
+\end{DoxyReturn}
+\hypertarget{classjenes_1_1utils_1_1_x_l_s_logger_ab84e4c5e6518902f710cd3c3cc337f3d}{\index{jenes\-::utils\-::\-X\-L\-S\-Logger@{jenes\-::utils\-::\-X\-L\-S\-Logger}!get\-Workbook@{get\-Workbook}}
+\index{get\-Workbook@{get\-Workbook}!jenes::utils::XLSLogger@{jenes\-::utils\-::\-X\-L\-S\-Logger}}
+\subsubsection[{get\-Workbook}]{\setlength{\rightskip}{0pt plus 5cm}Writable\-Workbook jenes.\-utils.\-X\-L\-S\-Logger.\-get\-Workbook (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classjenes_1_1utils_1_1_x_l_s_logger_ab84e4c5e6518902f710cd3c3cc337f3d}
+Rovides the workbook used for writing the statistics. See J\-Excel\-Api documentation for futher information.
+
+\begin{DoxyReturn}{Returns}
+the workbook 
+\end{DoxyReturn}
+\hypertarget{classjenes_1_1utils_1_1_x_l_s_logger_a9e141f15afe414a355c0ed0761e3fa33}{\index{jenes\-::utils\-::\-X\-L\-S\-Logger@{jenes\-::utils\-::\-X\-L\-S\-Logger}!map@{map}}
+\index{map@{map}!jenes::utils::XLSLogger@{jenes\-::utils\-::\-X\-L\-S\-Logger}}
+\subsubsection[{map}]{\setlength{\rightskip}{0pt plus 5cm}void jenes.\-utils.\-X\-L\-S\-Logger.\-map (
+\begin{DoxyParamCaption}
+\item[{String\mbox{[}$\,$\mbox{]}}]{schema}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [private]}}}\label{classjenes_1_1utils_1_1_x_l_s_logger_a9e141f15afe414a355c0ed0761e3fa33}
+\hypertarget{classjenes_1_1utils_1_1_x_l_s_logger_a5e79e26762d4c866d71ef2f6e9a3a5f3}{\index{jenes\-::utils\-::\-X\-L\-S\-Logger@{jenes\-::utils\-::\-X\-L\-S\-Logger}!put\-In\-Columns@{put\-In\-Columns}}
+\index{put\-In\-Columns@{put\-In\-Columns}!jenes::utils::XLSLogger@{jenes\-::utils\-::\-X\-L\-S\-Logger}}
+\subsubsection[{put\-In\-Columns}]{\setlength{\rightskip}{0pt plus 5cm}void jenes.\-utils.\-X\-L\-S\-Logger.\-put\-In\-Columns (
+\begin{DoxyParamCaption}
+\item[{Writable\-Sheet}]{sh, }
+\item[{String}]{key, }
+\item[{int}]{col}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [private]}}}\label{classjenes_1_1utils_1_1_x_l_s_logger_a5e79e26762d4c866d71ef2f6e9a3a5f3}
+Called at the beginning to collect information on the schema 
+\begin{DoxyParams}{Parameters}
+{\em sh} & \\
+\hline
+{\em key} & \\
+\hline
+{\em col} & \\
+\hline
+\end{DoxyParams}
+\hypertarget{classjenes_1_1utils_1_1_x_l_s_logger_afda0752f2053af091fcfdc511fd674a7}{\index{jenes\-::utils\-::\-X\-L\-S\-Logger@{jenes\-::utils\-::\-X\-L\-S\-Logger}!remove\-Column\-From\-First\-Sheet@{remove\-Column\-From\-First\-Sheet}}
+\index{remove\-Column\-From\-First\-Sheet@{remove\-Column\-From\-First\-Sheet}!jenes::utils::XLSLogger@{jenes\-::utils\-::\-X\-L\-S\-Logger}}
+\subsubsection[{remove\-Column\-From\-First\-Sheet}]{\setlength{\rightskip}{0pt plus 5cm}void jenes.\-utils.\-X\-L\-S\-Logger.\-remove\-Column\-From\-First\-Sheet (
+\begin{DoxyParamCaption}
+\item[{String}]{key, }
+\item[{Writable\-Sheet}]{sh}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [private]}}}\label{classjenes_1_1utils_1_1_x_l_s_logger_afda0752f2053af091fcfdc511fd674a7}
+In case of group storing, remove column with the given label... a sheet will be used to log this kind of informations 
+\begin{DoxyParams}{Parameters}
+{\em key} & \\
+\hline
+{\em sh} & \\
+\hline
+\end{DoxyParams}
+\hypertarget{classjenes_1_1utils_1_1_x_l_s_logger_a2f9ce5372263fadce99a863149f3cb55}{\index{jenes\-::utils\-::\-X\-L\-S\-Logger@{jenes\-::utils\-::\-X\-L\-S\-Logger}!set\-Line@{set\-Line}}
+\index{set\-Line@{set\-Line}!jenes::utils::XLSLogger@{jenes\-::utils\-::\-X\-L\-S\-Logger}}
+\subsubsection[{set\-Line}]{\setlength{\rightskip}{0pt plus 5cm}void jenes.\-utils.\-X\-L\-S\-Logger.\-set\-Line (
+\begin{DoxyParamCaption}
+\item[{int}]{line}
+\end{DoxyParamCaption}
+)}}\label{classjenes_1_1utils_1_1_x_l_s_logger_a2f9ce5372263fadce99a863149f3cb55}
+Sets the current recording row at a specified value.
+
+
+\begin{DoxyParams}{Parameters}
+{\em line} & -\/ the new recording row \\
+\hline
+\end{DoxyParams}
+\hypertarget{classjenes_1_1utils_1_1_x_l_s_logger_ae6b3840ad6be8bdc558efaf6077d4ae4}{\index{jenes\-::utils\-::\-X\-L\-S\-Logger@{jenes\-::utils\-::\-X\-L\-S\-Logger}!store@{store}}
+\index{store@{store}!jenes::utils::XLSLogger@{jenes\-::utils\-::\-X\-L\-S\-Logger}}
+\subsubsection[{store}]{\setlength{\rightskip}{0pt plus 5cm}void jenes.\-utils.\-X\-L\-S\-Logger.\-store (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [protected]}, {\ttfamily [virtual]}}}\label{classjenes_1_1utils_1_1_x_l_s_logger_ae6b3840ad6be8bdc558efaf6077d4ae4}
+Stores the current record. 
+
+Implements \hyperlink{classjenes_1_1utils_1_1_abstract_logger_a6acf83a83999e26ae4ed45cbf355111b}{jenes.\-utils.\-Abstract\-Logger}.
+
+
+
+\subsection{Member Data Documentation}
+\hypertarget{classjenes_1_1utils_1_1_x_l_s_logger_a9951ca6377e81a1c8a3c4b72d6a205f3}{\index{jenes\-::utils\-::\-X\-L\-S\-Logger@{jenes\-::utils\-::\-X\-L\-S\-Logger}!alterable\-Schema@{alterable\-Schema}}
+\index{alterable\-Schema@{alterable\-Schema}!jenes::utils::XLSLogger@{jenes\-::utils\-::\-X\-L\-S\-Logger}}
+\subsubsection[{alterable\-Schema}]{\setlength{\rightskip}{0pt plus 5cm}Map$<$String, Boolean$>$ jenes.\-utils.\-X\-L\-S\-Logger.\-alterable\-Schema = new Hash\-Map$<$String, Boolean$>$()\hspace{0.3cm}{\ttfamily [private]}}}\label{classjenes_1_1utils_1_1_x_l_s_logger_a9951ca6377e81a1c8a3c4b72d6a205f3}
+\hypertarget{classjenes_1_1utils_1_1_x_l_s_logger_a7308e8bb6eda1c5bf2aef93c2607ce60}{\index{jenes\-::utils\-::\-X\-L\-S\-Logger@{jenes\-::utils\-::\-X\-L\-S\-Logger}!C\-H\-R\-O\-M\-O\-S\-O\-M\-E\-\_\-\-L\-A\-B\-E\-L@{C\-H\-R\-O\-M\-O\-S\-O\-M\-E\-\_\-\-L\-A\-B\-E\-L}}
+\index{C\-H\-R\-O\-M\-O\-S\-O\-M\-E\-\_\-\-L\-A\-B\-E\-L@{C\-H\-R\-O\-M\-O\-S\-O\-M\-E\-\_\-\-L\-A\-B\-E\-L}!jenes::utils::XLSLogger@{jenes\-::utils\-::\-X\-L\-S\-Logger}}
+\subsubsection[{C\-H\-R\-O\-M\-O\-S\-O\-M\-E\-\_\-\-L\-A\-B\-E\-L}]{\setlength{\rightskip}{0pt plus 5cm}String jenes.\-utils.\-X\-L\-S\-Logger.\-C\-H\-R\-O\-M\-O\-S\-O\-M\-E\-\_\-\-L\-A\-B\-E\-L = \char`\"{}Chromosome\char`\"{}\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}}\label{classjenes_1_1utils_1_1_x_l_s_logger_a7308e8bb6eda1c5bf2aef93c2607ce60}
+\hypertarget{classjenes_1_1utils_1_1_x_l_s_logger_a44fcfb206d65e2af727d24a8d4a0af31}{\index{jenes\-::utils\-::\-X\-L\-S\-Logger@{jenes\-::utils\-::\-X\-L\-S\-Logger}!cols\-Of\-Sheet@{cols\-Of\-Sheet}}
+\index{cols\-Of\-Sheet@{cols\-Of\-Sheet}!jenes::utils::XLSLogger@{jenes\-::utils\-::\-X\-L\-S\-Logger}}
+\subsubsection[{cols\-Of\-Sheet}]{\setlength{\rightskip}{0pt plus 5cm}Map$<$Writable\-Sheet, Map$<$String, Integer$>$ $>$ jenes.\-utils.\-X\-L\-S\-Logger.\-cols\-Of\-Sheet = new Hash\-Map$<$Writable\-Sheet, Map$<$String, Integer$>$$>$()\hspace{0.3cm}{\ttfamily [private]}}}\label{classjenes_1_1utils_1_1_x_l_s_logger_a44fcfb206d65e2af727d24a8d4a0af31}
+\hypertarget{classjenes_1_1utils_1_1_x_l_s_logger_a326448294f3d41ccfa5b80f496c7580e}{\index{jenes\-::utils\-::\-X\-L\-S\-Logger@{jenes\-::utils\-::\-X\-L\-S\-Logger}!filename@{filename}}
+\index{filename@{filename}!jenes::utils::XLSLogger@{jenes\-::utils\-::\-X\-L\-S\-Logger}}
+\subsubsection[{filename}]{\setlength{\rightskip}{0pt plus 5cm}String jenes.\-utils.\-X\-L\-S\-Logger.\-filename\hspace{0.3cm}{\ttfamily [private]}}}\label{classjenes_1_1utils_1_1_x_l_s_logger_a326448294f3d41ccfa5b80f496c7580e}
+\hypertarget{classjenes_1_1utils_1_1_x_l_s_logger_a2a9f48e370b1db8e0b978181bb7c5fec}{\index{jenes\-::utils\-::\-X\-L\-S\-Logger@{jenes\-::utils\-::\-X\-L\-S\-Logger}!line@{line}}
+\index{line@{line}!jenes::utils::XLSLogger@{jenes\-::utils\-::\-X\-L\-S\-Logger}}
+\subsubsection[{line}]{\setlength{\rightskip}{0pt plus 5cm}int jenes.\-utils.\-X\-L\-S\-Logger.\-line\hspace{0.3cm}{\ttfamily [private]}}}\label{classjenes_1_1utils_1_1_x_l_s_logger_a2a9f48e370b1db8e0b978181bb7c5fec}
+\hypertarget{classjenes_1_1utils_1_1_x_l_s_logger_a01b5b1ada6288ddd0f1753ccd5cc6df6}{\index{jenes\-::utils\-::\-X\-L\-S\-Logger@{jenes\-::utils\-::\-X\-L\-S\-Logger}!new\-Cols@{new\-Cols}}
+\index{new\-Cols@{new\-Cols}!jenes::utils::XLSLogger@{jenes\-::utils\-::\-X\-L\-S\-Logger}}
+\subsubsection[{new\-Cols}]{\setlength{\rightskip}{0pt plus 5cm}List$<$Writable\-Cell$>$ jenes.\-utils.\-X\-L\-S\-Logger.\-new\-Cols = new Array\-List$<$Writable\-Cell$>$()\hspace{0.3cm}{\ttfamily [private]}}}\label{classjenes_1_1utils_1_1_x_l_s_logger_a01b5b1ada6288ddd0f1753ccd5cc6df6}
+\hypertarget{classjenes_1_1utils_1_1_x_l_s_logger_a4fecf837647f44b8572a68f4cdedb458}{\index{jenes\-::utils\-::\-X\-L\-S\-Logger@{jenes\-::utils\-::\-X\-L\-S\-Logger}!S\-C\-O\-R\-E\-S\-\_\-\-L\-A\-B\-E\-L@{S\-C\-O\-R\-E\-S\-\_\-\-L\-A\-B\-E\-L}}
+\index{S\-C\-O\-R\-E\-S\-\_\-\-L\-A\-B\-E\-L@{S\-C\-O\-R\-E\-S\-\_\-\-L\-A\-B\-E\-L}!jenes::utils::XLSLogger@{jenes\-::utils\-::\-X\-L\-S\-Logger}}
+\subsubsection[{S\-C\-O\-R\-E\-S\-\_\-\-L\-A\-B\-E\-L}]{\setlength{\rightskip}{0pt plus 5cm}String jenes.\-utils.\-X\-L\-S\-Logger.\-S\-C\-O\-R\-E\-S\-\_\-\-L\-A\-B\-E\-L = \char`\"{}Scores\char`\"{}\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}}\label{classjenes_1_1utils_1_1_x_l_s_logger_a4fecf837647f44b8572a68f4cdedb458}
+\hypertarget{classjenes_1_1utils_1_1_x_l_s_logger_a06bcfe322f856670f3706369261bc7c7}{\index{jenes\-::utils\-::\-X\-L\-S\-Logger@{jenes\-::utils\-::\-X\-L\-S\-Logger}!sheets@{sheets}}
+\index{sheets@{sheets}!jenes::utils::XLSLogger@{jenes\-::utils\-::\-X\-L\-S\-Logger}}
+\subsubsection[{sheets}]{\setlength{\rightskip}{0pt plus 5cm}Map$<$String, Writable\-Sheet$>$ jenes.\-utils.\-X\-L\-S\-Logger.\-sheets = new Hash\-Map$<$String, Writable\-Sheet$>$()\hspace{0.3cm}{\ttfamily [private]}}}\label{classjenes_1_1utils_1_1_x_l_s_logger_a06bcfe322f856670f3706369261bc7c7}
+\hypertarget{classjenes_1_1utils_1_1_x_l_s_logger_ad776c22f388365c6f1a8c21e786f9928}{\index{jenes\-::utils\-::\-X\-L\-S\-Logger@{jenes\-::utils\-::\-X\-L\-S\-Logger}!workbook@{workbook}}
+\index{workbook@{workbook}!jenes::utils::XLSLogger@{jenes\-::utils\-::\-X\-L\-S\-Logger}}
+\subsubsection[{workbook}]{\setlength{\rightskip}{0pt plus 5cm}Writable\-Workbook jenes.\-utils.\-X\-L\-S\-Logger.\-workbook\hspace{0.3cm}{\ttfamily [private]}}}\label{classjenes_1_1utils_1_1_x_l_s_logger_ad776c22f388365c6f1a8c21e786f9928}
+
+
+The documentation for this class was generated from the following file\-:\begin{DoxyCompactItemize}
+\item 
+src/jenes/utils/\hyperlink{_x_l_s_logger_8java}{X\-L\-S\-Logger.\-java}\end{DoxyCompactItemize}

@@ -1,0 +1,110 @@
+\hypertarget{classjenes_1_1chromosome_1_1_bitwise_chromosome_1_1_bit_coding_3_01_t_01_4}{\section{jenes.\-chromosome.\-Bitwise\-Chromosome.\-Bit\-Coding$<$ T $>$ Class Reference}
+\label{classjenes_1_1chromosome_1_1_bitwise_chromosome_1_1_bit_coding_3_01_t_01_4}\index{jenes.\-chromosome.\-Bitwise\-Chromosome.\-Bit\-Coding$<$ T $>$@{jenes.\-chromosome.\-Bitwise\-Chromosome.\-Bit\-Coding$<$ T $>$}}
+}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+abstract T \hyperlink{classjenes_1_1chromosome_1_1_bitwise_chromosome_1_1_bit_coding_3_01_t_01_4_ac07b8fe9be73bd1f2111301eb5fee6cf}{decode} (int \hyperlink{classjenes_1_1chromosome_1_1_bitwise_chromosome_a7b10180d49ba676325c2387b6e40d395}{bits})
+\item 
+abstract int \hyperlink{classjenes_1_1chromosome_1_1_bitwise_chromosome_1_1_bit_coding_3_01_t_01_4_a909b7413fc74a38626fffa9845ab89a0}{encode} (T obj)
+\end{DoxyCompactItemize}
+\subsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+final \hyperlink{enumjenes_1_1chromosome_1_1_bitwise_chromosome_1_1_bit_size}{Bit\-Size} \hyperlink{classjenes_1_1chromosome_1_1_bitwise_chromosome_1_1_bit_coding_3_01_t_01_4_a9e0438de596fe3dcc0f789a7bd975330}{S\-I\-Z\-E}
+\end{DoxyCompactItemize}
+\subsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classjenes_1_1chromosome_1_1_bitwise_chromosome_1_1_bit_coding_3_01_t_01_4_ad0c3fb3e52e28bd01b177f5321e789c6}{Bit\-Coding} (final \hyperlink{enumjenes_1_1chromosome_1_1_bitwise_chromosome_1_1_bit_size}{Bit\-Size} \hyperlink{classjenes_1_1chromosome_1_1_bitwise_chromosome_a87b8652220ca81cad899a13e341bf954}{size})
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Represents the coding used by a \hyperlink{classjenes_1_1chromosome_1_1_bitwise_chromosome}{Bitwise\-Chromosome}. A Bit\-Coding can be used by subclassing this class and providing implementation for \hyperlink{}{Bit\-Coding\#encode(\-Object)} and \hyperlink{classjenes_1_1chromosome_1_1_bitwise_chromosome_1_1_bit_coding_3_01_t_01_4_ac07b8fe9be73bd1f2111301eb5fee6cf}{decode(int)} methods. A \hyperlink{enumjenes_1_1chromosome_1_1_bitwise_chromosome_1_1_bit_size}{Bit\-Size} object is useful to specify the number of bits to use foreach coded number.
+
+
+\begin{DoxyParams}{Parameters}
+{\em $<$\-T$>$} & The type entailed by enconding/deconding operations.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyAuthor}{Author}
+Luigi Troiano 
+
+Pierpaolo Lombardi 
+
+Giuseppe Pascale 
+
+Thierry Bodhuin
+\end{DoxyAuthor}
+\begin{DoxyVersion}{Version}
+1.\-2
+\end{DoxyVersion}
+\begin{DoxySince}{Since}
+1.\-0 
+\end{DoxySince}
+
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{classjenes_1_1chromosome_1_1_bitwise_chromosome_1_1_bit_coding_3_01_t_01_4_ad0c3fb3e52e28bd01b177f5321e789c6}{\index{jenes\-::chromosome\-::\-Bitwise\-Chromosome\-::\-Bit\-Coding$<$ T $>$@{jenes\-::chromosome\-::\-Bitwise\-Chromosome\-::\-Bit\-Coding$<$ T $>$}!Bit\-Coding@{Bit\-Coding}}
+\index{Bit\-Coding@{Bit\-Coding}!jenes::chromosome::BitwiseChromosome::BitCoding< T >@{jenes\-::chromosome\-::\-Bitwise\-Chromosome\-::\-Bit\-Coding$<$ T $>$}}
+\subsubsection[{Bit\-Coding}]{\setlength{\rightskip}{0pt plus 5cm}jenes.\-chromosome.\-Bitwise\-Chromosome.\-Bit\-Coding$<$ T $>$.Bit\-Coding (
+\begin{DoxyParamCaption}
+\item[{final {\bf Bit\-Size}}]{size}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [protected]}}}\label{classjenes_1_1chromosome_1_1_bitwise_chromosome_1_1_bit_coding_3_01_t_01_4_ad0c3fb3e52e28bd01b177f5321e789c6}
+Constructs a new Bit\-Coding with the specified \hyperlink{enumjenes_1_1chromosome_1_1_bitwise_chromosome_1_1_bit_size}{Bit\-Size}
+
+
+\begin{DoxyParams}{Parameters}
+{\em size} & the bit\-Size object to use \\
+\hline
+\end{DoxyParams}
+
+
+\subsection{Member Function Documentation}
+\hypertarget{classjenes_1_1chromosome_1_1_bitwise_chromosome_1_1_bit_coding_3_01_t_01_4_ac07b8fe9be73bd1f2111301eb5fee6cf}{\index{jenes\-::chromosome\-::\-Bitwise\-Chromosome\-::\-Bit\-Coding$<$ T $>$@{jenes\-::chromosome\-::\-Bitwise\-Chromosome\-::\-Bit\-Coding$<$ T $>$}!decode@{decode}}
+\index{decode@{decode}!jenes::chromosome::BitwiseChromosome::BitCoding< T >@{jenes\-::chromosome\-::\-Bitwise\-Chromosome\-::\-Bit\-Coding$<$ T $>$}}
+\subsubsection[{decode}]{\setlength{\rightskip}{0pt plus 5cm}abstract T jenes.\-chromosome.\-Bitwise\-Chromosome.\-Bit\-Coding$<$ T $>$.decode (
+\begin{DoxyParamCaption}
+\item[{int}]{bits}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [pure virtual]}}}\label{classjenes_1_1chromosome_1_1_bitwise_chromosome_1_1_bit_coding_3_01_t_01_4_ac07b8fe9be73bd1f2111301eb5fee6cf}
+Returns the value of coded bits.
+
+
+\begin{DoxyParams}{Parameters}
+{\em bits} & coding the object \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+the value 
+\end{DoxyReturn}
+\hypertarget{classjenes_1_1chromosome_1_1_bitwise_chromosome_1_1_bit_coding_3_01_t_01_4_a909b7413fc74a38626fffa9845ab89a0}{\index{jenes\-::chromosome\-::\-Bitwise\-Chromosome\-::\-Bit\-Coding$<$ T $>$@{jenes\-::chromosome\-::\-Bitwise\-Chromosome\-::\-Bit\-Coding$<$ T $>$}!encode@{encode}}
+\index{encode@{encode}!jenes::chromosome::BitwiseChromosome::BitCoding< T >@{jenes\-::chromosome\-::\-Bitwise\-Chromosome\-::\-Bit\-Coding$<$ T $>$}}
+\subsubsection[{encode}]{\setlength{\rightskip}{0pt plus 5cm}abstract int jenes.\-chromosome.\-Bitwise\-Chromosome.\-Bit\-Coding$<$ T $>$.encode (
+\begin{DoxyParamCaption}
+\item[{T}]{obj}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [pure virtual]}}}\label{classjenes_1_1chromosome_1_1_bitwise_chromosome_1_1_bit_coding_3_01_t_01_4_a909b7413fc74a38626fffa9845ab89a0}
+Returns the bits coding the object
+
+
+\begin{DoxyParams}{Parameters}
+{\em obj} & the object to be coded \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+the coding bits 
+\end{DoxyReturn}
+
+
+\subsection{Member Data Documentation}
+\hypertarget{classjenes_1_1chromosome_1_1_bitwise_chromosome_1_1_bit_coding_3_01_t_01_4_a9e0438de596fe3dcc0f789a7bd975330}{\index{jenes\-::chromosome\-::\-Bitwise\-Chromosome\-::\-Bit\-Coding$<$ T $>$@{jenes\-::chromosome\-::\-Bitwise\-Chromosome\-::\-Bit\-Coding$<$ T $>$}!S\-I\-Z\-E@{S\-I\-Z\-E}}
+\index{S\-I\-Z\-E@{S\-I\-Z\-E}!jenes::chromosome::BitwiseChromosome::BitCoding< T >@{jenes\-::chromosome\-::\-Bitwise\-Chromosome\-::\-Bit\-Coding$<$ T $>$}}
+\subsubsection[{S\-I\-Z\-E}]{\setlength{\rightskip}{0pt plus 5cm}final {\bf Bit\-Size} jenes.\-chromosome.\-Bitwise\-Chromosome.\-Bit\-Coding$<$ T $>$.S\-I\-Z\-E}}\label{classjenes_1_1chromosome_1_1_bitwise_chromosome_1_1_bit_coding_3_01_t_01_4_a9e0438de596fe3dcc0f789a7bd975330}
+The bit structure characteristics. 
+
+The documentation for this class was generated from the following file\-:\begin{DoxyCompactItemize}
+\item 
+src/jenes/chromosome/\hyperlink{_bitwise_chromosome_8java}{Bitwise\-Chromosome.\-java}\end{DoxyCompactItemize}

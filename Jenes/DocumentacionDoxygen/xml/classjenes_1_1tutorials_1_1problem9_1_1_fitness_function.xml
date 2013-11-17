@@ -1,0 +1,74 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="classjenes_1_1tutorials_1_1problem9_1_1_fitness_function" kind="class" prot="public">
+    <compoundname>jenes::tutorials::problem9::FitnessFunction</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">jenes::population::Fitness&lt; DoubleChromosome &gt;</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classjenes_1_1tutorials_1_1problem9_1_1_fitness_function_1aef303998ee008c836185ea70dd76f9c0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>jenes.tutorials.problem9.FitnessFunction.FitnessFunction</definition>
+        <argsstring>(boolean...bis)</argsstring>
+        <name>FitnessFunction</name>
+        <param>
+          <type>boolean...</type>
+          <declname>bis</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/problem9/FitnessFunction.java" line="13" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/problem9/FitnessFunction.java" bodystart="13" bodyend="15"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1tutorials_1_1problem9_1_1_fitness_function_1a364f000aabc587ab45daf4b951c5cb92" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void jenes.tutorials.problem9.FitnessFunction.evaluate</definition>
+        <argsstring>(Individual&lt; DoubleChromosome &gt; individual)</argsstring>
+        <name>evaluate</name>
+        <param>
+          <type>Individual&lt; <ref refid="classjenes_1_1chromosome_1_1_double_chromosome" kindref="compound">DoubleChromosome</ref> &gt;</type>
+          <declname>individual</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/problem9/FitnessFunction.java" line="18" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/problem9/FitnessFunction.java" bodystart="18" bodyend="31"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="187">
+        <label>jenes::population::Fitness&lt; DoubleChromosome &gt;</label>
+      </node>
+      <node id="186">
+        <label>jenes.tutorials.problem9.FitnessFunction</label>
+        <link refid="classjenes_1_1tutorials_1_1problem9_1_1_fitness_function"/>
+        <childnode refid="187" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="189">
+        <label>jenes::population::Fitness&lt; DoubleChromosome &gt;</label>
+      </node>
+      <node id="188">
+        <label>jenes.tutorials.problem9.FitnessFunction</label>
+        <link refid="classjenes_1_1tutorials_1_1problem9_1_1_fitness_function"/>
+        <childnode refid="189" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/problem9/FitnessFunction.java" line="11" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/problem9/FitnessFunction.java" bodystart="11" bodyend="32"/>
+    <listofallmembers>
+      <member refid="classjenes_1_1tutorials_1_1problem9_1_1_fitness_function_1a364f000aabc587ab45daf4b951c5cb92" prot="public" virt="non-virtual"><scope>jenes::tutorials::problem9::FitnessFunction</scope><name>evaluate</name></member>
+      <member refid="classjenes_1_1tutorials_1_1problem9_1_1_fitness_function_1aef303998ee008c836185ea70dd76f9c0" prot="public" virt="non-virtual"><scope>jenes::tutorials::problem9::FitnessFunction</scope><name>FitnessFunction</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

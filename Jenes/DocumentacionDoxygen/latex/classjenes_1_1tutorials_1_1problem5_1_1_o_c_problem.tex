@@ -1,0 +1,112 @@
+\hypertarget{classjenes_1_1tutorials_1_1problem5_1_1_o_c_problem}{\section{jenes.\-tutorials.\-problem5.\-O\-C\-Problem Class Reference}
+\label{classjenes_1_1tutorials_1_1problem5_1_1_o_c_problem}\index{jenes.\-tutorials.\-problem5.\-O\-C\-Problem@{jenes.\-tutorials.\-problem5.\-O\-C\-Problem}}
+}
+\subsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static void \hyperlink{classjenes_1_1tutorials_1_1problem5_1_1_o_c_problem_aecd726bedeefdb1bfce0b0d453bef17e}{main} (String\mbox{[}$\,$\mbox{]} args)  throws Exception 
+\end{DoxyCompactItemize}
+\subsection*{Static Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+static int \hyperlink{classjenes_1_1tutorials_1_1problem5_1_1_o_c_problem_a6f83b4fb8527ded39ad6dd116e7677e7}{P\-O\-P\-U\-L\-A\-T\-I\-O\-N\-\_\-\-S\-I\-Z\-E} = 100
+\item 
+static int \hyperlink{classjenes_1_1tutorials_1_1problem5_1_1_o_c_problem_a5ca815ddd4d090d3bfc74d0a1d3dfeab}{G\-E\-N\-E\-R\-A\-T\-I\-O\-N\-\_\-\-L\-I\-M\-I\-T} = 100
+\item 
+static \hyperlink{classjenes_1_1chromosome_1_1_object_chromosome}{Object\-Chromosome} \hyperlink{classjenes_1_1tutorials_1_1problem5_1_1_o_c_problem_a0a60e116ef66b31e038f3c29ba23188a}{template}
+\item 
+static Fitness$<$ \hyperlink{classjenes_1_1chromosome_1_1_object_chromosome}{Object\-Chromosome} $>$ \hyperlink{classjenes_1_1tutorials_1_1problem5_1_1_o_c_problem_a568ec7d71c8cdcca7cb01674dac7fd62}{fitness}
+\item 
+static Genetic\-Algorithm\\*
+$<$ \hyperlink{classjenes_1_1chromosome_1_1_object_chromosome}{Object\-Chromosome} $>$ \hyperlink{classjenes_1_1tutorials_1_1problem5_1_1_o_c_problem_ad2413f0f7718203ea23a643ca7dd8769}{ga}
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Tutorial illustrating the use of object-\/oriented chromosomes, whose allele set can be defined by the user for each gene.
+
+In this example the chromosomes are combinations of colors. We aim at finding the vector of colors closest to a given sequence.
+
+This class defines the problem.
+
+\begin{DoxyVersion}{Version}
+2.\-0 
+\end{DoxyVersion}
+\begin{DoxySince}{Since}
+1.\-0 
+\end{DoxySince}
+
+
+\subsection{Member Function Documentation}
+\hypertarget{classjenes_1_1tutorials_1_1problem5_1_1_o_c_problem_aecd726bedeefdb1bfce0b0d453bef17e}{\index{jenes\-::tutorials\-::problem5\-::\-O\-C\-Problem@{jenes\-::tutorials\-::problem5\-::\-O\-C\-Problem}!main@{main}}
+\index{main@{main}!jenes::tutorials::problem5::OCProblem@{jenes\-::tutorials\-::problem5\-::\-O\-C\-Problem}}
+\subsubsection[{main}]{\setlength{\rightskip}{0pt plus 5cm}static void jenes.\-tutorials.\-problem5.\-O\-C\-Problem.\-main (
+\begin{DoxyParamCaption}
+\item[{String\mbox{[}$\,$\mbox{]}}]{args}
+\end{DoxyParamCaption}
+) throws Exception\hspace{0.3cm}{\ttfamily [static]}}}\label{classjenes_1_1tutorials_1_1problem5_1_1_o_c_problem_aecd726bedeefdb1bfce0b0d453bef17e}
+
+
+\subsection{Member Data Documentation}
+\hypertarget{classjenes_1_1tutorials_1_1problem5_1_1_o_c_problem_a568ec7d71c8cdcca7cb01674dac7fd62}{\index{jenes\-::tutorials\-::problem5\-::\-O\-C\-Problem@{jenes\-::tutorials\-::problem5\-::\-O\-C\-Problem}!fitness@{fitness}}
+\index{fitness@{fitness}!jenes::tutorials::problem5::OCProblem@{jenes\-::tutorials\-::problem5\-::\-O\-C\-Problem}}
+\subsubsection[{fitness}]{\setlength{\rightskip}{0pt plus 5cm}Fitness$<${\bf Object\-Chromosome}$>$ jenes.\-tutorials.\-problem5.\-O\-C\-Problem.\-fitness\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}}\label{classjenes_1_1tutorials_1_1problem5_1_1_o_c_problem_a568ec7d71c8cdcca7cb01674dac7fd62}
+{\bfseries Initial value\-:}
+\begin{DoxyCode}
+= \textcolor{keyword}{new} Fitness<ObjectChromosome>(\textcolor{keyword}{true}) \{
+
+        @Override
+        \textcolor{keyword}{public} \textcolor{keywordtype}{void} evaluate(Individual<ObjectChromosome> individual) \{
+            ObjectChromosome \textcolor{keyword}{template} = individual.getChromosome();
+            
+            \textcolor{keywordtype}{int} i1 = (Integer)\textcolor{keyword}{template}.getValue(0);
+            \textcolor{keywordtype}{int} i2 = (Integer)\textcolor{keyword}{template}.getValue(1);
+            \textcolor{keywordtype}{double} d = (Double)\textcolor{keyword}{template}.getValue(2);
+            \textcolor{keywordtype}{boolean} b = (Boolean)\textcolor{keyword}{template}.getValue(3);
+            Color c = (Color)\textcolor{keyword}{template}.getValue(4);
+            
+            \textcolor{keywordtype}{double} acc = b ? (3*i1 + 4*i2 + d) : i1;
+            
+            \textcolor{keywordflow}{switch}( c ) \{
+            \textcolor{keywordflow}{case} BLACK : acc += 10; \textcolor{keywordflow}{break};
+            \textcolor{keywordflow}{case} RED   : acc += 10; \textcolor{keywordflow}{break};
+            \textcolor{keywordflow}{case} WHITE : acc += 10; \textcolor{keywordflow}{break};
+            \}
+            
+            individual.setScore(acc);
+        \}        
+    \}
+\end{DoxyCode}
+\hypertarget{classjenes_1_1tutorials_1_1problem5_1_1_o_c_problem_ad2413f0f7718203ea23a643ca7dd8769}{\index{jenes\-::tutorials\-::problem5\-::\-O\-C\-Problem@{jenes\-::tutorials\-::problem5\-::\-O\-C\-Problem}!ga@{ga}}
+\index{ga@{ga}!jenes::tutorials::problem5::OCProblem@{jenes\-::tutorials\-::problem5\-::\-O\-C\-Problem}}
+\subsubsection[{ga}]{\setlength{\rightskip}{0pt plus 5cm}Genetic\-Algorithm$<${\bf Object\-Chromosome}$>$ jenes.\-tutorials.\-problem5.\-O\-C\-Problem.\-ga\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}}\label{classjenes_1_1tutorials_1_1problem5_1_1_o_c_problem_ad2413f0f7718203ea23a643ca7dd8769}
+{\bfseries Initial value\-:}
+\begin{DoxyCode}
+=
+            \textcolor{keyword}{new} GeneticAlgorithm<ObjectChromosome>( \hyperlink{classjenes_1_1tutorials_1_1problem5_1_1_o_c_problem_a568ec7d71c8cdcca7cb01674dac7fd62}{fitness}, \textcolor{keyword}{new} Population<ObjectChromosome>(\textcolor{keyword}{new} 
+      Individual<ObjectChromosome>(\textcolor{keyword}{template}), \hyperlink{classjenes_1_1tutorials_1_1problem5_1_1_o_c_problem_a6f83b4fb8527ded39ad6dd116e7677e7}{POPULATION\_SIZE}), 
+      \hyperlink{classjenes_1_1tutorials_1_1problem5_1_1_o_c_problem_a5ca815ddd4d090d3bfc74d0a1d3dfeab}{GENERATION\_LIMIT})
+\end{DoxyCode}
+\hypertarget{classjenes_1_1tutorials_1_1problem5_1_1_o_c_problem_a5ca815ddd4d090d3bfc74d0a1d3dfeab}{\index{jenes\-::tutorials\-::problem5\-::\-O\-C\-Problem@{jenes\-::tutorials\-::problem5\-::\-O\-C\-Problem}!G\-E\-N\-E\-R\-A\-T\-I\-O\-N\-\_\-\-L\-I\-M\-I\-T@{G\-E\-N\-E\-R\-A\-T\-I\-O\-N\-\_\-\-L\-I\-M\-I\-T}}
+\index{G\-E\-N\-E\-R\-A\-T\-I\-O\-N\-\_\-\-L\-I\-M\-I\-T@{G\-E\-N\-E\-R\-A\-T\-I\-O\-N\-\_\-\-L\-I\-M\-I\-T}!jenes::tutorials::problem5::OCProblem@{jenes\-::tutorials\-::problem5\-::\-O\-C\-Problem}}
+\subsubsection[{G\-E\-N\-E\-R\-A\-T\-I\-O\-N\-\_\-\-L\-I\-M\-I\-T}]{\setlength{\rightskip}{0pt plus 5cm}int jenes.\-tutorials.\-problem5.\-O\-C\-Problem.\-G\-E\-N\-E\-R\-A\-T\-I\-O\-N\-\_\-\-L\-I\-M\-I\-T = 100\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}}\label{classjenes_1_1tutorials_1_1problem5_1_1_o_c_problem_a5ca815ddd4d090d3bfc74d0a1d3dfeab}
+\hypertarget{classjenes_1_1tutorials_1_1problem5_1_1_o_c_problem_a6f83b4fb8527ded39ad6dd116e7677e7}{\index{jenes\-::tutorials\-::problem5\-::\-O\-C\-Problem@{jenes\-::tutorials\-::problem5\-::\-O\-C\-Problem}!P\-O\-P\-U\-L\-A\-T\-I\-O\-N\-\_\-\-S\-I\-Z\-E@{P\-O\-P\-U\-L\-A\-T\-I\-O\-N\-\_\-\-S\-I\-Z\-E}}
+\index{P\-O\-P\-U\-L\-A\-T\-I\-O\-N\-\_\-\-S\-I\-Z\-E@{P\-O\-P\-U\-L\-A\-T\-I\-O\-N\-\_\-\-S\-I\-Z\-E}!jenes::tutorials::problem5::OCProblem@{jenes\-::tutorials\-::problem5\-::\-O\-C\-Problem}}
+\subsubsection[{P\-O\-P\-U\-L\-A\-T\-I\-O\-N\-\_\-\-S\-I\-Z\-E}]{\setlength{\rightskip}{0pt plus 5cm}int jenes.\-tutorials.\-problem5.\-O\-C\-Problem.\-P\-O\-P\-U\-L\-A\-T\-I\-O\-N\-\_\-\-S\-I\-Z\-E = 100\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}}\label{classjenes_1_1tutorials_1_1problem5_1_1_o_c_problem_a6f83b4fb8527ded39ad6dd116e7677e7}
+\hypertarget{classjenes_1_1tutorials_1_1problem5_1_1_o_c_problem_a0a60e116ef66b31e038f3c29ba23188a}{\index{jenes\-::tutorials\-::problem5\-::\-O\-C\-Problem@{jenes\-::tutorials\-::problem5\-::\-O\-C\-Problem}!template@{template}}
+\index{template@{template}!jenes::tutorials::problem5::OCProblem@{jenes\-::tutorials\-::problem5\-::\-O\-C\-Problem}}
+\subsubsection[{template}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Object\-Chromosome} jenes.\-tutorials.\-problem5.\-O\-C\-Problem.\-template\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}}\label{classjenes_1_1tutorials_1_1problem5_1_1_o_c_problem_a0a60e116ef66b31e038f3c29ba23188a}
+{\bfseries Initial value\-:}
+\begin{DoxyCode}
+=
+            \textcolor{keyword}{new} ObjectChromosome( IntegerAlleleSet.createUniform(10, 0, 9),
+            IntegerAlleleSet.createUniform(21, 10, 30),
+            DoubleAlleleSet.createRandom(10, 0, 1),
+            \textcolor{keyword}{new} GenericAlleleSet<Boolean>(\textcolor{keyword}{true}, \textcolor{keyword}{false}),
+            \textcolor{keyword}{new} GenericAlleleSet<Color>(Color.values()) )
+\end{DoxyCode}
+
+
+The documentation for this class was generated from the following file\-:\begin{DoxyCompactItemize}
+\item 
+src/jenes/tutorials/problem5/\hyperlink{problem5_2_o_c_problem_8java}{O\-C\-Problem.\-java}\end{DoxyCompactItemize}

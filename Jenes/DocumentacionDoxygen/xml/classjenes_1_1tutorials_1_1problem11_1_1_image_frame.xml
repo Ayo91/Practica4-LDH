@@ -1,0 +1,78 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="classjenes_1_1tutorials_1_1problem11_1_1_image_frame" kind="class" prot="public">
+    <compoundname>jenes::tutorials::problem11::ImageFrame</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">JFrame</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classjenes_1_1tutorials_1_1problem11_1_1_image_frame_1ae07ab83a8781fd5748c34fd4c0ef4cfb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>jenes.tutorials.problem11.ImageFrame.ImageFrame</definition>
+        <argsstring>(BufferedImage image)</argsstring>
+        <name>ImageFrame</name>
+        <param>
+          <type>BufferedImage</type>
+          <declname>image</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/problem11/ImageFrame.java" line="17" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/problem11/ImageFrame.java" bodystart="17" bodyend="22"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1tutorials_1_1problem11_1_1_image_frame_1a7cdded840043588eef66524cdab0af13" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>jenes.tutorials.problem11.ImageFrame.ImageFrame</definition>
+        <argsstring>(BufferedImage left, BufferedImage right)</argsstring>
+        <name>ImageFrame</name>
+        <param>
+          <type>BufferedImage</type>
+          <declname>left</declname>
+        </param>
+        <param>
+          <type>BufferedImage</type>
+          <declname>right</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/problem11/ImageFrame.java" line="24" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/problem11/ImageFrame.java" bodystart="24" bodyend="31"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>An utility class that shows 1 or 2 images in a frame using <ref refid="classjenes_1_1tutorials_1_1problem11_1_1_image_panel" kindref="compound">ImagePanel</ref> </para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="238">
+        <label>jenes.tutorials.problem11.ImageFrame</label>
+        <link refid="classjenes_1_1tutorials_1_1problem11_1_1_image_frame"/>
+        <childnode refid="239" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="239">
+        <label>JFrame</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="240">
+        <label>jenes.tutorials.problem11.ImageFrame</label>
+        <link refid="classjenes_1_1tutorials_1_1problem11_1_1_image_frame"/>
+        <childnode refid="241" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="241">
+        <label>JFrame</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/problem11/ImageFrame.java" line="15" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/problem11/ImageFrame.java" bodystart="15" bodyend="33"/>
+    <listofallmembers>
+      <member refid="classjenes_1_1tutorials_1_1problem11_1_1_image_frame_1ae07ab83a8781fd5748c34fd4c0ef4cfb" prot="public" virt="non-virtual"><scope>jenes::tutorials::problem11::ImageFrame</scope><name>ImageFrame</name></member>
+      <member refid="classjenes_1_1tutorials_1_1problem11_1_1_image_frame_1a7cdded840043588eef66524cdab0af13" prot="public" virt="non-virtual"><scope>jenes::tutorials::problem11::ImageFrame</scope><name>ImageFrame</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

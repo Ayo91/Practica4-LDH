@@ -1,0 +1,94 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="classjenes_1_1stage_1_1operator_1_1_selector_3_01_t_01extends_01_chromosome_01_4_1_1_statistics" kind="class" prot="public">
+    <compoundname>jenes::stage::operator::Selector&lt; T extends Chromosome &gt;::Statistics</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">OperatorStatistics&lt; T &gt;</basecompoundref>
+      <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="classjenes_1_1stage_1_1operator_1_1_selector_3_01_t_01extends_01_chromosome_01_4_1_1_statistics_1a8308f3f0177bfe79fcbf46bd4ac93cc4" prot="protected" static="no" mutable="no">
+        <type>long</type>
+        <definition>long jenes.stage.operator.Selector&lt; T extends Chromosome &gt;.Statistics.selections</definition>
+        <argsstring></argsstring>
+        <name>selections</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Number of selectionRate performed. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/operator/Selector.java" line="244" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/operator/Selector.java" bodystart="244" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classjenes_1_1stage_1_1operator_1_1_selector_3_01_t_01extends_01_chromosome_01_4_1_1_statistics_1a0145f6cec84ff007289d206f579a117a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>long</type>
+        <definition>long jenes.stage.operator.Selector&lt; T extends Chromosome &gt;.Statistics.getSelections</definition>
+        <argsstring>()</argsstring>
+        <name>getSelections</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns the number of selectionRate performed.</para><para><simplesect kind="return"><para>the number of selectionRate performed. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/operator/Selector.java" line="251" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/operator/Selector.java" bodystart="251" bodyend="253"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classjenes_1_1stage_1_1operator_1_1_selector_3_01_t_01extends_01_chromosome_01_4_1_1_statistics_1ab1db0e72568009d65141927f039ffe84" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void jenes.stage.operator.Selector&lt; T extends Chromosome &gt;.Statistics.fill</definition>
+        <argsstring>(Operator&lt; T &gt;.Statistics stats)</argsstring>
+        <name>fill</name>
+        <param>
+          <type>Operator&lt; T &gt;.Statistics</type>
+          <declname>stats</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/operator/Selector.java" line="256" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/operator/Selector.java" bodystart="256" bodyend="259"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>A statistics object holding the number of selection performed and the time spent to execute them. The statistics is available by two methods: <ref refid="" kindref="compound">Selector#getStatistics()</ref> to have a new statistics setted according to the crossover state or <ref refid="" kindref="compound">Selector#updateStatistics(jenes.stage.operator.Operator.Statistics)</ref> to modify an existing statistics according to the selector state. </para><para>Esamples of use are showed below. </para><para><blockquote><para><preformatted>
+Selector.Statistics stat = a_selector.getStatistics();
+</preformatted></para></blockquote></para><para>returns a new statistics object setted according to the specified selector state. </para><para><blockquote><para><preformatted>
+Selector.Statistics stat = new Selector.Statistics();
+a_selector.updateStatistics(stat);
+</preformatted></para></blockquote></para><para>modifies the existing statistics according to the specified selector state. </para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="650">
+        <label>OperatorStatistics&lt; T &gt;</label>
+      </node>
+      <node id="649">
+        <label>jenes.stage.operator.Selector&lt; T extends Chromosome &gt;.Statistics</label>
+        <link refid="classjenes_1_1stage_1_1operator_1_1_selector_3_01_t_01extends_01_chromosome_01_4_1_1_statistics"/>
+        <childnode refid="650" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="652">
+        <label>OperatorStatistics&lt; T &gt;</label>
+      </node>
+      <node id="651">
+        <label>jenes.stage.operator.Selector&lt; T extends Chromosome &gt;.Statistics</label>
+        <link refid="classjenes_1_1stage_1_1operator_1_1_selector_3_01_t_01extends_01_chromosome_01_4_1_1_statistics"/>
+        <childnode refid="652" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/operator/Selector.java" line="241" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/operator/Selector.java" bodystart="241" bodyend="260"/>
+    <listofallmembers>
+      <member refid="classjenes_1_1stage_1_1operator_1_1_selector_3_01_t_01extends_01_chromosome_01_4_1_1_statistics_1ab1db0e72568009d65141927f039ffe84" prot="protected" virt="non-virtual"><scope>jenes::stage::operator::Selector&lt; T extends Chromosome &gt;::Statistics</scope><name>fill</name></member>
+      <member refid="classjenes_1_1stage_1_1operator_1_1_selector_3_01_t_01extends_01_chromosome_01_4_1_1_statistics_1a0145f6cec84ff007289d206f579a117a" prot="public" virt="non-virtual"><scope>jenes::stage::operator::Selector&lt; T extends Chromosome &gt;::Statistics</scope><name>getSelections</name></member>
+      <member refid="classjenes_1_1stage_1_1operator_1_1_selector_3_01_t_01extends_01_chromosome_01_4_1_1_statistics_1a8308f3f0177bfe79fcbf46bd4ac93cc4" prot="protected" virt="non-virtual"><scope>jenes::stage::operator::Selector&lt; T extends Chromosome &gt;::Statistics</scope><name>selections</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

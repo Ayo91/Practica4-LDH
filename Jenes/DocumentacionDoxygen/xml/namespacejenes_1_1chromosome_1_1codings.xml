@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="namespacejenes_1_1chromosome_1_1codings" kind="namespace">
+    <compoundname>jenes::chromosome::codings</compoundname>
+    <innerclass refid="classjenes_1_1chromosome_1_1codings_1_1_boolean_coding" prot="public">jenes::chromosome::codings::BooleanCoding</innerclass>
+    <innerclass refid="classjenes_1_1chromosome_1_1codings_1_1_byte_coding" prot="public">jenes::chromosome::codings::ByteCoding</innerclass>
+    <innerclass refid="classjenes_1_1chromosome_1_1codings_1_1_gray_coding" prot="public">jenes::chromosome::codings::GrayCoding</innerclass>
+    <innerclass refid="classjenes_1_1chromosome_1_1codings_1_1_int_coding" prot="public">jenes::chromosome::codings::IntCoding</innerclass>
+    <innerclass refid="classjenes_1_1chromosome_1_1codings_1_1_short_coding" prot="public">jenes::chromosome::codings::ShortCoding</innerclass>
+    <innerclass refid="classjenes_1_1chromosome_1_1codings_1_1_word_coding" prot="public">jenes::chromosome::codings::WordCoding</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/chromosome/codings/BooleanCoding.java" line="19" column="1"/>
+  </compounddef>
+</doxygen>

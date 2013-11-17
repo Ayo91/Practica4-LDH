@@ -1,0 +1,191 @@
+\hypertarget{classjenes_1_1tutorials_1_1problem11_1_1_image_matching_fitness}{\section{jenes.\-tutorials.\-problem11.\-Image\-Matching\-Fitness Class Reference}
+\label{classjenes_1_1tutorials_1_1problem11_1_1_image_matching_fitness}\index{jenes.\-tutorials.\-problem11.\-Image\-Matching\-Fitness@{jenes.\-tutorials.\-problem11.\-Image\-Matching\-Fitness}}
+}
+Inheritance diagram for jenes.\-tutorials.\-problem11.\-Image\-Matching\-Fitness\-:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{classjenes_1_1tutorials_1_1problem11_1_1_image_matching_fitness}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classjenes_1_1tutorials_1_1problem11_1_1_image_matching_fitness_ab2d23d7e2f9d4cbb57d5818dbcf91e05}{Image\-Matching\-Fitness} (int target\-Degree)
+\item 
+void \hyperlink{classjenes_1_1tutorials_1_1problem11_1_1_image_matching_fitness_a57d1723f3fea82e96455935aefb360b9}{print\-Graphics} (double rotation, boolean show\-Signature)
+\item 
+void \hyperlink{classjenes_1_1tutorials_1_1problem11_1_1_image_matching_fitness_ad1678b0716a862654451a29b12964ec1}{evaluate} (Individual$<$ \hyperlink{classjenes_1_1chromosome_1_1_bitwise_chromosome}{Bitwise\-Chromosome} $>$ individual)
+\end{DoxyCompactItemize}
+\subsection*{Static Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+static final String \hyperlink{classjenes_1_1tutorials_1_1problem11_1_1_image_matching_fitness_abcca6e100ede27ef9a90ddbc35497efd}{S\-O\-U\-R\-C\-E\-\_\-\-I\-M\-A\-G\-E} = \char`\"{}files.\-Tutorial11/dog.\-jpg\char`\"{}
+\end{DoxyCompactItemize}
+\subsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+Fitness$<$ \hyperlink{classjenes_1_1chromosome_1_1_bitwise_chromosome}{Bitwise\-Chromosome} $>$ \hyperlink{classjenes_1_1tutorials_1_1problem11_1_1_image_matching_fitness_ac56d86ab7d7c270c284ea8745b53d0b6}{duplicate} ()  throws Clone\-Not\-Supported\-Exception 
+\end{DoxyCompactItemize}
+\subsection*{Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+Color\mbox{[}$\,$\mbox{]}\mbox{[}$\,$\mbox{]} \hyperlink{classjenes_1_1tutorials_1_1problem11_1_1_image_matching_fitness_a35b9b508ecc3020d0a8bba42c729e8e3}{calc\-Signature} (Buffered\-Image i, boolean show\-Signature)
+\item 
+Color \hyperlink{classjenes_1_1tutorials_1_1problem11_1_1_image_matching_fitness_a4abe074f9d95409ce79828d1773eda50}{average\-Around} (Buffered\-Image i, double px, double py, boolean show\-Signature)
+\item 
+double \hyperlink{classjenes_1_1tutorials_1_1problem11_1_1_image_matching_fitness_adbcb791fa14e19c20e6c946cf1cd5a4f}{calc\-Distance} (Buffered\-Image other)
+\end{DoxyCompactItemize}
+\subsection*{Static Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static double \hyperlink{classjenes_1_1tutorials_1_1problem11_1_1_image_matching_fitness_a59f0bf6390351b03e05e1423f85e93d0}{to\-Radians\-For\-Rotation} (double degrees)
+\end{DoxyCompactItemize}
+\subsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+int \hyperlink{classjenes_1_1tutorials_1_1problem11_1_1_image_matching_fitness_abcf68166173033e945f0ed4c42520a84}{target\-\_\-degrees} = 0
+\item 
+Buffered\-Image \hyperlink{classjenes_1_1tutorials_1_1problem11_1_1_image_matching_fitness_a3607fd64f431452de7de69cdd659445c}{target}
+\item 
+Buffered\-Image \hyperlink{classjenes_1_1tutorials_1_1problem11_1_1_image_matching_fitness_a43f4833e41f19eadc706b7ec449033a8}{source}
+\item 
+Color\mbox{[}$\,$\mbox{]}\mbox{[}$\,$\mbox{]} \hyperlink{classjenes_1_1tutorials_1_1problem11_1_1_image_matching_fitness_a46fadaf9894a8034b8919db788936f13}{signature}
+\item 
+int \hyperlink{classjenes_1_1tutorials_1_1problem11_1_1_image_matching_fitness_a3ec1a20065a2507f241ccff6f8b37e61}{base\-Size}
+\item 
+int \hyperlink{classjenes_1_1tutorials_1_1problem11_1_1_image_matching_fitness_acf5074dfbb8053f47ce1c03f3b88c121}{sample\-Area\-Size} = 10
+\item 
+int \hyperlink{classjenes_1_1tutorials_1_1problem11_1_1_image_matching_fitness_a7cb7be6a6a88f840d4824bbaddd9bac8}{n\-Samples} = 5
+\item 
+int \hyperlink{classjenes_1_1tutorials_1_1problem11_1_1_image_matching_fitness_a4646b0df9daaccbb004c04b2f8f6afb3}{rotate\-Anchor\-X}
+\item 
+int \hyperlink{classjenes_1_1tutorials_1_1problem11_1_1_image_matching_fitness_a9a0546b58cf181426dafb31f8d0ec3c6}{rotate\-Anchor\-Y}
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+This class represent the fitness function used to match orientation of a sample image. The algorithm used is inspired to Java Image Processing Cookbook by Rafael Santos (see \href{http://www.lac.inpe.br/JIPCookbook/}{\tt Web site}) 
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{classjenes_1_1tutorials_1_1problem11_1_1_image_matching_fitness_ab2d23d7e2f9d4cbb57d5818dbcf91e05}{\index{jenes\-::tutorials\-::problem11\-::\-Image\-Matching\-Fitness@{jenes\-::tutorials\-::problem11\-::\-Image\-Matching\-Fitness}!Image\-Matching\-Fitness@{Image\-Matching\-Fitness}}
+\index{Image\-Matching\-Fitness@{Image\-Matching\-Fitness}!jenes::tutorials::problem11::ImageMatchingFitness@{jenes\-::tutorials\-::problem11\-::\-Image\-Matching\-Fitness}}
+\subsubsection[{Image\-Matching\-Fitness}]{\setlength{\rightskip}{0pt plus 5cm}jenes.\-tutorials.\-problem11.\-Image\-Matching\-Fitness.\-Image\-Matching\-Fitness (
+\begin{DoxyParamCaption}
+\item[{int}]{target\-Degree}
+\end{DoxyParamCaption}
+)}}\label{classjenes_1_1tutorials_1_1problem11_1_1_image_matching_fitness_ab2d23d7e2f9d4cbb57d5818dbcf91e05}
+Default constructor 
+
+\subsection{Member Function Documentation}
+\hypertarget{classjenes_1_1tutorials_1_1problem11_1_1_image_matching_fitness_a4abe074f9d95409ce79828d1773eda50}{\index{jenes\-::tutorials\-::problem11\-::\-Image\-Matching\-Fitness@{jenes\-::tutorials\-::problem11\-::\-Image\-Matching\-Fitness}!average\-Around@{average\-Around}}
+\index{average\-Around@{average\-Around}!jenes::tutorials::problem11::ImageMatchingFitness@{jenes\-::tutorials\-::problem11\-::\-Image\-Matching\-Fitness}}
+\subsubsection[{average\-Around}]{\setlength{\rightskip}{0pt plus 5cm}Color jenes.\-tutorials.\-problem11.\-Image\-Matching\-Fitness.\-average\-Around (
+\begin{DoxyParamCaption}
+\item[{Buffered\-Image}]{i, }
+\item[{double}]{px, }
+\item[{double}]{py, }
+\item[{boolean}]{show\-Signature}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [private]}}}\label{classjenes_1_1tutorials_1_1problem11_1_1_image_matching_fitness_a4abe074f9d95409ce79828d1773eda50}
+This method averages the pixel values around a central point and return the average as an instance of Color. The point coordinates are proportional to the image. \hypertarget{classjenes_1_1tutorials_1_1problem11_1_1_image_matching_fitness_adbcb791fa14e19c20e6c946cf1cd5a4f}{\index{jenes\-::tutorials\-::problem11\-::\-Image\-Matching\-Fitness@{jenes\-::tutorials\-::problem11\-::\-Image\-Matching\-Fitness}!calc\-Distance@{calc\-Distance}}
+\index{calc\-Distance@{calc\-Distance}!jenes::tutorials::problem11::ImageMatchingFitness@{jenes\-::tutorials\-::problem11\-::\-Image\-Matching\-Fitness}}
+\subsubsection[{calc\-Distance}]{\setlength{\rightskip}{0pt plus 5cm}double jenes.\-tutorials.\-problem11.\-Image\-Matching\-Fitness.\-calc\-Distance (
+\begin{DoxyParamCaption}
+\item[{Buffered\-Image}]{other}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [private]}}}\label{classjenes_1_1tutorials_1_1problem11_1_1_image_matching_fitness_adbcb791fa14e19c20e6c946cf1cd5a4f}
+This method calculates the distance between the signatures of an image and the reference one. The signatures for the image passed as the parameter are calculated inside the method. \hypertarget{classjenes_1_1tutorials_1_1problem11_1_1_image_matching_fitness_a35b9b508ecc3020d0a8bba42c729e8e3}{\index{jenes\-::tutorials\-::problem11\-::\-Image\-Matching\-Fitness@{jenes\-::tutorials\-::problem11\-::\-Image\-Matching\-Fitness}!calc\-Signature@{calc\-Signature}}
+\index{calc\-Signature@{calc\-Signature}!jenes::tutorials::problem11::ImageMatchingFitness@{jenes\-::tutorials\-::problem11\-::\-Image\-Matching\-Fitness}}
+\subsubsection[{calc\-Signature}]{\setlength{\rightskip}{0pt plus 5cm}Color \mbox{[}$\,$\mbox{]}\mbox{[}$\,$\mbox{]} jenes.\-tutorials.\-problem11.\-Image\-Matching\-Fitness.\-calc\-Signature (
+\begin{DoxyParamCaption}
+\item[{Buffered\-Image}]{i, }
+\item[{boolean}]{show\-Signature}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [private]}}}\label{classjenes_1_1tutorials_1_1problem11_1_1_image_matching_fitness_a35b9b508ecc3020d0a8bba42c729e8e3}
+\hypertarget{classjenes_1_1tutorials_1_1problem11_1_1_image_matching_fitness_ac56d86ab7d7c270c284ea8745b53d0b6}{\index{jenes\-::tutorials\-::problem11\-::\-Image\-Matching\-Fitness@{jenes\-::tutorials\-::problem11\-::\-Image\-Matching\-Fitness}!duplicate@{duplicate}}
+\index{duplicate@{duplicate}!jenes::tutorials::problem11::ImageMatchingFitness@{jenes\-::tutorials\-::problem11\-::\-Image\-Matching\-Fitness}}
+\subsubsection[{duplicate}]{\setlength{\rightskip}{0pt plus 5cm}Fitness$<${\bf Bitwise\-Chromosome}$>$ jenes.\-tutorials.\-problem11.\-Image\-Matching\-Fitness.\-duplicate (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) throws Clone\-Not\-Supported\-Exception\hspace{0.3cm}{\ttfamily [protected]}}}\label{classjenes_1_1tutorials_1_1problem11_1_1_image_matching_fitness_ac56d86ab7d7c270c284ea8745b53d0b6}
+\hypertarget{classjenes_1_1tutorials_1_1problem11_1_1_image_matching_fitness_ad1678b0716a862654451a29b12964ec1}{\index{jenes\-::tutorials\-::problem11\-::\-Image\-Matching\-Fitness@{jenes\-::tutorials\-::problem11\-::\-Image\-Matching\-Fitness}!evaluate@{evaluate}}
+\index{evaluate@{evaluate}!jenes::tutorials::problem11::ImageMatchingFitness@{jenes\-::tutorials\-::problem11\-::\-Image\-Matching\-Fitness}}
+\subsubsection[{evaluate}]{\setlength{\rightskip}{0pt plus 5cm}void jenes.\-tutorials.\-problem11.\-Image\-Matching\-Fitness.\-evaluate (
+\begin{DoxyParamCaption}
+\item[{Individual$<$ {\bf Bitwise\-Chromosome} $>$}]{individual}
+\end{DoxyParamCaption}
+)}}\label{classjenes_1_1tutorials_1_1problem11_1_1_image_matching_fitness_ad1678b0716a862654451a29b12964ec1}
+\hypertarget{classjenes_1_1tutorials_1_1problem11_1_1_image_matching_fitness_a57d1723f3fea82e96455935aefb360b9}{\index{jenes\-::tutorials\-::problem11\-::\-Image\-Matching\-Fitness@{jenes\-::tutorials\-::problem11\-::\-Image\-Matching\-Fitness}!print\-Graphics@{print\-Graphics}}
+\index{print\-Graphics@{print\-Graphics}!jenes::tutorials::problem11::ImageMatchingFitness@{jenes\-::tutorials\-::problem11\-::\-Image\-Matching\-Fitness}}
+\subsubsection[{print\-Graphics}]{\setlength{\rightskip}{0pt plus 5cm}void jenes.\-tutorials.\-problem11.\-Image\-Matching\-Fitness.\-print\-Graphics (
+\begin{DoxyParamCaption}
+\item[{double}]{rotation, }
+\item[{boolean}]{show\-Signature}
+\end{DoxyParamCaption}
+)}}\label{classjenes_1_1tutorials_1_1problem11_1_1_image_matching_fitness_a57d1723f3fea82e96455935aefb360b9}
+Print a graphical representation of the results 
+\begin{DoxyParams}{Parameters}
+{\em rotation} & \\
+\hline
+{\em show\-Signature} & \\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em Exception} & \\
+\hline
+\end{DoxyExceptions}
+\hypertarget{classjenes_1_1tutorials_1_1problem11_1_1_image_matching_fitness_a59f0bf6390351b03e05e1423f85e93d0}{\index{jenes\-::tutorials\-::problem11\-::\-Image\-Matching\-Fitness@{jenes\-::tutorials\-::problem11\-::\-Image\-Matching\-Fitness}!to\-Radians\-For\-Rotation@{to\-Radians\-For\-Rotation}}
+\index{to\-Radians\-For\-Rotation@{to\-Radians\-For\-Rotation}!jenes::tutorials::problem11::ImageMatchingFitness@{jenes\-::tutorials\-::problem11\-::\-Image\-Matching\-Fitness}}
+\subsubsection[{to\-Radians\-For\-Rotation}]{\setlength{\rightskip}{0pt plus 5cm}static double jenes.\-tutorials.\-problem11.\-Image\-Matching\-Fitness.\-to\-Radians\-For\-Rotation (
+\begin{DoxyParamCaption}
+\item[{double}]{degrees}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}}\label{classjenes_1_1tutorials_1_1problem11_1_1_image_matching_fitness_a59f0bf6390351b03e05e1423f85e93d0}
+Utility to trasform degrees to radians in problem 
+\begin{DoxyParams}{Parameters}
+{\em degrees} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+
+
+\subsection{Member Data Documentation}
+\hypertarget{classjenes_1_1tutorials_1_1problem11_1_1_image_matching_fitness_a3ec1a20065a2507f241ccff6f8b37e61}{\index{jenes\-::tutorials\-::problem11\-::\-Image\-Matching\-Fitness@{jenes\-::tutorials\-::problem11\-::\-Image\-Matching\-Fitness}!base\-Size@{base\-Size}}
+\index{base\-Size@{base\-Size}!jenes::tutorials::problem11::ImageMatchingFitness@{jenes\-::tutorials\-::problem11\-::\-Image\-Matching\-Fitness}}
+\subsubsection[{base\-Size}]{\setlength{\rightskip}{0pt plus 5cm}int jenes.\-tutorials.\-problem11.\-Image\-Matching\-Fitness.\-base\-Size\hspace{0.3cm}{\ttfamily [private]}}}\label{classjenes_1_1tutorials_1_1problem11_1_1_image_matching_fitness_a3ec1a20065a2507f241ccff6f8b37e61}
+The base size of the images. \hypertarget{classjenes_1_1tutorials_1_1problem11_1_1_image_matching_fitness_a7cb7be6a6a88f840d4824bbaddd9bac8}{\index{jenes\-::tutorials\-::problem11\-::\-Image\-Matching\-Fitness@{jenes\-::tutorials\-::problem11\-::\-Image\-Matching\-Fitness}!n\-Samples@{n\-Samples}}
+\index{n\-Samples@{n\-Samples}!jenes::tutorials::problem11::ImageMatchingFitness@{jenes\-::tutorials\-::problem11\-::\-Image\-Matching\-Fitness}}
+\subsubsection[{n\-Samples}]{\setlength{\rightskip}{0pt plus 5cm}int jenes.\-tutorials.\-problem11.\-Image\-Matching\-Fitness.\-n\-Samples = 5\hspace{0.3cm}{\ttfamily [private]}}}\label{classjenes_1_1tutorials_1_1problem11_1_1_image_matching_fitness_a7cb7be6a6a88f840d4824bbaddd9bac8}
+The number of samples per rows \hypertarget{classjenes_1_1tutorials_1_1problem11_1_1_image_matching_fitness_a4646b0df9daaccbb004c04b2f8f6afb3}{\index{jenes\-::tutorials\-::problem11\-::\-Image\-Matching\-Fitness@{jenes\-::tutorials\-::problem11\-::\-Image\-Matching\-Fitness}!rotate\-Anchor\-X@{rotate\-Anchor\-X}}
+\index{rotate\-Anchor\-X@{rotate\-Anchor\-X}!jenes::tutorials::problem11::ImageMatchingFitness@{jenes\-::tutorials\-::problem11\-::\-Image\-Matching\-Fitness}}
+\subsubsection[{rotate\-Anchor\-X}]{\setlength{\rightskip}{0pt plus 5cm}int jenes.\-tutorials.\-problem11.\-Image\-Matching\-Fitness.\-rotate\-Anchor\-X\hspace{0.3cm}{\ttfamily [private]}}}\label{classjenes_1_1tutorials_1_1problem11_1_1_image_matching_fitness_a4646b0df9daaccbb004c04b2f8f6afb3}
+Default rotation anchor point \hypertarget{classjenes_1_1tutorials_1_1problem11_1_1_image_matching_fitness_a9a0546b58cf181426dafb31f8d0ec3c6}{\index{jenes\-::tutorials\-::problem11\-::\-Image\-Matching\-Fitness@{jenes\-::tutorials\-::problem11\-::\-Image\-Matching\-Fitness}!rotate\-Anchor\-Y@{rotate\-Anchor\-Y}}
+\index{rotate\-Anchor\-Y@{rotate\-Anchor\-Y}!jenes::tutorials::problem11::ImageMatchingFitness@{jenes\-::tutorials\-::problem11\-::\-Image\-Matching\-Fitness}}
+\subsubsection[{rotate\-Anchor\-Y}]{\setlength{\rightskip}{0pt plus 5cm}int jenes.\-tutorials.\-problem11.\-Image\-Matching\-Fitness.\-rotate\-Anchor\-Y\hspace{0.3cm}{\ttfamily [private]}}}\label{classjenes_1_1tutorials_1_1problem11_1_1_image_matching_fitness_a9a0546b58cf181426dafb31f8d0ec3c6}
+\hypertarget{classjenes_1_1tutorials_1_1problem11_1_1_image_matching_fitness_acf5074dfbb8053f47ce1c03f3b88c121}{\index{jenes\-::tutorials\-::problem11\-::\-Image\-Matching\-Fitness@{jenes\-::tutorials\-::problem11\-::\-Image\-Matching\-Fitness}!sample\-Area\-Size@{sample\-Area\-Size}}
+\index{sample\-Area\-Size@{sample\-Area\-Size}!jenes::tutorials::problem11::ImageMatchingFitness@{jenes\-::tutorials\-::problem11\-::\-Image\-Matching\-Fitness}}
+\subsubsection[{sample\-Area\-Size}]{\setlength{\rightskip}{0pt plus 5cm}int jenes.\-tutorials.\-problem11.\-Image\-Matching\-Fitness.\-sample\-Area\-Size = 10\hspace{0.3cm}{\ttfamily [private]}}}\label{classjenes_1_1tutorials_1_1problem11_1_1_image_matching_fitness_acf5074dfbb8053f47ce1c03f3b88c121}
+The size of sample area \hypertarget{classjenes_1_1tutorials_1_1problem11_1_1_image_matching_fitness_a46fadaf9894a8034b8919db788936f13}{\index{jenes\-::tutorials\-::problem11\-::\-Image\-Matching\-Fitness@{jenes\-::tutorials\-::problem11\-::\-Image\-Matching\-Fitness}!signature@{signature}}
+\index{signature@{signature}!jenes::tutorials::problem11::ImageMatchingFitness@{jenes\-::tutorials\-::problem11\-::\-Image\-Matching\-Fitness}}
+\subsubsection[{signature}]{\setlength{\rightskip}{0pt plus 5cm}Color \mbox{[}$\,$\mbox{]}\mbox{[}$\,$\mbox{]} jenes.\-tutorials.\-problem11.\-Image\-Matching\-Fitness.\-signature\hspace{0.3cm}{\ttfamily [private]}}}\label{classjenes_1_1tutorials_1_1problem11_1_1_image_matching_fitness_a46fadaf9894a8034b8919db788936f13}
+The reference image \char`\"{}signature\char`\"{} (25 representative pixels, each in R,G,B). We use instances of Color to make things simpler. \hypertarget{classjenes_1_1tutorials_1_1problem11_1_1_image_matching_fitness_a43f4833e41f19eadc706b7ec449033a8}{\index{jenes\-::tutorials\-::problem11\-::\-Image\-Matching\-Fitness@{jenes\-::tutorials\-::problem11\-::\-Image\-Matching\-Fitness}!source@{source}}
+\index{source@{source}!jenes::tutorials::problem11::ImageMatchingFitness@{jenes\-::tutorials\-::problem11\-::\-Image\-Matching\-Fitness}}
+\subsubsection[{source}]{\setlength{\rightskip}{0pt plus 5cm}Buffered\-Image jenes.\-tutorials.\-problem11.\-Image\-Matching\-Fitness.\-source\hspace{0.3cm}{\ttfamily [private]}}}\label{classjenes_1_1tutorials_1_1problem11_1_1_image_matching_fitness_a43f4833e41f19eadc706b7ec449033a8}
+the source image (without trasformations) \hypertarget{classjenes_1_1tutorials_1_1problem11_1_1_image_matching_fitness_abcca6e100ede27ef9a90ddbc35497efd}{\index{jenes\-::tutorials\-::problem11\-::\-Image\-Matching\-Fitness@{jenes\-::tutorials\-::problem11\-::\-Image\-Matching\-Fitness}!S\-O\-U\-R\-C\-E\-\_\-\-I\-M\-A\-G\-E@{S\-O\-U\-R\-C\-E\-\_\-\-I\-M\-A\-G\-E}}
+\index{S\-O\-U\-R\-C\-E\-\_\-\-I\-M\-A\-G\-E@{S\-O\-U\-R\-C\-E\-\_\-\-I\-M\-A\-G\-E}!jenes::tutorials::problem11::ImageMatchingFitness@{jenes\-::tutorials\-::problem11\-::\-Image\-Matching\-Fitness}}
+\subsubsection[{S\-O\-U\-R\-C\-E\-\_\-\-I\-M\-A\-G\-E}]{\setlength{\rightskip}{0pt plus 5cm}final String jenes.\-tutorials.\-problem11.\-Image\-Matching\-Fitness.\-S\-O\-U\-R\-C\-E\-\_\-\-I\-M\-A\-G\-E = \char`\"{}files.\-Tutorial11/dog.\-jpg\char`\"{}\hspace{0.3cm}{\ttfamily [static]}}}\label{classjenes_1_1tutorials_1_1problem11_1_1_image_matching_fitness_abcca6e100ede27ef9a90ddbc35497efd}
+image to load \hypertarget{classjenes_1_1tutorials_1_1problem11_1_1_image_matching_fitness_a3607fd64f431452de7de69cdd659445c}{\index{jenes\-::tutorials\-::problem11\-::\-Image\-Matching\-Fitness@{jenes\-::tutorials\-::problem11\-::\-Image\-Matching\-Fitness}!target@{target}}
+\index{target@{target}!jenes::tutorials::problem11::ImageMatchingFitness@{jenes\-::tutorials\-::problem11\-::\-Image\-Matching\-Fitness}}
+\subsubsection[{target}]{\setlength{\rightskip}{0pt plus 5cm}Buffered\-Image jenes.\-tutorials.\-problem11.\-Image\-Matching\-Fitness.\-target\hspace{0.3cm}{\ttfamily [private]}}}\label{classjenes_1_1tutorials_1_1problem11_1_1_image_matching_fitness_a3607fd64f431452de7de69cdd659445c}
+the target to match \hypertarget{classjenes_1_1tutorials_1_1problem11_1_1_image_matching_fitness_abcf68166173033e945f0ed4c42520a84}{\index{jenes\-::tutorials\-::problem11\-::\-Image\-Matching\-Fitness@{jenes\-::tutorials\-::problem11\-::\-Image\-Matching\-Fitness}!target\-\_\-degrees@{target\-\_\-degrees}}
+\index{target\-\_\-degrees@{target\-\_\-degrees}!jenes::tutorials::problem11::ImageMatchingFitness@{jenes\-::tutorials\-::problem11\-::\-Image\-Matching\-Fitness}}
+\subsubsection[{target\-\_\-degrees}]{\setlength{\rightskip}{0pt plus 5cm}int jenes.\-tutorials.\-problem11.\-Image\-Matching\-Fitness.\-target\-\_\-degrees = 0\hspace{0.3cm}{\ttfamily [private]}}}\label{classjenes_1_1tutorials_1_1problem11_1_1_image_matching_fitness_abcf68166173033e945f0ed4c42520a84}
+target rotation for the sample image 
+
+The documentation for this class was generated from the following file\-:\begin{DoxyCompactItemize}
+\item 
+src/jenes/tutorials/problem11/\hyperlink{_image_matching_fitness_8java}{Image\-Matching\-Fitness.\-java}\end{DoxyCompactItemize}

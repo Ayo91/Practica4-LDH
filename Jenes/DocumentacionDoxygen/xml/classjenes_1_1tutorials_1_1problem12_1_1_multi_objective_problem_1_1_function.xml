@@ -1,0 +1,174 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="classjenes_1_1tutorials_1_1problem12_1_1_multi_objective_problem_1_1_function" kind="class" prot="public" abstract="yes">
+    <compoundname>jenes::tutorials::problem12::MultiObjectiveProblem::Function</compoundname>
+    <derivedcompoundref refid="classjenes_1_1tutorials_1_1problem12_1_1_schaffer" prot="public" virt="non-virtual">jenes.tutorials.problem12.Schaffer</derivedcompoundref>
+      <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="classjenes_1_1tutorials_1_1problem12_1_1_multi_objective_problem_1_1_function_1a967f81c2f3f08aaf45ea8a9cea350a6a" prot="protected" static="no" mutable="no">
+        <type>double[][]</type>
+        <definition>double [][] jenes.tutorials.problem12.MultiObjectiveProblem.Function.bounds</definition>
+        <argsstring></argsstring>
+        <name>bounds</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/problem12/MultiObjectiveProblem.java" line="144" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/problem12/MultiObjectiveProblem.java" bodystart="144" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classjenes_1_1tutorials_1_1problem12_1_1_multi_objective_problem_1_1_function_1a0407f39b5b8f36b8db33a72d46561cf8" prot="protected" static="no" mutable="no">
+        <type>int</type>
+        <definition>int jenes.tutorials.problem12.MultiObjectiveProblem.Function.goals</definition>
+        <argsstring></argsstring>
+        <name>goals</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/problem12/MultiObjectiveProblem.java" line="145" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/problem12/MultiObjectiveProblem.java" bodystart="145" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classjenes_1_1tutorials_1_1problem12_1_1_multi_objective_problem_1_1_function_1aa6ba25bb3bdfd596b9acf04e242dd8b9" prot="protected" static="no" mutable="no">
+        <type>String</type>
+        <definition>String jenes.tutorials.problem12.MultiObjectiveProblem.Function.name</definition>
+        <argsstring></argsstring>
+        <name>name</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/problem12/MultiObjectiveProblem.java" line="146" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/problem12/MultiObjectiveProblem.java" bodystart="146" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classjenes_1_1tutorials_1_1problem12_1_1_multi_objective_problem_1_1_function_1a5e899dccd1eea2ccf39548a50ca59431" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>jenes.tutorials.problem12.MultiObjectiveProblem.Function.Function</definition>
+        <argsstring>(String name, double[][] bounds, int goals)</argsstring>
+        <name>Function</name>
+        <param>
+          <type>String</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>bounds</declname>
+          <array>[][]</array>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>goals</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/problem12/MultiObjectiveProblem.java" line="148" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/problem12/MultiObjectiveProblem.java" bodystart="148" bodyend="152"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1tutorials_1_1problem12_1_1_multi_objective_problem_1_1_function_1aef721e01e829eb4f3143fff29a75d907" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>double[][]</type>
+        <definition>double [][] jenes.tutorials.problem12.MultiObjectiveProblem.Function.getBounds</definition>
+        <argsstring>()</argsstring>
+        <name>getBounds</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/problem12/MultiObjectiveProblem.java" line="154" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/problem12/MultiObjectiveProblem.java" bodystart="154" bodyend="156"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1tutorials_1_1problem12_1_1_multi_objective_problem_1_1_function_1a38c6645519375ddd4c68c00210db7d87" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int jenes.tutorials.problem12.MultiObjectiveProblem.Function.getNVars</definition>
+        <argsstring>()</argsstring>
+        <name>getNVars</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/problem12/MultiObjectiveProblem.java" line="158" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/problem12/MultiObjectiveProblem.java" bodystart="158" bodyend="160"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1tutorials_1_1problem12_1_1_multi_objective_problem_1_1_function_1ae1d5dd671e6620ee122f7c0d59af183b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int jenes.tutorials.problem12.MultiObjectiveProblem.Function.getGoals</definition>
+        <argsstring>()</argsstring>
+        <name>getGoals</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/problem12/MultiObjectiveProblem.java" line="162" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/problem12/MultiObjectiveProblem.java" bodystart="162" bodyend="164"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1tutorials_1_1problem12_1_1_multi_objective_problem_1_1_function_1ae4f2e9d8407fc204574b1a8a517e5269" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String jenes.tutorials.problem12.MultiObjectiveProblem.Function.getName</definition>
+        <argsstring>()</argsstring>
+        <name>getName</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/problem12/MultiObjectiveProblem.java" line="166" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/problem12/MultiObjectiveProblem.java" bodystart="166" bodyend="168"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1tutorials_1_1problem12_1_1_multi_objective_problem_1_1_function_1a12fde3b63d0edeff7539d4463041c2bd" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>abstract double[]</type>
+        <definition>abstract double [] jenes.tutorials.problem12.MultiObjectiveProblem.Function.evaluate</definition>
+        <argsstring>(double...x)</argsstring>
+        <name>evaluate</name>
+        <reimplementedby refid="classjenes_1_1tutorials_1_1problem12_1_1_schaffer_1a2fef22cd37928de5b342a50a88c72833">evaluate</reimplementedby>
+        <param>
+          <type>double...</type>
+          <declname>x</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/problem12/MultiObjectiveProblem.java" line="170" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="191">
+        <label>jenes.tutorials.problem12.Schaffer</label>
+        <link refid="classjenes_1_1tutorials_1_1problem12_1_1_schaffer"/>
+        <childnode refid="190" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="190">
+        <label>jenes.tutorials.problem12.MultiObjectiveProblem.Function</label>
+        <link refid="classjenes_1_1tutorials_1_1problem12_1_1_multi_objective_problem_1_1_function"/>
+      </node>
+    </inheritancegraph>
+    <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/problem12/MultiObjectiveProblem.java" line="142" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/problem12/MultiObjectiveProblem.java" bodystart="142" bodyend="171"/>
+    <listofallmembers>
+      <member refid="classjenes_1_1tutorials_1_1problem12_1_1_multi_objective_problem_1_1_function_1a967f81c2f3f08aaf45ea8a9cea350a6a" prot="protected" virt="non-virtual"><scope>jenes::tutorials::problem12::MultiObjectiveProblem::Function</scope><name>bounds</name></member>
+      <member refid="classjenes_1_1tutorials_1_1problem12_1_1_multi_objective_problem_1_1_function_1a12fde3b63d0edeff7539d4463041c2bd" prot="public" virt="pure-virtual"><scope>jenes::tutorials::problem12::MultiObjectiveProblem::Function</scope><name>evaluate</name></member>
+      <member refid="classjenes_1_1tutorials_1_1problem12_1_1_multi_objective_problem_1_1_function_1a5e899dccd1eea2ccf39548a50ca59431" prot="public" virt="non-virtual"><scope>jenes::tutorials::problem12::MultiObjectiveProblem::Function</scope><name>Function</name></member>
+      <member refid="classjenes_1_1tutorials_1_1problem12_1_1_multi_objective_problem_1_1_function_1aef721e01e829eb4f3143fff29a75d907" prot="public" virt="non-virtual"><scope>jenes::tutorials::problem12::MultiObjectiveProblem::Function</scope><name>getBounds</name></member>
+      <member refid="classjenes_1_1tutorials_1_1problem12_1_1_multi_objective_problem_1_1_function_1ae1d5dd671e6620ee122f7c0d59af183b" prot="public" virt="non-virtual"><scope>jenes::tutorials::problem12::MultiObjectiveProblem::Function</scope><name>getGoals</name></member>
+      <member refid="classjenes_1_1tutorials_1_1problem12_1_1_multi_objective_problem_1_1_function_1ae4f2e9d8407fc204574b1a8a517e5269" prot="public" virt="non-virtual"><scope>jenes::tutorials::problem12::MultiObjectiveProblem::Function</scope><name>getName</name></member>
+      <member refid="classjenes_1_1tutorials_1_1problem12_1_1_multi_objective_problem_1_1_function_1a38c6645519375ddd4c68c00210db7d87" prot="public" virt="non-virtual"><scope>jenes::tutorials::problem12::MultiObjectiveProblem::Function</scope><name>getNVars</name></member>
+      <member refid="classjenes_1_1tutorials_1_1problem12_1_1_multi_objective_problem_1_1_function_1a0407f39b5b8f36b8db33a72d46561cf8" prot="protected" virt="non-virtual"><scope>jenes::tutorials::problem12::MultiObjectiveProblem::Function</scope><name>goals</name></member>
+      <member refid="classjenes_1_1tutorials_1_1problem12_1_1_multi_objective_problem_1_1_function_1aa6ba25bb3bdfd596b9acf04e242dd8b9" prot="protected" virt="non-virtual"><scope>jenes::tutorials::problem12::MultiObjectiveProblem::Function</scope><name>name</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

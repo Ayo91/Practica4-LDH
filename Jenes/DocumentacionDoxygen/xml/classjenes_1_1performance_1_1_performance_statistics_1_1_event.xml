@@ -1,0 +1,143 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="classjenes_1_1performance_1_1_performance_statistics_1_1_event" kind="class" prot="public">
+    <compoundname>jenes::performance::PerformanceStatistics::Event</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classjenes_1_1performance_1_1_performance_statistics_1_1_event_1a11b36b7e84331f1d1ad7853f7c701d0a" prot="public" static="no" mutable="no">
+        <type>String</type>
+        <definition>String jenes.performance.PerformanceStatistics.Event.label</definition>
+        <argsstring></argsstring>
+        <name>label</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/performance/PerformanceStatistics.java" line="30" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/performance/PerformanceStatistics.java" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classjenes_1_1performance_1_1_performance_statistics_1_1_event_1aa3f0eebfca2c91d549d9e60ed57aea50" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int jenes.performance.PerformanceStatistics.Event.generation</definition>
+        <argsstring></argsstring>
+        <name>generation</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/performance/PerformanceStatistics.java" line="31" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/performance/PerformanceStatistics.java" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classjenes_1_1performance_1_1_performance_statistics_1_1_event_1ab5ebdfbbc9a6e1f9d770bae3b18f6f85" prot="public" static="no" mutable="no">
+        <type>long</type>
+        <definition>long jenes.performance.PerformanceStatistics.Event.time</definition>
+        <argsstring></argsstring>
+        <name>time</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/performance/PerformanceStatistics.java" line="32" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/performance/PerformanceStatistics.java" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classjenes_1_1performance_1_1_performance_statistics_1_1_event_1a9cbdaa1d1ad956557e6ea39588cdc5c7" prot="public" static="no" mutable="no">
+        <type>long</type>
+        <definition>long jenes.performance.PerformanceStatistics.Event.memory</definition>
+        <argsstring></argsstring>
+        <name>memory</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/performance/PerformanceStatistics.java" line="33" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/performance/PerformanceStatistics.java" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classjenes_1_1performance_1_1_performance_statistics_1_1_event_1a858cab2b5e60543eee0db7c95ccfe34a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String jenes.performance.PerformanceStatistics.Event.getLabel</definition>
+        <argsstring>()</argsstring>
+        <name>getLabel</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/performance/PerformanceStatistics.java" line="35" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/performance/PerformanceStatistics.java" bodystart="35" bodyend="37"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1performance_1_1_performance_statistics_1_1_event_1aa71c06c2498c62e0a9aef06e0da9a3e7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int jenes.performance.PerformanceStatistics.Event.getGeneration</definition>
+        <argsstring>()</argsstring>
+        <name>getGeneration</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/performance/PerformanceStatistics.java" line="39" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/performance/PerformanceStatistics.java" bodystart="39" bodyend="41"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1performance_1_1_performance_statistics_1_1_event_1a2d68c852cc73a36b47cd355c6bab5e89" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>long</type>
+        <definition>long jenes.performance.PerformanceStatistics.Event.getTime</definition>
+        <argsstring>()</argsstring>
+        <name>getTime</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/performance/PerformanceStatistics.java" line="43" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/performance/PerformanceStatistics.java" bodystart="43" bodyend="45"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1performance_1_1_performance_statistics_1_1_event_1ac8407c677c5be0c8ae79c18f3b6fa46f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>long</type>
+        <definition>long jenes.performance.PerformanceStatistics.Event.getMemory</definition>
+        <argsstring>()</argsstring>
+        <name>getMemory</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/performance/PerformanceStatistics.java" line="47" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/performance/PerformanceStatistics.java" bodystart="47" bodyend="49"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1performance_1_1_performance_statistics_1_1_event_1a995f7db4cd77e8c7d7c10f82f47a90ac" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String jenes.performance.PerformanceStatistics.Event.toString</definition>
+        <argsstring>()</argsstring>
+        <name>toString</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/performance/PerformanceStatistics.java" line="51" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/performance/PerformanceStatistics.java" bodystart="51" bodyend="53"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/performance/PerformanceStatistics.java" line="28" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/performance/PerformanceStatistics.java" bodystart="28" bodyend="54"/>
+    <listofallmembers>
+      <member refid="classjenes_1_1performance_1_1_performance_statistics_1_1_event_1aa3f0eebfca2c91d549d9e60ed57aea50" prot="public" virt="non-virtual"><scope>jenes::performance::PerformanceStatistics::Event</scope><name>generation</name></member>
+      <member refid="classjenes_1_1performance_1_1_performance_statistics_1_1_event_1aa71c06c2498c62e0a9aef06e0da9a3e7" prot="public" virt="non-virtual"><scope>jenes::performance::PerformanceStatistics::Event</scope><name>getGeneration</name></member>
+      <member refid="classjenes_1_1performance_1_1_performance_statistics_1_1_event_1a858cab2b5e60543eee0db7c95ccfe34a" prot="public" virt="non-virtual"><scope>jenes::performance::PerformanceStatistics::Event</scope><name>getLabel</name></member>
+      <member refid="classjenes_1_1performance_1_1_performance_statistics_1_1_event_1ac8407c677c5be0c8ae79c18f3b6fa46f" prot="public" virt="non-virtual"><scope>jenes::performance::PerformanceStatistics::Event</scope><name>getMemory</name></member>
+      <member refid="classjenes_1_1performance_1_1_performance_statistics_1_1_event_1a2d68c852cc73a36b47cd355c6bab5e89" prot="public" virt="non-virtual"><scope>jenes::performance::PerformanceStatistics::Event</scope><name>getTime</name></member>
+      <member refid="classjenes_1_1performance_1_1_performance_statistics_1_1_event_1a11b36b7e84331f1d1ad7853f7c701d0a" prot="public" virt="non-virtual"><scope>jenes::performance::PerformanceStatistics::Event</scope><name>label</name></member>
+      <member refid="classjenes_1_1performance_1_1_performance_statistics_1_1_event_1a9cbdaa1d1ad956557e6ea39588cdc5c7" prot="public" virt="non-virtual"><scope>jenes::performance::PerformanceStatistics::Event</scope><name>memory</name></member>
+      <member refid="classjenes_1_1performance_1_1_performance_statistics_1_1_event_1ab5ebdfbbc9a6e1f9d770bae3b18f6f85" prot="public" virt="non-virtual"><scope>jenes::performance::PerformanceStatistics::Event</scope><name>time</name></member>
+      <member refid="classjenes_1_1performance_1_1_performance_statistics_1_1_event_1a995f7db4cd77e8c7d7c10f82f47a90ac" prot="public" virt="non-virtual"><scope>jenes::performance::PerformanceStatistics::Event</scope><name>toString</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

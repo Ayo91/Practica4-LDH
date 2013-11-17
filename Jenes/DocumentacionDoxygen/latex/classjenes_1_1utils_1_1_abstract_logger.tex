@@ -1,0 +1,229 @@
+\hypertarget{classjenes_1_1utils_1_1_abstract_logger}{\section{jenes.\-utils.\-Abstract\-Logger Class Reference}
+\label{classjenes_1_1utils_1_1_abstract_logger}\index{jenes.\-utils.\-Abstract\-Logger@{jenes.\-utils.\-Abstract\-Logger}}
+}
+Inheritance diagram for jenes.\-utils.\-Abstract\-Logger\-:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{classjenes_1_1utils_1_1_abstract_logger}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classjenes_1_1utils_1_1_abstract_logger_a357a64e024ede4da833b79455ba63644}{Abstract\-Logger} (String\mbox{[}$\,$\mbox{]} \hyperlink{classjenes_1_1utils_1_1_abstract_logger_a3a2030876857a0512fae7e0ad400c570}{schema})
+\item 
+String\mbox{[}$\,$\mbox{]} \hyperlink{classjenes_1_1utils_1_1_abstract_logger_a3f4dc79a211f8e01c621d42dec8d4de2}{get\-Schema} ()
+\item 
+Iterator$<$ String $>$ \hyperlink{classjenes_1_1utils_1_1_abstract_logger_ae939c8578c5342d8f11ff61388ddfd80}{get\-Fields} ()
+\item 
+final void \hyperlink{classjenes_1_1utils_1_1_abstract_logger_a0f00b8fa60e88b7c2834be7cdf1fc07e}{put} (String key, Object value)
+\item 
+final Object \hyperlink{classjenes_1_1utils_1_1_abstract_logger_acceb0a183912b0ec7fc95554ab2e3001}{get} (String key)
+\item 
+boolean \hyperlink{classjenes_1_1utils_1_1_abstract_logger_af4f01e740a9332b8bb32817e01e7b030}{is\-Record\-Complete} ()
+\item 
+final void \hyperlink{classjenes_1_1utils_1_1_abstract_logger_a26e56f4617fbd249359186c90ec265ba}{log} ()
+\item 
+void \hyperlink{classjenes_1_1utils_1_1_abstract_logger_a736fbff3759196a70dbf6618f10e8786}{save} ()
+\item 
+void \hyperlink{classjenes_1_1utils_1_1_abstract_logger_a7d973cbb6b91f254a5430a8875898dbe}{close} ()
+\end{DoxyCompactItemize}
+\subsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+abstract void \hyperlink{classjenes_1_1utils_1_1_abstract_logger_a6acf83a83999e26ae4ed45cbf355111b}{store} ()
+\item 
+abstract void \hyperlink{classjenes_1_1utils_1_1_abstract_logger_a41fcd50b050c467fe1b413fc5b49c167}{do\-Save} ()
+\item 
+abstract void \hyperlink{classjenes_1_1utils_1_1_abstract_logger_a5253672b3f3f81287db2fc604ca921a9}{do\-Close} ()
+\item 
+void \hyperlink{classjenes_1_1utils_1_1_abstract_logger_af2c45f653c6e5e79bc4e85dc3ecc4ab4}{finalize} ()
+\end{DoxyCompactItemize}
+\subsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+List$<$ String $>$ \hyperlink{classjenes_1_1utils_1_1_abstract_logger_a3a2030876857a0512fae7e0ad400c570}{schema} = null
+\item 
+Map$<$ String, Object $>$ \hyperlink{classjenes_1_1utils_1_1_abstract_logger_ae85e356ad12255a9c5ec8f9f25659ef7}{record} = new Hash\-Map$<$String, Object$>$()
+\item 
+boolean \hyperlink{classjenes_1_1utils_1_1_abstract_logger_a68fe91d1c7bad9146db3bddd92bbcab3}{closed}
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+This class provides basic support and interface for logging on different media. A log is made of records. Each record is an associative table of properties.
+
+\begin{DoxyVersion}{Version}
+2.\-0 
+\end{DoxyVersion}
+\begin{DoxySince}{Since}
+1.\-3 
+\end{DoxySince}
+
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{classjenes_1_1utils_1_1_abstract_logger_a357a64e024ede4da833b79455ba63644}{\index{jenes\-::utils\-::\-Abstract\-Logger@{jenes\-::utils\-::\-Abstract\-Logger}!Abstract\-Logger@{Abstract\-Logger}}
+\index{Abstract\-Logger@{Abstract\-Logger}!jenes::utils::AbstractLogger@{jenes\-::utils\-::\-Abstract\-Logger}}
+\subsubsection[{Abstract\-Logger}]{\setlength{\rightskip}{0pt plus 5cm}jenes.\-utils.\-Abstract\-Logger.\-Abstract\-Logger (
+\begin{DoxyParamCaption}
+\item[{String\mbox{[}$\,$\mbox{]}}]{schema}
+\end{DoxyParamCaption}
+)}}\label{classjenes_1_1utils_1_1_abstract_logger_a357a64e024ede4da833b79455ba63644}
+Creates a new logger providing a schema
+
+
+\begin{DoxyParams}{Parameters}
+{\em schema} & -\/ the logging schema \\
+\hline
+\end{DoxyParams}
+
+
+\subsection{Member Function Documentation}
+\hypertarget{classjenes_1_1utils_1_1_abstract_logger_a7d973cbb6b91f254a5430a8875898dbe}{\index{jenes\-::utils\-::\-Abstract\-Logger@{jenes\-::utils\-::\-Abstract\-Logger}!close@{close}}
+\index{close@{close}!jenes::utils::AbstractLogger@{jenes\-::utils\-::\-Abstract\-Logger}}
+\subsubsection[{close}]{\setlength{\rightskip}{0pt plus 5cm}void jenes.\-utils.\-Abstract\-Logger.\-close (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classjenes_1_1utils_1_1_abstract_logger_a7d973cbb6b91f254a5430a8875898dbe}
+Saves cached records on media and closes the logger. If the logger is closed this operation is not allowed. \hypertarget{classjenes_1_1utils_1_1_abstract_logger_a5253672b3f3f81287db2fc604ca921a9}{\index{jenes\-::utils\-::\-Abstract\-Logger@{jenes\-::utils\-::\-Abstract\-Logger}!do\-Close@{do\-Close}}
+\index{do\-Close@{do\-Close}!jenes::utils::AbstractLogger@{jenes\-::utils\-::\-Abstract\-Logger}}
+\subsubsection[{do\-Close}]{\setlength{\rightskip}{0pt plus 5cm}abstract void jenes.\-utils.\-Abstract\-Logger.\-do\-Close (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [protected]}, {\ttfamily [pure virtual]}}}\label{classjenes_1_1utils_1_1_abstract_logger_a5253672b3f3f81287db2fc604ca921a9}
+Closes the logger. Any further log is not allowed. 
+
+Implemented in \hyperlink{classjenes_1_1utils_1_1_x_l_s_logger_acf58ddaa6873bcf626c9d24064a89b73}{jenes.\-utils.\-X\-L\-S\-Logger}, and \hyperlink{classjenes_1_1utils_1_1_c_s_v_logger_ac89f6fe5bd609fcc02ca7adf1407f279}{jenes.\-utils.\-C\-S\-V\-Logger}.
+
+\hypertarget{classjenes_1_1utils_1_1_abstract_logger_a41fcd50b050c467fe1b413fc5b49c167}{\index{jenes\-::utils\-::\-Abstract\-Logger@{jenes\-::utils\-::\-Abstract\-Logger}!do\-Save@{do\-Save}}
+\index{do\-Save@{do\-Save}!jenes::utils::AbstractLogger@{jenes\-::utils\-::\-Abstract\-Logger}}
+\subsubsection[{do\-Save}]{\setlength{\rightskip}{0pt plus 5cm}abstract void jenes.\-utils.\-Abstract\-Logger.\-do\-Save (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [protected]}, {\ttfamily [pure virtual]}}}\label{classjenes_1_1utils_1_1_abstract_logger_a41fcd50b050c467fe1b413fc5b49c167}
+Saves cached records on media 
+
+Implemented in \hyperlink{classjenes_1_1utils_1_1_x_l_s_logger_a54c54393bf5a31442ebfc10517dfceea}{jenes.\-utils.\-X\-L\-S\-Logger}, and \hyperlink{classjenes_1_1utils_1_1_c_s_v_logger_a09a4f4fc362db6d4090d75642521ee65}{jenes.\-utils.\-C\-S\-V\-Logger}.
+
+\hypertarget{classjenes_1_1utils_1_1_abstract_logger_af2c45f653c6e5e79bc4e85dc3ecc4ab4}{\index{jenes\-::utils\-::\-Abstract\-Logger@{jenes\-::utils\-::\-Abstract\-Logger}!finalize@{finalize}}
+\index{finalize@{finalize}!jenes::utils::AbstractLogger@{jenes\-::utils\-::\-Abstract\-Logger}}
+\subsubsection[{finalize}]{\setlength{\rightskip}{0pt plus 5cm}void jenes.\-utils.\-Abstract\-Logger.\-finalize (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [protected]}}}\label{classjenes_1_1utils_1_1_abstract_logger_af2c45f653c6e5e79bc4e85dc3ecc4ab4}
+\hypertarget{classjenes_1_1utils_1_1_abstract_logger_acceb0a183912b0ec7fc95554ab2e3001}{\index{jenes\-::utils\-::\-Abstract\-Logger@{jenes\-::utils\-::\-Abstract\-Logger}!get@{get}}
+\index{get@{get}!jenes::utils::AbstractLogger@{jenes\-::utils\-::\-Abstract\-Logger}}
+\subsubsection[{get}]{\setlength{\rightskip}{0pt plus 5cm}final Object jenes.\-utils.\-Abstract\-Logger.\-get (
+\begin{DoxyParamCaption}
+\item[{String}]{key}
+\end{DoxyParamCaption}
+)}}\label{classjenes_1_1utils_1_1_abstract_logger_acceb0a183912b0ec7fc95554ab2e3001}
+Retrieves a statistics from the current record.
+
+
+\begin{DoxyParams}{Parameters}
+{\em key} & -\/ the statistics name \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+the statistics value 
+\end{DoxyReturn}
+\hypertarget{classjenes_1_1utils_1_1_abstract_logger_ae939c8578c5342d8f11ff61388ddfd80}{\index{jenes\-::utils\-::\-Abstract\-Logger@{jenes\-::utils\-::\-Abstract\-Logger}!get\-Fields@{get\-Fields}}
+\index{get\-Fields@{get\-Fields}!jenes::utils::AbstractLogger@{jenes\-::utils\-::\-Abstract\-Logger}}
+\subsubsection[{get\-Fields}]{\setlength{\rightskip}{0pt plus 5cm}Iterator$<$String$>$ jenes.\-utils.\-Abstract\-Logger.\-get\-Fields (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classjenes_1_1utils_1_1_abstract_logger_ae939c8578c5342d8f11ff61388ddfd80}
+Returns the list of schema fields
+
+\begin{DoxyReturn}{Returns}
+the iterator of fields 
+\end{DoxyReturn}
+\hypertarget{classjenes_1_1utils_1_1_abstract_logger_a3f4dc79a211f8e01c621d42dec8d4de2}{\index{jenes\-::utils\-::\-Abstract\-Logger@{jenes\-::utils\-::\-Abstract\-Logger}!get\-Schema@{get\-Schema}}
+\index{get\-Schema@{get\-Schema}!jenes::utils::AbstractLogger@{jenes\-::utils\-::\-Abstract\-Logger}}
+\subsubsection[{get\-Schema}]{\setlength{\rightskip}{0pt plus 5cm}String \mbox{[}$\,$\mbox{]} jenes.\-utils.\-Abstract\-Logger.\-get\-Schema (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classjenes_1_1utils_1_1_abstract_logger_a3f4dc79a211f8e01c621d42dec8d4de2}
+Returns the logging schema
+
+\begin{DoxyReturn}{Returns}
+the array of fields 
+\end{DoxyReturn}
+\hypertarget{classjenes_1_1utils_1_1_abstract_logger_af4f01e740a9332b8bb32817e01e7b030}{\index{jenes\-::utils\-::\-Abstract\-Logger@{jenes\-::utils\-::\-Abstract\-Logger}!is\-Record\-Complete@{is\-Record\-Complete}}
+\index{is\-Record\-Complete@{is\-Record\-Complete}!jenes::utils::AbstractLogger@{jenes\-::utils\-::\-Abstract\-Logger}}
+\subsubsection[{is\-Record\-Complete}]{\setlength{\rightskip}{0pt plus 5cm}boolean jenes.\-utils.\-Abstract\-Logger.\-is\-Record\-Complete (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classjenes_1_1utils_1_1_abstract_logger_af4f01e740a9332b8bb32817e01e7b030}
+Returns true if the record is complete
+
+\begin{DoxyReturn}{Returns}
+true if the record is complete 
+\end{DoxyReturn}
+\hypertarget{classjenes_1_1utils_1_1_abstract_logger_a26e56f4617fbd249359186c90ec265ba}{\index{jenes\-::utils\-::\-Abstract\-Logger@{jenes\-::utils\-::\-Abstract\-Logger}!log@{log}}
+\index{log@{log}!jenes::utils::AbstractLogger@{jenes\-::utils\-::\-Abstract\-Logger}}
+\subsubsection[{log}]{\setlength{\rightskip}{0pt plus 5cm}final void jenes.\-utils.\-Abstract\-Logger.\-log (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classjenes_1_1utils_1_1_abstract_logger_a26e56f4617fbd249359186c90ec265ba}
+Logs a current record by storing it and making the record empty. This is the method to invoke to store the current recorrd. \hypertarget{classjenes_1_1utils_1_1_abstract_logger_a0f00b8fa60e88b7c2834be7cdf1fc07e}{\index{jenes\-::utils\-::\-Abstract\-Logger@{jenes\-::utils\-::\-Abstract\-Logger}!put@{put}}
+\index{put@{put}!jenes::utils::AbstractLogger@{jenes\-::utils\-::\-Abstract\-Logger}}
+\subsubsection[{put}]{\setlength{\rightskip}{0pt plus 5cm}final void jenes.\-utils.\-Abstract\-Logger.\-put (
+\begin{DoxyParamCaption}
+\item[{String}]{key, }
+\item[{Object}]{value}
+\end{DoxyParamCaption}
+)}}\label{classjenes_1_1utils_1_1_abstract_logger_a0f00b8fa60e88b7c2834be7cdf1fc07e}
+Puts a value into the current record.
+
+
+\begin{DoxyParams}{Parameters}
+{\em key} & -\/ the statistics name \\
+\hline
+{\em value} & -\/ the statistics value \\
+\hline
+\end{DoxyParams}
+\hypertarget{classjenes_1_1utils_1_1_abstract_logger_a736fbff3759196a70dbf6618f10e8786}{\index{jenes\-::utils\-::\-Abstract\-Logger@{jenes\-::utils\-::\-Abstract\-Logger}!save@{save}}
+\index{save@{save}!jenes::utils::AbstractLogger@{jenes\-::utils\-::\-Abstract\-Logger}}
+\subsubsection[{save}]{\setlength{\rightskip}{0pt plus 5cm}void jenes.\-utils.\-Abstract\-Logger.\-save (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classjenes_1_1utils_1_1_abstract_logger_a736fbff3759196a70dbf6618f10e8786}
+Saves cached records on media. If the logger is closed this operation is not allowed. \hypertarget{classjenes_1_1utils_1_1_abstract_logger_a6acf83a83999e26ae4ed45cbf355111b}{\index{jenes\-::utils\-::\-Abstract\-Logger@{jenes\-::utils\-::\-Abstract\-Logger}!store@{store}}
+\index{store@{store}!jenes::utils::AbstractLogger@{jenes\-::utils\-::\-Abstract\-Logger}}
+\subsubsection[{store}]{\setlength{\rightskip}{0pt plus 5cm}abstract void jenes.\-utils.\-Abstract\-Logger.\-store (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [protected]}, {\ttfamily [pure virtual]}}}\label{classjenes_1_1utils_1_1_abstract_logger_a6acf83a83999e26ae4ed45cbf355111b}
+Stores the current record. 
+
+Implemented in \hyperlink{classjenes_1_1utils_1_1_x_l_s_logger_ae6b3840ad6be8bdc558efaf6077d4ae4}{jenes.\-utils.\-X\-L\-S\-Logger}, and \hyperlink{classjenes_1_1utils_1_1_c_s_v_logger_a863bcfda3e93b023949a81e7f6d149e7}{jenes.\-utils.\-C\-S\-V\-Logger}.
+
+
+
+\subsection{Member Data Documentation}
+\hypertarget{classjenes_1_1utils_1_1_abstract_logger_a68fe91d1c7bad9146db3bddd92bbcab3}{\index{jenes\-::utils\-::\-Abstract\-Logger@{jenes\-::utils\-::\-Abstract\-Logger}!closed@{closed}}
+\index{closed@{closed}!jenes::utils::AbstractLogger@{jenes\-::utils\-::\-Abstract\-Logger}}
+\subsubsection[{closed}]{\setlength{\rightskip}{0pt plus 5cm}boolean jenes.\-utils.\-Abstract\-Logger.\-closed\hspace{0.3cm}{\ttfamily [protected]}}}\label{classjenes_1_1utils_1_1_abstract_logger_a68fe91d1c7bad9146db3bddd92bbcab3}
+\hypertarget{classjenes_1_1utils_1_1_abstract_logger_ae85e356ad12255a9c5ec8f9f25659ef7}{\index{jenes\-::utils\-::\-Abstract\-Logger@{jenes\-::utils\-::\-Abstract\-Logger}!record@{record}}
+\index{record@{record}!jenes::utils::AbstractLogger@{jenes\-::utils\-::\-Abstract\-Logger}}
+\subsubsection[{record}]{\setlength{\rightskip}{0pt plus 5cm}Map$<$String, Object$>$ jenes.\-utils.\-Abstract\-Logger.\-record = new Hash\-Map$<$String, Object$>$()\hspace{0.3cm}{\ttfamily [protected]}}}\label{classjenes_1_1utils_1_1_abstract_logger_ae85e356ad12255a9c5ec8f9f25659ef7}
+The table of value to store. It is the current record to fill. \hypertarget{classjenes_1_1utils_1_1_abstract_logger_a3a2030876857a0512fae7e0ad400c570}{\index{jenes\-::utils\-::\-Abstract\-Logger@{jenes\-::utils\-::\-Abstract\-Logger}!schema@{schema}}
+\index{schema@{schema}!jenes::utils::AbstractLogger@{jenes\-::utils\-::\-Abstract\-Logger}}
+\subsubsection[{schema}]{\setlength{\rightskip}{0pt plus 5cm}List$<$String$>$ jenes.\-utils.\-Abstract\-Logger.\-schema = null\hspace{0.3cm}{\ttfamily [protected]}}}\label{classjenes_1_1utils_1_1_abstract_logger_a3a2030876857a0512fae7e0ad400c570}
+The statistics schema 
+
+The documentation for this class was generated from the following file\-:\begin{DoxyCompactItemize}
+\item 
+src/jenes/utils/\hyperlink{_abstract_logger_8java}{Abstract\-Logger.\-java}\end{DoxyCompactItemize}

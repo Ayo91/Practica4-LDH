@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="dir_f97a2bf6fe05c495e341fd5fd7b88cb5" kind="dir">
+    <compoundname>src/jenes/stage</compoundname>
+    <innerdir refid="dir_7a9aca08c39cddbbbe73f347502aecc2">src/jenes/stage/operator</innerdir>
+    <innerfile refid="_abstract_stage_8java">AbstractStage.java</innerfile>
+    <innerfile refid="_algorithm_stage_8java">AlgorithmStage.java</innerfile>
+    <innerfile refid="_break_point_8java">BreakPoint.java</innerfile>
+    <innerfile refid="_dispenser_8java">Dispenser.java</innerfile>
+    <innerfile refid="_evaluator_8java">Evaluator.java</innerfile>
+    <innerfile refid="_exclusive_dispenser_8java">ExclusiveDispenser.java</innerfile>
+    <innerfile refid="_parallel_8java">Parallel.java</innerfile>
+    <innerfile refid="_sequence_8java">Sequence.java</innerfile>
+    <innerfile refid="_stage_exception_8java">StageException.java</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/stage/"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,150 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="classjenes_1_1tutorials_1_1problem10_1_1_crowding_g_a_example" kind="class" prot="public">
+    <compoundname>jenes::tutorials::problem10::CrowdingGAExample</compoundname>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="classjenes_1_1tutorials_1_1problem10_1_1_crowding_g_a_example_1a4a9e06723f82ad9881314eac82f4765a" prot="private" static="yes" mutable="no">
+        <type>int</type>
+        <definition>int jenes.tutorials.problem10.CrowdingGAExample.POPULATION_SIZE</definition>
+        <argsstring></argsstring>
+        <name>POPULATION_SIZE</name>
+        <initializer>= 500</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/problem10/CrowdingGAExample.java" line="42" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/problem10/CrowdingGAExample.java" bodystart="42" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classjenes_1_1tutorials_1_1problem10_1_1_crowding_g_a_example_1adcffdbe7868ca17e745ff795d7c5c1f8" prot="private" static="yes" mutable="no">
+        <type>int</type>
+        <definition>int jenes.tutorials.problem10.CrowdingGAExample.CHROMOSOME_LENGTH</definition>
+        <argsstring></argsstring>
+        <name>CHROMOSOME_LENGTH</name>
+        <initializer>= 2</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/problem10/CrowdingGAExample.java" line="43" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/problem10/CrowdingGAExample.java" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classjenes_1_1tutorials_1_1problem10_1_1_crowding_g_a_example_1abaf536c5e1e253b8bf8a6416985f1967" prot="private" static="yes" mutable="no">
+        <type>int</type>
+        <definition>int jenes.tutorials.problem10.CrowdingGAExample.GENERATION_LIMIT</definition>
+        <argsstring></argsstring>
+        <name>GENERATION_LIMIT</name>
+        <initializer>= 100</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/problem10/CrowdingGAExample.java" line="44" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/problem10/CrowdingGAExample.java" bodystart="44" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classjenes_1_1tutorials_1_1problem10_1_1_crowding_g_a_example_1a847763f724496b95a266a6fe2b54c3d7" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void jenes.tutorials.problem10.CrowdingGAExample.main</definition>
+        <argsstring>(String...a)</argsstring>
+        <name>main</name>
+        <param>
+          <type>String...</type>
+          <declname>a</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/problem10/CrowdingGAExample.java" line="46" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/problem10/CrowdingGAExample.java" bodystart="46" bodyend="57"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="classjenes_1_1tutorials_1_1problem10_1_1_crowding_g_a_example_1a6424dacb3ce72723ed89e8eea24cbbbe" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void jenes.tutorials.problem10.CrowdingGAExample.deJongOperator</definition>
+        <argsstring>(Fitness&lt; DoubleChromosome &gt; fit, Population&lt; DoubleChromosome &gt; pop)</argsstring>
+        <name>deJongOperator</name>
+        <param>
+          <type>Fitness&lt; <ref refid="classjenes_1_1chromosome_1_1_double_chromosome" kindref="compound">DoubleChromosome</ref> &gt;</type>
+          <declname>fit</declname>
+        </param>
+        <param>
+          <type>Population&lt; <ref refid="classjenes_1_1chromosome_1_1_double_chromosome" kindref="compound">DoubleChromosome</ref> &gt;</type>
+          <declname>pop</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/problem10/CrowdingGAExample.java" line="59" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/problem10/CrowdingGAExample.java" bodystart="59" bodyend="74"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1tutorials_1_1problem10_1_1_crowding_g_a_example_1ab1e91aaf830444e9c1fd42ba6f902a21" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void jenes.tutorials.problem10.CrowdingGAExample.multiNicheOperator</definition>
+        <argsstring>(Fitness&lt; DoubleChromosome &gt; fit, Population&lt; DoubleChromosome &gt; pop)</argsstring>
+        <name>multiNicheOperator</name>
+        <param>
+          <type>Fitness&lt; <ref refid="classjenes_1_1chromosome_1_1_double_chromosome" kindref="compound">DoubleChromosome</ref> &gt;</type>
+          <declname>fit</declname>
+        </param>
+        <param>
+          <type>Population&lt; <ref refid="classjenes_1_1chromosome_1_1_double_chromosome" kindref="compound">DoubleChromosome</ref> &gt;</type>
+          <declname>pop</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/problem10/CrowdingGAExample.java" line="76" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/problem10/CrowdingGAExample.java" bodystart="76" bodyend="91"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1tutorials_1_1problem10_1_1_crowding_g_a_example_1aa588b8d616f543e4a5c942f6af867a51" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void jenes.tutorials.problem10.CrowdingGAExample.deterministicOperator</definition>
+        <argsstring>(Fitness&lt; DoubleChromosome &gt; fit, Population&lt; DoubleChromosome &gt; pop)</argsstring>
+        <name>deterministicOperator</name>
+        <param>
+          <type>Fitness&lt; <ref refid="classjenes_1_1chromosome_1_1_double_chromosome" kindref="compound">DoubleChromosome</ref> &gt;</type>
+          <declname>fit</declname>
+        </param>
+        <param>
+          <type>Population&lt; <ref refid="classjenes_1_1chromosome_1_1_double_chromosome" kindref="compound">DoubleChromosome</ref> &gt;</type>
+          <declname>pop</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/problem10/CrowdingGAExample.java" line="93" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/problem10/CrowdingGAExample.java" bodystart="93" bodyend="108"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Tutorial implementing a crowding genetic algorithm with different operators. The problem consists in maximizing a function.</para><para><simplesect kind="version"><para>2.0 </para></simplesect>
+<simplesect kind="since"><para>1.0 </para></simplesect>
+</para>    </detaileddescription>
+    <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/problem10/CrowdingGAExample.java" line="40" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/problem10/CrowdingGAExample.java" bodystart="40" bodyend="109"/>
+    <listofallmembers>
+      <member refid="classjenes_1_1tutorials_1_1problem10_1_1_crowding_g_a_example_1adcffdbe7868ca17e745ff795d7c5c1f8" prot="private" virt="non-virtual"><scope>jenes::tutorials::problem10::CrowdingGAExample</scope><name>CHROMOSOME_LENGTH</name></member>
+      <member refid="classjenes_1_1tutorials_1_1problem10_1_1_crowding_g_a_example_1a6424dacb3ce72723ed89e8eea24cbbbe" prot="private" virt="non-virtual"><scope>jenes::tutorials::problem10::CrowdingGAExample</scope><name>deJongOperator</name></member>
+      <member refid="classjenes_1_1tutorials_1_1problem10_1_1_crowding_g_a_example_1aa588b8d616f543e4a5c942f6af867a51" prot="private" virt="non-virtual"><scope>jenes::tutorials::problem10::CrowdingGAExample</scope><name>deterministicOperator</name></member>
+      <member refid="classjenes_1_1tutorials_1_1problem10_1_1_crowding_g_a_example_1abaf536c5e1e253b8bf8a6416985f1967" prot="private" virt="non-virtual"><scope>jenes::tutorials::problem10::CrowdingGAExample</scope><name>GENERATION_LIMIT</name></member>
+      <member refid="classjenes_1_1tutorials_1_1problem10_1_1_crowding_g_a_example_1a847763f724496b95a266a6fe2b54c3d7" prot="public" virt="non-virtual"><scope>jenes::tutorials::problem10::CrowdingGAExample</scope><name>main</name></member>
+      <member refid="classjenes_1_1tutorials_1_1problem10_1_1_crowding_g_a_example_1ab1e91aaf830444e9c1fd42ba6f902a21" prot="private" virt="non-virtual"><scope>jenes::tutorials::problem10::CrowdingGAExample</scope><name>multiNicheOperator</name></member>
+      <member refid="classjenes_1_1tutorials_1_1problem10_1_1_crowding_g_a_example_1a4a9e06723f82ad9881314eac82f4765a" prot="private" virt="non-virtual"><scope>jenes::tutorials::problem10::CrowdingGAExample</scope><name>POPULATION_SIZE</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="namespacejenes_1_1utils_1_1multitasking" kind="namespace">
+    <compoundname>jenes::utils::multitasking</compoundname>
+    <innerclass refid="classjenes_1_1utils_1_1multitasking_1_1_multi_thread_evaluator" prot="public">jenes::utils::multitasking::MultiThreadEvaluator</innerclass>
+    <innerclass refid="classjenes_1_1utils_1_1multitasking_1_1_multi_thread_runner" prot="public">jenes::utils::multitasking::MultiThreadRunner</innerclass>
+    <innerclass refid="classjenes_1_1utils_1_1multitasking_1_1_runner" prot="public">jenes::utils::multitasking::Runner</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/utils/multitasking/MultiThreadEvaluator.java" line="19" column="1"/>
+  </compounddef>
+</doxygen>

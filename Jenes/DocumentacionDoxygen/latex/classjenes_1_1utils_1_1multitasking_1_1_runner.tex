@@ -1,0 +1,197 @@
+\hypertarget{classjenes_1_1utils_1_1multitasking_1_1_runner}{\section{jenes.\-utils.\-multitasking.\-Runner Class Reference}
+\label{classjenes_1_1utils_1_1multitasking_1_1_runner}\index{jenes.\-utils.\-multitasking.\-Runner@{jenes.\-utils.\-multitasking.\-Runner}}
+}
+Inheritance diagram for jenes.\-utils.\-multitasking.\-Runner\-:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=3.000000cm]{classjenes_1_1utils_1_1multitasking_1_1_runner}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+final void \hyperlink{classjenes_1_1utils_1_1multitasking_1_1_runner_a24d074cbd5140cd8bc65623fa1961f39}{execute} (Genetic\-Algorithm \hyperlink{classjenes_1_1utils_1_1multitasking_1_1_runner_a699ccf526b6116f97abc09e4ce390c89}{algorithm}, boolean restart)
+\item 
+final void \hyperlink{classjenes_1_1utils_1_1multitasking_1_1_runner_ae222d69f44508fc432c05074272e0ae3}{execute} (Genetic\-Algorithm algoritm)
+\item 
+final void \hyperlink{classjenes_1_1utils_1_1multitasking_1_1_runner_a7205f2d93d68f40e3e87dccf92cc3720}{execute} (Genetic\-Algorithm \hyperlink{classjenes_1_1utils_1_1multitasking_1_1_runner_a699ccf526b6116f97abc09e4ce390c89}{algorithm}, Population$<$?$>$ initial\-Population)
+\item 
+Genetic\-Algorithm \hyperlink{classjenes_1_1utils_1_1multitasking_1_1_runner_a462a121a840bbf06593bbd7da219d8b9}{get\-Genetic\-Algorithm} ()
+\item 
+void \hyperlink{classjenes_1_1utils_1_1multitasking_1_1_runner_adad9fb400d736e55bcd3dfdf07742437}{set\-Algorithm} (Genetic\-Algorithm \hyperlink{classjenes_1_1utils_1_1multitasking_1_1_runner_a699ccf526b6116f97abc09e4ce390c89}{algorithm})
+\item 
+void \hyperlink{classjenes_1_1utils_1_1multitasking_1_1_runner_a5dc1ed49495150ff26ec5194010b00e4}{start} (boolean reset)
+\item 
+void \hyperlink{classjenes_1_1utils_1_1multitasking_1_1_runner_a4c4d4a0cd7aec110d60da5c660903398}{on\-Init} ()
+\item 
+void \hyperlink{classjenes_1_1utils_1_1multitasking_1_1_runner_ac89e8ac54daba2e326e687662ff9f7b0}{stop} ()
+\item 
+void \hyperlink{classjenes_1_1utils_1_1multitasking_1_1_runner_a6ec13cf0fb2ff03461a3a397421505cf}{on\-Evaluation\-Begin} (Population pop, boolean forced)
+\item 
+void \hyperlink{classjenes_1_1utils_1_1multitasking_1_1_runner_a82c84ad942296d62849248b107ec3a2c}{on\-Evaluation\-End} ()
+\item 
+abstract void \hyperlink{classjenes_1_1utils_1_1multitasking_1_1_runner_a250c5e0ffdb86ef0bb0e78e625a449e7}{evaluate\-Individual} (Individual individual)
+\end{DoxyCompactItemize}
+\subsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+Genetic\-Algorithm \hyperlink{classjenes_1_1utils_1_1multitasking_1_1_runner_a699ccf526b6116f97abc09e4ce390c89}{algorithm}
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+The \hyperlink{classjenes_1_1utils_1_1multitasking_1_1_runner}{Runner} is the abstraction of an execution enviroinment per Jenes. By now this approach has been used to parallelize the fitness evaluation step. The programmer have to override the default call-\/backs than use \hyperlink{}{execute(jenes.\-Genetic\-Algorithm)} or \hyperlink{}{execute(jenes.\-Genetic\-Algorithm, boolean)} to activate Genetic Algorithm to start evolving in the enviroinment.
+
+\begin{DoxySince}{Since}
+2.\-0 
+\end{DoxySince}
+
+
+\subsection{Member Function Documentation}
+\hypertarget{classjenes_1_1utils_1_1multitasking_1_1_runner_a250c5e0ffdb86ef0bb0e78e625a449e7}{\index{jenes\-::utils\-::multitasking\-::\-Runner@{jenes\-::utils\-::multitasking\-::\-Runner}!evaluate\-Individual@{evaluate\-Individual}}
+\index{evaluate\-Individual@{evaluate\-Individual}!jenes::utils::multitasking::Runner@{jenes\-::utils\-::multitasking\-::\-Runner}}
+\subsubsection[{evaluate\-Individual}]{\setlength{\rightskip}{0pt plus 5cm}abstract void jenes.\-utils.\-multitasking.\-Runner.\-evaluate\-Individual (
+\begin{DoxyParamCaption}
+\item[{Individual}]{individual}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [pure virtual]}}}\label{classjenes_1_1utils_1_1multitasking_1_1_runner_a250c5e0ffdb86ef0bb0e78e625a449e7}
+Call-\/back invoked in substitution to \hyperlink{}{Genetic\-Algorithm\#evaluate\-Individual(jenes.\-population.\-Individual)} 
+\begin{DoxyParams}{Parameters}
+{\em individual} & \\
+\hline
+\end{DoxyParams}
+
+
+Implemented in \hyperlink{classjenes_1_1utils_1_1multitasking_1_1_multi_thread_evaluator_ad99c13b137f1089a9f30377548b42e25}{jenes.\-utils.\-multitasking.\-Multi\-Thread\-Evaluator}.
+
+\hypertarget{classjenes_1_1utils_1_1multitasking_1_1_runner_a24d074cbd5140cd8bc65623fa1961f39}{\index{jenes\-::utils\-::multitasking\-::\-Runner@{jenes\-::utils\-::multitasking\-::\-Runner}!execute@{execute}}
+\index{execute@{execute}!jenes::utils::multitasking::Runner@{jenes\-::utils\-::multitasking\-::\-Runner}}
+\subsubsection[{execute}]{\setlength{\rightskip}{0pt plus 5cm}final void jenes.\-utils.\-multitasking.\-Runner.\-execute (
+\begin{DoxyParamCaption}
+\item[{Genetic\-Algorithm}]{algorithm, }
+\item[{boolean}]{restart}
+\end{DoxyParamCaption}
+)}}\label{classjenes_1_1utils_1_1multitasking_1_1_runner_a24d074cbd5140cd8bc65623fa1961f39}
+Start evolving the algorithm given as parameter in this enviroinment by applying to specificated restart flag.
+
+
+\begin{DoxyParams}{Parameters}
+{\em algorithm} & the algorithm to evolve \\
+\hline
+{\em restart} & {\ttfamily restart} flag to pass to \hyperlink{}{Genetic\-Algorithm\#evolve(boolean)} \\
+\hline
+\end{DoxyParams}
+\hypertarget{classjenes_1_1utils_1_1multitasking_1_1_runner_ae222d69f44508fc432c05074272e0ae3}{\index{jenes\-::utils\-::multitasking\-::\-Runner@{jenes\-::utils\-::multitasking\-::\-Runner}!execute@{execute}}
+\index{execute@{execute}!jenes::utils::multitasking::Runner@{jenes\-::utils\-::multitasking\-::\-Runner}}
+\subsubsection[{execute}]{\setlength{\rightskip}{0pt plus 5cm}final void jenes.\-utils.\-multitasking.\-Runner.\-execute (
+\begin{DoxyParamCaption}
+\item[{Genetic\-Algorithm}]{algoritm}
+\end{DoxyParamCaption}
+)}}\label{classjenes_1_1utils_1_1multitasking_1_1_runner_ae222d69f44508fc432c05074272e0ae3}
+Start evolving the algorithm given as argument restarting its state 
+\begin{DoxyParams}{Parameters}
+{\em algoritm} & the algorithm to evolve \\
+\hline
+\end{DoxyParams}
+\begin{DoxySeeAlso}{See Also}
+\hyperlink{classjenes_1_1utils_1_1multitasking_1_1_runner_a24d074cbd5140cd8bc65623fa1961f39}{execute}(jenes.\-Genetic\-Algorithm, boolean) 
+\end{DoxySeeAlso}
+\hypertarget{classjenes_1_1utils_1_1multitasking_1_1_runner_a7205f2d93d68f40e3e87dccf92cc3720}{\index{jenes\-::utils\-::multitasking\-::\-Runner@{jenes\-::utils\-::multitasking\-::\-Runner}!execute@{execute}}
+\index{execute@{execute}!jenes::utils::multitasking::Runner@{jenes\-::utils\-::multitasking\-::\-Runner}}
+\subsubsection[{execute}]{\setlength{\rightskip}{0pt plus 5cm}final void jenes.\-utils.\-multitasking.\-Runner.\-execute (
+\begin{DoxyParamCaption}
+\item[{Genetic\-Algorithm}]{algorithm, }
+\item[{Population$<$?$>$}]{initial\-Population}
+\end{DoxyParamCaption}
+)}}\label{classjenes_1_1utils_1_1multitasking_1_1_runner_a7205f2d93d68f40e3e87dccf92cc3720}
+Start evolving the algorithm given and adopting as initial population the one passed as argument 
+\begin{DoxyParams}{Parameters}
+{\em algorithm} & \\
+\hline
+{\em initial\-Population} & \\
+\hline
+\end{DoxyParams}
+\hypertarget{classjenes_1_1utils_1_1multitasking_1_1_runner_a462a121a840bbf06593bbd7da219d8b9}{\index{jenes\-::utils\-::multitasking\-::\-Runner@{jenes\-::utils\-::multitasking\-::\-Runner}!get\-Genetic\-Algorithm@{get\-Genetic\-Algorithm}}
+\index{get\-Genetic\-Algorithm@{get\-Genetic\-Algorithm}!jenes::utils::multitasking::Runner@{jenes\-::utils\-::multitasking\-::\-Runner}}
+\subsubsection[{get\-Genetic\-Algorithm}]{\setlength{\rightskip}{0pt plus 5cm}Genetic\-Algorithm jenes.\-utils.\-multitasking.\-Runner.\-get\-Genetic\-Algorithm (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classjenes_1_1utils_1_1multitasking_1_1_runner_a462a121a840bbf06593bbd7da219d8b9}
+Return the Genetic Algorithm currently in execution in this enviroinment \begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+\hypertarget{classjenes_1_1utils_1_1multitasking_1_1_runner_a6ec13cf0fb2ff03461a3a397421505cf}{\index{jenes\-::utils\-::multitasking\-::\-Runner@{jenes\-::utils\-::multitasking\-::\-Runner}!on\-Evaluation\-Begin@{on\-Evaluation\-Begin}}
+\index{on\-Evaluation\-Begin@{on\-Evaluation\-Begin}!jenes::utils::multitasking::Runner@{jenes\-::utils\-::multitasking\-::\-Runner}}
+\subsubsection[{on\-Evaluation\-Begin}]{\setlength{\rightskip}{0pt plus 5cm}void jenes.\-utils.\-multitasking.\-Runner.\-on\-Evaluation\-Begin (
+\begin{DoxyParamCaption}
+\item[{Population}]{pop, }
+\item[{boolean}]{forced}
+\end{DoxyParamCaption}
+)}}\label{classjenes_1_1utils_1_1multitasking_1_1_runner_a6ec13cf0fb2ff03461a3a397421505cf}
+Call-\/back invoked soon before the \hyperlink{}{Population} evaluation starts using the default \hyperlink{}{Fitness} defined per \hyperlink{}{Genetic\-Algorithm}
+
+
+\begin{DoxyParams}{Parameters}
+{\em pop} & the population that will be evaluated \\
+\hline
+{\em forced} & if each individual of the population will be forced to be evaluated \\
+\hline
+\end{DoxyParams}
+\hypertarget{classjenes_1_1utils_1_1multitasking_1_1_runner_a82c84ad942296d62849248b107ec3a2c}{\index{jenes\-::utils\-::multitasking\-::\-Runner@{jenes\-::utils\-::multitasking\-::\-Runner}!on\-Evaluation\-End@{on\-Evaluation\-End}}
+\index{on\-Evaluation\-End@{on\-Evaluation\-End}!jenes::utils::multitasking::Runner@{jenes\-::utils\-::multitasking\-::\-Runner}}
+\subsubsection[{on\-Evaluation\-End}]{\setlength{\rightskip}{0pt plus 5cm}void jenes.\-utils.\-multitasking.\-Runner.\-on\-Evaluation\-End (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classjenes_1_1utils_1_1multitasking_1_1_runner_a82c84ad942296d62849248b107ec3a2c}
+Call-\/back invoked soon after the evaluation phase has been performed. \par
+ W\-A\-R\-N\-I\-N\-G\-: the method is called before the elapsed time per evaluation is computed so a huge work could affect measurements. \hypertarget{classjenes_1_1utils_1_1multitasking_1_1_runner_a4c4d4a0cd7aec110d60da5c660903398}{\index{jenes\-::utils\-::multitasking\-::\-Runner@{jenes\-::utils\-::multitasking\-::\-Runner}!on\-Init@{on\-Init}}
+\index{on\-Init@{on\-Init}!jenes::utils::multitasking::Runner@{jenes\-::utils\-::multitasking\-::\-Runner}}
+\subsubsection[{on\-Init}]{\setlength{\rightskip}{0pt plus 5cm}void jenes.\-utils.\-multitasking.\-Runner.\-on\-Init (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classjenes_1_1utils_1_1multitasking_1_1_runner_a4c4d4a0cd7aec110d60da5c660903398}
+Call-\/back invoked soon before \hyperlink{}{Genetic\-Algorithm\#on\-Init(long)} \hypertarget{classjenes_1_1utils_1_1multitasking_1_1_runner_adad9fb400d736e55bcd3dfdf07742437}{\index{jenes\-::utils\-::multitasking\-::\-Runner@{jenes\-::utils\-::multitasking\-::\-Runner}!set\-Algorithm@{set\-Algorithm}}
+\index{set\-Algorithm@{set\-Algorithm}!jenes::utils::multitasking::Runner@{jenes\-::utils\-::multitasking\-::\-Runner}}
+\subsubsection[{set\-Algorithm}]{\setlength{\rightskip}{0pt plus 5cm}void jenes.\-utils.\-multitasking.\-Runner.\-set\-Algorithm (
+\begin{DoxyParamCaption}
+\item[{Genetic\-Algorithm}]{algorithm}
+\end{DoxyParamCaption}
+)}}\label{classjenes_1_1utils_1_1multitasking_1_1_runner_adad9fb400d736e55bcd3dfdf07742437}
+Set the Genetic Algorithm to the runner. This value will be overridden when execute is called. 
+\begin{DoxyParams}{Parameters}
+{\em algorithm} & \\
+\hline
+\end{DoxyParams}
+\hypertarget{classjenes_1_1utils_1_1multitasking_1_1_runner_a5dc1ed49495150ff26ec5194010b00e4}{\index{jenes\-::utils\-::multitasking\-::\-Runner@{jenes\-::utils\-::multitasking\-::\-Runner}!start@{start}}
+\index{start@{start}!jenes::utils::multitasking::Runner@{jenes\-::utils\-::multitasking\-::\-Runner}}
+\subsubsection[{start}]{\setlength{\rightskip}{0pt plus 5cm}void jenes.\-utils.\-multitasking.\-Runner.\-start (
+\begin{DoxyParamCaption}
+\item[{boolean}]{reset}
+\end{DoxyParamCaption}
+)}}\label{classjenes_1_1utils_1_1multitasking_1_1_runner_a5dc1ed49495150ff26ec5194010b00e4}
+Call-\/back invoked by \hyperlink{}{Genetic\-Algorithm\#start(boolean)} 
+\begin{DoxyParams}{Parameters}
+{\em reset} & \\
+\hline
+\end{DoxyParams}
+\hypertarget{classjenes_1_1utils_1_1multitasking_1_1_runner_ac89e8ac54daba2e326e687662ff9f7b0}{\index{jenes\-::utils\-::multitasking\-::\-Runner@{jenes\-::utils\-::multitasking\-::\-Runner}!stop@{stop}}
+\index{stop@{stop}!jenes::utils::multitasking::Runner@{jenes\-::utils\-::multitasking\-::\-Runner}}
+\subsubsection[{stop}]{\setlength{\rightskip}{0pt plus 5cm}void jenes.\-utils.\-multitasking.\-Runner.\-stop (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classjenes_1_1utils_1_1multitasking_1_1_runner_ac89e8ac54daba2e326e687662ff9f7b0}
+Call-\/back called soon after \hyperlink{}{Genetic\-Algorithm\#on\-Stop(long)} 
+
+\subsection{Member Data Documentation}
+\hypertarget{classjenes_1_1utils_1_1multitasking_1_1_runner_a699ccf526b6116f97abc09e4ce390c89}{\index{jenes\-::utils\-::multitasking\-::\-Runner@{jenes\-::utils\-::multitasking\-::\-Runner}!algorithm@{algorithm}}
+\index{algorithm@{algorithm}!jenes::utils::multitasking::Runner@{jenes\-::utils\-::multitasking\-::\-Runner}}
+\subsubsection[{algorithm}]{\setlength{\rightskip}{0pt plus 5cm}Genetic\-Algorithm jenes.\-utils.\-multitasking.\-Runner.\-algorithm\hspace{0.3cm}{\ttfamily [protected]}}}\label{classjenes_1_1utils_1_1multitasking_1_1_runner_a699ccf526b6116f97abc09e4ce390c89}
+The algorithm to evolve in the enviroinment 
+
+The documentation for this class was generated from the following file\-:\begin{DoxyCompactItemize}
+\item 
+src/jenes/utils/multitasking/\hyperlink{_runner_8java}{Runner.\-java}\end{DoxyCompactItemize}

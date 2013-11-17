@@ -1,0 +1,338 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="classjenes_1_1utils_1_1multitasking_1_1_runner" kind="class" prot="public" abstract="yes">
+    <compoundname>jenes::utils::multitasking::Runner</compoundname>
+    <derivedcompoundref refid="classjenes_1_1utils_1_1multitasking_1_1_multi_thread_runner" prot="public" virt="non-virtual">jenes.utils.multitasking.MultiThreadRunner</derivedcompoundref>
+      <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="classjenes_1_1utils_1_1multitasking_1_1_runner_1a699ccf526b6116f97abc09e4ce390c89" prot="protected" static="no" mutable="no">
+        <type>GeneticAlgorithm</type>
+        <definition>GeneticAlgorithm jenes.utils.multitasking.Runner.algorithm</definition>
+        <argsstring></argsstring>
+        <name>algorithm</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The algorithm to evolve in the enviroinment </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/utils/multitasking/Runner.java" line="40" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/utils/multitasking/Runner.java" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classjenes_1_1utils_1_1multitasking_1_1_runner_1a24d074cbd5140cd8bc65623fa1961f39" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>final void</type>
+        <definition>final void jenes.utils.multitasking.Runner.execute</definition>
+        <argsstring>(GeneticAlgorithm algorithm, boolean restart)</argsstring>
+        <name>execute</name>
+        <param>
+          <type>GeneticAlgorithm</type>
+          <declname>algorithm</declname>
+        </param>
+        <param>
+          <type>boolean</type>
+          <declname>restart</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Start evolving the algorithm given as parameter in this enviroinment by applying to specificated restart flag.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>algorithm</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the algorithm to evolve </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>restart</parametername>
+</parameternamelist>
+<parameterdescription>
+<para><computeroutput>restart</computeroutput> flag to pass to <ref refid="" kindref="compound">GeneticAlgorithm#evolve(boolean)</ref> </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/utils/multitasking/Runner.java" line="49" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/utils/multitasking/Runner.java" bodystart="49" bodyend="54"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1utils_1_1multitasking_1_1_runner_1ae222d69f44508fc432c05074272e0ae3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>final void</type>
+        <definition>final void jenes.utils.multitasking.Runner.execute</definition>
+        <argsstring>(GeneticAlgorithm algoritm)</argsstring>
+        <name>execute</name>
+        <param>
+          <type>GeneticAlgorithm</type>
+          <declname>algoritm</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Start evolving the algorithm given as argument restarting its state <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>algoritm</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the algorithm to evolve </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="see"><para><ref refid="classjenes_1_1utils_1_1multitasking_1_1_runner_1a24d074cbd5140cd8bc65623fa1961f39" kindref="member">execute</ref>(jenes.GeneticAlgorithm, boolean) </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/utils/multitasking/Runner.java" line="61" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/utils/multitasking/Runner.java" bodystart="61" bodyend="63"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1utils_1_1multitasking_1_1_runner_1a7205f2d93d68f40e3e87dccf92cc3720" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>final void</type>
+        <definition>final void jenes.utils.multitasking.Runner.execute</definition>
+        <argsstring>(GeneticAlgorithm algorithm, Population&lt;?&gt; initialPopulation)</argsstring>
+        <name>execute</name>
+        <param>
+          <type>GeneticAlgorithm</type>
+          <declname>algorithm</declname>
+        </param>
+        <param>
+          <type>Population&lt;?&gt;</type>
+          <declname>initialPopulation</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Start evolving the algorithm given and adopting as initial population the one passed as argument <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>algorithm</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>initialPopulation</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/utils/multitasking/Runner.java" line="71" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/utils/multitasking/Runner.java" bodystart="71" bodyend="76"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1utils_1_1multitasking_1_1_runner_1a462a121a840bbf06593bbd7da219d8b9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>GeneticAlgorithm</type>
+        <definition>GeneticAlgorithm jenes.utils.multitasking.Runner.getGeneticAlgorithm</definition>
+        <argsstring>()</argsstring>
+        <name>getGeneticAlgorithm</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Return the Genetic Algorithm currently in execution in this enviroinment <simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/utils/multitasking/Runner.java" line="82" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/utils/multitasking/Runner.java" bodystart="82" bodyend="84"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1utils_1_1multitasking_1_1_runner_1adad9fb400d736e55bcd3dfdf07742437" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void jenes.utils.multitasking.Runner.setAlgorithm</definition>
+        <argsstring>(GeneticAlgorithm algorithm)</argsstring>
+        <name>setAlgorithm</name>
+        <param>
+          <type>GeneticAlgorithm</type>
+          <declname>algorithm</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Set the Genetic Algorithm to the runner. This value will be overridden when execute is called. <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>algorithm</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/utils/multitasking/Runner.java" line="91" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/utils/multitasking/Runner.java" bodystart="91" bodyend="93"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1utils_1_1multitasking_1_1_runner_1a5dc1ed49495150ff26ec5194010b00e4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void jenes.utils.multitasking.Runner.start</definition>
+        <argsstring>(boolean reset)</argsstring>
+        <name>start</name>
+        <param>
+          <type>boolean</type>
+          <declname>reset</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Call-back invoked by <ref refid="" kindref="compound">GeneticAlgorithm#start(boolean)</ref> <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>reset</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/utils/multitasking/Runner.java" line="99" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/utils/multitasking/Runner.java" bodystart="99" bodyend="101"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1utils_1_1multitasking_1_1_runner_1a4c4d4a0cd7aec110d60da5c660903398" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void jenes.utils.multitasking.Runner.onInit</definition>
+        <argsstring>()</argsstring>
+        <name>onInit</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Call-back invoked soon before <ref refid="" kindref="compound">GeneticAlgorithm#onInit(long)</ref> </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/utils/multitasking/Runner.java" line="106" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/utils/multitasking/Runner.java" bodystart="106" bodyend="108"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1utils_1_1multitasking_1_1_runner_1ac89e8ac54daba2e326e687662ff9f7b0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void jenes.utils.multitasking.Runner.stop</definition>
+        <argsstring>()</argsstring>
+        <name>stop</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Call-back called soon after <ref refid="" kindref="compound">GeneticAlgorithm#onStop(long)</ref> </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/utils/multitasking/Runner.java" line="113" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/utils/multitasking/Runner.java" bodystart="113" bodyend="115"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1utils_1_1multitasking_1_1_runner_1a6ec13cf0fb2ff03461a3a397421505cf" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void jenes.utils.multitasking.Runner.onEvaluationBegin</definition>
+        <argsstring>(Population pop, boolean forced)</argsstring>
+        <name>onEvaluationBegin</name>
+        <param>
+          <type>Population</type>
+          <declname>pop</declname>
+        </param>
+        <param>
+          <type>boolean</type>
+          <declname>forced</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Call-back invoked soon before the <ref refid="" kindref="compound">Population</ref> evaluation starts using the default <ref refid="" kindref="compound">Fitness</ref> defined per <ref refid="" kindref="compound">GeneticAlgorithm</ref></para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>pop</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the population that will be evaluated </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>forced</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>if each individual of the population will be forced to be evaluated </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/utils/multitasking/Runner.java" line="124" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/utils/multitasking/Runner.java" bodystart="124" bodyend="126"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1utils_1_1multitasking_1_1_runner_1a82c84ad942296d62849248b107ec3a2c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void jenes.utils.multitasking.Runner.onEvaluationEnd</definition>
+        <argsstring>()</argsstring>
+        <name>onEvaluationEnd</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Call-back invoked soon after the evaluation phase has been performed. <linebreak/>
+ WARNING: the method is called before the elapsed time per evaluation is computed so a huge work could affect measurements. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/utils/multitasking/Runner.java" line="134" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/utils/multitasking/Runner.java" bodystart="134" bodyend="136"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1utils_1_1multitasking_1_1_runner_1a250c5e0ffdb86ef0bb0e78e625a449e7" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>abstract void</type>
+        <definition>abstract void jenes.utils.multitasking.Runner.evaluateIndividual</definition>
+        <argsstring>(Individual individual)</argsstring>
+        <name>evaluateIndividual</name>
+        <reimplementedby refid="classjenes_1_1utils_1_1multitasking_1_1_multi_thread_evaluator_1ad99c13b137f1089a9f30377548b42e25">evaluateIndividual</reimplementedby>
+        <param>
+          <type>Individual</type>
+          <declname>individual</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Call-back invoked in substitution to <ref refid="" kindref="compound">GeneticAlgorithm#evaluateIndividual(jenes.population.Individual)</ref> <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>individual</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/utils/multitasking/Runner.java" line="142" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>The <ref refid="classjenes_1_1utils_1_1multitasking_1_1_runner" kindref="compound">Runner</ref> is the abstraction of an execution enviroinment per Jenes. By now this approach has been used to parallelize the fitness evaluation step. The programmer have to override the default call-backs than use <ref refid="" kindref="compound">execute(jenes.GeneticAlgorithm)</ref> or <ref refid="" kindref="compound">execute(jenes.GeneticAlgorithm, boolean)</ref> to activate Genetic Algorithm to start evolving in the enviroinment.</para><para><simplesect kind="since"><para>2.0 </para></simplesect>
+</para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="561">
+        <label>jenes.utils.multitasking.MultiThreadEvaluator</label>
+        <link refid="classjenes_1_1utils_1_1multitasking_1_1_multi_thread_evaluator"/>
+        <childnode refid="560" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="559">
+        <label>jenes.utils.multitasking.Runner</label>
+        <link refid="classjenes_1_1utils_1_1multitasking_1_1_runner"/>
+      </node>
+      <node id="560">
+        <label>jenes.utils.multitasking.MultiThreadRunner</label>
+        <link refid="classjenes_1_1utils_1_1multitasking_1_1_multi_thread_runner"/>
+        <childnode refid="559" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="562">
+        <label>jenes.utils.multitasking.Runner</label>
+        <link refid="classjenes_1_1utils_1_1multitasking_1_1_runner"/>
+        <childnode refid="563" relation="usage">
+          <edgelabel>algorithm</edgelabel>
+        </childnode>
+      </node>
+      <node id="563">
+        <label>GeneticAlgorithm</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/utils/multitasking/Runner.java" line="35" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/utils/multitasking/Runner.java" bodystart="35" bodyend="144"/>
+    <listofallmembers>
+      <member refid="classjenes_1_1utils_1_1multitasking_1_1_runner_1a699ccf526b6116f97abc09e4ce390c89" prot="protected" virt="non-virtual"><scope>jenes::utils::multitasking::Runner</scope><name>algorithm</name></member>
+      <member refid="classjenes_1_1utils_1_1multitasking_1_1_runner_1a250c5e0ffdb86ef0bb0e78e625a449e7" prot="public" virt="pure-virtual"><scope>jenes::utils::multitasking::Runner</scope><name>evaluateIndividual</name></member>
+      <member refid="classjenes_1_1utils_1_1multitasking_1_1_runner_1a24d074cbd5140cd8bc65623fa1961f39" prot="public" virt="non-virtual"><scope>jenes::utils::multitasking::Runner</scope><name>execute</name></member>
+      <member refid="classjenes_1_1utils_1_1multitasking_1_1_runner_1ae222d69f44508fc432c05074272e0ae3" prot="public" virt="non-virtual"><scope>jenes::utils::multitasking::Runner</scope><name>execute</name></member>
+      <member refid="classjenes_1_1utils_1_1multitasking_1_1_runner_1a7205f2d93d68f40e3e87dccf92cc3720" prot="public" virt="non-virtual"><scope>jenes::utils::multitasking::Runner</scope><name>execute</name></member>
+      <member refid="classjenes_1_1utils_1_1multitasking_1_1_runner_1a462a121a840bbf06593bbd7da219d8b9" prot="public" virt="non-virtual"><scope>jenes::utils::multitasking::Runner</scope><name>getGeneticAlgorithm</name></member>
+      <member refid="classjenes_1_1utils_1_1multitasking_1_1_runner_1a6ec13cf0fb2ff03461a3a397421505cf" prot="public" virt="non-virtual"><scope>jenes::utils::multitasking::Runner</scope><name>onEvaluationBegin</name></member>
+      <member refid="classjenes_1_1utils_1_1multitasking_1_1_runner_1a82c84ad942296d62849248b107ec3a2c" prot="public" virt="non-virtual"><scope>jenes::utils::multitasking::Runner</scope><name>onEvaluationEnd</name></member>
+      <member refid="classjenes_1_1utils_1_1multitasking_1_1_runner_1a4c4d4a0cd7aec110d60da5c660903398" prot="public" virt="non-virtual"><scope>jenes::utils::multitasking::Runner</scope><name>onInit</name></member>
+      <member refid="classjenes_1_1utils_1_1multitasking_1_1_runner_1adad9fb400d736e55bcd3dfdf07742437" prot="public" virt="non-virtual"><scope>jenes::utils::multitasking::Runner</scope><name>setAlgorithm</name></member>
+      <member refid="classjenes_1_1utils_1_1multitasking_1_1_runner_1a5dc1ed49495150ff26ec5194010b00e4" prot="public" virt="non-virtual"><scope>jenes::utils::multitasking::Runner</scope><name>start</name></member>
+      <member refid="classjenes_1_1utils_1_1multitasking_1_1_runner_1ac89e8ac54daba2e326e687662ff9f7b0" prot="public" virt="non-virtual"><scope>jenes::utils::multitasking::Runner</scope><name>stop</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

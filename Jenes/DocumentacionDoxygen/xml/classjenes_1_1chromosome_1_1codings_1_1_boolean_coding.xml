@@ -1,0 +1,109 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="classjenes_1_1chromosome_1_1codings_1_1_boolean_coding" kind="class" prot="public">
+    <compoundname>jenes::chromosome::codings::BooleanCoding</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">jenes::chromosome::BitwiseChromosome::BitCoding&lt; Boolean &gt;</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classjenes_1_1chromosome_1_1codings_1_1_boolean_coding_1a3a8318406c4a080fa5b39899de1831df" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>jenes.chromosome.codings.BooleanCoding.BooleanCoding</definition>
+        <argsstring>()</argsstring>
+        <name>BooleanCoding</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Default constructor </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/chromosome/codings/BooleanCoding.java" line="41" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/chromosome/codings/BooleanCoding.java" bodystart="41" bodyend="43"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1chromosome_1_1codings_1_1_boolean_coding_1a38188e39066ecd06e4c839bced2038d3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Boolean</type>
+        <definition>Boolean jenes.chromosome.codings.BooleanCoding.decode</definition>
+        <argsstring>(int bits)</argsstring>
+        <name>decode</name>
+        <param>
+          <type>int</type>
+          <declname>bits</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns the value of coded bits. If the argument is 1 it returns true, if 0 then false.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>bits</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>coding the object </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>the value </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/chromosome/codings/BooleanCoding.java" line="53" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/chromosome/codings/BooleanCoding.java" bodystart="53" bodyend="55"/>
+      </memberdef>
+      <memberdef kind="function" id="classjenes_1_1chromosome_1_1codings_1_1_boolean_coding_1ace4181a4ef8bf37d9ad762d15422527b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int jenes.chromosome.codings.BooleanCoding.encode</definition>
+        <argsstring>(Boolean obj)</argsstring>
+        <name>encode</name>
+        <param>
+          <type>Boolean</type>
+          <declname>obj</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns the bits coding the value. It returns 0 if the argument is false, 1 if true.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>obj</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the boolean value to be coded </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>the coding bits </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/chromosome/codings/BooleanCoding.java" line="65" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/chromosome/codings/BooleanCoding.java" bodystart="65" bodyend="67"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Represents a boolean coding with 1 bit representation. The value false is associated to 0, and true to 1.</para><para><simplesect kind="version"><para>1.2 </para></simplesect>
+<simplesect kind="since"><para>1.2</para></simplesect>
+<simplesect kind="see"><para><ref refid="classjenes_1_1chromosome_1_1codings_1_1_byte_coding" kindref="compound">ByteCoding</ref> </para><simplesectsep/><para><ref refid="classjenes_1_1chromosome_1_1codings_1_1_int_coding" kindref="compound">IntCoding</ref> </para><simplesectsep/><para><ref refid="classjenes_1_1chromosome_1_1codings_1_1_short_coding" kindref="compound">ShortCoding</ref> </para><simplesectsep/><para><ref refid="classjenes_1_1chromosome_1_1codings_1_1_word_coding" kindref="compound">WordCoding</ref> </para><simplesectsep/><para>BitSize </para></simplesect>
+</para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="38">
+        <label>jenes.chromosome.codings.BooleanCoding</label>
+        <link refid="classjenes_1_1chromosome_1_1codings_1_1_boolean_coding"/>
+        <childnode refid="39" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="39">
+        <label>jenes::chromosome::BitwiseChromosome::BitCoding&lt; Boolean &gt;</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="40">
+        <label>jenes.chromosome.codings.BooleanCoding</label>
+        <link refid="classjenes_1_1chromosome_1_1codings_1_1_boolean_coding"/>
+        <childnode refid="41" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="41">
+        <label>jenes::chromosome::BitwiseChromosome::BitCoding&lt; Boolean &gt;</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/chromosome/codings/BooleanCoding.java" line="36" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/chromosome/codings/BooleanCoding.java" bodystart="36" bodyend="69"/>
+    <listofallmembers>
+      <member refid="classjenes_1_1chromosome_1_1codings_1_1_boolean_coding_1a3a8318406c4a080fa5b39899de1831df" prot="public" virt="non-virtual"><scope>jenes::chromosome::codings::BooleanCoding</scope><name>BooleanCoding</name></member>
+      <member refid="classjenes_1_1chromosome_1_1codings_1_1_boolean_coding_1a38188e39066ecd06e4c839bced2038d3" prot="public" virt="non-virtual"><scope>jenes::chromosome::codings::BooleanCoding</scope><name>decode</name></member>
+      <member refid="classjenes_1_1chromosome_1_1codings_1_1_boolean_coding_1ace4181a4ef8bf37d9ad762d15422527b" prot="public" virt="non-virtual"><scope>jenes::chromosome::codings::BooleanCoding</scope><name>encode</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

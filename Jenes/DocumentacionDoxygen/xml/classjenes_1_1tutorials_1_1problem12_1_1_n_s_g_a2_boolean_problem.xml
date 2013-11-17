@@ -1,0 +1,81 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="classjenes_1_1tutorials_1_1problem12_1_1_n_s_g_a2_boolean_problem" kind="class" prot="public">
+    <compoundname>jenes::tutorials::problem12::NSGA2BooleanProblem</compoundname>
+    <innerclass refid="classjenes_1_1tutorials_1_1problem12_1_1_n_s_g_a2_boolean_problem_1_1_boolean_problem" prot="private">jenes::tutorials::problem12::NSGA2BooleanProblem::BooleanProblem</innerclass>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="classjenes_1_1tutorials_1_1problem12_1_1_n_s_g_a2_boolean_problem_1a61245a05aa3bdc3af9abe06303ed60e9" prot="private" static="yes" mutable="no">
+        <type>int</type>
+        <definition>int jenes.tutorials.problem12.NSGA2BooleanProblem.POPULATION_SIZE</definition>
+        <argsstring></argsstring>
+        <name>POPULATION_SIZE</name>
+        <initializer>= 50</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/problem12/NSGA2BooleanProblem.java" line="22" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/problem12/NSGA2BooleanProblem.java" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classjenes_1_1tutorials_1_1problem12_1_1_n_s_g_a2_boolean_problem_1ad50e450643b9e7495f672b9d7be4d351" prot="private" static="yes" mutable="no">
+        <type>int</type>
+        <definition>int jenes.tutorials.problem12.NSGA2BooleanProblem.CHROMOSOME_LENGTH</definition>
+        <argsstring></argsstring>
+        <name>CHROMOSOME_LENGTH</name>
+        <initializer>= 10</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/problem12/NSGA2BooleanProblem.java" line="23" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/problem12/NSGA2BooleanProblem.java" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classjenes_1_1tutorials_1_1problem12_1_1_n_s_g_a2_boolean_problem_1a4befee9317942176ad978d9cf7ab414d" prot="private" static="yes" mutable="no">
+        <type>int</type>
+        <definition>int jenes.tutorials.problem12.NSGA2BooleanProblem.GENERATION_LIMIT</definition>
+        <argsstring></argsstring>
+        <name>GENERATION_LIMIT</name>
+        <initializer>= 500</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/problem12/NSGA2BooleanProblem.java" line="24" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/problem12/NSGA2BooleanProblem.java" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classjenes_1_1tutorials_1_1problem12_1_1_n_s_g_a2_boolean_problem_1a37194152e497fa12a3fca58d85eac4f4" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void jenes.tutorials.problem12.NSGA2BooleanProblem.main</definition>
+        <argsstring>(String...a)</argsstring>
+        <name>main</name>
+        <param>
+          <type>String...</type>
+          <declname>a</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/problem12/NSGA2BooleanProblem.java" line="26" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/problem12/NSGA2BooleanProblem.java" bodystart="26" bodyend="49"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/problem12/NSGA2BooleanProblem.java" line="20" column="1" bodyfile="C:/Users/Ayo/git/Jenes 2.0/Jenes/src/jenes/tutorials/problem12/NSGA2BooleanProblem.java" bodystart="20" bodyend="74"/>
+    <listofallmembers>
+      <member refid="classjenes_1_1tutorials_1_1problem12_1_1_n_s_g_a2_boolean_problem_1ad50e450643b9e7495f672b9d7be4d351" prot="private" virt="non-virtual"><scope>jenes::tutorials::problem12::NSGA2BooleanProblem</scope><name>CHROMOSOME_LENGTH</name></member>
+      <member refid="classjenes_1_1tutorials_1_1problem12_1_1_n_s_g_a2_boolean_problem_1a4befee9317942176ad978d9cf7ab414d" prot="private" virt="non-virtual"><scope>jenes::tutorials::problem12::NSGA2BooleanProblem</scope><name>GENERATION_LIMIT</name></member>
+      <member refid="classjenes_1_1tutorials_1_1problem12_1_1_n_s_g_a2_boolean_problem_1a37194152e497fa12a3fca58d85eac4f4" prot="public" virt="non-virtual"><scope>jenes::tutorials::problem12::NSGA2BooleanProblem</scope><name>main</name></member>
+      <member refid="classjenes_1_1tutorials_1_1problem12_1_1_n_s_g_a2_boolean_problem_1a61245a05aa3bdc3af9abe06303ed60e9" prot="private" virt="non-virtual"><scope>jenes::tutorials::problem12::NSGA2BooleanProblem</scope><name>POPULATION_SIZE</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>
